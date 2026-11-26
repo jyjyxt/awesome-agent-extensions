@@ -1,0 +1,11 @@
+name: Hugging Face Skills
+repo: https://github.com/huggingface/skills
+category: data-research
+official: true
+agents: [claude-code, codex, cursor, gemini-cli]
+tags: [datasets, fine-tuning, evaluation]
+install:
+  hf: hf skills add huggingface-datasets
+description:
+  en: Skills for querying Hugging Face Hub datasets, fine-tuning models, and running model evaluations.
+  zh: 让编码助手查询 Hugging Face Hub 数据集、微调模型并运行模型评估的技能集。

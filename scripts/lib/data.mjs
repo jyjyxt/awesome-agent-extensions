@@ -48,6 +48,16 @@ export const KIND_DIRS = [
       zh: '专业子代理定义、领域专家角色与分工提示词集合。',
     },
   },
+  {
+    id: 'tools',
+    singular: 'tool',
+    label: { en: 'Extension Tooling', zh: '扩展管理工具' },
+    badge: { en: 'Tool', zh: '工具' },
+    description: {
+      en: 'Standalone tools for finding, installing, or managing agent extensions.',
+      zh: '用于查找、安装或管理 Agent 扩展的独立工具。',
+    },
+  },
 ];
 
 export const KIND_IDS = KIND_DIRS.map((k) => k.id);

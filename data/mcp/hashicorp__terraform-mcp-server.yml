@@ -1,0 +1,11 @@
+name: Terraform MCP Server
+repo: https://github.com/hashicorp/terraform-mcp-server
+category: cloud-devops
+official: true
+agents: [claude-code, codex, cursor, gemini-cli, opencode]
+tags: [terraform, infrastructure-as-code, registry]
+install:
+  codex: codex mcp add terraform -- docker run -i --rm hashicorp/terraform-mcp-server
+description:
+  en: Query providers and modules in the Terraform Registry and manage HCP Terraform workspaces from an MCP client.
+  zh: 在 MCP 客户端中查询 Terraform Registry 的提供程序和模块，并管理 HCP Terraform 工作区。

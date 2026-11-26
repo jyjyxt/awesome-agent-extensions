@@ -18,6 +18,12 @@
 | --- | --- | --- | --- | --- |
 | **[Superpowers](https://github.com/obra/superpowers)** | Structured software development workflow framework enforcing brainstorming, TDD, systematic debugging, and subagent-driven execution. | `Claude Code` `Codex` `Cursor` `OpenCode` | `/plugin install obra/superpowers` | — |
 
+## Data, Research & Knowledge
+
+| Name | Description | Agents | Install / Tags | Activity |
+| --- | --- | --- | --- | --- |
+| **[Hugging Face Skills](https://github.com/huggingface/skills)** `Official` | Skills for querying Hugging Face Hub datasets, fine-tuning models, and running model evaluations. | `Claude Code` `Codex` `Cursor` `Gemini CLI` | `hf skills add huggingface-datasets` | — |
+
 ## Productivity & Collaboration
 
 | Name | Description | Agents | Install / Tags | Activity |

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Curated cross-platform directory of AI Agent plugins, skills, MCP servers, and subagents.",
+  "description": "Curated cross-platform directory of AI Agent plugins, skills, MCP servers, subagents, and extension tooling.",
   "engines": {
     "node": ">=20.0.0"
   },

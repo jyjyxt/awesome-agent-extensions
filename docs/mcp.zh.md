@@ -12,6 +12,12 @@
 | --- | --- | --- | --- | --- |
 | **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `官方` | 微软官方 Playwright MCP 服务器，让 Agent 通过结构化无障碍树直接操控浏览器完成测试与网页自动化。 | `通用` | `npx @playwright/mcp@latest` | — |
 
+## 云与运维
+
+| 名称 | 简介 | 兼容工具 | 安装 / 标签 | 活跃度 |
+| --- | --- | --- | --- | --- |
+| **[Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server)** `官方` | 在 MCP 客户端中查询 Terraform Registry 的提供程序和模块，并管理 HCP Terraform 工作区。 | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+1` | `codex mcp add terraform -- docker run -i --rm hashicorp/terraform-mcp-server` | — |
+
 ## 插件市场与开发工具
 
 | 名称 | 简介 | 兼容工具 | 安装 / 标签 | 活跃度 |

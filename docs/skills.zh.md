@@ -18,6 +18,12 @@
 | --- | --- | --- | --- | --- |
 | **[Superpowers](https://github.com/obra/superpowers)** | 面向编码 Agent 的结构化工程工作流插件，内置方案设计、严格 TDD、系统化调试与子代理驱动开发。 | `Claude Code` `Codex` `Cursor` `OpenCode` | `/plugin install obra/superpowers` | — |
 
+## 数据、研究与知识
+
+| 名称 | 简介 | 兼容工具 | 安装 / 标签 | 活跃度 |
+| --- | --- | --- | --- | --- |
+| **[Hugging Face Skills](https://github.com/huggingface/skills)** `官方` | 让编码助手查询 Hugging Face Hub 数据集、微调模型并运行模型评估的技能集。 | `Claude Code` `Codex` `Cursor` `Gemini CLI` | `hf skills add huggingface-datasets` | — |
+
 ## 效率与协作
 
 | 名称 | 简介 | 兼容工具 | 安装 / 标签 | 活跃度 |

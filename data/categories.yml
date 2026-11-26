@@ -1,0 +1,73 @@
+# Scenario-based primary categories (displayed in this order)
+categories:
+  - id: coding
+    name:
+      en: Coding & Engineering
+      zh: 编码与工程
+    description:
+      en: Code generation, refactoring, testing, debugging, code review, and Git workflows.
+      zh: 代码开发、重构、测试、调试、代码审查与 Git 工作流。
+
+  - id: frontend-design
+    name:
+      en: Frontend & Design
+      zh: 前端与设计
+    description:
+      en: UI engineering, design systems, browser automation, visual testing, and Figma integrations.
+      zh: UI 开发、设计系统、浏览器自动化、视觉审查与 Figma 集成。
+
+  - id: cloud-devops
+    name:
+      en: Cloud, DevOps & Infrastructure
+      zh: 云与运维
+    description:
+      en: Deployment, containers, observability, databases, and cloud platform integrations.
+      zh: 部署、容器、可观测性、数据库与云平台集成。
+
+  - id: orchestration
+    name:
+      en: Agent Orchestration & Workflows
+      zh: 编排与多代理协作
+    description:
+      en: Multi-agent coordination, planning pipelines, memory layers, and workflow automation.
+      zh: 多 Agent 协同、规划流水线、记忆层与工作流编排。
+
+  - id: data-research
+    name:
+      en: Data, Research & Knowledge
+      zh: 数据、研究与知识
+    description:
+      en: Web search, document processing, data analysis, academic research, and knowledge bases.
+      zh: 联网检索、文档处理、数据分析、学术研究与知识库。
+
+  - id: productivity
+    name:
+      en: Productivity & Collaboration
+      zh: 效率与协作
+    description:
+      en: Docs, issue trackers, calendars, messaging platforms, and daily office workflows.
+      zh: 文档、项目管理、日历、即时通讯与日常办公协作。
+
+  - id: content-marketing
+    name:
+      en: Content & Marketing
+      zh: 内容与营销
+    description:
+      en: Writing, SEO, social media publishing, video/audio production, and growth workflows.
+      zh: 写作、SEO、社媒发布、音视频制作与增长营销。
+
+  - id: security
+    name:
+      en: Security & Compliance
+      zh: 安全与合规
+    description:
+      en: Vulnerability scanning, secret detection, guardrails, and compliance checks.
+      zh: 漏洞扫描、敏感信息检测、安全护栏与合规审计。
+
+  - id: marketplaces-tooling
+    name:
+      en: Marketplaces, Specs & Tooling
+      zh: 插件市场与开发工具
+    description:
+      en: Plugin marketplaces, skill registries, cross-agent installers, and authoring SDKs.
+      zh: 插件市场、技能聚合站、跨端安装器与插件开发工具。

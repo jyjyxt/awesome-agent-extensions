@@ -1,0 +1,56 @@
+# Supported AI Agent harnesses / clients
+agents:
+  - id: universal
+    name: Universal
+    zh_name: 通用
+    url: https://agentskills.io
+    note:
+      en: Works across agents supporting open standards (MCP / SKILL.md)
+      zh: 遵循开放标准（MCP / SKILL.md），多端通用
+
+  - id: claude-code
+    name: Claude Code
+    zh_name: Claude Code
+    url: https://docs.anthropic.com/en/docs/claude-code
+    install_hint: "/plugin install <owner>/<repo>"
+
+  - id: codex
+    name: Codex
+    zh_name: Codex
+    url: https://github.com/openai/codex
+    install_hint: "npx skills add <owner>/<repo>"
+
+  - id: cursor
+    name: Cursor
+    zh_name: Cursor
+    url: https://cursor.com
+
+  - id: gemini-cli
+    name: Gemini CLI
+    zh_name: Gemini CLI
+    url: https://github.com/google-gemini/gemini-cli
+
+  - id: opencode
+    name: OpenCode
+    zh_name: OpenCode
+    url: https://opencode.ai
+
+  - id: antigravity
+    name: Antigravity
+    zh_name: Antigravity
+    url: https://antigravity.google
+
+  - id: copilot
+    name: GitHub Copilot
+    zh_name: GitHub Copilot
+    url: https://github.com/features/copilot
+
+  - id: windsurf
+    name: Windsurf
+    zh_name: Windsurf
+    url: https://windsurf.com
+
+  - id: dsh
+    name: DeepSeek Harness
+    zh_name: DeepSeek Harness
+    url: https://github.com/awesome-dsh-plugin/awesome-dsh-plugin

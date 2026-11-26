@@ -1,0 +1,10 @@
+name: Awesome Claude Code Subagents
+repo: https://github.com/VoltAgent/awesome-claude-code-subagents
+category: coding
+official: false
+featured: true
+agents: [claude-code]
+tags: [collection, roles, architecture, review]
+description:
+  en: Curated collection of 100+ specialized subagent definitions covering architecture, security review, language experts, and DevOps roles.
+  zh: 收录 100+ 专业子代理定义的精选合集，覆盖架构评审、安全审计、各语言专家与运维角色。

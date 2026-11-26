@@ -1,0 +1,16 @@
+{
+  "name": "awesome-agents",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Curated cross-platform directory of AI Agent plugins, skills, MCP servers, and subagents.",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "sync": "node scripts/sync-metrics.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/validate.mjs && node scripts/build.mjs --check"
+  }
+}

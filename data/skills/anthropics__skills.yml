@@ -1,0 +1,12 @@
+name: Anthropic Agent Skills
+repo: https://github.com/anthropics/skills
+category: productivity
+official: true
+featured: true
+agents: [universal, claude-code]
+tags: [official, documents, reference]
+install:
+  skills-cli: npx skills add anthropics/skills
+description:
+  en: Official collection of Agent Skills by Anthropic covering document creation (docx, pdf, pptx), frontend design, and skill authoring.
+  zh: Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。

@@ -1,0 +1,13 @@
+name: wshobson/agents
+repo: https://github.com/wshobson/agents
+category: coding
+official: false
+featured: true
+agents: [claude-code, codex, cursor, opencode, antigravity, copilot]
+includes: [skills, subagents]
+tags: [marketplace, multi-harness, workflows]
+install:
+  claude-code: /plugin marketplace add wshobson/agents
+description:
+  en: Modular multi-harness plugin marketplace combining specialized subagents, skills, and commands for software engineering.
+  zh: 多端模块化插件市场，组合专业子代理、技能与命令，覆盖多语言开发、测试、安全与架构工作流。

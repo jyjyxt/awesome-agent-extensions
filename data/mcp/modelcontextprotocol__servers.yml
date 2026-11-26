@@ -1,0 +1,10 @@
+name: MCP Reference Servers
+repo: https://github.com/modelcontextprotocol/servers
+category: marketplaces-tooling
+official: true
+featured: true
+agents: [universal]
+tags: [official, reference, connectors]
+description:
+  en: Official Model Context Protocol reference server collection demonstrating core integrations for files, Git, databases, and web access.
+  zh: Model Context Protocol 官方参考服务器合集，提供文件系统、Git、数据库与网页接入等标准集成范例。

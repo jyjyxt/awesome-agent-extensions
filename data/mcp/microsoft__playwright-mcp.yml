@@ -1,0 +1,12 @@
+name: Playwright MCP
+repo: https://github.com/microsoft/playwright-mcp
+category: frontend-design
+official: true
+featured: true
+agents: [universal]
+tags: [official, browser, testing, automation]
+install:
+  npx: npx @playwright/mcp@latest
+description:
+  en: Official Microsoft MCP server enabling AI agents to drive browsers via structured accessibility snapshots for testing and web automation.
+  zh: 微软官方 Playwright MCP 服务器，让 Agent 通过结构化无障碍树直接操控浏览器完成测试与网页自动化。

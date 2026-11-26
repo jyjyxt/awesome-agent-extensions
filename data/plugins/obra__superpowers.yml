@@ -1,0 +1,13 @@
+name: Superpowers
+repo: https://github.com/obra/superpowers
+category: orchestration
+official: false
+featured: true
+agents: [claude-code, codex, cursor, opencode]
+includes: [skills, subagents]
+tags: [tdd, planning, debugging, workflow]
+install:
+  claude-code: /plugin install obra/superpowers
+description:
+  en: Structured software development workflow framework enforcing brainstorming, TDD, systematic debugging, and subagent-driven execution.
+  zh: 面向编码 Agent 的结构化工程工作流插件，内置方案设计、严格 TDD、系统化调试与子代理驱动开发。

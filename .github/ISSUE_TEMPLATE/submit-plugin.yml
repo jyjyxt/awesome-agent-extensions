@@ -1,0 +1,65 @@
+name: Submit a Plugin / Skill / MCP / Subagent
+description: Recommend an AI Agent extension to include in Awesome Agents
+title: "[Submit] "
+labels: ["submission"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: e.g. Playwright MCP
+    validations:
+      required: true
+
+  - type: input
+    id: repo
+    attributes:
+      label: Repository URL
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Primary Type
+      options:
+        - plugins (Bundled Plugin)
+        - skills (Agent Skill)
+        - mcp (MCP Server / Connector)
+        - subagents (Subagent / Persona)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - coding
+        - frontend-design
+        - cloud-devops
+        - orchestration
+        - data-research
+        - productivity
+        - content-marketing
+        - security
+        - marketplaces-tooling
+    validations:
+      required: true
+
+  - type: input
+    id: agents
+    attributes:
+      label: Supported Agents
+      placeholder: e.g. universal, claude-code, codex, cursor
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Why is it useful? (EN / ZH)
+      placeholder: Briefly describe what problem it solves and how to install it.
+    validations:
+      required: true

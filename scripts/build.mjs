@@ -9,6 +9,7 @@ import {
 } from './lib/data.mjs';
 
 const CHECK_MODE = process.argv.includes('--check');
+const README_SECTION_LIMIT = 20;
 
 function escapePipe(text) {
   return String(text ?? '').replace(/\|/g, '\\|').replace(/\n/g, ' ');
@@ -56,10 +57,13 @@ function sortEntries(list) {
   });
 }
 
-function renderTable(entries, { lang, agentMap, kindMap, showKind = true }) {
+function renderTable(entries, { lang, agentMap, kindMap, showKind = true, limit = null }) {
   if (entries.length === 0) {
     return lang === 'zh' ? '_暂无收录，欢迎提交 PR！_\n' : '_No entries yet. PRs welcome!_\n';
   }
+
+  const sorted = sortEntries(entries);
+  const displayed = typeof limit === 'number' && limit > 0 ? sorted.slice(0, limit) : sorted;
 
   const headers =
     lang === 'zh'
@@ -75,7 +79,7 @@ function renderTable(entries, { lang, agentMap, kindMap, showKind = true }) {
     `| ${headers.map(() => '---').join(' | ')} |`,
   ];
 
-  for (const entry of sortEntries(entries)) {
+  for (const entry of displayed) {
     const officialBadge = entry.official ? (lang === 'zh' ? ' `官方`' : ' `Official`') : '';
     const archivedBadge = entry.metrics?.archived ? (lang === 'zh' ? ' `已归档`' : ' `Archived`') : '';
     const nameCell = `**[${escapePipe(entry.name)}](${entry.repo})**${officialBadge}${archivedBadge}`;
@@ -103,6 +107,16 @@ function renderTable(entries, { lang, agentMap, kindMap, showKind = true }) {
       const extraCell = installHint || tagsStr || '—';
       lines.push(`| ${nameCell} | ${descText} | ${agentsCell} | ${extraCell} | ${activityCell} |`);
     }
+  }
+
+  const suffix = lang === 'zh' ? '.zh.md' : '.md';
+  if (sorted.length > displayed.length) {
+    lines.push('');
+    lines.push(
+      lang === 'zh'
+        ? `_当前仅展示前 ${displayed.length} 条（共 ${sorted.length} 条）。完整列表请浏览 [Plugins](docs/plugins${suffix}) · [Skills](docs/skills${suffix}) · [MCP](docs/mcp${suffix}) · [Subagents](docs/subagents${suffix}) · [工具](docs/tools${suffix}) · [按工具浏览](docs/by-agent${suffix})。_`
+        : `_Showing top ${displayed.length} of ${sorted.length} entries. Browse full lists in [Plugins](docs/plugins${suffix}) · [Skills](docs/skills${suffix}) · [MCP](docs/mcp${suffix}) · [Subagents](docs/subagents${suffix}) · [Tooling](docs/tools${suffix}) · [By Agent](docs/by-agent${suffix})._`
+    );
   }
 
   return `${lines.join('\n')}\n`;
@@ -205,7 +219,15 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
   // Official & Featured
   if (featured.length > 0) {
     lines.push(isZh ? '## 官方与精选\n' : '## Official & Featured\n');
-    lines.push(renderTable(featured, { lang, agentMap, kindMap, showKind: true }));
+    lines.push(
+      renderTable(featured, {
+        lang,
+        agentMap,
+        kindMap,
+        showKind: true,
+        limit: README_SECTION_LIMIT,
+      })
+    );
   }
 
   // Category sections
@@ -214,7 +236,15 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
     if (catEntries.length === 0) continue;
     lines.push(`## ${cat.name[lang]}\n`);
     lines.push(`_${cat.description[lang]}_\n`);
-    lines.push(renderTable(catEntries, { lang, agentMap, kindMap, showKind: true }));
+    lines.push(
+      renderTable(catEntries, {
+        lang,
+        agentMap,
+        kindMap,
+        showKind: true,
+        limit: README_SECTION_LIMIT,
+      })
+    );
   }
 
   // Supported agents summary

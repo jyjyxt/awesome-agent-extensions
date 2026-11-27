@@ -118,8 +118,8 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
   lines.push('# Awesome Agents\n');
   lines.push(
     isZh
-      ? '> 精选跨平台 AI Agent 插件、Skills、MCP Servers 与 Subagents 目录（不限于 Claude，支持 Codex、Cursor、Gemini CLI、OpenCode、Antigravity 等）。\n'
-      : '> Curated cross-platform directory of AI Agent Plugins, Skills, MCP Servers, and Subagents (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Antigravity, and more).\n'
+      ? '> 精选跨平台 AI Agent 插件、Skills、MCP Servers、Subagents 与扩展管理工具（支持 Claude Code、Codex、Cursor、Gemini CLI、OpenCode、Antigravity 等）。\n'
+      : '> Curated cross-platform directory of AI Agent Plugins, Skills, MCP Servers, Subagents, and extension tooling (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Antigravity, and more).\n'
   );
   lines.push(isZh ? '[English](README.md) | **简体中文**\n' : '**English** | [简体中文](README.zh.md)\n');
 

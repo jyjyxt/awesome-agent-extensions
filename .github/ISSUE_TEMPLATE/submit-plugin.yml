@@ -1,4 +1,4 @@
-name: Submit a Plugin / Skill / MCP / Subagent
+name: Submit an Agent Extension or Tool
 description: Recommend an AI Agent extension to include in Awesome Agents
 title: "[Submit] "
 labels: ["submission"]
@@ -28,6 +28,7 @@ body:
         - skills (Agent Skill)
         - mcp (MCP Server / Connector)
         - subagents (Subagent / Persona)
+        - tools (Extension Tooling)
     validations:
       required: true
 

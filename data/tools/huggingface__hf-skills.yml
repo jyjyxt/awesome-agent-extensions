@@ -1,0 +1,9 @@
+name: hf-skills
+repo: https://github.com/huggingface/hf-skills
+category: marketplaces-tooling
+official: true
+agents: [claude-code, codex, cursor, opencode]
+tags: [cli, skill-management]
+description:
+  en: Standalone CLI to find, install, and update Hugging Face skills in local or user-wide agent directories.
+  zh: 独立命令行工具，可查找 Hugging Face 技能，并将其安装或更新到项目或用户级技能目录。

@@ -1,6 +1,6 @@
 # Contributing to Awesome Agents / 参与贡献
 
-Thanks for helping curate high-quality AI Agent Plugins, Skills, MCP Servers, and Subagents!
+Thanks for helping curate high-quality AI Agent Plugins, Skills, MCP Servers, Subagents, and extension tooling!
 
 ## How to Submit / 提交方式
 
@@ -18,6 +18,7 @@ Choose the folder that matches the project's **primary form**:
 | `data/skills/` | Standalone Agent Skills (`SKILL.md`, workflows, scripts) |
 | `data/mcp/` | MCP Servers and external service connectors |
 | `data/subagents/` | Specialized subagent definitions and role-based personas |
+| `data/tools/` | Standalone tools for finding, installing, or managing agent extensions, such as cross-agent skill installers |
 
 - **File naming**: `<owner>__<repo>.yml` (for GitHub repos, e.g. `microsoft__playwright-mcp.yml`).
 - **No duplicates**: Each repository must appear in only **one** folder. If a Plugin also includes Skills or Subagents, place it in `data/plugins/` and list `includes: [skills, subagents]` so it automatically appears in those views too.

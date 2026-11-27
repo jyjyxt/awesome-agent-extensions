@@ -8,7 +8,7 @@
 
 ## Quick Views
 
-- [Plugins (2)](docs/plugins.md) · [Skills (4)](docs/skills.md) · [MCP & Connectors (3)](docs/mcp.md) · [Subagents (3)](docs/subagents.md) · [Extension Tooling (1)](docs/tools.md) · [Browse by Agent](docs/by-agent.md)
+- [Plugins (3)](docs/plugins.md) · [Skills (5)](docs/skills.md) · [MCP & Connectors (4)](docs/mcp.md) · [Subagents (4)](docs/subagents.md) · [Extension Tooling (1)](docs/tools.md) · [Browse by Agent](docs/by-agent.md)
 
 <details>
 <summary>Quick Install Cheatsheet</summary>
@@ -21,7 +21,7 @@
 
 ## Categories
 
-- [Official & Featured (9)](#official--featured)
+- [Official & Featured (10)](#official--featured)
 - [Coding & Engineering (2)](#coding-engineering) — Code generation, refactoring, testing, debugging, code review, and Git workflows.
 - [Frontend & Design (1)](#frontend-design) — UI engineering, design systems, browser automation, visual testing, and Figma integrations.
 - [Cloud, DevOps & Infrastructure (1)](#cloud-devops-infrastructure) — Deployment, containers, observability, databases, and cloud platform integrations.
@@ -30,13 +30,14 @@
 - [Productivity & Collaboration (1)](#productivity-collaboration) — Docs, issue trackers, calendars, messaging platforms, and daily office workflows.
 - [Content & Marketing (0)](#content-marketing) — Writing, SEO, social media publishing, video/audio production, and growth workflows.
 - [Security & Compliance (0)](#security-compliance) — Vulnerability scanning, secret detection, guardrails, and compliance checks.
-- [Marketplaces, Specs & Tooling (2)](#marketplaces-specs-tooling) — Plugin marketplaces, skill registries, cross-agent installers, and authoring SDKs.
+- [Marketplaces, Specs & Tooling (3)](#marketplaces-specs-tooling) — Plugin marketplaces, skill registries, cross-agent installers, and authoring SDKs.
 
 ## Official & Featured
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `Official` | `Skill` | Official collection of Agent Skills by Anthropic covering document creation (docx, pdf, pptx), frontend design, and skill authoring.<br>`npx skills add anthropics/skills` | `Universal` `Claude Code` | — |
+| **[Claude Code Official Plugins](https://github.com/anthropics/claude-plugins-official)** `Official` | `Plugin` | Official Anthropic-managed plugin directory for Claude Code, bundling core workflow plugins, subagents, skills, hooks, and partner MCP integrations.<br>`/plugin marketplace add anthropics/claude-plugins-official` | `Claude Code` | — |
 | **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** `Official` | `MCP` | Official Model Context Protocol reference server collection demonstrating core integrations for files, Git, databases, and web access. | `Universal` | — |
 | **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `Official` | `MCP` | Official Microsoft MCP server enabling AI agents to drive browsers via structured accessibility snapshots for testing and web automation.<br>`npx @playwright/mcp@latest` | `Universal` | — |
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `Official` | `Tool` | Standalone CLI to find, install, and update Hugging Face skills in local or user-wide agent directories. | `Claude Code` `Codex` `Cursor` `OpenCode` | — |
@@ -101,6 +102,7 @@ _Plugin marketplaces, skill registries, cross-agent installers, and authoring SD
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
+| **[Claude Code Official Plugins](https://github.com/anthropics/claude-plugins-official)** `Official` | `Plugin` | Official Anthropic-managed plugin directory for Claude Code, bundling core workflow plugins, subagents, skills, hooks, and partner MCP integrations.<br>`/plugin marketplace add anthropics/claude-plugins-official` | `Claude Code` | — |
 | **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** `Official` | `MCP` | Official Model Context Protocol reference server collection demonstrating core integrations for files, Git, databases, and web access. | `Universal` | — |
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `Official` | `Tool` | Standalone CLI to find, install, and update Hugging Face skills in local or user-wide agent directories. | `Claude Code` `Codex` `Cursor` `OpenCode` | — |
 

@@ -30,3 +30,9 @@
 | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。 | `通用` `Claude Code` | `npx skills add anthropics/skills` | — |
 
+## 插件市场与开发工具
+
+| 名称 | 简介 | 兼容工具 | 安装 / 标签 | 活跃度 |
+| --- | --- | --- | --- | --- |
+| **[Claude Code Official Plugins](https://github.com/anthropics/claude-plugins-official)** `官方` | Anthropic 官方维护的 Claude Code 插件市场与目录，提供官方工作流插件、子代理、技能、钩子及合作方 MCP 集成。 | `Claude Code` | `/plugin marketplace add anthropics/claude-plugins-official` | — |
+

@@ -19,3 +19,9 @@
 | --- | --- | --- | --- | --- |
 | **[Superpowers](https://github.com/obra/superpowers)** | Structured software development workflow framework enforcing brainstorming, TDD, systematic debugging, and subagent-driven execution. | `Claude Code` `Codex` `Cursor` `OpenCode` | `/plugin install obra/superpowers` | — |
 
+## Marketplaces, Specs & Tooling
+
+| Name | Description | Agents | Install / Tags | Activity |
+| --- | --- | --- | --- | --- |
+| **[Claude Code Official Plugins](https://github.com/anthropics/claude-plugins-official)** `Official` | Official Anthropic-managed plugin directory for Claude Code, bundling core workflow plugins, subagents, skills, hooks, and partner MCP integrations. | `Claude Code` | `/plugin marketplace add anthropics/claude-plugins-official` | — |
+

@@ -1,0 +1,13 @@
+name: Claude Code Official Plugins
+repo: https://github.com/anthropics/claude-plugins-official
+category: marketplaces-tooling
+official: true
+featured: true
+agents: [claude-code]
+includes: [skills, mcp, subagents]
+tags: [official, marketplace, workflows, integrations]
+install:
+  claude-code: /plugin marketplace add anthropics/claude-plugins-official
+description:
+  en: Official Anthropic-managed plugin directory for Claude Code, bundling core workflow plugins, subagents, skills, hooks, and partner MCP integrations.
+  zh: Anthropic 官方维护的 Claude Code 插件市场与目录，提供官方工作流插件、子代理、技能、钩子及合作方 MCP 集成。

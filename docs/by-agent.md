@@ -12,13 +12,14 @@
 | **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** `Official` | `MCP` | Official Model Context Protocol reference server collection demonstrating core integrations for files, Git, databases, and web access. | `Universal` | — |
 | **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `Official` | `MCP` | Official Microsoft MCP server enabling AI agents to drive browsers via structured accessibility snapshots for testing and web automation.<br>`npx @playwright/mcp@latest` | `Universal` | — |
 
-## Claude Code (9)
+## Claude Code (10)
 
 Install hint: `/plugin install <owner>/<repo>`
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `Official` | `Skill` | Official collection of Agent Skills by Anthropic covering document creation (docx, pdf, pptx), frontend design, and skill authoring.<br>`npx skills add anthropics/skills` | `Universal` `Claude Code` | — |
+| **[Claude Code Official Plugins](https://github.com/anthropics/claude-plugins-official)** `Official` | `Plugin` | Official Anthropic-managed plugin directory for Claude Code, bundling core workflow plugins, subagents, skills, hooks, and partner MCP integrations.<br>`/plugin marketplace add anthropics/claude-plugins-official` | `Claude Code` | — |
 | **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** `Official` | `MCP` | Official Model Context Protocol reference server collection demonstrating core integrations for files, Git, databases, and web access. | `Universal` | — |
 | **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `Official` | `MCP` | Official Microsoft MCP server enabling AI agents to drive browsers via structured accessibility snapshots for testing and web automation.<br>`npx @playwright/mcp@latest` | `Universal` | — |
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `Official` | `Tool` | Standalone CLI to find, install, and update Hugging Face skills in local or user-wide agent directories. | `Claude Code` `Codex` `Cursor` `OpenCode` | — |

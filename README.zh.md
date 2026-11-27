@@ -8,7 +8,7 @@
 
 ## 快速入口
 
-- [Plugins（复合插件） (2)](docs/plugins.zh.md) · [Skills（技能包） (4)](docs/skills.zh.md) · [MCP / Connectors (3)](docs/mcp.zh.md) · [Subagents（子代理） (3)](docs/subagents.zh.md) · [扩展管理工具 (1)](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)
+- [Plugins（复合插件） (3)](docs/plugins.zh.md) · [Skills（技能包） (5)](docs/skills.zh.md) · [MCP / Connectors (4)](docs/mcp.zh.md) · [Subagents（子代理） (4)](docs/subagents.zh.md) · [扩展管理工具 (1)](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)
 
 <details>
 <summary>常见工具插件安装速查</summary>
@@ -21,7 +21,7 @@
 
 ## 按场景目录
 
-- [官方与精选 (9)](#官方与精选)
+- [官方与精选 (10)](#官方与精选)
 - [编码与工程 (2)](#编码与工程) — 代码开发、重构、测试、调试、代码审查与 Git 工作流。
 - [前端与设计 (1)](#前端与设计) — UI 开发、设计系统、浏览器自动化、视觉审查与 Figma 集成。
 - [云与运维 (1)](#云与运维) — 部署、容器、可观测性、数据库与云平台集成。
@@ -30,13 +30,14 @@
 - [效率与协作 (1)](#效率与协作) — 文档、项目管理、日历、即时通讯与日常办公协作。
 - [内容与营销 (0)](#内容与营销) — 写作、SEO、社媒发布、音视频制作与增长营销。
 - [安全与合规 (0)](#安全与合规) — 漏洞扫描、敏感信息检测、安全护栏与合规审计。
-- [插件市场与开发工具 (2)](#插件市场与开发工具) — 插件市场、技能聚合站、跨端安装器与插件开发工具。
+- [插件市场与开发工具 (3)](#插件市场与开发工具) — 插件市场、技能聚合站、跨端安装器与插件开发工具。
 
 ## 官方与精选
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | — |
+| **[Claude Code Official Plugins](https://github.com/anthropics/claude-plugins-official)** `官方` | `Plugin` | Anthropic 官方维护的 Claude Code 插件市场与目录，提供官方工作流插件、子代理、技能、钩子及合作方 MCP 集成。<br>`/plugin marketplace add anthropics/claude-plugins-official` | `Claude Code` | — |
 | **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** `官方` | `MCP` | Model Context Protocol 官方参考服务器合集，提供文件系统、Git、数据库与网页接入等标准集成范例。 | `通用` | — |
 | **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `官方` | `MCP` | 微软官方 Playwright MCP 服务器，让 Agent 通过结构化无障碍树直接操控浏览器完成测试与网页自动化。<br>`npx @playwright/mcp@latest` | `通用` | — |
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `官方` | `工具` | 独立命令行工具，可查找 Hugging Face 技能，并将其安装或更新到项目或用户级技能目录。 | `Claude Code` `Codex` `Cursor` `OpenCode` | — |
@@ -101,6 +102,7 @@ _插件市场、技能聚合站、跨端安装器与插件开发工具。_
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
+| **[Claude Code Official Plugins](https://github.com/anthropics/claude-plugins-official)** `官方` | `Plugin` | Anthropic 官方维护的 Claude Code 插件市场与目录，提供官方工作流插件、子代理、技能、钩子及合作方 MCP 集成。<br>`/plugin marketplace add anthropics/claude-plugins-official` | `Claude Code` | — |
 | **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** `官方` | `MCP` | Model Context Protocol 官方参考服务器合集，提供文件系统、Git、数据库与网页接入等标准集成范例。 | `通用` | — |
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `官方` | `工具` | 独立命令行工具，可查找 Hugging Face 技能，并将其安装或更新到项目或用户级技能目录。 | `Claude Code` `Codex` `Cursor` `OpenCode` | — |
 

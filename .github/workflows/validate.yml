@@ -1,4 +1,4 @@
-name: Validate Data & Generated Docs
+name: Validate Data
 
 on:
   pull_request:
@@ -10,8 +10,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Validate YAML data and check generated docs
-        run: npm run check
+      - name: Ensure generated files are not modified in PR
+        if: github.event_name == 'pull_request'
+        run: |
+          CHANGED=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD")
+          FORBIDDEN=$(echo "$CHANGED" | grep -E '^(README\.md|README\.zh\.md|docs/|data/metrics\.json)' || true)
+          if [ -n "$FORBIDDEN" ]; then
+            echo "::error::Please do not edit auto-generated files in PRs. Only submit YAML changes under data/; README and docs (including counts) are rebuilt automatically after merge."
+            echo "Modified generated files:"
+            echo "$FORBIDDEN"
+            exit 1
+          fi
+      - name: Validate YAML data
+        run: npm run validate
+      - name: Smoke-test docs build
+        run: npm run build

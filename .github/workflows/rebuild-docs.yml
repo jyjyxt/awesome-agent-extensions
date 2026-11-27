@@ -1,0 +1,37 @@
+name: Rebuild Docs on Merge
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "scripts/**"
+      - "!data/metrics.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: docs-sync
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate and rebuild README and docs
+        run: npm run validate && npm run build
+      - name: Commit updated docs if any
+        run: |
+          if [ -n "$(git status --porcelain README.md README.zh.md docs/)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md README.zh.md docs/
+            git commit -m "chore: rebuild README and docs"
+            git push
+          fi

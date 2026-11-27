@@ -22,5 +22,6 @@
 
 | Name | Description | Agents | Install / Tags | Activity |
 | --- | --- | --- | --- | --- |
+| **[Claude Code Official Plugins](https://github.com/anthropics/claude-plugins-official)** `Official` | Official Anthropic-managed plugin directory for Claude Code, bundling core workflow plugins, subagents, skills, hooks, and partner MCP integrations. | `Claude Code` | `/plugin marketplace add anthropics/claude-plugins-official` | — |
 | **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** `Official` | Official Model Context Protocol reference server collection demonstrating core integrations for files, Git, databases, and web access. | `Universal` | `official` `reference` `connectors` | — |
 

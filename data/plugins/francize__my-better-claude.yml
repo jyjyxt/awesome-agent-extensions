@@ -1,0 +1,10 @@
+name: My Better Claude
+repo: https://github.com/francize/my-better-claude
+category: productivity
+official: false
+agents: [claude-code, codex]
+includes: [tools]
+tags: [prompt-caching, codex-bridge, image-preview]
+description:
+  en: Practical Claude Code productivity plugin adding local Codex CLI delegation, prompt-cache monitoring, and pasted-image previews.
+  zh: 实用效率增强插件，为 Claude Code 增加本地 Codex 协同、缓存监控与粘贴图片预览功能。

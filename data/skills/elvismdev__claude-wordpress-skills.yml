@@ -1,0 +1,9 @@
+name: Claude WordPress Engineering Skills
+repo: https://github.com/elvismdev/claude-wordpress-skills
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [wordpress, gutenberg, php, security-audit]
+description:
+  en: Professional WordPress engineering skills covering performance tuning, security auditing, Gutenberg blocks, and theme/plugin standards.
+  zh: 专业 WordPress 开发技能集，涵盖性能调优、安全审计、Gutenberg 区块与主题插件最佳实践。

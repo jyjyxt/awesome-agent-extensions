@@ -1,0 +1,10 @@
+name: Looks Good To AI (PR Review)
+repo: https://github.com/laulauraluo/looks-good-to-ai
+category: coding
+official: false
+agents: [claude-code, codex, copilot, cursor, gemini-cli]
+includes: [skills]
+tags: [pr-review, code-review, bugs]
+description:
+  en: Cross-agent skill focused on reviewing AI-authored PRs to catch subtle defects, align architectural context, and own final sign-off.
+  zh: 专攻 AI 编写 PR 的跨端代码审查技能，聚焦捕捉隐蔽 Bug、对齐业务上下文并把控合并签核。

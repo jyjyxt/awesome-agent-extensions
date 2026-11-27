@@ -1,0 +1,10 @@
+name: Options Trading Advisor Skills
+repo: https://github.com/staskh/trading_skills
+category: data-research
+official: false
+agents: [claude-code, universal]
+includes: [skills, mcp]
+tags: [options-trading, finance, derivatives]
+description:
+  en: Claude-powered options trading analysis skill and MCP suite for strategy evaluation, Greeks analysis, and risk sizing.
+  zh: 面向期权交易者的分析辅助技能与 MCP 套装，支持策略评估、希腊字母分析与风险测算。

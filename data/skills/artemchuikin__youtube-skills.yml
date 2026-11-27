@@ -1,0 +1,9 @@
+name: YouTube Bulk Transcript Skills
+repo: https://github.com/artemchuikin/youtube-skills
+category: data-research
+official: false
+agents: [claude-code, cursor, codex, universal]
+tags: [youtube, transcripts, playlists, bulk-export]
+description:
+  en: Cross-agent skills to extract YouTube transcripts, search videos, inspect channels and playlists, and bulk-export captions.
+  zh: 跨端 YouTube 字幕提取与批量导出技能，支持视频检索、频道与播放列表批量解析。

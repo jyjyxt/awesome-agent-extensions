@@ -1,0 +1,9 @@
+name: Socratic Self-Questioning Skill
+repo: https://github.com/m4vic/socratic
+category: orchestration
+official: false
+agents: [claude-code, codex, universal]
+tags: [self-questioning, loops, senior-engineer]
+description:
+  en: Self-questioning senior-engineer reflection loop forcing agents to challenge assumptions and edge cases before finalizing code.
+  zh: 让编程 Agent 在定稿前自我反问、推敲边界条件与隐含假设的苏格拉底式反思技能。

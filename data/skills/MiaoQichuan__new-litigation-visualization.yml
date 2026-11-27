@@ -1,0 +1,9 @@
+name: Litigation Visualization Skills
+repo: https://github.com/MiaoQichuan/new-litigation-visualization
+category: productivity
+official: false
+agents: [claude-code, codex, universal]
+tags: [legal, litigation, timeline, offline, chinese]
+description:
+  en: "Offline litigation visualization skillset for lawyers: timelines, relationship graphs, chronologies, adversarial charts, and case boards grounded in source text."
+  zh: 面向律师的离线诉讼可视化技能集，覆盖时间轴、关系图、大事记、对抗图与案件看板，严格照录原文可追溯。

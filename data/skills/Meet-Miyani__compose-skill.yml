@@ -1,0 +1,9 @@
+name: Compose Kit (Jetpack Compose)
+repo: https://github.com/Meet-Miyani/compose-skill
+category: frontend-design
+official: false
+agents: [claude-code, codex, cursor, copilot, gemini-cli, opencode]
+tags: [android, jetpack-compose, kotlin, multiplatform]
+description:
+  en: Specialized Jetpack Compose and Compose Multiplatform skills for idiomatic state hoisting, recomposition performance, and Material 3 UI.
+  zh: 面向 Jetpack Compose 与 Compose Multiplatform 的专项移动端开发技能，优化状态管理与重组性能。

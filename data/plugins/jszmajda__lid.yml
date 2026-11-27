@@ -1,0 +1,10 @@
+name: LID (Linked-Intent Development)
+repo: https://github.com/jszmajda/lid
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [ears, spec-driven, intent, methodology]
+description:
+  en: Linked-Intent Development (LID) plugin tying EARS specifications directly to implementation tasks and verification checks.
+  zh: 将 EARS 需求规格与代码实现、验证用例强绑定的意图链接式规格驱动开发（LID）插件。

@@ -1,0 +1,9 @@
+name: "Paper Reel 9:16 Explainers"
+repo: https://github.com/haiderfarooq3/paper-reel
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [reels, cut-paper, canvas-animation, local]
+description:
+  en: "Zero-API-key local skill generating faceless 9:16 cut-paper style explainer reels with voice-timed scenes and word-by-word captions."
+  zh: "免 API Key 本地生成 9:16 剪纸风格竖屏解说短视频的技能，支持语音对齐与逐词字幕。"

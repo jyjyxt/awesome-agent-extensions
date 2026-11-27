@@ -1,0 +1,10 @@
+name: BrandDocs
+repo: https://github.com/ferdinandobons/brand-docs
+category: productivity
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [docx, pptx, excel, brand-templates]
+description:
+  en: Learn your company existing Word, PowerPoint, and Excel templates to generate strictly on-brand business documents.
+  zh: 学习企业现有 Word、PPT 与 Excel 模板并严格按品牌规范生成新办公文档的技能插件。

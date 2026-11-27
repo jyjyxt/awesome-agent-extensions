@@ -1,0 +1,10 @@
+name: Pump.fun SDK & Agent Plugin
+repo: https://github.com/nirholas/pump-fun-sdk
+category: coding
+official: false
+agents: [claude-code, universal]
+includes: [mcp, tools]
+tags: [solana, defi, pumpfun, sdk]
+description:
+  en: TypeScript SDK, CLI, and Claude Code plugin/MCP for Solana Pump protocol bonding curves, AMM pools, and creator fees.
+  zh: 面向 Solana Pump 协议联合曲线、AMM 池与创作者费用的 TypeScript SDK、CLI 及插件。

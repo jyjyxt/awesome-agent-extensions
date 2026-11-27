@@ -1,0 +1,10 @@
+name: Glif Creative Media Plugin
+repo: https://github.com/glifxyz/glif-mcp-server
+category: content-marketing
+official: true
+agents: [claude-code, codex, cursor, gemini-cli, universal]
+includes: [mcp, skills]
+tags: [glif, image-generation, video, audio]
+description:
+  en: Official Glif plugin, skills, and hosted MCP server for running creative image, video, and audio workflows across AI clients.
+  zh: Glif 官方创意媒体插件与 MCP，跨端调用多样化生图、视频与音频生成工作流。

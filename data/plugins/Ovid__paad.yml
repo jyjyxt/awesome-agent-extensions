@@ -1,0 +1,10 @@
+name: PAAD Engineering Practices
+repo: https://github.com/Ovid/paad
+category: coding
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [software-engineering, testing, architecture]
+description:
+  en: Structured software engineering discipline plugin bringing classic reliability, design, and testing practices to AI-speed coding.
+  zh: 将经典软件工程可靠性、架构设计与测试实践引入高速 AI 编程流程的纪律插件。

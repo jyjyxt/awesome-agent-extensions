@@ -1,0 +1,9 @@
+name: Blotato Content & Video Skills
+repo: https://github.com/blotato/contentskills
+category: content-marketing
+official: true
+agents: [claude-code, codex, universal]
+tags: [video-editor, social-media, scripts, automation]
+description:
+  en: Full content creation skills covering video editing, 100+ visual effects, script writing, social publishing, and DM automation.
+  zh: 全链路内容创作与视频剪辑技能包，内置 100+ 特效主题、脚本撰写、社媒发布与私信自动化。

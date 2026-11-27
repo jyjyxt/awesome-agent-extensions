@@ -1,0 +1,10 @@
+name: Elixir Agent Tools
+repo: https://github.com/georgeguimaraes/elixir-agent-tools
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [elixir, ecto, oban, lsp]
+description:
+  en: Elixir, Ecto, and Oban development skills plugin with Mix verification checks and Expert language server integration.
+  zh: 面向 Elixir、Ecto 与 Oban 开发的插件，集成 Mix 检查与 Expert 语言服务器支持。

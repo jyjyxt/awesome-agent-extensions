@@ -1,0 +1,9 @@
+name: Auto Compare Video Skill
+repo: https://github.com/Cuongyd196/auto-compare-video
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [video, hyperframes, comparison, voiceover]
+description:
+  en: Automate short side-by-side knowledge comparison videos using HyperFrames templates and AI voiceovers.
+  zh: 基于 HyperFrames 模板与 AI 配音批量制作“知识对比”类短视频的技能。

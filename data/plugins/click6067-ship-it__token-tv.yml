@@ -1,0 +1,10 @@
+name: Token TV Desk Pet
+repo: https://github.com/click6067-ship-it/token-tv
+category: productivity
+official: false
+agents: [claude-code, codex]
+includes: [tools]
+tags: [hardware, desk-pet, pixel-art, usage]
+description:
+  en: Turn a $5 GeekMagic mini desk clock into animated pixel pets that react live to your Claude Code/Codex agents and display usage limits.
+  zh: 免刷机将迷你桌面时钟变成会随 Claude Code/Codex 状态互动并显示额度的像素桌面宠物插件。

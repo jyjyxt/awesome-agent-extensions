@@ -1,0 +1,10 @@
+name: Lattice Engineering Discipline
+repo: https://github.com/techygarg/lattice
+category: coding
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [engineering-standards, design, code-review, process]
+description:
+  en: Composable engineering-discipline skills plugin standardizing design, implementation, code review, and team conventions.
+  zh: 可组合的软件工程规范技能插件，标准化设计、编码、审查与团队协作流程。

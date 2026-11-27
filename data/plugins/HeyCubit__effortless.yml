@@ -1,0 +1,10 @@
+name: Effortless Claude Mod
+repo: https://github.com/HeyCubit/effortless
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [reasoning-effort, prompt-cache, mod]
+description:
+  en: Auto-selects optimal reasoning effort per prompt and displays a live prompt-cache countdown inside Claude Code.
+  zh: 根据每条提示词自动匹配最佳推理深度并显示实时缓存倒计时的 Claude Code 增强插件。

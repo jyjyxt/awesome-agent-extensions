@@ -1,0 +1,9 @@
+name: Antigravity Workflows
+repo: https://github.com/harikrishna8121999/antigravity-workflows
+category: orchestration
+official: false
+agents: [antigravity, claude-code, universal]
+tags: [antigravity, workflows, automation]
+description:
+  en: Reusable engineering workflow skills and automation recipes built for Google Antigravity AI coding sessions.
+  zh: 面向 Google Antigravity 的可复用工程自动化工作流技能集合。

@@ -1,0 +1,9 @@
+name: Whale Pre-Sale & Discovery Skill
+repo: https://github.com/Jakeschincariol/whale-skill
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [pre-sales, customer-discovery, startup, pitch]
+description:
+  en: 11 customer-discovery and pre-sale skills guiding founders through buyer interviews, live demos, pitches, and pre-launch validation.
+  zh: 11 个上市前客户发现与预售验证技能，覆盖痛点调研、演示脚本、提案话术与付费意向验证。

@@ -1,0 +1,9 @@
+name: Cracked Interview & OA Prep
+repo: https://github.com/nishant-Tiwari24/cracked
+category: productivity
+official: false
+agents: [claude-code, codex, universal]
+tags: [interviews, oa, resume, career]
+description:
+  en: Terminal career-prep skills offering company-specific mock interviews, hidden-test OAs, and brutal resume roasts for 470+ tech companies.
+  zh: 覆盖 470+ 科技公司的终端面试备考技能，提供定向模拟面试、含隐藏用例的在线笔试与简历毒舌诊断。

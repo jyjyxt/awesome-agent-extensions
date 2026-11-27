@@ -1,0 +1,9 @@
+name: Seedance 2.5 Shot Design Skills
+repo: https://github.com/woodfantasy/Seedance-ShotDesign-Skills
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [seedance, jimeng, shot-design, text-to-video]
+description:
+  en: Specialized cinematography and camera-movement shot-design prompt skills tailored for Seedance 2.5 and Jimeng video generation.
+  zh: 专为即梦 Seedance 2.5 视频生成打造的镜头语言与运镜分镜设计提示词技能。

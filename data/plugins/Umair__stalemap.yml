@@ -1,0 +1,10 @@
+name: StaleMap Cutoff Dependency Diff
+repo: https://github.com/Umair/stalemap
+category: coding
+official: false
+agents: [claude-code, codex]
+includes: [tools]
+tags: [breaking-changes, changelogs, agents-md, dependencies]
+description:
+  en: Diffs type definitions and changelogs for dependencies updated after an LLM training cutoff and writes concise briefs into AGENTS.md.
+  zh: 自动比对模型知识截止日之后升级的依赖类型变更与 Changelog，并将关键破坏性变化写入 AGENTS.md。

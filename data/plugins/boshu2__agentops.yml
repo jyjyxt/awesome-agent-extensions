@@ -1,0 +1,10 @@
+name: AgentOps Discipline
+repo: https://github.com/boshu2/agentops
+category: orchestration
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [agentops, task-graph, independent-review, devops]
+description:
+  en: DevOps discipline plugin for coding agents that shapes work into a task graph and evaluates every change in a clean reviewer context.
+  zh: 面向编程 Agent 的 DevOps 工程治理插件，以任务图追踪工作并在独立隔离上下文中审查每次变更。

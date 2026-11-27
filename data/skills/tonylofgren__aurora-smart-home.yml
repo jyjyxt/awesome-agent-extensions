@@ -1,0 +1,9 @@
+name: Aurora Smart Home Skills
+repo: https://github.com/tonylofgren/aurora-smart-home
+category: cloud-devops
+official: false
+agents: [claude-code, universal]
+tags: [home-assistant, esphome, esp32, node-red, iot]
+description:
+  en: End-to-end smart-home engineering skills for Home Assistant, ESPHome, Node-RED, custom HACS integrations, dashboards, and PCB hardware.
+  zh: 全栈智能家居工程技能包，涵盖 Home Assistant、ESPHome、ESP32、Node-RED 与自定义集成开发。

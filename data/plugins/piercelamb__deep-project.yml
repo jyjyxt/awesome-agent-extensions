@@ -1,0 +1,10 @@
+name: Deep Project
+repo: https://github.com/piercelamb/deep-project
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [planning, requirements, decomposition]
+description:
+  en: Claude Code plugin that breaks vague software ideas down into crisp, independently plannable engineering components.
+  zh: 将模糊软件构想系统拆解为清晰、可独立排期工程模块的规划插件。

@@ -1,0 +1,9 @@
+name: Bug Review Board QA Skill
+repo: https://github.com/RayFernando1337/rayfernando-skills
+category: coding
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [qa, bug-review-board, manual-testing]
+description:
+  en: Real-user QA workflow skill implementing a structured Bug Review Board (BRB) triage and verification feedback loop.
+  zh: 引入真实用户视角缺陷评审委员会（BRB）分诊与回归验证闭环的 QA 工程技能。

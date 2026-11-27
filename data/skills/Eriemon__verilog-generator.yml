@@ -1,0 +1,9 @@
+name: Verilog-2001 & FPGA Skill
+repo: https://github.com/Eriemon/verilog-generator
+category: coding
+official: false
+agents: [claude-code, codex, gemini-cli, dsh, universal]
+tags: [verilog, fpga, rtl, eda, hardware]
+description:
+  en: Specialized hardware engineering skill for Verilog-2001 RTL code generation, testbenches, and FPGA synthesis workflows.
+  zh: 面向数字电路与 FPGA 开发的 Verilog-2001 RTL 代码生成及硬件设计技能。

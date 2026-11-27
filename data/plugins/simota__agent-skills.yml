@@ -1,0 +1,10 @@
+name: Hub-Spoke Multi-CLI Agent Suite
+repo: https://github.com/simota/agent-skills
+category: orchestration
+official: false
+agents: [claude-code, codex, antigravity]
+includes: [skills, subagents]
+tags: [hub-spoke, orchestration, antigravity, subagents]
+description:
+  en: Spec-aligned hub-and-spoke orchestration suite with 90 specialist roles and 3 project-local extensions for Claude Code, Codex, and Antigravity.
+  zh: 遵循 Agent Skills 规范的中心辐射式多代理编排插件，适配 Claude Code、Codex 与 Antigravity CLI。

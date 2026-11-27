@@ -1,0 +1,10 @@
+name: Word Typography Replicator
+repo: https://github.com/yeap531/word-format-skill
+category: productivity
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [docx, word, macos, typography, applescript]
+description:
+  en: macOS skill replicating any reference Word (.docx) typography onto new content via HTML bridge while preserving page setup.
+  zh: 通过 HTML 桥接将参考 Word 文档的字体与排版样式精准复刻到新内容中的 macOS 技能插件。

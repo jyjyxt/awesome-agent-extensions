@@ -1,0 +1,10 @@
+name: Motiscope Animation Rebuilder
+repo: https://github.com/KumarSashank/motiscope
+category: frontend-design
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [animation, gsap, framer-motion, css, ffmpeg]
+description:
+  en: Analyze any screen-recorded web animation (timing, easing, stagger, loops) and rebuild it cleanly in GSAP, CSS, or Framer Motion.
+  zh: 分析录屏中的网页动效（缓动、交错、循环节奏）并精准重构为 GSAP、CSS 或 Framer Motion 代码的插件。

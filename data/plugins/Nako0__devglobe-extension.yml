@@ -1,0 +1,10 @@
+name: DevGlobe Live Coding Extension
+repo: https://github.com/Nako0/devglobe-extension
+category: productivity
+official: true
+agents: [claude-code, codex, opencode]
+includes: [tools]
+tags: [time-tracking, metrics, collaboration, 3d-globe]
+description:
+  en: Official DevGlobe coding metrics and live 3D globe presence plugin with automatic time tracking across AI CLIs and IDEs.
+  zh: DevGlobe 官方插件，自动统计编程时长与活跃指标并在实时 3D 地球上展示开发动态。

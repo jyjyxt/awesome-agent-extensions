@@ -1,0 +1,9 @@
+name: MapLibre GL JS Agent Skills
+repo: https://github.com/maplibre/maplibre-agent-skills
+category: frontend-design
+official: true
+agents: [claude-code, universal]
+tags: [maplibre, gis, pmtiles, mapping]
+description:
+  en: Official community-maintained MapLibre GL JS and PMTiles skills helping coding agents build accurate interactive web maps.
+  zh: MapLibre 官方社区维护的 Web 地图开发技能包，涵盖 MapLibre GL JS 与 PMTiles 矢量瓦片实践。

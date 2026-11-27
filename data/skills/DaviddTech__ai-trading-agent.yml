@@ -1,0 +1,9 @@
+name: Pine Script & Crypto Backtest Skills
+repo: https://github.com/DaviddTech/ai-trading-agent
+category: data-research
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [pine-script, trading, backtesting, crypto]
+description:
+  en: Agent-native trading skills for authoring TradingView Pine Script strategies and backtesting algorithmic crypto systems.
+  zh: 面向 TradingView Pine Script 策略编写与加密货币量化回测的 Agent 技能包。

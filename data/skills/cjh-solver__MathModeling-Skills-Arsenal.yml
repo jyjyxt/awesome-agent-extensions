@@ -1,0 +1,9 @@
+name: MathModeling Skills Arsenal (35 Skills)
+repo: https://github.com/cjh-solver/MathModeling-Skills-Arsenal
+category: data-research
+official: false
+agents: [claude-code, codex, universal]
+tags: [math-modeling, cumcm, mcm-icm, data-visualization]
+description:
+  en: 35 mathematical modeling competition skills covering problem formulation, numerical solvers, publication charts, writing, and final review.
+  zh: 覆盖国赛/美赛全流程的 35 个数学建模技能军火库：读题建模、求解、可视化、论文写作与终稿评审。

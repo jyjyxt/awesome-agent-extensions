@@ -1,0 +1,10 @@
+name: Zapier Official Plugin
+repo: https://github.com/zapier/mcp
+category: productivity
+official: true
+agents: [claude-code, codex, cursor, universal]
+includes: [mcp]
+tags: [zapier, automation, integrations, saas]
+description:
+  en: Official Zapier plugin distribution connecting Claude Code, Codex, and Cursor to thousands of SaaS apps via hosted MCP.
+  zh: Zapier 官方插件分发包，通过托管 MCP 将 Claude Code、Codex 与 Cursor 接入数千款 SaaS 应用。

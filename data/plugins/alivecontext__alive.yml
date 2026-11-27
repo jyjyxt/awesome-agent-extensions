@@ -1,0 +1,10 @@
+name: Alive Personal Context Manager
+repo: https://github.com/alivecontext/alive
+category: productivity
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [personal-context, memory, cli]
+description:
+  en: Personal context manager plugin organizing life projects, goals, and notes into compact structured capsules for Claude Code.
+  zh: 面向个人的结构化上下文管理插件，将个人项目、目标与笔记整理为紧凑上下文供 Claude Code 调用。

@@ -1,0 +1,10 @@
+name: LockedIn Career Graph
+repo: https://github.com/daypunk/LockedIn
+category: productivity
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [career, resume, korean, knowledge-graph]
+description:
+  en: Captures daily engineering work inside Claude Code into a structured experience graph to render resumes, cover letters, and interview stories.
+  zh: 在日常编码会话中自动沉淀结构化工作履历图谱，一键生成简历、求职信与面试案例的插件。

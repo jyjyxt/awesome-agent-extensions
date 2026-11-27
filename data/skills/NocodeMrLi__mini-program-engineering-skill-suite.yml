@@ -1,0 +1,9 @@
+name: Mini Program Engineering Skill Suite
+repo: https://github.com/NocodeMrLi/mini-program-engineering-skill-suite
+category: frontend-design
+official: false
+agents: [claude-code, codex, universal]
+tags: [wechat-miniprogram, alipay, ci-cd, mobile]
+description:
+  en: Evidence-first WeChat and Alipay mini-program engineering skillset covering architecture, debugging, CI/CD, and release verification.
+  zh: 面向微信与支付宝小程序的循证工程技能套件，覆盖架构、联调、CI/CD 与发布验收全链路。

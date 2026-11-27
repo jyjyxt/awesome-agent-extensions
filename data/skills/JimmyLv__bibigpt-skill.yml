@@ -1,0 +1,9 @@
+name: BibiGPT Video & Podcast Skill
+repo: https://github.com/JimmyLv/bibigpt-skill
+category: data-research
+official: true
+agents: [claude-code, cursor, codex, universal]
+tags: [youtube, bilibili, podcasts, summarization]
+description:
+  en: Official BibiGPT skill and MCP server summarizing YouTube, Bilibili, and Xiaoyuzhou podcasts with precise timestamps.
+  zh: BibiGPT 官方音视频总结技能与 MCP，支持 YouTube、B 站与小宇宙播客的带时间戳深度摘要。

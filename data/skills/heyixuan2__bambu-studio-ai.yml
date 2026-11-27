@@ -1,0 +1,9 @@
+name: Bambu Studio AI 3D Printing
+repo: https://github.com/heyixuan2/bambu-studio-ai
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [3d-printing, bambu-lab, cad, 3mf]
+description:
+  en: "3D printing skill for Bambu Lab printers: search MakerWorld/Printables, design CAD models, check printability, and slice 3MF files."
+  zh: 面向拓竹（Bambu Lab）3D 打印机的 Agent 技能，支持模型检索、CAD 建模、可打印性检查与切片准备。

@@ -1,0 +1,10 @@
+name: Taskade Official Plugin & MCP
+repo: https://github.com/taskade/mcp
+category: productivity
+official: true
+agents: [claude-code, cursor, codex, universal]
+includes: [mcp, skills]
+tags: [taskade, workspace, openapi, collaboration]
+description:
+  en: Official Taskade agent plugin and MCP server connecting coding agents to Taskade workspaces plus OpenAPI-to-MCP codegen.
+  zh: Taskade 官方 Agent 插件与 MCP 服务，支持接入工作区协作与 OpenAPI 转 MCP 代码生成。

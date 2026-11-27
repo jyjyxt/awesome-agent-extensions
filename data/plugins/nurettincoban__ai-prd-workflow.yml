@@ -1,0 +1,10 @@
+name: AI PRD & RFC Workflow
+repo: https://github.com/nurettincoban/ai-prd-workflow
+category: orchestration
+official: false
+agents: [claude-code, codex, universal]
+includes: [skills]
+tags: [prd, rfc, spec-driven, workflow]
+description:
+  en: RFC-driven engineering workflow transforming ideas or existing codebases into verified PRDs, feature rules, sequenced RFCs, and reviewed code.
+  zh: RFC 驱动的 AI 研发流水线插件：从创意或旧仓库产出已校验 PRD、功能规范、有序 RFC 与审查代码。

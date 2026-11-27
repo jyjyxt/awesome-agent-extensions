@@ -1,0 +1,10 @@
+name: Vibe Engineering (33 Skills + CI)
+repo: https://github.com/ash1794/vibe-engineering
+category: coding
+official: false
+agents: [claude-code, codex, gemini-cli]
+includes: [skills, tools]
+tags: [engineering-discipline, ci-cd, multi-agent]
+description:
+  en: 33 real-world engineering discipline skills paired with a CI/CD enforcement CLI for Claude Code, Codex, and Gemini CLI.
+  zh: 提炼自真实多 Agent 研发的 33 项工程纪律技能与 CI/CD 强制校验命令行插件。

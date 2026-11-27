@@ -1,0 +1,10 @@
+name: Claude Show Your Work
+repo: https://github.com/iamumeransari/claude-show-your-work
+category: frontend-design
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [visual-qa, playwright, screenshots, terminal]
+description:
+  en: Review agent visual output directly inside your terminal with inline images, video playback, and Playwright QA recordings.
+  zh: 无需离开终端即可直接预览截图、播放视频并运行 Playwright 视觉 QA 录屏的审核插件。

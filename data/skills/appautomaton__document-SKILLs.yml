@@ -1,0 +1,9 @@
+name: Cross-Agent Document SKILLs
+repo: https://github.com/appautomaton/document-SKILLs
+category: productivity
+official: false
+agents: [claude-code, codex, universal]
+tags: [pdf, docx, xlsx, pptx, documents]
+description:
+  en: Portable PDF, Excel, Word, and PowerPoint manipulation skills for extraction, forms, formulas, and tracked changes across Claude Code and Codex.
+  zh: 适配 Claude Code 与 Codex 的 PDF、Excel、Word、PPT 全能文档处理技能，支持表格提取、公式与修订追踪。

@@ -1,0 +1,10 @@
+name: PYA Security Audit
+repo: https://github.com/AgriciDaniel/pya
+category: security
+official: false
+agents: [claude-code]
+includes: [skills, subagents]
+tags: [appsec, devsecops, security-audit, offline]
+description:
+  en: Offline-by-default security audit plugin with 9 specialist security agents, a dated threat feed, and verified vulnerability findings.
+  zh: 默认离线运行的 Claude Code 安全审计插件，内置 9 个安全专家子代理与可验证漏洞扫描。

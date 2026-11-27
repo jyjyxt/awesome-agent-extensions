@@ -1,0 +1,10 @@
+name: Remake Website Cloner
+repo: https://github.com/rubenhassid1/remake
+category: frontend-design
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [website-cloner, frontend, pixel-perfect]
+description:
+  en: Claude Code plugin that recreates any reference website pixel for pixel and then adapts branding and layout to your product.
+  zh: 像素级复刻参考网站并快速定制为自有品牌界面的 Claude Code 前端插件。

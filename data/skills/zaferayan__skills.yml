@@ -1,0 +1,9 @@
+name: Expo & React Native Skill
+repo: https://github.com/zaferayan/skills
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+tags: [expo, react-native, mobile]
+description:
+  en: Focused Expo and React Native mobile app development skill encoding navigation, native modules, and build best practices.
+  zh: 专注 Expo 与 React Native 跨平台移动应用开发的专项工程技能。

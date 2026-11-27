@@ -1,0 +1,9 @@
+name: SivaLabs Spring Boot Skills
+repo: https://github.com/sivaprasadreddy/sivalabs-agent-skills
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [java, spring-boot, testing, backend]
+description:
+  en: Idiomatic Spring Boot, Testcontainers, and modern Java backend engineering skills maintained by SivaLabs.
+  zh: 由 SivaLabs 维护的现代 Java 与 Spring Boot 后端开发及测试技能包。

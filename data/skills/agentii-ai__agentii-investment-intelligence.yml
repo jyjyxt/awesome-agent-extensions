@@ -1,0 +1,9 @@
+name: Agentii Investment Intelligence
+repo: https://github.com/agentii-ai/agentii-investment-intelligence
+category: data-research
+official: false
+agents: [claude-code, codex, universal]
+tags: [equity-research, sec-filings, dcf, lbo, xbrl]
+description:
+  en: 25 institutional equity research skills covering SEC filings, XBRL financials, earnings calendars, DCF/comps/LBO models, and decks.
+  zh: 25 个机构级股票投研技能，覆盖 SEC 公告、XBRL 财报、DCF/可比/LBO 估值模型与投研 PPT 生成。

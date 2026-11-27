@@ -1,0 +1,9 @@
+name: Google Play Console CLI Skill
+repo: https://github.com/tamtom/play-console-cli
+category: cloud-devops
+official: false
+agents: [claude-code, codex, universal]
+tags: [google-play, android, releases, cli]
+description:
+  en: Agent-optimized CLI and skill for automating Google Play Console tracks, releases, store listings, and app metadata.
+  zh: 面向 AI 研发流的 Google Play Console 命令行技能，自动化管理发版轨道、商店素材与元数据。

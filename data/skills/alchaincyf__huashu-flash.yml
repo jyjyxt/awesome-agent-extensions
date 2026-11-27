@@ -1,0 +1,9 @@
+name: Huashu Flash Web-Speed Skill
+repo: https://github.com/alchaincyf/huashu-flash
+category: frontend-design
+official: false
+agents: [claude-code, codex, universal]
+tags: [web-performance, core-web-vitals, optimization]
+description:
+  en: Measure-verify-ratchet web performance optimization skill inspired by Anthropic 3x claude.ai speedup methodology.
+  zh: 借鉴 Anthropic 提速实践的网站性能优化技能：先量化、再验证、用棘轮机制确保性能只升不降。

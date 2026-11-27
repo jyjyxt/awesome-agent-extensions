@@ -1,0 +1,10 @@
+name: CC10x Loop Engine
+repo: https://github.com/romiluz13/cc10x
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills, subagents]
+tags: [loop-engineering, fail-closed, testing, review]
+description:
+  en: Loop-engineering plugin with 1 router, 14 agents, 21 skills, and 8 workflows enforcing fail-closed gates, test honesty, and anti-anchored review.
+  zh: 以“工程化循环”为核心的插件，整合 14 个子代理、21 个技能与 8 条工作流，强化失败阻断与真实测试检验。

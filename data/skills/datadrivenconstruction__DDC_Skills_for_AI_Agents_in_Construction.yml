@@ -1,0 +1,9 @@
+name: DDC Construction & BIM Skills
+repo: https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [construction, bim, aec, cost-estimation]
+description:
+  en: 221 AEC and construction skills covering BIM analysis, cost estimation, project scheduling, and engineering document control.
+  zh: 面向建筑工程行业的 221 个专业技能包，覆盖 BIM 分析、造价估算、进度排期与工程文档管控。

@@ -1,0 +1,10 @@
+name: ClaudeRipple Multi-Model Picker
+repo: https://github.com/PBJ-2/clauderipple
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [model-router, multi-model, deepseek, gemini]
+description:
+  en: Access GPT, DeepSeek, GLM, Gemini, Kimi, and 400+ models directly inside Claude Desktop and Claude Code model pickers.
+  zh: 在保持原有登录状态的同时，将 GPT、DeepSeek、GLM、Gemini、Kimi 等 400+ 模型接入 Claude 模型选择器的路由插件。

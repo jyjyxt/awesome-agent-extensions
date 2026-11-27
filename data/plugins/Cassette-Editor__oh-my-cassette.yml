@@ -1,0 +1,10 @@
+name: Oh My Cassette Video Editor
+repo: https://github.com/Cassette-Editor/oh-my-cassette
+category: content-marketing
+official: false
+agents: [claude-code, codex, opencode]
+includes: [skills, mcp]
+tags: [video-editing, chat-to-edit, montage]
+description:
+  en: Pocket AI video montage co-editor plugin and MCP server enabling natural-language chat-to-edit workflows.
+  zh: 随身 AI 视频剪辑搭档插件与 MCP，支持对话式蒙太奇剪辑与素材编排。

@@ -1,0 +1,9 @@
+name: JEV Job Search Skill
+repo: https://github.com/qbeka/jev-job-search
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [job-search, internships, browser-automation, cover-letter]
+description:
+  en: Find software internships and new-grad roles, draft tailored answers, fill application forms, and submit only after your approval.
+  zh: 软件实习与校招求职自动化技能：检索岗位、定制回答、自动填表并在人工确认后提交。

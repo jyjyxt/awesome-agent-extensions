@@ -22,7 +22,12 @@
 | **[Universal Game Modder](https://github.com/rehan-remade/universal-modder)** | PC 游戏 Mod 开发插件，支持游戏结构逆向、AI 生成美术/3D/音频资产与游戏内自动化测试。 | `Claude Code` | `gamedev` `modding` `reverse-engineering` | ⭐ 9.9k<br><sub>2026-11-27</sub> |
 | **[Fast Anything](https://github.com/EL4CTEO/fast-anything)** | 性能分析与热点加速插件：定位 Python/Node/Ruby 慢热点，自动移植为 Rust FFI 并验证行为一致。 | `Claude Code` `Codex` | `performance` `profiling` `rust` | ⭐ 4.3k<br><sub>2026-11-26</sub> |
 | **[Claude Elixir & Phoenix](https://github.com/oliver-kriska/claude-elixir-phoenix)** | 面向 Elixir/Phoenix/LiveView 开发的专精插件，集成 26 个专家子代理、铁律检查与 Tidewave MCP。 | `Claude Code` | `elixir` `phoenix` `liveview` | ⭐ 578<br><sub>2026-11-20</sub> |
+| **[Plinth Java Enterprise Toolkit](https://github.com/jabrena/plinth)** | 面向现代 Java 企业级研发全生命周期的 AI 工程插件，集成命令、子代理、技能与 MCP 服务。 | `Claude Code` | `java` `enterprise` `sdlc` | ⭐ 468<br><sub>2026-11-24</sub> |
+| **[Unica (1C:Enterprise Plugin)](https://github.com/IngvarConsulting/unica)** | 专为 1C:Enterprise 企业级 ERP 开发打造的 Claude Code 与 Codex 插件及 MCP。 | `Claude Code` `Codex` | `1c-enterprise` `erp` `russian` | ⭐ 276<br><sub>2026-11-27</sub> |
 | **[CC Polymath](https://github.com/rand/cc-polymath)** | 注重上下文效率的 Claude Code 插件，集成覆盖云架构、设计与数学等领域的技能、子代理与 MCP 服务。 | `Claude Code` | `claude-code` `context-efficiency` `workflows` | ⭐ 192<br><sub>2026-02-28</sub> |
+| **[Pump.fun SDK & Agent Plugin](https://github.com/nirholas/pump-fun-sdk)** | 面向 Solana Pump 协议联合曲线、AMM 池与创作者费用的 TypeScript SDK、CLI 及插件。 | `Claude Code` `通用` | `solana` `defi` `pumpfun` | ⭐ 152<br><sub>2026-11-26</sub> |
+| **[CodeNib Cross-Language Tracer](https://github.com/sysevol-ai/CodeNib)** | 跨语言调用链追踪与精准源码上下文检索插件，减少大模型无效读文件。 | `Claude Code` `Codex` `通用` | `code-search` `call-tracing` `multi-language` | ⭐ 112<br><sub>2026-11-27</sub> |
+| **[Code Graph AST Plugin](https://github.com/sdsrss/code-graph-mcp)** | 基于 Tree-sitter 自动索引 10 种语言的 AST 代码图谱插件，支持调用链追踪、HTTP 路由定位与影响面分析。 | `Claude Code` | `ast` `tree-sitter` `call-graph` | ⭐ 101<br><sub>2026-11-25</sub> |
 | **[AI Software Architect](https://github.com/codenamev/ai-software-architect)** | 软件架构文档与评审插件，内置架构决策记录（ADR）、架构审查与务实设计模式。 | `Claude Code` | `architecture` `adr` `documentation` | ⭐ 81<br><sub>2026-11-20</sub> |
 | **[Kitbash](https://github.com/Open-Dev-Society/kitbash)** | 实时检索并验证 GitHub 开源仓库的插件与技能，帮 Agent 判断哪些模块可直接复用、改造或自研。 | `Claude Code` `通用` | `github-search` `reuse` `architecture` | ⭐ 59<br><sub>2026-11-22</sub> |
 | **[Atlassian Bitbucket MCP](https://github.com/aashari/mcp-server-atlassian-bitbucket)** | 面向 Atlassian Bitbucket 的 MCP 服务器，支持 AI Agent 浏览代码仓库、评审 PR 与查看提交历史。 | `通用` | `npx -y @aashari/mcp-server-atlassian-bitbucket` | — |
@@ -35,12 +40,15 @@
 | --- | --- | --- | --- | --- |
 | **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `官方` | Chrome DevTools 官方 MCP 服务器，让编码 Agent 直接操控、调试、性能分析与审查 Chrome 浏览器页面。 | `通用` | `npx -y chrome-devtools-mcp@latest` | — |
 | **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `官方` | 微软官方 Playwright MCP 服务器，让 Agent 通过结构化无障碍树直接操控浏览器完成测试与网页自动化。 | `通用` | `npx @playwright/mcp@latest` | — |
+| **[Refero Design Research Skill](https://github.com/referodesign/refero_skill)** `官方` | Refero 官方调研优先 UI 设计插件，通过 MCP 接入 15 万+ 真实应用界面与交互流程参考。 | `Claude Code` `Codex` `Cursor` `通用` | `design-research` `ui-flows` `screens` | ⭐ 368<br><sub>2026-11-25</sub> |
 | **[Svelte Official MCP](https://github.com/sveltejs/ai-tools)** `官方` | Svelte 官方 MCP 服务器与 AI 开发工具集，助力 Svelte 与 SvelteKit 应用开发。 | `通用` | `svelte` `mcp-server` `frontend` | ⭐ 345<br><sub>2026-11-26</sub> |
+| **[SquirrelScan Website QA (360+ Rules)](https://github.com/squirrelscan/skills)** `官方` | SquirrelScan 官方网站质量巡检技能，内置 360+ 条无障碍、性能与技术规范自动审计规则。 | `Claude Code` `Codex` `通用` | `website-qa` `accessibility` `audit` | ⭐ 110<br><sub>2026-11-26</sub> |
 | **[Browser MCP](https://github.com/BrowserMCP/mcp)** `官方` | 结合浏览器插件的 MCP 服务器，让 AI Agent 复用本地浏览器登录态完成网页操作与自动化任务。 | `通用` | `npx -y @browsermcp/mcp@latest` | — |
 | **[Design Extract](https://github.com/Manavarya09/design-extract)** | 一键提取任意网站完整设计系统为 DTCG Token 与多端代码（CSS、SwiftUI 等）的插件与 MCP。 | `Claude Code` `Cursor` `Windsurf` `通用` | `design-system` `tokens` `dtcg` | ⭐ 5.2k<br><sub>2026-11-25</sub> |
 | **[UI Craft](https://github.com/educlopez/ui-craft)** | 面向 AI 编程代理的设计工程系统，集成技能、规则与 MCP 工具以交付高质感 UI。 | `通用` | `design-engineering` `ui-design` `design-system` | ⭐ 484<br><sub>2026-11-20</sub> |
 | **[Accessibility Agents](https://github.com/Community-Access/accessibility-agents)** | 面向编程代理的 WCAG 2.2 AA 无障碍审查套件，集成技能、编辑门禁钩子与扫描器。 | `Claude Code` `GitHub Copilot` `Gemini CLI` `Codex` | `accessibility` `wcag` `a11y` | ⭐ 456<br><sub>2026-11-23</sub> |
 | **[Pixel Plugin](https://github.com/willibrandon/pixel-plugin)** | 通过自然语言调用 Aseprite 创作像素画、动画与游戏精灵图集的 Claude Code 插件。 | `Claude Code` | `pixel-art` `aseprite` `sprites` | ⭐ 435<br><sub>2025-10-19</sub> |
+| **[Three.ws 3D Agent Avatars](https://github.com/nirholas/three.ws)** | 通过文字或照片生成带骨骼绑定的 3D GLB 虚拟形象并一键嵌入网页的插件与 MCP。 | `Claude Code` `通用` | `3d-avatar` `threejs` `glb` | ⭐ 286<br><sub>2026-11-27</sub> |
 | **[iOS Simulator MCP](https://github.com/joshuayoes/ios-simulator-mcp)** | 用于操控 Apple iOS 模拟器的 MCP 服务器，支持 UI 树检查、点击交互、截图与移动端自动化调试。 | `通用` | `npx -y ios-simulator-mcp` | — |
 | **[MCP Server Playwright](https://github.com/VikashLoomba/MCP-Server-Playwright)** | 轻量级 Playwright MCP 服务器，支持浏览器导航、表单交互、DOM 检查与自动截图。 | `通用` | `playwright` `browser` `automation` | — |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。 | `通用` `Claude Code` | `npx -y myog-checker` | — |
@@ -50,6 +58,7 @@
 
 | 名称 | 简介 | 兼容工具 | 安装 / 标签 | 活跃度 |
 | --- | --- | --- | --- | --- |
+| **[TraxAgent Budget Governance](https://github.com/ccarter01011/traxagent-claude-plugin)** `官方` | 只读 AI 预算治理与成本分析插件，快速定位 Token 开销来源并给出具体降本建议。 | `Claude Code` `Cursor` `通用` | `ai-cost` `governance` `budget` | ⭐ 173<br><sub>2026-11-24</sub> |
 | **[Cloud Run MCP](https://github.com/GoogleCloudPlatform/cloud-run-mcp)** `官方` | Google Cloud 官方 Cloud Run MCP 服务器，支持 AI Agent 一键构建、部署并管理云端容器服务。 | `通用` | `npx -y @google-cloud/cloud-run-mcp` | — |
 | **[DBHub MCP](https://github.com/bytebase/dbhub)** `官方` | Bytebase 开源的通用数据库 MCP 服务器，节省上下文 Token，支持 PostgreSQL、MySQL、SQL Server、Oracle 与 SQLite。 | `通用` | `npx -y @bytebase/dbhub` | — |
 | **[FinOps MCP](https://github.com/getnable/finopsmcp)** `官方` | 面向云成本治理的无头 FinOps MCP 服务，为 AI Agent 提供云账单分析与资源成本优化能力。 | `通用` | `finops` `cloud-cost` `aws` | — |
@@ -70,6 +79,7 @@
 | 名称 | 简介 | 兼容工具 | 安装 / 标签 | 活跃度 |
 | --- | --- | --- | --- | --- |
 | **[MemSearch](https://github.com/zilliztech/memsearch)** `官方` | Zilliz 官方出品的跨 Agent 持久化统一记忆层插件，结合本地 Markdown 与 Milvus 向量检索。 | `Claude Code` `Codex` `DeepSeek Harness` `通用` | `memory` `milvus` `markdown` | ⭐ 3.0k<br><sub>2026-11-27</sub> |
+| **[ClickHouse Loom](https://github.com/ClickHouse/loom)** `官方` | ClickHouse 官方开源的符号级代码索引、文档检索与共享长期记忆插件。 | `Claude Code` `通用` | `clickhouse` `memory` `code-index` | ⭐ 244<br><sub>2026-11-27</sub> |
 | **[Corezoid AI Plugin](https://github.com/corezoid/corezoid-ai-plugin)** `官方` | Corezoid 官方 AI 插件，提供流程编排技能、Schema、模板手册与 MCP 参考。 | `Claude Code` `Codex` | `corezoid` `workflow-automation` `api-orchestration` | ⭐ 74<br><sub>2026-11-13</sub> |
 | **[Everything Claude Code (ECC)](https://github.com/affaan-m/ECC)** | 集成技能、直觉记忆、安全规范与研究驱动工作流的 Agent 运行框架性能优化套件。 | `Claude Code` `Codex` `OpenCode` `Cursor` `+2` | `agent-harness` `memory` `orchestration` | ⭐ 311.3k<br><sub>2026-11-23</sub> |
 | **[Context Mode](https://github.com/mksglu/context-mode)** | 零遥测本地上下文优化插件，利用沙箱与 SQLite FTS5 检索将冗长工具输出隔离在上下文窗口之外。 | `Claude Code` `Codex` `Gemini CLI` `GitHub Copilot` `+2` | `context-management` `token-savings` `sandbox` | ⭐ 34.5k<br><sub>2026-11-26</sub> |
@@ -78,7 +88,14 @@
 | **[AgentRQ](https://github.com/agentrq/agentrq)** | 自托管的人机协同实时对话任务管理器插件，支持从手机、网页与桌面端远程掌控 AI Agent。 | `Claude Code` `Gemini CLI` `OpenCode` `DeepSeek Harness` | `task-manager` `human-in-the-loop` `acp` | ⭐ 1.2k<br><sub>2026-11-27</sub> |
 | **[Citadel Operating Layer](https://github.com/SethGammon/Citadel)** | 面向 Claude Code 与 Codex 的统一运行层插件，整合项目记忆、意图路由、安全钩子、成本遥测与并行舰队。 | `Claude Code` `Codex` | `memory` `intent-routing` `safety-hooks` | ⭐ 940<br><sub>2026-11-26</sub> |
 | **[PRD Taskmaster (Atlas)](https://github.com/anombyte93/prd-taskmaster)** | 零配置目标拆解与执行引擎插件，集成分级 PRD 校验、依赖任务图与证据门控执行。 | `Claude Code` | `prd` `task-graph` `product-management` | ⭐ 613<br><sub>2026-11-04</sub> |
+| **[AI Company Team OS](https://github.com/CronusL-1141/AI-company)** | 面向 Claude Code 的多智能体团队操作系统插件，内置 108 个 MCP 工具、40+ 角色模板与 7 条协作流水线。 | `Claude Code` | `multi-agent` `teams` `hooks` | ⭐ 379<br><sub>2026-11-18</sub> |
+| **[Cheap-AG Hybrid Model Router](https://github.com/muaaz9329/cheap-ag)** | 高低模型混编省钱插件：旗舰模型负责架构规划，低成本模型写代码，自动化测试决定最终交付。 | `Claude Code` | `cost-optimization` `multi-model` `hooks` | ⭐ 346<br><sub>2026-11-26</sub> |
+| **[Arcgentic](https://github.com/Arch1eSUN/Arcgentic)** | 强制执行规划、开发、自审与外审四重机械门禁的插件，配备可配置角色路由与实时状态面板。 | `Claude Code` `Codex` | `quality-gates` `self-audit` `role-routing` | ⭐ 285<br><sub>2026-10-02</sub> |
 | **[AIWG (AI Writing & Workflow Guide)](https://github.com/jmagly/aiwg)** | 跨端多智能体 SDLC 工作流框架，集成专家代理、技能、规则、MCP 工具与会话记忆。 | `Claude Code` `Codex` `GitHub Copilot` `Cursor` `+1` | `sdlc` `multi-agent` `workflows` | ⭐ 233<br><sub>2026-11-26</sub> |
+| **[Deliberation Multi-Model Consensus](https://github.com/antonbabenko/deliberation)** | 向 Codex、Gemini、Grok 及 400+ OpenRouter 模型征求第二意见并由仲裁模型达成共识的插件。 | `Claude Code` `Codex` `Cursor` | `consensus` `code-review` `openrouter` | ⭐ 188<br><sub>2026-11-26</sub> |
+| **[Plan Cascade](https://github.com/Taoidle/plan-cascade)** | 级联式研发编排插件，将复杂项目拆解为 PRD、设计文档并调度多 Agent 并行执行。 | `Claude Code` | `prd` `task-orchestration` `parallel` | ⭐ 134<br><sub>2026-03-14</sub> |
+| **[Vibes Plug Agent Swarm](https://github.com/roedyrustam/vibes-plug)** | 跨端多 Agent 蜂群协作插件，集成 178 个技能与 8 个自主子代理，适配 Antigravity、Claude Code、Cursor 等。 | `Claude Code` `Antigravity` `Cursor` `Windsurf` `+1` | `swarm` `subagents` `cross-agent` | ⭐ 129<br><sub>2026-11-27</sub> |
+| **[Agent Orchestration Standard (AOS-1)](https://github.com/tomtomsatnav/agent-orchestration-standard)** | 本地优先的可观测性插件与 MCP，实时呈现代理拓扑图、Token 消耗、工具流回放与异常告警。 | `Claude Code` | `observability` `dashboard` `replay` | ⭐ 104<br><sub>2026-11-17</sub> |
 | **[AgentFund MCP](https://github.com/RioTheGreat-ai/agentfund-mcp)** | 基于 Base 链的 AI Agent 众筹与里程碑托管 MCP，支持提案管理、进度追踪与自动结算。 | `Claude Code` `通用` | `web3` `base` `escrow` | — |
 | **[agentMemory MCP](https://github.com/webzler/agentMemory)** | 零配置的本地 MCP 记忆服务器，适配 Claude Code、Cline、RooCode 与 Cursor 以持久保留项目上下文。 | `通用` | `memory` `zero-config` `cline` | — |
 | **[Deja Vu MCP](https://github.com/vshulcz/deja-vu)** | 面向 Claude Code、Codex 与 Cursor 的本地 MCP 记忆层，支持跨会话历史检索与经验复用。 | `Claude Code` `Codex` `Cursor` `通用` | `memory` `session-history` `local` | — |
@@ -90,6 +107,7 @@
 
 | 名称 | 简介 | 兼容工具 | 安装 / 标签 | 活跃度 |
 | --- | --- | --- | --- | --- |
+| **[PostHog Official AI Plugin](https://github.com/PostHog/ai-plugin)** `官方` | PostHog 官方 AI 编码插件，跨端集成产品数据分析、特性开关与 A/B 实验管理。 | `Claude Code` `Cursor` `Gemini CLI` `Codex` | `posthog` `product-analytics` `feature-flags` | ⭐ 101<br><sub>2026-11-26</sub> |
 | **[Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server)** `官方` | Alpaca 官方 MCP 服务器，支持 AI Agent 获取实时行情数据并操作股票、ETF、期权与加密货币交易接口。 | `通用` | `uvx alpaca-mcp-server` | — |
 | **[Apify MCP Server](https://github.com/apify/apify-mcp-server)** `官方` | Apify 官方 MCP 服务器，让 Agent 直接调用数千个 Apify Actors 完成网页抓取、社媒与电商数据采集。 | `通用` | `npx -y @apify/actors-mcp-server` | — |
 | **[DataLikers MCP](https://github.com/subzeroid/datalikers-mcp)** `官方` | 轻量级 stdio MCP 服务器，通过 DataLikers API 提供 29 个 Instagram 与 TikTok 社媒数据采集工具。 | `通用` | `instagram` `tiktok` `social-media` | — |
@@ -100,7 +118,10 @@
 | **[Microsoft Learn MCP](https://github.com/MicrosoftDocs/mcp)** `官方` | 微软官方 Learn MCP 服务器与 CLI，为 AI Agent 提供最新的 Microsoft、Azure 与 .NET 官方技术文档检索。 | `通用` | `official` `microsoft` `azure` | — |
 | **[Source-Grounded Buddhist Skills](https://github.com/xr843/Master-skill)** | 经 CBETA 与 SuttaCentral 校核的数字人文与佛学经典引文溯源技能及 MCP 服务。 | `Claude Code` `通用` | `buddhism` `digital-humanities` `cbeta` | ⭐ 604<br><sub>2026-11-26</sub> |
 | **[Wenlan Living Playbook](https://github.com/wenlan-app/wenlan)** | 本地优先的活文档与规则同步插件，让人与多款 AI 工具始终基于同一套最新知识与技能协作。 | `Claude Code` `Codex` `通用` | `playbook` `knowledge-base` `llm-wiki` | ⭐ 501<br><sub>2026-11-27</sub> |
+| **[Options Trading Advisor Skills](https://github.com/staskh/trading_skills)** | 面向期权交易者的分析辅助技能与 MCP 套装，支持策略评估、希腊字母分析与风险测算。 | `Claude Code` `通用` | `options-trading` `finance` `derivatives` | ⭐ 421<br><sub>2026-11-17</sub> |
+| **[Gemini Notebook Skill & MCP](https://github.com/roomi-fields/gemini-notebook-mcp)** | 接入 Google NotebookLM 的技能、MCP 与本地 REST API 插件，支持带引用问答与 Studio 内容生成。 | `Claude Code` `Codex` `通用` | `notebooklm` `citations` `research` | ⭐ 243<br><sub>2026-11-20</sub> |
 | **[Claude Patent Creator](https://github.com/RobThePCGuy/Claude-Patent-Creator)** | 集成 MCP 服务器、混合 RAG 检索与自主代理的美国专利撰写与检索 Claude Code 插件系统。 | `Claude Code` | `patents` `uspto` `rag` | ⭐ 217<br><sub>2026-11-26</sub> |
+| **[Crypto Claude Intelligence Desk](https://github.com/hugoguerrap/crypto-claude-desk)** | 基于原生 Agent Teams 协同 6 个专家子代理与 66 个 MCP 工具的加密货币情报研究台插件。 | `Claude Code` | `crypto` `agent-teams` `market-intelligence` | ⭐ 123<br><sub>2026-08-23</sub> |
 | **[Mycelium AI Brain](https://github.com/mycelium-hq/ai-brain-starter)** | 面向 Claude Code 的个人知识操作系统插件，整合长期记忆、日志复盘、知识图谱与模式识别。 | `Claude Code` | `memory` `obsidian` `journaling` | ⭐ 56<br><sub>2026-11-27</sub> |
 | **[Arcmira Transcript Search](https://github.com/arcmira/mcp)** | 通过 MCP 与技能检索 YouTube 与播客字幕中的原话引用、品牌提及与赞助信息。 | `Claude Code` `通用` | `youtube` `podcasts` `transcripts` | — |
 | **[arXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server)** | 面向学术文献研究的本地 arXiv MCP 服务器，支持论文检索、下载、LaTeX 章节解析与 BibTeX 管理。 | `通用` | `uvx arxiv-mcp-server` | — |
@@ -111,6 +132,9 @@
 
 | 名称 | 简介 | 兼容工具 | 安装 / 标签 | 活跃度 |
 | --- | --- | --- | --- | --- |
+| **[Zapier Official Plugin](https://github.com/zapier/mcp)** `官方` | Zapier 官方插件分发包，通过托管 MCP 将 Claude Code、Codex 与 Cursor 接入数千款 SaaS 应用。 | `Claude Code` `Codex` `Cursor` `通用` | `zapier` `automation` `integrations` | ⭐ 467<br><sub>2026-11-20</sub> |
+| **[AgenticMail](https://github.com/agenticmail/agenticmail)** `官方` | 为 AI Agent 提供真实邮件收发、短信与外呼语音电话能力的通信基础设施插件。 | `Claude Code` `通用` | `email` `sms` `voice-calls` | ⭐ 261<br><sub>2026-11-26</sub> |
+| **[Taskade Official Plugin & MCP](https://github.com/taskade/mcp)** `官方` | Taskade 官方 Agent 插件与 MCP 服务，支持接入工作区协作与 OpenAPI 转 MCP 代码生成。 | `Claude Code` `Cursor` `Codex` `通用` | `taskade` `workspace` `openapi` | ⭐ 170<br><sub>2026-11-26</sub> |
 | **[Beezi Cost & Usage Plugin](https://github.com/Beezi-AI/beezi-claude-plugin)** `官方` | Beezi 官方插件，用于追踪 Claude Code 单会话成本、生成个人用量摘要并一键起草工单。 | `Claude Code` | `cost-tracking` `analytics` `token-usage` | ⭐ 63<br><sub>2026-11-20</sub> |
 | **[Colibird Local MCP](https://github.com/colibird-ai/local-mcp-releases)** `官方` | 本地桌面端 MCP 服务器，将 Claude、ChatGPT 与 Cursor 连接到 Mac 和 Windows 原生文件与工作流。 | `通用` | `desktop` `macos` `windows` | — |
 | **[monday.com MCP](https://github.com/mondaycom/mcp)** `官方` | monday.com 官方 MCP 服务器，让 AI Agent 安全读写项目看板、任务条目与团队协作流程。 | `通用` | `official` `monday` `project-management` | — |
@@ -128,6 +152,7 @@
 | 名称 | 简介 | 兼容工具 | 安装 / 标签 | 活跃度 |
 | --- | --- | --- | --- | --- |
 | **[Hyperframes](https://github.com/heygen-com/hyperframes)** `官方` | HeyGen 官方开源的 AI 视频编辑插件与 MCP 工具集，支持用 HTML 编写动效并渲染输出 MP4。 | `Claude Code` `Codex` `Cursor` `Gemini CLI` | `video-editing` `html-to-video` `animation` | ⭐ 90.9k<br><sub>2026-11-27</sub> |
+| **[Glif Creative Media Plugin](https://github.com/glifxyz/glif-mcp-server)** `官方` | Glif 官方创意媒体插件与 MCP，跨端调用多样化生图、视频与音频生成工作流。 | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+1` | `glif` `image-generation` `video` | ⭐ 224<br><sub>2026-11-24</sub> |
 | **[Microsoft Clarity MCP](https://github.com/microsoft/clarity-mcp-server)** `官方` | 微软官方 Clarity MCP 服务器，用于查询网站用户体验分析、流量指标与行为洞察数据。 | `通用` | `npx -y @microsoft/clarity-mcp-server` | — |
 | **[Open SEO MCP & Skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills)** | 开源 SEO 与 GEO 技能及 MCP 组合，支持基于真实 GSC/GA4 数据的关键词研究、排名追踪与站点审计。 | `Claude Code` `通用` | `seo` `geo` `gsc` | ⭐ 10.7k<br><sub>2026-10-27</sub> |
 | **[NotFair SEO & GEO Plugin](https://github.com/nowork-studio/notfair-plugin)** | 融合 SEO、GEO 与 Google Ads 营销技能及实时 MCP 连接器的跨端增长插件。 | `Claude Code` `Gemini CLI` `通用` | `seo` `geo` `google-ads` | ⭐ 4.3k<br><sub>2026-11-17</sub> |
@@ -135,6 +160,7 @@
 | **[ComfyUI Control Plane](https://github.com/artokun/comfyui-mcp)** | 本地优先的 ComfyUI 控制面插件与 MCP 服务，内置 178 个工具与 36 个技能，用自然语言编排和运行生图/视频节点图。 | `Claude Code` `通用` | `comfyui` `image-generation` `video` | ⭐ 960<br><sub>2026-11-23</sub> |
 | **[XActions](https://github.com/nirholas/XActions)** | 免付费 API 的 X/Twitter 自动化插件与 MCP 工具包，支持采集与人工审批门控发帖互动。 | `Claude Code` `通用` | `twitter` `x` `automation` | ⭐ 670<br><sub>2026-11-27</sub> |
 | **[Humanizer RU Pro](https://github.com/ilyautov/humanizer-ru)** | 俄语文本深度编辑插件与 MCP，内置 67 项特征检测与 21 条禁用规则，消除公文腔并核查事实。 | `Claude Code` `通用` | `russian` `humanizer` `scanner` | ⭐ 618<br><sub>2026-11-26</sub> |
+| **[Oh My Cassette Video Editor](https://github.com/Cassette-Editor/oh-my-cassette)** | 随身 AI 视频剪辑搭档插件与 MCP，支持对话式蒙太奇剪辑与素材编排。 | `Claude Code` `Codex` `OpenCode` | `video-editing` `chat-to-edit` `montage` | ⭐ 218<br><sub>2026-11-26</sub> |
 | **[ClawFu Marketing MCP Skills](https://github.com/guia-matthieu/clawfu-skills)** | 汇聚 169 个大师级营销方法论技能的 MCP 服务，内置品牌记忆与转化文案体系。 | `Claude Code` `通用` | `marketing` `copywriting` `brand-memory` | — |
 | **[GoMarble Marketing Agent](https://github.com/gomarble-ai/marketing-agent)** | 面向效果广告团队的营销插件，结合投放分析技能与 OAuth 鉴权 MCP 连接器，覆盖 Meta、Google、TikTok、GA4 与 Shopify。 | `Claude Code` `Codex` | `/plugin marketplace add gomarble-ai/marketing-agent` | — |
 | **[Levea Video MCP](https://github.com/brajendrak00068/agentic-ai-video-production)** | 面向自动化 AI 视频剪辑的远程 MCP 服务，可将自然语言指令或长视频处理为带字幕与智能构图的成片。 | `通用` `Claude Code` | `video` `editing` `captions` | — |

@@ -1,0 +1,10 @@
+name: Dex Analytics Engineering
+repo: https://github.com/exmergo/dex
+category: data-research
+official: true
+agents: [claude-code]
+includes: [skills]
+tags: [bigquery, analytics-engineering, sql, bi]
+description:
+  en: Analytics engineering plugin letting coding agents model, test, and build BigQuery and data warehouse analytics pipelines.
+  zh: 面向数据分析工程的插件，让编程 Agent 自动建模、测试并构建 BigQuery 等数仓分析管线。

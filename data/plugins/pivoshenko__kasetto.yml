@@ -1,0 +1,10 @@
+name: Kasetto
+repo: https://github.com/pivoshenko/kasetto
+category: marketplaces-tooling
+official: false
+agents: [claude-code, antigravity, universal]
+includes: [tools]
+tags: [rust, environment-manager, declarative, skills-manager]
+description:
+  en: Declarative AI agent environment manager written in Rust to sync commands, skills, and configs across agent harnesses.
+  zh: 基于 Rust 编写的声明式 AI Agent 环境管理工具，跨端同步命令、技能与环境配置。

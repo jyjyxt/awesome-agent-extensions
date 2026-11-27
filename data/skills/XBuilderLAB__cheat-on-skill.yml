@@ -1,0 +1,9 @@
+name: AI-Proof Career Transition Skill
+repo: https://github.com/XBuilderLAB/cheat-on-skill
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [career-transition, job-search, chinese, learning-plan]
+description:
+  en: Chinese career transition skill combining real recruitment data, learnability gates, scam checks, and personalized study roadmaps.
+  zh: 结合真实招聘数据、可学性闸门与反诈筛选的 AI 时代职业转型规划与学习陪跑技能。

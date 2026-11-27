@@ -1,0 +1,10 @@
+name: Claude Flightdeck
+repo: https://github.com/scasella/claude-flightdeck
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [dashboard, observability, subagents, cost]
+description:
+  en: Live terminal dashboard mod displaying context/cost metrics, advisor timelines, permission checks, and subagent swimlanes.
+  zh: 终端实时飞行仪表盘插件，可视化展示上下文成本、权限校验记录与多子代理泳道进度。

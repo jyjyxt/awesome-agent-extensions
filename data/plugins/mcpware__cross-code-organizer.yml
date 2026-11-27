@@ -1,0 +1,10 @@
+name: Cross-Code Organizer
+repo: https://github.com/mcpware/cross-code-organizer
+category: marketplaces-tooling
+official: false
+agents: [claude-code, codex]
+includes: [tools]
+tags: [config-dashboard, mcp, skills-management, memory]
+description:
+  en: Cross-harness configuration dashboard managing Claude Code and Codex MCP servers, skills, memories, agents, sessions, and security.
+  zh: 统一管理 Claude Code 与 Codex 的 MCP、Skills、记忆、子代理、会话与安全配置的跨端控制台插件。

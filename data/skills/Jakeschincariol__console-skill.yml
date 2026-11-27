@@ -1,0 +1,9 @@
+name: PS2 Console Porting Skill
+repo: https://github.com/Jakeschincariol/console-skill
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [ps2, reverse-engineering, porting, gamedev]
+description:
+  en: 11 skills for reverse-engineering and porting owned PlayStation 2 games to PC with rebuilt graphics, controller support, and modding.
+  zh: 11 个 PS2 游戏 PC 移植与逆向工程技能，辅助代码逆向、图形后端重建、手柄适配与 Mod 开发。

@@ -1,0 +1,9 @@
+name: BeyondSEO
+repo: https://github.com/beyondtahir/beyondseo
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [seo, aeo, backlinks, competitor-analysis]
+description:
+  en: Open-source SEO and AEO skill suite for technical site audits, helpful content drafting, competitor benchmarks, and backlink planning.
+  zh: 开源 SEO 与 AEO 技能套件，涵盖站点审计、高质量内容撰稿、竞品对比与外链规划。

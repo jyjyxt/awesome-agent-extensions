@@ -1,0 +1,10 @@
+name: Oh My Patent
+repo: https://github.com/illusionaireal/oh-my-patent
+category: productivity
+official: false
+agents: [claude-code, codex, opencode]
+includes: [skills, subagents]
+tags: [patent, intellectual-property, technical-writing]
+description:
+  en: Multi-agent intellectual property plugin turning technical architectures and inventions into structured patent disclosure drafts.
+  zh: 将技术构想与源码架构转化为结构化专利交底书草案的多代理知识产权插件。

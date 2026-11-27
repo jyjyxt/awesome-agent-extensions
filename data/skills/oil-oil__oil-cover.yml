@@ -1,0 +1,9 @@
+name: Oil Cover Thumbnail Skill
+repo: https://github.com/oil-oil/oil-cover
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [thumbnails, bilibili, xiaohongshu, covers]
+description:
+  en: Extract key video frames and design click-worthy covers and thumbnails tailored for Bilibili and Xiaohongshu.
+  zh: 自动截取视频高光画面并设计高点击率 B 站与小红书封面的图文技能。

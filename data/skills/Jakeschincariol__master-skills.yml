@@ -1,0 +1,9 @@
+name: Creator Master Skills
+repo: https://github.com/Jakeschincariol/master-skills
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [video-editing, captions, stop-motion, viral]
+description:
+  en: Three high-impact creator skills focused on automated video editing, viral hook packaging, and rapid prototyping.
+  zh: 聚焦短视频剪辑、爆款包装与快速原型构建的三合一创作者核心技能。

@@ -1,0 +1,9 @@
+name: McKinsey-Style Visualization Skill
+repo: https://github.com/kgraph57/mckinsey-style-visualization-skill
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [board-slides, svg, consulting, charts]
+description:
+  en: Turn rough business notes into crisp, validated strategy-consulting SVG visuals and board-ready slide charts.
+  zh: 将凌乱业务笔记转化为带校验的麦肯锡风格战略咨询 SVG 图表与董事会级演示配图的技能。

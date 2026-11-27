@@ -1,0 +1,10 @@
+name: Power Apps Canvas YAML Skills
+repo: https://github.com/ToluVictor/canvas-apps-tools
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [power-apps, power-platform, yaml, low-code]
+description:
+  en: Generate paste-ready Microsoft Power Apps Canvas App YAML directly from UI screenshots, mockups, or plain text descriptions.
+  zh: 根据界面截图、原型图或文字描述直接生成可粘贴运行的 Microsoft Power Apps Canvas YAML 技能插件。

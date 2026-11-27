@@ -1,0 +1,9 @@
+name: GenerateBlocks V2 WordPress Skills
+repo: https://github.com/wpgaurav/generateblocks-skills
+category: frontend-design
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [wordpress, generateblocks, block-editor, mcp]
+description:
+  en: Author valid GenerateBlocks V2 & Pro WordPress block markup for layouts and query loops with live MCP publishing.
+  zh: 编写符合 GenerateBlocks V2/Pro 规范的 WordPress 区块代码并通过 MCP 实时发布的专项技能。

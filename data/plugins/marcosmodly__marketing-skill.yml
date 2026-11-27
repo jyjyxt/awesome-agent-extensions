@@ -1,0 +1,10 @@
+name: Composable Marketing Plugin (14 Skills)
+repo: https://github.com/marcosmodly/marketing-skill
+category: content-marketing
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [marketing, cold-outreach, seo-briefs, ad-copy]
+description:
+  en: 14 composable marketing skills covering competitor research, content calendars, SEO briefs, ad copy, cold outreach, and short-form video.
+  zh: 14 个可组合营销技能插件，覆盖竞品调研、内容日历、SEO 简报、广告文案、冷邮件外呼与短视频脚本。

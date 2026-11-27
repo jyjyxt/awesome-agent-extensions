@@ -1,0 +1,9 @@
+name: DailyBrief AI Digest
+repo: https://github.com/leiting-eric/DailyBrief
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [daily-digest, rss, github-trending, chinese]
+description:
+  en: Automated daily tech and market briefing skill aggregating 23 sources (GitHub, X, RSS, market charts) into Chinese LLM digests.
+  zh: 聚合 23 个数据源（GitHub 热门、X 精选、行情分析等）自动生成中文 AI 每日简报的技能。

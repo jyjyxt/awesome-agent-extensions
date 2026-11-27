@@ -1,0 +1,10 @@
+name: SecondSky Cloudflare & React Skills
+repo: https://github.com/secondsky/claude-skills
+category: cloud-devops
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [cloudflare, react, tailwind-v4, hooks]
+description:
+  en: Production-focused Claude Code skills, commands, and hooks for Cloudflare Workers, React, Tailwind v4, and AI integrations.
+  zh: 聚焦 Cloudflare、React、Tailwind v4 与 AI 集成的生产级 Claude Code 技能与 Hooks 插件。

@@ -1,0 +1,9 @@
+name: Claude Prime One-Command Setup
+repo: https://github.com/avibebuilder/claude-prime
+category: marketplaces-tooling
+official: false
+agents: [claude-code]
+tags: [setup, hooks, memory, bootstrap]
+description:
+  en: One-command bootstrapper installing an integrated stack of skills, hooks, specialist agents, and memory systems for Claude Code.
+  zh: 一条命令为 Claude Code 配齐技能、Hooks、子代理与记忆体系的快速初始化套件。

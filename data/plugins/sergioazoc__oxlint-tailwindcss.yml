@@ -1,0 +1,10 @@
+name: Oxlint Tailwind CSS v4
+repo: https://github.com/sergioazoc/oxlint-tailwindcss
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+includes: [tools]
+tags: [oxlint, tailwindcss, linter, design-system, shadcn]
+description:
+  en: Design-system-aware Tailwind CSS v4 lint rules for oxlint catching unknown, conflicting, and deprecated classes with autofixes.
+  zh: 读取项目设计系统的 Tailwind CSS v4 Oxlint 规则插件，自动检测冲突/废弃类名并一键修复。

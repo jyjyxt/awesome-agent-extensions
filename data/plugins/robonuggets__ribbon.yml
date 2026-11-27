@@ -1,0 +1,10 @@
+name: Ribbon Usage & Cache Bar
+repo: https://github.com/robonuggets/ribbon
+category: productivity
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [usage, prompt-cache, statusline, mod]
+description:
+  en: Minimal status ribbon above your Claude Code prompt showing remaining quota, reset timers, and prompt-cache warm/cold state.
+  zh: 在 Claude Code 输入框上方显示剩余额度、重置倒计时与缓存冷热状态的极简状态条插件。

@@ -1,0 +1,10 @@
+name: Recomby GEO AI Employee
+repo: https://github.com/ViryaZheng/recomby-geo
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [geo, ai-search, marketing, automation]
+description:
+  en: Open-source Generative Engine Optimization (GEO) skillset and agent workflow stack for improving AI search visibility.
+  zh: 开源 GEO（生成式引擎优化）技能包与 AI 员工工作流方案，提升品牌在 AI 搜索中的可见度。

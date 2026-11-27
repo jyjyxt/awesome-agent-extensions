@@ -1,0 +1,9 @@
+name: Chinese Official Doc Formatter Skill
+repo: https://github.com/KaguraNanaga/document-format-skills
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [docx, chinese, gongwen, formatting]
+description:
+  en: Word document formatting toolkit skill automating standard Chinese official document typography, margins, and headers.
+  zh: 专业中文公文 Word 排版处理技能，自动化规范字体、页边距、标题层级与版式细节。

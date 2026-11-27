@@ -1,0 +1,10 @@
+name: Scrolltide Scroll-Animation Skill
+repo: https://github.com/scrolltide/ai-studio-skill
+category: frontend-design
+official: true
+agents: [claude-code, universal]
+includes: [skills]
+tags: [scroll-animation, parallax, svg-paths, frontend]
+description:
+  en: Build scroll-driven interactive websites featuring scroll films, layered parallax, and self-drawing SVG paths distilled from real builds.
+  zh: 打造滚动叙事电影感网页、多层视差与自绘 SVG 路径动效的前端互动设计技能插件。

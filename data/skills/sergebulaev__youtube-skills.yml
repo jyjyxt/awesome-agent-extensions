@@ -1,0 +1,9 @@
+name: YouTube & Shorts Marketing Skills
+repo: https://github.com/sergebulaev/youtube-skills
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [youtube, shorts, titles, retention-hooks, seo]
+description:
+  en: YouTube and Shorts creator skills for high-CTR titles, SEO descriptions, retention hooks, thumbnail concepts, and content plans.
+  zh: YouTube 与 Shorts 增长技能包，涵盖高点击标题、SEO 描述、留存钩子、封面构思与内容规划。

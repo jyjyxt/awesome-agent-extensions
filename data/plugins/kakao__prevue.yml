@@ -1,0 +1,10 @@
+name: Kakao Prevue (Compose Live Preview)
+repo: https://github.com/kakao/prevue
+category: frontend-design
+official: true
+agents: [claude-code, codex, universal]
+includes: [tools]
+tags: [kakao, jetpack-compose, android, preview]
+description:
+  en: Official Kakao plugin rendering Jetpack Compose and Compose Multiplatform previews live in your browser within a second—no Android Studio required.
+  zh: Kakao 官方插件，无需启动 Android Studio 即可在浏览器中秒级实时渲染 Jetpack Compose 界面供 Agent 查验。

@@ -1,0 +1,9 @@
+name: Work Humanizer
+repo: https://github.com/phuryn/work-humanizer
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [humanizer, work-writing, editing]
+description:
+  en: Evidence-tested workplace writing humanizer stripping AI tone while strictly preserving every factual claim and commitment.
+  zh: 专为职场公文与商务写作设计的去 AI 味技能，经盲测验证确保消除机器腔且不篡改原意与承诺。

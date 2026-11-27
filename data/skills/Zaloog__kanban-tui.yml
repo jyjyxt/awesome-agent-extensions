@@ -1,0 +1,9 @@
+name: Kanban TUI Agent Skill
+repo: https://github.com/Zaloog/kanban-tui
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [kanban, tui, jira, task-manager]
+description:
+  en: Terminal Kanban board TUI with agent skills allowing humans and coding agents to share and update tasks seamlessly.
+  zh: 基于 Python Textual 的终端看板任务管理工具与技能，支持人类与 Agent 共享更新任务流。

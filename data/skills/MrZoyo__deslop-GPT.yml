@@ -1,0 +1,9 @@
+name: DeSlop Code Cleanup Skill
+repo: https://github.com/MrZoyo/deslop-GPT
+category: coding
+official: false
+agents: [claude-code, codex, universal]
+tags: [code-cleanup, refactoring, testing]
+description:
+  en: Deletion-first code hygiene skill removing bloated tests, verification theater, and speculative fallbacks while preserving exact behavior.
+  zh: 删除优先的代码净化技能，精准清理冗余测试、形式主义校验与过度防御代码而不改变既有行为。

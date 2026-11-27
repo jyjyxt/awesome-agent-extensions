@@ -1,0 +1,9 @@
+name: OranGEO AI Visibility Skill
+repo: https://github.com/OranAi-Ltd/orangeo-ai-visibility-skill
+category: content-marketing
+official: true
+agents: [claude-code, universal]
+tags: [geo, aeo, llms-txt, schema, brand-monitoring]
+description:
+  en: Open-source GEO/AEO visibility audit skill checking robots.txt, llms.txt, structured schema, citation signals, and competitor gaps.
+  zh: 开源 GEO/AEO AI 搜索可见度审计技能，全面检测 robots.txt、llms.txt、Schema 与引用信号差距。

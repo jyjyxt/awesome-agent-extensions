@@ -1,0 +1,9 @@
+name: Compose Preview & Gradle AI Tools
+repo: https://github.com/yschimke/compose-ai-tools
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+tags: [android, compose-multiplatform, compose-preview, gradle]
+description:
+  en: Gradle plugin and agent skills giving coding agents live Jetpack Compose & Compose Multiplatform preview inspection.
+  zh: 通过 Gradle 插件与技能让 AI 编码助手实时预览并校验 Jetpack Compose / Multiplatform 界面。

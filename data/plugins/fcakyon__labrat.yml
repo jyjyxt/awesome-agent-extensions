@@ -1,0 +1,10 @@
+name: LabRat PhD Research Skills
+repo: https://github.com/fcakyon/labrat
+category: data-research
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [phd, academic, paper-reproduction, experiments]
+description:
+  en: PhD research plugin and skills for paper reproduction, experiment design, peer review, and systematic result comparison.
+  zh: 面向博士与科研人员的 Claude Code 技能插件，覆盖论文复现、实验设计、审稿与结果对比。

@@ -1,0 +1,9 @@
+name: Docmancer Agent Memory Indexer
+repo: https://github.com/docmancer/docmancer
+category: orchestration
+official: false
+agents: [claude-code, codex, cursor, gemini-cli]
+tags: [memory, rules, indexing, cross-agent]
+description:
+  en: Indexes all memories, rules, and instructions written by Claude Code, Codex, Cursor, and Gemini on your machine for unified visibility.
+  zh: 统一索引本机 Claude Code、Codex、Cursor 与 Gemini 写入的所有记忆与规则文件的检索技能。

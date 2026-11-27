@@ -1,0 +1,10 @@
+name: Excalidraw CLI & Skill
+repo: https://github.com/swiftlysingh/excalidraw-cli
+category: frontend-design
+official: false
+agents: [claude-code, codex, universal]
+includes: [skills, tools]
+tags: [excalidraw, diagrams, cli, automation]
+description:
+  en: Generate editable Excalidraw architecture and flow diagrams from plain text or JSON in developer and agent workflows.
+  zh: 从纯文本或 JSON 自动生成可编辑 Excalidraw 手绘架构图的命令行工具与技能插件。

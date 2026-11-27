@@ -1,0 +1,10 @@
+name: Agent Orchestration Standard (AOS-1)
+repo: https://github.com/tomtomsatnav/agent-orchestration-standard
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [mcp, tools]
+tags: [observability, dashboard, replay, alerts]
+description:
+  en: Local-first observability plugin, TUI, and MCP server visualizing agent graphs, token spend, tool feeds, session replays, and alerts.
+  zh: 本地优先的可观测性插件与 MCP，实时呈现代理拓扑图、Token 消耗、工具流回放与异常告警。

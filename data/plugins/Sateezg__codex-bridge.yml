@@ -1,0 +1,10 @@
+name: Codex Bridge (GPT-5 & Image Gen)
+repo: https://github.com/Sateezg/codex-bridge
+category: orchestration
+official: false
+agents: [claude-code, codex]
+includes: [subagents, tools]
+tags: [codex, gpt-image-2, image-generation, bridge]
+description:
+  en: Bring gpt-image-2 generation and GPT-5 subagents into Claude Code using your existing Codex CLI login with no separate API key.
+  zh: 复用现有 Codex CLI 登录态，无需单独 API Key 即可在 Claude Code 中调用图像生成与 GPT 子代理的桥接插件。

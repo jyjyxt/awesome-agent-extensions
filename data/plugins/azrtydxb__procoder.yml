@@ -1,0 +1,10 @@
+name: ProCoder Quality Gates
+repo: https://github.com/azrtydxb/procoder
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [commit-gate, quality-control, code-review, linter]
+description:
+  en: Senior-developer discipline plugin with strict commit gates that treat unchecked code as failing and block unfinished work.
+  zh: 强制资深研发标准的提交门禁插件，未检验变更一律判定失败并拦截未完工交付。

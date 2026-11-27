@@ -1,0 +1,10 @@
+name: Offline Mobile Game Revival Skill
+repo: https://github.com/Cynthia-wlan9509/offline-game-revival
+category: coding
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [android, apk, game-preservation, offline]
+description:
+  en: Game preservation skill helping reconstruct shut-down mobile games as offline memorial builds and recover player records from screenshots.
+  zh: 停服手游离线纪念版重建与截图存档数据抢救技能插件，助力游戏数字文化遗产保存。

@@ -1,0 +1,10 @@
+name: Deliberation Multi-Model Consensus
+repo: https://github.com/antonbabenko/deliberation
+category: orchestration
+official: false
+agents: [claude-code, codex, cursor]
+includes: [mcp, skills]
+tags: [consensus, code-review, openrouter, multi-model]
+description:
+  en: Query Codex, Gemini, Grok, and 400+ OpenRouter models for second opinions or arbiter-mediated architectural consensus.
+  zh: 向 Codex、Gemini、Grok 及 400+ OpenRouter 模型征求第二意见并由仲裁模型达成共识的插件。

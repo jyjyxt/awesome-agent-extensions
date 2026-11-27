@@ -1,0 +1,9 @@
+name: KubeShark Kubernetes Skill
+repo: https://github.com/LukasNiessen/kubernetes-skill
+category: cloud-devops
+official: false
+agents: [claude-code, codex, universal]
+tags: [kubernetes, helm, devops, k8s]
+description:
+  en: Anti-hallucination Kubernetes and Helm skill grounding manifests, upgrades, and cluster ops against official K8s documentation.
+  zh: 消除大模型 Kubernetes/Helm 幻觉的专项运维技能，严格基于官方文档生成安全可靠的集群配置。

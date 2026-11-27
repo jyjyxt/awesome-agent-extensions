@@ -1,0 +1,10 @@
+name: Unslop AI Prose
+repo: https://github.com/MohamedAbdallah-14/unslop
+category: content-marketing
+official: false
+agents: [claude-code, cursor, windsurf, universal]
+includes: [skills]
+tags: [anti-slop, humanizer, writing]
+description:
+  en: Strips AI-isms (sycophancy, stock vocabulary, hedging, em-dash pileups) while strictly preserving code blocks, URLs, and headings.
+  zh: 精准剔除 AI 写作套话、过度附和与破折号堆砌，同时完整保留代码块、链接与标题的跨端写作插件。

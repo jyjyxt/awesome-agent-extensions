@@ -1,0 +1,9 @@
+name: BB-Video Pure-Code Explainers
+repo: https://github.com/BubbleBrainBB/BB-Video
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [explainer-video, ffmpeg, headless-chrome, motion-graphics]
+description:
+  en: Pure-code narrated explainer and product promo video skill offering 37 visual styles from whiteboard and ink-wash to shadow puppets and pixel art.
+  zh: 纯代码旁白解说与产品宣传视频技能，内置白板、水墨、皮影、像素等 37 套视觉风格。

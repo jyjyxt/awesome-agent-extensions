@@ -1,0 +1,10 @@
+name: UltraShip Delivery Plugin
+repo: https://github.com/Houseofmvps/ultraship
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills, subagents, tools]
+tags: [shipping, pentesting, canary, seo, guardrails]
+description:
+  en: Full ship-ready plugin with 39 skills, 33 tools, and 11 agents covering planning, code review, pentesting, canary monitoring, and SEO readiness.
+  zh: 一站式上线交付插件，集成 39 个技能、33 个工具与 11 个子代理，覆盖审查、渗透、灰度监控与 SEO 体检。

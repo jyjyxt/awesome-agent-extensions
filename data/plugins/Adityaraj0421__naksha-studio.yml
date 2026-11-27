@@ -1,0 +1,10 @@
+name: Naksha Virtual Design Studio
+repo: https://github.com/Adityaraj0421/naksha-studio
+category: frontend-design
+official: false
+agents: [claude-code, cursor, windsurf, gemini-cli, copilot]
+includes: [skills, subagents]
+tags: [design-team, accessibility, components, data-viz]
+description:
+  en: Virtual design agency plugin bundling 30 design roles, 70 commands, and deep accessibility and data-visualization knowledge.
+  zh: 虚拟设计工作室插件，内置 30 个设计角色、70 个命令与系统化组件库、无障碍及数据可视化规范。

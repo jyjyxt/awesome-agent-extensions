@@ -1,0 +1,9 @@
+name: Sincere Dating Advisor Skill
+repo: https://github.com/BeamusWayne/simp-skill
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [relationships, communication, chinese]
+description:
+  en: Anti-PUA, sincerity-focused interpersonal communication and relationship coaching skill.
+  zh: 反套路、重真诚的情感沟通与亲密关系辅导技能。

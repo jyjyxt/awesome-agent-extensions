@@ -1,0 +1,10 @@
+name: OpenInvest Committee Engine
+repo: https://github.com/longsizhuo/openInvest
+category: data-research
+official: false
+agents: [claude-code]
+includes: [skills, subagents]
+tags: [investing, backtesting, multi-agent, quant]
+description:
+  en: Research-grade investment committee plugin with isolated analyst agents, auditable verdicts, and lookahead-protected backtesting.
+  zh: 研究级多智能体投研委员会插件，提供隔离分析师角色、可审计结论与防未来函数回测。

@@ -1,0 +1,9 @@
+name: Journalism & FOIA Skills
+repo: https://github.com/jamditis/claude-skills-journalism
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [journalism, fact-checking, foia, data-journalism]
+description:
+  en: Specialized Claude Code skills for investigative journalism, source verification, FOIA requests, data journalism, and academic reporting.
+  zh: 面向新闻调查与媒体人的技能包，涵盖事实核查、FOIA 信息公开申请、数据新闻与学术写作。

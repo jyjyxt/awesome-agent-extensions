@@ -1,0 +1,9 @@
+name: Robotics & ROS2 Agent Skills
+repo: https://github.com/arpitg1304/robotics-agent-skills
+category: coding
+official: false
+agents: [claude-code, cursor, universal]
+tags: [robotics, ros1, ros2, solid, testing]
+description:
+  en: Production robotics engineering skills covering ROS1, ROS2, real-time design patterns, SOLID architecture, and robotics testing.
+  zh: 面向机器人软件开发的生产级技能包，涵盖 ROS1/ROS2、设计模式、SOLID 原则与自动化测试。

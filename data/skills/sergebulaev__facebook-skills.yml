@@ -1,0 +1,9 @@
+name: Facebook Pages Marketing Skills
+repo: https://github.com/sergebulaev/facebook-skills
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [facebook, social-media, content-marketing]
+description:
+  en: Facebook Pages marketing skills for drafting high-share posts, hooks, engagement replies, and weekly publishing schedules.
+  zh: Facebook 公共主页运营技能包，覆盖高转发贴文、钩子设计、评论互动与周发布排期。

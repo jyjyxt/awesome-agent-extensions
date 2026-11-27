@@ -1,0 +1,10 @@
+name: Plinth Java Enterprise Toolkit
+repo: https://github.com/jabrena/plinth
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills, subagents, mcp]
+tags: [java, enterprise, sdlc, spring]
+description:
+  en: AI-native engineering plugin for modern Java enterprise SDLC combining reusable commands, specialist agents, skills, and MCP servers.
+  zh: 面向现代 Java 企业级研发全生命周期的 AI 工程插件，集成命令、子代理、技能与 MCP 服务。

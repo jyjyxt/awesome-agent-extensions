@@ -1,0 +1,10 @@
+name: Ducktor (HKUST Research Loop)
+repo: https://github.com/HKUSTDial/Ducktor
+category: data-research
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [research, graduate-students, knowledge-loop]
+description:
+  en: Academic research companion plugin by HKUSTDial closing the knowledge feedback loop for graduate students doing vibe research.
+  zh: 港科大 HKUSTDial 出品的科研知识闭环插件，帮助研究生在 AI 辅助科研中与 Agent 共同沉淀进化。

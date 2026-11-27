@@ -1,0 +1,9 @@
+name: Khan-Style Explainer Video Skill
+repo: https://github.com/haiderfarooq3/khan-explainer
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [explainer-video, education, ffmpeg, local]
+description:
+  en: Generate Khan Academy-style blackboard explainer videos locally where a virtual pen draws diagrams synced to narration with zero API keys.
+  zh: 免 API Key 本地生成可汗学院风格黑板手绘解说视频的技能，支持画笔同步绘制与旁白配音。

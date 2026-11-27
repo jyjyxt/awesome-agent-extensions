@@ -1,0 +1,9 @@
+name: Interactive HTML Architecture Diagrams
+repo: https://github.com/konraddzbik/architecture-diagram-skill
+category: coding
+official: false
+agents: [claude-code, copilot, opencode, universal]
+tags: [architecture, animated-diagram, html, onboarding]
+description:
+  en: Generate click-through, animated system architecture diagrams in a single HTML file ideal for design reviews and onboarding.
+  zh: 生成单文件可点击交互的动态系统架构图技能，非常适合架构评审与新人入职文档。

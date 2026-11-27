@@ -1,0 +1,10 @@
+name: Brazil LGPD Compliance Skills
+repo: https://github.com/goul4rt/lgpd-skills
+category: security
+official: false
+agents: [claude-code, codex, gemini-cli, cursor, opencode]
+includes: [skills]
+tags: [lgpd, brazil, privacy, compliance]
+description:
+  en: Brazilian LGPD (Law 13.709/2018), ANPD resolution, and ECA Digital privacy compliance skills for cross-agent auditing.
+  zh: 面向巴西 LGPD 数据保护法、ANPD 决议与数字合规审查的跨端法律合规技能插件。

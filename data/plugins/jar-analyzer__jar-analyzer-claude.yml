@@ -1,0 +1,10 @@
+name: JAR Analyzer Security Audit
+repo: https://github.com/jar-analyzer/jar-analyzer-claude
+category: security
+official: true
+agents: [claude-code]
+includes: [tools]
+tags: [java, jar-analyzer, code-audit, vulnerability]
+description:
+  en: Official jar-analyzer Claude Code plugin indexing Java JAR bytecode into a queryable database for deep AI vulnerability auditing.
+  zh: 基于 jar-analyzer 的 Java JAR 包安全审计插件，自动构建字节码数据库并驱动 AI 深度挖洞。

@@ -1,0 +1,10 @@
+name: NestJS Official Agent Skills
+repo: https://github.com/nestjs/agent-skills
+category: coding
+official: true
+agents: [claude-code, codex, cursor, universal]
+includes: [skills]
+tags: [nestjs, nodejs, typescript, backend]
+description:
+  en: Official NestJS framework agent skills teaching coding agents idiomatic modules, dependency injection, guards, and testing.
+  zh: NestJS 官方维护的 Node.js 后端框架 Agent 技能插件，规范模块化、依赖注入与测试实践。

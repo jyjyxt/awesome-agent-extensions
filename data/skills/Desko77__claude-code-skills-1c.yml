@@ -1,0 +1,9 @@
+name: "1C:Enterprise Full Skills Suite"
+repo: https://github.com/Desko77/claude-code-skills-1c
+category: coding
+official: false
+agents: [claude-code]
+tags: [1c-enterprise, bsl, erp, json]
+description:
+  en: "122 skills and 49 rules for 1C:Enterprise allowing agents to assemble and decompile metadata, forms, extensions, and reports via compact JSON."
+  zh: "122 个 1C:Enterprise 专项开发技能与 49 条规则，支持通过紧凑 JSON 高效组装与解析 1C 源码与表单。"

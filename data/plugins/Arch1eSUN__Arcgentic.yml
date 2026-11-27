@@ -1,0 +1,10 @@
+name: Arcgentic
+repo: https://github.com/Arch1eSUN/Arcgentic
+category: orchestration
+official: false
+agents: [claude-code, codex]
+includes: [skills, mcp]
+tags: [quality-gates, self-audit, role-routing, mcp-ui]
+description:
+  en: Mechanical plan-dev-self-audit-external-audit gates with configurable role routing and an MCP-UI live status panel.
+  zh: 强制执行规划、开发、自审与外审四重机械门禁的插件，配备可配置角色路由与实时状态面板。

@@ -1,0 +1,10 @@
+name: Claude Skins
+repo: https://github.com/hellosverre/claude-skins
+category: productivity
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [themes, terminal, mermaid, statusline]
+description:
+  en: Live-switchable /skin terminal themes for Claude Code with iconized tool rows, diff/table/Mermaid cards, and a usage band.
+  zh: 支持 /skin 实时切换 15 套终端皮肤的美化插件，带图标工具栏、Diff/Mermaid 卡片与用量条。

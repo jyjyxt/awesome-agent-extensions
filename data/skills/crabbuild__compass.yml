@@ -1,0 +1,9 @@
+name: Compass Rust Code Graph
+repo: https://github.com/crabbuild/compass
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [rust, knowledge-graph, code-intelligence, local-first]
+description:
+  en: Local-first Rust knowledge graph engine and skill indexing code symbols and project artifacts for instant architectural recall.
+  zh: 基于 Rust 的本地优先代码与项目工件知识图谱引擎及 Agent 技能。

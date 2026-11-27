@@ -1,0 +1,9 @@
+name: Job Hunt Copilot
+repo: https://github.com/spontaneousai/job-hunt-copilot
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [resume, interviews, job-search, career]
+description:
+  en: Maintain a personal project library and automatically generate tailored resumes, pitch scripts, and mock interviews for every target role.
+  zh: 沉淀个人项目素材库，针对每个投递岗位自动定制简历、面试讲稿并开展模拟面试的技能。

@@ -1,0 +1,9 @@
+name: Education & Gaokao Tutoring Skills
+repo: https://github.com/flysheep-ai/education-skills
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [education, gaokao, tutoring, chinese]
+description:
+  en: Chinese K-12 and Gaokao tutoring skill suite providing structured study plans, error-book analysis, and concept explanations.
+  zh: 面向中小学与高考备考的中文教学辅导技能集，支持错题归因、知识点精讲与学习规划。

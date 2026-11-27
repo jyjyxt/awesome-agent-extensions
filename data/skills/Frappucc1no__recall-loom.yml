@@ -1,0 +1,9 @@
+name: Recall Loom Project Memory
+repo: https://github.com/Frappucc1no/recall-loom
+category: orchestration
+official: false
+agents: [claude-code, universal]
+tags: [memory, long-running, local-files]
+description:
+  en: Local file-based project memory skill keeping context, decisions, progress, and next steps intact across models and long sessions.
+  zh: 基于本地项目文件的跨模型、跨会话长期工作记忆技能，完整留存决策与进度。

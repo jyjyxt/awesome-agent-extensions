@@ -1,0 +1,10 @@
+name: First Pass Pre-Code Review
+repo: https://github.com/joetawil7/first-pass
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [code-review, hooks, pre-checks, verification]
+description:
+  en: "Forces holistic awareness around every edit: ten pre-code questions, an independent reviewer pass, and concrete proof before done."
+  zh: 强制编码前十问、独立审查视角与完工举证的全局代码质量防护技能插件。

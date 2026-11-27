@@ -1,0 +1,9 @@
+name: Agent Designer Cross-CLI Workspace
+repo: https://github.com/appautomaton/agent-designer
+category: orchestration
+official: false
+agents: [claude-code, codex, gemini-cli]
+tags: [issue-driven, cross-agent, bridge, session-continuity]
+description:
+  en: Portable SKILLs workspace enabling issue-driven workflows and cross-agent collaboration between Claude Code, Codex, and Gemini CLI.
+  zh: 支持 Issue 驱动开发与 Claude Code、Codex、Gemini CLI 跨端协作的便携工作流技能。

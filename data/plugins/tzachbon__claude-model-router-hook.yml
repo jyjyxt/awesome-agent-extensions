@@ -1,0 +1,10 @@
+name: Claude Model Router Hook
+repo: https://github.com/tzachbon/claude-model-router-hook
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [hooks, model-routing, cost-optimization]
+description:
+  en: Lightweight Claude Code hook automatically switching between Haiku, Sonnet, and Opus tiers based on task complexity.
+  zh: 根据任务复杂度自动在轻量与旗舰模型间动态路由切换的 Claude Code Hook 降本插件。

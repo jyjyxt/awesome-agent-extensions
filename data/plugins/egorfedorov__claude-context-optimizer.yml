@@ -1,0 +1,10 @@
+name: Claude Context Optimizer
+repo: https://github.com/egorfedorov/claude-context-optimizer
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [cost-saving, heatmaps, roi, budget-alerts]
+description:
+  en: Tracks token usage, builds context heatmaps, issues budget alerts, and generates git-aware ROI reports to cut API spend by 30-50%.
+  zh: 通过上下文热力图、预算告警与 ROI 报告定位浪费上下文并节省 30–50% API 费用的插件。

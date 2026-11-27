@@ -1,0 +1,10 @@
+name: Compact Adviser
+repo: https://github.com/kunchenguid/compact-adviser
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [compaction, token-optimization, hooks]
+description:
+  en: Detects natural task boundaries in Claude Code sessions and nudges you to run /compact at the ideal moment to save tokens.
+  zh: 自动识别任务完成节点并适时提醒执行 /compact 压缩上下文以节省 Token 的轻量插件。

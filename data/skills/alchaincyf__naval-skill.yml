@@ -1,0 +1,9 @@
+name: Naval Ravikant Leverage Skill
+repo: https://github.com/alchaincyf/naval-skill
+category: productivity
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [naval, leverage, decision-making, wealth]
+description:
+  en: Decision-making and specific-knowledge leverage framework distilled from Naval Ravikant principles.
+  zh: 提炼纳瓦尔杠杆思维与专长决策模型的认知操作系统技能。

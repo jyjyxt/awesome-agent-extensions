@@ -1,0 +1,9 @@
+name: LLM Wiki Newsroom
+repo: https://github.com/alfadur7/llm-wiki-newsroom
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [wiki, newsroom, multi-agent, digital-garden]
+description:
+  en: Self-evolving multi-agent newsroom skill that transforms raw documents into a cross-linked Markdown wiki via continuous regrounding loops.
+  zh: 模拟编辑部运作的多智能体知识生产技能，通过持续校验回溯将原始文档转化为互链 Markdown Wiki。

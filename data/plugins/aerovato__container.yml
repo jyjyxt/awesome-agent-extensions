@@ -1,0 +1,10 @@
+name: Aerovato Persistent Containers
+repo: https://github.com/aerovato/container
+category: cloud-devops
+official: false
+agents: [claude-code, universal]
+includes: [tools]
+tags: [linux, containers, workspaces, sandbox]
+description:
+  en: Persistent isolated Linux workspace containers integrated as a Claude Code plugin for reproducible agentic development.
+  zh: 为 AI 编程提供持久化隔离 Linux 开发工作区容器的 Claude Code 插件。

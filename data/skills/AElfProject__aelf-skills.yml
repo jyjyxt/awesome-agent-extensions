@@ -1,0 +1,9 @@
+name: aelf Blockchain Skills
+repo: https://github.com/AElfProject/aelf-skills
+category: coding
+official: true
+agents: [claude-code, codex, cursor, universal]
+tags: [aelf, blockchain, web3, bootstrap]
+description:
+  en: Official aelf blockchain agent skills for project bootstrapping, smart-contract workflows, routing, and node health checks.
+  zh: aelf 区块链官方 Agent 技能包，支持项目初始化、合约开发路由与节点健康检查。

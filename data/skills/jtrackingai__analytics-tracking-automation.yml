@@ -1,0 +1,9 @@
+name: GA4 & GTM Tracking Automation
+repo: https://github.com/jtrackingai/analytics-tracking-automation
+category: data-research
+official: false
+agents: [claude-code, cursor, codex, universal]
+tags: [ga4, gtm, analytics, event-tracking]
+description:
+  en: Automate Google Analytics 4 and Google Tag Manager event schemas, GTM syncing, preview verification, and publishing.
+  zh: 自动化完成网站埋点分析、GA4/GTM 事件 Schema 设计、同步预览校验与发布的埋点技能。

@@ -1,0 +1,9 @@
+name: TikTok Marketing Skills
+repo: https://github.com/sergebulaev/tiktok-skills
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [tiktok, hooks, short-video, social-media]
+description:
+  en: TikTok growth skills for 3-second video hooks, captions, trend mapping, humanizing scripts, and weekly content calendars.
+  zh: TikTok 短视频增长技能包，涵盖前 3 秒黄金钩子、文案、趋势拆解与周排期计划。

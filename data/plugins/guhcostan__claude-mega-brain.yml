@@ -1,0 +1,10 @@
+name: Claude Mega Brain (OKF)
+repo: https://github.com/guhcostan/claude-mega-brain
+category: data-research
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [okf, knowledge-base, second-brain, context]
+description:
+  en: OKF-powered knowledge injection plugin automatically surfacing your project knowledge base at the start of every Claude Code session.
+  zh: 基于 OKF 标准的知识注入插件，在每次 Claude Code 会话开始时自动挂载项目知识库上下文。

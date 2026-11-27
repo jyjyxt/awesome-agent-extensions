@@ -1,0 +1,10 @@
+name: Agentic SOP to Work
+repo: https://github.com/s0912758806p/agentic-sop-to-work
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [sop, deterministic, workflow, gates]
+description:
+  en: Claude Code plugin converting human Standard Operating Procedures (SOPs) into deterministic, gated agentic workflows.
+  zh: 将企业人工 SOP 标准作业程序转化为确定性、带门禁校验 Agent 工作流的插件。

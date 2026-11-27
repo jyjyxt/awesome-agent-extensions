@@ -1,0 +1,10 @@
+name: Superloopy Evidence Loop
+repo: https://github.com/beefiker/superloopy
+category: orchestration
+official: false
+agents: [claude-code, codex, antigravity]
+includes: [skills]
+tags: [loop-harness, evidence-gates, cross-agent]
+description:
+  en: Lightweight iterative loop harness for Claude Code, Codex, and Antigravity enforcing strict evidence gates before exiting.
+  zh: 轻量级跨端自主循环插件，要求每次迭代必须提供严格验证证据才允许结束。

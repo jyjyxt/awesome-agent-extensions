@@ -1,0 +1,9 @@
+name: Oil Chinese Subtitle Skill
+repo: https://github.com/oil-oil/oil-subtitle
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [subtitles, asr, captions, chinese]
+description:
+  en: End-to-end video subtitle skill that transcribes speech, proofreads Chinese phrasing, and burns styled captions onto videos.
+  zh: 一站式中文视频字幕技能，自动完成语音识别、人工级校对润色与字幕压制。

@@ -1,0 +1,9 @@
+name: X (Twitter) Voice & Thread Skills
+repo: https://github.com/sergebulaev/x-skills
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [twitter, x, threads, humanizer]
+description:
+  en: X/Twitter marketing skills for drafting tweets, threads, and replies in your authentic voice with AI-tell removal and publishing.
+  zh: X/Twitter 内容创作技能包，按个人口吻撰写推文、长串与回复并去除 AI 腔。

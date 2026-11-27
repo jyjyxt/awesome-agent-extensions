@@ -1,0 +1,10 @@
+name: Code Graph AST Plugin
+repo: https://github.com/sdsrss/code-graph-mcp
+category: coding
+official: false
+agents: [claude-code]
+includes: [mcp]
+tags: [ast, tree-sitter, call-graph, impact-analysis]
+description:
+  en: Tree-sitter AST knowledge graph plugin auto-indexing 10 languages for semantic search, call-graph traversal, HTTP route tracing, and impact analysis.
+  zh: 基于 Tree-sitter 自动索引 10 种语言的 AST 代码图谱插件，支持调用链追踪、HTTP 路由定位与影响面分析。

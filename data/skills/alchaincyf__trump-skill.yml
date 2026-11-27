@@ -1,0 +1,9 @@
+name: Deal-Making & Negotiation Skill
+repo: https://github.com/alchaincyf/trump-skill
+category: productivity
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [negotiation, leverage, decision-making]
+description:
+  en: Structured high-stakes negotiation, leverage mapping, and power-dynamics analysis framework skill.
+  zh: 结构化高筹码谈判、博弈杠杆与权力动态分析思维框架技能。

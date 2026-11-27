@@ -1,0 +1,10 @@
+name: Deep Plan
+repo: https://github.com/piercelamb/deep-plan
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [planning, tdd, multi-llm-review, architecture]
+description:
+  en: Turns vague feature requirements into detailed, TDD-ready implementation plans through codebase research, interviews, and multi-LLM review.
+  zh: 通过代码库调研、需求访谈与多模型评审将模糊需求转化为详尽可落地 TDD 实施计划的插件。

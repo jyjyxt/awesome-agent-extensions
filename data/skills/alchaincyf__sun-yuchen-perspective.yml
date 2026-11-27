@@ -1,0 +1,9 @@
+name: Attention Economy Perspective Skill
+repo: https://github.com/alchaincyf/sun-yuchen-perspective
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [attention-economy, marketing, mental-models]
+description:
+  en: Attention-capture and viral marketing mental-models skill for analyzing hype cycles and distribution leverage.
+  zh: 注意力经济与热点传播杠杆分析思维框架技能。

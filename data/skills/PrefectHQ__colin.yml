@@ -1,0 +1,9 @@
+name: Prefect Colin Context Engine
+repo: https://github.com/PrefectHQ/colin
+category: marketplaces-tooling
+official: true
+agents: [claude-code, universal]
+tags: [prefect, context-engineering, skills-as-software]
+description:
+  en: Official PrefectHQ context engine treating Agent Skills as versioned, testable, composable software artifacts.
+  zh: Prefect 官方开源的上下文引擎，将 Agent Skills 当作可版本化、可测试的软件工程制品进行管理。

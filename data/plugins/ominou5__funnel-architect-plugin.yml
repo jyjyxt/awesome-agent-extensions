@@ -1,0 +1,10 @@
+name: Funnel Architect Plugin
+repo: https://github.com/ominou5/funnel-architect-plugin
+category: content-marketing
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [sales-funnel, cro, copywriting, landing-pages]
+description:
+  en: Full-stack sales funnel architect plugin building high-converting, fast, mobile-responsive landing funnels and copy.
+  zh: 全栈销售漏斗架构插件，打造高转化率、极速加载且适配移动端的营销落地页与转化文案。

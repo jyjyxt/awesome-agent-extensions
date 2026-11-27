@@ -1,0 +1,9 @@
+name: JetBrains TeamCity CLI & Skill
+repo: https://github.com/JetBrains/teamcity-cli
+category: cloud-devops
+official: true
+agents: [claude-code, universal]
+tags: [teamcity, jetbrains, ci-cd, cli]
+description:
+  en: Official JetBrains TeamCity CLI and agent skill for inspecting CI builds, logs, build agents, terminals, and build queues.
+  zh: JetBrains 官方 TeamCity CLI 与 Agent 技能，支持查询 CI 构建日志、代理状态与构建队列。

@@ -1,0 +1,9 @@
+name: Editable Instrumental Music Skill
+repo: https://github.com/owoevan-dev/music-skill
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [music, midi, fluidsynth, game-audio, chiptune]
+description:
+  en: Compose original instrumental music as editable notes and perform, mix, and master tracks on CC0 sampled instruments and FluidSynth.
+  zh: 以可编辑音符编写原创器乐，并基于 CC0 免费采样乐器与 FluidSynth 自动演奏、混音与母带处理的音乐技能。

@@ -1,0 +1,10 @@
+name: Refero Design Research Skill
+repo: https://github.com/referodesign/refero_skill
+category: frontend-design
+official: true
+agents: [claude-code, codex, cursor, universal]
+includes: [skills, mcp]
+tags: [design-research, ui-flows, screens, refero]
+description:
+  en: Official Refero research-first UI design plugin giving agents access to 150K+ real-world app screens and user flows via MCP.
+  zh: Refero 官方调研优先 UI 设计插件，通过 MCP 接入 15 万+ 真实应用界面与交互流程参考。

@@ -1,0 +1,10 @@
+name: Magic Compact
+repo: https://github.com/aerovato/magic-compact
+category: orchestration
+official: false
+agents: [claude-code, opencode]
+includes: [skills]
+tags: [compaction, lossless, context-management]
+description:
+  en: Lossless context compression plugin for Claude Code and OpenCode preserving critical technical state across long sessions.
+  zh: 面向 Claude Code 与 OpenCode 的无损上下文压缩插件，长对话压缩后仍保留关键技术细节。

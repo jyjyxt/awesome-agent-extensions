@@ -1,0 +1,9 @@
+name: Explainer Video Skills
+repo: https://github.com/iart-ai/explainer-video-skills
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [explainer-video, animated-diagram, storyboard]
+description:
+  en: End-to-end explainer video skills covering scripting, storyboarding, and rendering narrated explainers, recaps, and animated diagrams.
+  zh: 解说视频制作技能集，覆盖脚本、分镜与旁白解说视频、年度回顾及动态图表渲染。

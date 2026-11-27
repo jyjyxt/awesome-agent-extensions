@@ -1,0 +1,9 @@
+name: Multi-Platform Social Caption Skill
+repo: https://github.com/rediumvex/social-media-caption-generator-claude
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [captions, instagram, tiktok, threads, facebook]
+description:
+  en: Turn any text, script, or screenshot into platform-tailored ready-to-post captions for Instagram, TikTok, Threads, and Facebook.
+  zh: 将任意文稿、脚本或截图一键改写为适配 Instagram、TikTok、Threads 与 Facebook 风格的发布文案技能。

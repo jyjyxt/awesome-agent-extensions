@@ -1,0 +1,10 @@
+name: HAL-9000 macOS Dev Automation
+repo: https://github.com/vinta/hal-9000
+category: cloud-devops
+official: false
+agents: [claude-code, codex]
+includes: [skills, tools]
+tags: [macos, ansible, dev-environment, automation]
+description:
+  en: Opinionated macOS developer environment and Ansible playbook automation plugin for AI coding workflows.
+  zh: 结合 Ansible Playbooks 实现 macOS 研发环境与 AI 编程工作流自动化的插件。

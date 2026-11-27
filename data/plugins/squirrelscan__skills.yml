@@ -1,0 +1,10 @@
+name: SquirrelScan Website QA (360+ Rules)
+repo: https://github.com/squirrelscan/skills
+category: frontend-design
+official: true
+agents: [claude-code, codex, universal]
+includes: [skills, mcp]
+tags: [website-qa, accessibility, audit, seo]
+description:
+  en: Official SquirrelScan agent skills running 360+ automated website QA, accessibility, performance, and technical audit rules.
+  zh: SquirrelScan 官方网站质量巡检技能，内置 360+ 条无障碍、性能与技术规范自动审计规则。

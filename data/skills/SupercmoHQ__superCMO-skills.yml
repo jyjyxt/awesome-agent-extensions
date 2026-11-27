@@ -1,0 +1,9 @@
+name: SuperCMO Campaign Skills
+repo: https://github.com/SupercmoHQ/superCMO-skills
+category: content-marketing
+official: true
+agents: [claude-code, cursor, universal]
+tags: [ad-creative, ugc-video, product-photography, marketing]
+description:
+  en: End-to-end marketing campaign skills generating UGC ad videos, commercial product photography, and performance creatives.
+  zh: 端到端营销物料创作技能包，支持生成 UGC 广告短视频、商品摄影图与投放创意。

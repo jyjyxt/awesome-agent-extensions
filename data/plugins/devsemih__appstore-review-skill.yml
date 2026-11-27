@@ -1,0 +1,10 @@
+name: App Store & Play Review Checker
+repo: https://github.com/devsemih/appstore-review-skill
+category: security
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [ios, android, app-store, google-play, compliance]
+description:
+  en: Pre-submission compliance plugin auditing iOS .ipa and Android .aab builds against Apple App Review Guidelines and Google Play policies.
+  zh: 提审前合规自检插件，自动扫描 iOS .ipa 与 Android .aab 安装包，排查苹果与 Google Play 审核拒审风险。

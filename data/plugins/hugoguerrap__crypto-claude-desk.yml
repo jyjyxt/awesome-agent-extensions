@@ -1,0 +1,10 @@
+name: Crypto Claude Intelligence Desk
+repo: https://github.com/hugoguerrap/crypto-claude-desk
+category: data-research
+official: false
+agents: [claude-code]
+includes: [subagents, mcp]
+tags: [crypto, agent-teams, market-intelligence]
+description:
+  en: Multi-agent crypto market intelligence plugin coordinating 6 specialist agents and 66 MCP tools via native Claude Agent Teams.
+  zh: 基于原生 Agent Teams 协同 6 个专家子代理与 66 个 MCP 工具的加密货币情报研究台插件。

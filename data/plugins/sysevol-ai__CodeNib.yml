@@ -1,0 +1,10 @@
+name: CodeNib Cross-Language Tracer
+repo: https://github.com/sysevol-ai/CodeNib
+category: coding
+official: false
+agents: [claude-code, codex, universal]
+includes: [mcp]
+tags: [code-search, call-tracing, multi-language]
+description:
+  en: Cross-language code intelligence plugin tracing call graphs and fetching minimal exact source context for MCP coding agents.
+  zh: 跨语言调用链追踪与精准源码上下文检索插件，减少大模型无效读文件。

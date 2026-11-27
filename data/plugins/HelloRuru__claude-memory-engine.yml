@@ -1,0 +1,10 @@
+name: Claude Memory Engine
+repo: https://github.com/HelloRuru/claude-memory-engine
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [memory, hooks, markdown, zero-dependency]
+description:
+  en: Zero-dependency Claude Code memory system powered purely by lifecycle hooks and structured Markdown files.
+  zh: 零外部依赖、纯靠 Hooks 与结构化 Markdown 驱动的轻量级 Claude Code 记忆系统插件。

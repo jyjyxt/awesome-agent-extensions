@@ -1,0 +1,9 @@
+name: Hiring Panel Resume Skill
+repo: https://github.com/alexyc9381/hiring-panel-skill
+category: productivity
+official: false
+agents: [claude-code]
+tags: [resume, hiring, career, review]
+description:
+  en: Seven adversarial Claude hiring-panel personas critique your resume from every angle and rebuild it with every flaw fixed.
+  zh: 模拟 7 位严苛面试官多角度挑刺并全面重写优化简历的求职技能。

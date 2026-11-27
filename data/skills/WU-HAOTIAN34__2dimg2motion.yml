@@ -1,0 +1,9 @@
+name: 2DImg2Motion Game Sprites
+repo: https://github.com/WU-HAOTIAN34/2dimg2motion
+category: frontend-design
+official: false
+agents: [claude-code, codex, universal]
+tags: [gamedev, sprite-animation, 2d, spritesheets]
+description:
+  en: Convert static 2D character or object images into style-consistent, transparent-background animation sequences and spritesheets.
+  zh: 将静态 2D 角色或物体图片转化为风格一致、透明背景游戏动画序列帧与精灵表的技能。

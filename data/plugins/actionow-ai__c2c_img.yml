@@ -1,0 +1,10 @@
+name: C2C Image Gen (via Local Codex)
+repo: https://github.com/actionow-ai/c2c_img
+category: content-marketing
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [image-generation, gpt-image, codex]
+description:
+  en: Native-feeling image generation inside Claude Code powered by your local Codex image_gen with zero separate API key required.
+  zh: 借助本地 Codex 图像生成能力在 Claude Code 内免 API Key 原生生图的插件。

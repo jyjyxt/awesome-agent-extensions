@@ -1,0 +1,10 @@
+name: System 1 Agents Plugin
+repo: https://github.com/ThinkFlowLab/system1-agents
+category: orchestration
+official: false
+agents: [claude-code, universal]
+includes: [tools]
+tags: [computer-use, browser-automation, decision-model, robotics]
+description:
+  en: Fast System-1 decision models (Jev, Laya, Cua-S1) plugged in as real-time action brains for browser use, computer use, and games.
+  zh: 将高速 System-1 决策模型作为实时行动大脑接入浏览器操作、电脑操控与游戏任务的插件。

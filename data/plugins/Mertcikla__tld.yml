@@ -1,0 +1,10 @@
+name: TLD Diagramming-as-Code
+repo: https://github.com/Mertcikla/tld
+category: coding
+official: false
+agents: [claude-code, universal]
+includes: [skills, tools]
+tags: [diagrams, architecture, cli, ci]
+description:
+  en: Software architecture diagramming-as-code plugin with web UI and CLI for managing diagrams from shell, CI, and coding agents.
+  zh: 支持 Web 界面、CLI 与 CI 集成的代码化软件架构绘图工具与 Agent 技能插件。

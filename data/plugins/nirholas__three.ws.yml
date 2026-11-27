@@ -1,0 +1,10 @@
+name: Three.ws 3D Agent Avatars
+repo: https://github.com/nirholas/three.ws
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+includes: [mcp]
+tags: [3d-avatar, threejs, glb, embed]
+description:
+  en: Generate rigged 3D GLB avatars from text or photos paired with an LLM brain and one-tag web embed via plugin and MCP.
+  zh: 通过文字或照片生成带骨骼绑定的 3D GLB 虚拟形象并一键嵌入网页的插件与 MCP。

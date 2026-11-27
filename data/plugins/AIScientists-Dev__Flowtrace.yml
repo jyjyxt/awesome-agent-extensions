@@ -1,0 +1,10 @@
+name: Flowtrace
+repo: https://github.com/AIScientists-Dev/Flowtrace
+category: orchestration
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [workflows, reusable-steps, orchestration]
+description:
+  en: Execute complex AI tasks as reusable, refinable multi-step flows rather than one-off ephemeral chat threads.
+  zh: 将复杂任务沉淀为可复用、可持续调优的多步骤流水线，替代一次性对话的工作流插件。

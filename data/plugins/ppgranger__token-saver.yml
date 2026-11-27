@@ -1,0 +1,10 @@
+name: Token Saver (36 CLI Compressors)
+repo: https://github.com/ppgranger/token-saver
+category: orchestration
+official: false
+agents: [claude-code, universal]
+includes: [tools]
+tags: [token-compression, cli, git, pytest, kubectl]
+description:
+  en: Content-aware output compression plugin with 36 specialized processors cutting CLI noise by 60-99% for git, pytest, npm, terraform, and kubectl.
+  zh: 内置 36 种内容感知压缩器的 CLI 输出精简插件，将 git、pytest、npm、terraform 与 kubectl 冗余输出压缩 60–99%。

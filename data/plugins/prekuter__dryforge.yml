@@ -1,0 +1,10 @@
+name: DryForge
+repo: https://github.com/prekuter/dryforge
+category: orchestration
+official: false
+agents: [claude-code, antigravity, universal]
+includes: [skills]
+tags: [bounded-autonomy, planning, harness]
+description:
+  en: Bounded-autonomy plugin harness enforcing clear intent readiness checks before autonomous code implementation begins.
+  zh: 有界自主开发插件框架，在自动编写代码前强制完成意图对齐与就绪检查。

@@ -1,0 +1,10 @@
+name: Domscribe
+repo: https://github.com/patchorbit/domscribe
+category: frontend-design
+official: false
+agents: [claude-code, cursor, copilot, gemini-cli]
+includes: [tools]
+tags: [pixel-to-code, devtools, dom, debugging]
+description:
+  en: Pixel-to-code developer plugin bridging live running web app DOM elements directly back to their exact source code lines.
+  zh: 将运行中网页的 DOM 元素直接映射回对应源码位置的像素到代码前端调试插件。

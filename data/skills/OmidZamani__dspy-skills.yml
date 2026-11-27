@@ -1,0 +1,9 @@
+name: DSPy Framework Skills
+repo: https://github.com/OmidZamani/dspy-skills
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [dspy, prompt-optimization, rag, llm]
+description:
+  en: Specialized Claude Skills for programming language models, optimizing prompts, and building systematic RAG pipelines with DSPy.
+  zh: 面向 DSPy 框架的专项开发技能集，涵盖模块编程、自动提示词优化与系统化 RAG 构建。

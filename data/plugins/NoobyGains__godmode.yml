@@ -1,0 +1,10 @@
+name: Godmode Engineering Discipline
+repo: https://github.com/NoobyGains/godmode
+category: coding
+official: false
+agents: [claude-code, antigravity, universal]
+includes: [skills]
+tags: [tdd, cost-optimization, code-review, docs-verification]
+description:
+  en: Disciplined coding plugin that questions vague requests, verifies live docs, builds test-first on cheap models, and reviews with a second model.
+  zh: 严谨研发工作流插件：先质疑需求、查验最新文档、用低成本模型测试驱动编码，再由第二模型复核。

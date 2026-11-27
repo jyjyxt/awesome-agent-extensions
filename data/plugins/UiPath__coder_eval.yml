@@ -1,0 +1,10 @@
+name: UiPath Coder Eval
+repo: https://github.com/UiPath/coder_eval
+category: marketplaces-tooling
+official: true
+agents: [claude-code, universal]
+includes: [tools]
+tags: [evals, testing, ci-gates, ab-testing]
+description:
+  en: Official UiPath evaluation harness for testing Agent Skills, MCP servers, and CLIs via sandboxed YAML suites, A/B tests, and CI gates.
+  zh: UiPath 官方开源的 Agent 扩展评测框架，通过沙箱 YAML 用例、A/B 实验与 CI 门禁验证 Skills 与 MCP 的真实可用性。

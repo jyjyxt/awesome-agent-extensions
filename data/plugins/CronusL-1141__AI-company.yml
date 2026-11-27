@@ -1,0 +1,10 @@
+name: AI Company Team OS
+repo: https://github.com/CronusL-1141/AI-company
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills, subagents, mcp]
+tags: [multi-agent, teams, hooks, workflows]
+description:
+  en: Multi-agent company OS plugin for Claude Code with 108 MCP tools, 40+ agent templates, 10 lifecycle hooks, and 7 team workflows.
+  zh: 面向 Claude Code 的多智能体团队操作系统插件，内置 108 个 MCP 工具、40+ 角色模板与 7 条协作流水线。

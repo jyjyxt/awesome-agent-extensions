@@ -1,0 +1,9 @@
+name: YouTube AI Motion Graphics Boards
+repo: https://github.com/sirioberati/YouTube-AI-Motion-Graphics
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [youtube, motion-graphics, whisper, charts]
+description:
+  en: 74 animated HTML explainer boards (charts, Venn, timelines, heatmaps) synced to narration with Whisper for YouTube videos.
+  zh: 74 套动态 HTML 科普信息板（图表、时间轴、热力图等），结合 Whisper 语音自动对齐生成 YouTube 动效视频。

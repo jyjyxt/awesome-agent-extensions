@@ -1,0 +1,9 @@
+name: Nassim Taleb Antifragile Skill
+repo: https://github.com/alchaincyf/taleb-skill
+category: productivity
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [antifragile, risk-analysis, decision-making]
+description:
+  en: Antifragility, fat-tail risk, and skin-in-the-game decision analysis skill modeled on Nassim Taleb mental frameworks.
+  zh: 基于纳西姆·塔勒布反脆弱与肥尾风险理论构建的决策与风险压力测试技能。

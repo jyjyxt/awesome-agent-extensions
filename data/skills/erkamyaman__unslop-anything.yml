@@ -1,0 +1,9 @@
+name: Unslop Anything UI
+repo: https://github.com/erkamyaman/unslop-anything
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+tags: [anti-slop, ui-ux, accessibility, design-audit]
+description:
+  en: Audit and refactor generic AI-looking UI and UX in web and mobile apps into crafted, accessible, distinctive interfaces.
+  zh: 专门识别并改造“AI 模板味”前端与移动端界面的 UI/UX 去油腻重构技能。

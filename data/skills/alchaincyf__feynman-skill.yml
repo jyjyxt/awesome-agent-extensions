@@ -1,0 +1,9 @@
+name: Feynman Learning & Thinking Skill
+repo: https://github.com/alchaincyf/feynman-skill
+category: productivity
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [feynman, learning, first-principles, mental-models]
+description:
+  en: First-principles explanation and problem-solving cognitive framework inspired by Richard Feynman teaching methodology.
+  zh: 基于理查德·费曼学习法与第一性原理拆解复杂概念的思维框架技能。

@@ -1,0 +1,9 @@
+name: Claude Code Vision Skill
+repo: https://github.com/xiincs/claude-code-vision-skill
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+tags: [vision, multimodal, screenshots, ui-testing]
+description:
+  en: Add multimodal screenshot, UI, and chart vision analysis to text-only LLM backends in Claude Code for automated frontend layout checks.
+  zh: 为纯文本模型底座的 Claude Code 补充多模态看图能力，支持截图、UI 布局与图表自动分析。

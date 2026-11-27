@@ -1,0 +1,10 @@
+name: sd0x Harness
+repo: https://github.com/sd0xdev/sd0x-harness
+category: orchestration
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [harness-engineering, dual-review, state-machine, hooks]
+description:
+  en: Reference harness-engineering plugin with hook-enforced dual review and state-machine gates that survive context compaction.
+  zh: 参考级 Harness 工程插件，提供 Hook 强制双审与抗上下文压缩的状态机门禁。

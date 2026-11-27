@@ -1,0 +1,9 @@
+name: TubeLab YouTube Research Skills
+repo: https://github.com/TubeLabHQ/youtube-research-skills
+category: content-marketing
+official: true
+agents: [claude-code, codex, universal]
+tags: [youtube, outlier-videos, thumbnails, competitor-analysis]
+description:
+  en: YouTube growth research skills covering outlier video discovery, niche validation, comment mining, title formulas, and thumbnail concepts.
+  zh: YouTube 频道增长调研技能包，涵盖爆款视频挖掘、细分赛道验证、评论分析、标题公式与封面构思。

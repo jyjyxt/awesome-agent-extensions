@@ -1,0 +1,10 @@
+name: Yobiru Agent Mesh
+repo: https://github.com/chekusu/yobiru
+category: orchestration
+official: false
+agents: [claude-code, codex, cursor]
+includes: [skills]
+tags: [agent-to-agent, tailscale, messaging, files]
+description:
+  en: Cross-machine agent-to-agent communication plugin enabling messages, data, files, and wake-ups securely over Tailscale.
+  zh: 基于 Tailscale 的跨设备 Agent 通信插件，支持不同机器上的编程 Agent 互发消息、传文件与唤醒协作。

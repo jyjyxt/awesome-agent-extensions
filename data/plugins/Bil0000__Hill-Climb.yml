@@ -1,0 +1,10 @@
+name: Hill-Climb Benchmark Gate
+repo: https://github.com/Bil0000/Hill-Climb
+category: coding
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [benchmarking, optimization, locked-tests, verification]
+description:
+  en: "Forces coding agents to prove every improvement: changes are kept only when a locked test suite or benchmark scores strictly better."
+  zh: 强制代码变更必须通过锁定测试集或基准评分提升才允许保留的爬山优化门禁技能。

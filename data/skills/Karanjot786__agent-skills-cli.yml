@@ -1,0 +1,9 @@
+name: Agent Skills CLI (45 Agents)
+repo: https://github.com/Karanjot786/agent-skills-cli
+category: marketplaces-tooling
+official: false
+agents: [claude-code, antigravity, universal]
+tags: [cli, skills-manager, npm, cross-agent]
+description:
+  en: Unified CLI and skill to install, update, and manage Agent Skills across 45 coding agents from GitHub, private Git, and npm.
+  zh: 跨 45 款编程 Agent 统一安装、更新与管理技能的 CLI 工具，支持 GitHub、私有仓库与 npm 源。

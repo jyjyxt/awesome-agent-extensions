@@ -1,0 +1,9 @@
+name: ModulesTF Terraform Skills
+repo: https://github.com/modulestf/modulestf
+category: cloud-devops
+official: false
+agents: [claude-code, codex, universal]
+tags: [terraform, aws, iac, code-review]
+description:
+  en: Agent skills that author, refactor, and review reusable Terraform modules following terraform-aws-modules standards.
+  zh: 严格遵循 terraform-aws-modules 规范编写、重构与审查可复用 Terraform 模块的技能包。

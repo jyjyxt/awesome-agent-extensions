@@ -1,0 +1,10 @@
+name: Baidu Netdisk Agent Skill
+repo: https://github.com/baidu-netdisk/bdpan-storage
+category: productivity
+official: true
+agents: [claude-code, cursor, codex, gemini-cli, universal]
+includes: [skills]
+tags: [baidu-netdisk, cloud-storage, files]
+description:
+  en: Official Baidu Netdisk agent skill to upload, download, transfer, share, and search cloud files in natural language.
+  zh: 百度网盘官方 Agent 技能，支持用自然语言上传、下载、转存、分享与检索网盘文件。

@@ -1,0 +1,10 @@
+name: DataWithBaraa Data Engineering Skills
+repo: https://github.com/DataWithBaraa/claude-code-data-engineering-skills
+category: data-research
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [data-engineering, profiling, incident-triage, documentation]
+description:
+  en: 16 practical data engineering skills to profile new data sources, triage failed pipelines, review schema changes, and generate shareable docs.
+  zh: 16 个实战数据工程技能，覆盖新数据源画像、故障管线排查、Schema 变更审查与可分享文档生成。

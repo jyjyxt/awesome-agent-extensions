@@ -1,0 +1,9 @@
+name: Persian Motion Director
+repo: https://github.com/atmirrr/persian-motion-director
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [persian, farsi, kinetic-typography, harfbuzz, remotion]
+description:
+  en: Pro motion-design skill solving RTL Persian/Farsi kinetic typography properly with HarfBuzz shaping and Remotion templates.
+  zh: 结合 HarfBuzz 排版与 Remotion 模板解决波斯语右到左动态字体排版的专业动效设计技能。

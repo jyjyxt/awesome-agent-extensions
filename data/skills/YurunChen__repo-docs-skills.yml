@@ -1,0 +1,9 @@
+name: Repo Docs Living Skills
+repo: https://github.com/YurunChen/repo-docs-skills
+category: coding
+official: false
+agents: [claude-code, codex, universal]
+tags: [documentation, progress-logs, handoff, living-docs]
+description:
+  en: Living project documentation skills keeping developer guides, progress logs, change maps, and handoff context updated as code evolves.
+  zh: 随代码演进持续自动更新项目指南、进度日志、变更地图与交接上下文的活文档技能。

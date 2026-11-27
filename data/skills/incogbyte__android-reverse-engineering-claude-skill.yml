@@ -1,0 +1,9 @@
+name: Android Reverse Engineering Skill
+repo: https://github.com/incogbyte/android-reverse-engineering-claude-skill
+category: security
+official: false
+agents: [claude-code, universal]
+tags: [android, apk, reverse-engineering, pentest]
+description:
+  en: Automate Android APK decompilation, manifest inspection, Frida hooking prep, and mobile security reverse-engineering workflows.
+  zh: 自动化 Android 应用反编译、清单分析与移动安全逆向工程流程的专项技能。

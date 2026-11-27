@@ -1,0 +1,9 @@
+name: Advise Project Approach
+repo: https://github.com/AaravKashyap12/advise-project-approach
+category: orchestration
+official: false
+agents: [claude-code, codex, universal]
+tags: [planning, architecture-review, evidence]
+description:
+  en: Evidence-before-build project planning skill guiding architecture decisions and tradeoff analysis before writing code.
+  zh: 先取证再编码的项目规划技能，在动手写代码前系统梳理架构路径与技术权衡。

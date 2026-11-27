@@ -1,0 +1,9 @@
+name: Executable AI Marketing Skills
+repo: https://github.com/BrianRWagner/ai-marketing-skills
+category: content-marketing
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [marketing, branding, copywriting, execution]
+description:
+  en: 20 execution-focused marketing skills for branding, positioning, campaigns, and growth built for Claude Code, Codex, and Cursor.
+  zh: 20 个强调落地执行的 AI 营销技能包，涵盖品牌定位、营销活动与增长文案。

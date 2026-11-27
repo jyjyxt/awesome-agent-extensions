@@ -1,0 +1,9 @@
+name: Deterministic K-Line Stock Skill
+repo: https://github.com/xiongcp/stock-skill
+category: data-research
+official: false
+agents: [claude-code, codex, universal]
+tags: [stocks, candlestick, backtesting, risk-management]
+description:
+  en: Deterministic K-line structure analysis for A-shares, HK, and US stocks with triple-barrier risk plans and 15-day volatility bands.
+  zh: 面向 A 股、港股与美股的确定性 K 线结构分析技能，提供三障碍风控方案与 15 日波动区间测算。

@@ -1,0 +1,9 @@
+name: Agent Skills Nix
+repo: https://github.com/Kyure-A/agent-skills-nix
+category: marketplaces-tooling
+official: false
+agents: [claude-code, universal]
+tags: [nix, declarative, skills-management]
+description:
+  en: Declarative Nix flake module for installing, pinning, and managing Agent Skills reproducibly across machines.
+  zh: 基于 Nix 的声明式 Agent Skills 管理模块，实现跨设备可复现的技能版本锁定与分发。

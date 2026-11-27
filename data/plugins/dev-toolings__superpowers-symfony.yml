@@ -1,0 +1,10 @@
+name: Superpowers Symfony
+repo: https://github.com/dev-toolings/superpowers-symfony
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills, subagents]
+tags: [symfony, php, doctrine, ddd, tdd]
+description:
+  en: Symfony 7.4 LTS & 8.x plugin with 44 skills, 7 subagents, and 13 commands for API Platform v4, Doctrine ORM 3, TDD, and DDD.
+  zh: 面向 Symfony 7.4/8.x 的深度研发插件，内置 44 个技能、7 个子代理与 13 个命令，覆盖 Doctrine、TDD 与 DDD。

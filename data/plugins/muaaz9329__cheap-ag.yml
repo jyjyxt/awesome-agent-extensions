@@ -1,0 +1,10 @@
+name: Cheap-AG Hybrid Model Router
+repo: https://github.com/muaaz9329/cheap-ag
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [mcp, tools]
+tags: [cost-optimization, multi-model, hooks, tdd]
+description:
+  en: Hybrid-model coding plugin where a frontier model plans, a low-cost model implements, and automated tests gate what ships.
+  zh: 高低模型混编省钱插件：旗舰模型负责架构规划，低成本模型写代码，自动化测试决定最终交付。

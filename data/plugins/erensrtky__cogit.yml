@@ -1,0 +1,10 @@
+name: CoGit Intent Tracker
+repo: https://github.com/erensrtky/cogit
+category: coding
+official: false
+agents: [claude-code, universal]
+includes: [tools]
+tags: [git, intent, provenance, commits]
+description:
+  en: Git companion plugin recording what your coding agent decided and why, linking design intent directly to every commit.
+  zh: 记录 AI 编程决策意图并将其与每次 Git Commit 关联的溯源插件。

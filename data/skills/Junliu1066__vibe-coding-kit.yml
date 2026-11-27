@@ -1,0 +1,9 @@
+name: Vibe Coding PM Planning Kit
+repo: https://github.com/Junliu1066/vibe-coding-kit
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [product-management, prd, no-code, vibe-coding]
+description:
+  en: Structured vibe-coding planning kit for non-technical product builders to clarify scope, user flows, and PRDs before AI coding.
+  zh: 专为非技术产品人打造的 Vibe Coding 前置规划工具包，帮助在让 AI 写代码前彻底想清需求与边界。

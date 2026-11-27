@@ -1,0 +1,9 @@
+name: Charlie Munger Mental Models Skill
+repo: https://github.com/alchaincyf/munger-skill
+category: productivity
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [charlie-munger, mental-models, decision-making]
+description:
+  en: Multidisciplinary mental models and inversion decision-making framework modeled on Charlie Munger cognitive principles.
+  zh: 查理·芒格多元思维模型与逆向思考决策框架技能。

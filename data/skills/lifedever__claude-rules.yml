@@ -1,0 +1,9 @@
+name: Claude Rules Auto-Generator
+repo: https://github.com/lifedever/claude-rules
+category: coding
+official: false
+agents: [claude-code, cursor, antigravity, copilot]
+tags: [coding-standards, rules, tech-stack]
+description:
+  en: Auto-detects repository tech stacks and generates tailored project coding standards and agent rules across major AI IDEs.
+  zh: 自动识别仓库技术栈并生成适配 Claude Code、Cursor、Antigravity 与 Copilot 的项目编码规范技能。

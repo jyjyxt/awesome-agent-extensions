@@ -1,0 +1,9 @@
+name: Motion Design Fundamentals Skills
+repo: https://github.com/iart-ai/motion-design-skills
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [motion-design, after-effects, remotion, typography]
+description:
+  en: Installable motion design skills encoding timing, easing, typography, composition, After Effects, Remotion, and brand animation rules.
+  zh: 涵盖节奏曲线、字体动效、构图、After Effects 与 Remotion 规范的动态设计基础技能包。

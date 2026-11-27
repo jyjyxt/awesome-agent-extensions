@@ -1,0 +1,9 @@
+name: Repo Forensics Security Scanner
+repo: https://github.com/alexgreensh/repo-forensics
+category: security
+official: false
+agents: [claude-code, codex, universal]
+tags: [agent-security, offline-scanner, supply-chain, mcp]
+description:
+  en: Offline supply-chain security scanner auditing AI agent repositories, SKILL.md files, plugins, and MCP servers before installation.
+  zh: 离线 AI 扩展供应链安全扫描技能，在安装前审计第三方 Skill、插件与 MCP 仓库的潜在风险。

@@ -1,0 +1,10 @@
+name: K-Style Mobile UI/UX
+repo: https://github.com/vmc-inner-circle/k-style-ui-ux
+category: frontend-design
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [korean, mobile-design, prd, ui-ux]
+description:
+  en: Turn a single-page PRD into polished Korean-style mobile app UI/UX drafts in ~15 minutes for Claude Code and Codex.
+  zh: 根据一页 PRD 在约 15 分钟内生成韩系精致移动端应用界面草图的 UI/UX 插件。

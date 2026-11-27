@@ -1,0 +1,9 @@
+name: Codex Collab Skill
+repo: https://github.com/Kevin7Qi/codex-collab
+category: orchestration
+official: false
+agents: [claude-code, codex]
+tags: [codex, collaboration, multi-agent]
+description:
+  en: Lightweight skill enabling direct task collaboration and second-opinion handoffs with OpenAI Codex from inside Claude Code.
+  zh: 在 Claude Code 内部直接与 OpenAI Codex 开展分工协作与交叉复核的轻量技能。

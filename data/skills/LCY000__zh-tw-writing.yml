@@ -1,0 +1,9 @@
+name: Traditional Chinese Human Writing Skill
+repo: https://github.com/LCY000/zh-tw-writing
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [traditional-chinese, humanizer, writing, cjk]
+description:
+  en: Eliminates AI-ese and translationese in Traditional Chinese prose with automated punctuation and phrasing checker scripts.
+  zh: 专为繁体中文打造的去 AI 腔与翻译腔写作技能，内置标点与措辞检查脚本。

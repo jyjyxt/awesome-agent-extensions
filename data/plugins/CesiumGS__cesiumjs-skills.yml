@@ -1,0 +1,10 @@
+name: CesiumJS Agent Skills
+repo: https://github.com/CesiumGS/cesiumjs-skills
+category: frontend-design
+official: true
+agents: [claude-code, codex, copilot, universal]
+includes: [skills]
+tags: [cesiumjs, 3d-maps, geospatial, webgl]
+description:
+  en: Official CesiumGS agent skills for building 3D geospatial globes, 3D Tiles, and CesiumJS web visualizations.
+  zh: Cesium 官方开源的 3D 地理空间与 CesiumJS Web 开发 Agent 技能插件。

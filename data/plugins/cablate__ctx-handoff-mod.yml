@@ -1,0 +1,10 @@
+name: Context Handoff Mod
+repo: https://github.com/cablate/ctx-handoff-mod
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [handoff, prompt-cache, notes, context-management]
+description:
+  en: Automatically hands off to a fresh conversation when context fills up, keeps prompt cache warm, and distills lessons into project notes.
+  zh: 上下文接近上限时自动无缝交接至新会话、保活缓存并将经验沉淀为项目笔记的增强插件。

@@ -1,0 +1,9 @@
+name: Planners Consulting PPTX Desk
+repo: https://github.com/thePlannerIvan/planners-ppt-hell
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [pptx, svg, consulting, presentations]
+description:
+  en: SVG visual layout workbench and editable PPTX generator for high-density consulting decks with multimodal self-checking.
+  zh: 高密度咨询级 PPT 生产技能，基于 SVG 版式原语与多模态自检直接导出可编辑 PPTX。

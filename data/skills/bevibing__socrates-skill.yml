@@ -1,0 +1,9 @@
+name: Socrates Teaching Skill
+repo: https://github.com/bevibing/socrates-skill
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [socratic-method, teaching, learning]
+description:
+  en: Socratic-method tutoring skill that guides learners to discover answers through structured questioning rather than giving spoilers.
+  zh: 苏格拉底启发式教学技能，通过层层追问引导学习者自主推导出答案而非直接剧透。

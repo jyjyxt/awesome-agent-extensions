@@ -1,0 +1,9 @@
+name: SEO Landing Page Skill
+repo: https://github.com/aleksandr-alhoff/seo-landing
+category: frontend-design
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [technical-seo, landing-pages, core-web-vitals]
+description:
+  en: Technical SEO landing-page engineering skill optimizing Core Web Vitals, semantic HTML, schema markup, and crawlability.
+  zh: 专注技术 SEO 落地页开发的前端技能，深度优化 Core Web Vitals、语义结构与 Schema 标记。

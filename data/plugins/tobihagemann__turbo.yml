@@ -1,0 +1,10 @@
+name: Turbo Software Factory
+repo: https://github.com/tobihagemann/turbo
+category: coding
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [software-factory, shipping, workflow]
+description:
+  en: Agentic software factory plugin for Claude Code and Codex designed to plan, implement, verify, and ship changes of any size.
+  zh: 面向 Claude Code 与 Codex 的自动化软件工厂插件，稳定规划、实现并交付任意规模的代码变更。

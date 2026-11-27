@@ -1,0 +1,9 @@
+name: Mistral Vibe Delegation Skill
+repo: https://github.com/pcx-wave/vibe-skill
+category: orchestration
+official: false
+agents: [claude-code]
+tags: [mistral, delegation, cost-saving, git-diff]
+description:
+  en: Delegate routine coding tasks from Claude Code to Mistral Vibe and supervise via git diff to cut Claude token usage by 50-90%.
+  zh: 将常规编码任务委派给 Mistral Vibe 执行并由 Claude 通过 git diff 监督审核，节省 50–90% Token 的技能。

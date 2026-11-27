@@ -1,0 +1,9 @@
+name: Mijia Smart Home Skill
+repo: https://github.com/dean2021/mijia-device-manager
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [xiaomi, mijia, smart-home, iot]
+description:
+  en: "Control Xiaomi/Mijia smart-home devices via natural language: device discovery, power toggles, brightness, and color adjustments."
+  zh: 控制小米/米家智能家居设备的 Agent 技能，支持设备发现、开关控制、亮度与色温/色彩调节。

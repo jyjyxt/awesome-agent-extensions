@@ -1,0 +1,10 @@
+name: SAM 3 Image Segmentation Skill
+repo: https://github.com/lillyguisnet/sam3-segmentation
+category: data-research
+official: false
+agents: [claude-code, codex, cursor, universal]
+includes: [skills]
+tags: [sam3, computer-vision, segmentation, nvidia]
+description:
+  en: Run Meta SAM 3 on your local NVIDIA GPU to outline, mask, and count objects in photos with an interactive review viewer and exports.
+  zh: 调用本地 NVIDIA GPU 运行 Meta SAM 3 实现图像目标分割、遮罩标注与计数的计算机视觉技能插件。

@@ -1,0 +1,10 @@
+name: Claudikins Kernel (SRE Pipeline)
+repo: https://github.com/povvo/claudikins-kernel
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [sre, pipeline, verification-gates]
+description:
+  en: SRE-inspired 4-stage pipeline plugin enforcing mandatory verification gates between stages so agents can never skip checks.
+  zh: 融入 SRE 可靠性工程理念的四阶段流水线插件，阶段间强制校验门禁，杜绝跳过验证。

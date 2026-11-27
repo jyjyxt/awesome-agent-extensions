@@ -1,0 +1,10 @@
+name: Claude Usage Governor
+repo: https://github.com/0xhimanshu/governor
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills, tools]
+tags: [context-slimming, telemetry, drift-guardrails]
+description:
+  en: Usage governor plugin combining compact professional output, context slimming, tool-output filtering, telemetry, and drift guardrails.
+  zh: 综合用量治理插件，集成精简输出、上下文瘦身、工具输出过滤、遥测监控与防漂移护栏。

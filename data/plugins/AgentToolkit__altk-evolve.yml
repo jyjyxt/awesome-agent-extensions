@@ -1,0 +1,10 @@
+name: ALTK Evolve
+repo: https://github.com/AgentToolkit/altk-evolve
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [self-improving, agent-memory, agent-learning]
+description:
+  en: Iterative self-improvement plugin capturing execution feedback so coding agents refine strategies and memory across runs.
+  zh: 通过迭代执行反馈持续优化策略与记忆的 Agent 自我进化插件。

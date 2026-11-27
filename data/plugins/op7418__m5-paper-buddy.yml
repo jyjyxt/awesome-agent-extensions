@@ -1,0 +1,10 @@
+name: M5Paper Buddy E-Ink Companion
+repo: https://github.com/op7418/m5-paper-buddy
+category: productivity
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [e-ink, hardware, m5paper, approval-workflow, ble]
+description:
+  en: Physical M5Paper e-ink desk companion plugin for Claude Code with multi-session status, hardware approval buttons, and touch option cards.
+  zh: M5Paper 墨水屏桌面硬件伴侣插件，支持多会话监控、实体按键/触控审批工具调用与中文显示。

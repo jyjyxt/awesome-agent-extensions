@@ -1,0 +1,10 @@
+name: Claude Code Karma
+repo: https://github.com/JayantDevkar/claude-code-karma
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills, tools]
+tags: [dashboard, hooks, monitoring, sessions]
+description:
+  en: Session monitoring dashboard and hooks plugin tracking active Claude Code agents, tool usage, and session health.
+  zh: 基于 Hooks 的 Claude Code 会话监控看板插件，实时跟踪活跃状态与工具调用。

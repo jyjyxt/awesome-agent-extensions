@@ -1,0 +1,10 @@
+name: Goal Setter Contract Skill
+repo: https://github.com/gotalab/goal-setter-skill
+category: orchestration
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [goal-setting, contracts, acceptance-criteria]
+description:
+  en: Shapes rough user requests into verifiable, evidence-backed /goal completion contracts for Claude Code and Codex.
+  zh: 将模糊需求转化为带明确验收证据的 /goal 交付契约插件，让任务边界清晰可查。

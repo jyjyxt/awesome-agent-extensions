@@ -1,0 +1,10 @@
+name: ISO 24495 Plain Language
+repo: https://github.com/GaZmagik/iso-24495
+category: content-marketing
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [iso-24495, plain-language, technical-writing]
+description:
+  en: Plugin and skills enforcing ISO 24495 international Plain Language clarity standards for docs, policies, and UX copy.
+  zh: 遵循 ISO 24495 国际简明语言标准的文档、政策与 UX 文案写作规范插件。

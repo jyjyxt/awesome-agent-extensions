@@ -1,0 +1,9 @@
+name: Feishu Docx Knowledge Bridge
+repo: https://github.com/leemysw/feishu-docx
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [feishu, lark, markdown, bitable, docs]
+description:
+  en: Bidirectional Feishu/Lark Docs, Sheets, and Bitable to Markdown converter with OAuth 2.0, CLI, TUI, and Claude Skills.
+  zh: 飞书文档、电子表格与多维表格与 Markdown 双向读写工具与技能，支持 OAuth 2.0、CLI 与 TUI。

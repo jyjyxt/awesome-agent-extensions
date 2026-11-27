@@ -1,0 +1,10 @@
+name: Design System Ops
+repo: https://github.com/murphytrueman/design-system-ops
+category: frontend-design
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [design-systems, design-tokens, figma, maintenance]
+description:
+  en: Claude Code skills dedicated to ongoing design-system governance, token synchronization, Figma parity, and component health.
+  zh: 专注于设计系统长期运维、Token 同步、Figma 一致性与组件治理的 Claude Code 技能插件。

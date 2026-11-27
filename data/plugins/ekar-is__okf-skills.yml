@@ -1,0 +1,10 @@
+name: OKF Knowledge Graph Toolkit
+repo: https://github.com/ekar-is/okf-skills
+category: data-research
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [okf, knowledge-graph, validation, visualization]
+description:
+  en: Plugin, skills, and GitHub Action to author, maintain, validate, and visualize Open Knowledge Format (OKF) knowledge bundles.
+  zh: 用于编写、校验、维护与可视化 Open Knowledge Format（OKF）知识图谱包的插件与技能集。

@@ -1,0 +1,10 @@
+name: Winnow Context Sieve
+repo: https://github.com/GhalebDweikat/winnow
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [context-management, filtering, system1]
+description:
+  en: Calibrated context sieve plugin where a fast System-1 model evaluates and filters every tool output before it enters Claude Code context.
+  zh: 校准型上下文筛网插件，在工具输出进入主上下文前由轻量模型先筛选降噪。

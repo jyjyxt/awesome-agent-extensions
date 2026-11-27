@@ -1,0 +1,9 @@
+name: ComPDF Agent Skills
+repo: https://github.com/ComPDFKit/compdf-skills
+category: productivity
+official: true
+agents: [claude-code, cursor, copilot, opencode, universal]
+tags: [pdf, document-processing, conversion, compression]
+description:
+  en: Official ComPDFKit PDF processing skills enabling coding agents to convert, edit, split, insert, compare, and compress PDFs.
+  zh: ComPDFKit 官方 PDF 处理技能包，支持转换、编辑、拆分、合并、对比与压缩 PDF 文档。

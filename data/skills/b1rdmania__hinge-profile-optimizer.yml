@@ -1,0 +1,9 @@
+name: Hinge Profile Optimizer
+repo: https://github.com/b1rdmania/hinge-profile-optimizer
+category: productivity
+official: false
+agents: [claude-code, codex, universal]
+tags: [dating, profile-audit, copywriting]
+description:
+  en: Research-backed Hinge dating profile optimizer skill covering screenshot audits, photo sequencing strategy, and prompt rewrites.
+  zh: 基于研究数据的 Hinge 社交档案优化技能，涵盖主页截图诊断、照片排布策略与自我介绍润色。

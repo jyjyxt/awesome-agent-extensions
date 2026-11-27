@@ -1,0 +1,9 @@
+name: JEVMEM Shared Repo Memory
+repo: https://github.com/Avinash-jetwani/jevmem
+category: orchestration
+official: false
+agents: [claude-code, cursor, codex]
+tags: [memory, rules, repo-memory, cross-agent]
+description:
+  en: Store project decisions, engineering rules, and failed approaches in one repository JEVMEM.md shared across Claude Code, Cursor, and Codex.
+  zh: 在仓库内用统一 JEVMEM.md 沉淀架构决策、规范与踩坑记录，供 Claude Code、Cursor 与 Codex 共享读取。

@@ -1,0 +1,9 @@
+name: Obsidian Plugin Dev Skill
+repo: https://github.com/gapmiss/obsidian-plugin-skill
+category: coding
+official: false
+agents: [claude-code, codex, universal]
+tags: [obsidian, plugin-development, typescript]
+description:
+  en: Dedicated Agent Skill encoding Obsidian.md plugin API patterns, lifecycle hooks, and community submission guidelines.
+  zh: 专为 Obsidian.md 插件开发打造的技能包，涵盖 API 模式、生命周期与社区上架规范。

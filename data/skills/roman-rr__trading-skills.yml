@@ -1,0 +1,9 @@
+name: Crypto Signal & Trigger Skills
+repo: https://github.com/roman-rr/trading-skills
+category: data-research
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [crypto, trading-signals, algorithms]
+description:
+  en: Live crypto trading signal skills combining 17 triggers, 44 technical algorithms, and multi-expert reasoning with entry/SL/TP levels.
+  zh: 整合 17 种触发器、44 套技术指标算法与多专家推理的加密货币实时交易信号分析技能。

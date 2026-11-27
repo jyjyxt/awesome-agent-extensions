@@ -1,0 +1,10 @@
+name: ADHD Study Coach
+repo: https://github.com/itsAalaa7/adhd-study-coach
+category: productivity
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [adhd, spaced-repetition, active-recall, feynman]
+description:
+  en: ADHD-friendly study companion plugin combining micro-chunk teaching, active recall, spaced repetition, and Feynman reflection.
+  zh: 专为 ADHD 学习者设计的伴学插件，融合微块教学、主动回忆、间隔重复与费曼复述。

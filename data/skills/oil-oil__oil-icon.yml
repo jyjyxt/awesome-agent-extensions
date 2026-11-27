@@ -1,0 +1,9 @@
+name: Oil Icon Set Generator
+repo: https://github.com/oil-oil/oil-icon
+category: frontend-design
+official: false
+agents: [claude-code, codex, universal]
+tags: [icons, design, svg, branding]
+description:
+  en: AI icon set generation skill producing cohesive, style-consistent custom icon packs for apps and websites.
+  zh: 为应用与网站批量生成整套风格高度统一的定制图标集技能。

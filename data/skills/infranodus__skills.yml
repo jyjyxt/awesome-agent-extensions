@@ -1,0 +1,9 @@
+name: InfraNodus Graph Insight Skills
+repo: https://github.com/infranodus/skills
+category: data-research
+official: true
+agents: [claude-code, universal]
+tags: [infranodus, text-network, insights, thinking]
+description:
+  en: Official InfraNodus skills augmenting LLM reasoning with text-network graph gap detection and structural insight generation.
+  zh: InfraNodus 官方文本网络图谱分析技能，通过发现概念盲区提升大模型深度洞察力。

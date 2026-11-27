@@ -1,0 +1,9 @@
+name: MedSci Clinical Research Skills
+repo: https://github.com/Aperivue/medsci-skills
+category: data-research
+official: false
+agents: [claude-code, codex, universal]
+tags: [medical-research, pubmed, biostatistics, clinical]
+description:
+  en: Medical research skills verifying citations across PubMed, CrossRef, and OpenAlex and auditing manuscripts against 49 reporting guidelines.
+  zh: 医学与临床科研技能包，支持 PubMed/CrossRef/OpenAlex 文献核验及 49 项国际医学报告规范审查。

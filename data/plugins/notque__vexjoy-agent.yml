@@ -1,0 +1,10 @@
+name: VexJoy Agent
+repo: https://github.com/notque/vexjoy-agent
+category: orchestration
+official: false
+agents: [claude-code, universal]
+includes: [skills, subagents]
+tags: [routing, reviews, tests, learning-loop]
+description:
+  en: Intelligent /do routing plugin dispatching plain-English requests to specialist agents gated by reviews, tests, and a learning loop.
+  zh: 通过 /do 将自然语言需求智能路由给对应专家子代理，并结合审查、测试与学习闭环把控质量的插件。

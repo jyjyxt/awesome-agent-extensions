@@ -1,0 +1,9 @@
+name: Web Animation 60fps Skills
+repo: https://github.com/iart-ai/web-animation-skills
+category: frontend-design
+official: false
+agents: [claude-code, codex, universal]
+tags: [gsap, svg, lottie, micro-interactions, 60fps]
+description:
+  en: Frontend animation skills covering GSAP, SVG morphing, Lottie, micro-interactions, page transitions, and 60fps accessibility.
+  zh: 聚焦 GSAP、SVG、Lottie、微交互、页面转场与 60fps 流畅性能的前端网页动效技能集。

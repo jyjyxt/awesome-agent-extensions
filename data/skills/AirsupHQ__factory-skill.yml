@@ -1,0 +1,9 @@
+name: 3D Discrete-Event Factory Simulator
+repo: https://github.com/AirsupHQ/factory-skill
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [digital-twin, simulation, 3d, factory]
+description:
+  en: Describe a factory layout in one line and generate a runnable 3D tilt-shift discrete-event simulation digital twin.
+  zh: 一句话描述工厂产线，自动构建可运行的 3D 微缩离散事件数字孪生仿真系统的技能。

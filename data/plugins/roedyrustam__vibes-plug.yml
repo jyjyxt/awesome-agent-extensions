@@ -1,0 +1,10 @@
+name: Vibes Plug Agent Swarm
+repo: https://github.com/roedyrustam/vibes-plug
+category: orchestration
+official: false
+agents: [claude-code, antigravity, cursor, windsurf, codex]
+includes: [skills, subagents, mcp]
+tags: [swarm, subagents, cross-agent]
+description:
+  en: Cross-agent swarm and MCP plugin bundling 178 skills and 8 autonomous subagents for Antigravity, Claude Code, Cursor, Windsurf, and Codex.
+  zh: 跨端多 Agent 蜂群协作插件，集成 178 个技能与 8 个自主子代理，适配 Antigravity、Claude Code、Cursor 等。

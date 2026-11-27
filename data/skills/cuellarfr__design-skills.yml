@@ -1,0 +1,9 @@
+name: UX Research & Critique Skills
+repo: https://github.com/cuellarfr/design-skills
+category: frontend-design
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [ux-research, accessibility, journey-mapping, critique]
+description:
+  en: UX design skills covering user research synthesis, interface critique, accessibility audits, and customer journey mapping.
+  zh: 覆盖用户研究、界面批判评审、无障碍审查与用户旅程地图绘制的 UX 设计技能包。

@@ -1,0 +1,9 @@
+name: AutoInternship Claude
+repo: https://github.com/pqthangv/AutoInternshipClaude
+category: productivity
+official: false
+agents: [claude-code]
+tags: [internships, resume, job-search, automation]
+description:
+  en: Claude skills automating internship discovery, tailored resume generation, application filling, and status tracking.
+  zh: 自动化搜索实习岗位、定制简历、填报申请表并追踪进度的求职技能包。

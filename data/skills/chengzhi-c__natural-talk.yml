@@ -1,0 +1,9 @@
+name: Natural Talk Human Ruleset
+repo: https://github.com/chengzhi-c/natural-talk
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [writing, human-tone, prompt-engineering]
+description:
+  en: Conversational and writing ruleset skill teaching AI models to communicate and write with natural human cadence.
+  zh: 让 AI 告别刻板书面语、以自然人类口吻对话与创作的表达规则技能集。

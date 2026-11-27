@@ -1,0 +1,10 @@
+name: Claude Bedrock (Obsidian Vault)
+repo: https://github.com/iurykrieger/claude-bedrock
+category: data-research
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [obsidian, second-brain, entity-management, knowledge-graph]
+description:
+  en: Second-brain automation plugin for Obsidian vaults handling entity management, source ingestion, compression, and vault sync.
+  zh: 面向 Obsidian 仓库的第二大脑自动化插件，支持实体管理、资料摄入、笔记压缩与同步。

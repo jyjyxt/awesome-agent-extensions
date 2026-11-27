@@ -1,0 +1,10 @@
+name: Lemo Animi Stop-Motion
+repo: https://github.com/lemomo-ai/lemo-animi
+category: content-marketing
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [stop-motion, claymation, animation, video]
+description:
+  en: Create stop-motion and claymation animated shorts from one prompt across eight material styles with code-driven frame movement.
+  zh: 一句话制作粘土与定格动画短片的插件，内置 8 种材质风格并以代码驱动逐帧动画。

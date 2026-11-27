@@ -1,0 +1,10 @@
+name: Maestro Orchestrate
+repo: https://github.com/josstei/maestro-orchestrate
+category: orchestration
+official: false
+agents: [claude-code, gemini-cli, codex, universal]
+includes: [skills, subagents]
+tags: [orchestration, subagents, code-review, sessions]
+description:
+  en: Multi-agent orchestration plugin with 39 specialists, parallel subagents, persistent sessions, and built-in code review across CLI agents.
+  zh: 跨端多 Agent 编排插件，内置 39 个专家角色、并行子代理、持久化会话与内置代码审查。

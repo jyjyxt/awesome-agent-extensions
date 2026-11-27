@@ -1,0 +1,9 @@
+name: WinDiff Binary Inspector
+repo: https://github.com/ergrelet/windiff
+category: security
+official: false
+agents: [claude-code, universal]
+tags: [windows, reverse-engineering, pdb, syscalls]
+description:
+  en: Compare Windows binary symbols, types, and syscalls across OS versions with Web UI and LLM agent skill integration.
+  zh: 跨版本对比 Windows 二进制符号、数据结构与系统调用的逆向分析工具与 Agent 技能。

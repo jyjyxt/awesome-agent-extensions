@@ -1,0 +1,10 @@
+name: Chinese Web-Novel Toolkit (23 Skills)
+repo: https://github.com/tance-mang/chinese-webnovel-skills
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [chinese-fiction, webnovel, writing]
+description:
+  en: 23-skill Chinese web-novel writing plugin covering worldbuilding, pacing, dialogue, chapter hooks, and serialization consistency.
+  zh: 包含 23 个专项技能的中文网文写作插件，覆盖世界观设定、章纲节奏、对白打磨与连载一致性维护。

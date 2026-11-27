@@ -1,0 +1,10 @@
+name: Reins Agent Guardrails
+repo: https://github.com/pegasi-ai/reins
+category: security
+official: false
+agents: [claude-code, universal]
+includes: [tools]
+tags: [ai-safety, audit-trail, guardrails, monitoring]
+description:
+  en: Runtime guardrail and audit-trail layer preventing AI agents from executing unintended commands or unauthorized actions.
+  zh: 运行时安全护栏与审计追踪插件，防止 AI Agent 执行越权或非预期操作。

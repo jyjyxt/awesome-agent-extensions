@@ -1,0 +1,10 @@
+name: SAIL V2 AI Security Lifecycle
+repo: https://github.com/pillar-labs/sail-skill
+category: security
+official: true
+agents: [claude-code, universal]
+includes: [skills]
+tags: [llm-security, ai-security, compliance, risk-catalog]
+description:
+  en: Secure AI Lifecycle (SAIL V2) 91-risk catalog delivered as an agent skill for AI gap assessments, security roadmaps, and compliance.
+  zh: 将 SAIL V2 安全 AI 生命周期 91 项风险清单转化为 Agent 技能，支持 AI 系统差距评估与安全路线图规划。

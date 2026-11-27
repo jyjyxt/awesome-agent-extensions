@@ -1,0 +1,10 @@
+name: NexPath Safety & Test Workflow
+repo: https://github.com/hi0001234d/nexpath
+category: coding
+official: false
+agents: [claude-code, cursor, universal]
+includes: [skills]
+tags: [testing, safety-checks, code-quality, vibe-coding]
+description:
+  en: Local-first coding workflow plugin catching missing tests and safety checks across Claude Code and Cursor.
+  zh: 本地优先的编码质量护航插件，在 Claude Code 与 Cursor 开发中自动捕捉缺失测试与安全漏洞。

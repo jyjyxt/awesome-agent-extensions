@@ -1,0 +1,9 @@
+name: Reforge AI Evals Toolkit
+repo: https://github.com/Calibre-Labs/reforge-ai-evals
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [ai-evals, llm-as-a-judge, rubrics, braintrust]
+description:
+  en: AI evaluation skills guiding agents to build eval rubrics, input-grid datasets, trace codes, code evaluators, and LLM-as-a-judge pipelines.
+  zh: 指导团队系统构建评测标准、测试数据集、代码评估器与 LLM-as-a-Judge 流水线的 AI Evals 技能包。

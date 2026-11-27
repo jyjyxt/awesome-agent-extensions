@@ -1,0 +1,9 @@
+name: UX Pilot Frontend Design Skill
+repo: https://github.com/uxpilot-ai/frontend-design-skill
+category: frontend-design
+official: true
+agents: [claude-code, codex, cursor, universal]
+tags: [ux-pilot, design-to-code, ui-design]
+description:
+  en: Official UX Pilot skill that generates UI designs on a visual canvas first and then translates them cleanly into frontend code.
+  zh: UX Pilot 官方前端设计技能，先在可视化画布完成界面设计再精准还原为前端代码。

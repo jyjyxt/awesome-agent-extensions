@@ -1,0 +1,10 @@
+name: Gen Sage ADR Guard
+repo: https://github.com/gendigitalinc/sage
+category: security
+official: true
+agents: [claude-code, cursor, universal]
+includes: [tools]
+tags: [adr, security, guardrails, gen-digital]
+description:
+  en: Lightweight Agent Detection & Response (ADR) security layer by Gen Digital guarding agent commands, files, and web requests.
+  zh: Gen Digital 官方出品的轻量级 Agent 检测与响应（ADR）安全插件，防护高危命令、文件与网络请求。

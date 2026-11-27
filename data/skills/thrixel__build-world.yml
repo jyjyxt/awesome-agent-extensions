@@ -1,0 +1,9 @@
+name: Thrixel 3D World Builder
+repo: https://github.com/thrixel/build-world
+category: frontend-design
+official: true
+agents: [claude-code, universal]
+tags: [3d-assets, gamedev, prototyping, mcp]
+description:
+  en: Build interactive 3D scenes and game prototypes using Thrixel 3D assets and agent skills.
+  zh: 结合 Thrixel 高质量 3D 资产库快速搭建可交互 3D 场景与游戏原型的 Agent 技能。

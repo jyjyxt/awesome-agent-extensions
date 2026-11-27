@@ -1,0 +1,10 @@
+name: Intermission (Play Doom While Waiting)
+repo: https://github.com/jarrodwatts/intermission
+category: productivity
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [doom, terminal, ghostty, kitty, fun]
+description:
+  en: Play classic Doom deathmatch inside your terminal while waiting for long Claude Code agent tasks to finish.
+  zh: 在等待 Claude Code 长时间运行期间直接在终端里开一局经典 Doom 游戏的趣味插件。

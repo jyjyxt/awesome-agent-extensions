@@ -1,0 +1,10 @@
+name: Buddy AI Code-Review Pet
+repo: https://github.com/fiorastudio/buddy
+category: coding
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [code-review, virtual-pet, gamification]
+description:
+  en: Virtual companion plugin delivering in-context code review feedback with personality that levels up as your code quality improves.
+  zh: 边养宠物边做代码审查的趣味伴侣插件，随代码质量提升与你共同升级成长。

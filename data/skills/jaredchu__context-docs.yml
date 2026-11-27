@@ -1,0 +1,9 @@
+name: Context Docs
+repo: https://github.com/jaredchu/context-docs
+category: orchestration
+official: false
+agents: [claude-code, codex, universal]
+tags: [context-engineering, markdown, decisions, handoffs]
+description:
+  en: Lightweight Markdown context-persistence skills capturing project state, architectural decisions, and next steps across sessions.
+  zh: 以纯 Markdown 持久化项目上下文、关键决策与后续步骤的轻量级跨会话记忆技能。

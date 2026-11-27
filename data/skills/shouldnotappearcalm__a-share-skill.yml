@@ -1,0 +1,9 @@
+name: A-Share Quant & Paper Trading Skill
+repo: https://github.com/shouldnotappearcalm/a-share-skill
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [a-share, akshare, quant, paper-trading]
+description:
+  en: Chinese A-share market data, quantitative stock screening, technical indicators, custom strategies, and paper-trading skill via AkShare.
+  zh: 基于 AkShare 的 A 股数据分析、量化选股、技术指标计算与模拟盘交易技能集合。

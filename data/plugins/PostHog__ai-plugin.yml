@@ -1,0 +1,10 @@
+name: PostHog Official AI Plugin
+repo: https://github.com/PostHog/ai-plugin
+category: data-research
+official: true
+agents: [claude-code, cursor, gemini-cli, codex]
+includes: [skills, mcp]
+tags: [posthog, product-analytics, feature-flags, experiments]
+description:
+  en: Official PostHog plugin for Claude Code, Cursor, Gemini CLI, and Codex integrating product analytics, feature flags, and experiments.
+  zh: PostHog 官方 AI 编码插件，跨端集成产品数据分析、特性开关与 A/B 实验管理。

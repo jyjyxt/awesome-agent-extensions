@@ -1,0 +1,10 @@
+name: JobPilot Browser Auto-Apply
+repo: https://github.com/suxrobGM/jobpilot
+category: productivity
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [job-search, browser-automation, resume]
+description:
+  en: Local browser-based job application plugin that finds openings, tailors resumes, and fills application forms directly on your machine.
+  zh: 本地浏览器自动化求职插件，自动发现岗位、定制简历并在真实浏览器中完成表单填报。

@@ -1,0 +1,9 @@
+name: X Virality Engine Skill
+repo: https://github.com/Jakeschincariol/x-agent-skill
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [twitter, x, hooks, humanizer, threads]
+description:
+  en: 11 X/Twitter growth skills featuring 21 hook formulas, thread drafting, reply workflows, profile scoring, and anti-AI humanization.
+  zh: 11 个 X 账号增长技能，内置 21 种爆款钩子公式、长推文编排、互动回复、主页诊断与去 AI 味润色。

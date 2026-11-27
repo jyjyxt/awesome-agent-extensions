@@ -1,0 +1,9 @@
+name: ArvanCloud Infrastructure Skill
+repo: https://github.com/erfnzdeh/arvancloud-agent-skill
+category: cloud-devops
+official: false
+agents: [claude-code, universal]
+tags: [arvancloud, cdn, dns, iaas, devops]
+description:
+  en: Agent skill driving ArvanCloud CDN, DNS, IaaS, Object Storage, Edge, CaaS, and VOD APIs alongside acme.sh TLS automation.
+  zh: 操控 ArvanCloud CDN、DNS、云主机、对象存储、容器与视频点播 API 的云运维技能。

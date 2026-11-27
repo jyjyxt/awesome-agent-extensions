@@ -1,0 +1,10 @@
+name: Total Recall Tiered Memory
+repo: https://github.com/davegoldblatt/total-recall
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [memory, tiered-memory, write-gates, context]
+description:
+  en: Tiered persistent memory plugin for Claude Code featuring write gates, correction propagation, and dedicated recall slash commands.
+  zh: 分层持久化记忆插件，内置写入门控、纠错传播机制与专属记忆管理斜杠命令。

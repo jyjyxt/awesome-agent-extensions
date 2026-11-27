@@ -1,0 +1,10 @@
+name: Fable5 Mode Guard Hooks
+repo: https://github.com/cozytab/fable5-mode
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [hooks, plan-gate, model-ceiling, discipline]
+description:
+  en: Claude Code skill and guard hooks enforcing plan gates, model ceilings, and strict per-task verification discipline.
+  zh: 集成计划门禁、模型上限控制与逐任务校验钩子的严格工程执行模式插件。

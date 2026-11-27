@@ -1,0 +1,10 @@
+name: Design Harness
+repo: https://github.com/tigerless-labs/design-harness
+category: orchestration
+official: false
+agents: [claude-code, codex, universal]
+includes: [skills]
+tags: [system-design, evidence-based, canvas, markdown]
+description:
+  en: Turn papers and rough ideas into a defensible system design backed by Markdown records and a readable visual canvas.
+  zh: 将论文与零散想法整合为可辩护系统架构设计的插件，以 Markdown 沉淀依据并用可视化画布呈现。

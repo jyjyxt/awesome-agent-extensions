@@ -1,0 +1,10 @@
+name: WakaTime for Claude Code
+repo: https://github.com/wakatime/claude-code-wakatime
+category: productivity
+official: true
+agents: [claude-code]
+includes: [tools]
+tags: [wakatime, time-tracking, analytics]
+description:
+  en: Official WakaTime plugin automatically tracking how much time and code you produce inside Claude Code sessions.
+  zh: WakaTime 官方 Claude Code 插件，自动记录 AI 辅助编程时长与项目代码活跃数据。

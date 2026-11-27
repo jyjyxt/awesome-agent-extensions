@@ -1,0 +1,9 @@
+name: MATLAB & Simulink Agent Skills
+repo: https://github.com/matlab/agent-skills-playground
+category: coding
+official: true
+agents: [claude-code, universal]
+tags: [matlab, simulink, engineering, scientific]
+description:
+  en: Official MathWorks Agent Skills playground for prototyping and running MATLAB and Simulink engineering workflows.
+  zh: MathWorks 官方开源的 MATLAB 与 Simulink 工程建模 Agent Skills 技能示例库。

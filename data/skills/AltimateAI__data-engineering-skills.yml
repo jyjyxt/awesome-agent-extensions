@@ -1,0 +1,9 @@
+name: Altimate Data Engineering & dbt Skills
+repo: https://github.com/AltimateAI/data-engineering-skills
+category: data-research
+official: true
+agents: [claude-code, universal]
+tags: [dbt, data-engineering, sql, warehouses]
+description:
+  en: Official AltimateAI data engineering skills covering dbt modeling, SQL lineage, data quality tests, and warehouse optimization.
+  zh: AltimateAI 官方数据工程技能包，涵盖 dbt 建模、SQL 血缘分析、数据质量测试与数仓优化。

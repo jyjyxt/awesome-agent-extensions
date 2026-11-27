@@ -1,0 +1,10 @@
+name: Anti-Vibe Writing (EN/ZH)
+repo: https://github.com/weijt606/anti-vibe-writing
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+includes: [skills]
+tags: [bilingual, chinese, humanizer, anti-slop]
+description:
+  en: Bilingual English and Chinese de-AI writing skill removing templated phrasing, consultant-speak, markdown clutter, and em-dash abuse.
+  zh: 中英双语反 AI 模板腔写作技能，剔除顾问黑话、过度 Markdown 装饰与套路句式。

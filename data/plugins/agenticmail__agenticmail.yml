@@ -1,0 +1,10 @@
+name: AgenticMail
+repo: https://github.com/agenticmail/agenticmail
+category: productivity
+official: true
+agents: [claude-code, universal]
+includes: [mcp, skills]
+tags: [email, sms, voice-calls, communications]
+description:
+  en: Programmatic email, SMS, and outbound voice-call infrastructure plugin letting AI agents send and receive real communications.
+  zh: 为 AI Agent 提供真实邮件收发、短信与外呼语音电话能力的通信基础设施插件。

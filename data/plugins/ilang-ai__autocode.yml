@@ -1,0 +1,10 @@
+name: AutoCode End-to-End Shipper
+repo: https://github.com/ilang-ai/autocode
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [deployment, secret-safety, memory, end-to-end]
+description:
+  en: 48-skill autonomous shipping suite taking ideas from code to secret-safe production deployment in one guided session.
+  zh: 包含 48 个技能的端到端交付套件，在单会话内完成编码到密钥安全上线部署。

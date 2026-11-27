@@ -1,0 +1,9 @@
+name: Human State Adaptive Skills
+repo: https://github.com/softcane/human-state-skills
+category: productivity
+official: false
+agents: [claude-code, codex, universal]
+tags: [adhd, burnout, focus, output-style]
+description:
+  en: Adaptive response-mode skills adjusting cognitive load, pacing, and formatting when you are tired, overwhelmed, or deep-focusing.
+  zh: 根据疲劳、过载或深度专注等不同精力状态自适应调整信息密度与交互节奏的贴心输出技能。

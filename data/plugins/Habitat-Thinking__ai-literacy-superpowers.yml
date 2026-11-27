@@ -1,0 +1,10 @@
+name: AI Literacy Superpowers
+repo: https://github.com/Habitat-Thinking/ai-literacy-superpowers
+category: orchestration
+official: false
+agents: [claude-code, copilot]
+includes: [skills]
+tags: [ai-literacy, harness-engineering, code-review]
+description:
+  en: Claude Code and GitHub Copilot plugin suite implementing literate programming, harness engineering, and transparent agent orchestration.
+  zh: 融合文学编程与透明编排理念的 Claude Code / GitHub Copilot 插件套件，提升人机协作可控性。

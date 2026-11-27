@@ -1,0 +1,9 @@
+name: Convex Builder Skills
+repo: https://github.com/waynesutton/builder-skills
+category: cloud-devops
+official: false
+agents: [claude-code, universal]
+tags: [convex, backend, security, workflow]
+description:
+  en: Workflow, security, and technical writing skills tailored for builders shipping production Convex backend applications.
+  zh: 面向 Convex 后端应用开发者的工程工作流、安全实践与技术文档技能包。

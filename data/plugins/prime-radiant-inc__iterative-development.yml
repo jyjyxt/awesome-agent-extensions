@@ -1,0 +1,10 @@
+name: Iterative Development Plugin
+repo: https://github.com/prime-radiant-inc/iterative-development
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [sprints, walking-skeleton, autonomous, methodology]
+description:
+  en: Iterative delivery methodology plugin that extracts requirements, builds a walking skeleton, and loops through audited sprints autonomously.
+  zh: 迭代开发方法论插件：自动提炼需求、搭建可运行骨架并自主推进带审计的短周期迭代冲刺。

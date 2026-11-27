@@ -1,0 +1,10 @@
+name: "Unica (1C:Enterprise Plugin)"
+repo: https://github.com/IngvarConsulting/unica
+category: coding
+official: false
+agents: [claude-code, codex]
+includes: [skills, mcp]
+tags: [1c-enterprise, erp, russian]
+description:
+  en: "Public Claude Code and Codex plugin with skills and MCP tools specialized for 1C:Enterprise ERP development."
+  zh: "专为 1C:Enterprise 企业级 ERP 开发打造的 Claude Code 与 Codex 插件及 MCP。"

@@ -1,0 +1,10 @@
+name: CC Multi-CLI Plugin
+repo: https://github.com/greenpolo/cc-multi-cli-plugin
+category: orchestration
+official: false
+agents: [claude-code, codex, cursor, opencode, antigravity]
+includes: [subagents]
+tags: [multi-model, model-switching, delegation]
+description:
+  en: Switch models with /model and delegate to native Codex, Cursor, OpenCode, and Antigravity workers inside one Claude Code session.
+  zh: 在单个 Claude Code 会话内通过 /model 切换并调度 Codex、Cursor、OpenCode 与 Antigravity 协作的插件。

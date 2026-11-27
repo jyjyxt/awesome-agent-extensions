@@ -1,0 +1,10 @@
+name: GRC Engineering Club Plugins
+repo: https://github.com/GRCEngClub/claude-grc-engineering
+category: security
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [grc, cmmc, fedramp, oscal, compliance]
+description:
+  en: GRC engineering plugins for automated compliance evidence collection, SCF crosswalks, multi-framework gap reports, and OSCAL workflows.
+  zh: 安全合规工程插件，自动化完成审计取证、SCF 控制映射、多框架差距报告与 OSCAL 流程。

@@ -1,0 +1,10 @@
+name: Ray Amjad Claude Code Mods
+repo: https://github.com/ray-amjad/claude-code-mods
+category: security
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [secret-scanning, redaction, prompt-guards, hooks]
+description:
+  en: Functional Claude Code mods adding split panes, status bands, prompt-injection guards, automatic secret redaction, and memory helpers.
+  zh: 为 Claude Code 增强分屏、状态条、提示词护栏、自动密钥脱敏与记忆工具的实用 Mod 插件。

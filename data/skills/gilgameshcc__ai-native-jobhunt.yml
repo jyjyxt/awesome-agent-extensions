@@ -1,0 +1,9 @@
+name: AI-Native Job Hunt Discipline
+repo: https://github.com/gilgameshcc/ai-native-jobhunt
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [career, job-search, decision-making, chinese]
+description:
+  en: Agent-readable job-search decision methodology enforcing judgment discipline at every targeting, resume, and interview checkpoint.
+  zh: 写给 Agent 遵循的求职决策纪律方法论，在投递筛选、简历定位与面试复盘各节点把关判断质量。

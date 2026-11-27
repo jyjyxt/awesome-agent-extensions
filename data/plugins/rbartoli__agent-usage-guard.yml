@@ -1,0 +1,10 @@
+name: Agent Usage Guard
+repo: https://github.com/rbartoli/agent-usage-guard
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [rate-limiting, guardrails, quota, subagents]
+description:
+  en: Claude Code mod throttling runaway subagent fan-out, heavy-context prompts, and retry loops before they burn your usage window.
+  zh: 防额度打爆安全阀插件，在子代理过度并发、重上下文提示与死循环重试耗尽额度前自动拦截限流。

@@ -1,0 +1,9 @@
+name: Third Brain Wiki & Graph Skills
+repo: https://github.com/Mark393295827/third-brain-v7-skills
+category: data-research
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [wiki, graph-engineering, knowledge-management]
+description:
+  en: Graph-engineered agent wiki and knowledge management skills connecting engineering notes across Claude Code, Codex, and Cursor.
+  zh: 融合图谱工程与研发笔记管理的第三大脑 Agent Wiki 技能集。

@@ -1,0 +1,10 @@
+name: SlopTrim
+repo: https://github.com/seyedehsanhadi/sloptrim
+category: content-marketing
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [anti-slop, writing, python, offline]
+description:
+  en: Zero-dependency offline AI-writing pattern detector scoring every prose file your coding agent saves using Python standard library only.
+  zh: 零依赖纯本地 AI 写作套话检测插件，使用 Python 标准库对 Agent 保存的每篇文本进行去水评分。

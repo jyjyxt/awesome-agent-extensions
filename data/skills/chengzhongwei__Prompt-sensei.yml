@@ -1,0 +1,9 @@
+name: Prompt Sensei Local Coach
+repo: https://github.com/chengzhongwei/Prompt-sensei
+category: productivity
+official: false
+agents: [claude-code, codex]
+tags: [prompt-engineering, coaching, local-first]
+description:
+  en: Local-first prompt coach observing your prompting habits with explicit consent to sharpen clarity and reduce back-and-forth turns.
+  zh: 本地优先的提示词教练技能，在授权下分析个人提问习惯并持续提升指令清晰度。

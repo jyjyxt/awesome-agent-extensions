@@ -1,0 +1,10 @@
+name: WorkBuddy WeChat Viral Writer
+repo: https://github.com/adsorgcn/WorkBuddy
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [wechat, chinese, de-ai, copywriting]
+description:
+  en: Chinese WeChat viral article structuring skill turning raw notes into polished drafts with a 12-point self-audit and de-AI pass.
+  zh: 公众号爆文结构写作专家技能，素材进成稿出，内置 12 项质量自查与去 AI 味润色。

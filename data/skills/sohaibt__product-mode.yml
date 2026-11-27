@@ -1,0 +1,9 @@
+name: Product Mode
+repo: https://github.com/sohaibt/product-mode
+category: productivity
+official: false
+agents: [claude-code, cursor, codex]
+tags: [product-management, discovery, agents-md]
+description:
+  en: Drop-in PM + engineering decision framework keeping coding agents focused on building the right product rather than over-building the wrong thing.
+  zh: 面向产研团队的决策规范技能，帮助编程 Agent 在写代码前先确认“做对的事”而非盲目堆砌功能。

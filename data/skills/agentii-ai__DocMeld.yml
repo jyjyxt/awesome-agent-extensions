@@ -1,0 +1,9 @@
+name: DocMeld Knowledge Pipeline
+repo: https://github.com/agentii-ai/DocMeld
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [docling, document-ai, etl, knowledge-base]
+description:
+  en: Three-stage Bronze-Silver-Gold document-to-agent knowledge pipeline extracting structured elements and enriched metadata via Docling.
+  zh: 基于 Docling 的三层（青铜→白银→黄金）文档解析管线技能，将原始文档转化为 Agent 就绪结构化知识。

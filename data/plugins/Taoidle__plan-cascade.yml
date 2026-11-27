@@ -1,0 +1,10 @@
+name: Plan Cascade
+repo: https://github.com/Taoidle/plan-cascade
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [mcp, subagents]
+tags: [prd, task-orchestration, parallel, multi-agent]
+description:
+  en: Cascading development plugin decomposing complex specs into auto-generated PRDs, design docs, and parallel multi-agent execution tasks.
+  zh: 级联式研发编排插件，将复杂项目拆解为 PRD、设计文档并调度多 Agent 并行执行。

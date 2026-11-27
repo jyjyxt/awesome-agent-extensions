@@ -1,0 +1,10 @@
+name: Recruiting Copilot (HR & Headhunter)
+repo: https://github.com/Viy1204/recruiting-copilot
+category: productivity
+official: false
+agents: [claude-code, codex, dsh]
+includes: [skills]
+tags: [recruiting, hr, boss-zhipin, resume-screening]
+description:
+  en: Local-workspace AI recruiting workflow plugin for HR and headhunters covering JD calibration, sourcing, screening, interviews, and hiring boards.
+  zh: 面向 HR 与猎头的本地化 AI 招聘工作流插件，覆盖岗位梳理、双通道初筛、简历评估、面试安排与候选台账看板。

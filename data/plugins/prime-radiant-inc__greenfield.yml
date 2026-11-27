@@ -1,0 +1,10 @@
+name: Greenfield Spec Extractor
+repo: https://github.com/prime-radiant-inc/greenfield
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [reverse-engineering, specifications, test-vectors]
+description:
+  en: Reverse-engineer clean behavioral specs, test vectors, and acceptance criteria with full provenance trails from any legacy codebase.
+  zh: 从存量代码库逆向提取行为规格、测试向量与带溯源验收标准的重写规划插件。

@@ -1,0 +1,10 @@
+name: Threatswarm Pentest Kill-Chain
+repo: https://github.com/mukul975/Threatswarm
+category: security
+official: false
+agents: [claude-code]
+includes: [subagents, skills]
+tags: [pentesting, mitre-attack, dfir, bug-bounty]
+description:
+  en: 27 scope-enforced security agents running full pentest kill-chains (recon, exploit, post-ex, DFIR, reporting) backed by 754 MITRE-mapped techniques.
+  zh: 内置 27 个范围受控安全子代理与 754 项 MITRE 技术的端到端渗透测试与取证报告插件。

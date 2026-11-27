@@ -1,0 +1,10 @@
+name: Retro Game Korean Patch Pipeline
+repo: https://github.com/mcpads/create-retro-game-kr-patch
+category: coding
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [retro-gaming, localization, korean, rom-hacking]
+description:
+  en: End-to-end retro game Korean (Hangul) fan-translation patch pipeline skill covering string extraction, font tables, and ROM repacking.
+  zh: 复古游戏韩文汉化补丁全流程制作技能，涵盖文本提取、字库处理与 ROM 重新打包。

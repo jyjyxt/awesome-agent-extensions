@@ -1,0 +1,10 @@
+name: CLI-Anything Web
+repo: https://github.com/ItamarZand88/CLI-Anything-WEB
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills, tools]
+tags: [cli-generator, playwright, python, web-apps]
+description:
+  en: Claude Code plugin that reverse-engineers web applications and generates production-grade Python CLIs for agentic control.
+  zh: 逆向解析任意 Web 应用并自动生成生产级 Python CLI 工具供 Agent 调用的插件。

@@ -1,0 +1,9 @@
+name: Huashu macOS Computer Use
+repo: https://github.com/alchaincyf/huashu-mac-use
+category: productivity
+official: false
+agents: [claude-code, codex, universal]
+tags: [macos, computer-use, automation, desktop]
+description:
+  en: macOS computer-use skill allowing agents to inspect and automate native Mac apps without APIs, leaving verifiable evidence per step.
+  zh: macOS 原生应用操控技能，让 Agent 无 API 读写桌面应用，后台不打扰且每步留存操作取证。

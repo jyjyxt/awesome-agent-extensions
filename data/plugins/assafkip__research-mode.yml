@@ -1,0 +1,10 @@
+name: Research Mode Anti-Hallucination
+repo: https://github.com/assafkip/research-mode
+category: data-research
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [anti-hallucination, citations, source-grounding]
+description:
+  en: Toggleable anti-hallucination research mode plugin for Claude Code enforcing strict source grounding and verifiable citations.
+  zh: 可随时开关的防幻觉研究模式插件，强制要求每条结论提供可核验信源引用。

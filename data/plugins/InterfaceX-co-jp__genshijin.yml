@@ -1,0 +1,10 @@
+name: Genshijin (Japanese Ultra-Compact)
+repo: https://github.com/InterfaceX-co-jp/genshijin
+category: orchestration
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [japanese, token-compression, output-style]
+description:
+  en: Japanese ultra-compressed communication skill optimized to eliminate Japanese verbosity and cut output token costs dramatically.
+  zh: 面向日语场景的超压缩输出风格技能，大幅精简日语冗余敬语表达以节省输出 Token。

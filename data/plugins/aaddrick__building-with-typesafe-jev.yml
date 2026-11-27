@@ -1,0 +1,10 @@
+name: Building with TypeSafe Jev
+repo: https://github.com/aaddrick/building-with-typesafe-jev
+category: coding
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [jev, typed-decisions, calibration, classification]
+description:
+  en: Specialized skill teaching coding agents to build typed decision pipelines and calibrated confidence checks with TypeSafe AI Jev.
+  zh: 指导 Agent 使用 TypeSafe AI Jev 构建强类型决策流水线与置信度校准的专项技能插件。

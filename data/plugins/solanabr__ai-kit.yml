@@ -1,0 +1,10 @@
+name: Solana Builder AI Kit
+repo: https://github.com/solanabr/ai-kit
+category: coding
+official: false
+agents: [claude-code, codex]
+includes: [skills, subagents]
+tags: [solana, anchor, web3, rust]
+description:
+  en: Full Solana engineering plugin bundling agents, commands, hooks, and skills across Anchor, Pinocchio, Web, Unity, and Mobile.
+  zh: 面向 Solana 全栈开发者的技能与子代理套装，覆盖 Anchor、Pinocchio、Web、Unity 与移动端开发。

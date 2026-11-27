@@ -1,0 +1,10 @@
+name: Claude-AD (Active Directory Red Team)
+repo: https://github.com/ADScanPro/Claude-AD
+category: security
+official: false
+agents: [claude-code]
+includes: [skills, subagents]
+tags: [active-directory, adcs, bloodhound, pentesting]
+description:
+  en: Active Directory pentest methodology plugin with skills, agents, and commands for Kerberoasting, ADCS ESC1-17, DCSync, and ACL abuse.
+  zh: 内网 Active Directory 红队渗透测试插件，覆盖 Kerberoasting、ADCS、DCSync 与 BloodHound 攻击路径分析。

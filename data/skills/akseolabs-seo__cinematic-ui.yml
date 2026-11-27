@@ -1,0 +1,9 @@
+name: Cinematic UI Director Skill
+repo: https://github.com/akseolabs-seo/cinematic-ui
+category: frontend-design
+official: false
+agents: [claude-code, codex, antigravity, universal]
+tags: [cinematic, ui-design, shot-list, frontend]
+description:
+  en: "Direct websites and apps like films: cast a visual director, author a shot list, implement scenes, and screen rendered frames."
+  zh: 以电影导演思维打造高质感前端界面的技能：确立视觉导演风格、写分镜表、编码实现并逐帧审片。

@@ -1,0 +1,10 @@
+name: Showtime Local Video Studio
+repo: https://github.com/FavioVazquez/showtime
+category: content-marketing
+official: false
+agents: [claude-code, codex, cursor, universal]
+includes: [skills]
+tags: [video-studio, local-rendering, captions]
+description:
+  en: Local zero-API-key video studio plugin where your coding agent directs scripts, scenes, and captions and your machine renders locally.
+  zh: 免外部 API 的本地视频工作室插件，由 Agent 执导脚本与字幕并在本机直接渲染成片。

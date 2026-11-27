@@ -1,0 +1,10 @@
+name: Orchestrator Supaconductor
+repo: https://github.com/Ibrahim-3d/orchestrator-supaconductor
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills, subagents]
+tags: [orchestration, parallel, quality-gates, board]
+description:
+  en: Multi-agent orchestration plugin featuring parallel execution, automated quality gates, a Board of Directors review, and Superpowers skills.
+  zh: 支持并行执行、自动化质量门禁与多角色“董事会评审”的 Claude Code 多代理编排插件。

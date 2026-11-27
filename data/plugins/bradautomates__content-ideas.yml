@@ -1,0 +1,10 @@
+name: Content Ideas Competitor Tracker
+repo: https://github.com/bradautomates/content-ideas
+category: content-marketing
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [competitors, youtube, tiktok, instagram, x]
+description:
+  en: Track competitor accounts across X, Instagram, TikTok, and YouTube to generate content ideas backed by real engagement data.
+  zh: 跨 X、Instagram、TikTok 与 YouTube 追踪竞品高互动内容并生成数据驱动选题灵感的插件。

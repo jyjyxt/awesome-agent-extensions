@@ -1,0 +1,10 @@
+name: Han (Test Double)
+repo: https://github.com/testdouble/han
+category: coding
+official: true
+agents: [claude-code]
+includes: [skills, subagents]
+tags: [code-review, documentation, investigation, solo-dev]
+description:
+  en: AI skills and agents by Test Double tailored for solo product engineers and small teams covering code review, docs, and investigation.
+  zh: Test Double 出品的独立产品工程师与小团队专属插件，覆盖代码审查、问题排查与文档维护。

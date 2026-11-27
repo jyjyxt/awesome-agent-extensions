@@ -1,0 +1,10 @@
+name: Shinkoku Japan Tax Plugin
+repo: https://github.com/kazukinagata/shinkoku
+category: productivity
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [japan, tax-filing, bookkeeping, e-tax]
+description:
+  en: Japanese tax filing automation plugin covering bookkeeping management through e-Tax form preparation.
+  zh: 面向日本个人所得税确定申告的自动化插件，覆盖日常记账到 e-Tax 申报表填报辅助。

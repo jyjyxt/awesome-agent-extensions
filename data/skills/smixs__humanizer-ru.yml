@@ -1,0 +1,9 @@
+name: Smixs Humanizer RU
+repo: https://github.com/smixs/humanizer-ru
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [russian, humanizer, ai-detection, writing]
+description:
+  en: Russian AI-text detector and humanizer skill stripping 37 AI writing markers and bureaucratic phrasing.
+  zh: 针对俄语文本检测并消除 37 项 AI 生成痕迹与公文套话的写作润色技能。

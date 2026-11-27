@@ -1,0 +1,9 @@
+name: REA Self-Learning Rebuild Loop
+repo: https://github.com/Speedrunlab/reverse-engineer-anything-self-learning-loop
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [reverse-engineering, verification, self-improving]
+description:
+  en: Examine an authorized reference product, rebuild it cleanly, and iterate against a written parity checklist until every requirement passes.
+  zh: 面向授权重构场景的闭环技能：剖析参考产品、自主实现并逐项对照验收清单修复差距直至全部通过。

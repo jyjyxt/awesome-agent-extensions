@@ -1,0 +1,10 @@
+name: TraxAgent Budget Governance
+repo: https://github.com/ccarter01011/traxagent-claude-plugin
+category: cloud-devops
+official: true
+agents: [claude-code, cursor, universal]
+includes: [mcp]
+tags: [ai-cost, governance, budget, analytics]
+description:
+  en: Read-only AI spend analytics plugin and MCP server answering who spent your AI budget and recommending concrete cost fixes.
+  zh: 只读 AI 预算治理与成本分析插件，快速定位 Token 开销来源并给出具体降本建议。

@@ -1,0 +1,10 @@
+name: Design Council
+repo: https://github.com/sjsyrek/design-council
+category: coding
+official: false
+agents: [claude-code]
+includes: [subagents]
+tags: [architecture, design-review, council, multi-agent]
+description:
+  en: Role-specialized council of up to 17 Claude agents debating cross-domain architectural decisions and auditing codebases.
+  zh: 最多 17 个专业角色组成的 Claude 架构评审委员会插件，围绕跨领域架构决策与代码审计展开辩论。

@@ -1,0 +1,10 @@
+name: Disciplined Agentic Engineer
+repo: https://github.com/swingerman/engineer
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [atdd, bdd, acceptance-testing, checkpoints]
+description:
+  en: ATDD/BDD methodology plugin enforcing acceptance-test-first specifications and explicit verification checkpoints for safe autonomous runs.
+  zh: 遵循验收测试驱动开发（ATDD/BDD）的严谨工程插件，以验收用例与显式检查点保障自主编码质量。

@@ -1,0 +1,9 @@
+name: DeepSeek Handoff Skill
+repo: https://github.com/dazuiba/handoff
+category: orchestration
+official: false
+agents: [claude-code, codex]
+tags: [deepseek, handoff, delegation, multi-model]
+description:
+  en: Delegate well-scoped coding and analysis tasks seamlessly to DeepSeek right inside your Claude Code or Codex sessions.
+  zh: 在 Claude Code 与 Codex 会话内一键将子任务无缝委派给 DeepSeek 执行的跨模型交接技能。

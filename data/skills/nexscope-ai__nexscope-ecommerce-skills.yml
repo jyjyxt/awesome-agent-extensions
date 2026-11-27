@@ -1,0 +1,9 @@
+name: Nexscope Cross-Border Ecommerce Skills
+repo: https://github.com/nexscope-ai/nexscope-ecommerce-skills
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [ecommerce, amazon, 1688, patent-screening, geo]
+description:
+  en: 141 portable e-commerce skills covering marketplace research, 1688 sourcing, patent risk screening, keywords, and GEO workflows.
+  zh: 141 个跨境电商全流程技能包，涵盖市场选品、1688 寻源、专利侵权初筛、关键词与 GEO 优化。

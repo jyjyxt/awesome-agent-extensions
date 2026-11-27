@@ -1,0 +1,10 @@
+name: Cache Tax
+repo: https://github.com/karanb192/cache-tax
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [prompt-caching, hooks, cost]
+description:
+  en: Keep Claude Code prompt cache warm during short breaks and preview estimated cold-send costs via function hooks.
+  zh: 在短暂停顿期间自动保活 Claude Code 提示词缓存并在冷启动发送前预估费用的 Hooks 插件。

@@ -1,0 +1,10 @@
+name: ClickHouse Loom
+repo: https://github.com/ClickHouse/loom
+category: orchestration
+official: true
+agents: [claude-code, universal]
+includes: [skills, mcp]
+tags: [clickhouse, memory, code-index, search]
+description:
+  en: Official ClickHouse shared long-term memory, document search, and symbol-linked code index plugin for AI coding agents.
+  zh: ClickHouse 官方开源的符号级代码索引、文档检索与共享长期记忆插件。

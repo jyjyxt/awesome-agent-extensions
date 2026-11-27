@@ -1,0 +1,10 @@
+name: Everything Claude + Codex
+repo: https://github.com/saksham10arora-dotcom/everything-claude-codex
+category: orchestration
+official: false
+agents: [claude-code, codex]
+includes: [skills, tools]
+tags: [shared-memory, voice, hooks, cross-agent]
+description:
+  en: Unites Claude Code and Codex as one team with shared text/voice memory, cross-agent message awareness, searchable notes, and health checks.
+  zh: 让 Claude Code 与 Codex 共享文本/语音记忆、互相感知最新消息并支持健康自检的双端协同插件。

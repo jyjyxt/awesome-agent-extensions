@@ -1,0 +1,10 @@
+name: Claude Code Filetree
+repo: https://github.com/data-goblin/claude-code-filetree
+category: coding
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [filetree, git-status, diffs, terminal-ui]
+description:
+  en: IDE-style live file tree pane for Claude Code highlighting read/edited files, git status, diffs, search, previews, and guarded paths.
+  zh: 为 Claude Code 增加 IDE 风格实时文件树面板，高亮展示读写文件、Git 状态、Diff 预览与路径保护。

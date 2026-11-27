@@ -1,0 +1,9 @@
+name: Multicam Video & WeChat Skills
+repo: https://github.com/jianshuo/claude-skills
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [video-production, dubbing, subtitles, wechat]
+description:
+  en: 13 video production and WeChat publishing skills covering transcription, translation, dubbing, multicam editing, subtitles, and reframing.
+  zh: 13 个音视频制作与公众号发布技能，覆盖转录、翻译、配音、多机位剪辑、字幕与竖屏重构图。

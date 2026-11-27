@@ -1,0 +1,9 @@
+name: PromptMaster Optimizer Skill
+repo: https://github.com/Jakeschincariol/promptmaster-skill
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [prompt-engineering, token-saving, optimization]
+description:
+  en: Rewrites rough requests into sharp prompts, audits 35 credit-waste patterns, and locks key decisions so you get it right on the first try.
+  zh: 自动优化提示词结构、排查 35 种 Token 浪费模式并锁定关键决策的高效提问技能。

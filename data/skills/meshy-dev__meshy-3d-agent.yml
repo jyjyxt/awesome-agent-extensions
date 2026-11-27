@@ -1,0 +1,9 @@
+name: Meshy AI 3D Generation Skills
+repo: https://github.com/meshy-dev/meshy-3d-agent
+category: frontend-design
+official: true
+agents: [claude-code, cursor, universal]
+tags: [meshy, 3d-generation, image-to-3d, gamedev]
+description:
+  en: Official Meshy AI agent skills for text-to-3D, image-to-3D, texturing, and game-ready 3D asset generation.
+  zh: Meshy AI 官方 3D 生成技能包，支持文生 3D、图生 3D、自动贴图与游戏资产导出。

@@ -1,0 +1,10 @@
+name: Mavericks OS
+repo: https://github.com/yahor-punko/mavericks-os
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [subagents, skills]
+tags: [multi-repo, orchestration, qa-gates, artifacts]
+description:
+  en: Orchestrate Claude Code subagents across long-running single- or multi-repo projects with artifact-first state, dependencies, and QA gates.
+  zh: 跨单仓与多仓长周期项目的子代理编排插件，采用工件优先状态管理、跨仓依赖追踪与 QA 门禁。

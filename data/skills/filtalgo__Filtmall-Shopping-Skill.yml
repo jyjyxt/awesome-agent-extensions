@@ -1,0 +1,9 @@
+name: Filtmall Shopping Skill
+repo: https://github.com/filtalgo/Filtmall-Shopping-Skill
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [shopping, ecommerce, price-comparison]
+description:
+  en: Agent-native shopping skill with verifiable same-product price evidence, checkout assistance, order tracking, and after-sales support.
+  zh: Agent 原生智能比价购物技能，支持同款比价取证、下单辅助、物流跟踪与售后处理。

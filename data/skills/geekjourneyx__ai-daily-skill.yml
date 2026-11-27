@@ -1,0 +1,9 @@
+name: AI Daily News Skill
+repo: https://github.com/geekjourneyx/ai-daily-skill
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [ai-news, daily-digest, chinese]
+description:
+  en: Automated AI news daily briefing skill fetching, categorizing, and summarizing frontier AI developments.
+  zh: 每日自动抓取、归类并深度摘要 AI 前沿动态的资讯日报技能。

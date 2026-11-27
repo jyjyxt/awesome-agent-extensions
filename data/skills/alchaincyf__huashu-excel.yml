@@ -1,0 +1,9 @@
+name: Huashu Excel Data Pipeline
+repo: https://github.com/alchaincyf/huashu-excel
+category: data-research
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [excel, data-analysis, openpyxl, reconciliation]
+description:
+  en: End-to-end Excel data analysis skill (openpyxl only) for dirty-sheet audits, cleaning, analysis, reconciliation, and verifiable deliverables.
+  zh: 仅依赖 openpyxl 的 Excel 数据分析全流程技能，涵盖脏表体检、清洗、分析、对账与可溯源交付。

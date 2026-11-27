@@ -1,0 +1,10 @@
+name: Open Plan Annotator
+repo: https://github.com/ndom91/open-plan-annotator
+category: orchestration
+official: false
+agents: [claude-code, opencode]
+includes: [tools]
+tags: [plan-mode, annotations, local-first, review]
+description:
+  en: Local-first interactive plan annotator plugin for reviewing and commenting on agent implementation plans before execution.
+  zh: 本地优先的交互式计划批注插件，在 Agent 动手编码前对实施方案逐行审阅评论。

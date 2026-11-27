@@ -1,0 +1,9 @@
+name: Android Mainline Linux Porting Skill
+repo: https://github.com/yzddmr6/android-mainline-port
+category: coding
+official: false
+agents: [claude-code, codex, universal]
+tags: [linux-kernel, android, mainline-linux, embedded]
+description:
+  en: Kernel engineering skill codifying workflows, device-tree decision rules, and debugging playbooks for porting mainline Linux to Android devices.
+  zh: 将主线 Linux 内核移植到安卓手机与平板的底层开发技能，沉淀设备树流程、决策规则与避坑经验。

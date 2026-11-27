@@ -1,0 +1,9 @@
+name: Cozempic Context Pruner
+repo: https://github.com/Ruya-AI/cozempic
+category: orchestration
+official: false
+agents: [claude-code]
+tags: [context-management, pruning, agent-teams, jsonl]
+description:
+  en: Context cleaning skill and CLI for Claude Code that prunes bloated JSONL sessions and guards Agent Teams against context loss.
+  zh: 面向 Claude Code 的上下文瘦身技能与工具，按层级裁剪臃肿会话并防止多 Agent 团队丢失上下文。

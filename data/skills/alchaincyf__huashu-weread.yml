@@ -1,0 +1,9 @@
+name: Huashu WeRead Advisor
+repo: https://github.com/alchaincyf/huashu-weread
+category: data-research
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [weread, book-notes, knowledge-base, chinese]
+description:
+  en: Reading advisor layer over WeRead skills cross-analyzing your bookshelf and highlights across advisor, path, alchemy, and review workflows.
+  zh: 微信读书高阶读书顾问技能，交叉分析书架与划线笔记，提供阅读路径规划与知识炼金工作流。

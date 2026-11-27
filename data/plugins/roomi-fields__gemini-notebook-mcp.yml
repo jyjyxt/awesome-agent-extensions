@@ -1,0 +1,10 @@
+name: Gemini Notebook Skill & MCP
+repo: https://github.com/roomi-fields/gemini-notebook-mcp
+category: data-research
+official: false
+agents: [claude-code, codex, universal]
+includes: [skills, mcp]
+tags: [notebooklm, citations, research, rest-api]
+description:
+  en: NotebookLM / Gemini Notebook plugin, MCP server, and local REST API supporting citation-backed Q&A and Studio generation.
+  zh: 接入 Google NotebookLM 的技能、MCP 与本地 REST API 插件，支持带引用问答与 Studio 内容生成。

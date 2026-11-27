@@ -1,0 +1,9 @@
+name: OpenDesigner
+repo: https://github.com/ckryptickunal/OpenDesigner
+category: frontend-design
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [design-system, accessibility, ui, consistency]
+description:
+  en: Turn a few plain-language answers into a cohesive design system so every screen your AI builds looks unified.
+  zh: 通过简单问答快速生成统一设计系统规范，确保 AI 构建的所有界面风格高度一致。

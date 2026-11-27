@@ -1,0 +1,9 @@
+name: Stage-Gated Motion Video Skill
+repo: https://github.com/unclejobs-ai/motion-video-skill
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [motion-graphics, remotion, hyperframes, promo-video]
+description:
+  en: Seven-stage-gated skill for producing 15–90s motion graphics, product promos, and character videos on Remotion and HyperFrames.
+  zh: 带七重阶段门禁的 15–90 秒动态图形与产品宣传视频制作技能，适配 Remotion 与 HyperFrames。

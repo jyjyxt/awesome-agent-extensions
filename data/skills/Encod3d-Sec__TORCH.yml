@@ -1,0 +1,9 @@
+name: TORCH Pentest Harness
+repo: https://github.com/Encod3d-Sec/TORCH
+category: security
+official: false
+agents: [claude-code]
+tags: [pentesting, bug-bounty, ctf, obsidian]
+description:
+  en: Obsidian-backed penetration testing, CTF, and bug-bounty methodology harness built on the LLM Wiki pattern.
+  zh: 结合 Obsidian 知识库的渗透测试、CTF 与漏洞赏金实战工作流技能框架。

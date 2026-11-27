@@ -1,0 +1,9 @@
+name: Bricks Builder WordPress Skill
+repo: https://github.com/wpgaurav/bricks-skills
+category: frontend-design
+official: false
+agents: [claude-code, cursor, codex, universal]
+tags: [wordpress, bricks-builder, woocommerce, acf]
+description:
+  en: Generate source-verified, paste-ready Bricks Builder JSON for WordPress layouts, query loops, popups, ACF, and WooCommerce.
+  zh: 面向 WordPress Bricks Builder 的专项技能，生成经源码校验的布局、查询循环、ACF 与 WooCommerce JSON。

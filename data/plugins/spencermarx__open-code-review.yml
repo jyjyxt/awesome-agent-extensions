@@ -1,0 +1,10 @@
+name: Open Code Review (spencermarx)
+repo: https://github.com/spencermarx/open-code-review
+category: coding
+official: false
+agents: [claude-code, universal]
+includes: [skills, subagents]
+tags: [code-review, multi-agent, discourse]
+description:
+  en: Multi-agent code review plugin simulating a customizable team of engineers debating architecture, security, and maintainability.
+  zh: 多角色模拟研发团队展开讨论式代码审查的开源 AI Code Review 插件。

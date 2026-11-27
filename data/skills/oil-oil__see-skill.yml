@@ -1,0 +1,9 @@
+name: See Vision & Video Skill
+repo: https://github.com/oil-oil/see-skill
+category: data-research
+official: false
+agents: [claude-code, codex, universal]
+tags: [vision, image-analysis, video-analysis]
+description:
+  en: Vision and multimodal analysis skill enabling text-only or limited-vision coding agents to inspect images and video frames accurately.
+  zh: 帮助不具备或弱视觉能力的编程模型看懂图片与视频帧的多模态视觉分析技能。

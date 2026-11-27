@@ -1,0 +1,9 @@
+name: Contextual Commits
+repo: https://github.com/berserkdisruptors/contextual-commits
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [git, commits, provenance, github-actions]
+description:
+  en: Open standard and skill for capturing the architectural WHY and decision context directly inside Git commit history.
+  zh: 在 Git 提交历史中结构化记录代码变更动机与上下文依据的开放规范与技能。

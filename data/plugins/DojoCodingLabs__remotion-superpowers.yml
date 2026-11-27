@@ -1,0 +1,10 @@
+name: Remotion Superpowers
+repo: https://github.com/DojoCodingLabs/remotion-superpowers
+category: content-marketing
+official: false
+agents: [claude-code, codex, gemini-cli, universal]
+includes: [skills]
+tags: [remotion, video-production, voiceover, captions]
+description:
+  en: Complete Remotion video production studio plugin integrating AI voiceovers, music, stock footage, image/video generation, and captions.
+  zh: 基于 Remotion 的全功能视频制作工作室插件，整合 AI 配音、配乐、素材检索、生图与字幕合成。

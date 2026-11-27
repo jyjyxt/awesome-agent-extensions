@@ -1,0 +1,10 @@
+name: TokenDoctor
+repo: https://github.com/localixai/tokendoctor
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [cost-optimization, replay, hooks, tokens]
+description:
+  en: Replays your past Claude Code sessions to quantify exact token savings per optimization and applies only the tweaks you approve.
+  zh: 回放历史 Claude Code 会话精准测算每项优化可节省的 Token 成本（最高省 38%）并按需应用的插件。

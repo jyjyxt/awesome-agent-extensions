@@ -1,0 +1,9 @@
+name: WebCmd Browser
+repo: https://github.com/agentrhq/webcmd
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+tags: [browser, automation, inspection]
+description:
+  en: Inspect live pages and interact with websites directly in a real browser using webcmd.
+  zh: 使用 webcmd 在真实浏览器中检查页面结构并与网站实时交互。

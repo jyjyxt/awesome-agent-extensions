@@ -1,0 +1,9 @@
+name: Imbue Blueprint
+repo: https://github.com/imbue-ai/blueprint
+category: orchestration
+official: false
+agents: [claude-code, universal]
+tags: [planning, copilot, markdown, workflow]
+description:
+  en: Planning copilot for coding agents that explores codebases, asks clarifying questions, and outputs one-shot executable Markdown plans.
+  zh: 面向编程 Agent 的规划副驾驶，自动探索代码库、澄清需求并生成可一次性执行的 Markdown 计划。

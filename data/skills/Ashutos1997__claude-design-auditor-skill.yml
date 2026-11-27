@@ -1,0 +1,9 @@
+name: Claude Design Auditor
+repo: https://github.com/Ashutos1997/claude-design-auditor-skill
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+tags: [design-audit, wcag, typography, ui]
+description:
+  en: Audit UI designs against 17 professional rules covering typography, WCAG accessibility, spacing, iconography, and tokens with a 100-point score.
+  zh: 依据 17 项专业设计规范（排版、WCAG 无障碍、间距、图标、设计 Token 等）审查界面设计并给出百分制评分。

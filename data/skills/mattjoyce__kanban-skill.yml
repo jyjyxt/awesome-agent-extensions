@@ -1,0 +1,9 @@
+name: Kanban Skill
+repo: https://github.com/mattjoyce/kanban-skill
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [kanban, markdown, project-management]
+description:
+  en: Database-free Markdown Kanban board using file-based cards with YAML frontmatter for status, priority, and dependencies.
+  zh: 无数据库的 Markdown 看板技能，以带 YAML 元数据的本地文件管理任务状态、优先级与依赖。

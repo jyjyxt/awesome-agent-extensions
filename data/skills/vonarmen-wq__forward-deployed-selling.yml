@@ -1,0 +1,9 @@
+name: Forward Deployed Selling
+repo: https://github.com/vonarmen-wq/forward-deployed-selling
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [sales, enterprise, gtm, icp]
+description:
+  en: Enterprise AI sales methodology skill for ICP qualification, GTM strategy, deal coaching, and opportunity scoring.
+  zh: 面向企业级 AI 销售的实战方法论技能，涵盖 ICP 资格评估、GTM 策略、商机辅导与打分。

@@ -1,0 +1,9 @@
+name: Materials Simulation Skills
+repo: https://github.com/HeshamFS/materials-simulation-skills
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [materials-science, simulation, numerical, science]
+description:
+  en: Agent skills for computational materials science including numerical stability, solvers, meshing, validation, and post-processing.
+  zh: 计算材料科学专用技能集，涵盖数值稳定性、线性求解器、网格划分、仿真验证与后处理。

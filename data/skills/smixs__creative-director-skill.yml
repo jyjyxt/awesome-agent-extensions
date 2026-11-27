@@ -1,0 +1,9 @@
+name: Creative Director Skill
+repo: https://github.com/smixs/creative-director-skill
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [creative, ideation, storytelling]
+description:
+  en: AI creative director skill for ideation, concept scoring, recursive refinement, and storytelling frameworks.
+  zh: AI 创意总监技能，提供创意发散、方案评分、递归打磨与叙事框架支持。

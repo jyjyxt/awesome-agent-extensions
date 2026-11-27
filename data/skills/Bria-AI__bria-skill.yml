@@ -1,0 +1,9 @@
+name: Bria AI Image Skill
+repo: https://github.com/Bria-AI/bria-skill
+category: content-marketing
+official: true
+agents: [claude-code, universal]
+tags: [image-generation, background-removal, bria]
+description:
+  en: Generate, edit, and remove image backgrounds via the Bria.ai API with natural-language edits and transparent PNGs.
+  zh: 通过 Bria.ai API 实现文生图、自然语言修图与背景抠图，输出透明背景 PNG。

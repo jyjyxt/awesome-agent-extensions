@@ -1,0 +1,10 @@
+name: Agent37 Skills Collection
+repo: https://github.com/agent37-platform/agent37-skills-collection
+category: marketplaces-tooling
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [marketplace, startup, code-review, plugins]
+description:
+  en: Claude Code plugin marketplace featuring YC startup advisor, local code review, and curated agent plugins.
+  zh: Claude Code 插件市场合集，包含 YC 创业顾问、本地代码审查等精选插件。

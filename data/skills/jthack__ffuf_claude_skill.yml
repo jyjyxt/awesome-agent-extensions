@@ -1,0 +1,9 @@
+name: FFUF Claude Skill
+repo: https://github.com/jthack/ffuf_claude_skill
+category: security
+official: false
+agents: [claude-code, universal]
+tags: [ffuf, fuzzing, pentesting, security]
+description:
+  en: Integrate Claude with FFUF web fuzzing and analyze discovered endpoints and results for vulnerabilities.
+  zh: 将 Claude 与 FFUF 模糊测试工具集成，自动分析探测结果与潜在安全漏洞。

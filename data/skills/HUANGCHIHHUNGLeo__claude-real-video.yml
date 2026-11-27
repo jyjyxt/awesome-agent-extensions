@@ -1,0 +1,9 @@
+name: Claude Real Video
+repo: https://github.com/HUANGCHIHHUNGLeo/claude-real-video
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [video-understanding, keyframes, transcript]
+description:
+  en: Let Claude or any LLM watch and understand videos via scene-aware keyframes and timestamped transcripts.
+  zh: 通过场景感知关键帧与带时间戳字幕，让 Claude 等大模型真正“看懂”视频内容。

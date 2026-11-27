@@ -1,0 +1,9 @@
+name: Suede Creator Skills
+repo: https://github.com/JasonColapietro/suede-creator-skills
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [code-review, design, marketing, evals]
+description:
+  en: Multi-discipline skills for code review, design, marketing, AI evaluations, and product releases.
+  zh: 涵盖代码审查、产品设计、营销增长、AI 评测与发布流程的综合技能包。

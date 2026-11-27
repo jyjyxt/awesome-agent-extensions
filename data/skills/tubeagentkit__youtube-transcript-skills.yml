@@ -1,0 +1,9 @@
+name: YouTube Transcript Skills
+repo: https://github.com/tubeagentkit/youtube-transcript-skills
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [youtube, transcripts, playlists]
+description:
+  en: Fetch YouTube transcripts and search across videos, channels, and playlists for research workflows.
+  zh: 提取 YouTube 视频字幕，并支持按视频、频道与播放列表快速检索内容。

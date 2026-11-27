@@ -1,0 +1,9 @@
+name: ZeroSlop
+repo: https://github.com/manavmishra/ZeroSlop
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [writing, editing, anti-slop]
+description:
+  en: Revise AI-sounding drafts into crisp prose while strictly preserving names, numbers, quotations, and links.
+  zh: 优化消除 AI 腔草稿，同时严格保留原文人名、数字、引文与链接。

@@ -1,0 +1,9 @@
+name: AgentFund MCP
+repo: https://github.com/RioTheGreat-ai/agentfund-mcp
+category: orchestration
+official: false
+agents: [claude-code, universal]
+tags: [web3, base, escrow, mcp]
+description:
+  en: Crowdfunding and milestone-based escrow on Base chain for AI agent proposals, project tracking, and payments.
+  zh: 基于 Base 链的 AI Agent 众筹与里程碑托管 MCP，支持提案管理、进度追踪与自动结算。

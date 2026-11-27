@@ -1,0 +1,9 @@
+name: Apify Awesome Skills
+repo: https://github.com/apify/awesome-skills
+category: data-research
+official: true
+agents: [claude-code, universal]
+tags: [apify, scraping, reddit, data]
+description:
+  en: Official Apify skills for collecting Reddit posts, comments, profiles, communities, and structured web data.
+  zh: Apify 官方数据采集技能集，支持抓取 Reddit 帖子、评论、社区及各类网页结构化数据。

@@ -1,0 +1,9 @@
+name: tlgr Telegram Skill
+repo: https://github.com/tlgrcli/tlgr
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [telegram, messaging, cli]
+description:
+  en: Read, search, and manage Telegram conversations directly through the tlgr CLI.
+  zh: 通过 tlgr 命令行工具读取、检索并管理 Telegram 聊天会话。

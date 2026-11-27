@@ -1,0 +1,9 @@
+name: deAPI Media Skills
+repo: https://github.com/deapi-ai/claude-code-skills
+category: content-marketing
+official: true
+agents: [claude-code, cursor, windsurf, universal]
+tags: [media, flux, tts, ocr, video]
+description:
+  en: AI media toolkit via deAPI for Flux image generation, TTS, YouTube/audio transcription, OCR, video generation, and upscaling.
+  zh: 基于 deAPI 的全能 AI 媒体技能包，支持 Flux 生图、语音合成、音视频转录、OCR、视频生成与超分。

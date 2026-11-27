@@ -1,0 +1,9 @@
+name: PinMe Deploy Skill
+repo: https://github.com/glitternetwork/pinme
+category: cloud-devops
+official: false
+agents: [claude-code, universal]
+tags: [deployment, hosting, static-sites]
+description:
+  en: Deploy static sites or full-stack web applications quickly using PinMe.
+  zh: 使用 PinMe 快速部署静态网站或全栈 Web 项目。

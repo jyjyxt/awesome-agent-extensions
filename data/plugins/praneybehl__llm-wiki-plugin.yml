@@ -1,0 +1,10 @@
+name: LLM Wiki Plugin
+repo: https://github.com/praneybehl/llm-wiki-plugin
+category: data-research
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [wiki, knowledge-base, search]
+description:
+  en: Claude Code plugin to build and maintain an LLM-curated personal knowledge base with sharded indexes and search.
+  zh: 用于构建与维护个人 LLM 知识库的 Claude Code 插件，支持分片索引与快速检索。

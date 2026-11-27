@@ -1,0 +1,9 @@
+name: Kaggle Skill
+repo: https://github.com/shepsci/kaggle-skill
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [kaggle, ml, datasets, notebooks]
+description:
+  en: Complete Kaggle workflow integration for competition reports, dataset and model downloads, notebook execution, and submissions.
+  zh: 完整的 Kaggle 工作流集成，支持竞赛报告、数据集/模型下载、Notebook 运行与结果提交。

@@ -1,0 +1,9 @@
+name: HubSpot Admin Skills
+repo: https://github.com/TomGranot/hubspot-admin-skills
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [hubspot, crm, revops, automation]
+description:
+  en: End-to-end HubSpot CRM skills for auditing, cleaning, enriching, and automating RevOps workflows.
+  zh: 面向 HubSpot CRM 的全流程运维技能包，覆盖审计、数据清洗、信息补全与自动化维护。

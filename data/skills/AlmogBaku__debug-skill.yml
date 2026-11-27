@@ -1,0 +1,9 @@
+name: Debug Skill
+repo: https://github.com/AlmogBaku/debug-skill
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [debugging, breakpoints, cli]
+description:
+  en: Give AI agents a real interactive debugger with breakpoints, stepping, variable inspection, and stack traces via CLI.
+  zh: 为 AI Agent 接入真正的交互式调试器，通过 CLI 支持断点、单步执行、变量检查与调用栈追踪。

@@ -1,0 +1,9 @@
+name: Awesome Agentic AI Skills
+repo: https://github.com/adriannoes/awesome-agentic-ai
+category: coding
+official: false
+agents: [claude-code, cursor, codex, universal]
+tags: [development, design, research, product]
+description:
+  en: Cross-agent skills collection for Claude Code, Cursor, and Codex covering development, design, research, and product work.
+  zh: 面向 Claude Code、Cursor 与 Codex 的跨端技能合集，覆盖研发、设计、研究与产品工作。

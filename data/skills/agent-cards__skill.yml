@@ -1,0 +1,9 @@
+name: Agent Cards Skill
+repo: https://github.com/agent-cards/skill
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [payments, visa, cards, mcp]
+description:
+  en: Manage prepaid virtual Visa cards for AI agents including card creation, balances, credentials, and support via MCP.
+  zh: 为 AI Agent 管理预付虚拟 Visa 卡，通过 MCP 支持开卡、查余额、凭证查看与停卡。

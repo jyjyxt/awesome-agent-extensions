@@ -1,0 +1,9 @@
+name: JeffAllan Claude Skills
+repo: https://github.com/jeffallan/claude-skills
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [fullstack, react, nestjs, python, devops]
+description:
+  en: 65 full-stack development and project workflow skills with progressive disclosure covering React, NestJS, Python, DevOps, and Jira.
+  zh: 包含 65 个全栈开发与项目协作技能的渐进式技能包，覆盖 React、NestJS、Python、DevOps 与 Jira 工作流。

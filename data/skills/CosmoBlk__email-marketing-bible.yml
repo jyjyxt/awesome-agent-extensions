@@ -1,0 +1,9 @@
+name: Email Marketing Bible
+repo: https://github.com/CosmoBlk/email-marketing-bible
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [email-marketing, deliverability, copywriting]
+description:
+  en: Plan, write, and audit email marketing campaigns with deliverability and compliance best practices.
+  zh: 规划、撰写与审计邮件营销活动，内置送达率优化与合规检查指南。

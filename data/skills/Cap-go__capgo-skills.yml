@@ -1,0 +1,9 @@
+name: Capgo Capacitor Skills
+repo: https://github.com/Cap-go/capgo-skills
+category: coding
+official: true
+agents: [claude-code, universal]
+tags: [capacitor, mobile, testing, deployment]
+description:
+  en: Official Capgo skills for Capacitor upgrades, native plugins, mobile testing, security, and app deployment.
+  zh: Capgo 官方 Capacitor 技能包，涵盖版本升级、原生插件、移动端测试、安全与发布部署。

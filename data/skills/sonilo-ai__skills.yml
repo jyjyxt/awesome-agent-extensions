@@ -1,0 +1,9 @@
+name: Sonilo Video-to-Music
+repo: https://github.com/sonilo-ai/skills
+category: content-marketing
+official: true
+agents: [claude-code, universal]
+tags: [music, soundtrack, video]
+description:
+  en: Compose original synchronized soundtracks for finished videos using Sonilo.
+  zh: 使用 Sonilo 为成片视频自动创作贴合节奏的原创配乐。

@@ -1,0 +1,9 @@
+name: HashiCorp Agent Skills
+repo: https://github.com/hashicorp/agent-skills
+category: cloud-devops
+official: true
+agents: [claude-code, universal]
+tags: [hashicorp, terraform, iac, devops]
+description:
+  en: HashiCorp-maintained agent skills for Terraform workflows and infrastructure automation.
+  zh: HashiCorp 官方维护的 Agent 技能集，面向 Terraform 工作流与基础设施自动化。

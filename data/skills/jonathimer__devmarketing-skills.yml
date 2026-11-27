@@ -1,0 +1,9 @@
+name: DevMarketing Skills
+repo: https://github.com/jonathimer/devmarketing-skills
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [devtools, marketing, seo, hacker-news]
+description:
+  en: 33 skills for developer marketing covering Hacker News strategy, technical tutorials, docs-as-marketing, Reddit, and devtools SEO.
+  zh: 面向开发者工具的 33 个增长营销技能，涵盖 HN 策略、技术教程、文档营销与 DevTools SEO。

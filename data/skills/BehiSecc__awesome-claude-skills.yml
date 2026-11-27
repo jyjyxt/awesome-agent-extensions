@@ -1,0 +1,9 @@
+name: Awesome Claude Skills (BehiSecc)
+repo: https://github.com/BehiSecc/awesome-claude-skills
+category: marketplaces-tooling
+official: false
+agents: [claude-code, universal]
+tags: [awesome-list, claude-skills, curated, directory]
+description:
+  en: Community-curated directory of Claude Skills covering documents, development, data analysis, research, media, security, and automation.
+  zh: 社区精选的 Claude Skills 导航目录，覆盖文档处理、开发工具、数据分析、科研、媒体制作、安全与自动化。

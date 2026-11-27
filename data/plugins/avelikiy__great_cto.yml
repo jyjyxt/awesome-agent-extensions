@@ -1,0 +1,10 @@
+name: Great CTO
+repo: https://github.com/avelikiy/great_cto
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills, subagents]
+tags: [sdlc, compliance, engineering-leadership]
+description:
+  en: Claude Code SDLC plugin with specialist agents, commands, compliance workflows, and reusable engineering learnings.
+  zh: 面向全软件生命周期的 Claude Code 插件，内置专家子代理、命令、合规流程与经验沉淀机制。

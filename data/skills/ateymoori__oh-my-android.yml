@@ -1,0 +1,9 @@
+name: Oh My Android
+repo: https://github.com/ateymoori/oh-my-android
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+tags: [android, mobile, ui-testing, emulator]
+description:
+  en: Inspect and test Android user interfaces directly on emulators or connected devices.
+  zh: 在 Android 模拟器或真机上直接检查与自动化测试移动端界面。

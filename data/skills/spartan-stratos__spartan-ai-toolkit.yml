@@ -1,0 +1,9 @@
+name: Spartan AI Toolkit
+repo: https://github.com/spartan-stratos/spartan-ai-toolkit
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [tdd, quality-gates, git, workflow]
+description:
+  en: Engineering workflow commands with quality gates, TDD enforcement, and atomic commits for AI coding agents.
+  zh: 为 AI 编程助手提供质量门禁、强制 TDD 流程与原子化提交的工程工作流工具集。

@@ -1,0 +1,9 @@
+name: Video Prompting Skill
+repo: https://github.com/Square-Zero-Labs/video-prompting-skill
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [video, prompting, sora, veo]
+description:
+  en: Draft and refine production-ready prompts for video generation models including LTX-2, Sora, and Veo 3.
+  zh: 为 LTX-2、Sora、Veo 3 等主流视频生成模型起草与精修高质量提示词。

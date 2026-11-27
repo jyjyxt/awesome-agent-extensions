@@ -1,0 +1,9 @@
+name: Claudemy
+repo: https://github.com/assafkip/claudemy
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [audio-courses, learning, education]
+description:
+  en: Create short audio courses complete with background research, lesson cards, and practice exercises.
+  zh: 自动调研主题并生成包含音频课程、知识卡片与随堂练习的微型学习课程。

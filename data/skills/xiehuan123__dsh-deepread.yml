@@ -1,0 +1,9 @@
+name: DeepRead
+repo: https://github.com/xiehuan123/dsh-deepread
+category: data-research
+official: false
+agents: [claude-code, dsh, universal]
+tags: [reading, knowledge-map, citations, documents]
+description:
+  en: Deep document reading skill with traceable claims, structured knowledge maps, and cross-document comparisons.
+  zh: 深度精读文档技能，提供可溯源论点提取、结构化知识图谱与多文档对比分析。

@@ -1,0 +1,9 @@
+name: Claude Code Terminal Title
+repo: https://github.com/bluzername/claude-code-terminal-title
+category: productivity
+official: false
+agents: [claude-code]
+tags: [terminal, dx, workflow]
+description:
+  en: Give each Claude Code terminal window a dynamic title describing the current task so parallel sessions stay organized.
+  zh: 为每个 Claude Code 终端窗口动态设置任务标题，方便在多窗口并行开发时快速区分。

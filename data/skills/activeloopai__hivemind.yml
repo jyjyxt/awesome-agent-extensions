@@ -1,0 +1,9 @@
+name: Hivemind
+repo: https://github.com/activeloopai/hivemind
+category: marketplaces-tooling
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [skill-generation, traces, automation]
+description:
+  en: Auto-generate reusable skills from coding agent session traces for Claude Code, Codex, Cursor, and OpenClaw.
+  zh: 从编程 Agent 会话轨迹中自动提炼并生成可复用技能，支持 Claude Code、Codex 与 Cursor。

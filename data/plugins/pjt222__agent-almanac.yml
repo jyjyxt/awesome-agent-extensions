@@ -1,0 +1,10 @@
+name: Agent Almanac
+repo: https://github.com/pjt222/agent-almanac
+category: marketplaces-tooling
+official: false
+agents: [claude-code, universal]
+includes: [skills, subagents]
+tags: [collection, subagents, teams, open-standard]
+description:
+  en: 317 skills, 65 specialist agents, and 14 teams across 50+ domains following the Agent Skills open standard.
+  zh: 遵循 Agent Skills 开放标准的大型资源库，涵盖 50+ 领域的 317 个技能、65 个子代理与 14 个团队模板。

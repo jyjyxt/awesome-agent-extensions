@@ -1,0 +1,10 @@
+name: OpenPaw
+repo: https://github.com/daxaur/openpaw
+category: productivity
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [personal-assistant, obsidian, telegram, discord]
+description:
+  en: 38-skill bundle turning Claude Code into a personal assistant with git, Telegram, Discord, Obsidian, and daily briefings.
+  zh: 包含 38 个技能的个人助手套装，为 Claude Code 集成 Git、Telegram、Discord、Obsidian 与每日简报。

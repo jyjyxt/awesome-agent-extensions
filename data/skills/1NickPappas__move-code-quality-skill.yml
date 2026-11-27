@@ -1,0 +1,9 @@
+name: Move Code Quality Skill
+repo: https://github.com/1NickPappas/move-code-quality-skill
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [move, web3, code-review, sui]
+description:
+  en: Analyze Move language packages against the official Move Book Code Quality Checklist for Move 2024 Edition compliance.
+  zh: 对照官方 Move Book 代码质量清单审查 Move 语言包，确保符合 Move 2024 Edition 规范。

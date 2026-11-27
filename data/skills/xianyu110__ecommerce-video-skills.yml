@@ -1,0 +1,9 @@
+name: Ecommerce Video Skills
+repo: https://github.com/xianyu110/ecommerce-video-skills
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [ecommerce, video, storyboard, subtitles]
+description:
+  en: Ecommerce video production skills covering hooks, storyboards, voice-overs, and subtitles.
+  zh: 面向电商短视频的创作技能包，覆盖黄金开头、分镜脚本、配音与字幕制作。

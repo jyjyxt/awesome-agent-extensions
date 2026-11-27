@@ -1,0 +1,9 @@
+name: Trail of Bits Security Skills
+repo: https://github.com/trailofbits/skills
+category: security
+official: true
+agents: [claude-code, universal]
+tags: [codeql, semgrep, auditing, static-analysis]
+description:
+  en: Security skills by Trail of Bits for static analysis with CodeQL/Semgrep, variant analysis, code auditing, and fix verification.
+  zh: Trail of Bits 开源的安全审计技能集，涵盖 CodeQL/Semgrep 静态分析、变体分析与修复验证。

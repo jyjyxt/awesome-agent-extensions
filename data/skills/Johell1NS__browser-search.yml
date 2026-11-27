@@ -1,0 +1,9 @@
+name: Browser Search
+repo: https://github.com/Johell1NS/browser-search
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [search, browser, stealth, web]
+description:
+  en: Web search and stealth browsing skill for AI agents supporting multi-engine search.
+  zh: 支持多搜索引擎与隐身浏览模式的 AI Agent 网页搜索与抓取技能。

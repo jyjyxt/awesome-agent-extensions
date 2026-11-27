@@ -1,0 +1,9 @@
+name: Crit
+repo: https://github.com/tomasz-tomczyk/crit
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [code-review, diffs, feedback, frontend]
+description:
+  en: Review and comment on plans, code diffs, and frontend changes, sending structured feedback directly to your agent.
+  zh: 对开发计划、代码 Diff 与前端界面进行批注评审，并将反馈直接回传给编程 Agent。

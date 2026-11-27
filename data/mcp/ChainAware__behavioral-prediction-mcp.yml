@@ -1,0 +1,9 @@
+name: ChainAware Behavioral Prediction
+repo: https://github.com/ChainAware/behavioral-prediction-mcp
+category: security
+official: false
+agents: [claude-code, universal]
+tags: [web3, fraud-detection, wallet, mcp]
+description:
+  en: MCP and skill for Web3 wallet behavior prediction, fraud detection, and rug-pull risk analysis.
+  zh: 用于 Web3 钱包行为预测、欺诈检测与跑路风险评估的 MCP 与技能工具。

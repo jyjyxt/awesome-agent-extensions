@@ -1,0 +1,9 @@
+name: ClawFu Marketing MCP Skills
+repo: https://github.com/guia-matthieu/clawfu-skills
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [marketing, copywriting, brand-memory, mcp]
+description:
+  en: 169 expert-sourced marketing skills inspired by Dunford, Schwartz, Ogilvy, and Cialdini delivered as an MCP server with brand memory.
+  zh: 汇聚 169 个大师级营销方法论技能的 MCP 服务，内置品牌记忆与转化文案体系。

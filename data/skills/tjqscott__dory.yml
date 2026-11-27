@@ -1,0 +1,9 @@
+name: Dory
+repo: https://github.com/tjqscott/dory
+category: orchestration
+official: false
+agents: [claude-code, universal]
+tags: [memory, wiki, handoffs]
+description:
+  en: Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs.
+  zh: 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。

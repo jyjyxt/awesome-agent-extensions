@@ -1,0 +1,9 @@
+name: Papercut Explainer
+repo: https://github.com/0xS4N4TG/papercut-explainer
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [remotion, video, explainer]
+description:
+  en: Turn web links into narrated cut-paper style explainer videos rendered with Remotion.
+  zh: 基于 Remotion 将网页链接转化为带旁白的剪纸风格解说视频。

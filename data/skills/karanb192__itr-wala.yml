@@ -1,0 +1,9 @@
+name: ITR Wala
+repo: https://github.com/karanb192/itr-wala
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [tax, finance, india, accounting]
+description:
+  en: Prepare Indian ITR-1 through ITR-4 income tax returns using a deterministic tax calculation engine.
+  zh: 基于确定性税务引擎辅助准备印度 ITR-1 至 ITR-4 个人所得税申报表。

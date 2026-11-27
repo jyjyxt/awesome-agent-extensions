@@ -1,0 +1,9 @@
+name: Motion Graphics Skills
+repo: https://github.com/iart-ai/motion-skills
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [motion-graphics, animation, video]
+description:
+  en: 50 skills across 14 installable packs for motion graphics, animation, and video production.
+  zh: 包含 14 个可安装扩展包、共 50 个动态图形、动画与视频制作技能。

@@ -1,0 +1,9 @@
+name: CoinPaprika Skills
+repo: https://github.com/coinpaprika/skills
+category: data-research
+official: true
+agents: [claude-code, universal]
+tags: [crypto, market-data, dex, ohlcv]
+description:
+  en: Keyless crypto and DEX market data skills covering 12K+ coins, 350+ exchanges, 36 chains, tickers, pools, and OHLCV prices.
+  zh: 免 API Key 的加密货币与 DEX 行情技能包，覆盖 1.2 万+ 代币、350+ 交易所与 36 条公链实时数据。

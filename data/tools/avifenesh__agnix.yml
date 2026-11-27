@@ -1,0 +1,9 @@
+name: agnix
+repo: https://github.com/avifenesh/agnix
+category: marketplaces-tooling
+official: false
+agents: [universal, claude-code]
+tags: [linter, skill-md, claude-md, lsp]
+description:
+  en: Linter for AI agent configurations validating SKILL.md, CLAUDE.md, hooks, and MCP configs with 156 rules, auto-fix, and LSP support.
+  zh: 面向 AI Agent 配置的静态检查工具，内置 156 条规则、自动修复与 LSP 支持，校验 SKILL.md、CLAUDE.md、Hooks 与 MCP 配置。

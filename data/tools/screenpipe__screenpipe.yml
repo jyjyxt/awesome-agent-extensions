@@ -1,0 +1,9 @@
+name: Screenpipe
+repo: https://github.com/screenpipe/screenpipe
+category: data-research
+official: true
+agents: [claude-code, universal]
+tags: [screen-recording, audio, context, local]
+description:
+  en: Local-first screen and audio recording engine with agent skills to query meeting, screen, and interface context.
+  zh: 本地优先的屏幕与音频记录引擎，配套技能可检索本地会议、屏幕与界面上下文。

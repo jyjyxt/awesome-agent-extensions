@@ -1,0 +1,9 @@
+name: Charles Proxy Extract Skill
+repo: https://github.com/wannabehero/charles-proxy-extract-skill
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [charles-proxy, http, debugging, network]
+description:
+  en: Extract and analyze HTTP traffic from Charles Proxy session files directly with coding agents.
+  zh: 提取并分析 Charles Proxy 抓包会话文件中的 HTTP 流量数据，辅助接口排查与调试。

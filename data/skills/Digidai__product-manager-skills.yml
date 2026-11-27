@@ -1,0 +1,9 @@
+name: Senior PM Agent Skills
+repo: https://github.com/Digidai/product-manager-skills
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [product-management, strategy, frameworks, ai-product]
+description:
+  en: Senior PM skillset with 6 knowledge domains, 12 templates, and 30+ frameworks covering strategy, delivery, career coaching, and AI product craft.
+  zh: 资深产品经理技能体系，包含 6 大知识域、12 套模板与 30+ 框架，覆盖战略、交付与 AI 产品打磨。

@@ -1,0 +1,9 @@
+name: Family History Research Skill
+repo: https://github.com/emaynard/claude-family-history-research-skill
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [genealogy, research, history]
+description:
+  en: Assist with planning and structuring family history and genealogy research projects.
+  zh: 辅助规划与推进家族史及家谱学研究项目。

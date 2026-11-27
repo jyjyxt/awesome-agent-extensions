@@ -1,0 +1,9 @@
+name: Tapestry Skills
+repo: https://github.com/michalparkola/tapestry-skills
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [articles, youtube, learning, extraction]
+description:
+  en: Collection of learning and extraction skills including article-extractor, youtube-transcript, learn-this, and ship-learn-next.
+  zh: 内容提取与学习工作流技能集，包含网页文章提取、YouTube 字幕总结与迭代学习计划。

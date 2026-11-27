@@ -1,0 +1,9 @@
+name: TestDino Playwright Skill
+repo: https://github.com/testdino-hq/playwright-skill
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+tags: [playwright, e2e, testing, browser]
+description:
+  en: AI agent-ready Playwright skill with structured SKILL.md, test automation workflows, and MCP-compatible testing pipeline setup.
+  zh: 面向 AI Agent 的 Playwright 测试技能包，提供结构化 SKILL.md、自动化测试流与 MCP 兼容配置。

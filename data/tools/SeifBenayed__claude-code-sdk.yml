@@ -1,0 +1,9 @@
+name: Provider-Agnostic Claude Code SDK
+repo: https://github.com/SeifBenayed/claude-code-sdk
+category: marketplaces-tooling
+official: false
+agents: [universal, claude-code]
+tags: [cli, sdk, multi-provider, marketplace]
+description:
+  en: Open-source, provider-agnostic CLI for AI agents supporting 13 model providers, built-in tools, and a skill marketplace.
+  zh: 开源的跨模型提供商 AI Agent CLI，支持 13 家模型后端、内置工具与技能市场。

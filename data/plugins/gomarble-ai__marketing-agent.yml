@@ -1,0 +1,12 @@
+name: GoMarble Marketing Agent
+repo: https://github.com/gomarble-ai/marketing-agent
+category: content-marketing
+official: false
+agents: [claude-code, codex]
+includes: [skills, mcp]
+tags: [marketing, paid-ads, meta-ads, google-ads, analytics]
+install:
+  claude-code: /plugin marketplace add gomarble-ai/marketing-agent
+description:
+  en: Paid-media marketing plugin combining ad-ops skills and OAuth-secured MCP connectors across Meta, Google, TikTok, GA4, and Shopify.
+  zh: 面向效果广告团队的营销插件，结合投放分析技能与 OAuth 鉴权 MCP 连接器，覆盖 Meta、Google、TikTok、GA4 与 Shopify。

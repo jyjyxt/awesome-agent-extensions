@@ -1,0 +1,9 @@
+name: Claude Code Plugin Template
+repo: https://github.com/ivan-magda/claude-code-plugin-template
+category: marketplaces-tooling
+official: false
+agents: [claude-code]
+tags: [plugin-authoring, template, validation]
+description:
+  en: Template and ambient authoring guidance for creating, validating, and debugging Claude Code plugins.
+  zh: 用于创建、校验与调试 Claude Code 插件的模板与开发指导技能。

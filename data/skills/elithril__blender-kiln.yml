@@ -1,0 +1,9 @@
+name: Blender Kiln
+repo: https://github.com/elithril/blender-kiln
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+tags: [blender, 3d, gamedev, assets]
+description:
+  en: Create and refine game-ready 3D assets directly inside Blender.
+  zh: 在 Blender 中创建并优化可直接用于游戏引擎的 3D 美术资产。

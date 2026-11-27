@@ -1,0 +1,9 @@
+name: Jev Social
+repo: https://github.com/socai-io/jev-social
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [social-research, instagram, tiktok, linkedin]
+description:
+  en: Research Instagram, TikTok, and LinkedIn accounts and trends using browser-backed evidence.
+  zh: 基于真实浏览器取证调研 Instagram、TikTok 与 LinkedIn 社媒动态与账号表现。

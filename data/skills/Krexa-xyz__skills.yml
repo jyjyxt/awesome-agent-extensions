@@ -1,0 +1,9 @@
+name: Krexa Skills
+repo: https://github.com/Krexa-xyz/skills
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [trading, backtesting, quant]
+description:
+  en: Research, backtest, and deploy quantitative trading strategies through Krexa.
+  zh: 通过 Krexa 研究、回测并部署量化交易策略。

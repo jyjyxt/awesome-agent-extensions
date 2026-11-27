@@ -1,0 +1,9 @@
+name: Alpha Insights
+repo: https://github.com/Ericyoung-183/alpha-insights
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [business-research, strategy, reports]
+description:
+  en: Structured business research skill featuring strategy frameworks, evidence grading, and executive report output.
+  zh: 结构化商业研究技能，内置战略分析框架、证据评级体系与研究报告生成能力。

@@ -1,0 +1,9 @@
+name: AlterLab Creative Tech Skills
+repo: https://github.com/AlterLab-IEU/AlterLab-FC-Skills
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [creative-tech, design, collection]
+description:
+  en: 72 agentic skills for creative technology workflows spanning 11 interdisciplinary domains.
+  zh: 面向创意科技工作流的 72 个 Agent 技能集合，覆盖 11 个跨学科领域。

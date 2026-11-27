@@ -1,0 +1,9 @@
+name: Emblem AI Agent Wallet
+repo: https://github.com/EmblemCompany/Agent-skills
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [crypto, wallet, multi-chain, web3]
+description:
+  en: Multi-chain crypto wallet management skills across Solana, Ethereum, Base, BSC, Polygon, Hedera, and Bitcoin for swaps and transfers.
+  zh: 支持 Solana、以太坊、Base、BSC、Polygon、Hedera 与比特币的跨链加密钱包管理与交易技能。

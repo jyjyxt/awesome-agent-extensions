@@ -1,0 +1,9 @@
+name: Karpathy LLM Wiki
+repo: https://github.com/Astro-Han/karpathy-llm-wiki
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [wiki, knowledge-base, markdown, linting]
+description:
+  en: Markdown-first skill for building and maintaining a personal LLM wiki from raw sources with compiled pages, query workflows, and linting.
+  zh: Markdown 优先的个人 LLM Wiki 技能，从原始资料编译知识页并提供查询与一致性校验流。

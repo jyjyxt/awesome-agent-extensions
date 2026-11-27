@@ -1,0 +1,10 @@
+name: Agent Starter
+repo: https://github.com/sneg55/agent-starter
+category: marketplaces-tooling
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [starter, hooks, templates, scaffolding]
+description:
+  en: Skills, hooks, and project templates for bootstrapping AI-agent-friendly repositories.
+  zh: 包含技能、Hooks 与项目模板的脚手架套装，快速初始化对 AI Agent 友好的代码仓库。

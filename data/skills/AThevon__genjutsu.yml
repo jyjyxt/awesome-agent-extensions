@@ -1,0 +1,9 @@
+name: Genjutsu
+repo: https://github.com/AThevon/genjutsu
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+tags: [motion, animation, creative-coding, ui]
+description:
+  en: Design expressive web and mobile interfaces with motion choreography and creative coding techniques.
+  zh: 面向 Web 与移动端的动效设计与创意编程技能，打造富有表现力的交互界面。

@@ -1,0 +1,9 @@
+name: X Twitter Scraper Skill
+repo: https://github.com/Xquik-dev/x-twitter-scraper
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [twitter, x, scraping, analytics]
+description:
+  en: X/Twitter data extraction for coding agents including tweet search, user lookup, followers, engagement metrics, and trending topics.
+  zh: 面向 Agent 的 X/Twitter 数据采集技能，支持推文搜索、用户查询、粉丝与互动指标分析。

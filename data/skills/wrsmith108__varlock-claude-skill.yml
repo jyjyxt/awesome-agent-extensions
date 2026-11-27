@@ -1,0 +1,9 @@
+name: Varlock Claude Skill
+repo: https://github.com/wrsmith108/varlock-claude-skill
+category: security
+official: false
+agents: [claude-code, universal]
+tags: [secrets, env, security]
+description:
+  en: Secure environment variable management ensuring secrets never leak into Claude sessions, terminals, logs, or git commits.
+  zh: 安全的环境变量管理技能，防止密钥泄露到 Claude 会话、终端日志或 Git 提交记录中。

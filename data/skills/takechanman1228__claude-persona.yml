@@ -1,0 +1,9 @@
+name: Claude Persona
+repo: https://github.com/takechanman1228/claude-persona
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [persona, customer-research, interviews]
+description:
+  en: Build AI persona panels for customer research, simulated interviews, concept testing, and executive reports.
+  zh: 构建 AI 用户画像面板，用于模拟客户访谈、概念测试与消费者调研报告生成。

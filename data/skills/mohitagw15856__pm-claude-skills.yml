@@ -1,0 +1,9 @@
+name: PM Claude Skills (1100+)
+repo: https://github.com/mohitagw15856/pm-claude-skills
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [product-management, professions, prd, postmortems]
+description:
+  en: 1,100+ professional skills across 35 professions including PRDs, postmortems, strategy, and negotiation.
+  zh: 覆盖 35 个职业领域、超 1,100 个专业技能的庞大技能库，包含 PRD、复盘报告与谈判模板。

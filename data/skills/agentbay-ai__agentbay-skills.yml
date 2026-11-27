@@ -1,0 +1,9 @@
+name: AgentBay Skills
+repo: https://github.com/agentbay-ai/agentbay-skills
+category: marketplaces-tooling
+official: false
+agents: [claude-code, universal]
+tags: [marketplace, discovery, skills]
+description:
+  en: Discover, search, and install AI agent skills directly from the AgentBay marketplace.
+  zh: 帮助用户从 AgentBay 市场快速发现、检索并安装各类 Agent 技能。

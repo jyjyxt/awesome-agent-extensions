@@ -1,0 +1,9 @@
+name: AlterLab Academic Skills
+repo: https://github.com/AlterLab-IEU/AlterLab-Academic-Skills
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [academic, research, higher-education]
+description:
+  en: 186+ academic research skills across 13 domains designed for higher education and scholarly workflows.
+  zh: 面向高等教育与科研工作的 186+ 学术研究技能包，覆盖 13 个学科领域。

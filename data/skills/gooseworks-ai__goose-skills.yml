@@ -1,0 +1,9 @@
+name: Goose Growth Skills
+repo: https://github.com/gooseworks-ai/goose-skills
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [growth, gtm, ads, lead-gen, seo]
+description:
+  en: 125 growth and GTM skills covering paid ads, content, lead generation, outreach, research, and SEO.
+  zh: 包含 125 个增长与 GTM 技能的营销技能库，覆盖广告投放、内容、获客、外呼调研与 SEO。

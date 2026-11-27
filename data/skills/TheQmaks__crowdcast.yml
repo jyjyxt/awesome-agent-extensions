@@ -1,0 +1,9 @@
+name: Crowdcast
+repo: https://github.com/TheQmaks/crowdcast
+category: orchestration
+official: false
+agents: [claude-code, universal]
+tags: [simulation, multi-agent, prediction]
+description:
+  en: Zero-dependency multi-agent social simulation skill that spawns AI personas to debate and react, then writes a prediction report.
+  zh: 零依赖多 Agent 社交模拟技能，生成多个 AI 角色在模拟平台互动讨论并输出预测报告。

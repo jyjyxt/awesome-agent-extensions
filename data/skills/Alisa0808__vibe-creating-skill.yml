@@ -1,0 +1,9 @@
+name: Vibe Creating Skill
+repo: https://github.com/Alisa0808/vibe-creating-skill
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [video, prompting, seedance, sora, kling]
+description:
+  en: Rewrite rough creative ideas into model-ready text-to-video prompts for Seedance, Sora, Kling, and Veo.
+  zh: 将粗略创意改写为适配 Seedance、Sora、可灵、Veo 等模型的专业文生视频提示词。

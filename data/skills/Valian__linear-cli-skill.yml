@@ -1,0 +1,9 @@
+name: Linear CLI Skill
+repo: https://github.com/Valian/linear-cli-skill
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [linear, cli, issues]
+description:
+  en: Lightweight skill and bundled Linear CLI to manage issues and workflows without running a full Linear MCP server.
+  zh: 轻量级 Linear CLI 与配套技能，无需部署完整 MCP 服务器即可高效操作 Linear 任务。

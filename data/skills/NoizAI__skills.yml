@@ -1,0 +1,9 @@
+name: NoizAI TTS Skills
+repo: https://github.com/NoizAI/skills
+category: content-marketing
+official: true
+agents: [claude-code, universal]
+tags: [tts, audio, voice]
+description:
+  en: Human-like text-to-speech workflows with local and cloud backends, style presets, and delivery scripts.
+  zh: 拟人化语音合成（TTS）工作流技能，支持本地与云端引擎、风格预设及应用交付脚本。

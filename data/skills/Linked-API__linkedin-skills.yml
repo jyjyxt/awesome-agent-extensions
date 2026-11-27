@@ -1,0 +1,9 @@
+name: Linked API LinkedIn Skills
+repo: https://github.com/Linked-API/linkedin-skills
+category: content-marketing
+official: true
+agents: [claude-code, universal]
+tags: [linkedin, automation, sales-navigator, outreach]
+description:
+  en: General-purpose LinkedIn automation via Linked API for profile lookup, search, messaging, connections, posts, and Sales Navigator.
+  zh: 基于 Linked API 的领英自动化技能，支持档案检索、消息触达、人脉管理、发帖与 Sales Navigator。

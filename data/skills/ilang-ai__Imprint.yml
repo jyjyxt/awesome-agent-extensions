@@ -1,0 +1,9 @@
+name: Imprint
+repo: https://github.com/ilang-ai/Imprint
+category: orchestration
+official: false
+agents: [claude-code, universal]
+tags: [profile, memory, workflow, preferences]
+description:
+  en: Portable AI collaboration profile capturing memory, planning, review, debugging, testing, and workflow habits.
+  zh: 可跨工具迁移的 AI 协作偏好档案，沉淀个人记忆、规划、审查、调试与测试习惯。

@@ -1,0 +1,11 @@
+name: Master Skill
+repo: https://github.com/swaylq/master-skill
+category: productivity
+official: false
+agents: [universal, claude-code, codex]
+tags: [domain-distillation, meta-skill, knowledge-os, workflows]
+install:
+  skills-cli: npx skills add swaylq/master-skill
+description:
+  en: Meta-skill that researches and distills an entire industry's mental models, workflows, and tool stack into a reusable Master OS skill.
+  zh: 大师元技能，可自动调研并蒸馏整个细分行业的资深心智模型、工作流与工具栈，生成可装载的行业 Master OS 技能。

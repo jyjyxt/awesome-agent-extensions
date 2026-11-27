@@ -1,0 +1,9 @@
+name: Research Field Onboarding
+repo: https://github.com/ljx-chase/research-field-onboarding
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [learning, research, onboarding]
+description:
+  en: Learn unfamiliar research fields systematically through prerequisite checks and guided lessons.
+  zh: 通过前置知识诊断与循序渐进的引导课程，快速入门陌生研究领域。

@@ -1,0 +1,10 @@
+name: Ocean Watch
+repo: https://github.com/westng/ocean-watch
+category: content-marketing
+official: false
+agents: [claude-code, codex, dsh]
+includes: [skills, mcp, tools]
+tags: [marketing, ocean-engine, qianchuan, paid-ads, mcp]
+description:
+  en: Ocean Engine marketing, Qianchuan ads, and Xingtu account plugin bundling channel skills, 40+ MCP tools, and a Go CLI.
+  zh: 巨量引擎营销、巨量千川投放与巨量星图账号授权管理插件，集成多渠道技能、40+ MCP 工具与 Go CLI。

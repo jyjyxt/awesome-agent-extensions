@@ -1,0 +1,9 @@
+name: TopRank SEO & Ads
+repo: https://github.com/nowork-studio/toprank
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [seo, google-ads, schema, cms]
+description:
+  en: SEO and Google Ads skills for site audits, metadata, structured schema, bid management, and CMS fixes.
+  zh: 面向 SEO 与 Google Ads 的优化技能集，涵盖元数据、Schema 结构化标记、出价优化与 CMS 修复。

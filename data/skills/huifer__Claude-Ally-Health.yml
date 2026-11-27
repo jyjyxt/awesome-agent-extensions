@@ -1,0 +1,9 @@
+name: Claude Ally Health
+repo: https://github.com/huifer/Claude-Ally-Health
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [health, medical-reports, wellness]
+description:
+  en: Comprehensive health assistant skill to analyze medical reports, track health metrics, and offer wellness insights.
+  zh: 综合健康管理助手技能，用于解读体检与医疗报告、追踪健康指标并提供个性化建议。

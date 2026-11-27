@@ -1,0 +1,9 @@
+name: Claude Code Skills ZH
+repo: https://github.com/laolaoshiren/claude-code-skills-zh
+category: coding
+official: false
+agents: [claude-code]
+tags: [chinese, development, workflows]
+description:
+  en: Chinese-language Claude Code skills tailored for software development and everyday engineering workflows.
+  zh: 面向中文开发者的 Claude Code 技能合集，涵盖软件开发与日常工程工作流。

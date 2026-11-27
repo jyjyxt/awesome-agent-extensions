@@ -1,0 +1,9 @@
+name: Self-Host Skill
+repo: https://github.com/ajnart/self-host
+category: cloud-devops
+official: false
+agents: [claude-code, universal]
+tags: [self-hosting, docker, homelab, devops]
+description:
+  en: Set up self-hosted applications and connect infrastructure services on your own hardware.
+  zh: 在自有服务器或 Homelab 硬件上快速部署并串联各类自托管应用服务。

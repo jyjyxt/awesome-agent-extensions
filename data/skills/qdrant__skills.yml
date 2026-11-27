@@ -1,0 +1,9 @@
+name: Qdrant Skills
+repo: https://github.com/qdrant/skills
+category: cloud-devops
+official: true
+agents: [claude-code, universal]
+tags: [qdrant, vector-db, search, sdk]
+description:
+  en: Official agent skills for Qdrant vector search operations, performance tuning, deployment, upgrades, and SDK usage.
+  zh: Qdrant 官方 Agent 技能包，涵盖向量检索操作、性能调优、部署升级与 SDK 开发。

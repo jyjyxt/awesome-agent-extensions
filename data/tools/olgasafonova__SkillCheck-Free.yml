@@ -1,0 +1,9 @@
+name: SkillCheck Free
+repo: https://github.com/olgasafonova/SkillCheck-Free
+category: marketplaces-tooling
+official: false
+agents: [claude-code, universal]
+tags: [validator, skill-md, linting]
+description:
+  en: Free SKILL.md validator running 30+ structural, naming, and semantic checks before deploying Claude Code skills.
+  zh: 免费的 SKILL.md 校验工具，内置 30+ 项结构、命名与语义检查，助力发布前排错。

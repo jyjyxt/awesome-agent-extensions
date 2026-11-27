@@ -1,0 +1,9 @@
+name: Mailtrap Skills
+repo: https://github.com/mailtrap/mailtrap-skills
+category: cloud-devops
+official: true
+agents: [claude-code, universal]
+tags: [mailtrap, email, sandbox, testing]
+description:
+  en: Official agent skills for Mailtrap email sending, sandbox testing, domain setup, and contacts management.
+  zh: Mailtrap 官方技能包，支持邮件发送、沙箱测试、域名配置与联系人管理。

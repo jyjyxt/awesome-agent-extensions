@@ -1,0 +1,9 @@
+name: Humanizer RU
+repo: https://github.com/Vladimir-Human/humanizer-ru
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [russian, humanizer, writing, editing]
+description:
+  en: Audit and rewrite Russian text using style patterns and deterministic markers to remove AI tone.
+  zh: 结合文风模式与确定性特征检测并改写俄语文本，去除 AI 写作痕迹。

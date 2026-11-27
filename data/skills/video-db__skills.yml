@@ -1,0 +1,9 @@
+name: VideoDB Skills
+repo: https://github.com/video-db/skills
+category: content-marketing
+official: true
+agents: [claude-code, universal]
+tags: [video, audio, search, streaming]
+description:
+  en: Official VideoDB skills to ingest, search, edit, generate, and stream video and audio media.
+  zh: VideoDB 官方音视频技能包，支持音视频入库、语义检索、剪辑、生成与流式播放。

@@ -1,0 +1,9 @@
+name: Kinetograph
+repo: https://github.com/0xS4N4TG/kinetograph
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [motion-graphics, video, rendering]
+description:
+  en: Create and render programmatic motion graphics and videos with the Kinetograph CLI and skill.
+  zh: 使用 Kinetograph 创建与渲染程序化动态图形与视频内容。

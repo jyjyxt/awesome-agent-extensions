@@ -1,0 +1,9 @@
+name: New Term Radar
+repo: https://github.com/zhuyansen/new-term-radar
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [ai-news, trends, monitoring]
+description:
+  en: Track newly released AI models, products, and open-source repositories across online sources.
+  zh: 跨全网信源追踪最新发布的 AI 模型、产品与热门开源仓库。

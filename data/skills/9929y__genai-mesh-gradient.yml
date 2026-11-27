@@ -1,0 +1,9 @@
+name: GenAI Mesh Gradient
+repo: https://github.com/9929y/genai-mesh-gradient
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+tags: [gradients, design, css, branding]
+description:
+  en: Create editable mesh gradients for websites, presentations, and brand visual assets.
+  zh: 为网站、演示文稿与品牌视觉生成可自由编辑的弥散网格渐变背景。

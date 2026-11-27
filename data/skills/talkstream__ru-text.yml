@@ -1,0 +1,9 @@
+name: RU Text Quality
+repo: https://github.com/talkstream/ru-text
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [russian, writing, typography, editorial]
+description:
+  en: Russian text quality skill with ~1,040 rules for typography, editorial style, UX writing, and business correspondence.
+  zh: 内置约 1,040 条规则的俄语文本质量优化技能，覆盖排版、编辑规范、UX 文案与商务信函。

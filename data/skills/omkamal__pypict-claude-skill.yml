@@ -1,0 +1,9 @@
+name: PyPICT Test Design Skill
+repo: https://github.com/omkamal/pypict-claude-skill
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [testing, pict, pairwise, qa]
+description:
+  en: Design comprehensive test cases using PICT (Pairwise Independent Combinatorial Testing) to generate optimized test suites.
+  zh: 使用 PICT 成对组合测试方法为需求或代码设计高质量、精简的自动化测试用例集。

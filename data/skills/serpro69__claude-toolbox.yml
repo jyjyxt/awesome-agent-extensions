@@ -1,0 +1,9 @@
+name: Claude Toolbox
+repo: https://github.com/serpro69/claude-toolbox
+category: coding
+official: false
+agents: [claude-code]
+tags: [planning, implementation, documentation, code-review]
+description:
+  en: Claude Code skills for structured planning, feature implementation, documentation, and code review.
+  zh: 面向 Claude Code 的研发工具箱技能集，涵盖方案规划、功能实现、文档编写与代码审查。

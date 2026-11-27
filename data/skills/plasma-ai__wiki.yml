@@ -1,0 +1,9 @@
+name: Plasma Wiki Skill
+repo: https://github.com/plasma-ai/wiki
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [wiki, knowledge-base, retrieval]
+description:
+  en: Manage indexed Markdown knowledge bases for AI agents with scoped retrieval and deterministic indexes.
+  zh: 面向 Agent 的结构化 Markdown 知识库管理技能，支持限定范围检索与确定性索引。

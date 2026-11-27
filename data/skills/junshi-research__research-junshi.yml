@@ -1,0 +1,9 @@
+name: Junshi Research Strategist
+repo: https://github.com/junshi-research/research-junshi
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [academic, literature, research-ideas]
+description:
+  en: Personalized research strategist that reads your papers, tracks literature, and proposes ranked research ideas with first experiments.
+  zh: 个性化科研策略助手，阅读你的论文、追踪前沿文献并提出排序后的研究构想与首轮实验方案。

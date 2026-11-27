@@ -1,0 +1,9 @@
+name: Vibe Check
+repo: https://github.com/TexasBedouin/vibe-check
+category: orchestration
+official: false
+agents: [claude-code, universal]
+tags: [planning, blueprint, product-discovery]
+description:
+  en: Guide builders from a vague app idea to a buildable plan with discovery, user flows, and a visual blueprint.
+  zh: 引导开发者从模糊的应用想法一步步梳理需求、用户流程并生成可落地的可视化蓝图。

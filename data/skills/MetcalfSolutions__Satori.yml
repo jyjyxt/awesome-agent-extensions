@@ -1,0 +1,9 @@
+name: Satori
+repo: https://github.com/MetcalfSolutions/Satori
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [reflection, coaching, decisions]
+description:
+  en: Support structured reflective dialogue around stress, relationships, and major life decisions.
+  zh: 支持围绕压力管理、人际关系与人生重大决策展开结构化反思对话。

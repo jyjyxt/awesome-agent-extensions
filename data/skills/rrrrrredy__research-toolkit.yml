@@ -1,0 +1,9 @@
+name: Research Toolkit
+repo: https://github.com/rrrrrredy/research-toolkit
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [research, reports, citations]
+description:
+  en: Plan, write, and review source-backed research reports with structured revision workflows.
+  zh: 规划、撰写并审校带完整信源引用的深度研究报告。

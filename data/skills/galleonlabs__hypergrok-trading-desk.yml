@@ -1,0 +1,9 @@
+name: HyperGrok Trading Desk
+repo: https://github.com/galleonlabs/hypergrok-trading-desk
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [trading, hyperliquid, risk, crypto]
+description:
+  en: Coordinate market research, risk review, and approval-gated trading workflows on Hyperliquid.
+  zh: 在 Hyperliquid 上协同执行市场研究、风控审查与人工审批驱动的交易流程。

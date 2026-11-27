@@ -1,0 +1,9 @@
+name: AWS Skills
+repo: https://github.com/zxkane/aws-skills
+category: cloud-devops
+official: false
+agents: [claude-code, universal]
+tags: [aws, cdk, serverless, cloud]
+description:
+  en: AWS development skills with CDK best practices, cost optimization MCP servers, and serverless event-driven patterns.
+  zh: AWS 开发技能集，涵盖 CDK 最佳实践、成本优化与无服务器事件驱动架构模式。

@@ -1,0 +1,9 @@
+name: Skills Manager CLI
+repo: https://github.com/shenysun/skills-manager
+category: marketplaces-tooling
+official: false
+agents: [claude-code, universal]
+tags: [cli, skills-management, distribution]
+description:
+  en: Manage, update, and distribute local AI agent skills with the skills-manager CLI.
+  zh: 使用 skills-manager 命令行工具统一管理、更新与分发本地 Agent Skills。

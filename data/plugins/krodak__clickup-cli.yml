@@ -1,0 +1,10 @@
+name: ClickUp CLI (cup)
+repo: https://github.com/krodak/clickup-cli
+category: productivity
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [clickup, cli, sprints, tasks]
+description:
+  en: ClickUp CLI and Claude Code plugin with 40+ commands for tasks, sprints, and time tracking.
+  zh: 支持 40+ 命令的 ClickUp CLI 与 Claude Code 插件，轻松管理任务、迭代与工时追踪。

@@ -1,0 +1,9 @@
+name: Claude EPUB Skill
+repo: https://github.com/smerchek/claude-epub-skill
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [epub, kindle, markdown, ebooks]
+description:
+  en: Convert Markdown documents, chat summaries, or research reports into downloadable EPUB files for Kindle.
+  zh: 将 Markdown 文档、对话摘要或研究报告一键打包为可发送到 Kindle 的 EPUB 电子书。

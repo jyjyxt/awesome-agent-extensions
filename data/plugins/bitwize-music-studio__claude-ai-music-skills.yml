@@ -1,0 +1,10 @@
+name: Claude AI Music Skills
+repo: https://github.com/bitwize-music-studio/claude-ai-music-skills
+category: content-marketing
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [music, suno, mixing, mastering]
+description:
+  en: Claude Code plugin for AI music creation covering lyrics, Suno style prompts, per-stem mixing, mastering, and distribution.
+  zh: 面向 AI 音乐创作的 Claude Code 插件，涵盖作词、Suno 风格提示、分轨混音、母带处理与发行。

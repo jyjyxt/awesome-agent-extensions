@@ -10,11 +10,11 @@
 
 Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Subagents、Hooks、MCP 服务及完整工作流组合在一起。适合需要复用和分发一套 Agent 工作流的场景。
 
-浏览 [全部插件 (40)](docs/plugins.zh.md)，使用 `/plugin install <owner>/<repo>` 安装单个插件，或使用 `/plugin marketplace add <owner>/<repo>` 添加插件市场。
+浏览 [全部插件 (48)](docs/plugins.zh.md)，使用 `/plugin install <owner>/<repo>` 安装单个插件，或使用 `/plugin marketplace add <owner>/<repo>` 添加插件市场。
 
 ## 快速入口
 
-- [Plugins（复合插件） (40)](docs/plugins.zh.md) · [Skills（技能包） (247)](docs/skills.zh.md) · [MCP / Connectors (26)](docs/mcp.zh.md) · [Subagents（子代理） (18)](docs/subagents.zh.md) · [扩展管理工具 (52)](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)
+- [Plugins（复合插件） (48)](docs/plugins.zh.md) · [Skills（技能包） (265)](docs/skills.zh.md) · [MCP / Connectors (29)](docs/mcp.zh.md) · [Subagents（子代理） (19)](docs/subagents.zh.md) · [扩展管理工具 (53)](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)
 
 <details>
 <summary>常见工具插件安装速查</summary>
@@ -27,15 +27,15 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 
 ## 按场景目录
 
-- [官方与精选 (64)](#官方与精选)
-- [编码与工程 (64)](#编码与工程) — 代码开发、重构、测试、调试、代码审查与 Git 工作流。
-- [前端与设计 (79)](#前端与设计) — UI 开发、设计系统、浏览器自动化、视觉审查与 Figma 集成。
-- [云与运维 (8)](#云与运维) — 部署、容器、可观测性、数据库与云平台集成。
-- [编排与多代理协作 (22)](#编排与多代理协作) — 多 Agent 协同、规划流水线、记忆层与工作流编排。
-- [数据、研究与知识 (19)](#数据研究与知识) — 联网检索、文档处理、数据分析、学术研究与知识库。
-- [效率与协作 (34)](#效率与协作) — 文档、项目管理、日历、即时通讯与日常办公协作。
-- [内容与营销 (54)](#内容与营销) — 写作、SEO、社媒发布、音视频制作与增长营销。
-- [安全与合规 (3)](#安全与合规) — 漏洞扫描、敏感信息检测、安全护栏与合规审计。
+- [官方与精选 (72)](#官方与精选)
+- [编码与工程 (68)](#编码与工程) — 代码开发、重构、测试、调试、代码审查与 Git 工作流。
+- [前端与设计 (83)](#前端与设计) — UI 开发、设计系统、浏览器自动化、视觉审查与 Figma 集成。
+- [云与运维 (9)](#云与运维) — 部署、容器、可观测性、数据库与云平台集成。
+- [编排与多代理协作 (27)](#编排与多代理协作) — 多 Agent 协同、规划流水线、记忆层与工作流编排。
+- [数据、研究与知识 (24)](#数据研究与知识) — 联网检索、文档处理、数据分析、学术研究与知识库。
+- [效率与协作 (38)](#效率与协作) — 文档、项目管理、日历、即时通讯与日常办公协作。
+- [内容与营销 (57)](#内容与营销) — 写作、SEO、社媒发布、音视频制作与增长营销。
+- [安全与合规 (4)](#安全与合规) — 漏洞扫描、敏感信息检测、安全护栏与合规审计。
 - [插件市场与开发工具 (19)](#插件市场与开发工具) — 插件市场、技能聚合站、跨端安装器与插件开发工具。
 
 ## 官方与精选
@@ -100,9 +100,17 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 | **[Prisma Official Skills](https://github.com/prisma/skills)** `官方` | `Skill` | Prisma 官方 Agent 技能集，涵盖 Prisma ORM 配置、Client API、Prisma Postgres 与 v7 升级迁移。 | `通用` | ⭐ 80<br><sub>2026-11-26</sub> |
 | **[Accoil Product Tracking Skills](https://github.com/Accoil/product-tracking-skills)** `官方` | `Skill` | Accoil 官方产品埋点分析技能集，可扫描代码库、设计埋点方案并生成多平台分析埋点代码。 | `通用` | ⭐ 47<br><sub>2026-10-20</sub> |
 | **[Astrolicious Agent Skills](https://github.com/astrolicious/agent-skills)** `官方` | `Skill` | Astrolicious 官方 Astro 生态 Agent 技能集，助力智能体高效开发与维护 Astro Web 项目。 | `通用` | ⭐ 13<br><sub>2026-03-20</sub> |
+| **[e2e Agent Skill](https://github.com/e2e-inc/e2e)** `官方` | `Skill` | e2e 智能端到端测试框架官方技能，支持在 Playwright 浏览器及 iOS/Android 设备上编写、运行与调试测试。 | `通用` `Claude Code` | — |
+| **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | — |
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `官方` | `工具` | 独立命令行工具，可查找 Hugging Face 技能，并将其安装或更新到项目或用户级技能目录。 | `Claude Code` `Codex` `Cursor` `OpenCode` | — |
 | **[Hugging Face Skills](https://github.com/huggingface/skills)** `官方` | `Skill` | 让编码助手查询 Hugging Face Hub 数据集、微调模型并运行模型评估的技能集。<br>`hf skills add huggingface-datasets` | `Claude Code` `Codex` `Cursor` `Gemini CLI` | — |
+| **[Internet Court Skill](https://github.com/internet-court/internet-court-skill)** `官方` | `Skill` | 面向 Agent 间交易的开放信任层技能，覆盖自然语言授权、ERC-7710 权限委托、x402 支付、托管与争议仲裁。 | `通用` `Claude Code` | — |
+| **[MarkItDown](https://github.com/microsoft/markitdown)** `官方` | `MCP` | 微软官方文件转 Markdown 工具及 MCP 服务，支持将 PDF、Office 文档、图片、音频等转换为适合大模型处理的 Markdown。 | `通用` | — |
+| **[Neon Postgres Skills](https://github.com/neondatabase/postgres-skills)** `官方` | `Skill` | Neon 官方 PostgreSQL 技能包，涵盖表结构设计、索引策略、查询优化、数据库迁移及常见避坑指南。 | `通用` `Claude Code` | — |
+| **[shadcn/ui Skill](https://github.com/shadcn-ui/ui)** `官方` | `Skill` | shadcn/ui 官方仓库内置 Agent 技能与上下文规范，辅助管理组件库、主题与现代 React 设计系统。 | `通用` `Claude Code` | — |
+| **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `官方` | `Skill` | SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。 | `通用` `Claude Code` | — |
 | **[Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server)** `官方` | `MCP` | 在 MCP 客户端中查询 Terraform Registry 的提供程序和模块，并管理 HCP Terraform 工作区。<br>`codex mcp add terraform -- docker run -i --rm hashicorp/terraform-mcp-server` | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+1` | — |
+| **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | — |
 | **[Superpowers](https://github.com/obra/superpowers)** | `Plugin` | 面向编码 Agent 的结构化工程工作流插件，内置方案设计、严格 TDD、系统化调试与子代理驱动开发。<br>`/plugin install obra/superpowers` | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 327.5k<br><sub>2026-11-26</sub> |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | 多端模块化插件市场，组合专业子代理、技能与命令，覆盖多语言开发、测试、安全与架构工作流。<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 42.9k<br><sub>2026-11-24</sub> |
 | **[Awesome Claude Code Subagents](https://github.com/VoltAgent/awesome-claude-code-subagents)** | `Subagent` | 收录 100+ 专业子代理定义的精选合集，覆盖架构评审、安全审计、各语言专家与运维角色。 | `Claude Code` | — |
@@ -177,6 +185,10 @@ _代码开发、重构、测试、调试、代码审查与 Git 工作流。_
 | **[Blode Agent Skills](https://github.com/mblode/agent-skills)** | `Skill` | 旨在消除 AI 敷衍产出的实用 Agent 技能集，帮助团队保持高工程与交付水准。 | `通用` | ⭐ 223<br><sub>2026-11-23</sub> |
 | **[CC Polymath](https://github.com/rand/cc-polymath)** | `Plugin` | 注重上下文效率的 Claude Code 插件，集成覆盖云架构、设计与数学等领域的技能、子代理与 MCP 服务。 | `Claude Code` | ⭐ 192<br><sub>2026-02-28</sub> |
 | **[Design Doc Mermaid](https://github.com/SpillwaveSolutions/design-doc-mermaid)** | `Skill` | 用于在设计文档中绘制高对比度 Mermaid 架构与流程图的 Claude Code 技能。 | `Claude Code` | ⭐ 190<br><sub>2026-08-24</sub> |
+| **[Bleu](https://github.com/Nirvaan05/Bleu-plugin)** | `Plugin` | 编码前架构蓝图插件与技能，将初步项目想法拆解为包含组件、流程与文件级执行清单的完整实现方案。 | `通用` `Claude Code` | — |
+| **[Off Grid AI Skills](https://github.com/off-grid-ai/skills)** | `Skill` | 专注软件工程质量的技能集合，涵盖行为驱动测试、根因修复、合并前安全检查与图工程工作流。 | `通用` `Claude Code` | — |
+| **[Ratchet](https://github.com/krishansubudhi/ratchet)** | `Plugin` | 通过 Stop Hook 强制执行只降不增代码规模预算的 Claude Code 插件，防止编码 Agent 导致仓库膨胀。 | `Claude Code` | — |
+| **[tstack Skills](https://github.com/t3dotgg/tstack)** | `Skill` | Theo Browne 维护的工程工作流技能套件，涵盖 PR 提交、评审评论、CI 自动盯盘与代码库现代化改造。 | `通用` `Claude Code` | — |
 
 ## 前端与设计
 
@@ -203,6 +215,8 @@ _UI 开发、设计系统、浏览器自动化、视觉审查与 Figma 集成。
 | **[Gesso Design Critique Skills](https://github.com/Gesso-Build/skills)** `官方` | `Skill` | Gesso 官方前端设计审查技能与确定性 HTML/CSS 检测工具，提供 73 项去模板化规则与自动修复。 | `Claude Code` | ⭐ 95<br><sub>2026-10-27</sub> |
 | **[Lombiq Tailwind CSS v4 Skills](https://github.com/Lombiq/Tailwind-Agent-Skills)** `官方` | `Skill` | Lombiq 官方发布的 Tailwind CSS v4 本地索引文档技能，为 AI 编程代理提供精准样式参考。 | `通用` | ⭐ 80<br><sub>2026-04-09</sub> |
 | **[Astrolicious Agent Skills](https://github.com/astrolicious/agent-skills)** `官方` | `Skill` | Astrolicious 官方 Astro 生态 Agent 技能集，助力智能体高效开发与维护 Astro Web 项目。 | `通用` | ⭐ 13<br><sub>2026-03-20</sub> |
+| **[e2e Agent Skill](https://github.com/e2e-inc/e2e)** `官方` | `Skill` | e2e 智能端到端测试框架官方技能，支持在 Playwright 浏览器及 iOS/Android 设备上编写、运行与调试测试。 | `通用` `Claude Code` | — |
+| **[shadcn/ui Skill](https://github.com/shadcn-ui/ui)** `官方` | `Skill` | shadcn/ui 官方仓库内置 Agent 技能与上下文规范，辅助管理组件库、主题与现代 React 设计系统。 | `通用` `Claude Code` | — |
 | **[UI/UX Pro Max Skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)** | `Skill` | 为编码 Agent 提供跨平台专业 UI/UX 设计规范与审美指导的设计智能技能。 | `Claude Code` `Cursor` `GitHub Copilot` `Antigravity` | ⭐ 154.7k<br><sub>2026-11-27</sub> |
 | **[Taste Skill](https://github.com/Leonxlnx/taste-skill)** | `Skill` | 通过艺术指导、参考图约束与浏览器校验提升前端设计品味的 Agent 技能，告别千篇一律的 AI 页面。 | `Claude Code` `Codex` `Cursor` | ⭐ 122.0k<br><sub>2026-11-26</sub> |
 | **[Impeccable](https://github.com/pbakaus/impeccable)** | `Skill` | 为编码 Agent 提供专业设计词汇、界面打磨与审校指令的技能套件，上线前拦截低质 AI 风格。 | `通用` | ⭐ 117.6k<br><sub>2026-11-26</sub> |
@@ -263,6 +277,8 @@ _UI 开发、设计系统、浏览器自动化、视觉审查与 Figma 集成。
 | **[React-PDF Claude Skill](https://github.com/molefrog/skills)** | `Skill` | 使用 react-pdf 设计并生成高质量 PDF 文档的 Claude 技能。 | `Claude Code` | ⭐ 173<br><sub>2026-02-12</sub> |
 | **[Uizze Design Skills](https://github.com/uizze/uizze)** | `Skill` | 面向编程代理的 UI 与设计系统技能集，助力打造高质量 Web 与 iOS 界面并避免 AI 模板感。 | `通用` | ⭐ 146<br><sub>2026-11-17</sub> |
 | **[Kelvinkn17 Agent Skills](https://github.com/kelvinkn17/skills)** | `Skill` | 包含 fun-isometric 等创意视觉技能的 Agent 技能集，可用于生成动态等距贴纸图形。 | `Claude Code` `Codex` | ⭐ 125<br><sub>2026-10-26</sub> |
+| **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | — |
+| **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | — |
 
 ## 云与运维
 
@@ -275,6 +291,7 @@ _部署、容器、可观测性、数据库与云平台集成。_
 | **[Supabase Agent Skills](https://github.com/supabase/agent-skills)** `官方` | `Skill` | Supabase 官方 Agent 技能集，帮助 AI 编程助手遵循 Postgres、认证、RLS 与边缘函数最佳实践。 | `通用` | ⭐ 3.1k<br><sub>2026-11-12</sub> |
 | **[Firebase Agent Skills](https://github.com/firebase/agent-skills)** `官方` | `Skill` | Firebase 官方 Agent 技能集，辅助智能体完成 Firebase 后端构建、配置与部署。 | `通用` | ⭐ 531<br><sub>2026-11-09</sub> |
 | **[Prisma Official Skills](https://github.com/prisma/skills)** `官方` | `Skill` | Prisma 官方 Agent 技能集，涵盖 Prisma ORM 配置、Client API、Prisma Postgres 与 v7 升级迁移。 | `通用` | ⭐ 80<br><sub>2026-11-26</sub> |
+| **[Neon Postgres Skills](https://github.com/neondatabase/postgres-skills)** `官方` | `Skill` | Neon 官方 PostgreSQL 技能包，涵盖表结构设计、索引策略、查询优化、数据库迁移及常见避坑指南。 | `通用` `Claude Code` | — |
 | **[Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server)** `官方` | `MCP` | 在 MCP 客户端中查询 Terraform Registry 的提供程序和模块，并管理 HCP Terraform 工作区。<br>`codex mcp add terraform -- docker run -i --rm hashicorp/terraform-mcp-server` | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+1` | — |
 | **[Terraform Skill](https://github.com/antonbabenko/terraform-skill)** | `Skill` | 涵盖模块设计、自动化测试、CI/CD 流程与生产级基础设施实践的 Terraform 与 OpenTofu Agent 技能。 | `通用` | ⭐ 2.5k<br><sub>2026-11-19</sub> |
 | **[GoLive Skill](https://github.com/mikehasa/golive-skill)** | `Skill` | 零依赖 Node CLI 与 Agent 技能，按检测、规划、审批、部署与验证流程帮产品一站式上线生产环境。 | `通用` | ⭐ 1.6k<br><sub>2026-10-11</sub> |
@@ -307,6 +324,11 @@ _多 Agent 协同、规划流水线、记忆层与工作流编排。_
 | **[Self-Improving Agent](https://github.com/pskoett/self-improving-agent)** | `Skill` | 跨会话记录经验教训、错误与功能需求以实现持续自我改进的 Agent 技能。 | `通用` | ⭐ 792<br><sub>2026-10-22</sub> |
 | **[Emulo](https://github.com/ohad6k/emulo)** | `工具` | 从 Claude Code 与 Codex 会话日志中挖掘个人偏好并生成本地 you.md 智能体画像的工具。 | `Claude Code` `Codex` `Cursor` | ⭐ 306<br><sub>2026-10-12</sub> |
 | **[AIWG (AI Writing & Workflow Guide)](https://github.com/jmagly/aiwg)** | `Plugin` | 跨端多智能体 SDLC 工作流框架，集成专家代理、技能、规则、MCP 工具与会话记忆。 | `Claude Code` `Codex` `GitHub Copilot` `Cursor` `+1` | ⭐ 233<br><sub>2026-11-26</sub> |
+| **[AgentMemory](https://github.com/rohitg00/agentmemory)** | `Skill` | 跨会话持久化记忆插件与技能套件，支持记忆写入、检索、会话交接、复盘沉淀与隐私清理。 | `通用` `Claude Code` | — |
+| **[Claude Agents View](https://github.com/qaokss/claude-agents-view)** | `Plugin` | Claude Code 实时监控面板插件，以列表和拓扑图形式展示各会话中运行中的子代理、技能与执行计划。 | `Claude Code` | — |
+| **[Pi Agent for Claude](https://github.com/FazalAAli/pi-agent-for-claude)** | `Plugin` | Claude Code 扩展 Mod，新增基于 pi CLI 的多模型子代理类型并原生流式集成到 Claude Code 协作界面。 | `Claude Code` | — |
+| **[Rote](https://github.com/trevhud/rote)** | `工具` | 将成熟 SKILL.md 技能编译为无大模型参与的确定性流水线，并重新封装为 MCP 工具供 Agent 调用。 | `通用` `Claude Code` | — |
+| **[Subagent Tuner](https://github.com/Kruhlikau/subagent-tuner)** | `Plugin` | Claude Code 子代理调优 Mod，按任务类型自动推荐并配置各子代理的模型与推理强度。 | `Claude Code` | — |
 
 ## 数据、研究与知识
 
@@ -317,7 +339,10 @@ _联网检索、文档处理、数据分析、学术研究与知识库。_
 | **[AntV Chart Visualization Skills](https://github.com/antvis/chart-visualization-skills)** `官方` | `Skill` | AntV 官方数据可视化 Agent 技能集，助力智能体将数据转化为清晰的图表视觉语言。 | `通用` | ⭐ 544<br><sub>2026-09-22</sub> |
 | **[Tavily Agent Skills](https://github.com/tavily-ai/skills)** `官方` | `Skill` | Tavily 官方 Agent 技能集，提供实时网页搜索、内容抓取与在线研究能力。 | `通用` | ⭐ 497<br><sub>2026-11-24</sub> |
 | **[Accoil Product Tracking Skills](https://github.com/Accoil/product-tracking-skills)** `官方` | `Skill` | Accoil 官方产品埋点分析技能集，可扫描代码库、设计埋点方案并生成多平台分析埋点代码。 | `通用` | ⭐ 47<br><sub>2026-10-20</sub> |
+| **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | — |
 | **[Hugging Face Skills](https://github.com/huggingface/skills)** `官方` | `Skill` | 让编码助手查询 Hugging Face Hub 数据集、微调模型并运行模型评估的技能集。<br>`hf skills add huggingface-datasets` | `Claude Code` `Codex` `Cursor` `Gemini CLI` | — |
+| **[MarkItDown](https://github.com/microsoft/markitdown)** `官方` | `MCP` | 微软官方文件转 Markdown 工具及 MCP 服务，支持将 PDF、Office 文档、图片、音频等转换为适合大模型处理的 Markdown。 | `通用` | — |
+| **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `官方` | `Skill` | SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。 | `通用` `Claude Code` | — |
 | **[Last 30 Days Skill](https://github.com/mvanhorn/last30days-skill)** | `Skill` | 跨 Reddit、X、YouTube、Hacker News、Polymarket 与全网检索近 30 天动态并生成扎实综述的研究技能。 | `Claude Code` `Codex` `Gemini CLI` | ⭐ 75.8k<br><sub>2026-11-26</sub> |
 | **[Academic Research Skills](https://github.com/Imbad0202/academic-research-skills)** | `Plugin` | 覆盖文献检索、论文撰写、同行评审与修改定稿全流程的 Claude Code 学术研究插件。 | `Claude Code` | ⭐ 58.7k<br><sub>2026-11-27</sub> |
 | **[Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills)** | `Skill` | 包含 177 项经过验证的科研技能与上百个科学数据库，覆盖生物、化学、医学与药物研发领域。 | `Cursor` `Claude Code` `Codex` `Antigravity` | ⭐ 58.6k<br><sub>2026-11-23</sub> |
@@ -333,6 +358,8 @@ _联网检索、文档处理、数据分析、学术研究与知识库。_
 | **[ModSearch](https://github.com/liustack/modsearch)** | `Plugin` | 免费免 API Key 的联网搜索插件与技能桥接工具，为 DeepSeek Harness 等模型返回带引用的结构化 JSON 网页与 X 搜索证据。 | `DeepSeek Harness` `Claude Code` `Codex` `OpenCode` | ⭐ 1.0k<br><sub>2026-11-25</sub> |
 | **[Claude Patent Creator](https://github.com/RobThePCGuy/Claude-Patent-Creator)** | `Plugin` | 集成 MCP 服务器、混合 RAG 检索与自主代理的美国专利撰写与检索 Claude Code 插件系统。 | `Claude Code` | ⭐ 217<br><sub>2026-11-26</sub> |
 | **[MinerU Document Skill](https://github.com/Nebutra/MinerU-Skill)** | `Skill` | 基于 MinerU 的零依赖文档解析 CLI 与 Agent 技能，支持将 PDF、Office 文档和图片转为含公式与表格的 Markdown。 | `通用` | ⭐ 138<br><sub>2026-09-24</sub> |
+| **[AI Skills](https://github.com/sanjay3290/ai-skills)** | `Skill` | AI Agent 技能集合，内置自主深度研究工作流，支持规划、检索、阅读并汇总生成完整研究报告。 | `通用` `Claude Code` | — |
+| **[pdfToMarkdown](https://github.com/ThiloReintjes/pdftomarkdown-skill)** | `Plugin` | Claude Code 插件与技能，可将扫描件、表格、多栏排版及中日韩文档等复杂 PDF 高保真转换为 Markdown。 | `Claude Code` `通用` | — |
 
 ## 效率与协作
 
@@ -343,6 +370,7 @@ _文档、项目管理、日历、即时通讯与日常办公协作。_
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | ⭐ 201.1k<br><sub>2026-11-16</sub> |
 | **[Obsidian Skills](https://github.com/obsidianmd/obsidian-skills)** `官方` | `Skill` | Obsidian 官方 Agent 技能包，让 AI 熟练操作 Obsidian 笔记库、Markdown、Bases 与 JSON Canvas。 | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 54.0k<br><sub>2026-11-26</sub> |
 | **[Jane Street Agent Skills](https://github.com/janestreet/agent_skills)** `官方` | `Skill` | Jane Street 官方开源的 Agent 技能仓库，包含用于启发式教学的苏格拉底导师技能。 | `通用` | ⭐ 12.0k<br><sub>2026-11-17</sub> |
+| **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | — |
 | **[Career Ops](https://github.com/career-ops-hq/career-ops)** | `Plugin` | 本地运行的 AI 求职辅助插件与工具集，支持岗位匹配评分、ATS 简历定制、面试准备与投递追踪。 | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+2` | ⭐ 85.1k<br><sub>2026-11-26</sub> |
 | **[PPT Master](https://github.com/hugohe3/ppt-master)** | `Skill` | 将文档或主题转化为原生 PowerPoint 演示文稿的 Agent 技能，支持图表、动画、配音旁白与自定义模板。 | `通用` | ⭐ 80.5k<br><sub>2026-11-20</sub> |
 | **[AI Job Search](https://github.com/ai-job-search-dev/ai-job-search)** | `工具` | 基于 Claude Code 的本地求职自动化工具集，涵盖职位抓取、简历定制、求职信撰写与面试准备。 | `Claude Code` | ⭐ 73.6k<br><sub>2026-11-26</sub> |
@@ -374,6 +402,9 @@ _文档、项目管理、日历、即时通讯与日常办公协作。_
 | **[Markdown Exporter](https://github.com/bowenliang123/markdown-exporter)** | `Skill` | 可将 Markdown 导出为 DOCX、PPTX、XLSX、PDF、PNG、HTML 等多种格式文件的 Agent 技能与 Dify 插件。 | `通用` | ⭐ 275<br><sub>2026-08-13</sub> |
 | **[Claude Mermaid MCP](https://github.com/veelenga/claude-mermaid)** | `MCP` | 支持实时热重载预览 Mermaid 图表的 Claude Code MCP 服务器。 | `Claude Code` | ⭐ 223<br><sub>2026-11-23</sub> |
 | **[Vibe Resume Skill](https://github.com/KevinYoung-Kw/vibe-resume-skill)** | `Skill` | 内置 12 套可投递 HTML/PDF 模板的 AI 简历生成与排版技能，支持按岗位 JD 定制简历。 | `Codex` `Claude Code` `Cursor` | ⭐ 107<br><sub>2026-10-02</sub> |
+| **[CC Arcade](https://github.com/sezaakgun/cc-arcade)** | `Plugin` | 零 Token 消耗的 Claude Code 终端 Mod，在等待 Claude 执行任务期间于输入框上方嵌入 2048、俄罗斯方块等小游戏。 | `Claude Code` | — |
+| **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
+| **[Product Decision Agent](https://github.com/atdy/maoxuan-product-agent)** | `Skill` | 中文互联网产品决策 Agent 技能，覆盖需求分析、PRD、优先级排期、增长诊断、数据指标与跨部门协作决策。 | `通用` `Claude Code` | — |
 
 ## 内容与营销
 
@@ -435,6 +466,9 @@ _写作、SEO、社媒发布、音视频制作与增长营销。_
 | **[Podcast to Article](https://github.com/orange2ai/podcast-to-article)** | `Skill` | 将多人对谈播客逐字稿重构、校准、精简并去 AI 味整理为可发布长文的 Agent 技能。 | `通用` | ⭐ 198<br><sub>2026-10-08</sub> |
 | **[Not-Ai Writing Skill](https://github.com/udaysharmadev/Not-Ai)** | `Skill` | 注重自然真实文风的写作 Agent 技能，适用于文章、社交动态、邮件与 GitHub README 润色。 | `通用` | ⭐ 165<br><sub>2026-10-30</sub> |
 | **[HyperFX Marketing Skills](https://github.com/hyperfx-ai/marketing-skills)** | `Skill` | 基于 Hyper MCP 的营销 Agent 技能集，涵盖信息流广告投放、社媒、SEO、竞品调研与数据分析。 | `通用` | ⭐ 124<br><sub>2026-11-26</sub> |
+| **[Curviate Plugin](https://github.com/Curviate/curviate-plugin)** | `Plugin` | 基于 Curviate CLI 的 LinkedIn 自动化插件与技能套件，覆盖人脉检索、消息、发帖及招聘等工作流。 | `通用` `Claude Code` | — |
+| **[FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill)** | `Skill` | 基于本地 FFmpeg 的自然语言音视频剪辑技能，支持裁剪拼接、画幅重构、字幕压制、去静音与混音处理。 | `通用` `Claude Code` | — |
+| **[Levea Video MCP](https://github.com/brajendrak00068/agentic-ai-video-production)** | `MCP` | 面向自动化 AI 视频剪辑的远程 MCP 服务，可将自然语言指令或长视频处理为带字幕与智能构图的成片。 | `通用` `Claude Code` | — |
 
 ## 安全与合规
 
@@ -444,6 +478,7 @@ _漏洞扫描、敏感信息检测、安全护栏与合规审计。_
 | --- | --- | --- | --- | --- |
 | **[Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill)** `官方` | `Skill` | Cloudflare 官方出品的多阶段安全审计技能，可生成经独立验证的机器可读漏洞报告。 | `通用` | ⭐ 78.9k<br><sub>2026-09-14</sub> |
 | **[SkillSpector](https://github.com/NVIDIA/SkillSpector)** `官方` | `工具` | NVIDIA 官方开源的 Agent 技能安全扫描器，在安装前检测提示词注入、数据窃取与供应链风险。 | `Claude Code` `Codex` | ⭐ 27.8k<br><sub>2026-11-25</sub> |
+| **[Internet Court Skill](https://github.com/internet-court/internet-court-skill)** `官方` | `Skill` | 面向 Agent 间交易的开放信任层技能，覆盖自然语言授权、ERC-7710 权限委托、x402 支付、托管与争议仲裁。 | `通用` `Claude Code` | — |
 | **[Rea](https://github.com/morluto/rea)** | `Plugin` | 面向 AI Agent 的逆向工程插件、MCP 服务与技能套件，支持从应用行为到原生二进制的深度分析。 | `Claude Code` `Codex` `Cursor` `DeepSeek Harness` | ⭐ 479.8k<br><sub>2026-11-27</sub> |
 
 ## 插件市场与开发工具

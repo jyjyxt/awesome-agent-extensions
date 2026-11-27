@@ -10,11 +10,11 @@
 
 Claude Code plugins are installable extension bundles that can combine Skills, slash commands, subagents, hooks, MCP servers, and complete workflows. They are useful when you want to reuse and distribute a repeatable agent workflow.
 
-Browse [all plugins (40)](docs/plugins.md), install one with `/plugin install <owner>/<repo>`, or add a marketplace with `/plugin marketplace add <owner>/<repo>`.
+Browse [all plugins (48)](docs/plugins.md), install one with `/plugin install <owner>/<repo>`, or add a marketplace with `/plugin marketplace add <owner>/<repo>`.
 
 ## Quick Views
 
-- [Plugins (40)](docs/plugins.md) · [Skills (247)](docs/skills.md) · [MCP & Connectors (26)](docs/mcp.md) · [Subagents (18)](docs/subagents.md) · [Extension Tooling (52)](docs/tools.md) · [Browse by Agent](docs/by-agent.md)
+- [Plugins (48)](docs/plugins.md) · [Skills (265)](docs/skills.md) · [MCP & Connectors (29)](docs/mcp.md) · [Subagents (19)](docs/subagents.md) · [Extension Tooling (53)](docs/tools.md) · [Browse by Agent](docs/by-agent.md)
 
 <details>
 <summary>Quick Install Cheatsheet</summary>
@@ -27,15 +27,15 @@ Browse [all plugins (40)](docs/plugins.md), install one with `/plugin install <o
 
 ## Categories
 
-- [Official & Featured (64)](#official--featured)
-- [Coding & Engineering (64)](#coding-engineering) — Code generation, refactoring, testing, debugging, code review, and Git workflows.
-- [Frontend & Design (79)](#frontend-design) — UI engineering, design systems, browser automation, visual testing, and Figma integrations.
-- [Cloud, DevOps & Infrastructure (8)](#cloud-devops-infrastructure) — Deployment, containers, observability, databases, and cloud platform integrations.
-- [Agent Orchestration & Workflows (22)](#agent-orchestration-workflows) — Multi-agent coordination, planning pipelines, memory layers, and workflow automation.
-- [Data, Research & Knowledge (19)](#data-research-knowledge) — Web search, document processing, data analysis, academic research, and knowledge bases.
-- [Productivity & Collaboration (34)](#productivity-collaboration) — Docs, issue trackers, calendars, messaging platforms, and daily office workflows.
-- [Content & Marketing (54)](#content-marketing) — Writing, SEO, social media publishing, video/audio production, and growth workflows.
-- [Security & Compliance (3)](#security-compliance) — Vulnerability scanning, secret detection, guardrails, and compliance checks.
+- [Official & Featured (72)](#official--featured)
+- [Coding & Engineering (68)](#coding-engineering) — Code generation, refactoring, testing, debugging, code review, and Git workflows.
+- [Frontend & Design (83)](#frontend-design) — UI engineering, design systems, browser automation, visual testing, and Figma integrations.
+- [Cloud, DevOps & Infrastructure (9)](#cloud-devops-infrastructure) — Deployment, containers, observability, databases, and cloud platform integrations.
+- [Agent Orchestration & Workflows (27)](#agent-orchestration-workflows) — Multi-agent coordination, planning pipelines, memory layers, and workflow automation.
+- [Data, Research & Knowledge (24)](#data-research-knowledge) — Web search, document processing, data analysis, academic research, and knowledge bases.
+- [Productivity & Collaboration (38)](#productivity-collaboration) — Docs, issue trackers, calendars, messaging platforms, and daily office workflows.
+- [Content & Marketing (57)](#content-marketing) — Writing, SEO, social media publishing, video/audio production, and growth workflows.
+- [Security & Compliance (4)](#security-compliance) — Vulnerability scanning, secret detection, guardrails, and compliance checks.
 - [Marketplaces, Specs & Tooling (19)](#marketplaces-specs-tooling) — Plugin marketplaces, skill registries, cross-agent installers, and authoring SDKs.
 
 ## Official & Featured
@@ -100,9 +100,17 @@ Browse [all plugins (40)](docs/plugins.md), install one with `/plugin install <o
 | **[Prisma Official Skills](https://github.com/prisma/skills)** `Official` | `Skill` | Official Prisma agent skills for Prisma ORM setup, Client API usage, Prisma Postgres, and v7 migrations. | `Universal` | ⭐ 80<br><sub>2026-11-26</sub> |
 | **[Accoil Product Tracking Skills](https://github.com/Accoil/product-tracking-skills)** `Official` | `Skill` | Official Accoil agent skills that scan codebases, design tracking plans, and generate analytics instrumentation for 25+ destinations. | `Universal` | ⭐ 47<br><sub>2026-10-20</sub> |
 | **[Astrolicious Agent Skills](https://github.com/astrolicious/agent-skills)** `Official` | `Skill` | Official Astrolicious agent skills for building and maintaining projects in the Astro web framework ecosystem. | `Universal` | ⭐ 13<br><sub>2026-03-20</sub> |
+| **[e2e Agent Skill](https://github.com/e2e-inc/e2e)** `Official` | `Skill` | Official skill for the e2e agentic test runner that writes, executes, and debugs end-to-end tests across Playwright browsers, iOS, and Android. | `Universal` `Claude Code` | — |
+| **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `Official` | `Skill` | Official Gaffa skills for authoring, debugging, and running web scraping, crawling, screenshot, and browser automation pipelines. | `Universal` `Claude Code` | — |
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `Official` | `Tool` | Standalone CLI to find, install, and update Hugging Face skills in local or user-wide agent directories. | `Claude Code` `Codex` `Cursor` `OpenCode` | — |
 | **[Hugging Face Skills](https://github.com/huggingface/skills)** `Official` | `Skill` | Skills for querying Hugging Face Hub datasets, fine-tuning models, and running model evaluations.<br>`hf skills add huggingface-datasets` | `Claude Code` `Codex` `Cursor` `Gemini CLI` | — |
+| **[Internet Court Skill](https://github.com/internet-court/internet-court-skill)** `Official` | `Skill` | Open trust-layer skill for agent-to-agent commerce covering natural-language mandates, ERC-7710 delegated permissions, x402 payments, escrow, and dispute resolution. | `Universal` `Claude Code` | — |
+| **[MarkItDown](https://github.com/microsoft/markitdown)** `Official` | `MCP` | Official Microsoft Python tool and MCP server for converting PDFs, Office documents, images, audio, and web pages into LLM-friendly Markdown. | `Universal` | — |
+| **[Neon Postgres Skills](https://github.com/neondatabase/postgres-skills)** `Official` | `Skill` | Official Neon agent skills providing PostgreSQL best practices for schema design, indexing strategies, query optimization, and migrations. | `Universal` `Claude Code` | — |
+| **[shadcn/ui Skill](https://github.com/shadcn-ui/ui)** `Official` | `Skill` | Official shadcn/ui repository with built-in agent skill and CLI context for managing components, themes, and modern React design systems. | `Universal` `Claude Code` | — |
+| **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `Official` | `Skill` | Official SocialCrawl skill for fetching structured social media, e-commerce, review, transcript, and market research data via API. | `Universal` `Claude Code` | — |
 | **[Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server)** `Official` | `MCP` | Query providers and modules in the Terraform Registry and manage HCP Terraform workspaces from an MCP client.<br>`codex mcp add terraform -- docker run -i --rm hashicorp/terraform-mcp-server` | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+1` | — |
+| **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `Official` | `Skill` | Official WorkorAI talent marketplace skill for candidate job search and employer hiring with white-box match explanations via MCP. | `Universal` `Claude Code` | — |
 | **[Superpowers](https://github.com/obra/superpowers)** | `Plugin` | Structured software development workflow framework enforcing brainstorming, TDD, systematic debugging, and subagent-driven execution.<br>`/plugin install obra/superpowers` | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 327.5k<br><sub>2026-11-26</sub> |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | Modular multi-harness plugin marketplace combining specialized subagents, skills, and commands for software engineering.<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 42.9k<br><sub>2026-11-24</sub> |
 | **[Awesome Claude Code Subagents](https://github.com/VoltAgent/awesome-claude-code-subagents)** | `Subagent` | Curated collection of 100+ specialized subagent definitions covering architecture, security review, language experts, and DevOps roles. | `Claude Code` | — |
@@ -177,6 +185,10 @@ _Code generation, refactoring, testing, debugging, code review, and Git workflow
 | **[Blode Agent Skills](https://github.com/mblode/agent-skills)** | `Skill` | Curated agent skills designed to prevent AI slop and maintain high engineering and craft standards. | `Universal` | ⭐ 223<br><sub>2026-11-23</sub> |
 | **[CC Polymath](https://github.com/rand/cc-polymath)** | `Plugin` | Context-efficient Claude Code plugin bundling skills, subagents, commands, and an MCP server across cloud, design, and math. | `Claude Code` | ⭐ 192<br><sub>2026-02-28</sub> |
 | **[Design Doc Mermaid](https://github.com/SpillwaveSolutions/design-doc-mermaid)** | `Skill` | Claude Code skill for authoring clear software design documents with high-contrast Mermaid diagrams. | `Claude Code` | ⭐ 190<br><sub>2026-08-24</sub> |
+| **[Bleu](https://github.com/Nirvaan05/Bleu-plugin)** | `Plugin` | Pre-coding architecture and blueprint skill/plugin that turns rough project ideas into structured, file-level implementation plans before writing code. | `Universal` `Claude Code` | — |
+| **[Off Grid AI Skills](https://github.com/off-grid-ai/skills)** | `Skill` | Engineering skill collection focused on behavior-driven testing, root-cause bug fixing, merge safety checks, and graph engineering workflows. | `Universal` `Claude Code` | — |
+| **[Ratchet](https://github.com/krishansubudhi/ratchet)** | `Plugin` | Claude Code plugin enforcing a downward-only code-size budget via a Stop hook to prevent coding agents from bloating repositories. | `Claude Code` | — |
+| **[tstack Skills](https://github.com/t3dotgg/tstack)** | `Skill` | Engineering workflow skill suite from Theo Browne covering PR filing, review comments, CI babysitting, codebase modernization, and autonomous loops. | `Universal` `Claude Code` | — |
 
 ## Frontend & Design
 
@@ -203,6 +215,8 @@ _UI engineering, design systems, browser automation, visual testing, and Figma i
 | **[Gesso Design Critique Skills](https://github.com/Gesso-Build/skills)** `Official` | `Skill` | Official Gesso agent skill and deterministic HTML/CSS linter with 73 slop guards and auto-fixes for production UI. | `Claude Code` | ⭐ 95<br><sub>2026-10-27</sub> |
 | **[Lombiq Tailwind CSS v4 Skills](https://github.com/Lombiq/Tailwind-Agent-Skills)** `Official` | `Skill` | Official Lombiq agent-optimized Tailwind CSS v4 documentation skill with local indexed snapshots. | `Universal` | ⭐ 80<br><sub>2026-04-09</sub> |
 | **[Astrolicious Agent Skills](https://github.com/astrolicious/agent-skills)** `Official` | `Skill` | Official Astrolicious agent skills for building and maintaining projects in the Astro web framework ecosystem. | `Universal` | ⭐ 13<br><sub>2026-03-20</sub> |
+| **[e2e Agent Skill](https://github.com/e2e-inc/e2e)** `Official` | `Skill` | Official skill for the e2e agentic test runner that writes, executes, and debugs end-to-end tests across Playwright browsers, iOS, and Android. | `Universal` `Claude Code` | — |
+| **[shadcn/ui Skill](https://github.com/shadcn-ui/ui)** `Official` | `Skill` | Official shadcn/ui repository with built-in agent skill and CLI context for managing components, themes, and modern React design systems. | `Universal` `Claude Code` | — |
 | **[UI/UX Pro Max Skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)** | `Skill` | Design intelligence skill providing structured UI/UX guidelines across multiple frontend platforms. | `Claude Code` `Cursor` `GitHub Copilot` `Antigravity` | ⭐ 154.7k<br><sub>2026-11-27</sub> |
 | **[Taste Skill](https://github.com/Leonxlnx/taste-skill)** | `Skill` | Frontend design skills adding art direction, reference imagery, and browser verification to avoid generic AI layouts. | `Claude Code` `Codex` `Cursor` | ⭐ 122.0k<br><sub>2026-11-26</sub> |
 | **[Impeccable](https://github.com/pbakaus/impeccable)** | `Skill` | Design vocabulary skill and critique commands that steer coding agents away from AI slop before shipping. | `Universal` | ⭐ 117.6k<br><sub>2026-11-26</sub> |
@@ -263,6 +277,8 @@ _UI engineering, design systems, browser automation, visual testing, and Figma i
 | **[React-PDF Claude Skill](https://github.com/molefrog/skills)** | `Skill` | Claude skill for designing and generating polished PDF documents with react-pdf. | `Claude Code` | ⭐ 173<br><sub>2026-02-12</sub> |
 | **[Uizze Design Skills](https://github.com/uizze/uizze)** | `Skill` | UI and design-system agent skills helping coding agents craft polished web and iOS interfaces without AI slop. | `Universal` | ⭐ 146<br><sub>2026-11-17</sub> |
 | **[Kelvinkn17 Agent Skills](https://github.com/kelvinkn17/skills)** | `Skill` | Agent skills collection featuring fun-isometric for generating animated isometric stickers and visuals. | `Claude Code` `Codex` | ⭐ 125<br><sub>2026-10-26</sub> |
+| **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | Agent skill for integrating animated SVG illustrations from Illos.dev into websites, hero sections, onboarding flows, and empty states. | `Universal` `Claude Code` | — |
+| **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | Local MCP server that inspects static Open Graph and Twitter Card metadata on public web pages and reports missing or conflicting tags.<br>`npx -y myog-checker` | `Universal` `Claude Code` | — |
 
 ## Cloud, DevOps & Infrastructure
 
@@ -275,6 +291,7 @@ _Deployment, containers, observability, databases, and cloud platform integratio
 | **[Supabase Agent Skills](https://github.com/supabase/agent-skills)** `Official` | `Skill` | Official Supabase agent skills helping AI coding assistants follow Postgres, auth, RLS, and Edge Functions best practices. | `Universal` | ⭐ 3.1k<br><sub>2026-11-12</sub> |
 | **[Firebase Agent Skills](https://github.com/firebase/agent-skills)** `Official` | `Skill` | Official Firebase agent skills and extensions for building, configuring, and deploying Firebase backends. | `Universal` | ⭐ 531<br><sub>2026-11-09</sub> |
 | **[Prisma Official Skills](https://github.com/prisma/skills)** `Official` | `Skill` | Official Prisma agent skills for Prisma ORM setup, Client API usage, Prisma Postgres, and v7 migrations. | `Universal` | ⭐ 80<br><sub>2026-11-26</sub> |
+| **[Neon Postgres Skills](https://github.com/neondatabase/postgres-skills)** `Official` | `Skill` | Official Neon agent skills providing PostgreSQL best practices for schema design, indexing strategies, query optimization, and migrations. | `Universal` `Claude Code` | — |
 | **[Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server)** `Official` | `MCP` | Query providers and modules in the Terraform Registry and manage HCP Terraform workspaces from an MCP client.<br>`codex mcp add terraform -- docker run -i --rm hashicorp/terraform-mcp-server` | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+1` | — |
 | **[Terraform Skill](https://github.com/antonbabenko/terraform-skill)** | `Skill` | Terraform and OpenTofu agent skill covering module design, automated testing, CI/CD workflows, and production IaC patterns. | `Universal` | ⭐ 2.5k<br><sub>2026-11-19</sub> |
 | **[GoLive Skill](https://github.com/mikehasa/golive-skill)** | `Skill` | Agent skill and zero-dependency Node CLI for launching products end-to-end across hosting, database, domain, email, and payments. | `Universal` | ⭐ 1.6k<br><sub>2026-10-11</sub> |
@@ -307,6 +324,11 @@ _Multi-agent coordination, planning pipelines, memory layers, and workflow autom
 | **[Self-Improving Agent](https://github.com/pskoett/self-improving-agent)** | `Skill` | Agent skill that captures learnings, errors, and feature requests for continuous cross-session improvement. | `Universal` | ⭐ 792<br><sub>2026-10-22</sub> |
 | **[Emulo](https://github.com/ohad6k/emulo)** | `Tool` | Tool that mines your Claude Code and Codex session logs into a portable local you.md agent personalization profile. | `Claude Code` `Codex` `Cursor` | ⭐ 306<br><sub>2026-10-12</sub> |
 | **[AIWG (AI Writing & Workflow Guide)](https://github.com/jmagly/aiwg)** | `Plugin` | Multi-agent SDLC framework bundling specialist agents, skills, rules, MCP tools, and session memory across coding tools. | `Claude Code` `Codex` `GitHub Copilot` `Cursor` `+1` | ⭐ 233<br><sub>2026-11-26</sub> |
+| **[AgentMemory](https://github.com/rohitg00/agentmemory)** | `Skill` | Durable cross-session memory plugin and skill suite for storing, recalling, handing off, recapping, and pruning agent memories and lessons. | `Universal` `Claude Code` | — |
+| **[Claude Agents View](https://github.com/qaokss/claude-agents-view)** | `Plugin` | Live monitoring pane for Claude Code displaying a real-time list and graph of active agents, skills, and plans across sessions. | `Claude Code` | — |
+| **[Pi Agent for Claude](https://github.com/FazalAAli/pi-agent-for-claude)** | `Plugin` | Claude Code mod adding a pi subagent type that runs model steps through the pi CLI and streams multi-model teammates inside Claude Code UI. | `Claude Code` | — |
+| **[Rote](https://github.com/trevhud/rote)** | `Tool` | Compiler that turns proven SKILL.md agent skills into deterministic, LLM-free pipelines and serves them back to agents as MCP tools. | `Universal` `Claude Code` | — |
+| **[Subagent Tuner](https://github.com/Kruhlikau/subagent-tuner)** | `Plugin` | Claude Code mod that recommends and configures the model and reasoning effort for each subagent by task type with saved defaults. | `Claude Code` | — |
 
 ## Data, Research & Knowledge
 
@@ -317,7 +339,10 @@ _Web search, document processing, data analysis, academic research, and knowledg
 | **[AntV Chart Visualization Skills](https://github.com/antvis/chart-visualization-skills)** `Official` | `Skill` | Official AntV agent skills for data visualization and turning structured data into clear charts. | `Universal` | ⭐ 544<br><sub>2026-09-22</sub> |
 | **[Tavily Agent Skills](https://github.com/tavily-ai/skills)** `Official` | `Skill` | Official Tavily agent skills for web search, content extraction, and real-time online research. | `Universal` | ⭐ 497<br><sub>2026-11-24</sub> |
 | **[Accoil Product Tracking Skills](https://github.com/Accoil/product-tracking-skills)** `Official` | `Skill` | Official Accoil agent skills that scan codebases, design tracking plans, and generate analytics instrumentation for 25+ destinations. | `Universal` | ⭐ 47<br><sub>2026-10-20</sub> |
+| **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `Official` | `Skill` | Official Gaffa skills for authoring, debugging, and running web scraping, crawling, screenshot, and browser automation pipelines. | `Universal` `Claude Code` | — |
 | **[Hugging Face Skills](https://github.com/huggingface/skills)** `Official` | `Skill` | Skills for querying Hugging Face Hub datasets, fine-tuning models, and running model evaluations.<br>`hf skills add huggingface-datasets` | `Claude Code` `Codex` `Cursor` `Gemini CLI` | — |
+| **[MarkItDown](https://github.com/microsoft/markitdown)** `Official` | `MCP` | Official Microsoft Python tool and MCP server for converting PDFs, Office documents, images, audio, and web pages into LLM-friendly Markdown. | `Universal` | — |
+| **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `Official` | `Skill` | Official SocialCrawl skill for fetching structured social media, e-commerce, review, transcript, and market research data via API. | `Universal` `Claude Code` | — |
 | **[Last 30 Days Skill](https://github.com/mvanhorn/last30days-skill)** | `Skill` | Research skill that gathers and synthesizes recent discussions across Reddit, X, YouTube, HN, Polymarket, and the web. | `Claude Code` `Codex` `Gemini CLI` | ⭐ 75.8k<br><sub>2026-11-26</sub> |
 | **[Academic Research Skills](https://github.com/Imbad0202/academic-research-skills)** | `Plugin` | End-to-end academic research plugin for Claude Code covering literature review, writing, peer review, and revision. | `Claude Code` | ⭐ 58.7k<br><sub>2026-11-27</sub> |
 | **[Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills)** | `Skill` | Comprehensive library of 177 validated scientific skills and 100+ databases across biology, chemistry, and medicine. | `Cursor` `Claude Code` `Codex` `Antigravity` | ⭐ 58.6k<br><sub>2026-11-23</sub> |
@@ -333,6 +358,8 @@ _Web search, document processing, data analysis, academic research, and knowledg
 | **[ModSearch](https://github.com/liustack/modsearch)** | `Plugin` | Free, zero-API-key web and X search plugin and skill bridge returning structured JSON evidence for DeepSeek Harness and coding agents. | `DeepSeek Harness` `Claude Code` `Codex` `OpenCode` | ⭐ 1.0k<br><sub>2026-11-25</sub> |
 | **[Claude Patent Creator](https://github.com/RobThePCGuy/Claude-Patent-Creator)** | `Plugin` | USPTO patent drafting and prior-art research system combining an MCP server, RAG search, autonomous agents, and Claude Code skills. | `Claude Code` | ⭐ 217<br><sub>2026-11-26</sub> |
 | **[MinerU Document Skill](https://github.com/Nebutra/MinerU-Skill)** | `Skill` | Zero-dependency CLI and agent skill using MinerU to parse PDFs, Office files, and images into Markdown with LaTeX and tables. | `Universal` | ⭐ 138<br><sub>2026-09-24</sub> |
+| **[AI Skills](https://github.com/sanjay3290/ai-skills)** | `Skill` | Collection of AI agent skills including autonomous deep-research workflows for planning, searching, reading, and synthesizing comprehensive reports. | `Universal` `Claude Code` | — |
+| **[pdfToMarkdown](https://github.com/ThiloReintjes/pdftomarkdown-skill)** | `Plugin` | Claude Code plugin and skill for converting complex PDFs—including scans, tables, multi-column layouts, and CJK text—into clean Markdown. | `Claude Code` `Universal` | — |
 
 ## Productivity & Collaboration
 
@@ -343,6 +370,7 @@ _Docs, issue trackers, calendars, messaging platforms, and daily office workflow
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `Official` | `Skill` | Official collection of Agent Skills by Anthropic covering document creation (docx, pdf, pptx), frontend design, and skill authoring.<br>`npx skills add anthropics/skills` | `Universal` `Claude Code` | ⭐ 201.1k<br><sub>2026-11-16</sub> |
 | **[Obsidian Skills](https://github.com/obsidianmd/obsidian-skills)** `Official` | `Skill` | Official Obsidian skills teaching AI agents to work with Obsidian vaults, Markdown, Bases, and JSON Canvas. | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 54.0k<br><sub>2026-11-26</sub> |
 | **[Jane Street Agent Skills](https://github.com/janestreet/agent_skills)** `Official` | `Skill` | Official Jane Street repository of agent skills, featuring a Socratic tutor skill for guided learning. | `Universal` | ⭐ 12.0k<br><sub>2026-11-17</sub> |
+| **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `Official` | `Skill` | Official WorkorAI talent marketplace skill for candidate job search and employer hiring with white-box match explanations via MCP. | `Universal` `Claude Code` | — |
 | **[Career Ops](https://github.com/career-ops-hq/career-ops)** | `Plugin` | Local AI job-search plugin and workflow suite for scoring postings, tailoring ATS resumes, and tracking applications. | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+2` | ⭐ 85.1k<br><sub>2026-11-26</sub> |
 | **[PPT Master](https://github.com/hugohe3/ppt-master)** | `Skill` | Agent skill converting documents or topics into native PowerPoint decks with charts, animations, and audio narration. | `Universal` | ⭐ 80.5k<br><sub>2026-11-20</sub> |
 | **[AI Job Search](https://github.com/ai-job-search-dev/ai-job-search)** | `Tool` | Local Claude Code job-application toolkit with scrapers, CV tailoring, cover letter generation, and interview prep. | `Claude Code` | ⭐ 73.6k<br><sub>2026-11-26</sub> |
@@ -374,6 +402,9 @@ _Docs, issue trackers, calendars, messaging platforms, and daily office workflow
 | **[Markdown Exporter](https://github.com/bowenliang123/markdown-exporter)** | `Skill` | Agent skill and Dify plugin for converting Markdown into DOCX, PPTX, XLSX, PDF, PNG, HTML, CSV, JSON, and XML files. | `Universal` | ⭐ 275<br><sub>2026-08-13</sub> |
 | **[Claude Mermaid MCP](https://github.com/veelenga/claude-mermaid)** | `MCP` | MCP server for rendering and previewing Mermaid diagrams with live reload inside Claude Code. | `Claude Code` | ⭐ 223<br><sub>2026-11-23</sub> |
 | **[Vibe Resume Skill](https://github.com/KevinYoung-Kw/vibe-resume-skill)** | `Skill` | AI resume builder and layout skill with 12 HTML/PDF templates for tailoring resumes to any job description. | `Codex` `Claude Code` `Cursor` | ⭐ 107<br><sub>2026-10-02</sub> |
+| **[CC Arcade](https://github.com/sezaakgun/cc-arcade)** | `Plugin` | Zero-token Claude Code terminal mod that embeds playable mini-games (2048, Tetris, Snake, Doom, etc.) above the prompt while Claude works. | `Claude Code` | — |
+| **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | Pre-implementation spec and PRD reviewer skill that attacks unwritten assumptions, missing states, and policy gaps before engineering begins. | `Universal` `Claude Code` | — |
+| **[Product Decision Agent](https://github.com/atdy/maoxuan-product-agent)** | `Skill` | Chinese product decision-making agent skill covering PRDs, prioritization, roadmaps, growth diagnostics, metrics, and cross-functional execution. | `Universal` `Claude Code` | — |
 
 ## Content & Marketing
 
@@ -435,6 +466,9 @@ _Writing, SEO, social media publishing, video/audio production, and growth workf
 | **[Podcast to Article](https://github.com/orange2ai/podcast-to-article)** | `Skill` | Agent skill that transforms multi-speaker podcast transcripts into structured, human-edited long-form articles. | `Universal` | ⭐ 198<br><sub>2026-10-08</sub> |
 | **[Not-Ai Writing Skill](https://github.com/udaysharmadev/Not-Ai)** | `Skill` | Writing agent skill focused on clear, honest, human-standard prose for essays, social posts, emails, and READMEs. | `Universal` | ⭐ 165<br><sub>2026-10-30</sub> |
 | **[HyperFX Marketing Skills](https://github.com/hyperfx-ai/marketing-skills)** | `Skill` | Marketing agent skills covering paid ads, social media, SEO, competitor research, email, and analytics via Hyper MCP. | `Universal` | ⭐ 124<br><sub>2026-11-26</sub> |
+| **[Curviate Plugin](https://github.com/Curviate/curviate-plugin)** | `Plugin` | Agent plugin and skill suite for driving LinkedIn workflows—profiles, search, messaging, posts, and recruiting—via the Curviate CLI. | `Universal` `Claude Code` | — |
+| **[FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill)** | `Skill` | Natural-language video and audio editing skill powered by local FFmpeg for cutting, reframing, subtitles, overlays, silence removal, and mastering. | `Universal` `Claude Code` | — |
+| **[Levea Video MCP](https://github.com/brajendrak00068/agentic-ai-video-production)** | `MCP` | Remote MCP server for autonomous AI video editing, turning prompts or long recordings into captioned, reframed, cloud-rendered videos. | `Universal` `Claude Code` | — |
 
 ## Security & Compliance
 
@@ -444,6 +478,7 @@ _Vulnerability scanning, secret detection, guardrails, and compliance checks._
 | --- | --- | --- | --- | --- |
 | **[Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill)** `Official` | `Skill` | Official Cloudflare coding-agent skill for multi-phase security audits with verified, machine-readable findings. | `Universal` | ⭐ 78.9k<br><sub>2026-09-14</sub> |
 | **[SkillSpector](https://github.com/NVIDIA/SkillSpector)** `Official` | `Tool` | Official NVIDIA security scanner that detects prompt injection, data exfiltration, and supply-chain risks in agent skills. | `Claude Code` `Codex` | ⭐ 27.8k<br><sub>2026-11-25</sub> |
+| **[Internet Court Skill](https://github.com/internet-court/internet-court-skill)** `Official` | `Skill` | Open trust-layer skill for agent-to-agent commerce covering natural-language mandates, ERC-7710 delegated permissions, x402 payments, escrow, and dispute resolution. | `Universal` `Claude Code` | — |
 | **[Rea](https://github.com/morluto/rea)** | `Plugin` | Agent plugin, MCP server, and skills for reverse engineering apps down to native binaries. | `Claude Code` `Codex` `Cursor` `DeepSeek Harness` | ⭐ 479.8k<br><sub>2026-11-27</sub> |
 
 ## Marketplaces, Specs & Tooling

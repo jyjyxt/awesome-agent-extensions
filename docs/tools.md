@@ -51,6 +51,7 @@
 | **[AutoHarness](https://github.com/tigerless-labs/autoharness)** | Self-learning Claude Code plugin combining hooks, subagents, tools, and skills so agents automatically distill reusable skills from real tasks. | `Claude Code` | `self-learning` `skill-extraction` `harness` | ⭐ 10.2k<br><sub>2026-11-12</sub> |
 | **[Obsidian Mind](https://github.com/breferrari/obsidian-mind)** | Self-organizing Obsidian vault template with MCP and harness configs that gives AI coding agents persistent project memory. | `Claude Code` `Codex` `Gemini CLI` `Universal` | `obsidian` `persistent-memory` `knowledge-base` | ⭐ 5.6k<br><sub>2026-10-17</sub> |
 | **[Emulo](https://github.com/ohad6k/emulo)** | Tool that mines your Claude Code and Codex session logs into a portable local you.md agent personalization profile. | `Claude Code` `Codex` `Cursor` | `personalization` `agent-profile` `log-mining` | ⭐ 306<br><sub>2026-10-12</sub> |
+| **[Rote](https://github.com/trevhud/rote)** | Compiler that turns proven SKILL.md agent skills into deterministic, LLM-free pipelines and serves them back to agents as MCP tools. | `Universal` `Claude Code` | `compiler` `deterministic` `workflow` | — |
 
 ## Data, Research & Knowledge
 

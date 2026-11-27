@@ -28,6 +28,7 @@
 | **[UI Craft](https://github.com/educlopez/ui-craft)** | 面向 AI 编程代理的设计工程系统，集成技能、规则与 MCP 工具以交付高质感 UI。 | `通用` | `design-engineering` `ui-design` `design-system` | ⭐ 484<br><sub>2026-11-20</sub> |
 | **[Accessibility Agents](https://github.com/Community-Access/accessibility-agents)** | 面向编程代理的 WCAG 2.2 AA 无障碍审查套件，集成技能、编辑门禁钩子与扫描器。 | `Claude Code` `GitHub Copilot` `Gemini CLI` `Codex` | `accessibility` `wcag` `a11y` | ⭐ 456<br><sub>2026-11-23</sub> |
 | **[Pixel Plugin](https://github.com/willibrandon/pixel-plugin)** | 通过自然语言调用 Aseprite 创作像素画、动画与游戏精灵图集的 Claude Code 插件。 | `Claude Code` | `pixel-art` `aseprite` `sprites` | ⭐ 435<br><sub>2025-10-19</sub> |
+| **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。 | `通用` `Claude Code` | `npx -y myog-checker` | — |
 
 ## 云与运维
 
@@ -48,6 +49,7 @@
 
 | 名称 | 简介 | 兼容工具 | 安装 / 标签 | 活跃度 |
 | --- | --- | --- | --- | --- |
+| **[MarkItDown](https://github.com/microsoft/markitdown)** `官方` | 微软官方文件转 Markdown 工具及 MCP 服务，支持将 PDF、Office 文档、图片、音频等转换为适合大模型处理的 Markdown。 | `通用` | `official` `markdown` `pdf` | — |
 | **[Claude Patent Creator](https://github.com/RobThePCGuy/Claude-Patent-Creator)** | 集成 MCP 服务器、混合 RAG 检索与自主代理的美国专利撰写与检索 Claude Code 插件系统。 | `Claude Code` | `patents` `uspto` `rag` | ⭐ 217<br><sub>2026-11-26</sub> |
 
 ## 效率与协作
@@ -62,6 +64,7 @@
 | 名称 | 简介 | 兼容工具 | 安装 / 标签 | 活跃度 |
 | --- | --- | --- | --- | --- |
 | **[Hyperframes](https://github.com/heygen-com/hyperframes)** `官方` | HeyGen 官方开源的 AI 视频编辑插件与 MCP 工具集，支持用 HTML 编写动效并渲染输出 MP4。 | `Claude Code` `Codex` `Cursor` `Gemini CLI` | `video-editing` `html-to-video` `animation` | ⭐ 90.9k<br><sub>2026-11-27</sub> |
+| **[Levea Video MCP](https://github.com/brajendrak00068/agentic-ai-video-production)** | 面向自动化 AI 视频剪辑的远程 MCP 服务，可将自然语言指令或长视频处理为带字幕与智能构图的成片。 | `通用` `Claude Code` | `video` `editing` `captions` | — |
 
 ## 安全与合规
 

@@ -28,6 +28,7 @@
 | **[UI Craft](https://github.com/educlopez/ui-craft)** | Design engineering system for AI coding agents combining skills, rules, MCP tools, and workflows for craft-level UI. | `Universal` | `design-engineering` `ui-design` `design-system` | ⭐ 484<br><sub>2026-11-20</sub> |
 | **[Accessibility Agents](https://github.com/Community-Access/accessibility-agents)** | WCAG 2.2 AA accessibility review suite bundling agent skills, edit-gate hooks, and MCP scanners for coding agents. | `Claude Code` `GitHub Copilot` `Gemini CLI` `Codex` | `accessibility` `wcag` `a11y` | ⭐ 456<br><sub>2026-11-23</sub> |
 | **[Pixel Plugin](https://github.com/willibrandon/pixel-plugin)** | Claude Code plugin for creating pixel art, animations, and game-ready sprites in Aseprite via natural language. | `Claude Code` | `pixel-art` `aseprite` `sprites` | ⭐ 435<br><sub>2025-10-19</sub> |
+| **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | Local MCP server that inspects static Open Graph and Twitter Card metadata on public web pages and reports missing or conflicting tags. | `Universal` `Claude Code` | `npx -y myog-checker` | — |
 
 ## Cloud, DevOps & Infrastructure
 
@@ -48,6 +49,7 @@
 
 | Name | Description | Agents | Install / Tags | Activity |
 | --- | --- | --- | --- | --- |
+| **[MarkItDown](https://github.com/microsoft/markitdown)** `Official` | Official Microsoft Python tool and MCP server for converting PDFs, Office documents, images, audio, and web pages into LLM-friendly Markdown. | `Universal` | `official` `markdown` `pdf` | — |
 | **[Claude Patent Creator](https://github.com/RobThePCGuy/Claude-Patent-Creator)** | USPTO patent drafting and prior-art research system combining an MCP server, RAG search, autonomous agents, and Claude Code skills. | `Claude Code` | `patents` `uspto` `rag` | ⭐ 217<br><sub>2026-11-26</sub> |
 
 ## Productivity & Collaboration
@@ -62,6 +64,7 @@
 | Name | Description | Agents | Install / Tags | Activity |
 | --- | --- | --- | --- | --- |
 | **[Hyperframes](https://github.com/heygen-com/hyperframes)** `Official` | Official HeyGen open-source AI video editor plugin and MCP suite for authoring HTML animations and rendering MP4. | `Claude Code` `Codex` `Cursor` `Gemini CLI` | `video-editing` `html-to-video` `animation` | ⭐ 90.9k<br><sub>2026-11-27</sub> |
+| **[Levea Video MCP](https://github.com/brajendrak00068/agentic-ai-video-production)** | Remote MCP server for autonomous AI video editing, turning prompts or long recordings into captioned, reframed, cloud-rendered videos. | `Universal` `Claude Code` | `video` `editing` `captions` | — |
 
 ## Security & Compliance
 

@@ -25,6 +25,8 @@
 | **[Claude Code Tresor](https://github.com/alirezarezvani/claude-code-tresor)** | 集成自主技能、专家子代理、斜杠命令与提示词的 Claude Code 研发效率合集。 | `Claude Code` `Cursor` | `claude-code` `subagents` `slash-commands` | ⭐ 789<br><sub>2026-11-10</sub> |
 | **[Claude Skills Engineering Marketplace](https://github.com/mhattingpete/claude-skills-marketplace)** | 面向软件工程工作流的 Claude Code 插件市场，涵盖 Git 自动化、测试、代码审查与可视化文档。 | `Claude Code` | `git-automation` `code-review` `testing` | ⭐ 696<br><sub>2026-07-25</sub> |
 | **[CC Polymath](https://github.com/rand/cc-polymath)** | 注重上下文效率的 Claude Code 插件，集成覆盖云架构、设计与数学等领域的技能、子代理与 MCP 服务。 | `Claude Code` | `claude-code` `context-efficiency` `workflows` | ⭐ 192<br><sub>2026-02-28</sub> |
+| **[Bleu](https://github.com/Nirvaan05/Bleu-plugin)** | 编码前架构蓝图插件与技能，将初步项目想法拆解为包含组件、流程与文件级执行清单的完整实现方案。 | `通用` `Claude Code` | `architecture` `planning` `blueprint` | — |
+| **[Ratchet](https://github.com/krishansubudhi/ratchet)** | 通过 Stop Hook 强制执行只降不增代码规模预算的 Claude Code 插件，防止编码 Agent 导致仓库膨胀。 | `Claude Code` | `code-quality` `hooks` `budget` | — |
 
 ## 前端与设计
 
@@ -48,6 +50,9 @@
 | **[CCG Workflow](https://github.com/fengshao1227/ccg-workflow)** | 多模型协同工作流引擎插件，通过一条 /ccg:go 命令自动分析意图并编排 Codex、Gemini 与 Claude 协作执行。 | `Claude Code` `Codex` `Gemini CLI` `DeepSeek Harness` | `multi-model` `orchestration` `workflow` | ⭐ 6.0k<br><sub>2026-11-19</sub> |
 | **[Obsidian Second Brain](https://github.com/eugeniughelbur/obsidian-second-brain)** | 基于 Obsidian Markdown 的跨代理持久化记忆插件，提供 48 条指令、语义检索、钩子及多端共享日志。 | `Claude Code` `Codex` `Cursor` `通用` | `obsidian` `persistent-memory` `second-brain` | ⭐ 5.5k<br><sub>2026-11-26</sub> |
 | **[AIWG (AI Writing & Workflow Guide)](https://github.com/jmagly/aiwg)** | 跨端多智能体 SDLC 工作流框架，集成专家代理、技能、规则、MCP 工具与会话记忆。 | `Claude Code` `Codex` `GitHub Copilot` `Cursor` `+1` | `sdlc` `multi-agent` `workflows` | ⭐ 233<br><sub>2026-11-26</sub> |
+| **[Claude Agents View](https://github.com/qaokss/claude-agents-view)** | Claude Code 实时监控面板插件，以列表和拓扑图形式展示各会话中运行中的子代理、技能与执行计划。 | `Claude Code` | `subagents` `monitoring` `graph` | — |
+| **[Pi Agent for Claude](https://github.com/FazalAAli/pi-agent-for-claude)** | Claude Code 扩展 Mod，新增基于 pi CLI 的多模型子代理类型并原生流式集成到 Claude Code 协作界面。 | `Claude Code` | `subagents` `multi-model` `pi` | — |
+| **[Subagent Tuner](https://github.com/Kruhlikau/subagent-tuner)** | Claude Code 子代理调优 Mod，按任务类型自动推荐并配置各子代理的模型与推理强度。 | `Claude Code` | `subagents` `model-routing` `reasoning-effort` | — |
 
 ## 数据、研究与知识
 
@@ -57,6 +62,7 @@
 | **[UZI Skill](https://github.com/wbh604/UZI-Skill)** | 面向 A 股、港股与美股的量化投研插件，集成 66 位投资大师角色、180 条量化规则与 17 种机构分析方法。 | `Claude Code` `Codex` `Cursor` `OpenCode` `+1` | `finance` `quant` `stock-analysis` | ⭐ 7.7k<br><sub>2026-11-23</sub> |
 | **[ModSearch](https://github.com/liustack/modsearch)** | 免费免 API Key 的联网搜索插件与技能桥接工具，为 DeepSeek Harness 等模型返回带引用的结构化 JSON 网页与 X 搜索证据。 | `DeepSeek Harness` `Claude Code` `Codex` `OpenCode` | `web-search` `deepseek-harness` `research` | ⭐ 1.0k<br><sub>2026-11-25</sub> |
 | **[Claude Patent Creator](https://github.com/RobThePCGuy/Claude-Patent-Creator)** | 集成 MCP 服务器、混合 RAG 检索与自主代理的美国专利撰写与检索 Claude Code 插件系统。 | `Claude Code` | `patents` `uspto` `rag` | ⭐ 217<br><sub>2026-11-26</sub> |
+| **[pdfToMarkdown](https://github.com/ThiloReintjes/pdftomarkdown-skill)** | Claude Code 插件与技能，可将扫描件、表格、多栏排版及中日韩文档等复杂 PDF 高保真转换为 Markdown。 | `Claude Code` `通用` | `pdf` `markdown` `ocr` | — |
 
 ## 效率与协作
 
@@ -64,6 +70,7 @@
 | --- | --- | --- | --- | --- |
 | **[Career Ops](https://github.com/career-ops-hq/career-ops)** | 本地运行的 AI 求职辅助插件与工具集，支持岗位匹配评分、ATS 简历定制、面试准备与投递追踪。 | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+2` | `job-search` `resume` `career` | ⭐ 85.1k<br><sub>2026-11-26</sub> |
 | **[Text to CAD](https://github.com/earthtojake/text-to-cad)** | 支持主流编码 Agent 的文本生成 CAD 插件与 MCP 套件，可用自然语言设计实体模型并导出工程文件。 | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+1` | `cad` `3d-modeling` `mechanical-engineering` | ⭐ 27.6k<br><sub>2026-11-27</sub> |
+| **[CC Arcade](https://github.com/sezaakgun/cc-arcade)** | 零 Token 消耗的 Claude Code 终端 Mod，在等待 Claude 执行任务期间于输入框上方嵌入 2048、俄罗斯方块等小游戏。 | `Claude Code` | `tui` `games` `mod` | — |
 
 ## 内容与营销
 
@@ -73,6 +80,7 @@
 | **[Claude SEO](https://github.com/AgriciDaniel/claude-seo)** | 集成 26 个子技能与 19 个子代理的 Claude Code 全栈 SEO 插件，覆盖技术 SEO、GEO 优化与报表生成。 | `Claude Code` | `seo` `geo` `technical-seo` | ⭐ 32.7k<br><sub>2026-11-26</sub> |
 | **[Lemo Opuscar](https://github.com/lemomo-ai/lemo-opuscar)** | 面向 Claude Code 的代码制片风格工具箱插件，无需视频生成模型即可用 99 种现成风格创作短片。 | `Claude Code` | `video-generation` `creative-coding` `filmmaking` | ⭐ 21.6k<br><sub>2026-11-26</sub> |
 | **[Lemo Wake](https://github.com/lemomo-ai/lemo-wake)** | 将单张静态图片转化为约 5 秒无缝循环动图（MP4/GIF/WebP/Live Photo）的 Claude Code 插件。 | `Claude Code` | `image-animation` `gif` `motion-design` | ⭐ 398<br><sub>2026-10-17</sub> |
+| **[Curviate Plugin](https://github.com/Curviate/curviate-plugin)** | 基于 Curviate CLI 的 LinkedIn 自动化插件与技能套件，覆盖人脉检索、消息、发帖及招聘等工作流。 | `通用` `Claude Code` | `linkedin` `sales-navigator` `recruiting` | — |
 
 ## 安全与合规
 

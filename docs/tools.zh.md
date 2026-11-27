@@ -51,6 +51,7 @@
 | **[AutoHarness](https://github.com/tigerless-labs/autoharness)** | 具备自学习能力的 Claude Code 插件，结合钩子、子代理与工具从真实任务中自动沉淀可复用技能。 | `Claude Code` | `self-learning` `skill-extraction` `harness` | ⭐ 10.2k<br><sub>2026-11-12</sub> |
 | **[Obsidian Mind](https://github.com/breferrari/obsidian-mind)** | 可自组织的 Obsidian 知识库模板与多端配置集，为 AI 编码代理提供持久化记忆底座。 | `Claude Code` `Codex` `Gemini CLI` `通用` | `obsidian` `persistent-memory` `knowledge-base` | ⭐ 5.6k<br><sub>2026-10-17</sub> |
 | **[Emulo](https://github.com/ohad6k/emulo)** | 从 Claude Code 与 Codex 会话日志中挖掘个人偏好并生成本地 you.md 智能体画像的工具。 | `Claude Code` `Codex` `Cursor` | `personalization` `agent-profile` `log-mining` | ⭐ 306<br><sub>2026-10-12</sub> |
+| **[Rote](https://github.com/trevhud/rote)** | 将成熟 SKILL.md 技能编译为无大模型参与的确定性流水线，并重新封装为 MCP 工具供 Agent 调用。 | `通用` `Claude Code` | `compiler` `deterministic` `workflow` | — |
 
 ## 数据、研究与知识
 

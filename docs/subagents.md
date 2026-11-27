@@ -33,6 +33,7 @@
 | **[Oh My OpenAgent (OmO)](https://github.com/code-yeongyu/oh-my-openagent)** | Multi-agent orchestration harness and plugin for OpenCode and coding agents with graph engineering workflows. | `OpenCode` `Claude Code` `Codex` `Cursor` `+1` | `orchestration` `multi-agent` `opencode` | ⭐ 71.1k<br><sub>2026-11-27</sub> |
 | **[AutoHarness](https://github.com/tigerless-labs/autoharness)** | Self-learning Claude Code plugin combining hooks, subagents, tools, and skills so agents automatically distill reusable skills from real tasks. | `Claude Code` | `self-learning` `skill-extraction` `harness` | ⭐ 10.2k<br><sub>2026-11-12</sub> |
 | **[AIWG (AI Writing & Workflow Guide)](https://github.com/jmagly/aiwg)** | Multi-agent SDLC framework bundling specialist agents, skills, rules, MCP tools, and session memory across coding tools. | `Claude Code` `Codex` `GitHub Copilot` `Cursor` `+1` | `sdlc` `multi-agent` `workflows` | ⭐ 233<br><sub>2026-11-26</sub> |
+| **[Pi Agent for Claude](https://github.com/FazalAAli/pi-agent-for-claude)** | Claude Code mod adding a pi subagent type that runs model steps through the pi CLI and streams multi-model teammates inside Claude Code UI. | `Claude Code` | `subagents` `multi-model` `pi` | — |
 
 ## Data, Research & Knowledge
 

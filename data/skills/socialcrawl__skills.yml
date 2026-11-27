@@ -1,0 +1,9 @@
+name: SocialCrawl Skills
+repo: https://github.com/socialcrawl/skills
+category: data-research
+official: true
+agents: [universal, claude-code]
+tags: [official, social-media, scraping, research]
+description:
+  en: Official SocialCrawl skill for fetching structured social media, e-commerce, review, transcript, and market research data via API.
+  zh: SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。

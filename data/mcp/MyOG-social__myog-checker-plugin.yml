@@ -1,0 +1,11 @@
+name: MyOG Checker MCP
+repo: https://github.com/MyOG-social/myog-checker-plugin
+category: frontend-design
+official: false
+agents: [universal, claude-code]
+tags: [open-graph, seo, metadata, twitter-cards]
+install:
+  npx: npx -y myog-checker
+description:
+  en: Local MCP server that inspects static Open Graph and Twitter Card metadata on public web pages and reports missing or conflicting tags.
+  zh: 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。

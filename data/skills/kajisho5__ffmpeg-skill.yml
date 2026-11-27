@@ -1,0 +1,9 @@
+name: FFmpeg Skill
+repo: https://github.com/kajisho5/ffmpeg-skill
+category: content-marketing
+official: false
+agents: [universal, claude-code]
+tags: [ffmpeg, video, audio, subtitles]
+description:
+  en: Natural-language video and audio editing skill powered by local FFmpeg for cutting, reframing, subtitles, overlays, silence removal, and mastering.
+  zh: 基于本地 FFmpeg 的自然语言音视频剪辑技能，支持裁剪拼接、画幅重构、字幕压制、去静音与混音处理。

@@ -1,0 +1,9 @@
+name: MarkItDown
+repo: https://github.com/microsoft/markitdown
+category: data-research
+official: true
+agents: [universal]
+tags: [official, markdown, pdf, office, mcp]
+description:
+  en: Official Microsoft Python tool and MCP server for converting PDFs, Office documents, images, audio, and web pages into LLM-friendly Markdown.
+  zh: 微软官方文件转 Markdown 工具及 MCP 服务，支持将 PDF、Office 文档、图片、音频等转换为适合大模型处理的 Markdown。

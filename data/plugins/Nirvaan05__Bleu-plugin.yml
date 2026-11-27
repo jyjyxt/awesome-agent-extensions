@@ -1,0 +1,10 @@
+name: Bleu
+repo: https://github.com/Nirvaan05/Bleu-plugin
+category: coding
+official: false
+agents: [universal, claude-code]
+includes: [skills]
+tags: [architecture, planning, blueprint, design]
+description:
+  en: Pre-coding architecture and blueprint skill/plugin that turns rough project ideas into structured, file-level implementation plans before writing code.
+  zh: 编码前架构蓝图插件与技能，将初步项目想法拆解为包含组件、流程与文件级执行清单的完整实现方案。

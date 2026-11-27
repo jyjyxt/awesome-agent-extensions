@@ -1,0 +1,10 @@
+name: Pi Agent for Claude
+repo: https://github.com/FazalAAli/pi-agent-for-claude
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [subagents]
+tags: [subagents, multi-model, pi, mod]
+description:
+  en: Claude Code mod adding a pi subagent type that runs model steps through the pi CLI and streams multi-model teammates inside Claude Code UI.
+  zh: Claude Code 扩展 Mod，新增基于 pi CLI 的多模型子代理类型并原生流式集成到 Claude Code 协作界面。

@@ -1,0 +1,9 @@
+name: Devil Spec Reviewer
+repo: https://github.com/dhha22/devil-skill
+category: productivity
+official: false
+agents: [universal, claude-code]
+tags: [prd, spec-review, edge-cases, product]
+description:
+  en: Pre-implementation spec and PRD reviewer skill that attacks unwritten assumptions, missing states, and policy gaps before engineering begins.
+  zh: 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。

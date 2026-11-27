@@ -1,0 +1,10 @@
+name: pdfToMarkdown
+repo: https://github.com/ThiloReintjes/pdftomarkdown-skill
+category: data-research
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [pdf, markdown, ocr, documents]
+description:
+  en: Claude Code plugin and skill for converting complex PDFs—including scans, tables, multi-column layouts, and CJK text—into clean Markdown.
+  zh: Claude Code 插件与技能，可将扫描件、表格、多栏排版及中日韩文档等复杂 PDF 高保真转换为 Markdown。

@@ -1,0 +1,9 @@
+name: CC Arcade
+repo: https://github.com/sezaakgun/cc-arcade
+category: productivity
+official: false
+agents: [claude-code]
+tags: [tui, games, mod, claude-code]
+description:
+  en: Zero-token Claude Code terminal mod that embeds playable mini-games (2048, Tetris, Snake, Doom, etc.) above the prompt while Claude works.
+  zh: 零 Token 消耗的 Claude Code 终端 Mod，在等待 Claude 执行任务期间于输入框上方嵌入 2048、俄罗斯方块等小游戏。

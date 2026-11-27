@@ -1,0 +1,9 @@
+name: Levea Video MCP
+repo: https://github.com/brajendrak00068/agentic-ai-video-production
+category: content-marketing
+official: false
+agents: [universal, claude-code]
+tags: [video, editing, captions, mcp]
+description:
+  en: Remote MCP server for autonomous AI video editing, turning prompts or long recordings into captioned, reframed, cloud-rendered videos.
+  zh: 面向自动化 AI 视频剪辑的远程 MCP 服务，可将自然语言指令或长视频处理为带字幕与智能构图的成片。

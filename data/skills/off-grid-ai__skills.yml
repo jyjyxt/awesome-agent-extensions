@@ -1,0 +1,9 @@
+name: Off Grid AI Skills
+repo: https://github.com/off-grid-ai/skills
+category: coding
+official: false
+agents: [universal, claude-code]
+tags: [testing, debugging, code-review, quality]
+description:
+  en: Engineering skill collection focused on behavior-driven testing, root-cause bug fixing, merge safety checks, and graph engineering workflows.
+  zh: 专注软件工程质量的技能集合，涵盖行为驱动测试、根因修复、合并前安全检查与图工程工作流。

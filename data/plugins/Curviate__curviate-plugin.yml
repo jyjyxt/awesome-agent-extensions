@@ -1,0 +1,10 @@
+name: Curviate Plugin
+repo: https://github.com/Curviate/curviate-plugin
+category: content-marketing
+official: false
+agents: [universal, claude-code]
+includes: [skills]
+tags: [linkedin, sales-navigator, recruiting, cli]
+description:
+  en: Agent plugin and skill suite for driving LinkedIn workflows—profiles, search, messaging, posts, and recruiting—via the Curviate CLI.
+  zh: 基于 Curviate CLI 的 LinkedIn 自动化插件与技能套件，覆盖人脉检索、消息、发帖及招聘等工作流。

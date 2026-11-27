@@ -1,0 +1,9 @@
+name: AI Skills
+repo: https://github.com/sanjay3290/ai-skills
+category: data-research
+official: false
+agents: [universal, claude-code]
+tags: [deep-research, research, synthesis, skills]
+description:
+  en: Collection of AI agent skills including autonomous deep-research workflows for planning, searching, reading, and synthesizing comprehensive reports.
+  zh: AI Agent 技能集合，内置自主深度研究工作流，支持规划、检索、阅读并汇总生成完整研究报告。

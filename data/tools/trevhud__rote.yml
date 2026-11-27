@@ -1,0 +1,9 @@
+name: Rote
+repo: https://github.com/trevhud/rote
+category: orchestration
+official: false
+agents: [universal, claude-code]
+tags: [compiler, deterministic, workflow, mcp]
+description:
+  en: Compiler that turns proven SKILL.md agent skills into deterministic, LLM-free pipelines and serves them back to agents as MCP tools.
+  zh: 将成熟 SKILL.md 技能编译为无大模型参与的确定性流水线，并重新封装为 MCP 工具供 Agent 调用。

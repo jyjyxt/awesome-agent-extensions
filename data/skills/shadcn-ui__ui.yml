@@ -1,0 +1,9 @@
+name: shadcn/ui Skill
+repo: https://github.com/shadcn-ui/ui
+category: frontend-design
+official: true
+agents: [universal, claude-code]
+tags: [official, shadcn, ui, design-system, react]
+description:
+  en: Official shadcn/ui repository with built-in agent skill and CLI context for managing components, themes, and modern React design systems.
+  zh: shadcn/ui 官方仓库内置 Agent 技能与上下文规范，辅助管理组件库、主题与现代 React 设计系统。

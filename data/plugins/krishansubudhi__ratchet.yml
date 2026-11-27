@@ -1,0 +1,9 @@
+name: Ratchet
+repo: https://github.com/krishansubudhi/ratchet
+category: coding
+official: false
+agents: [claude-code]
+tags: [code-quality, hooks, budget, guardrails]
+description:
+  en: Claude Code plugin enforcing a downward-only code-size budget via a Stop hook to prevent coding agents from bloating repositories.
+  zh: 通过 Stop Hook 强制执行只降不增代码规模预算的 Claude Code 插件，防止编码 Agent 导致仓库膨胀。

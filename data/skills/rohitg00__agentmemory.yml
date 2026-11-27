@@ -1,0 +1,9 @@
+name: AgentMemory
+repo: https://github.com/rohitg00/agentmemory
+category: orchestration
+official: false
+agents: [universal, claude-code]
+tags: [memory, handoff, session-history, persistence]
+description:
+  en: Durable cross-session memory plugin and skill suite for storing, recalling, handing off, recapping, and pruning agent memories and lessons.
+  zh: 跨会话持久化记忆插件与技能套件，支持记忆写入、检索、会话交接、复盘沉淀与隐私清理。

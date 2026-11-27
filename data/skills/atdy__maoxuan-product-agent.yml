@@ -1,0 +1,9 @@
+name: Product Decision Agent
+repo: https://github.com/atdy/maoxuan-product-agent
+category: productivity
+official: false
+agents: [universal, claude-code]
+tags: [product-management, prd, growth, chinese]
+description:
+  en: Chinese product decision-making agent skill covering PRDs, prioritization, roadmaps, growth diagnostics, metrics, and cross-functional execution.
+  zh: 中文互联网产品决策 Agent 技能，覆盖需求分析、PRD、优先级排期、增长诊断、数据指标与跨部门协作决策。

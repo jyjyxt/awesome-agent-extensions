@@ -1,0 +1,9 @@
+name: WorkorAI Agent Kit
+repo: https://github.com/work0r-ai/agent-kit
+category: productivity
+official: true
+agents: [universal, claude-code]
+tags: [official, recruiting, job-search, mcp]
+description:
+  en: Official WorkorAI talent marketplace skill for candidate job search and employer hiring with white-box match explanations via MCP.
+  zh: WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。

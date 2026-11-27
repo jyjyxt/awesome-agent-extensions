@@ -1,0 +1,9 @@
+name: e2e Agent Skill
+repo: https://github.com/e2e-inc/e2e
+category: frontend-design
+official: true
+agents: [universal, claude-code]
+tags: [official, e2e, playwright, mobile, testing]
+description:
+  en: Official skill for the e2e agentic test runner that writes, executes, and debugs end-to-end tests across Playwright browsers, iOS, and Android.
+  zh: e2e 智能端到端测试框架官方技能，支持在 Playwright 浏览器及 iOS/Android 设备上编写、运行与调试测试。

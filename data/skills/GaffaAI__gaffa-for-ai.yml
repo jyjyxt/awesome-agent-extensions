@@ -1,0 +1,9 @@
+name: Gaffa for AI
+repo: https://github.com/GaffaAI/gaffa-for-ai
+category: data-research
+official: true
+agents: [universal, claude-code]
+tags: [official, scraping, browser-automation, web-data]
+description:
+  en: Official Gaffa skills for authoring, debugging, and running web scraping, crawling, screenshot, and browser automation pipelines.
+  zh: Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。

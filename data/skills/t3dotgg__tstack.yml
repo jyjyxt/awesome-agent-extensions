@@ -1,0 +1,9 @@
+name: tstack Skills
+repo: https://github.com/t3dotgg/tstack
+category: coding
+official: false
+agents: [universal, claude-code]
+tags: [git, pr, code-review, workflow]
+description:
+  en: Engineering workflow skill suite from Theo Browne covering PR filing, review comments, CI babysitting, codebase modernization, and autonomous loops.
+  zh: Theo Browne 维护的工程工作流技能套件，涵盖 PR 提交、评审评论、CI 自动盯盘与代码库现代化改造。

@@ -1,0 +1,9 @@
+name: Subagent Tuner
+repo: https://github.com/Kruhlikau/subagent-tuner
+category: orchestration
+official: false
+agents: [claude-code]
+tags: [subagents, model-routing, reasoning-effort, mod]
+description:
+  en: Claude Code mod that recommends and configures the model and reasoning effort for each subagent by task type with saved defaults.
+  zh: Claude Code 子代理调优 Mod，按任务类型自动推荐并配置各子代理的模型与推理强度。

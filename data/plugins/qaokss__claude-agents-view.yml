@@ -1,0 +1,9 @@
+name: Claude Agents View
+repo: https://github.com/qaokss/claude-agents-view
+category: orchestration
+official: false
+agents: [claude-code]
+tags: [subagents, monitoring, graph, pane]
+description:
+  en: Live monitoring pane for Claude Code displaying a real-time list and graph of active agents, skills, and plans across sessions.
+  zh: Claude Code 实时监控面板插件，以列表和拓扑图形式展示各会话中运行中的子代理、技能与执行计划。

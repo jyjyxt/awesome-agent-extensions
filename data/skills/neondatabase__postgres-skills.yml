@@ -1,0 +1,9 @@
+name: Neon Postgres Skills
+repo: https://github.com/neondatabase/postgres-skills
+category: cloud-devops
+official: true
+agents: [universal, claude-code]
+tags: [official, postgres, neon, database, sql]
+description:
+  en: Official Neon agent skills providing PostgreSQL best practices for schema design, indexing strategies, query optimization, and migrations.
+  zh: Neon 官方 PostgreSQL 技能包，涵盖表结构设计、索引策略、查询优化、数据库迁移及常见避坑指南。

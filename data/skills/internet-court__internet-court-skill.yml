@@ -1,0 +1,9 @@
+name: Internet Court Skill
+repo: https://github.com/internet-court/internet-court-skill
+category: security
+official: true
+agents: [universal, claude-code]
+tags: [official, payments, x402, escrow, governance]
+description:
+  en: Open trust-layer skill for agent-to-agent commerce covering natural-language mandates, ERC-7710 delegated permissions, x402 payments, escrow, and dispute resolution.
+  zh: 面向 Agent 间交易的开放信任层技能，覆盖自然语言授权、ERC-7710 权限委托、x402 支付、托管与争议仲裁。

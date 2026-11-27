@@ -1,0 +1,10 @@
+name: Oh My OpenAgent (OmO)
+repo: https://github.com/code-yeongyu/oh-my-openagent
+category: orchestration
+official: false
+agents: [opencode, claude-code, codex, cursor, gemini-cli]
+includes: [skills, subagents, tools]
+tags: [orchestration, multi-agent, opencode, agent-harness]
+description:
+  en: Multi-agent orchestration harness and plugin for OpenCode and coding agents with graph engineering workflows.
+  zh: 面向 OpenCode 与主流编码工具的多 Agent 编排插件与运行框架，强化复杂任务协同工作流。

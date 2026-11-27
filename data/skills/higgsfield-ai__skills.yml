@@ -1,0 +1,9 @@
+name: Higgsfield AI Skills
+repo: https://github.com/higgsfield-ai/skills
+category: content-marketing
+official: true
+agents: [claude-code, codex, cursor]
+tags: [higgsfield, ai-video, image-generation, marketing]
+description:
+  en: Official Higgsfield AI skills for generating brand kits, product photoshoots, faceless videos, explainers, and YouTube thumbnails.
+  zh: Higgsfield AI 官方技能集，覆盖品牌视觉套件、产品摄影、口播/解说视频及 YouTube 封面图生成。

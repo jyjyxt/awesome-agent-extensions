@@ -1,0 +1,10 @@
+name: Everything Claude Code (ECC)
+repo: https://github.com/affaan-m/ECC
+category: orchestration
+official: false
+agents: [claude-code, codex, opencode, cursor, gemini-cli, antigravity]
+includes: [skills, subagents, mcp, tools]
+tags: [agent-harness, memory, orchestration, workflows]
+description:
+  en: Agent harness optimization system bundling skills, instincts, memory, security, and research-first workflows.
+  zh: 集成技能、直觉记忆、安全规范与研究驱动工作流的 Agent 运行框架性能优化套件。

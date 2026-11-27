@@ -1,0 +1,9 @@
+name: Khazix Skills
+repo: https://github.com/KKKKhazix/khazix-skills
+category: productivity
+official: false
+agents: [universal]
+tags: [productivity, writing, goal-setting, workflows]
+description:
+  en: Open-source collection of agent skills by Khazix for goal definition, workspace cleanup, analysis, and writing.
+  zh: 数字生命卡兹克开源的实用 Agent 技能合集，包含目标拆解、环境清理、热点分析与写作辅助。

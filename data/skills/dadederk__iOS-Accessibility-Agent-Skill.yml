@@ -1,0 +1,9 @@
+name: iOS Accessibility Agent Skill
+repo: https://github.com/dadederk/iOS-Accessibility-Agent-Skill
+category: frontend-design
+official: false
+agents: [universal]
+tags: [ios, accessibility, a11y, swift]
+description:
+  en: Open-format agent skill providing expert iOS Accessibility best-practice guidance for AI coding tools.
+  zh: 遵循 Agent Skills 开放标准的 iOS 无障碍开发最佳实践专家指导技能。

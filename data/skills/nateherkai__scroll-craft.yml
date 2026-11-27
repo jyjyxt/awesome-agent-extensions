@@ -1,0 +1,9 @@
+name: Scroll Craft
+repo: https://github.com/nateherkai/scroll-craft
+category: frontend-design
+official: false
+agents: [universal, claude-code, codex]
+tags: [scroll-animation, web-design, frontend, interaction-design]
+description:
+  en: Agent skill and Claude Code plugin for crafting immersive, accessible, scroll-driven websites and motion experiences.
+  zh: 专注于构建沉浸式滚动交互网站的前端设计技能与插件，兼顾动效质感与无障碍访问。

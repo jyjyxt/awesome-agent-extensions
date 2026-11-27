@@ -1,0 +1,9 @@
+name: Modern Web Guidance
+repo: https://github.com/GoogleChrome/modern-web-guidance
+category: frontend-design
+official: true
+agents: [claude-code, codex, cursor, gemini-cli]
+tags: [web-standards, best-practices, chrome, frontend]
+description:
+  en: Official Google Chrome guidance skills keeping AI coding agents aligned with modern web platform best practices.
+  zh: Google Chrome 官方维护的现代 Web 开发指南技能集，让编码 Agent 紧跟最新 Web 标准与最佳实践。

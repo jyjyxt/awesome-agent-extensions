@@ -1,0 +1,9 @@
+name: Andrej Karpathy Skills
+repo: https://github.com/multica-ai/andrej-karpathy-skills
+category: coding
+official: false
+agents: [claude-code, cursor]
+tags: [claude-md, coding-guidelines, best-practices]
+description:
+  en: "Behavioral guidelines and skills for coding agents distilled from Andrej Karpathy's observations on LLM coding pitfalls."
+  zh: 基于 Andrej Karpathy 对大模型编程常见陷阱的总结所提炼的编码规范与 Agent 技能。

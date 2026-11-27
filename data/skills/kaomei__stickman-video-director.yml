@@ -1,0 +1,9 @@
+name: Stickman Video Director
+repo: https://github.com/kaomei/stickman-video-director
+category: content-marketing
+official: false
+agents: [universal, claude-code, codex]
+tags: [video-production, animation, youtube, stickman]
+description:
+  en: Agent skill that turns scripts into animated stickman explainer videos with 20+ visual styles, voiceover, captions, and sound effects.
+  zh: 将脚本一键制作成火柴人动画解说视频的 Agent 技能，内置 20+ 风格、配音、字幕与音效生成。

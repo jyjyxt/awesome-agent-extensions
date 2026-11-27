@@ -1,0 +1,9 @@
+name: SwiftUI Agent Skill
+repo: https://github.com/twostraws/SwiftUI-Agent-Skill
+category: coding
+official: false
+agents: [universal, claude-code, codex]
+tags: [swiftui, ios, apple, mobile]
+description:
+  en: SwiftUI development skill by Paul Hudson (Hacking with Swift) guiding AI agents on modern Apple UI patterns and best practices.
+  zh: 由 Paul Hudson 打造的 SwiftUI 开发技能，指导编码代理遵循现代苹果生态界面开发最佳实践。

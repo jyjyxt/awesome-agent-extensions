@@ -1,0 +1,9 @@
+name: Skill Seekers
+repo: https://github.com/yusufkaraaslan/Skill_Seekers
+category: marketplaces-tooling
+official: false
+agents: [universal, claude-code, codex]
+tags: [skill-generator, documentation, mcp, pdf]
+description:
+  en: Tool and MCP server that converts documentation sites, GitHub repositories, and PDFs into AI agent skills with automatic conflict detection.
+  zh: 将文档网站、GitHub 仓库和 PDF 自动转换为 AI Agent 技能的工具与 MCP 服务，内置冲突检测。

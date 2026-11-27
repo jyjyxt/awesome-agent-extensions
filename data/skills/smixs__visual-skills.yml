@@ -1,0 +1,9 @@
+name: Visual Skills
+repo: https://github.com/smixs/visual-skills
+category: content-marketing
+official: false
+agents: [claude-code, cursor]
+tags: [video-generation, image-generation, prompt-engineering, filmmaking]
+description:
+  en: AI film director agent skills for cinematic dramaturgy and prompt syntax across modern image and video models.
+  zh: 面向 AI 影像创作的导演技能集，涵盖电影戏剧构作及主流图像与视频模型提示词语法。

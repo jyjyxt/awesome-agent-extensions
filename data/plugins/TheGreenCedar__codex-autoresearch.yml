@@ -1,0 +1,10 @@
+name: Codex Autoresearch
+repo: https://github.com/TheGreenCedar/codex-autoresearch
+category: coding
+official: false
+agents: [codex]
+includes: [skills]
+tags: [codex, optimization, autoresearch, benchmarking]
+description:
+  en: Codex plugin for running autonomous codebase optimization loops against any measurable script metric.
+  zh: 用于在代码库中围绕可量化指标自动执行循环优化实验的 Codex 插件。

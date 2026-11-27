@@ -1,0 +1,9 @@
+name: React Doctor
+repo: https://github.com/millionco/react-doctor
+category: frontend-design
+official: false
+agents: [universal, claude-code, cursor]
+tags: [react, code-review, linting, diagnostics]
+description:
+  en: Diagnostic scanner and agent skill that catches React anti-patterns, performance issues, and code quality problems produced by AI agents.
+  zh: 面向 AI 编码代理的 React 代码体检工具与技能，自动识别不良 React 模式、性能隐患与代码质量问题。

@@ -1,0 +1,9 @@
+name: Book to Skill
+repo: https://github.com/virgiliojr94/book-to-skill
+category: productivity
+official: false
+agents: [claude-code]
+tags: [pdf, knowledge-extraction, skill-generator, learning]
+description:
+  en: Skill and Python utility that converts technical book PDFs into structured, reusable Claude Code skills.
+  zh: 将技术书籍 PDF 自动提取并转化为结构化、可复用 Claude Code 技能的转换工具与技能。

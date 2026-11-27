@@ -1,0 +1,9 @@
+name: Apple Design Skill
+repo: https://github.com/dickwu/apple-design-skill
+category: frontend-design
+official: false
+agents: [claude-code, cursor, codex, gemini-cli]
+tags: [apple-hig, ui-ux, design-review, cross-platform]
+description:
+  en: Cross-platform UI/UX design reviewer grounded in Apple Human Interface Guidelines for Flutter, Tauri, Electron, and React Native.
+  zh: 基于 Apple 人机界面指南的跨平台 UI/UX 设计审查技能，支持 Flutter、Tauri、Electron 与 React Native。

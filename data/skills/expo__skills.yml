@@ -1,0 +1,9 @@
+name: Expo Agent Skills
+repo: https://github.com/expo/skills
+category: coding
+official: true
+agents: [universal, claude-code]
+tags: [official, expo, react-native, mobile]
+description:
+  en: Official Expo collection of AI agent skills for building, configuring, and shipping React Native apps with Expo and EAS.
+  zh: Expo 官方维护的 AI Agent 技能集合，助力构建、配置并使用 EAS 发布 React Native 移动应用。

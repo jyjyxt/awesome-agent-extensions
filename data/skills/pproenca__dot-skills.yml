@@ -1,0 +1,9 @@
+name: Dot Skills
+repo: https://github.com/pproenca/dot-skills
+category: coding
+official: false
+agents: [universal]
+tags: [agent-skills, sdlc, code-quality, open-standard]
+description:
+  en: Collection of AI agent skills following the Agent Skills open format for SDLC, code quality, and engineering workflows.
+  zh: 遵循 Agent Skills 开放标准的 AI 技能合集，覆盖研发流程、代码质量与知识管理。

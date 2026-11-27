@@ -1,0 +1,9 @@
+name: Laravel Boost
+repo: https://github.com/laravel/boost
+category: coding
+official: true
+agents: [universal]
+tags: [laravel, php, mcp-server, local-dev]
+description:
+  en: Official Laravel MCP server that augments AI-assisted local Laravel development with framework-aware context and tools.
+  zh: Laravel 官方 MCP 服务器，为 AI 辅助本地 Laravel 开发提供框架上下文与专用工具。

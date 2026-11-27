@@ -1,0 +1,9 @@
+name: Emil Kowalski Design Skills
+repo: https://github.com/emilkowalski/skills
+category: frontend-design
+official: false
+agents: [claude-code, codex, cursor]
+tags: [design-engineering, animation, ui-performance, frontend]
+description:
+  en: Design engineering skills and UI/performance cheatsheets by Emil Kowalski for crafting polished interfaces.
+  zh: 由 Emil Kowalski 打造的设计工程技能与 UI/性能速查指南，助力编写精致流畅的前端交互。

@@ -1,0 +1,9 @@
+name: Taste Skill
+repo: https://github.com/Leonxlnx/taste-skill
+category: frontend-design
+official: false
+agents: [claude-code, codex, cursor]
+tags: [ui-design, anti-slop, art-direction, frontend]
+description:
+  en: Frontend design skills adding art direction, reference imagery, and browser verification to avoid generic AI layouts.
+  zh: 通过艺术指导、参考图约束与浏览器校验提升前端设计品味的 Agent 技能，告别千篇一律的 AI 页面。

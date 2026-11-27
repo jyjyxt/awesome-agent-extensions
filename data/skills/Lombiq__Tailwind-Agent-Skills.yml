@@ -1,0 +1,9 @@
+name: Lombiq Tailwind CSS v4 Skills
+repo: https://github.com/Lombiq/Tailwind-Agent-Skills
+category: frontend-design
+official: true
+agents: [universal]
+tags: [tailwind-css, css, documentation, frontend]
+description:
+  en: Official Lombiq agent-optimized Tailwind CSS v4 documentation skill with local indexed snapshots.
+  zh: Lombiq 官方发布的 Tailwind CSS v4 本地索引文档技能，为 AI 编程代理提供精准样式参考。

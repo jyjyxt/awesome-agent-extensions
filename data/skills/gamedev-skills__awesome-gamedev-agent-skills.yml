@@ -1,0 +1,9 @@
+name: Awesome GameDev Agent Skills
+repo: https://github.com/gamedev-skills/awesome-gamedev-agent-skills
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [game-development, godot, unity, unreal]
+description:
+  en: Curated suite of 79 verified game development skills and a task router covering Godot, Unity, Unreal, Roblox, Three.js, and Phaser.
+  zh: 涵盖 79 项实测游戏开发技能与任务路由器的技能集，支持 Godot、Unity、Unreal、Roblox 及 Phaser 等引擎。

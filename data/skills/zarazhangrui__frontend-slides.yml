@@ -1,0 +1,9 @@
+name: Frontend Slides
+repo: https://github.com/zarazhangrui/frontend-slides
+category: frontend-design
+official: false
+agents: [claude-code]
+tags: [presentations, html-slides, animations, frontend]
+description:
+  en: Claude Code skill with style presets and animation patterns for building polished web-based slide decks.
+  zh: 内置多种风格预设与动画模式的 Claude Code 技能，用前端代码生成高质量网页幻灯片。

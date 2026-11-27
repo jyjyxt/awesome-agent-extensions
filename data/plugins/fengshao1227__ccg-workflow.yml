@@ -1,0 +1,9 @@
+name: CCG Workflow
+repo: https://github.com/fengshao1227/ccg-workflow
+category: orchestration
+official: false
+agents: [claude-code, codex, gemini-cli, dsh]
+tags: [multi-model, orchestration, workflow, agent-teams]
+description:
+  en: "Multi-model collaborative workflow engine orchestrating Codex, Gemini, and Claude together from a single /ccg:go command."
+  zh: "多模型协同工作流引擎插件，通过一条 /ccg:go 命令自动分析意图并编排 Codex、Gemini 与 Claude 协作执行。"

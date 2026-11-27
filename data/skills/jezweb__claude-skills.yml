@@ -1,0 +1,9 @@
+name: Jezweb Claude Skills
+repo: https://github.com/jezweb/claude-skills
+category: coding
+official: false
+agents: [claude-code]
+tags: [cloudflare, react, tailwind, full-stack]
+description:
+  en: Claude Code skills collection covering full-stack web development with Cloudflare, React, Tailwind CSS v4, Vite, and AI integrations.
+  zh: 面向 Claude Code CLI 的全栈开发技能合集，涵盖 Cloudflare、React、Tailwind v4 与 AI 服务集成。

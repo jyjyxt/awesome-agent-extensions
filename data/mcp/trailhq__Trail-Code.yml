@@ -1,0 +1,9 @@
+name: Trail Code
+repo: https://github.com/trailhq/Trail-Code
+category: orchestration
+official: false
+agents: [claude-code, cursor, codex, universal]
+tags: [mcp, code-graph, shared-memory, context-engineering]
+description:
+  en: MCP server providing a shared code knowledge graph and decision memory across team coding agents.
+  zh: 为团队编码代理提供共享代码知识图谱与历史决策记忆的 MCP 服务。

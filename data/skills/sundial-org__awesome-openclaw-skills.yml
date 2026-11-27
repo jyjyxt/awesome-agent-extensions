@@ -1,0 +1,9 @@
+name: Awesome OpenClaw Skills
+repo: https://github.com/sundial-org/awesome-openclaw-skills
+category: marketplaces-tooling
+official: false
+agents: [universal]
+tags: [openclaw, curated-list, skill-collection, agent-skills]
+description:
+  en: Curated collection of popular and useful OpenClaw agent skills.
+  zh: 精选热门且实用的 OpenClaw Agent 技能合集。

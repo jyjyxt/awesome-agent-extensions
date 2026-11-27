@@ -1,0 +1,9 @@
+name: Handraw Style
+repo: https://github.com/yang0/handraw-style
+category: content-marketing
+official: false
+agents: [universal]
+tags: [hand-drawn, illustration, prompts, bilingual]
+description:
+  en: Curated gallery of 200+ numbered hand-drawn visual styles and bilingual prompt templates packaged as an agent skill.
+  zh: 收录 200+ 种编号手绘风格、配色与版式模板的双语提示词画廊 Agent 技能。

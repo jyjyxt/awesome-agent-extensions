@@ -1,0 +1,9 @@
+name: Prompt Master
+repo: https://github.com/nidhinjs/prompt-master
+category: productivity
+official: false
+agents: [claude-code]
+tags: [prompt-engineering, prompt-generation, optimization]
+description:
+  en: Claude skill specialized in crafting accurate, context-preserving prompts for any AI tool.
+  zh: 专注于为各类 AI 工具编写高精度提示词并保留完整上下文的 Claude 提示词工程技能。

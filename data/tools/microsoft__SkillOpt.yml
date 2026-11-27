@@ -1,0 +1,9 @@
+name: SkillOpt
+repo: https://github.com/microsoft/SkillOpt
+category: marketplaces-tooling
+official: true
+agents: [universal]
+tags: [skill-optimization, evaluation, self-evolving, prompt-tuning]
+description:
+  en: Official Microsoft text-space optimizer that trains and validates reusable natural-language skills for LLM agents.
+  zh: 微软开源的文本空间技能优化器，通过轨迹驱动迭代与验证门控自动训练可部署的 Agent 技能。

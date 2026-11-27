@@ -1,0 +1,9 @@
+name: NotebookLM Py
+repo: https://github.com/teng-lin/notebooklm-py
+category: data-research
+official: false
+agents: [claude-code, codex]
+tags: [notebooklm, python-sdk, cli, research]
+description:
+  en: Unofficial Python API, CLI, and agentic skill providing full programmatic access to Google NotebookLM.
+  zh: 非官方 Google NotebookLM Python SDK、命令行工具与 Agent 技能，支持全功能程序化调用。

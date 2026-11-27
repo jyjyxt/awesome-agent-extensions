@@ -1,0 +1,9 @@
+name: Hallmark
+repo: https://github.com/Nutlope/hallmark
+category: frontend-design
+official: false
+agents: [claude-code, cursor, codex]
+tags: [anti-slop, ui-design, frontend, design-system]
+description:
+  en: Anti-AI-slop frontend design skill for Claude Code, Cursor, and Codex with built-in evaluations.
+  zh: 专为 Claude Code、Cursor 与 Codex 打造的反模板化前端设计技能，并配套效果评测。

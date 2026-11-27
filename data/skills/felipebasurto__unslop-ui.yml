@@ -1,0 +1,9 @@
+name: Unslop UI
+repo: https://github.com/felipebasurto/unslop-ui
+category: frontend-design
+official: false
+agents: [universal]
+tags: [ui-design, ux-writing, anti-slop, frontend]
+description:
+  en: Agent skill that removes AI writing and visual tells from UI copy, charts, and dashboards.
+  zh: 去除 UI 文案、图表和仪表盘中 AI 痕迹与套话的 Agent 技能。

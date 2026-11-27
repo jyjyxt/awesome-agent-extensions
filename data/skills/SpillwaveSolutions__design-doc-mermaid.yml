@@ -1,0 +1,9 @@
+name: Design Doc Mermaid
+repo: https://github.com/SpillwaveSolutions/design-doc-mermaid
+category: coding
+official: false
+agents: [claude-code]
+tags: [mermaid, design-docs, diagrams, architecture]
+description:
+  en: Claude Code skill for authoring clear software design documents with high-contrast Mermaid diagrams.
+  zh: 用于在设计文档中绘制高对比度 Mermaid 架构与流程图的 Claude Code 技能。

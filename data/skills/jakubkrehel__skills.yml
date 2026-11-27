@@ -1,0 +1,9 @@
+name: Jakub Krehel UI Skills
+repo: https://github.com/jakubkrehel/skills
+category: frontend-design
+official: false
+agents: [universal, claude-code, opencode]
+tags: [ui-design, frontend, interfaces, craft]
+description:
+  en: Curated collection of frontend engineering and UI design skills for building refined user interfaces.
+  zh: 专注于界面打磨与前端交互工程的 Agent 技能集合，帮助代理构建高品质用户界面。

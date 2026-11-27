@@ -1,0 +1,9 @@
+name: One Skill to Rule Them All
+repo: https://github.com/rebelytics/one-skill-to-rule-them-all
+category: marketplaces-tooling
+official: false
+agents: [universal]
+tags: [meta-skill, skill-improvement, self-improving, augmented-expertise]
+description:
+  en: Evidence-based meta-skill that turns session corrections and repeated workflows into approval-gated skill updates and new skill candidates.
+  zh: 基于会话纠错与重复工作流的元技能，在人工审批前生成带依据的技能更新与新技能候选。

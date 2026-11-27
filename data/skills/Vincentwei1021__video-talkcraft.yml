@@ -1,0 +1,9 @@
+name: Video TalkCraft
+repo: https://github.com/Vincentwei1021/video-talkcraft
+category: content-marketing
+official: false
+agents: [claude-code, codex]
+tags: [explainer-video, remotion, motion-design, voiceover]
+description:
+  en: Motion-design studio skill for voiceover-driven explainer videos featuring word-level sync, 109 motion recipes, and Remotion rendering.
+  zh: 面向口播讲解视频的动效工作室技能，内置词级音画同步、109 种动效配方卡与 Remotion 渲染管线。

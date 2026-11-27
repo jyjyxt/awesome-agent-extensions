@@ -1,0 +1,9 @@
+name: Repomix
+repo: https://github.com/yamadashy/repomix
+category: coding
+official: false
+agents: [universal]
+tags: [codebase-packing, context, cli, mcp]
+description:
+  en: CLI and MCP tool that packs an entire repository into a single AI-friendly context file for LLMs and coding agents.
+  zh: 将整个代码仓库打包为单个 AI 友好上下文文件的命令行与 MCP 工具，方便大模型整体理解代码库。

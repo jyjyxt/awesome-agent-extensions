@@ -1,0 +1,9 @@
+name: Humanizer-zh
+repo: https://github.com/op7418/Humanizer-zh
+category: content-marketing
+official: false
+agents: [claude-code]
+tags: [chinese, humanizer, writing, anti-ai-slop]
+description:
+  en: Chinese localization of the Humanizer skill for Claude Code to remove AI-generated phrasing patterns from Chinese text.
+  zh: Humanizer 技能的中文汉化版本，专门用于识别并改写中文文案中的 AI 生成腔调。

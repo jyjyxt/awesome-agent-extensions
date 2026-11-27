@@ -1,0 +1,9 @@
+name: Impeccable
+repo: https://github.com/pbakaus/impeccable
+category: frontend-design
+official: false
+agents: [universal]
+tags: [design-system, anti-slop, ui-review, frontend]
+description:
+  en: Design vocabulary skill and critique commands that steer coding agents away from AI slop before shipping.
+  zh: 为编码 Agent 提供专业设计词汇、界面打磨与审校指令的技能套件，上线前拦截低质 AI 风格。

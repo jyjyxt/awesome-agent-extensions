@@ -1,0 +1,9 @@
+name: Stop Slop
+repo: https://github.com/hardikpandya/stop-slop
+category: content-marketing
+official: false
+agents: [universal]
+tags: [writing, prose, anti-ai-slop, editing]
+description:
+  en: Concise agent skill file with editorial rules for stripping predictable AI tells from written prose.
+  zh: 专注于去除文本中常见 AI 套话与机械腔调的精简写作润色技能文件。

@@ -1,0 +1,9 @@
+name: Markdown Exporter
+repo: https://github.com/bowenliang123/markdown-exporter
+category: productivity
+official: false
+agents: [universal]
+tags: [markdown, document-export, pdf, docx]
+description:
+  en: Agent skill and Dify plugin for converting Markdown into DOCX, PPTX, XLSX, PDF, PNG, HTML, CSV, JSON, and XML files.
+  zh: 可将 Markdown 导出为 DOCX、PPTX、XLSX、PDF、PNG、HTML 等多种格式文件的 Agent 技能与 Dify 插件。

@@ -1,0 +1,9 @@
+name: AccessLint Official Skills
+repo: https://github.com/AccessLint/skills
+category: frontend-design
+official: true
+agents: [claude-code]
+tags: [accessibility, a11y-audit, wcag, frontend]
+description:
+  en: Official AccessLint agent skills for automated web accessibility auditing and remediation.
+  zh: AccessLint 官方无障碍审计 Agent 技能集，用于自动化检测并修复 Web 无障碍问题。

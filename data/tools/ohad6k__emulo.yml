@@ -1,0 +1,9 @@
+name: Emulo
+repo: https://github.com/ohad6k/emulo
+category: orchestration
+official: false
+agents: [claude-code, codex, cursor]
+tags: [personalization, agent-profile, log-mining, memory]
+description:
+  en: Tool that mines your Claude Code and Codex session logs into a portable local you.md agent personalization profile.
+  zh: 从 Claude Code 与 Codex 会话日志中挖掘个人偏好并生成本地 you.md 智能体画像的工具。

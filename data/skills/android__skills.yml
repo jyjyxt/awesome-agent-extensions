@@ -1,0 +1,9 @@
+name: Android Agent Skills
+repo: https://github.com/android/skills
+category: coding
+official: true
+agents: [universal, claude-code, codex]
+tags: [official, android, jetpack-compose, mobile]
+description:
+  en: Official Android development agent skills covering Jetpack Compose, build systems, testing, performance, security, Wear, TV, and XR.
+  zh: Android 官方维护的 Agent 技能集合，覆盖 Jetpack Compose、构建系统、测试、性能优化、安全及多端适配。

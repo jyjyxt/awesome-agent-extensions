@@ -1,0 +1,9 @@
+name: UserInterface Wiki
+repo: https://github.com/raphaelsalaja/userinterface-wiki
+category: frontend-design
+official: false
+agents: [universal]
+tags: [ui-design, interface-guidelines, web-design, frontend]
+description:
+  en: Living manual and accompanying agent skills encoding craft-level principles for designing and building better user interfaces.
+  zh: 聚焦高水准界面设计原则的活手册与配套 Agent 技能，帮助打造更精致的用户界面。

@@ -1,0 +1,9 @@
+name: NestJS Agent Skills
+repo: https://github.com/Kadajett/agent-nestjs-skills
+category: coding
+official: false
+agents: [universal]
+tags: [nestjs, typescript, backend, nodejs]
+description:
+  en: Agent skills providing NestJS architecture, module, and backend development best practices.
+  zh: 面向 NestJS 后端框架架构设计与开发的 Agent 技能集。

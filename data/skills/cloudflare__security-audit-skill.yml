@@ -1,0 +1,9 @@
+name: Cloudflare Security Audit Skill
+repo: https://github.com/cloudflare/security-audit-skill
+category: security
+official: true
+agents: [universal]
+tags: [security-audit, vulnerability-scanning, appsec]
+description:
+  en: Official Cloudflare coding-agent skill for multi-phase security audits with verified, machine-readable findings.
+  zh: Cloudflare 官方出品的多阶段安全审计技能，可生成经独立验证的机器可读漏洞报告。

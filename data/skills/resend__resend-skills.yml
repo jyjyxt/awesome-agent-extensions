@@ -1,0 +1,9 @@
+name: Resend Agent Skills
+repo: https://github.com/resend/resend-skills
+category: coding
+official: true
+agents: [universal]
+tags: [resend, email, api, transactional-email]
+description:
+  en: Official Resend agent skills for integrating email sending and receiving into applications.
+  zh: Resend 官方 Agent 技能集，辅助智能体集成邮件发送与接收功能。

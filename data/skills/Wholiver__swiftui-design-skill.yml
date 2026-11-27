@@ -1,0 +1,9 @@
+name: SwiftUI Design Skill
+repo: https://github.com/Wholiver/swiftui-design-skill
+category: frontend-design
+official: false
+agents: [universal]
+tags: [swiftui, ios-design, macos, anti-slop]
+description:
+  en: SwiftUI front-end design skill enforcing anti-slop rules, design direction consulting, and five-dimensional UI review.
+  zh: 面向 SwiftUI 的前端设计技能，包含防敷衍铁律、设计方向咨询与五维界面评审规范。

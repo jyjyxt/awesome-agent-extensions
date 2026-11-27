@@ -1,0 +1,9 @@
+name: Nature Skills
+repo: https://github.com/Yuan1z0825/nature-skills
+category: data-research
+official: false
+agents: [codex]
+tags: [academic-writing, scientific-plotting, nature, research]
+description:
+  en: Agent skills tailored for Nature-grade academic paper phrasing and publication-quality scientific figure plotting.
+  zh: 面向顶刊科研标准的 Agent 技能集，专注于符合 Nature 风格的学术英文润色与科研绘图。

@@ -1,0 +1,9 @@
+name: Speak Human TW
+repo: https://github.com/Raymondhou0917/speak-human-tw
+category: content-marketing
+official: false
+agents: [claude-code, codex, cursor]
+tags: [traditional-chinese, humanizer, de-ai, writing]
+description:
+  en: Traditional Chinese de-AI rewriting skill that detects 38 AI writing patterns and normalizes Taiwan usage and full-width punctuation.
+  zh: 繁体中文去 AI 味改写技能，识别 38 种机器写作痕迹并顺手校正台湾本地用语与标点规范。

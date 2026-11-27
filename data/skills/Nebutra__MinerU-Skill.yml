@@ -1,0 +1,9 @@
+name: MinerU Document Skill
+repo: https://github.com/Nebutra/MinerU-Skill
+category: data-research
+official: false
+agents: [universal]
+tags: [pdf-parser, ocr, markdown, document-processing]
+description:
+  en: Zero-dependency CLI and agent skill using MinerU to parse PDFs, Office files, and images into Markdown with LaTeX and tables.
+  zh: 基于 MinerU 的零依赖文档解析 CLI 与 Agent 技能，支持将 PDF、Office 文档和图片转为含公式与表格的 Markdown。

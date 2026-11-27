@@ -1,0 +1,9 @@
+name: Ant Design Official Skill
+repo: https://github.com/ant-design/antd-skill
+category: frontend-design
+official: true
+agents: [universal]
+tags: [ant-design, react, ui-components, frontend]
+description:
+  en: Official Ant Design agent skill for building React interfaces with Ant Design components and conventions.
+  zh: Ant Design 官方 Agent 技能，辅助智能体按规范使用 Ant Design 组件库构建 React 界面。

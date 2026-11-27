@@ -1,0 +1,9 @@
+name: Platform Design Skills
+repo: https://github.com/ehmo/platform-design-skills
+category: frontend-design
+official: false
+agents: [universal]
+tags: [apple-hig, material-design, wcag, ui-design]
+description:
+  en: Platform design skill pack with 300+ rules for Apple HIG, Material Design 3, and WCAG 2.2 across mobile, desktop, and web.
+  zh: 包含 300 余条 Apple HIG、Material Design 3 与 WCAG 2.2 设计规范的跨平台设计技能包。

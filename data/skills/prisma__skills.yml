@@ -1,0 +1,9 @@
+name: Prisma Official Skills
+repo: https://github.com/prisma/skills
+category: cloud-devops
+official: true
+agents: [universal]
+tags: [prisma, orm, postgresql, database]
+description:
+  en: Official Prisma agent skills for Prisma ORM setup, Client API usage, Prisma Postgres, and v7 migrations.
+  zh: Prisma 官方 Agent 技能集，涵盖 Prisma ORM 配置、Client API、Prisma Postgres 与 v7 升级迁移。

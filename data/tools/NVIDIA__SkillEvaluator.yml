@@ -1,0 +1,9 @@
+name: NVIDIA SkillEvaluator
+repo: https://github.com/NVIDIA/SkillEvaluator
+category: marketplaces-tooling
+official: true
+agents: [universal, claude-code, codex]
+tags: [official, skill-evaluation, security-scanning, ci]
+description:
+  en: Official NVIDIA multi-tier evaluation framework for agent skills and plugins with security scanning, compatibility gates, and live benchmarks.
+  zh: NVIDIA 官方多层 Agent 技能与插件评估框架，提供安全扫描、兼容性检查、合成数据集与实测基准。

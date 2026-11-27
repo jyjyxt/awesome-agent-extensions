@@ -1,0 +1,9 @@
+name: AntV Chart Visualization Skills
+repo: https://github.com/antvis/chart-visualization-skills
+category: data-research
+official: true
+agents: [universal]
+tags: [antv, data-visualization, charts, visual-analytics]
+description:
+  en: Official AntV agent skills for data visualization and turning structured data into clear charts.
+  zh: AntV 官方数据可视化 Agent 技能集，助力智能体将数据转化为清晰的图表视觉语言。

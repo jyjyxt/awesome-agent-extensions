@@ -1,0 +1,10 @@
+name: Rea
+repo: https://github.com/morluto/rea
+category: security
+official: false
+agents: [claude-code, codex, cursor, dsh]
+includes: [skills, mcp, tools]
+tags: [reverse-engineering, binary-analysis, mcp, security]
+description:
+  en: Agent plugin, MCP server, and skills for reverse engineering apps down to native binaries.
+  zh: 面向 AI Agent 的逆向工程插件、MCP 服务与技能套件，支持从应用行为到原生二进制的深度分析。

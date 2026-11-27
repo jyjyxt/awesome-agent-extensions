@@ -1,0 +1,9 @@
+name: Humanizer
+repo: https://github.com/blader/humanizer
+category: content-marketing
+official: false
+agents: [claude-code, codex, cursor]
+tags: [writing, humanizer, copywriting, anti-ai-slop]
+description:
+  en: Agent skill that detects and removes typical AI-generated writing patterns to produce natural human prose.
+  zh: 用于识别并消除文本中典型 AI 写作痕迹、让表达更自然贴近真人风格的写作技能。

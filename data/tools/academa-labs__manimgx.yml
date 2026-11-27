@@ -1,0 +1,9 @@
+name: ManimGX
+repo: https://github.com/academa-labs/manimgx
+category: content-marketing
+official: false
+agents: [universal]
+tags: [manim, animation-engine, rust, math-video]
+description:
+  en: "High-speed animation engine for AI agents combining Manim's Python API with a Rust GPU rendering core for math and 3D videos."
+  zh: 面向 AI Agent 的高性能动画引擎，结合 Manim Python API 与 Rust GPU 内核渲染数学与 3D 视频。

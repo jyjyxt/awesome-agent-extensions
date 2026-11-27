@@ -1,0 +1,9 @@
+name: Playwright CLI
+repo: https://github.com/microsoft/playwright-cli
+category: frontend-design
+official: true
+agents: [universal, claude-code]
+tags: [playwright, browser-automation, cli, testing]
+description:
+  en: Official Playwright CLI and agent skills for recording actions, generating Playwright code, inspecting selectors, and capturing screenshots.
+  zh: Playwright 官方命令行工具与 Agent 技能，支持录制浏览器操作、生成测试代码、检查选择器与截图。

@@ -1,0 +1,9 @@
+name: AI Job Search
+repo: https://github.com/ai-job-search-dev/ai-job-search
+category: productivity
+official: false
+agents: [claude-code]
+tags: [job-search, resume, interview-prep, career]
+description:
+  en: Local Claude Code job-application toolkit with scrapers, CV tailoring, cover letter generation, and interview prep.
+  zh: 基于 Claude Code 的本地求职自动化工具集，涵盖职位抓取、简历定制、求职信撰写与面试准备。

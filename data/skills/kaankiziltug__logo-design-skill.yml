@@ -1,0 +1,9 @@
+name: Logo Design Skill
+repo: https://github.com/kaankiziltug/logo-design-skill
+category: frontend-design
+official: false
+agents: [universal, claude-code, gemini-cli, codex]
+tags: [logo-design, svg, branding, design]
+description:
+  en: Comprehensive logo design skill featuring SVG craft guidelines, evaluation tools, and a 1,400+ logo reference library.
+  zh: 系统化 Logo 设计技能，包含矢量 SVG 工艺规范、评测工具及 1400+ 品牌标识参考库。

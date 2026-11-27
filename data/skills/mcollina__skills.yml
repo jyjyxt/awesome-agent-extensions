@@ -1,0 +1,9 @@
+name: Matteo Collina Node.js Skills
+repo: https://github.com/mcollina/skills
+category: coding
+official: false
+agents: [universal]
+tags: [nodejs, typescript, javascript, backend]
+description:
+  en: Collection of agent skills for modern Node.js, TypeScript, and high-performance backend development curated by Matteo Collina.
+  zh: 由 Matteo Collina 整理的现代 Node.js、TypeScript 与高性能后端开发 Agent 技能合集。

@@ -1,0 +1,9 @@
+name: 21st.dev Agent Elements
+repo: https://github.com/21st-dev/agent-elements
+category: frontend-design
+official: true
+agents: [universal]
+tags: [ui-components, 21st-dev, react, design-system]
+description:
+  en: Official 21st.dev agent UI elements skills and component toolkit for building AI-native interfaces.
+  zh: 21st.dev 官方 Agent UI 元素技能与组件工具集，用于构建 AI 原生前端界面。

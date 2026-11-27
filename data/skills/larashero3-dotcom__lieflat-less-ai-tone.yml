@@ -1,0 +1,9 @@
+name: Lieflat Less AI Tone
+repo: https://github.com/larashero3-dotcom/lieflat-less-ai-tone
+category: content-marketing
+official: false
+agents: [universal]
+tags: [writing, humanizer, anti-ai-tone, chinese]
+description:
+  en: AI-tone detection and rewriting skill grounded in a 5.2-million-character corpus analysis to make writing sound natural.
+  zh: 基于 520 万字语料统计研究的去 AI 味写作技能，精准检测并改写机械化表达，还原自然文风。

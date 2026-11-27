@@ -1,0 +1,9 @@
+name: Remotion Agent Skills
+repo: https://github.com/remotion-dev/skills
+category: content-marketing
+official: true
+agents: [universal]
+tags: [official, remotion, video, react]
+description:
+  en: Official Remotion agent skills for generating, animating, and rendering programmatic React videos.
+  zh: Remotion 官方维护的 Agent 技能集合，用于以 React 代码化方式创作和渲染编程视频。

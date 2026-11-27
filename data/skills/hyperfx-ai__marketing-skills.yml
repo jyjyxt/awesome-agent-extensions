@@ -1,0 +1,9 @@
+name: HyperFX Marketing Skills
+repo: https://github.com/hyperfx-ai/marketing-skills
+category: content-marketing
+official: false
+agents: [universal]
+tags: [marketing, paid-ads, seo, analytics]
+description:
+  en: Marketing agent skills covering paid ads, social media, SEO, competitor research, email, and analytics via Hyper MCP.
+  zh: 基于 Hyper MCP 的营销 Agent 技能集，涵盖信息流广告投放、社媒、SEO、竞品调研与数据分析。

@@ -1,0 +1,9 @@
+name: Addy Osmani Agent Skills
+repo: https://github.com/addyosmani/agent-skills
+category: coding
+official: false
+agents: [claude-code, codex, cursor, gemini-cli, opencode, antigravity]
+tags: [software-engineering, best-practices, testing, code-quality]
+description:
+  en: Production-grade software engineering skills, commands, and workflows for AI coding agents by Addy Osmani.
+  zh: 由 Addy Osmani 打造的生产级软件工程 Agent 技能集，涵盖开发规范、测试与代码质量工作流。

@@ -1,0 +1,9 @@
+name: Svelte Official MCP
+repo: https://github.com/sveltejs/ai-tools
+category: frontend-design
+official: true
+agents: [universal]
+tags: [svelte, mcp-server, frontend, documentation]
+description:
+  en: Official Svelte MCP server and AI tooling for Svelte and SvelteKit development.
+  zh: Svelte 官方 MCP 服务器与 AI 开发工具集，助力 Svelte 与 SvelteKit 应用开发。

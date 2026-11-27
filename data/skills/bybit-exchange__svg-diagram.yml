@@ -1,0 +1,9 @@
+name: SVG Diagram Skill
+repo: https://github.com/bybit-exchange/svg-diagram
+category: coding
+official: false
+agents: [universal]
+tags: [svg, diagrams, architecture, flowchart]
+description:
+  en: Agent skill that generates linted, hand-placed SVG architecture, flowchart, sequence, and data-flow diagrams.
+  zh: 可绘制规范风格的手工布局 SVG 架构图、流程图、时序图与数据流图的 Agent 技能。

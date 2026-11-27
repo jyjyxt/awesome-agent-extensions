@@ -1,0 +1,9 @@
+name: MotionMaxxing
+repo: https://github.com/Tejashmakwana/motionmaxxing
+category: content-marketing
+official: false
+agents: [claude-code]
+tags: [motion-graphics, video-production, gsap, hyperframes]
+description:
+  en: Agent skill focused on elevating programmatic motion graphics from generic AI output into designer-grade films with taste and craft.
+  zh: 专注于提升代码生成动态影像审美的 Agent 技能，将普通 AI 视频打磨为专业动效设计师水准成片。

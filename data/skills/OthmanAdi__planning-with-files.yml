@@ -1,0 +1,9 @@
+name: Planning with Files
+repo: https://github.com/OthmanAdi/planning-with-files
+category: orchestration
+official: false
+agents: [universal]
+tags: [planning, markdown, session-recovery, long-running-tasks]
+description:
+  en: Manus-style persistent markdown planning skill providing crash-proof session recovery and context-rot protection.
+  zh: 仿 Manus 模式的持久化 Markdown 规划技能，支持长任务断点恢复、防上下文腐化与完成校验。

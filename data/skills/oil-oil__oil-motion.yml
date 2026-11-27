@@ -1,0 +1,9 @@
+name: Oil Motion
+repo: https://github.com/oil-oil/oil-motion
+category: frontend-design
+official: false
+agents: [claude-code, codex]
+tags: [web-animation, scroll-animation, frontend, interactive]
+description:
+  en: Web animation skill for Claude Code and Codex focused on building scroll-linked and cursor-reactive frontend motion.
+  zh: 面向 Claude Code 与 Codex 的网页动效技能，专注制作跟随滚动与鼠标交互的前端动画。

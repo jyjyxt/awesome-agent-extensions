@@ -1,0 +1,9 @@
+name: Huashu Design
+repo: https://github.com/alchaincyf/huashu-design
+category: frontend-design
+official: false
+agents: [claude-code, codex, cursor]
+tags: [design, html-prototype, infographics, presentations]
+description:
+  en: HTML-native design skill with 92 curated styles for delivering webpages, app prototypes, PPTX decks, and social graphics.
+  zh: 内置 92 种风格样张库的 HTML 原生设计技能，可交付网页、App 原型、小红书图文与可编辑 PPTX。

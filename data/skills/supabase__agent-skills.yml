@@ -1,0 +1,9 @@
+name: Supabase Agent Skills
+repo: https://github.com/supabase/agent-skills
+category: cloud-devops
+official: true
+agents: [universal]
+tags: [supabase, postgres, backend, database]
+description:
+  en: Official Supabase agent skills helping AI coding assistants follow Postgres, auth, RLS, and Edge Functions best practices.
+  zh: Supabase 官方 Agent 技能集，帮助 AI 编程助手遵循 Postgres、认证、RLS 与边缘函数最佳实践。

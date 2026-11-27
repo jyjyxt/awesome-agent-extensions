@@ -1,0 +1,9 @@
+name: Huashu Motion
+repo: https://github.com/alchaincyf/huashu-motion
+category: content-marketing
+official: false
+agents: [claude-code, codex]
+tags: [launch-video, motion-graphics, gsap, video-production]
+description:
+  en: Directs commercial-grade product launch videos with original music and interactive frame-level visual editing from your coding agent.
+  zh: 让编程 Agent 一键生成商业级产品宣传片，支持配乐制作与指着画面进行帧级修改。

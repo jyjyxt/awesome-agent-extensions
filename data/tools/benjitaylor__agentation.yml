@@ -1,0 +1,9 @@
+name: Agentation
+repo: https://github.com/benjitaylor/agentation
+category: frontend-design
+official: false
+agents: [universal, claude-code]
+tags: [visual-feedback, ui-annotation, mcp, frontend]
+description:
+  en: Visual UI feedback and annotation tool with MCP support that lets humans point directly at web elements for AI coding agents.
+  zh: 面向 AI 代理的网页可视化批注与反馈工具，支持通过 MCP 将界面元素标注精准传递给编码代理。

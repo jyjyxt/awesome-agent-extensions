@@ -1,0 +1,9 @@
+name: GSAP Skills
+repo: https://github.com/greensock/gsap-skills
+category: frontend-design
+official: true
+agents: [claude-code, cursor, gemini-cli]
+tags: [gsap, animation, web-motion, frontend]
+description:
+  en: Official GSAP AI skills teaching coding agents animation patterns, plugins, and GreenSock best practices.
+  zh: GSAP 官方推出的 AI 技能集，指导编码 Agent 正确使用 GreenSock 动画模式与各类插件。

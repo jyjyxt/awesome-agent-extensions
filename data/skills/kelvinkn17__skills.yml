@@ -1,0 +1,9 @@
+name: Kelvinkn17 Agent Skills
+repo: https://github.com/kelvinkn17/skills
+category: frontend-design
+official: false
+agents: [claude-code, codex]
+tags: [isometric, animation, stickers, visual-design]
+description:
+  en: Agent skills collection featuring fun-isometric for generating animated isometric stickers and visuals.
+  zh: 包含 fun-isometric 等创意视觉技能的 Agent 技能集，可用于生成动态等距贴纸图形。

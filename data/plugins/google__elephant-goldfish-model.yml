@@ -1,0 +1,10 @@
+name: Elephant Goldfish Model
+repo: https://github.com/google/elephant-goldfish-model
+category: coding
+official: true
+agents: [claude-code, codex, cursor, gemini-cli, antigravity, copilot, windsurf]
+includes: [skills, subagents]
+tags: [spec-driven-development, software-design, code-review, architecture]
+description:
+  en: Official Google open-source plugin for spec-driven software design and structured code review with coding agents.
+  zh: Google 官方开源的规范驱动开发插件，支持借助编码 Agent 进行软件架构设计与结构化评审。

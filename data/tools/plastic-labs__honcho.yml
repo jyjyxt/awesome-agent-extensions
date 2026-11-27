@@ -1,0 +1,9 @@
+name: Honcho
+repo: https://github.com/plastic-labs/honcho
+category: orchestration
+official: true
+agents: [universal, claude-code, cursor, dsh]
+tags: [official, agent-memory, context-engineering, mcp]
+description:
+  en: Official Plastic Labs memory infrastructure, CLI, MCP server, and harness plugins for building stateful, continually learning agents.
+  zh: Plastic Labs 官方有状态代理记忆库与 CLI/MCP 工具套件，为多端编码代理提供持续学习与记忆能力。

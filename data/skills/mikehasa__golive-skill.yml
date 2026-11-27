@@ -1,0 +1,9 @@
+name: GoLive Skill
+repo: https://github.com/mikehasa/golive-skill
+category: cloud-devops
+official: false
+agents: [universal]
+tags: [deployment, devops, hosting, cloudflare]
+description:
+  en: Agent skill and zero-dependency Node CLI for launching products end-to-end across hosting, database, domain, email, and payments.
+  zh: 零依赖 Node CLI 与 Agent 技能，按检测、规划、审批、部署与验证流程帮产品一站式上线生产环境。

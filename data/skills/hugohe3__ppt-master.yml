@@ -1,0 +1,9 @@
+name: PPT Master
+repo: https://github.com/hugohe3/ppt-master
+category: productivity
+official: false
+agents: [universal]
+tags: [powerpoint, presentations, slides, office]
+description:
+  en: Agent skill converting documents or topics into native PowerPoint decks with charts, animations, and audio narration.
+  zh: 将文档或主题转化为原生 PowerPoint 演示文稿的 Agent 技能，支持图表、动画、配音旁白与自定义模板。

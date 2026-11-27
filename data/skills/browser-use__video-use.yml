@@ -1,0 +1,9 @@
+name: Video Use
+repo: https://github.com/browser-use/video-use
+category: content-marketing
+official: true
+agents: [universal]
+tags: [video-editing, ffmpeg, media, automation]
+description:
+  en: Official Browser Use agent skill enabling AI coding agents to edit and process videos programmatically.
+  zh: Browser Use 官方推出的 Agent 视频编辑技能，赋能编码 Agent 以程序化方式剪辑与处理视频。

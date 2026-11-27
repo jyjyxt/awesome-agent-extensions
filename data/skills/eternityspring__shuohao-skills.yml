@@ -1,0 +1,9 @@
+name: Shuohao Short-Drama Skills
+repo: https://github.com/eternityspring/shuohao-skills
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [short-drama, screenplay, storyboard, video-production]
+description:
+  en: AI short-drama production skill suite for character bibles, adaptation outlines, scene/prop design, screenplays, and storyboarding.
+  zh: AI 短剧制作全流程技能集，覆盖角色设定、改编大纲、场景道具、剧本创作与分镜切分。

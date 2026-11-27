@@ -1,0 +1,9 @@
+name: Context Engineering Skills
+repo: https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering
+category: orchestration
+official: false
+agents: [universal]
+tags: [context-engineering, multi-agent, agent-architecture, memory]
+description:
+  en: Collection of agent skills for context engineering, multi-agent architectures, and production agent system debugging.
+  zh: 面向上下文工程、多智能体架构设计与生产级 Agent 系统调优的专项技能集合。

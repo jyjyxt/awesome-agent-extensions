@@ -1,0 +1,9 @@
+name: Awesome Design Skills
+repo: https://github.com/bergside/awesome-design-skills
+category: frontend-design
+official: false
+agents: [universal]
+tags: [design-skills, awesome-list, design-md, ui-design]
+description:
+  en: Curated collection of 67 DESIGN.md and SKILL.md design skill files and registry examples for AI design and coding agents.
+  zh: 精选 67 个 DESIGN.md 与 SKILL.md 设计技能文件及注册表模板的合集，适用于各类 AI 设计与编程工具。

@@ -1,0 +1,9 @@
+name: Vibe Resume Skill
+repo: https://github.com/KevinYoung-Kw/vibe-resume-skill
+category: productivity
+official: false
+agents: [codex, claude-code, cursor]
+tags: [resume-builder, pdf, html-templates, job-search]
+description:
+  en: AI resume builder and layout skill with 12 HTML/PDF templates for tailoring resumes to any job description.
+  zh: 内置 12 套可投递 HTML/PDF 模板的 AI 简历生成与排版技能，支持按岗位 JD 定制简历。

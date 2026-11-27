@@ -1,0 +1,9 @@
+name: Claude Code Tools
+repo: https://github.com/pchalasani/claude-code-tools
+category: marketplaces-tooling
+official: false
+agents: [claude-code, codex]
+tags: [cli-tools, productivity, search-ui, tmux]
+description:
+  en: Practical CLI productivity suite for Claude Code and Codex featuring fast session search, tmux helpers, and shell utilities.
+  zh: 面向 Claude Code 与 Codex CLI 的实用效率工具集，提供快速会话检索、tmux 辅助及终端命令行工具。

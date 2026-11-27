@@ -1,0 +1,9 @@
+name: Council of High Intelligence
+repo: https://github.com/0xNyk/council-of-high-intelligence
+category: orchestration
+official: false
+agents: [claude-code, codex, gemini-cli, opencode]
+tags: [deliberation, multi-agent, decision-making, debate]
+description:
+  en: Multi-perspective deliberation skill enabling structured councils, triads, and duo debates for complex technical or strategic decisions.
+  zh: 多视角结构化审议技能，支持跨多款编码代理开展议会制、三方或双人辩论以辅助复杂决策。

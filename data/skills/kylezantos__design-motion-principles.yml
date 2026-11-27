@@ -1,0 +1,9 @@
+name: Design Motion Principles
+repo: https://github.com/kylezantos/design-motion-principles
+category: frontend-design
+official: false
+agents: [universal]
+tags: [motion-design, animation, ui-components, design-audit]
+description:
+  en: Dual-mode motion design skill to build purposeful interactive animations or audit existing UI motion using curated industry craft.
+  zh: 支持构建交互动效与审查现有动画的双模式动效设计技能，凝练一线前端动效设计师实践准则。

@@ -1,0 +1,9 @@
+name: Pretty Mermaid Skills
+repo: https://github.com/imxv/Pretty-mermaid-skills
+category: productivity
+official: false
+agents: [universal]
+tags: [mermaid, diagrams, svg, ascii-art]
+description:
+  en: Agent skill and headless batch CLI to render Mermaid diagrams into styled SVG or terminal ASCII across 15 themes and 6 diagram types.
+  zh: 无需浏览器的 Mermaid 图表生成与渲染技能，支持 15 套主题、6 类图表及 SVG/终端 ASCII 批量输出。

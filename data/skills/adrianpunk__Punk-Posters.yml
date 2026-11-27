@@ -1,0 +1,9 @@
+name: Punk Posters Skills
+repo: https://github.com/adrianpunk/Punk-Posters
+category: frontend-design
+official: false
+agents: [universal]
+tags: [poster-design, graphic-design, visual-styles, agent-skills]
+description:
+  en: Collection of graphic and poster design agent skills with curated visual styles, scripts, and layout references.
+  zh: 包含多种视觉风格与排版脚本的海报及平面设计 Agent 技能合集。

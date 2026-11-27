@@ -1,0 +1,10 @@
+name: "Claude Code Tips & dx Plugin"
+repo: https://github.com/ykdojo/claude-code-tips
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [claude-code, tips, dx, workflows]
+description:
+  en: Curated Claude Code tips, custom status line and container setups, bundled with the dx plugin of everyday developer workflow skills.
+  zh: 包含 45+ Claude Code 进阶技巧、状态栏与容器化脚本，并内置日常开发工作流 dx 插件与技能。

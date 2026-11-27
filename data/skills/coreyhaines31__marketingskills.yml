@@ -1,0 +1,9 @@
+name: Marketing Skills
+repo: https://github.com/coreyhaines31/marketingskills
+category: content-marketing
+official: false
+agents: [claude-code, codex]
+tags: [marketing, copywriting, seo, cro]
+description:
+  en: Marketing skill suite for coding agents covering CRO, copywriting, SEO, analytics, and growth engineering.
+  zh: 面向 AI Agent 的营销技能合集，覆盖转化率优化、文案撰写、SEO、数据分析与增长工程。

@@ -1,0 +1,9 @@
+name: Anthony Fu Agent Skills
+repo: https://github.com/antfu/skills
+category: coding
+official: false
+agents: [universal]
+tags: [vue, vite, typescript, web-dev]
+description:
+  en: "Anthony Fu's curated collection of frontend and open-source ecosystem agent skills covering Vite, Vue, Vitest, Nuxt, and pnpm."
+  zh: Anthony Fu 维护的开源前端生态 Agent 技能精选集，涵盖 Vite、Vue、Vitest、Nuxt 与 pnpm 等工具。

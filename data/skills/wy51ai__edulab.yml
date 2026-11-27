@@ -1,0 +1,9 @@
+name: EduLab
+repo: https://github.com/wy51ai/edulab
+category: productivity
+official: false
+agents: [claude-code]
+tags: [education, stem, visualization, math-physics]
+description:
+  en: Educational STEM visualization skills for generating interactive math, geometry, physics, and chemistry teaching animations and demos.
+  zh: 面向数理化教学的 STEM 可视化技能集，可生成解析几何、立体几何、物理与化学教学演示动画。

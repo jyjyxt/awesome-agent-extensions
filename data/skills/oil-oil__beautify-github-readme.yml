@@ -1,0 +1,9 @@
+name: Beautify GitHub README
+repo: https://github.com/oil-oil/beautify-github-readme
+category: frontend-design
+official: false
+agents: [claude-code, codex]
+tags: [github-readme, readme-design, svg, documentation]
+description:
+  en: README design skill for Claude Code and Codex that crafts visually polished, clear, and well-structured GitHub READMEs with custom SVGs.
+  zh: 面向 Claude Code 与 Codex 的 GitHub README 美化技能，生成结构清晰、排版美观的开源项目文档与 SVG 配图。

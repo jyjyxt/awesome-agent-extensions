@@ -1,0 +1,9 @@
+name: Feature-Sliced Design Skills
+repo: https://github.com/feature-sliced/skills
+category: frontend-design
+official: true
+agents: [universal]
+tags: [feature-sliced-design, frontend-architecture, fsd, refactoring]
+description:
+  en: Official Feature-Sliced Design (FSD) v2.1 agent skills for structuring and refactoring frontend architectures.
+  zh: Feature-Sliced Design（FSD）v2.1 官方 Agent 技能，指导前端项目按 FSD 架构规范组织与重构代码。

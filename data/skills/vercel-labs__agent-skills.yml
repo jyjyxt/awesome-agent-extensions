@@ -1,0 +1,9 @@
+name: Vercel Agent Skills
+repo: https://github.com/vercel-labs/agent-skills
+category: frontend-design
+official: true
+agents: [universal]
+tags: [react, nextjs, web-design, vercel]
+description:
+  en: Official Vercel collection of agent skills covering React best practices, web design guidelines, and deployment.
+  zh: Vercel 官方维护的 Agent 技能集合，涵盖 React 最佳实践、Web 设计规范与部署流程。

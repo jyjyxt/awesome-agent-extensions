@@ -1,0 +1,9 @@
+name: Img2ThreeJS
+repo: https://github.com/img2threejs/img2threejs
+category: frontend-design
+official: false
+agents: [claude-code]
+tags: [threejs, 3d-modeling, webgl, procedural-generation]
+description:
+  en: Agent skill that rebuilds objects from reference images as procedural, animation-ready Three.js 3D models in code.
+  zh: 根据参考图以纯代码重建程序化、可动画 Three.js 三维模型的编码 Agent 技能。

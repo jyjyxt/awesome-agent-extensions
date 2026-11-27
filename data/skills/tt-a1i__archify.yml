@@ -1,0 +1,9 @@
+name: Archify
+repo: https://github.com/tt-a1i/archify
+category: coding
+official: false
+agents: [claude-code, codex, cursor, opencode, dsh]
+tags: [architecture, diagrams, visualization, pr-walkthrough]
+description:
+  en: Agent skill turning ideas, plans, or codebases into interactive architecture diagrams, diagnoses, and PR walkthroughs.
+  zh: 将想法、方案或代码库转化为交互式架构图、架构诊断报告与 PR 演示的 Agent 技能。

@@ -1,0 +1,9 @@
+name: Gesso Design Critique Skills
+repo: https://github.com/Gesso-Build/skills
+category: frontend-design
+official: true
+agents: [claude-code]
+tags: [design-critique, html-css, anti-slop, linting]
+description:
+  en: Official Gesso agent skill and deterministic HTML/CSS linter with 73 slop guards and auto-fixes for production UI.
+  zh: Gesso 官方前端设计审查技能与确定性 HTML/CSS 检测工具，提供 73 项去模板化规则与自动修复。

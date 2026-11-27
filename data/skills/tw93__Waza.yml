@@ -1,0 +1,9 @@
+name: Waza
+repo: https://github.com/tw93/Waza
+category: coding
+official: false
+agents: [universal, claude-code, codex, cursor]
+tags: [engineering, best-practices, workflows, coding]
+description:
+  en: Distilled software engineering habits and practices packaged as runnable skills for Claude Code, Codex, and Cursor.
+  zh: 将成熟工程师日常开发习惯沉淀为可执行 Agent Skills 的技能集合，适配 Claude Code、Codex 与 Cursor。

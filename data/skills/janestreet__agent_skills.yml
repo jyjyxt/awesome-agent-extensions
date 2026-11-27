@@ -1,0 +1,9 @@
+name: Jane Street Agent Skills
+repo: https://github.com/janestreet/agent_skills
+category: productivity
+official: true
+agents: [universal]
+tags: [socratic-tutor, learning, education, official]
+description:
+  en: Official Jane Street repository of agent skills, featuring a Socratic tutor skill for guided learning.
+  zh: Jane Street 官方开源的 Agent 技能仓库，包含用于启发式教学的苏格拉底导师技能。

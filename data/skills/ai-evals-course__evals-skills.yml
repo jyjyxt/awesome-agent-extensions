@@ -1,0 +1,9 @@
+name: AI Evals Skills
+repo: https://github.com/ai-evals-course/evals-skills
+category: coding
+official: false
+agents: [universal]
+tags: [ai-evals, llm-evaluation, testing, agent-skills]
+description:
+  en: Agent skills guiding AI coding assistants to design and implement tailored, product-specific AI evaluation pipelines.
+  zh: 指导 AI 编程助手构建贴合具体业务产品的 AI 评测体系与自动化测试流程的技能集。

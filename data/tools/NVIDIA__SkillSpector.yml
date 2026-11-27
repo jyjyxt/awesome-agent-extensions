@@ -1,0 +1,9 @@
+name: SkillSpector
+repo: https://github.com/NVIDIA/SkillSpector
+category: security
+official: true
+agents: [claude-code, codex]
+tags: [security-scanner, prompt-injection, supply-chain, skills]
+description:
+  en: Official NVIDIA security scanner that detects prompt injection, data exfiltration, and supply-chain risks in agent skills.
+  zh: NVIDIA 官方开源的 Agent 技能安全扫描器，在安装前检测提示词注入、数据窃取与供应链风险。

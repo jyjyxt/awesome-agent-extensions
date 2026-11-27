@@ -1,0 +1,9 @@
+name: React-PDF Claude Skill
+repo: https://github.com/molefrog/skills
+category: frontend-design
+official: false
+agents: [claude-code]
+tags: [react-pdf, pdf-generation, react, documents]
+description:
+  en: Claude skill for designing and generating polished PDF documents with react-pdf.
+  zh: 使用 react-pdf 设计并生成高质量 PDF 文档的 Claude 技能。

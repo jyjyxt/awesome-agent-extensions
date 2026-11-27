@@ -1,0 +1,10 @@
+name: UZI Skill
+repo: https://github.com/wbh604/UZI-Skill
+category: data-research
+official: false
+agents: [claude-code, codex, cursor, opencode, gemini-cli]
+includes: [skills, subagents]
+tags: [finance, quant, stock-analysis, investing]
+description:
+  en: Quantitative equity analysis plugin bundling 66 investor personas, 180 quant rules, and 17 institutional methods for CN, HK, and US markets.
+  zh: 面向 A 股、港股与美股的量化投研插件，集成 66 位投资大师角色、180 条量化规则与 17 种机构分析方法。

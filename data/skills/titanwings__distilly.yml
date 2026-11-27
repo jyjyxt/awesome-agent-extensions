@@ -1,0 +1,9 @@
+name: Distilly
+repo: https://github.com/titanwings/distilly
+category: productivity
+official: false
+agents: [claude-code, codex]
+tags: [knowledge-distillation, persona, meta-skill, workflows]
+description:
+  en: Skill distillation toolkit that captures expert thinking patterns and workflows into reusable skills for any agent.
+  zh: 思维与工作流蒸馏技能工具，可将他人经验与思考方式提炼为任意 Agent 可复用的技能包。

@@ -1,0 +1,9 @@
+name: Wondel.ai Skills
+repo: https://github.com/wondelai/skills
+category: productivity
+official: false
+agents: [universal]
+tags: [business-frameworks, product-management, marketing, ux]
+description:
+  en: Library of 50 agent skills and 12 guided journeys distilling bestselling business, marketing, UX, and engineering books.
+  zh: 提炼畅销商业、营销、UX 与工程经典方法论的技能库，包含 50 个 Agent 技能与 12 条引导工作流。

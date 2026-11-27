@@ -1,0 +1,9 @@
+name: CapCut CLI
+repo: https://github.com/renezander030/capcut-cli
+category: content-marketing
+official: false
+agents: [claude-code]
+tags: [capcut, jianying, video-editing, cli]
+description:
+  en: Unofficial CLI and Claude Code plugin for editing CapCut and JianYing local drafts directly—subtitles, timing, speed, templates, and shorts clipping.
+  zh: 可直接读写剪映与 CapCut 本地草稿的命令行工具与插件，支持字幕、变速、模板套用与长视频切片。

@@ -1,0 +1,10 @@
+name: Stripe AI
+repo: https://github.com/stripe/ai
+category: coding
+official: true
+agents: [universal]
+includes: [skills, mcp, tools]
+tags: [stripe, payments, mcp, agent-toolkit]
+description:
+  en: Official Stripe AI suite bundling agent toolkits, MCP integrations, CLI extensions, and skills for building AI-powered payment workflows.
+  zh: Stripe 官方 AI 开发套件，集成 Agent 工具包、MCP 服务、多端插件与技能，助力构建支付与商业化工作流。

@@ -1,0 +1,9 @@
+name: Web Quality Skills
+repo: https://github.com/addyosmani/web-quality-skills
+category: frontend-design
+official: false
+agents: [universal]
+tags: [web-performance, lighthouse, core-web-vitals, accessibility]
+description:
+  en: Agent skills by Addy Osmani for auditing and optimizing web performance, accessibility, and Core Web Vitals based on Lighthouse.
+  zh: 由 Addy Osmani 推出的网页质量优化技能集，基于 Lighthouse 与 Core Web Vitals 改进性能与无障碍体验。

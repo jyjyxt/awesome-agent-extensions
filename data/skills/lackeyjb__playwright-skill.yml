@@ -1,0 +1,9 @@
+name: Playwright Skill
+repo: https://github.com/lackeyjb/playwright-skill
+category: coding
+official: false
+agents: [universal]
+tags: [playwright, e2e-testing, browser-automation, testing]
+description:
+  en: General-purpose Playwright browser automation and end-to-end testing skill for AI coding agents.
+  zh: 面向 AI 编程 Agent 的通用 Playwright 浏览器自动化与端到端测试技能。

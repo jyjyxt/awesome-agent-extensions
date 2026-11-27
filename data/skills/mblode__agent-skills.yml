@@ -1,0 +1,9 @@
+name: Blode Agent Skills
+repo: https://github.com/mblode/agent-skills
+category: coding
+official: false
+agents: [universal]
+tags: [anti-slop, code-quality, agent-skills, engineering]
+description:
+  en: Curated agent skills designed to prevent AI slop and maintain high engineering and craft standards.
+  zh: 旨在消除 AI 敷衍产出的实用 Agent 技能集，帮助团队保持高工程与交付水准。

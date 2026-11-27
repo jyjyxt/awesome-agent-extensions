@@ -1,0 +1,9 @@
+name: Google Agents CLI
+repo: https://github.com/google/agents-cli
+category: cloud-devops
+official: true
+agents: [universal, claude-code, gemini-cli]
+tags: [official, google-cloud, adk, cli]
+description:
+  en: Official Google CLI and skills enabling coding assistants to build, evaluate, and deploy AI agents on Google Cloud with ADK.
+  zh: Google 官方推出的命令行工具与技能集，帮助编码助手基于 ADK 在 Google Cloud 上构建、评估与部署 AI Agent。

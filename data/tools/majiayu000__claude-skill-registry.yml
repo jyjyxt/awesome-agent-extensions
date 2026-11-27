@@ -1,0 +1,9 @@
+name: Claude Skill Registry
+repo: https://github.com/majiayu000/claude-skill-registry
+category: marketplaces-tooling
+official: false
+agents: [claude-code]
+tags: [skill-registry, catalog, claude-code, discovery]
+description:
+  en: Searchable Claude Code skills registry and catalog with source-linked guides, provenance, and generated metadata.
+  zh: 可检索的 Claude Code 技能注册表与目录，提供溯源指南与结构化索引元数据。

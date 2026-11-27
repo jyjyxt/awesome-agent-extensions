@@ -1,0 +1,9 @@
+name: Auteur
+repo: https://github.com/agiwhitelist/auteur
+category: frontend-design
+official: false
+agents: [claude-code]
+tags: [web-design, anti-slop, gsap, webgl]
+description:
+  en: Claude Code skill that directs websites like a film with commit-sheets, generated visual assets, WebGL/GSAP motion, and an anti-slop linter.
+  zh: 像执导电影一样打造网站的 Claude Code 技能，集成视觉资产生成、WebGL/GSAP 动效与反模板化质量门禁。

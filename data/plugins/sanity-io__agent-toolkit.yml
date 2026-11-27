@@ -1,0 +1,10 @@
+name: Sanity Agent Toolkit
+repo: https://github.com/sanity-io/agent-toolkit
+category: coding
+official: true
+agents: [universal]
+includes: [skills, mcp]
+tags: [sanity, cms, mcp-server, ai-rules]
+description:
+  en: Official Sanity toolkit bundling agent skills, rules, commands, and MCP integration for building with Sanity CMS.
+  zh: Sanity 官方 Agent 工具包，集成技能、规则、命令与 MCP 支持以助力 Sanity CMS 开发。

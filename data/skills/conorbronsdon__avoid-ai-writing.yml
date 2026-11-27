@@ -1,0 +1,9 @@
+name: Avoid AI Writing
+repo: https://github.com/conorbronsdon/avoid-ai-writing
+category: content-marketing
+official: false
+agents: [universal, claude-code, codex, cursor]
+tags: [writing, humanizer, anti-ai-writing, editing]
+description:
+  en: Writing audit and rewrite skill with detector rules and Vale integration to strip out common AI writing clichés.
+  zh: 集成检测器与 Vale 规则的写作审计与改写技能，用于识别并消除常见 AI 腔调与套话。

@@ -1,0 +1,9 @@
+name: Three.js Skills
+repo: https://github.com/CloudAI-X/threejs-skills
+category: frontend-design
+official: false
+agents: [universal]
+tags: [threejs, webgl, 3d, frontend]
+description:
+  en: Agent skills for building 3D scenes, shaders, lighting, and interactive WebGL experiences with Three.js.
+  zh: 面向 Three.js 开发的 Agent 技能集，涵盖 3D 场景搭建、着色器、光照与交互式 WebGL 渲染。

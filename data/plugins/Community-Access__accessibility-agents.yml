@@ -1,0 +1,10 @@
+name: Accessibility Agents
+repo: https://github.com/Community-Access/accessibility-agents
+category: frontend-design
+official: false
+agents: [claude-code, copilot, gemini-cli, codex]
+includes: [skills, mcp]
+tags: [accessibility, wcag, a11y, aria]
+description:
+  en: WCAG 2.2 AA accessibility review suite bundling agent skills, edit-gate hooks, and MCP scanners for coding agents.
+  zh: 面向编程代理的 WCAG 2.2 AA 无障碍审查套件，集成技能、编辑门禁钩子与扫描器。

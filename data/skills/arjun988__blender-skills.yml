@@ -1,0 +1,9 @@
+name: Blender Skills
+repo: https://github.com/arjun988/blender-skills
+category: frontend-design
+official: false
+agents: [claude-code, cursor, codex]
+tags: [blender, 3d-modeling, mcp, game-assets]
+description:
+  en: Collection of 94 specialist Blender skills for MCP-powered 3D modeling pipelines from blockout to game-engine export.
+  zh: 包含 94 项 Blender 专项技能的合集，结合 MCP 打通从灰模搭建到游戏引擎导出的 3D 制作管线。

@@ -1,0 +1,9 @@
+name: Yuwen Publish Precheck
+repo: https://github.com/yuwen-cool/yuwen-publish-precheck
+category: content-marketing
+official: false
+agents: [universal]
+tags: [content-compliance, xiaohongshu, douyin, wechat-channels]
+description:
+  en: Pre-publish compliance review skill for Douyin, Xiaohongshu, and WeChat Channels backed by official platform rules.
+  zh: 基于平台官方规则的抖音、小红书与视频号发布前内容合规自审技能，支持本地规则库沉淀。

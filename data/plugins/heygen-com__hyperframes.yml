@@ -1,0 +1,10 @@
+name: Hyperframes
+repo: https://github.com/heygen-com/hyperframes
+category: content-marketing
+official: true
+agents: [claude-code, codex, cursor, gemini-cli]
+includes: [skills, mcp, tools]
+tags: [video-editing, html-to-video, animation, rendering]
+description:
+  en: Official HeyGen open-source AI video editor plugin and MCP suite for authoring HTML animations and rendering MP4.
+  zh: HeyGen 官方开源的 AI 视频编辑插件与 MCP 工具集，支持用 HTML 编写动效并渲染输出 MP4。

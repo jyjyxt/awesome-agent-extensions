@@ -1,0 +1,9 @@
+name: Claude Video
+repo: https://github.com/bradautomates/claude-video
+category: data-research
+official: false
+agents: [claude-code, codex]
+tags: [video-analysis, transcription, multimodal, media]
+description:
+  en: Agent skill enabling Claude and Codex to download videos, extract keyframes, transcribe audio, and analyze content.
+  zh: 让 Agent 具备“看懂视频”能力的技能包，支持下载视频、抽取关键帧并转写字幕以供分析。

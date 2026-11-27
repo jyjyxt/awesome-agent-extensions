@@ -1,0 +1,9 @@
+name: OneTake Motion
+repo: https://github.com/feitangyuan/onetake
+category: content-marketing
+official: false
+agents: [universal, claude-code]
+tags: [motion-graphics, launch-video, animation, demo]
+description:
+  en: Agent skill for creating continuous single-camera motion launch films and feature demos without abrupt slide cuts.
+  zh: 一镜到底动态宣传片制作技能，帮助编码代理创作连续镜头转场的产品发布片与功能演示视频。

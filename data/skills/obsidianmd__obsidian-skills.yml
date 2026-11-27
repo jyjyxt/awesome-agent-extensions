@@ -1,0 +1,9 @@
+name: Obsidian Skills
+repo: https://github.com/obsidianmd/obsidian-skills
+category: productivity
+official: true
+agents: [claude-code, codex, cursor, opencode]
+tags: [obsidian, markdown, knowledge-base, notes]
+description:
+  en: Official Obsidian skills teaching AI agents to work with Obsidian vaults, Markdown, Bases, and JSON Canvas.
+  zh: Obsidian 官方 Agent 技能包，让 AI 熟练操作 Obsidian 笔记库、Markdown、Bases 与 JSON Canvas。

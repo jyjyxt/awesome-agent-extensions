@@ -1,0 +1,9 @@
+name: Firebase Agent Skills
+repo: https://github.com/firebase/agent-skills
+category: cloud-devops
+official: true
+agents: [universal]
+tags: [firebase, cloud, backend, database]
+description:
+  en: Official Firebase agent skills and extensions for building, configuring, and deploying Firebase backends.
+  zh: Firebase 官方 Agent 技能集，辅助智能体完成 Firebase 后端构建、配置与部署。

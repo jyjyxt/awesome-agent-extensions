@@ -1,0 +1,9 @@
+name: HumanLayer Skills
+repo: https://github.com/humanlayer/skills
+category: coding
+official: true
+agents: [claude-code, universal]
+tags: [official, humanlayer, workflows, coding]
+description:
+  en: Official HumanLayer collection of Claude Code skills and plugins for structured research, planning, and implementation workflows.
+  zh: HumanLayer 官方开源的 Agent 技能与插件集，覆盖代码库调研、方案规划与工程实现工作流。

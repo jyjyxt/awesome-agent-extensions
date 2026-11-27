@@ -1,0 +1,9 @@
+name: "I'm Not AI (Korean Humanizer)"
+repo: https://github.com/epoko77-ai/im-not-ai
+category: content-marketing
+official: false
+agents: [claude-code, codex, gemini-cli, copilot, universal]
+tags: [humanizer, korean, writing, copy-editing]
+description:
+  en: Korean AI-text humanizer skill that detects and rewrites translationese, mechanical parallelism, and over 70 AI writing tells.
+  zh: 韩语去 AI 味文本润色技能，能够检测并改写翻译腔、机械排比等 70 余种 AI 写作痕迹。

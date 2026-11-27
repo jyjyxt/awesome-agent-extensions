@@ -1,0 +1,9 @@
+name: Diagram Design
+repo: https://github.com/cathrynlavery/diagram-design
+category: frontend-design
+official: false
+agents: [claude-code, codex, copilot, cursor]
+tags: [diagrams, svg, data-visualization, editorial-design]
+description:
+  en: Editorial diagram design skill covering 52 diagram types rendered as clean, self-contained HTML and SVG.
+  zh: 支持 52 种图表类型的编辑级信息图设计技能，输出简洁独立的 HTML 与 SVG 图形。

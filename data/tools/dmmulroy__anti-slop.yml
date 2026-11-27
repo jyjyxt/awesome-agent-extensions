@@ -1,0 +1,9 @@
+name: Anti-Slop Oxlint
+repo: https://github.com/dmmulroy/anti-slop
+category: coding
+official: false
+agents: [universal]
+tags: [typescript, oxlint, linting, code-quality]
+description:
+  en: Opinionated Oxlint ruleset and agent skills for rejecting low-evidence TypeScript and JavaScript coding patterns.
+  zh: 结合 Oxlint 严格规则与 Agent 技能的代码校验工具，自动拦截低可信度 TypeScript 与 JavaScript 模式。

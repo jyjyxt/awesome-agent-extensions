@@ -1,0 +1,9 @@
+name: Tavily Agent Skills
+repo: https://github.com/tavily-ai/skills
+category: data-research
+official: true
+agents: [universal]
+tags: [tavily, web-search, research, rag]
+description:
+  en: Official Tavily agent skills for web search, content extraction, and real-time online research.
+  zh: Tavily 官方 Agent 技能集，提供实时网页搜索、内容抓取与在线研究能力。

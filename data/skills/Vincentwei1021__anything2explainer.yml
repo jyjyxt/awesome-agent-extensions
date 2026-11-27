@@ -1,0 +1,9 @@
+name: Anything2Explainer
+repo: https://github.com/Vincentwei1021/anything2explainer
+category: content-marketing
+official: false
+agents: [claude-code, codex]
+tags: [explainer-video, remotion, tts, motion-graphics]
+description:
+  en: Turns any topic into a Remotion-rendered motion-graphics explainer video with bilingual TTS voiceover, subtitles, and chapter progress.
+  zh: 将任意主题一键转化为 Remotion 渲染的动态图形讲解视频，自带中英文配音、字幕与章节进度条。

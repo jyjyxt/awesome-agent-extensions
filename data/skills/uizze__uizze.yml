@@ -1,0 +1,9 @@
+name: Uizze Design Skills
+repo: https://github.com/uizze/uizze
+category: frontend-design
+official: false
+agents: [universal]
+tags: [ui-design, design-systems, ios-design, anti-slop]
+description:
+  en: UI and design-system agent skills helping coding agents craft polished web and iOS interfaces without AI slop.
+  zh: 面向编程代理的 UI 与设计系统技能集，助力打造高质量 Web 与 iOS 界面并避免 AI 模板感。

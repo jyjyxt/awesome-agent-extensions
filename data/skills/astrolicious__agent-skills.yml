@@ -1,0 +1,9 @@
+name: Astrolicious Agent Skills
+repo: https://github.com/astrolicious/agent-skills
+category: frontend-design
+official: true
+agents: [universal]
+tags: [astro, frontend, web-framework, ssg]
+description:
+  en: Official Astrolicious agent skills for building and maintaining projects in the Astro web framework ecosystem.
+  zh: Astrolicious 官方 Astro 生态 Agent 技能集，助力智能体高效开发与维护 Astro Web 项目。

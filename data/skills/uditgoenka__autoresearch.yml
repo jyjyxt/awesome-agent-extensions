@@ -1,0 +1,9 @@
+name: Autoresearch Skill
+repo: https://github.com/uditgoenka/autoresearch
+category: orchestration
+official: false
+agents: [universal, claude-code, opencode]
+tags: [autonomous-loop, iteration, experimentation, research]
+description:
+  en: Autonomous goal-directed iteration skill for Claude Code implementing a continuous modify, verify, and keep-or-discard research loop.
+  zh: 受 Karpathy autoresearch 启发的自主目标迭代技能，驱动代理持续执行修改、验证与保留/回滚闭环。

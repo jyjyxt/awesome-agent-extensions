@@ -1,0 +1,9 @@
+name: Video Shotcraft
+repo: https://github.com/Vincentwei1021/video-shotcraft
+category: content-marketing
+official: false
+agents: [claude-code, codex]
+tags: [video-production, remotion, motion-graphics, promo-video]
+description:
+  en: Remotion-based AI video skill with 124 shot recipe cards, beat sync, and CapCut CN (JianYing) export for product promos.
+  zh: 基于 Remotion 的产品宣传片制作技能，内置 124 张分镜配方卡、卡点同步与剪映工程导出。

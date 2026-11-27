@@ -1,0 +1,10 @@
+name: CC Polymath
+repo: https://github.com/rand/cc-polymath
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills, subagents, mcp]
+tags: [claude-code, context-efficiency, workflows, polymath]
+description:
+  en: Context-efficient Claude Code plugin bundling skills, subagents, commands, and an MCP server across cloud, design, and math.
+  zh: 注重上下文效率的 Claude Code 插件，集成覆盖云架构、设计与数学等领域的技能、子代理与 MCP 服务。

@@ -1,0 +1,9 @@
+name: Self-Improving Agent
+repo: https://github.com/pskoett/self-improving-agent
+category: orchestration
+official: false
+agents: [universal]
+tags: [self-improvement, memory, openclaw, learnings]
+description:
+  en: Agent skill that captures learnings, errors, and feature requests for continuous cross-session improvement.
+  zh: 跨会话记录经验教训、错误与功能需求以实现持续自我改进的 Agent 技能。

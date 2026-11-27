@@ -1,0 +1,9 @@
+name: Brag
+repo: https://github.com/latent-spaces/brag
+category: content-marketing
+official: false
+agents: [claude-code, codex, opencode]
+tags: [launch-video, video-generation, product-marketing, hyperframes]
+description:
+  en: Agent skill that turns your newly built software project into a short, shareable product launch video in one command.
+  zh: 一键将刚完成的开发项目转化为可分享产品发布短视频的 Agent 营销技能。

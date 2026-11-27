@@ -1,0 +1,9 @@
+name: Native Subtitle Quote Image
+repo: https://github.com/chengyi-ai/native-subtitle-quote-image
+category: content-marketing
+official: false
+agents: [claude-code, codex]
+tags: [subtitles, social-media, video-processing, quote-card]
+description:
+  en: "Agent skill that extracts exact video frames with embedded native subtitles and stitches them into 3:4 social quote cards."
+  zh: "保留视频内嵌字幕并精确取帧，自动拼接生成 3:4 社交长图金句卡片的 Agent 技能。"

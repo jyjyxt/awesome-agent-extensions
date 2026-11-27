@@ -1,0 +1,9 @@
+name: Revenue-Centric Design
+repo: https://github.com/heliocosta-dev/revenue-centric-design
+category: frontend-design
+official: false
+agents: [claude-code, codex]
+tags: [product-design, cro, behavioral-science, saas]
+description:
+  en: Agent skill embedding SaaS product design, conversion rate optimization, and behavioral-science UX principles.
+  zh: 融合 SaaS 产品设计、转化率优化（CRO）与行为科学原则的 Agent 设计技能。

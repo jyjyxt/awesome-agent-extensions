@@ -1,0 +1,9 @@
+name: Unity MCP
+repo: https://github.com/CoplayDev/unity-mcp
+category: coding
+official: false
+agents: [claude-code, copilot, cursor, gemini-cli]
+tags: [unity, game-dev, mcp-server, editor-automation]
+description:
+  en: MCP server bridging AI assistants with the Unity Editor to manage assets, scenes, scripts, and editor workflows.
+  zh: 连接 AI 助手与 Unity 编辑器的 MCP 服务端，支持管理资源、控制场景、编辑脚本与自动化开发任务。

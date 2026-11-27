@@ -1,0 +1,9 @@
+name: Claude Mermaid MCP
+repo: https://github.com/veelenga/claude-mermaid
+category: productivity
+official: false
+agents: [claude-code]
+tags: [mermaid, mcp-server, diagrams, live-reload]
+description:
+  en: MCP server for rendering and previewing Mermaid diagrams with live reload inside Claude Code.
+  zh: 支持实时热重载预览 Mermaid 图表的 Claude Code MCP 服务器。

@@ -1,0 +1,9 @@
+name: Effective HTML
+repo: https://github.com/plannotator/effective-html
+category: frontend-design
+official: false
+agents: [universal, claude-code, codex]
+tags: [html, wireframes, prototyping, diagrams]
+description:
+  en: Agent skills for generating practical single-file HTML artifacts, wireframes, interactive prototypes, plans, and diagrams.
+  zh: 专注于生成实用单文件 HTML 产物、线框图、交互原型、计划面板与图示的 Agent 技能。

@@ -1,0 +1,10 @@
+name: Ponytail
+repo: https://github.com/DietrichGebert/ponytail
+category: coding
+official: false
+agents: [claude-code, codex, cursor, gemini-cli, opencode, windsurf]
+includes: [skills]
+tags: [yagni, code-simplicity, prompt-engineering, rules]
+description:
+  en: Cross-agent plugin, hooks, and skills enforcing YAGNI principles and minimal code changes.
+  zh: 遵循 YAGNI 原则与极简主义的跨端 Agent 插件、钩子与技能集，减少冗余代码。

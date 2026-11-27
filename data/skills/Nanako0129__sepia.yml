@@ -1,0 +1,9 @@
+name: Sepia
+repo: https://github.com/Nanako0129/sepia
+category: content-marketing
+official: false
+agents: [universal]
+tags: [humanizer, de-ai, ai-writing, fiction]
+description:
+  en: De-AI writing skill with narrative-architecture repair for fiction and venue-matched rules for natural professional prose.
+  zh: 去 AI 味写作技能，提供小说叙事结构修复与贴合发表场景的专业散文润色规则。

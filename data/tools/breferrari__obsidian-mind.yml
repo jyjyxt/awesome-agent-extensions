@@ -1,0 +1,9 @@
+name: Obsidian Mind
+repo: https://github.com/breferrari/obsidian-mind
+category: orchestration
+official: false
+agents: [claude-code, codex, gemini-cli, universal]
+tags: [obsidian, persistent-memory, knowledge-base, second-brain]
+description:
+  en: Self-organizing Obsidian vault template with MCP and harness configs that gives AI coding agents persistent project memory.
+  zh: 可自组织的 Obsidian 知识库模板与多端配置集，为 AI 编码代理提供持久化记忆底座。

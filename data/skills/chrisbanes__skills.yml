@@ -1,0 +1,9 @@
+name: Chris Banes Android Skills
+repo: https://github.com/chrisbanes/skills
+category: coding
+official: false
+agents: [universal]
+tags: [kotlin, jetpack-compose, android, multiplatform]
+description:
+  en: Agent skills by Chris Banes for Kotlin, Coroutines, Jetpack Compose, and Kotlin Multiplatform Android development.
+  zh: 由 Chris Banes 整理的 Kotlin、协程、Jetpack Compose 与跨平台 Android 开发 Agent 技能集。

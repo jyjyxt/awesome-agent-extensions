@@ -1,0 +1,9 @@
+name: Stick Scene
+repo: https://github.com/nilbuild/stick-scene
+category: content-marketing
+official: false
+agents: [universal]
+tags: [animation, stick-figure, visuals, explainer]
+description:
+  en: Agent skill for generating animated stick-figure visual scenes and explainer graphics.
+  zh: 用于绘制和生成火柴人动画视觉场景与演示图解的 Agent 技能。

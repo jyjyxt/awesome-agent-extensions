@@ -1,0 +1,9 @@
+name: Simon Video Skills
+repo: https://github.com/trustfuture/simon-skills
+category: content-marketing
+official: false
+agents: [claude-code, codex]
+tags: [video-generation, remotion, excalidraw, faceless-video]
+description:
+  en: AI skill suite for faceless video creation, producing investigative features and whiteboard explainers with voiceover, subtitles, and social copy.
+  zh: 面向不露脸视频创作的 AI 技能合集，支持调查长片与手绘白板视频的一键出片、配音字幕及多平台文案。

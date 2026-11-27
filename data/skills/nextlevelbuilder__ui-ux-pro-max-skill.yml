@@ -1,0 +1,9 @@
+name: UI/UX Pro Max Skill
+repo: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+category: frontend-design
+official: false
+agents: [claude-code, cursor, copilot, antigravity]
+tags: [ui-ux, design-system, frontend, web-design]
+description:
+  en: Design intelligence skill providing structured UI/UX guidelines across multiple frontend platforms.
+  zh: 为编码 Agent 提供跨平台专业 UI/UX 设计规范与审美指导的设计智能技能。

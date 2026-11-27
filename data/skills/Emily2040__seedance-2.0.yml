@@ -1,0 +1,9 @@
+name: Seedance 2.0 Filmmaking
+repo: https://github.com/Emily2040/seedance-2.0
+category: content-marketing
+official: false
+agents: [universal]
+tags: [video-production, filmmaking, seedance, storyboarding]
+description:
+  en: Quad-modal AI filmmaking production pipeline and prompt-compilation skill suite built for Seedance 2.0 video workflows.
+  zh: 面向 Seedance 2.0 的四模态 AI 影视制作流水线与提示词编排技能集。

@@ -1,0 +1,9 @@
+name: Claude Code Video Toolkit
+repo: https://github.com/digitalsamba/claude-code-video-toolkit
+category: content-marketing
+official: false
+agents: [claude-code, codex]
+tags: [video-production, remotion, tts, video-toolkit]
+description:
+  en: End-to-end programmatic video creation toolkit for Claude Code combining scripting, AI voiceover, music, clips, and Remotion rendering.
+  zh: 面向 Claude Code 的端到端视频制作工具包，整合脚本生成、AI 配音、配乐、视频片段与低成本开源渲染。

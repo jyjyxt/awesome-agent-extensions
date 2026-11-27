@@ -1,0 +1,10 @@
+name: Text to CAD
+repo: https://github.com/earthtojake/text-to-cad
+category: productivity
+official: false
+agents: [claude-code, codex, cursor, gemini-cli, antigravity]
+includes: [skills, mcp, tools]
+tags: [cad, 3d-modeling, mechanical-engineering, hardware]
+description:
+  en: Multi-agent plugin, MCP integration, and skills for designing physical CAD models and STEP/STL parts with AI.
+  zh: 支持主流编码 Agent 的文本生成 CAD 插件与 MCP 套件，可用自然语言设计实体模型并导出工程文件。

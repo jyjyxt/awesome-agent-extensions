@@ -1,0 +1,9 @@
+name: Claude Code Skill Factory
+repo: https://github.com/alirezarezvani/claude-code-skill-factory
+category: marketplaces-tooling
+official: false
+agents: [claude-code]
+tags: [skill-authoring, scaffolding, claude-code, templates]
+description:
+  en: Open-source toolkit for building and deploying production-ready Claude skills, agents, slash commands, and prompts.
+  zh: 用于批量构建和部署生产级 Claude 技能、智能体、斜杠命令与提示词的开源工具包。

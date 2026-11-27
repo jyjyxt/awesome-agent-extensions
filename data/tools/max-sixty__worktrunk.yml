@@ -1,0 +1,9 @@
+name: Worktrunk
+repo: https://github.com/max-sixty/worktrunk
+category: coding
+official: false
+agents: [universal, claude-code, codex, gemini-cli]
+tags: [git-worktree, cli, parallel-agents, workflow]
+description:
+  en: Rust CLI and agent extension for managing Git worktrees in parallel AI coding agent workflows.
+  zh: 专为并行 AI 编码代理工作流设计的 Git Worktree 管理命令行工具与多端扩展。

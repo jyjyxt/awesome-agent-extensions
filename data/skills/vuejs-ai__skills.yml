@@ -1,0 +1,9 @@
+name: Vue 3 Agent Skills
+repo: https://github.com/vuejs-ai/skills
+category: coding
+official: true
+agents: [universal]
+tags: [vue, vue3, frontend, typescript]
+description:
+  en: Official Vue.js AI agent skills providing idiomatic Vue 3 Composition API, reactivity, and component development guidance.
+  zh: Vue 官方组织维护的 Vue 3 开发技能集，为 AI Agent 提供规范的组合式 API 与组件开发指导。

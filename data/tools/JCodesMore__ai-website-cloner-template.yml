@@ -1,0 +1,9 @@
+name: AI Website Cloner Template
+repo: https://github.com/JCodesMore/ai-website-cloner-template
+category: frontend-design
+official: false
+agents: [universal]
+tags: [website-cloning, nextjs, frontend, template]
+description:
+  en: Next.js starter and agent instruction template for cloning websites in one command with AI coding agents.
+  zh: 面向 AI 编码 Agent 的 Next.js 网页复刻模板与指令集，支持一键复刻目标网站界面。

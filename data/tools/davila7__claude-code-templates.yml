@@ -1,0 +1,9 @@
+name: Claude Code Templates
+repo: https://github.com/davila7/claude-code-templates
+category: marketplaces-tooling
+official: false
+agents: [claude-code]
+tags: [registry, cli, templates, claude-code]
+description:
+  en: Open-source component registry and CLI for discovering and installing Claude Code agents, commands, skills, hooks, and MCPs.
+  zh: 开源的 Claude Code 组件注册表与命令行工具，支持一键检索安装子代理、指令、技能、钩子与 MCP。

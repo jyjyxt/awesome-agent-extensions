@@ -1,0 +1,9 @@
+name: Anatomy
+repo: https://github.com/wheresryan22/anatomy
+category: frontend-design
+official: false
+agents: [universal]
+tags: [isometric, svg, webgl, illustration]
+description:
+  en: Agent skill for generating detailed, interactive isometric SVG illustrations of machines and systems with WebGL shaders.
+  zh: 用于生成机械与复杂系统交互式等距矢量插画的 Agent 技能，支持精细 SVG 与 WebGL 着色器效果。

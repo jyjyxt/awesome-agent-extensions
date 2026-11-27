@@ -1,0 +1,9 @@
+name: Code Review Graph
+repo: https://github.com/tirth8205/code-review-graph
+category: coding
+official: false
+agents: [universal]
+tags: [code-review, knowledge-graph, mcp, context-optimization]
+description:
+  en: Local-first code intelligence graph MCP server and CLI reducing context overhead in code reviews and large repos.
+  zh: 本地优先的代码智能图谱 MCP 服务与命令行工具，大幅减少大型代码库评审时的上下文开销。

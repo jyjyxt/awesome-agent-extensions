@@ -1,0 +1,9 @@
+name: Brand Identity Skill
+repo: https://github.com/fatihaydost/brand-identity-skill
+category: frontend-design
+official: false
+agents: [claude-code]
+tags: [brand-identity, design-tokens, typography, logo-design]
+description:
+  en: Claude Code skill that designs cohesive brand identity systems covering logo, typography, and color palettes from a single brief.
+  zh: 从单一需求出发系统化设计品牌标识（Logo、字体、配色与品牌规范套件）的 Claude Code 技能。

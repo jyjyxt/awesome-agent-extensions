@@ -1,0 +1,9 @@
+name: Benji Taylor Agent Skills
+repo: https://github.com/benjitaylor/skills
+category: coding
+official: false
+agents: [universal]
+tags: [agent-skills, coding-agents, stageshow]
+description:
+  en: Collection of agent skills for AI coding agents, including StageShow.
+  zh: 面向 AI 编程 Agent 的技能合集，包含 StageShow 等技能。

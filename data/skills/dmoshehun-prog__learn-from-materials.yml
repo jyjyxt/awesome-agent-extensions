@@ -1,0 +1,9 @@
+name: Learn from Materials
+repo: https://github.com/dmoshehun-prog/learn-from-materials
+category: productivity
+official: false
+agents: [claude-code, codex]
+tags: [education, learning, pdf-to-web, study-notes]
+description:
+  en: Agent skill that transforms dense PDFs, books, and research papers into traceable, interactive study webpages with quizzes and notes.
+  zh: 将 PDF、书籍与学术论文转化为可溯源、可测验、可做笔记的交互式学习网页的 Agent 技能。

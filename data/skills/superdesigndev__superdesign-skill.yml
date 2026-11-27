@@ -1,0 +1,9 @@
+name: SuperDesign Skill
+repo: https://github.com/superdesigndev/superdesign-skill
+category: frontend-design
+official: false
+agents: [universal]
+tags: [frontend, ui-design, anti-slop, design-agent]
+description:
+  en: Frontend design skill for coding agents aimed at replacing generic AI UI with shippable, tasteful interface craftsmanship.
+  zh: 面向编程 Agent 的前端设计技能，帮助摆脱同质化 AI 界面模板，产出精致且可直接上线的前端设计。

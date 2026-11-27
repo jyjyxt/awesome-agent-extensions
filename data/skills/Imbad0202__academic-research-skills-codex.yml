@@ -1,0 +1,9 @@
+name: Academic Research Skills (Codex)
+repo: https://github.com/Imbad0202/academic-research-skills-codex
+category: data-research
+official: false
+agents: [codex, universal]
+tags: [academic-research, literature-review, academic-writing, codex]
+description:
+  en: Codex-native academic research skill suite supporting human-in-the-loop literature review, paper writing, and peer review workflows.
+  zh: 面向 Codex 的学术研究技能套件，支持人机协同的文献综述、论文撰写与同行评审全流程。

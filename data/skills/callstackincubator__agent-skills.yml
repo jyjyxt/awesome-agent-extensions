@@ -1,0 +1,9 @@
+name: Callstack React Native Agent Skills
+repo: https://github.com/callstackincubator/agent-skills
+category: coding
+official: true
+agents: [universal]
+tags: [react-native, mobile-dev, performance, agent-skills]
+description:
+  en: Official Callstack collection of agent-optimized React Native skills for mobile architecture, debugging, and performance tuning.
+  zh: Callstack 官方推出的 React Native Agent 技能集，涵盖移动端架构优化、性能调优与工程最佳实践。

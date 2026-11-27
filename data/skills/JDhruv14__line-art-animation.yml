@@ -1,0 +1,9 @@
+name: Line Art Animation
+repo: https://github.com/JDhruv14/line-art-animation
+category: frontend-design
+official: false
+agents: [claude-code]
+tags: [svg-animation, line-art, typescript, ui-components]
+description:
+  en: Claude skill and TypeScript library for creating animated line-art SVG illustrations, reactive ink figures, and day/night scenes.
+  zh: 用于生成线稿风 SVG 动画组件的 Claude 技能与 TypeScript 库，支持行走互动人物与昼夜场景切换。

@@ -1,0 +1,9 @@
+name: "Anti-Slop Design & Copy Rules"
+repo: https://github.com/miqdadbadjuber/anti-slop
+category: frontend-design
+official: false
+agents: [universal, claude-code, codex, cursor]
+tags: [ui-design, anti-slop, copywriting, accessibility]
+description:
+  en: Cross-agent rules, skills, and CLI guards that prevent AI coding agents from producing generic AI-looking UI, copy, and code.
+  zh: 跨端规则集与技能，过滤并拦截 AI 编码代理生成的千篇一律 UI 界面、套路化文案与低质量代码。

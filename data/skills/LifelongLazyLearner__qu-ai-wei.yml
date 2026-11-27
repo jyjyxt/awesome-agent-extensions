@@ -1,0 +1,9 @@
+name: Qu AI Wei (Chinese Humanizer)
+repo: https://github.com/LifelongLazyLearner/qu-ai-wei
+category: content-marketing
+official: false
+agents: [universal]
+tags: [humanizer, chinese-writing, copywriting, anti-ai-slop]
+description:
+  en: Simplified Chinese writing humanizer skill that removes robotic AI phrasing and writing tells.
+  zh: 去除简体中文 AI 写作痕迹与机械化表达的文案润色技能。

@@ -1,0 +1,9 @@
+name: DESIGN.md
+repo: https://github.com/google-labs-code/design.md
+category: frontend-design
+official: true
+agents: [universal]
+tags: [design-system, specification, visual-identity, frontend]
+description:
+  en: Official Google Labs format specification and tooling for giving coding agents persistent design system context.
+  zh: Google Labs 官方推出的 DESIGN.md 格式规范与配套工具，让编码 Agent 持久理解项目设计系统。

@@ -1,0 +1,9 @@
+name: Interface Design
+repo: https://github.com/Dammyjay93/interface-design
+category: frontend-design
+official: false
+agents: [claude-code]
+tags: [ui-design, design-engineering, design-system, claude-code]
+description:
+  en: Claude Code plugin for design engineering that provides craft guidelines, design memory, and enforcement for consistent interfaces.
+  zh: 面向 Claude Code 的界面设计工程插件，通过设计记忆与规范约束确保前端 UI 的高度一致性。

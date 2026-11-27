@@ -1,0 +1,9 @@
+name: Last 30 Days Skill
+repo: https://github.com/mvanhorn/last30days-skill
+category: data-research
+official: false
+agents: [claude-code, codex, gemini-cli]
+tags: [research, social-listening, web-search, trend-analysis]
+description:
+  en: Research skill that gathers and synthesizes recent discussions across Reddit, X, YouTube, HN, Polymarket, and the web.
+  zh: 跨 Reddit、X、YouTube、Hacker News、Polymarket 与全网检索近 30 天动态并生成扎实综述的研究技能。

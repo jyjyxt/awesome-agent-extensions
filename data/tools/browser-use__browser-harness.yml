@@ -1,0 +1,9 @@
+name: Browser Harness
+repo: https://github.com/browser-use/browser-harness
+category: coding
+official: true
+agents: [claude-code, codex, cursor]
+tags: [browser-automation, cdp, chrome, web-agent]
+description:
+  en: Official Browser Use harness letting Claude Code, Codex, and Cursor drive your real logged-in Chrome browser.
+  zh: Browser Use 官方浏览器控制桥接工具，让编码 Agent 直接操作你本地已登录的 Chrome 浏览器。

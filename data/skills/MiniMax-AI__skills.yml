@@ -1,0 +1,9 @@
+name: MiniMax Agent Skills
+repo: https://github.com/MiniMax-AI/skills
+category: coding
+official: true
+agents: [claude-code, codex, cursor, opencode]
+tags: [official, minimax, agent-skills, multi-harness]
+description:
+  en: Official collection of MiniMax AI agent skills and multi-harness plugins for coding and productivity workflows.
+  zh: MiniMax 官方维护的 AI Agent 技能与多端插件集合，适用于主流编码与效率工作流。

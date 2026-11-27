@@ -1,0 +1,9 @@
+name: UB Mode
+repo: https://github.com/unclebob/ub-mode
+category: coding
+official: false
+agents: [universal]
+tags: [clean-code, tdd, craftsmanship, solid]
+description:
+  en: Software craftsmanship skill by Robert C. Martin (Uncle Bob) guiding coding agents toward clean code, TDD, and disciplined design.
+  zh: 由 Uncle Bob 推出的软件工艺 Agent 技能，引导编码代理遵循整洁代码、TDD 与严谨架构原则。

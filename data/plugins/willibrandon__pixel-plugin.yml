@@ -1,0 +1,10 @@
+name: Pixel Plugin
+repo: https://github.com/willibrandon/pixel-plugin
+category: frontend-design
+official: false
+agents: [claude-code]
+includes: [skills, mcp]
+tags: [pixel-art, aseprite, sprites, game-dev]
+description:
+  en: Claude Code plugin for creating pixel art, animations, and game-ready sprites in Aseprite via natural language.
+  zh: 通过自然语言调用 Aseprite 创作像素画、动画与游戏精灵图集的 Claude Code 插件。

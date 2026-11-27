@@ -1,0 +1,9 @@
+name: OpenTUI Skill
+repo: https://github.com/msmps/opentui-skill
+category: coding
+official: false
+agents: [opencode]
+tags: [opentui, opencode, tui, terminal-ui]
+description:
+  en: OpenTUI development skill and command integration tailored for OpenCode.
+  zh: 专为 OpenCode 打造的 OpenTUI 终端界面开发技能与命令集成。

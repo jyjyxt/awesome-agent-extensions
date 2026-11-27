@@ -1,0 +1,9 @@
+name: Extract Design System
+repo: https://github.com/arvindrk/extract-design-system
+category: frontend-design
+official: false
+agents: [claude-code, cursor, codex]
+tags: [design-tokens, design-system, css, cli]
+description:
+  en: Agent skill and CLI for extracting colors, typography, spacing, and shadows from any public website into JSON and CSS tokens.
+  zh: 从公开网站提取色彩、字体、间距与阴影等设计令牌并生成 JSON 与 CSS 变量的 Agent 技能及 CLI。

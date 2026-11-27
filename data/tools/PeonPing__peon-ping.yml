@@ -1,0 +1,9 @@
+name: PeonPing
+repo: https://github.com/PeonPing/peon-ping
+category: productivity
+official: false
+agents: [universal, claude-code, codex, cursor, opencode, antigravity, gemini-cli]
+tags: [notifications, audio-alerts, terminal, hooks]
+description:
+  en: Voice and desktop notification companion for coding agents featuring Warcraft III Peon sound packs, MCP support, and multi-IDE hooks.
+  zh: 编码代理语音与桌面通知伴侣工具，内置魔兽苦工等语音包，支持多端 IDE 钩子与 MCP。

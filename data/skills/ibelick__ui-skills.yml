@@ -1,0 +1,9 @@
+name: UI Skills
+repo: https://github.com/ibelick/ui-skills
+category: frontend-design
+official: false
+agents: [universal]
+tags: [ui-design, design-engineering, frontend, components]
+description:
+  en: Agent skills tailored for design engineers to craft polished, accessible, and consistent UI components.
+  zh: 面向设计工程师的 Agent 技能集，助力打造精致、可访问且风格一致的前端界面组件。

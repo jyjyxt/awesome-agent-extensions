@@ -1,0 +1,9 @@
+name: Image to Editable PPT Skill
+repo: https://github.com/ningzimu/image-to-editable-ppt-skill
+category: productivity
+official: false
+agents: [codex]
+tags: [powerpoint, pptx, pdf-to-pptx, presentations]
+description:
+  en: Codex skill for converting slide images, PDFs, and flattened PPTX files into fully editable PowerPoint decks.
+  zh: 可将幻灯片图片、PDF 及纯图 PPTX 文件还原为可编辑 PowerPoint 演示文稿的 Codex 技能。

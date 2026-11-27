@@ -1,0 +1,9 @@
+name: "SEO & GEO Claude Skills"
+repo: https://github.com/aaron-he-zhu/seo-geo-claude-skills
+category: content-marketing
+official: false
+agents: [universal]
+tags: [seo, geo, marketing, content-optimization]
+description:
+  en: Collection of 20 SEO and Generative Engine Optimization (GEO) agent skills for research, optimization, and monitoring.
+  zh: 涵盖研究、优化与监测流程的 20 项 SEO 及生成式引擎优化（GEO）Agent 技能合集。

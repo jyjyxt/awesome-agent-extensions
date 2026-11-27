@@ -1,0 +1,9 @@
+name: Human Writing
+repo: https://github.com/KKKKhazix/human-writing
+category: content-marketing
+official: false
+agents: [universal, claude-code]
+tags: [chinese-writing, humanizer, copywriting, rewriting]
+description:
+  en: Out-of-the-box Chinese writing and rewriting skill designed to make AI-authored prose read naturally like a real human voice.
+  zh: 开箱即用的中文创作与改稿技能，消除模板化表达，让 AI 输出具备真实具体的人味与口语质感。

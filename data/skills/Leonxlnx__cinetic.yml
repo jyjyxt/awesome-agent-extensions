@@ -1,0 +1,9 @@
+name: Cinetic
+repo: https://github.com/Leonxlnx/cinetic
+category: content-marketing
+official: false
+agents: [claude-code]
+tags: [launch-video, motion-design, remotion, filmmaking]
+description:
+  en: Claude Code skill for directing cinematic product launch films and programmatic motion design directly in Remotion code.
+  zh: 由编程 Agent 执导的电影感产品发布片与代码化动效制作技能，基于 Remotion 构建。

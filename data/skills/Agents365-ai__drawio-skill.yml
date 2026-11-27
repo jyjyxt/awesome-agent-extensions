@@ -1,0 +1,9 @@
+name: Draw.io Skill
+repo: https://github.com/Agents365-ai/drawio-skill
+category: productivity
+official: false
+agents: [universal, claude-code, codex]
+tags: [drawio, diagrams, architecture, uml]
+description:
+  en: Skill for generating, syncing, and testing editable draw.io architecture diagrams from natural language, code, Terraform, K8s, SQL, or OpenAPI.
+  zh: 从自然语言、代码、Terraform/K8s、SQL 或 OpenAPI 生成可编辑 draw.io 架构图并支持增量同步与校验的技能。

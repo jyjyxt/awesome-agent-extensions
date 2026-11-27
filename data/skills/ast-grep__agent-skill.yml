@@ -1,0 +1,9 @@
+name: ast-grep Agent Skill
+repo: https://github.com/ast-grep/agent-skill
+category: coding
+official: true
+agents: [universal]
+tags: [ast-grep, code-search, refactoring, static-analysis]
+description:
+  en: Official ast-grep agent skill for structural code search, linting, and AST-based refactoring.
+  zh: ast-grep 官方 Agent 技能，用于基于抽象语法树的结构化代码检索与重构。

@@ -1,0 +1,9 @@
+name: mcp-use
+repo: https://github.com/mcp-use/mcp-use
+category: marketplaces-tooling
+official: true
+agents: [universal, claude-code]
+tags: [official, mcp, framework, sdk]
+description:
+  en: Official fullstack MCP framework and SDK for building MCP servers, clients, UI inspectors, and interactive MCP Apps.
+  zh: 官方全栈 MCP 开发框架与 SDK，用于构建 MCP 服务端、客户端、可视化调试器及交互式 MCP 应用。

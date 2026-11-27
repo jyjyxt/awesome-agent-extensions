@@ -1,0 +1,9 @@
+name: DSH TUI
+repo: https://github.com/ccch1mneyyy/dsh-TUI
+category: coding
+official: false
+agents: [dsh, claude-code]
+tags: [dsh-plugin, tui, terminal, deepseek]
+description:
+  en: High-performance terminal UI plugin for DeepSeek Harness featuring low overhead, smooth mouse interaction, and customizable presets.
+  zh: DeepSeek Harness 生态的高性能终端 UI 插件，具备低占用、流畅鼠标交互与预设配置能力。

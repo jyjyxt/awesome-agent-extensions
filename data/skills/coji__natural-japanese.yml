@@ -1,0 +1,9 @@
+name: Natural Japanese
+repo: https://github.com/coji/natural-japanese
+category: content-marketing
+official: false
+agents: [universal]
+tags: [japanese, writing, linter, copywriting]
+description:
+  en: Agent skill with SudachiPy linting and corpus evaluations for writing and polishing clear, natural business Japanese.
+  zh: 面向商务日语写作与改写的 Agent 技能，结合词法检查与语料评测产出清晰自然的日语内容。

@@ -1,0 +1,9 @@
+name: Dimensional Drawing
+repo: https://github.com/enesozturk/dimensional-drawing
+category: frontend-design
+official: false
+agents: [universal]
+tags: [ui-design, illustrations, apple-style, components]
+description:
+  en: Agent skill for generating clean Apple-style dimensional spec drawings and technical illustrations of UI components.
+  zh: 用于生成 Apple 风格 UI 组件尺寸标注图与技术规格插画的 Agent 技能。

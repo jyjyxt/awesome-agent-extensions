@@ -1,0 +1,9 @@
+name: Appllama Skills
+repo: https://github.com/Appllama/appllama-skills
+category: frontend-design
+official: false
+agents: [claude-code, codex, cursor]
+tags: [mobile-ui, design-system, mcp, app-design]
+description:
+  en: Agent skills and MCP integration that translate top-grossing mobile app UI patterns into native-quality app screens.
+  zh: 结合 MCP 的移动端界面设计技能集，将高营收应用设计模式转化为原生级高质量页面实现。

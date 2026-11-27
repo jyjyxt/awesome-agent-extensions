@@ -1,0 +1,9 @@
+name: Material 3 Skill
+repo: https://github.com/hamen/material-3-skill
+category: frontend-design
+official: false
+agents: [claude-code]
+tags: [material-design, design-tokens, theming, ui-components]
+description:
+  en: Material Design 3 skill for Claude Code covering 30+ components, design tokens, dynamic theming, responsive layouts, and MD3 audits.
+  zh: 面向 Claude Code 的 Material Design 3 技能，涵盖 30 余种组件规范、设计令牌、主题定制与合规审查。

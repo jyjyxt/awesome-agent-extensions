@@ -1,0 +1,9 @@
+name: YAO Meta Skill
+repo: https://github.com/yaojingang/yao-meta-skill
+category: marketplaces-tooling
+official: false
+agents: [universal]
+tags: [meta-skill, skill-evaluation, governance, skill-engineering]
+description:
+  en: Engineering, evaluation, security governance, and cross-agent portability framework for building reusable agent skills.
+  zh: 用于构建可复用 Agent 技能的工程化、评测、安全治理与跨平台可移植性框架。

@@ -1,0 +1,9 @@
+name: OneWave AI Claude Skills
+repo: https://github.com/OneWave-AI/claude-skills
+category: productivity
+official: false
+agents: [claude-code]
+tags: [claude-skills, business-workflows, sales-marketing, engineering]
+description:
+  en: Collection of 200+ production-ready Claude Code skills spanning sales, marketing, design, engineering, and agent architecture.
+  zh: 覆盖销售、营销、设计、工程与智能体架构的 200+ 生产级 Claude Code 技能合集。

@@ -1,0 +1,9 @@
+name: Simplified Technical English
+repo: https://github.com/0xpili/simplified-technical-english
+category: content-marketing
+official: false
+agents: [claude-code]
+tags: [technical-writing, asd-ste100, controlled-language, style-guide]
+description:
+  en: Agent skill enforcing ASD-STE100 Simplified Technical English writing rules with an approved dictionary and compliance checker script.
+  zh: 让大模型严格遵循 ASD-STE100 简化技术英语规范的技能，内置核准词表与自动校验脚本。

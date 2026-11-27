@@ -1,0 +1,9 @@
+name: Lemo Opuscar
+repo: https://github.com/lemomo-ai/lemo-opuscar
+category: content-marketing
+official: false
+agents: [claude-code]
+tags: [video-generation, creative-coding, filmmaking, animation]
+description:
+  en: Claude Code creative filmmaking plugin offering 99 code-driven film styles and a styleboard without video models.
+  zh: 面向 Claude Code 的代码制片风格工具箱插件，无需视频生成模型即可用 99 种现成风格创作短片。

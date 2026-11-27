@@ -1,0 +1,9 @@
+name: Google Stitch Skills
+repo: https://github.com/google-labs-code/stitch-skills
+category: frontend-design
+official: true
+agents: [universal, antigravity, gemini-cli, claude-code, cursor]
+tags: [official, ui-design, stitch, mcp]
+description:
+  en: Official Google Labs library of open-standard Agent Skills designed to pair with the Stitch MCP server for UI and frontend workflows.
+  zh: Google Labs 官方提供的开放标准 Agent Skills 库，配合 Stitch MCP 服务完成界面设计与前端开发工作流。

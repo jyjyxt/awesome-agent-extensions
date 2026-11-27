@@ -1,0 +1,9 @@
+name: Dimillian Codex Skills
+repo: https://github.com/Dimillian/Skills
+category: coding
+official: false
+agents: [codex]
+tags: [codex, swiftui, ios, macos]
+description:
+  en: Curated Codex skills for SwiftUI, iOS/macOS debugging, Swift concurrency, React performance, and code review swarms.
+  zh: 聚焦 SwiftUI、iOS/macOS 调试、Swift 并发、React 性能与多智能体代码审查的 Codex 技能合集。

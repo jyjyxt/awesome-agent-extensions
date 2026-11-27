@@ -1,0 +1,9 @@
+name: Scientific Agent Skills
+repo: https://github.com/K-Dense-AI/scientific-agent-skills
+category: data-research
+official: false
+agents: [cursor, claude-code, codex, antigravity]
+tags: [science, bioinformatics, drug-discovery, research]
+description:
+  en: Comprehensive library of 177 validated scientific skills and 100+ databases across biology, chemistry, and medicine.
+  zh: 包含 177 项经过验证的科研技能与上百个科学数据库，覆盖生物、化学、医学与药物研发领域。

@@ -1,0 +1,9 @@
+name: Dembrandt UX Skills
+repo: https://github.com/dembrandt/dembrandt-skills
+category: frontend-design
+official: false
+agents: [universal]
+tags: [ux-design, design-system, accessibility, typography]
+description:
+  en: Agent skills packaging senior-level UX, accessibility, typography, and design-system practices for coding agents.
+  zh: 将资深 UX、无障碍规范、排版与设计系统经验封装为自动生效的 Agent 技能包。

@@ -1,0 +1,9 @@
+name: Guizang PPT Skill
+repo: https://github.com/op7418/guizang-ppt-skill
+category: frontend-design
+official: false
+agents: [claude-code, codex]
+tags: [presentations, html-slides, swiss-design, webgl]
+description:
+  en: Agent skill for generating editorial and Swiss-style HTML slide decks with image prompts and a WebGL presentation runtime.
+  zh: 生成杂志风与瑞士网格排版 HTML 幻灯片的 Agent 技能，自带配图提示词与 WebGL 演示运行时。

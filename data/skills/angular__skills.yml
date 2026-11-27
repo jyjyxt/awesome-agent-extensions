@@ -1,0 +1,9 @@
+name: Angular Official Skills
+repo: https://github.com/angular/skills
+category: frontend-design
+official: true
+agents: [universal]
+tags: [angular, frontend, typescript, web-framework]
+description:
+  en: Official Angular agent skills for building new Angular apps and following modern Angular development practices.
+  zh: Angular 官方 Agent 技能集，涵盖新项目搭建与现代 Angular 开发最佳实践。

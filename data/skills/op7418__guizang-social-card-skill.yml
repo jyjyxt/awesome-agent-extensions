@@ -1,0 +1,9 @@
+name: Guizang Social Card Skill
+repo: https://github.com/op7418/guizang-social-card-skill
+category: content-marketing
+official: false
+agents: [claude-code, codex]
+tags: [social-media, xiaohongshu, wechat, image-generation]
+description:
+  en: Skill for generating Xiaohongshu carousels and WeChat cover pairs with 28 editorial layouts and single-file HTML-to-PNG rendering.
+  zh: 面向小红书图文卡片与微信公众号封面的生成技能，内置 28 种排版与 10 套主题，支持 HTML 转 PNG 渲染。

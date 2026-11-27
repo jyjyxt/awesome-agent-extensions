@@ -1,0 +1,9 @@
+name: SwiftUI Agent Skill (AvdLee)
+repo: https://github.com/AvdLee/SwiftUI-Agent-Skill
+category: coding
+official: false
+agents: [universal]
+tags: [swiftui, ios, swift, best-practices]
+description:
+  en: Open-format agent skill providing expert SwiftUI best practices and architecture guidance for AI coding tools.
+  zh: 采用开放标准的 SwiftUI 专家技能，为 AI 编程工具提供 SwiftUI 最佳实践与架构指导。

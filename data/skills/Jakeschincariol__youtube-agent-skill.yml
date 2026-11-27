@@ -1,0 +1,9 @@
+name: YouTube Agent Skill
+repo: https://github.com/Jakeschincariol/youtube-agent-skill
+category: content-marketing
+official: false
+agents: [claude-code]
+tags: [youtube, video-production, scriptwriting, growth]
+description:
+  en: Eleven-skill Claude Code suite for YouTube channel operations covering hook scoring, title/thumbnail linting, retention analysis, and Shorts cutting.
+  zh: 包含 11 项 YouTube 频道运营技能的套件，涵盖开场钩子评分、标题封面校验、完播率分析与短视频切片。

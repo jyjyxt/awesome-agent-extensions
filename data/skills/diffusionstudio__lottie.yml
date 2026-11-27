@@ -1,0 +1,9 @@
+name: Diffusion Studio Lottie
+repo: https://github.com/diffusionstudio/lottie
+category: frontend-design
+official: true
+agents: [claude-code, codex, universal]
+tags: [official, lottie, animation, frontend]
+description:
+  en: Official Diffusion Studio skill for generating and previewing production-ready Lottie animations with Claude Code or Codex.
+  zh: Diffusion Studio 官方技能，支持使用 Claude Code 或 Codex 生成并预览生产级 Lottie 矢量动画。

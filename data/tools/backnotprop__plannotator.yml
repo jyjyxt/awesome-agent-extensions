@@ -1,0 +1,9 @@
+name: Plannotator
+repo: https://github.com/backnotprop/plannotator
+category: orchestration
+official: false
+agents: [claude-code, codex, opencode, universal]
+tags: [plan-review, code-review, human-in-the-loop, annotation]
+description:
+  en: Human-in-the-loop workspace for reviewing agent plans, annotating code diffs, sharing reviews, and sending structured feedback to coding agents.
+  zh: 人机协同工作台，用于审阅 Agent 规划、批注代码变更、团队共享并将反馈一键回传给编码代理。

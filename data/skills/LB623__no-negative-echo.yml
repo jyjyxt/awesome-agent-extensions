@@ -1,0 +1,9 @@
+name: No Negative Echo
+repo: https://github.com/LB623/no-negative-echo
+category: coding
+official: false
+agents: [codex]
+tags: [codex, git-commit, pull-requests, prompt-engineering]
+description:
+  en: Codex skill that writes titles, comments, commits, and PR descriptions purely from final outcomes without echoing rejected alternatives.
+  zh: 让 Codex 仅依据最终实现结果撰写标题、注释、提交信息与 PR 描述，消除被否决方案的冗余残留。

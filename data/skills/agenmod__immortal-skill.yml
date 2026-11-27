@@ -1,0 +1,9 @@
+name: Immortal Skill
+repo: https://github.com/agenmod/immortal-skill
+category: productivity
+official: false
+agents: [universal]
+tags: [digital-twin, persona, distillation, chat-archive]
+description:
+  en: Open-source digital-twin distillation skill that builds structured persona profiles from WeChat, Feishu, iMessage, and Telegram chat logs.
+  zh: 开源数字分身蒸馏技能，从微信、飞书、iMessage 与 Telegram 等聊天记录中提炼多维角色画像。

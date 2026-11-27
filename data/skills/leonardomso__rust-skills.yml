@@ -1,0 +1,9 @@
+name: Rust Skills
+repo: https://github.com/leonardomso/rust-skills
+category: coding
+official: false
+agents: [universal]
+tags: [rust, coding-guidelines, best-practices, code-quality]
+description:
+  en: Collection of 265 Rust rules across 26 categories helping AI coding agents write idiomatic, fast, and safe Rust.
+  zh: 包含 26 个类别共 265 条规则的 Rust 编程技能集，助力 AI 编写地道、高效且安全的 Rust 代码。

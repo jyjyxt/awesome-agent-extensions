@@ -1,0 +1,9 @@
+name: Ordinary Claude Skills
+repo: https://github.com/Microck/ordinary-claude-skills
+category: marketplaces-tooling
+official: false
+agents: [claude-code]
+tags: [claude-skills, skill-collection, curated-list, resources]
+description:
+  en: Categorized collection of Claude Skills and companion resources for everyday workflows.
+  zh: 按类别整理的 Claude Skills 技能与配套资源集合。

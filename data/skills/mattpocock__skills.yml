@@ -1,0 +1,9 @@
+name: Matt Pocock Skills
+repo: https://github.com/mattpocock/skills
+category: coding
+official: false
+agents: [universal]
+tags: [engineering, typescript, coding-workflows, skills]
+description:
+  en: "Practical software engineering agent skills curated from Matt Pocock's .agents directory."
+  zh: 由 Matt Pocock 整理的实战型软件工程 Agent 技能集合，覆盖日常研发工作流。

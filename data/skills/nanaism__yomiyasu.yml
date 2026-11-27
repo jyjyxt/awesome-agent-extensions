@@ -1,0 +1,9 @@
+name: Yomiyasu
+repo: https://github.com/nanaism/yomiyasu
+category: content-marketing
+official: false
+agents: [claude-code, codex, cursor]
+tags: [japanese, writing, humanizer, linter]
+description:
+  en: Agent skill and linter for refining AI-generated Japanese text into natural, readable Japanese prose.
+  zh: 用于将 AI 生成的日语文本推敲润色为自然流畅日语表达的 Agent 技能。

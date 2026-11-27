@@ -1,0 +1,9 @@
+name: DotNet Skills
+repo: https://github.com/managedcode/dotnet-skills
+category: coding
+official: false
+agents: [claude-code, codex, copilot, gemini-cli]
+tags: [dotnet, csharp, coding-skills, cli]
+description:
+  en: Comprehensive .NET skill collection with catalog, CLI, and orchestration agents for AI coding assistants.
+  zh: 面向 .NET 开发的 AI 编程技能合集，附带技能目录、CLI 工具与多端编排代理。

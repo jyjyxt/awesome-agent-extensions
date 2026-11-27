@@ -1,0 +1,9 @@
+name: Academic PPTX Skill
+repo: https://github.com/Gabberflast/academic-pptx-skill
+category: productivity
+official: false
+agents: [claude-code]
+tags: [academic, pptx, presentations, slides]
+description:
+  en: Claude skill for crafting academic conference talks, seminar slides, thesis defenses, and grant briefings with strict argument and citation standards.
+  zh: 面向学术报告、研讨会、论文答辩与基金汇报的 PPTX 制作技能，强化论点结构与引文规范。

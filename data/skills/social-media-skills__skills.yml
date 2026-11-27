@@ -1,0 +1,9 @@
+name: Social Media Skills
+repo: https://github.com/social-media-skills/skills
+category: content-marketing
+official: false
+agents: [universal]
+tags: [social-media, content-creation, growth, marketing]
+description:
+  en: Suite of 106 social media agent skills covering strategy, writing, video, design, publishing, and growth analytics.
+  zh: 包含 106 项社媒运营技能的 Agent 技能库，覆盖策略、写作、视频、设计、发布与增长分析。

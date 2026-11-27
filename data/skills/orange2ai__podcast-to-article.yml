@@ -1,0 +1,9 @@
+name: Podcast to Article
+repo: https://github.com/orange2ai/podcast-to-article
+category: content-marketing
+official: false
+agents: [universal]
+tags: [podcast, longform-writing, transcript, editing]
+description:
+  en: Agent skill that transforms multi-speaker podcast transcripts into structured, human-edited long-form articles.
+  zh: 将多人对谈播客逐字稿重构、校准、精简并去 AI 味整理为可发布长文的 Agent 技能。

@@ -1,0 +1,9 @@
+name: Agent Vision Toolkit
+repo: https://github.com/Anionex/agent-vision-toolkit
+category: marketplaces-tooling
+official: false
+agents: [claude-code, codex, opencode, dsh]
+tags: [vision, ocr, gui-automation, multimodal]
+description:
+  en: "Multimodal vision toolkit, proxy, and skill enabling text-only LLMs and CLI agents to perform image Q&A, OCR, UI restoration, and GUI automation."
+  zh: 为纯文本大模型与命令行 Agent 提供看图能力的视觉工具箱与技能，支持多图问答、长图 OCR、UI 还原与 GUI 自动化。

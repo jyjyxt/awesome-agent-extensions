@@ -1,0 +1,9 @@
+name: Make Interfaces Feel Better
+repo: https://github.com/jakubkrehel/make-interfaces-feel-better
+category: frontend-design
+official: false
+agents: [universal, claude-code]
+tags: [ui-design, micro-interactions, frontend, polish]
+description:
+  en: Focused UI polish skill guiding coding agents through subtle interaction details, transitions, and tactile interface refinements.
+  zh: 聚焦界面交互细节与质感打磨的 Agent 技能，引导编码代理优化微交互、过渡动画与操作手感。

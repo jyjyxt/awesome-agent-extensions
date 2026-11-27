@@ -1,0 +1,9 @@
+name: Swift Concurrency Agent Skill
+repo: https://github.com/AvdLee/Swift-Concurrency-Agent-Skill
+category: coding
+official: false
+agents: [universal]
+tags: [swift, swift-concurrency, async-await, ios]
+description:
+  en: Open-format agent skill delivering expert guidance on Swift Concurrency, actors, performance optimization, and Swift 6 migration.
+  zh: 提供 Swift 并发编程、Actor 安全模型、性能优化及 Swift 6 迁移指导的开放格式 Agent 技能。

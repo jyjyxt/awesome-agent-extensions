@@ -1,0 +1,10 @@
+name: Claude Mem
+repo: https://github.com/thedotmack/claude-mem
+category: orchestration
+official: false
+agents: [claude-code, codex, cursor, gemini-cli, copilot, opencode]
+includes: [tools]
+tags: [memory, persistent-context, session-history, context-compression]
+description:
+  en: Persistent cross-session memory plugin that captures, compresses, and injects relevant agent context.
+  zh: 跨会话持久化记忆插件，自动捕获并压缩 Agent 操作上下文，在后续会话中按需注入。

@@ -1,0 +1,10 @@
+name: Claude Skills Engineering Marketplace
+repo: https://github.com/mhattingpete/claude-skills-marketplace
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [git-automation, code-review, testing, marketplace]
+description:
+  en: Claude Code plugin marketplace providing engineering workflow plugins for Git automation, testing, code review, and visual docs.
+  zh: 面向软件工程工作流的 Claude Code 插件市场，涵盖 Git 自动化、测试、代码审查与可视化文档。

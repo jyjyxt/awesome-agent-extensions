@@ -1,0 +1,9 @@
+name: Huashu Art Motion
+repo: https://github.com/alchaincyf/huashu-art-motion
+category: content-marketing
+official: false
+agents: [universal, claude-code, codex]
+tags: [motion-graphics, animation, explainer-video, generative-art]
+description:
+  en: Code-driven art animation skill offering 35 artistic visual styles and 9 explainer motion grammars.
+  zh: 艺术动画生成技能，提供 35 种艺术风格与 9 种解说动画语法，用代码驱动画面动态呈现。

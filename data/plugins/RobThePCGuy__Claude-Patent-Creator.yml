@@ -1,0 +1,10 @@
+name: Claude Patent Creator
+repo: https://github.com/RobThePCGuy/Claude-Patent-Creator
+category: data-research
+official: false
+agents: [claude-code]
+includes: [skills, mcp, subagents]
+tags: [patents, uspto, rag, legal-tech]
+description:
+  en: USPTO patent drafting and prior-art research system combining an MCP server, RAG search, autonomous agents, and Claude Code skills.
+  zh: 集成 MCP 服务器、混合 RAG 检索与自主代理的美国专利撰写与检索 Claude Code 插件系统。

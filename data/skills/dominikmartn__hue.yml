@@ -1,0 +1,9 @@
+name: Hue
+repo: https://github.com/dominikmartn/hue
+category: frontend-design
+official: false
+agents: [claude-code, codex]
+tags: [design-system, branding, design-language, ui-design]
+description:
+  en: Open-source skill that learns any brand identity and turns it into a reusable design system so every agent-built UI stays on-brand.
+  zh: 开源品牌设计系统学习技能，提取任意品牌视觉规范，让编程 Agent 生成的每个界面都保持品牌一致性。

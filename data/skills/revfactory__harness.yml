@@ -1,0 +1,9 @@
+name: Harness Meta-Skill
+repo: https://github.com/revfactory/harness
+category: orchestration
+official: false
+agents: [claude-code]
+tags: [meta-skill, agent-teams, harness, orchestration]
+description:
+  en: Meta-skill for Claude Code that architects domain-specific agent teams, defines specialized subagents, and generates their supporting skills.
+  zh: 面向 Claude Code 的元技能，用于设计领域专属 Agent 团队、定义专业子代理并自动生成配套技能。

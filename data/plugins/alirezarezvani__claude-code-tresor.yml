@@ -1,0 +1,10 @@
+name: Claude Code Tresor
+repo: https://github.com/alirezarezvani/claude-code-tresor
+category: coding
+official: false
+agents: [claude-code, cursor]
+includes: [skills, subagents]
+tags: [claude-code, subagents, slash-commands, workflow]
+description:
+  en: Comprehensive collection of Claude Code skills, expert subagents, slash commands, and workflow prompts.
+  zh: 集成自主技能、专家子代理、斜杠命令与提示词的 Claude Code 研发效率合集。

@@ -1,0 +1,9 @@
+name: Jinba Consulting PPTX Skill
+repo: https://github.com/carnot-tech/jinba-consulting-pptx-skill
+category: productivity
+official: false
+agents: [claude-code, codex]
+tags: [pptx, consulting, presentations, slides]
+description:
+  en: Claude Code and Codex skill for producing consulting-grade PowerPoint decks with structured layouts and executive polish.
+  zh: 面向 Claude Code 与 Codex 的咨询级 PPTX 生成技能，输出结构严谨、版式专业的商务演示文稿。

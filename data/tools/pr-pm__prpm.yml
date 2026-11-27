@@ -1,0 +1,9 @@
+name: PRPM
+repo: https://github.com/pr-pm/prpm
+category: marketplaces-tooling
+official: false
+agents: [universal]
+tags: [package-manager, skill-registry, prompts, cli]
+description:
+  en: Universal package manager and registry for discovering and installing prompts, rules, and skills across AI coding tools.
+  zh: 面向各类 AI 编程工具的通用提示词、规则与技能包管理器及注册中心。

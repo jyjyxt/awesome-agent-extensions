@@ -1,0 +1,10 @@
+name: UI Craft
+repo: https://github.com/educlopez/ui-craft
+category: frontend-design
+official: false
+agents: [universal]
+includes: [skills, mcp, subagents]
+tags: [design-engineering, ui-design, design-system, anti-slop]
+description:
+  en: Design engineering system for AI coding agents combining skills, rules, MCP tools, and workflows for craft-level UI.
+  zh: 面向 AI 编程代理的设计工程系统，集成技能、规则与 MCP 工具以交付高质感 UI。

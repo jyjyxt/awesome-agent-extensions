@@ -1,0 +1,9 @@
+name: Marp Slides Skill
+repo: https://github.com/robonuggets/marp-slides
+category: productivity
+official: false
+agents: [claude-code]
+tags: [marp, presentations, slides, markdown]
+description:
+  en: Claude Code skill for building Marp Markdown presentations with curated decks, SVG charts, and dashboard components.
+  zh: 用于制作 Marp Markdown 演示文稿的 Claude Code 技能，内置 22 套示例模板、SVG 图表与仪表盘组件。

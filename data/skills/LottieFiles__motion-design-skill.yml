@@ -1,0 +1,9 @@
+name: LottieFiles Motion Design Skill
+repo: https://github.com/LottieFiles/motion-design-skill
+category: frontend-design
+official: true
+agents: [universal]
+tags: [motion-design, animation, lottie, ui]
+description:
+  en: Official LottieFiles skill teaching universal UI motion design principles including timing, easing, choreography, and animation craft.
+  zh: LottieFiles 官方动效设计技能，将时间节奏、缓动曲线、编排及经典动画原则应用于 UI 动效。

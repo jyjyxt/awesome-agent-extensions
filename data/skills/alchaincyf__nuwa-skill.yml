@@ -1,0 +1,9 @@
+name: Nuwa Skill
+repo: https://github.com/alchaincyf/nuwa-skill
+category: productivity
+official: false
+agents: [claude-code, codex, cursor, dsh]
+tags: [persona-distillation, mental-models, decision-making, meta-skill]
+description:
+  en: "Meta-skill that distills anyone's mental models, decision heuristics, and expression DNA into a reusable agent skill."
+  zh: 女娲元技能，可将特定人物的心智模型、决策启发式与表达 DNA 蒸馏为可复用的 Agent 技能。

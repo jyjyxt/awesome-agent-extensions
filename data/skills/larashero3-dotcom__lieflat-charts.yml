@@ -1,0 +1,9 @@
+name: Lieflat Charts
+repo: https://github.com/larashero3-dotcom/lieflat-charts
+category: data-research
+official: false
+agents: [universal, claude-code, codex]
+tags: [data-visualization, charts, html, svg]
+description:
+  en: Data visualization skill that transforms datasets into polished, interactive HTML and SVG charts and presentation reports.
+  zh: 面向 AI Agent 的数据可视化技能，将数据快速生成精致且可交互的 HTML/SVG 图表与报告。

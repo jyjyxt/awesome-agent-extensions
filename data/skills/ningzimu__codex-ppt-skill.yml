@@ -1,0 +1,9 @@
+name: Codex PPT Skill
+repo: https://github.com/ningzimu/codex-ppt-skill
+category: productivity
+official: false
+agents: [universal, codex, claude-code]
+tags: [presentations, pptx, slides, gpt-image]
+description:
+  en: Agent skill for generating image-based PowerPoint presentations with GPT-Image-2 across Codex and compatible harnesses.
+  zh: 基于 GPT-Image-2 生成高视觉表现力 PPT 演示文稿的技能，兼容 Codex 及主流 Agent 工具。

@@ -1,0 +1,9 @@
+name: SeeCode
+repo: https://github.com/Aryanutkarsh/SeeCode
+category: coding
+official: false
+agents: [universal]
+tags: [architecture-diagrams, data-visualization, interactive-diagrams, coding-agents]
+description:
+  en: Generates animated, explorable architecture and system diagrams from concise JSON specs directly within AI coding agents.
+  zh: 由编程 Agent 通过简短 JSON 规范生成可交互、带动画的架构与系统原理图表的技能。

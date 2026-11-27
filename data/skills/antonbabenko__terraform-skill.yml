@@ -1,0 +1,9 @@
+name: Terraform Skill
+repo: https://github.com/antonbabenko/terraform-skill
+category: cloud-devops
+official: false
+agents: [universal]
+tags: [terraform, opentofu, iac, devops]
+description:
+  en: Terraform and OpenTofu agent skill covering module design, automated testing, CI/CD workflows, and production IaC patterns.
+  zh: 涵盖模块设计、自动化测试、CI/CD 流程与生产级基础设施实践的 Terraform 与 OpenTofu Agent 技能。

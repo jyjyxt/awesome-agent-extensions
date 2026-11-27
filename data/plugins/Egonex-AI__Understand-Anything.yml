@@ -1,0 +1,10 @@
+name: Understand Anything
+repo: https://github.com/Egonex-AI/Understand-Anything
+category: coding
+official: false
+agents: [claude-code, codex, cursor, copilot, gemini-cli, opencode, antigravity]
+includes: [skills, tools]
+tags: [knowledge-graph, code-comprehension, visualization, onboarding]
+description:
+  en: Multi-agent plugin that converts any codebase into a searchable, interactive knowledge graph.
+  zh: 将任意代码库转换为可检索、可提问的交互式知识图谱的多端 Agent 插件。

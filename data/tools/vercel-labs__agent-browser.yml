@@ -1,0 +1,9 @@
+name: Agent Browser
+repo: https://github.com/vercel-labs/agent-browser
+category: coding
+official: true
+agents: [universal]
+tags: [browser-automation, cli, testing, headless-browser]
+description:
+  en: Official Vercel headless browser automation CLI and skill designed for AI coding agents.
+  zh: Vercel 官方推出的面向 AI Agent 的无头浏览器自动化命令行工具与配套技能。

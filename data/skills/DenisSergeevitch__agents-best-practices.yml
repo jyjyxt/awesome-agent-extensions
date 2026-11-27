@@ -1,0 +1,9 @@
+name: Agents Best Practices
+repo: https://github.com/DenisSergeevitch/agents-best-practices
+category: orchestration
+official: false
+agents: [universal]
+tags: [agentic-workflows, harness-design, best-practices, prompt-engineering]
+description:
+  en: Provider-neutral agent skill distilling proven patterns for Codex, Claude Code, and reliable agentic harness architecture.
+  zh: 跨模型厂商的 Agent 最佳实践技能，沉淀 Codex、Claude Code 与高可靠智能体执行框架设计规范。

@@ -1,0 +1,9 @@
+name: Pixel2Motion
+repo: https://github.com/nolangz/pixel2motion
+category: frontend-design
+official: false
+agents: [claude-code, codex]
+tags: [logo-animation, svg-animation, motion-design, raster-to-svg]
+description:
+  en: AI logo animation skill that converts raster logos into vector SVG animations, interactive HTML demos, and GIF/video previews.
+  zh: AI Logo 动效技能，可将位图标志转化为流畅的 SVG 矢量动画、HTML 演示及 GIF/视频预览。

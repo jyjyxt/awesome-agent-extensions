@@ -1,0 +1,9 @@
+name: MengTo Design Skills
+repo: https://github.com/MengTo/Skills
+category: frontend-design
+official: false
+agents: [universal, claude-code, codex, cursor]
+tags: [ui-design, design-systems, frontend, swiftui]
+description:
+  en: Design and UI engineering skills by Meng To for building visually polished apps and interfaces with coding agents.
+  zh: 由 Meng To 整理的界面设计与构建技能集，帮助设计师和开发者借助编码代理打造高质感应用界面。

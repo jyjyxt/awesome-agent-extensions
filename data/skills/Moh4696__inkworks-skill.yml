@@ -1,0 +1,9 @@
+name: Inkworks Skill
+repo: https://github.com/Moh4696/inkworks-skill
+category: frontend-design
+official: false
+agents: [universal]
+tags: [threejs, 3d, interactive-docs, explainer]
+description:
+  en: Agent skill for building interactive 3D how-it-works explainer pages styled like engineering blueprints.
+  zh: 用于生成工程图纸风格交互式 3D 原理解析页面的 Agent 技能。

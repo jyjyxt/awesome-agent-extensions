@@ -1,0 +1,10 @@
+name: Academic Research Skills
+repo: https://github.com/Imbad0202/academic-research-skills
+category: data-research
+official: false
+agents: [claude-code]
+includes: [skills, subagents]
+tags: [academic-writing, literature-review, peer-review, research]
+description:
+  en: End-to-end academic research plugin for Claude Code covering literature review, writing, peer review, and revision.
+  zh: 覆盖文献检索、论文撰写、同行评审与修改定稿全流程的 Claude Code 学术研究插件。

@@ -1,0 +1,9 @@
+name: Garden Skills
+repo: https://github.com/ConardLi/garden-skills
+category: productivity
+official: false
+agents: [claude-code]
+tags: [web-design, rag, image-generation, skills]
+description:
+  en: Open-source skills collection by ConardLi featuring web design, knowledge retrieval, and image generation.
+  zh: ConardLi 开源的实用 Agent 技能合集，覆盖网页设计、知识检索与图像生成等场景。

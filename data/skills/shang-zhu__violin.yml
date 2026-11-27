@@ -1,0 +1,9 @@
+name: Violin
+repo: https://github.com/shang-zhu/violin
+category: content-marketing
+official: false
+agents: [claude-code]
+tags: [video-translation, dubbing, asr, localization]
+description:
+  en: Open-source video translation and AI dubbing skill combining speech recognition, translation prompts, and automated audio pipeline.
+  zh: 开源视频翻译与配音技能，整合语音识别、翻译提示词与自动化音视频合成管线。

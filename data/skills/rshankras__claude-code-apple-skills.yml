@@ -1,0 +1,9 @@
+name: Claude Code Apple Skills
+repo: https://github.com/rshankras/claude-code-apple-skills
+category: coding
+official: false
+agents: [claude-code]
+tags: [apple, ios, macos, app-store]
+description:
+  en: Claude Code skills for Apple platform development across iOS, macOS, and iPadOS, including code generation and ASO.
+  zh: 面向 iOS、macOS 和 iPadOS 苹果生态开发的 Claude Code 技能集，涵盖代码生成与 App Store 优化。

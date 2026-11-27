@@ -1,0 +1,9 @@
+name: Geo-Sleuth
+repo: https://github.com/Oldcircle/geo-sleuth
+category: data-research
+official: false
+agents: [claude-code, codex, cursor, gemini-cli, opencode, copilot]
+tags: [geolocation, osint, openstreetmap, vision]
+description:
+  en: OSINT photo geolocation skill combining OpenStreetMap geometry, elevation skylines, satellite imagery, and street view with verifiable reasoning.
+  zh: 结合 OpenStreetMap 几何特征、地形天际线、卫星图与街景进行照片地理位置溯源的 OSINT 技能。

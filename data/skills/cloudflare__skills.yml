@@ -1,0 +1,9 @@
+name: Cloudflare Skills
+repo: https://github.com/cloudflare/skills
+category: cloud-devops
+official: true
+agents: [universal]
+tags: [cloudflare, workers, serverless, cloud]
+description:
+  en: Official Cloudflare agent skills and rules teaching AI assistants how to build and deploy on Cloudflare Workers and developer platform.
+  zh: Cloudflare 官方 Agent 技能集，指导 AI 助手基于 Cloudflare Workers 及开发者平台进行构建与部署。

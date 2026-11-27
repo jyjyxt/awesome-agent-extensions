@@ -1,0 +1,10 @@
+name: Caveman
+repo: https://github.com/JuliusBrussee/caveman
+category: coding
+official: false
+agents: [claude-code, codex, cursor, gemini-cli]
+includes: [skills, subagents, mcp, tools]
+tags: [token-optimization, proxy, prompt-compression, concise-output]
+description:
+  en: Token-saving skill and local proxy that delivers concise answers and smaller tool outputs with full recovery.
+  zh: 通过极简表达技能与本地代理压缩工具输出，大幅降低编码 Agent Token 消耗且可无损还原原文。

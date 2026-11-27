@@ -1,0 +1,10 @@
+name: ModLens
+repo: https://github.com/liustack/modlens
+category: coding
+official: false
+agents: [dsh, claude-code, codex, universal]
+includes: [skills]
+tags: [dsh-plugin, vision, ocr, deepseek]
+description:
+  en: Vision plugin and skill bridge for DeepSeek Harness and text-only coding agents, converting pasted images into structured OCR and layout JSON.
+  zh: DeepSeek Harness 外挂视觉插件与技能桥接器，为纯文本编码代理提供图片 OCR、版面与语义结构化解析。

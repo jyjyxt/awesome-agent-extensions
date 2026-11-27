@@ -1,0 +1,9 @@
+name: I Have ADHD
+repo: https://github.com/ayghri/i-have-adhd
+category: productivity
+official: false
+agents: [claude-code, codex, cursor, gemini-cli, opencode]
+tags: [accessibility, adhd, output-formatting, productivity]
+description:
+  en: Agent skill that restructures coding agent responses into concise, ADHD-friendly, front-loaded answers.
+  zh: 优化编码 Agent 回复结构的实用技能，避免冗长铺垫，以清晰直观的 ADHD 友好格式直出重点。

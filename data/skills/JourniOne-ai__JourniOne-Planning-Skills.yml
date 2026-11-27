@@ -1,0 +1,9 @@
+name: JourniOne Planning Skills
+repo: https://github.com/JourniOne-ai/JourniOne-Planning-Skills
+category: productivity
+official: false
+agents: [universal]
+tags: [travel-planning, itinerary, travel-journal, lifestyle]
+description:
+  en: Travel planning agent skill for turning ideas into day-by-day itineraries, mapped travel journals, and hotel or flight booking flows.
+  zh: 旅行规划 Agent 技能，从行程灵感到逐日路线、带地图的可分享旅行手账，并按需衔接酒店与航班预订。

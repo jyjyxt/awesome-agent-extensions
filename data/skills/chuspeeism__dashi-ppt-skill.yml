@@ -1,0 +1,9 @@
+name: Dashi PPT Skill
+repo: https://github.com/chuspeeism/dashi-ppt-skill
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [presentations, pptx, slides, html]
+description:
+  en: Presentation generation skill producing browser-editable decks across multiple visual themes with HTML, PDF, and PPTX export.
+  zh: 支持多套视觉主题的演示文稿生成技能，可在浏览器中在线编辑并导出为 HTML、PDF 与 PPTX。

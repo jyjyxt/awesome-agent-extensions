@@ -1,0 +1,9 @@
+name: Color Expert Skill
+repo: https://github.com/meodai/skill.color-expert
+category: frontend-design
+official: false
+agents: [universal]
+tags: [color-science, accessibility, palettes, wcag]
+description:
+  en: Agent skill for color science covering color spaces, APCA/WCAG accessibility, palette generation, and pigment mixing.
+  zh: 涵盖色彩空间、APCA/WCAG 无障碍对比度、配色方案生成与颜料混合的色彩科学 Agent 技能。

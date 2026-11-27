@@ -1,0 +1,9 @@
+name: Boss Zhipin Scraper
+repo: https://github.com/eatmoreduck/boss-zhipin-scraper
+category: data-research
+official: false
+agents: [universal]
+tags: [job-scraper, chrome-cdp, data-extraction, boss-zhipin]
+description:
+  en: Chrome-CDP-based BOSS Zhipin job scraper skill and tool that bypasses font obfuscation to export plaintext salary data and skill analytics.
+  zh: 基于 Chrome CDP 协议的 Boss 直聘职位抓取技能与工具，绕过字体反爬并输出明文薪资 JSON/CSV 与技能分析。

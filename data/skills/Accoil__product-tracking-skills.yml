@@ -1,0 +1,9 @@
+name: Accoil Product Tracking Skills
+repo: https://github.com/Accoil/product-tracking-skills
+category: data-research
+official: true
+agents: [universal]
+tags: [product-analytics, tracking-plan, instrumentation, segment]
+description:
+  en: Official Accoil agent skills that scan codebases, design tracking plans, and generate analytics instrumentation for 25+ destinations.
+  zh: Accoil 官方产品埋点分析技能集，可扫描代码库、设计埋点方案并生成多平台分析埋点代码。

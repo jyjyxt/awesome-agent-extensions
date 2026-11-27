@@ -1,0 +1,10 @@
+name: "AIWG (AI Writing & Workflow Guide)"
+repo: https://github.com/jmagly/aiwg
+category: orchestration
+official: false
+agents: [claude-code, codex, copilot, cursor, windsurf]
+includes: [skills, mcp, subagents]
+tags: [sdlc, multi-agent, workflows, session-memory]
+description:
+  en: Multi-agent SDLC framework bundling specialist agents, skills, rules, MCP tools, and session memory across coding tools.
+  zh: 跨端多智能体 SDLC 工作流框架，集成专家代理、技能、规则、MCP 工具与会话记忆。

@@ -1,0 +1,9 @@
+name: Not-Ai Writing Skill
+repo: https://github.com/udaysharmadev/Not-Ai
+category: content-marketing
+official: false
+agents: [universal]
+tags: [ai-humanizer, copywriting, technical-writing, editing]
+description:
+  en: Writing agent skill focused on clear, honest, human-standard prose for essays, social posts, emails, and READMEs.
+  zh: 注重自然真实文风的写作 Agent 技能，适用于文章、社交动态、邮件与 GitHub README 润色。

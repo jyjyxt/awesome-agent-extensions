@@ -1,0 +1,9 @@
+name: memU
+repo: https://github.com/NevaMind-AI/memU
+category: orchestration
+official: false
+agents: [universal, claude-code]
+tags: [agent-memory, mcp, personal-memory, context]
+description:
+  en: Cross-agent personal memory framework with MCP support and skill definitions for persistent context across coding and assistant harnesses.
+  zh: 跨 Agent 个人记忆层与框架，提供 MCP 与 Skill 支持，为各类编码及通用代理提供持久化上下文记忆。

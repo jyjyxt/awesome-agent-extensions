@@ -1,0 +1,9 @@
+name: LLM Wiki Compiler
+repo: https://github.com/atomicstrata/llm-wiki-compiler
+category: data-research
+official: false
+agents: [universal]
+tags: [knowledge-base, wiki, context-engineering, cli]
+description:
+  en: "CLI knowledge compiler and agent skill that transforms raw documents into an interlinked Markdown wiki inspired by Karpathy's LLM Wiki pattern."
+  zh: 受 Karpathy LLM Wiki 模式启发的知识编译器与技能，将原始资料编译为互相链接的 Markdown 知识库。

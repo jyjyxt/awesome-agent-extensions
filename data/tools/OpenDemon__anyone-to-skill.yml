@@ -1,0 +1,9 @@
+name: Anyone to Skill
+repo: https://github.com/OpenDemon/anyone-to-skill
+category: marketplaces-tooling
+official: false
+agents: [universal]
+tags: [skill-generator, persona-distillation, skill-md, knowledge-extraction]
+description:
+  en: "Tool that distills a person's mental models, heuristics, and style from videos, PDFs, or chats into an executable SKILL.md."
+  zh: 从视频、PDF、电子书或聊天记录中提取人物心智模型与表达风格并生成 SKILL.md 的技能蒸馏工具。

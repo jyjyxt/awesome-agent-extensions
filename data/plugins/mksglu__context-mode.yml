@@ -1,0 +1,10 @@
+name: Context Mode
+repo: https://github.com/mksglu/context-mode
+category: orchestration
+official: false
+agents: [claude-code, codex, gemini-cli, copilot, opencode, antigravity]
+includes: [skills, mcp, tools]
+tags: [context-management, token-savings, sandbox, sqlite-fts]
+description:
+  en: Zero-telemetry local plugin using sandboxing and SQLite FTS5 search to keep bulky tool outputs out of agent context.
+  zh: 零遥测本地上下文优化插件，利用沙箱与 SQLite FTS5 检索将冗长工具输出隔离在上下文窗口之外。

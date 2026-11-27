@@ -1,0 +1,10 @@
+name: Obsidian Second Brain
+repo: https://github.com/eugeniughelbur/obsidian-second-brain
+category: orchestration
+official: false
+agents: [claude-code, codex, cursor, universal]
+includes: [skills]
+tags: [obsidian, persistent-memory, second-brain, multi-agent]
+description:
+  en: Cross-agent persistent memory plugin storing markdown notes in Obsidian with 48 commands, semantic search, hooks, and a shared Crew logbook.
+  zh: 基于 Obsidian Markdown 的跨代理持久化记忆插件，提供 48 条指令、语义检索、钩子及多端共享日志。

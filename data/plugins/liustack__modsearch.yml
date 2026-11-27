@@ -1,0 +1,10 @@
+name: ModSearch
+repo: https://github.com/liustack/modsearch
+category: data-research
+official: false
+agents: [dsh, claude-code, codex, opencode]
+includes: [skills, tools]
+tags: [web-search, deepseek-harness, research, web-scraping]
+description:
+  en: Free, zero-API-key web and X search plugin and skill bridge returning structured JSON evidence for DeepSeek Harness and coding agents.
+  zh: 免费免 API Key 的联网搜索插件与技能桥接工具，为 DeepSeek Harness 等模型返回带引用的结构化 JSON 网页与 X 搜索证据。

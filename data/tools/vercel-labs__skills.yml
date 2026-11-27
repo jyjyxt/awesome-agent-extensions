@@ -1,0 +1,9 @@
+name: Vercel Skills CLI
+repo: https://github.com/vercel-labs/skills
+category: marketplaces-tooling
+official: true
+agents: [universal]
+tags: [skills-cli, package-manager, registry, agent-skills]
+description:
+  en: "Official open CLI (`npx skills`) for discovering, installing, and managing cross-agent skills from skills.sh."
+  zh: Vercel 官方开源的跨端 Agent 技能管理工具（npx skills），用于检索、安装与管理技能包。

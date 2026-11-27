@@ -1,0 +1,9 @@
+name: Sleek Design Agent Skills
+repo: https://github.com/sleekdotdesign/agent-skills
+category: frontend-design
+official: true
+agents: [universal]
+tags: [mobile-design, ui-design, rest-api, sleek]
+description:
+  en: Official Sleek agent skill for creating and editing mobile app screen designs via the Sleek REST API.
+  zh: Sleek 官方 Agent 技能，通过 REST API 创建和编辑移动应用界面设计并导出截图与 HTML。

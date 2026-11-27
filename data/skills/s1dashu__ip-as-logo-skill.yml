@@ -1,0 +1,9 @@
+name: IP as Logo Skill
+repo: https://github.com/s1dashu/ip-as-logo-skill
+category: frontend-design
+official: false
+agents: [universal, codex]
+tags: [logo-design, mascot, image-generation, branding]
+description:
+  en: Compact agent skill for designing simplified, rounded, subtly neo-skeuomorphic IP mascot logos.
+  zh: 专注于生成圆润极简、轻拟物风格 IP 吉祥物 Logo 的轻量级 Agent 技能。

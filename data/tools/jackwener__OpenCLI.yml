@@ -1,0 +1,9 @@
+name: OpenCLI
+repo: https://github.com/jackwener/OpenCLI
+category: coding
+official: false
+agents: [universal]
+tags: [browser-automation, cli, web-scraping, playwright]
+description:
+  en: CLI and browser extension turning any website into structured terminal commands using your logged-in browser session.
+  zh: 将任意网站转化为命令行工具并复用已登录浏览器会话的 Agent 自动化工具与扩展。

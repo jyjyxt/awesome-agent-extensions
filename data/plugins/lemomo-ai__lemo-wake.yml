@@ -1,0 +1,10 @@
+name: Lemo Wake
+repo: https://github.com/lemomo-ai/lemo-wake
+category: content-marketing
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [image-animation, gif, motion-design, claude-code-plugin]
+description:
+  en: Claude Code plugin that turns a single still image into a ~5-second seamless looping MP4, GIF, WebP, or Live Photo.
+  zh: 将单张静态图片转化为约 5 秒无缝循环动图（MP4/GIF/WebP/Live Photo）的 Claude Code 插件。

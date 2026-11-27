@@ -1,0 +1,9 @@
+name: Oil UI
+repo: https://github.com/oil-oil/oil-ui
+category: frontend-design
+official: false
+agents: [universal]
+tags: [ui-design, ux-design, frontend, visual-comparison]
+description:
+  en: UI design skill for exploring distinct visual directions, comparing variants side by side, and refining interfaces against real screenshots.
+  zh: 面向 AI Agent 的 UI 设计技能，支持探索多种视觉方向、并排对比并基于真实截图迭代打磨。

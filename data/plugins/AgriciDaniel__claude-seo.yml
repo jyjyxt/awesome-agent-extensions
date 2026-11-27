@@ -1,0 +1,10 @@
+name: Claude SEO
+repo: https://github.com/AgriciDaniel/claude-seo
+category: content-marketing
+official: false
+agents: [claude-code]
+includes: [skills, subagents]
+tags: [seo, geo, technical-seo, marketing]
+description:
+  en: Comprehensive Claude Code SEO plugin bundling 26 sub-skills and 19 sub-agents for technical SEO, GEO, and reporting.
+  zh: 集成 26 个子技能与 19 个子代理的 Claude Code 全栈 SEO 插件，覆盖技术 SEO、GEO 优化与报表生成。

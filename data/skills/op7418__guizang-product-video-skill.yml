@@ -1,0 +1,9 @@
+name: Guizang Product Video Skill
+repo: https://github.com/op7418/guizang-product-video-skill
+category: content-marketing
+official: false
+agents: [claude-code, codex]
+tags: [product-video, motion-design, release-notes, hyperframes]
+description:
+  en: Product launch video skill that reuses real UI components and design language with storyboards, original soundtrack, SFX, and rendering.
+  zh: 归藏出品的产品宣传片技能，复用真实产品组件与设计语言，一站式完成分镜文案、原创配乐、音效与视频渲染。

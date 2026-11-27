@@ -1,0 +1,9 @@
+name: Design DNA
+repo: https://github.com/zanwei/design-dna
+category: frontend-design
+official: false
+agents: [universal]
+tags: [design-tokens, design-system, ui-design, visual-design]
+description:
+  en: Extracts quantified Design DNA JSON tokens, style traits, and visual effects from reference UIs to generate matching interfaces.
+  zh: 从参考界面图片或链接中提取量化 Design DNA 令牌与视觉特征，并据此生成风格一致的新界面。

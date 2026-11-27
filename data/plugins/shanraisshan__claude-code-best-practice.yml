@@ -1,0 +1,10 @@
+name: Claude Code Best Practice
+repo: https://github.com/shanraisshan/claude-code-best-practice
+category: coding
+official: false
+agents: [claude-code, codex]
+includes: [skills, subagents, mcp]
+tags: [best-practices, agent-teams, workflows, claude-code]
+description:
+  en: Curated Claude Code workflows, agent teams, commands, skills, and MCP setups for structured agentic engineering.
+  zh: 面向工程化开发的 Claude Code 最佳实践集合，涵盖 Agent 团队、指令、技能与 MCP 编排工作流。

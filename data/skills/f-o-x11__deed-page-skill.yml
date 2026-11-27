@@ -1,0 +1,11 @@
+name: deed.page
+repo: https://github.com/f-o-x11/deed-page-skill
+category: productivity
+official: false
+agents: [universal, claude-code, codex, cursor, gemini-cli, copilot]
+tags: [publishing, hosting, html, share]
+install:
+  skills-cli: npx skills add f-o-x11/deed-page-skill
+description:
+  en: Publish a file or folder to a permanent public URL with one curl request or the hosted MCP server, no account needed.
+  zh: 通过一次 curl 请求或托管的 MCP 服务器，将文件或文件夹发布到永久公开网址，无需账号。

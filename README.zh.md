@@ -6,6 +6,12 @@
 
 [English](README.md) | **简体中文**
 
+### Claude Code Plugins
+
+Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Subagents、Hooks、MCP 服务及完整工作流组合在一起。适合需要复用和分发一套 Agent 工作流的场景。
+
+浏览 [全部插件 (40)](docs/plugins.zh.md)，使用 `/plugin install <owner>/<repo>` 安装单个插件，或使用 `/plugin marketplace add <owner>/<repo>` 添加插件市场。
+
 ## 快速入口
 
 - [Plugins（复合插件） (40)](docs/plugins.zh.md) · [Skills（技能包） (247)](docs/skills.zh.md) · [MCP / Connectors (26)](docs/mcp.zh.md) · [Subagents（子代理） (18)](docs/subagents.zh.md) · [扩展管理工具 (52)](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)

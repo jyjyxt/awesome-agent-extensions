@@ -6,6 +6,12 @@
 
 **English** | [简体中文](README.zh.md)
 
+### Claude Code Plugins
+
+Claude Code plugins are installable extension bundles that can combine Skills, slash commands, subagents, hooks, MCP servers, and complete workflows. They are useful when you want to reuse and distribute a repeatable agent workflow.
+
+Browse [all plugins (40)](docs/plugins.md), install one with `/plugin install <owner>/<repo>`, or add a marketplace with `/plugin marketplace add <owner>/<repo>`.
+
 ## Quick Views
 
 - [Plugins (40)](docs/plugins.md) · [Skills (247)](docs/skills.md) · [MCP & Connectors (26)](docs/mcp.md) · [Subagents (18)](docs/subagents.md) · [Extension Tooling (52)](docs/tools.md) · [Browse by Agent](docs/by-agent.md)

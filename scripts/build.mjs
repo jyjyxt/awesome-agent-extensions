@@ -123,6 +123,27 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
   );
   lines.push(isZh ? '[English](README.md) | **简体中文**\n' : '**English** | [简体中文](README.zh.md)\n');
 
+  const pluginCount = entries.filter((e) => e.kind === 'plugins').length;
+  lines.push(
+    isZh
+      ? [
+          '### Claude Code Plugins',
+          '',
+          `Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Subagents、Hooks、MCP 服务及完整工作流组合在一起。适合需要复用和分发一套 Agent 工作流的场景。`,
+          '',
+          `浏览 [全部插件 (${pluginCount})](docs/plugins.zh.md)，使用 \`/plugin install <owner>/<repo>\` 安装单个插件，或使用 \`/plugin marketplace add <owner>/<repo>\` 添加插件市场。`,
+          '',
+        ].join('\n')
+      : [
+          '### Claude Code Plugins',
+          '',
+          `Claude Code plugins are installable extension bundles that can combine Skills, slash commands, subagents, hooks, MCP servers, and complete workflows. They are useful when you want to reuse and distribute a repeatable agent workflow.`,
+          '',
+          `Browse [all plugins (${pluginCount})](docs/plugins.md), install one with \`/plugin install <owner>/<repo>\`, or add a marketplace with \`/plugin marketplace add <owner>/<repo>\`.`,
+          '',
+        ].join('\n')
+  );
+
   // Browse by type & agent bar
   lines.push(isZh ? '## 快速入口\n' : '## Quick Views\n');
   const viewLinks = [

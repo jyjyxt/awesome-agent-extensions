@@ -20,6 +20,7 @@
 | **[Repomix](https://github.com/yamadashy/repomix)** | CLI and MCP tool that packs an entire repository into a single AI-friendly context file for LLMs and coding agents. | `Universal` | `codebase-packing` `context` `cli` | ⭐ 29.5k<br><sub>2026-11-26</sub> |
 | **[Worktrunk](https://github.com/max-sixty/worktrunk)** | Rust CLI and agent extension for managing Git worktrees in parallel AI coding agent workflows. | `Universal` `Claude Code` `Codex` `Gemini CLI` | `git-worktree` `cli` `parallel-agents` | ⭐ 12.8k<br><sub>2026-11-26</sub> |
 | **[Anti-Slop Oxlint](https://github.com/dmmulroy/anti-slop)** | Opinionated Oxlint ruleset and agent skills for rejecting low-evidence TypeScript and JavaScript coding patterns. | `Universal` | `typescript` `oxlint` `linting` | ⭐ 6.5k<br><sub>2026-11-20</sub> |
+| **[OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** | Time-travel debugging and MCP tooling for AI agents—record, replay, fork, and inspect multi-step agent runs. | `Universal` `Claude Code` | `debugging` `replay` `time-travel` | — |
 
 ## Frontend & Design
 
@@ -42,6 +43,7 @@
 | Name | Description | Agents | Install / Tags | Activity |
 | --- | --- | --- | --- | --- |
 | **[Honcho](https://github.com/plastic-labs/honcho)** `Official` | Official Plastic Labs memory infrastructure, CLI, MCP server, and harness plugins for building stateful, continually learning agents. | `Universal` `Claude Code` `Cursor` `DeepSeek Harness` | `official` `agent-memory` `context-engineering` | ⭐ 8.3k<br><sub>2026-11-25</sub> |
+| **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | Visual Kanban orchestrator for running, monitoring, and reviewing parallel coding tasks across Claude Code, Codex, and other agents. | `Claude Code` `Codex` `Universal` | `kanban` `orchestration` `worktrees` | — |
 | **[Everything Claude Code (ECC)](https://github.com/affaan-m/ECC)** | Agent harness optimization system bundling skills, instincts, memory, security, and research-first workflows. | `Claude Code` `Codex` `OpenCode` `Cursor` `+2` | `agent-harness` `memory` `orchestration` | ⭐ 311.3k<br><sub>2026-11-23</sub> |
 | **[Claude Mem](https://github.com/thedotmack/claude-mem)** | Persistent cross-session memory plugin that captures, compresses, and injects relevant agent context. | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+2` | `memory` `persistent-context` `session-history` | ⭐ 120.0k<br><sub>2026-11-26</sub> |
 | **[Oh My OpenAgent (OmO)](https://github.com/code-yeongyu/oh-my-openagent)** | Multi-agent orchestration harness and plugin for OpenCode and coding agents with graph engineering workflows. | `OpenCode` `Claude Code` `Codex` `Cursor` `+1` | `orchestration` `multi-agent` `opencode` | ⭐ 71.1k<br><sub>2026-11-27</sub> |
@@ -51,6 +53,8 @@
 | **[AutoHarness](https://github.com/tigerless-labs/autoharness)** | Self-learning Claude Code plugin combining hooks, subagents, tools, and skills so agents automatically distill reusable skills from real tasks. | `Claude Code` | `self-learning` `skill-extraction` `harness` | ⭐ 10.2k<br><sub>2026-11-12</sub> |
 | **[Obsidian Mind](https://github.com/breferrari/obsidian-mind)** | Self-organizing Obsidian vault template with MCP and harness configs that gives AI coding agents persistent project memory. | `Claude Code` `Codex` `Gemini CLI` `Universal` | `obsidian` `persistent-memory` `knowledge-base` | ⭐ 5.6k<br><sub>2026-10-17</sub> |
 | **[Emulo](https://github.com/ohad6k/emulo)** | Tool that mines your Claude Code and Codex session logs into a portable local you.md agent personalization profile. | `Claude Code` `Codex` `Cursor` | `personalization` `agent-profile` `log-mining` | ⭐ 306<br><sub>2026-10-12</sub> |
+| **[Awesome Agentic Patterns](https://github.com/nibzard/awesome-agentic-patterns)** | Curated catalog of proven architectural and workflow patterns for building reliable production AI agents. | `Universal` | `patterns` `architecture` `collection` | — |
+| **[Git Context Controller](https://github.com/faugustdev/git-context-controller)** | Structured context management framework implementing Git-like commit, branch, and merge operations for LLM agent context. | `Universal` | `context` `git` `memory` | — |
 | **[Rote](https://github.com/trevhud/rote)** | Compiler that turns proven SKILL.md agent skills into deterministic, LLM-free pipelines and serves them back to agents as MCP tools. | `Universal` `Claude Code` | `compiler` `deterministic` `workflow` | — |
 
 ## Data, Research & Knowledge
@@ -60,6 +64,7 @@
 | **[NotebookLM Py](https://github.com/teng-lin/notebooklm-py)** | Unofficial Python API, CLI, and agentic skill providing full programmatic access to Google NotebookLM. | `Claude Code` `Codex` | `notebooklm` `python-sdk` `cli` | ⭐ 20.4k<br><sub>2026-11-26</sub> |
 | **[LLM Wiki Compiler](https://github.com/atomicstrata/llm-wiki-compiler)** | CLI knowledge compiler and agent skill that transforms raw documents into an interlinked Markdown wiki inspired by Karpathy's LLM Wiki pattern. | `Universal` | `knowledge-base` `wiki` `context-engineering` | ⭐ 2.3k<br><sub>2026-11-25</sub> |
 | **[ModSearch](https://github.com/liustack/modsearch)** | Free, zero-API-key web and X search plugin and skill bridge returning structured JSON evidence for DeepSeek Harness and coding agents. | `DeepSeek Harness` `Claude Code` `Codex` `OpenCode` | `web-search` `deepseek-harness` `research` | ⭐ 1.0k<br><sub>2026-11-25</sub> |
+| **[SwarmVault](https://github.com/swarmclawai/swarmvault)** | Local-first LLM wiki and knowledge graph builder providing a structured RAG knowledge base for AI agents. | `Universal` `Claude Code` | `knowledge-graph` `rag` `wiki` | — |
 
 ## Productivity & Collaboration
 
@@ -69,6 +74,8 @@
 | **[AI Job Search](https://github.com/ai-job-search-dev/ai-job-search)** | Local Claude Code job-application toolkit with scrapers, CV tailoring, cover letter generation, and interview prep. | `Claude Code` | `job-search` `resume` `interview-prep` | ⭐ 73.6k<br><sub>2026-11-26</sub> |
 | **[Text to CAD](https://github.com/earthtojake/text-to-cad)** | Multi-agent plugin, MCP integration, and skills for designing physical CAD models and STEP/STL parts with AI. | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+1` | `cad` `3d-modeling` `mechanical-engineering` | ⭐ 27.6k<br><sub>2026-11-27</sub> |
 | **[PeonPing](https://github.com/PeonPing/peon-ping)** | Voice and desktop notification companion for coding agents featuring Warcraft III Peon sound packs, MCP support, and multi-IDE hooks. | `Universal` `Claude Code` `Codex` `Cursor` `+3` | `notifications` `audio-alerts` `terminal` | ⭐ 5.1k<br><sub>2026-11-06</sub> |
+| **[Google Workspace CLI](https://github.com/googleworkspace/cli)** | CLI and agent skill/command suite for automating Google Workspace APIs (Drive, Gmail, Docs, Sheets, Calendar, Admin) from terminals and agents. | `Universal` `Claude Code` | `google-workspace` `cli` `skills` | — |
+| **[Switch AI Teammates](https://github.com/sandbox-quantum/switch)** | Open-source bridge that brings AI coding and workflow teammates into Slack, Teams, Discord, Telegram, and Mattermost. | `Universal` | `slack` `teams` `discord` | — |
 
 ## Content & Marketing
 
@@ -84,16 +91,19 @@
 | Name | Description | Agents | Install / Tags | Activity |
 | --- | --- | --- | --- | --- |
 | **[SkillSpector](https://github.com/NVIDIA/SkillSpector)** `Official` | Official NVIDIA security scanner that detects prompt injection, data exfiltration, and supply-chain risks in agent skills. | `Claude Code` `Codex` | `security-scanner` `prompt-injection` `supply-chain` | ⭐ 27.8k<br><sub>2026-11-25</sub> |
+| **[Claude Code Security Review](https://github.com/anthropics/claude-code-security-review)** `Official` | Official Anthropic GitHub Action using Claude to automatically analyze pull requests for security vulnerabilities. | `Claude Code` | `official` `security` `github-action` | — |
 | **[Rea](https://github.com/morluto/rea)** | Agent plugin, MCP server, and skills for reverse engineering apps down to native binaries. | `Claude Code` `Codex` `Cursor` `DeepSeek Harness` | `reverse-engineering` `binary-analysis` `mcp` | ⭐ 479.8k<br><sub>2026-11-27</sub> |
 
 ## Marketplaces, Specs & Tooling
 
 | Name | Description | Agents | Install / Tags | Activity |
 | --- | --- | --- | --- | --- |
+| **[FastMCP](https://github.com/PrefectHQ/fastmcp)** `Official` | The standard Python framework for rapidly building production-ready Model Context Protocol (MCP) servers and clients. | `Universal` | `official` `python` `mcp` | — |
 | **[Vercel Skills CLI](https://github.com/vercel-labs/skills)** `Official` | Official open CLI (`npx skills`) for discovering, installing, and managing cross-agent skills from skills.sh. | `Universal` | `skills-cli` `package-manager` `registry` | ⭐ 41.0k<br><sub>2026-11-27</sub> |
 | **[SkillOpt](https://github.com/microsoft/SkillOpt)** `Official` | Official Microsoft text-space optimizer that trains and validates reusable natural-language skills for LLM agents. | `Universal` | `skill-optimization` `evaluation` `self-evolving` | ⭐ 19.3k<br><sub>2026-11-23</sub> |
 | **[NVIDIA SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator)** `Official` | Official NVIDIA multi-tier evaluation framework for agent skills and plugins with security scanning, compatibility gates, and live benchmarks. | `Universal` `Claude Code` `Codex` | `official` `skill-evaluation` `security-scanning` | ⭐ 4.6k<br><sub>2026-11-26</sub> |
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `Official` | Standalone CLI to find, install, and update Hugging Face skills in local or user-wide agent directories. | `Claude Code` `Codex` `Cursor` `OpenCode` | `cli` `skill-management` | — |
+| **[WebMCP](https://github.com/webmachinelearning/webmcp)** `Official` | W3C Web Machine Learning Community Group specification enabling websites to expose structured MCP tools directly to browser agents. | `Universal` | `official` `w3c` `web` | — |
 | **[Claude Code Templates](https://github.com/davila7/claude-code-templates)** | Open-source component registry and CLI for discovering and installing Claude Code agents, commands, skills, hooks, and MCPs. | `Claude Code` | `registry` `cli` `templates` | ⭐ 34.2k<br><sub>2026-11-26</sub> |
 | **[Skill Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** | Tool and MCP server that converts documentation sites, GitHub repositories, and PDFs into AI agent skills with automatic conflict detection. | `Universal` `Claude Code` `Codex` | `skill-generator` `documentation` `mcp` | ⭐ 15.4k<br><sub>2026-11-16</sub> |
 | **[YAO Meta Skill](https://github.com/yaojingang/yao-meta-skill)** | Engineering, evaluation, security governance, and cross-agent portability framework for building reusable agent skills. | `Universal` | `meta-skill` `skill-evaluation` `governance` | ⭐ 2.7k<br><sub>2026-11-09</sub> |
@@ -103,4 +113,6 @@
 | **[Claude Skill Registry](https://github.com/majiayu000/claude-skill-registry)** | Searchable Claude Code skills registry and catalog with source-linked guides, provenance, and generated metadata. | `Claude Code` | `skill-registry` `catalog` `claude-code` | ⭐ 754<br><sub>2026-11-26</sub> |
 | **[Anyone to Skill](https://github.com/OpenDemon/anyone-to-skill)** | Tool that distills a person's mental models, heuristics, and style from videos, PDFs, or chats into an executable SKILL.md. | `Universal` | `skill-generator` `persona-distillation` `skill-md` | ⭐ 134<br><sub>2026-04-07</sub> |
 | **[PRPM](https://github.com/pr-pm/prpm)** | Universal package manager and registry for discovering and installing prompts, rules, and skills across AI coding tools. | `Universal` | `package-manager` `skill-registry` `prompts` | ⭐ 125<br><sub>2026-10-14</sub> |
+| **[Claude Code Guide](https://github.com/zebbern/claude-code-guide)** | Comprehensive community handbook covering Claude Code setup, slash commands, custom agents, skills, hooks, and workflow patterns. | `Claude Code` | `guide` `commands` `workflows` | — |
+| **[npm-agentskills](https://github.com/onmax/npm-agentskills)** | Framework-agnostic CLI and utility for discovering, packaging, and exporting Agent Skills distributed via npm. | `Universal` | `npm` `skills` `discovery` | — |
 

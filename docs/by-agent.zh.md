@@ -4,12 +4,17 @@
 
 [← 返回主目录](../README.zh.md) · [English](by-agent.md)
 
-## 通用 (187)
+## 通用 (262)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | ⭐ 201.1k<br><sub>2026-11-16</sub> |
+| **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `官方` | `MCP` | Chrome DevTools 官方 MCP 服务器，让编码 Agent 直接操控、调试、性能分析与审查 Chrome 浏览器页面。<br>`npx -y chrome-devtools-mcp@latest` | `通用` | — |
+| **[Context7 MCP](https://github.com/upstash/context7)** `官方` | `MCP` | Upstash 官方 Context7 MCP 服务器，实时拉取最新、按版本匹配的开源库文档与代码示例并注入 Agent 上下文。<br>`npx -y @upstash/context7-mcp` | `通用` | — |
+| **[FastMCP](https://github.com/PrefectHQ/fastmcp)** `官方` | `工具` | Python 生态主流 MCP 开发框架，用于快速构建生产级 Model Context Protocol 服务器与客户端。 | `通用` | — |
+| **[Google Agent Skills](https://github.com/google/skills)** `官方` | `Skill` | Google 官方 Agent Skills 仓库，覆盖 Google Cloud 与各类 Google 开发者技术栈的标准技能。 | `通用` `Gemini CLI` `Claude Code` | — |
 | **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** `官方` | `MCP` | Model Context Protocol 官方参考服务器合集，提供文件系统、Git、数据库与网页接入等标准集成范例。 | `通用` | — |
+| **[OpenAI Skills Catalog](https://github.com/openai/skills)** `官方` | `Skill` | OpenAI 官方维护的 Agent Skills 目录，为 Codex 及遵循开放标准的 Agent 提供精选可复用技能。 | `Codex` `通用` | — |
 | **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `官方` | `MCP` | 微软官方 Playwright MCP 服务器，让 Agent 通过结构化无障碍树直接操控浏览器完成测试与网页自动化。<br>`npx @playwright/mcp@latest` | `通用` | — |
 | **[Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill)** `官方` | `Skill` | Cloudflare 官方出品的多阶段安全审计技能，可生成经独立验证的机器可读漏洞报告。 | `通用` | ⭐ 78.9k<br><sub>2026-09-14</sub> |
 | **[Open Code Review](https://github.com/alibaba/open-code-review)** `官方` | `工具` | 阿里巴巴开源的混合架构代码审查工具，结合确定性规则流水线与大模型 Agent 实现行级精准评审。 | `通用` | ⭐ 56.7k<br><sub>2026-11-26</sub> |
@@ -54,14 +59,49 @@
 | **[Prisma Official Skills](https://github.com/prisma/skills)** `官方` | `Skill` | Prisma 官方 Agent 技能集，涵盖 Prisma ORM 配置、Client API、Prisma Postgres 与 v7 升级迁移。 | `通用` | ⭐ 80<br><sub>2026-11-26</sub> |
 | **[Accoil Product Tracking Skills](https://github.com/Accoil/product-tracking-skills)** `官方` | `Skill` | Accoil 官方产品埋点分析技能集，可扫描代码库、设计埋点方案并生成多平台分析埋点代码。 | `通用` | ⭐ 47<br><sub>2026-10-20</sub> |
 | **[Astrolicious Agent Skills](https://github.com/astrolicious/agent-skills)** `官方` | `Skill` | Astrolicious 官方 Astro 生态 Agent 技能集，助力智能体高效开发与维护 Astro Web 项目。 | `通用` | ⭐ 13<br><sub>2026-03-20</sub> |
+| **[Airtable Agent Skills](https://github.com/Airtable/skills)** `官方` | `Skill` | Airtable 官方 Agent 技能包，辅助操作 Airtable 数据表结构、自动化流程与扩展开发。 | `通用` `Claude Code` | — |
+| **[Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server)** `官方` | `MCP` | Alpaca 官方 MCP 服务器，支持 AI Agent 获取实时行情数据并操作股票、ETF、期权与加密货币交易接口。<br>`uvx alpaca-mcp-server` | `通用` | — |
+| **[Apify MCP Server](https://github.com/apify/apify-mcp-server)** `官方` | `MCP` | Apify 官方 MCP 服务器，让 Agent 直接调用数千个 Apify Actors 完成网页抓取、社媒与电商数据采集。<br>`npx -y @apify/actors-mcp-server` | `通用` | — |
+| **[Browser MCP](https://github.com/BrowserMCP/mcp)** `官方` | `MCP` | 结合浏览器插件的 MCP 服务器，让 AI Agent 复用本地浏览器登录态完成网页操作与自动化任务。<br>`npx -y @browsermcp/mcp@latest` | `通用` | — |
+| **[BrowserAct Skills](https://github.com/browser-act/skills)** `官方` | `Skill` | BrowserAct 官方浏览器自动化技能集，支持复杂网页交互、数据采集与任务接管。 | `通用` `Claude Code` | — |
+| **[Cloud Run MCP](https://github.com/GoogleCloudPlatform/cloud-run-mcp)** `官方` | `MCP` | Google Cloud 官方 Cloud Run MCP 服务器，支持 AI Agent 一键构建、部署并管理云端容器服务。<br>`npx -y @google-cloud/cloud-run-mcp` | `通用` | — |
+| **[Codacy MCP Server](https://github.com/codacy/codacy-mcp-server)** `官方` | `MCP` | Codacy 官方 MCP 服务器，为 AI Agent 提供自动化代码质量检测、安全漏洞扫描与覆盖率分析。<br>`npx -y @codacy/codacy-mcp` | `通用` | — |
+| **[Code Graph MCP](https://github.com/diffbot/mcp-code-graph)** `官方` | `MCP` | 用于代码库知识图谱分析、依赖追踪与架构可视化的 MCP 服务器。 | `通用` | — |
+| **[Colibird Local MCP](https://github.com/colibird-ai/local-mcp-releases)** `官方` | `MCP` | 本地桌面端 MCP 服务器，将 Claude、ChatGPT 与 Cursor 连接到 Mac 和 Windows 原生文件与工作流。 | `通用` | — |
+| **[DataLikers MCP](https://github.com/subzeroid/datalikers-mcp)** `官方` | `MCP` | 轻量级 stdio MCP 服务器，通过 DataLikers API 提供 29 个 Instagram 与 TikTok 社媒数据采集工具。 | `通用` | — |
+| **[DBHub MCP](https://github.com/bytebase/dbhub)** `官方` | `MCP` | Bytebase 开源的通用数据库 MCP 服务器，节省上下文 Token，支持 PostgreSQL、MySQL、SQL Server、Oracle 与 SQLite。<br>`npx -y @bytebase/dbhub` | `通用` | — |
 | **[e2e Agent Skill](https://github.com/e2e-inc/e2e)** `官方` | `Skill` | e2e 智能端到端测试框架官方技能，支持在 Playwright 浏览器及 iOS/Android 设备上编写、运行与调试测试。 | `通用` `Claude Code` | — |
+| **[FinOps MCP](https://github.com/getnable/finopsmcp)** `官方` | `MCP` | 面向云成本治理的无头 FinOps MCP 服务，为 AI Agent 提供云账单分析与资源成本优化能力。 | `通用` | — |
+| **[Firecrawl MCP Server](https://github.com/firecrawl/firecrawl-mcp-server)** `官方` | `MCP` | Firecrawl 官方 MCP 服务器，为 AI Agent 提供联网搜索、网页抓取、整站爬取与结构化数据抽取能力。<br>`npx -y firecrawl-mcp` | `通用` | — |
+| **[Firefly MCP](https://github.com/gofireflyio/firefly-mcp)** `官方` | `MCP` | Firefly 官方 MCP 服务器，支持 AI Agent 盘点云资产、检测配置漂移并生成基础设施即代码（IaC）。 | `通用` | — |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | — |
+| **[HeyGen Agent Skills](https://github.com/heygen-com/skills)** `官方` | `Skill` | HeyGen 官方 AI Agent 技能包，支持通过 HeyGen v3 API 完成数字人创建与自动化视频制作。 | `通用` `Claude Code` | — |
 | **[Internet Court Skill](https://github.com/internet-court/internet-court-skill)** `官方` | `Skill` | 面向 Agent 间交易的开放信任层技能，覆盖自然语言授权、ERC-7710 权限委托、x402 支付、托管与争议仲裁。 | `通用` `Claude Code` | — |
+| **[LaunchDarkly MCP Server](https://github.com/launchdarkly/mcp-server)** `官方` | `MCP` | LaunchDarkly 官方 MCP 服务器，支持 AI Agent 查询、创建与管理 Feature Flags 及灰度发布规则。 | `通用` | — |
+| **[Live Tennis API MCP](https://github.com/livetennisapi/livetennisapi-mcp)** `官方` | `MCP` | Live Tennis API 官方 MCP 服务器，为 AI Agent 提供实时网球比分、ATP/WTA 排名与赛事统计数据。 | `通用` | — |
 | **[MarkItDown](https://github.com/microsoft/markitdown)** `官方` | `MCP` | 微软官方文件转 Markdown 工具及 MCP 服务，支持将 PDF、Office 文档、图片、音频等转换为适合大模型处理的 Markdown。 | `通用` | — |
+| **[Microsoft Clarity MCP](https://github.com/microsoft/clarity-mcp-server)** `官方` | `MCP` | 微软官方 Clarity MCP 服务器，用于查询网站用户体验分析、流量指标与行为洞察数据。<br>`npx -y @microsoft/clarity-mcp-server` | `通用` | — |
+| **[Microsoft Learn MCP](https://github.com/MicrosoftDocs/mcp)** `官方` | `MCP` | 微软官方 Learn MCP 服务器与 CLI，为 AI Agent 提供最新的 Microsoft、Azure 与 .NET 官方技术文档检索。 | `通用` | — |
+| **[Milvus Agent Skill](https://github.com/zilliztech/milvus-skill)** `官方` | `Skill` | Zilliz 官方 Milvus 向量数据库技能，指导 Agent 使用 pymilvus 构建索引、检索与 RAG 应用。 | `通用` `Claude Code` | — |
+| **[monday.com MCP](https://github.com/mondaycom/mcp)** `官方` | `MCP` | monday.com 官方 MCP 服务器，让 AI Agent 安全读写项目看板、任务条目与团队协作流程。 | `通用` | — |
+| **[MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server)** `官方` | `MCP` | MongoDB 官方 MCP 服务器，支持 AI Agent 查询集合、分析数据结构并管理 MongoDB Atlas 集群。<br>`npx -y mongodb-mcp-server` | `通用` | — |
 | **[Neon Postgres Skills](https://github.com/neondatabase/postgres-skills)** `官方` | `Skill` | Neon 官方 PostgreSQL 技能包，涵盖表结构设计、索引策略、查询优化、数据库迁移及常见避坑指南。 | `通用` `Claude Code` | — |
+| **[Notion MCP Server](https://github.com/makenotion/notion-mcp-server)** `官方` | `MCP` | Notion 官方 MCP 服务器，支持 AI Agent 检索、读取、创建并更新 Notion 页面与数据库。<br>`npx -y @notionhq/notion-mcp-server` | `通用` | — |
+| **[PostgreSQL AI Guide](https://github.com/timescale/pg-aiguide)** `官方` | `Plugin` | Timescale 官方 PostgreSQL MCP 与 Claude 插件，提供权威 Postgres 技能、版本文档与查询最佳实践。 | `Claude Code` `通用` | — |
+| **[Pydantic Logfire MCP](https://github.com/pydantic/logfire-mcp)** `官方` | `MCP` | Pydantic 官方 Logfire MCP 服务器，支持 AI Agent 查询 OpenTelemetry 链路追踪、异常日志与线上指标。<br>`uvx logfire-mcp` | `通用` | — |
+| **[Railway Agent Skills](https://github.com/railwayapp/railway-skills)** `官方` | `Skill` | Railway 官方 Agent 技能包，支持创建服务、管理环境变量、查看日志与一键部署云端应用。 | `通用` `Claude Code` | — |
+| **[Recommerce Skills](https://github.com/budna-marketplace/recommerce)** `官方` | `Skill` | 面向二手与新品比价检索的 Agent 技能包，支持跨平台商品检索与价格对比。 | `通用` `Claude Code` | — |
+| **[Redis MCP Server](https://github.com/redis/mcp-redis)** `官方` | `MCP` | Redis 官方 MCP 服务器，为 AI Agent 提供自然语言查询、缓存管理与 Redis 数据检视接口。 | `通用` | — |
+| **[Render Agent Skills](https://github.com/render-oss/skills)** `官方` | `Skill` | Render 官方 Agent 技能包，用于在 Render 平台上部署、配置与排查 Web 服务和托管数据库。 | `通用` `Claude Code` | — |
+| **[Rootly MCP Server](https://github.com/rootlyhq/rootly-mcp-server)** `官方` | `MCP` | Rootly 官方 MCP 服务器，支持 AI Agent 排查线上故障、查询事件时间线并辅助 SRE 应急响应。 | `通用` | — |
+| **[Sentry Agentic Toolkit](https://github.com/getsentry/toolkit)** `官方` | `Plugin` | Sentry 官方 Agent 工具套件，融合 MCP 与技能用于排查线上报错、堆栈追踪与回归定位。 | `通用` `Claude Code` | — |
 | **[shadcn/ui Skill](https://github.com/shadcn-ui/ui)** `官方` | `Skill` | shadcn/ui 官方仓库内置 Agent 技能与上下文规范，辅助管理组件库、主题与现代 React 设计系统。 | `通用` `Claude Code` | — |
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `官方` | `Skill` | SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。 | `通用` `Claude Code` | — |
+| **[Supabase MCP](https://github.com/supabase/mcp)** `官方` | `MCP` | Supabase 官方 MCP 服务器，让 Agent 直接查询数据库、管理表结构迁移、Edge Functions 与项目日志。<br>`npx -y @supabase/mcp-server-supabase` | `通用` | — |
+| **[WebMCP](https://github.com/webmachinelearning/webmcp)** `官方` | `工具` | W3C WebML 社区组标准规范，让网页原生向浏览器侧 AI Agent 暴露结构化 MCP 工具接口。 | `通用` | — |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | — |
+| **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | 全面的开源 AI 科研与机器学习工程技能库，覆盖模型微调、RLHF、推理优化与评测实验。 | `通用` `Claude Code` | — |
+| **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `工具` | 可视化看板编排工具，支持同时调度、监控并评审 Claude Code、Codex 等多个编码 Agent 的并行任务。 | `Claude Code` `Codex` `通用` | — |
 | **[Matt Pocock Skills](https://github.com/mattpocock/skills)** | `Skill` | 由 Matt Pocock 整理的实战型软件工程 Agent 技能集合，覆盖日常研发工作流。 | `通用` | ⭐ 333.6k<br><sub>2026-11-25</sub> |
 | **[Impeccable](https://github.com/pbakaus/impeccable)** | `Skill` | 为编码 Agent 提供专业设计词汇、界面打磨与审校指令的技能套件，上线前拦截低质 AI 风格。 | `通用` | ⭐ 117.6k<br><sub>2026-11-26</sub> |
 | **[PPT Master](https://github.com/hugohe3/ppt-master)** | `Skill` | 将文档或主题转化为原生 PowerPoint 演示文稿的 Agent 技能，支持图表、动画、配音旁白与自定义模板。 | `通用` | ⭐ 80.5k<br><sub>2026-11-20</sub> |
@@ -181,30 +221,70 @@
 | **[Anyone to Skill](https://github.com/OpenDemon/anyone-to-skill)** | `工具` | 从视频、PDF、电子书或聊天记录中提取人物心智模型与表达风格并生成 SKILL.md 的技能蒸馏工具。 | `通用` | ⭐ 134<br><sub>2026-04-07</sub> |
 | **[PRPM](https://github.com/pr-pm/prpm)** | `工具` | 面向各类 AI 编程工具的通用提示词、规则与技能包管理器及注册中心。 | `通用` | ⭐ 125<br><sub>2026-10-14</sub> |
 | **[HyperFX Marketing Skills](https://github.com/hyperfx-ai/marketing-skills)** | `Skill` | 基于 Hyper MCP 的营销 Agent 技能集，涵盖信息流广告投放、社媒、SEO、竞品调研与数据分析。 | `通用` | ⭐ 124<br><sub>2026-11-26</sub> |
+| **[Agentic Awesome Skills](https://github.com/sickn33/agentic-awesome-skills)** | `Skill` | 收录 3,000+ 可复用 AI Agent 技能的大型社区合集，兼容 Claude Code、Codex、Cursor 与 Gemini CLI。 | `通用` `Claude Code` `Codex` `Cursor` `+1` | — |
 | **[AgentMemory](https://github.com/rohitg00/agentmemory)** | `Skill` | 跨会话持久化记忆插件与技能套件，支持记忆写入、检索、会话交接、复盘沉淀与隐私清理。 | `通用` `Claude Code` | — |
+| **[agentMemory MCP](https://github.com/webzler/agentMemory)** | `MCP` | 零配置的本地 MCP 记忆服务器，适配 Claude Code、Cline、RooCode 与 Cursor 以持久保留项目上下文。 | `通用` | — |
+| **[AI Maestro](https://github.com/23blocks-OS/ai-maestro)** | `Plugin` | 带模块化技能系统、持久化记忆检索与跨代理通信的 AI Agent 编排器。 | `Claude Code` `通用` | — |
+| **[AI Maestro Plugins](https://github.com/23blocks-OS/ai-maestro-plugins)** | `Plugin` | AI Maestro 官方插件合集，包含 150+ 角色人格、核心技能、身份管理与代理间消息协作能力。 | `Claude Code` `通用` | — |
 | **[AI Skills](https://github.com/sanjay3290/ai-skills)** | `Skill` | AI Agent 技能集合，内置自主深度研究工作流，支持规划、检索、阅读并汇总生成完整研究报告。 | `通用` `Claude Code` | — |
+| **[arXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server)** | `MCP` | 面向学术文献研究的本地 arXiv MCP 服务器，支持论文检索、下载、LaTeX 章节解析与 BibTeX 管理。<br>`uvx arxiv-mcp-server` | `通用` | — |
+| **[Atlassian Bitbucket MCP](https://github.com/aashari/mcp-server-atlassian-bitbucket)** | `MCP` | 面向 Atlassian Bitbucket 的 MCP 服务器，支持 AI Agent 浏览代码仓库、评审 PR 与查看提交历史。<br>`npx -y @aashari/mcp-server-atlassian-bitbucket` | `通用` | — |
+| **[Awesome Agentic Patterns](https://github.com/nibzard/awesome-agentic-patterns)** | `工具` | 精选生产级 AI Agent 架构与工作流设计模式目录，汇总实战验证的工程模式。 | `通用` | — |
 | **[Bleu](https://github.com/Nirvaan05/Bleu-plugin)** | `Plugin` | 编码前架构蓝图插件与技能，将初步项目想法拆解为包含组件、流程与文件级执行清单的完整实现方案。 | `通用` `Claude Code` | — |
+| **[Chisle](https://github.com/JayPokale/Chisle)** | `Skill` | 面向编码 Agent 的 Token 省流技能与规范，通过精简输出、YAGNI 优先编码与高效工具调用降低成本。 | `Claude Code` `通用` | — |
+| **[Context Architecture](https://github.com/sergioazoc/context-architecture)** | `Skill` | 面向 AI 编码时代的上下文架构方法论与模板，帮助组织仓库知识文档以提升 Agent 准确率。 | `通用` `Claude Code` | — |
 | **[Curviate Plugin](https://github.com/Curviate/curviate-plugin)** | `Plugin` | 基于 Curviate CLI 的 LinkedIn 自动化插件与技能套件，覆盖人脉检索、消息、发帖及招聘等工作流。 | `通用` `Claude Code` | — |
+| **[Deja Vu MCP](https://github.com/vshulcz/deja-vu)** | `MCP` | 面向 Claude Code、Codex 与 Cursor 的本地 MCP 记忆层，支持跨会话历史检索与经验复用。 | `Claude Code` `Codex` `Cursor` `通用` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
+| **[Eval Genius](https://github.com/alexgreensh/eval-genius)** | `Skill` | 面向 AI 应用的评测设计技能，指导 Agent 判断何时需要 Eval、如何搭建基准测试与回归度量。 | `通用` `Claude Code` | — |
 | **[FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill)** | `Skill` | 基于本地 FFmpeg 的自然语言音视频剪辑技能，支持裁剪拼接、画幅重构、字幕压制、去静音与混音处理。 | `通用` `Claude Code` | — |
+| **[Git Context Controller](https://github.com/faugustdev/git-context-controller)** | `工具` | 类 Git 风格的 Agent 上下文管理框架，支持对大模型上下文执行提交、分支与合并操作。 | `通用` | — |
+| **[Google Workspace CLI](https://github.com/googleworkspace/cli)** | `工具` | 面向终端与 AI Agent 的 Google Workspace CLI 及技能命令套件，覆盖云盘、邮件、文档、表格与管理接口。 | `通用` `Claude Code` | — |
+| **[Google Workspace MCP](https://github.com/taylorwilsdon/google_workspace_mcp)** | `MCP` | 功能完善的 Google Workspace MCP 服务器，覆盖 Gmail、日历、云盘、文档、表格、幻灯片与任务管理。<br>`uvx workspace-mcp` | `通用` | — |
+| **[GuardLink](https://github.com/Bugb-Technologies/guardlink)** | `Plugin` | AI 驱动的代码安全注解与 MCP 工具链，用于在代码库中持续进行威胁建模与安全边界校验。 | `通用` `Claude Code` | — |
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | — |
+| **[iOS Simulator MCP](https://github.com/joshuayoes/ios-simulator-mcp)** | `MCP` | 用于操控 Apple iOS 模拟器的 MCP 服务器，支持 UI 树检查、点击交互、截图与移动端自动化调试。<br>`npx -y ios-simulator-mcp` | `通用` | — |
+| **[Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server)** | `MCP` | 面向 Jupyter Notebook 的 MCP 服务器，支持 AI Agent 实时执行代码单元、读取输出并完成数据科学分析。<br>`uvx jupyter-mcp-server` | `通用` | — |
 | **[Levea Video MCP](https://github.com/brajendrak00068/agentic-ai-video-production)** | `MCP` | 面向自动化 AI 视频剪辑的远程 MCP 服务，可将自然语言指令或长视频处理为带字幕与智能构图的成片。 | `通用` `Claude Code` | — |
+| **[Maoxuan Skill](https://github.com/leezythu/maoxuan-skill)** | `Skill` | 毛选思维框架中文决策技能，提炼核心心智模型与决策启发式方法用于复杂问题分析与策略制定。 | `通用` `Claude Code` | — |
+| **[MCP Server Playwright](https://github.com/VikashLoomba/MCP-Server-Playwright)** | `MCP` | 轻量级 Playwright MCP 服务器，支持浏览器导航、表单交互、DOM 检查与自动截图。 | `通用` | — |
+| **[mcp-remote](https://github.com/punkpeye/mcp-remote)** | `MCP` | MCP 协议桥接工具，让仅支持本地 stdio 的 MCP 客户端也能通过 OAuth 连接远程 HTTP/SSE MCP 服务器。<br>`npx -y mcp-remote` | `通用` | — |
+| **[Memex MCP](https://github.com/STiFLeR7/memex)** | `MCP` | 开源 MCP 服务器与 Hook 服务，用于持久化沉淀 Claude Code 与 Codex 的工程上下文与架构决策。 | `Claude Code` `Codex` `通用` | — |
+| **[Mermaid MCP](https://github.com/hustcc/mcp-mermaid)** | `MCP` | 动态生成与渲染 Mermaid 流程图、时序图和架构图的 MCP 服务器。<br>`npx -y mcp-mermaid` | `通用` | — |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | — |
+| **[n8n MCP](https://github.com/czlonkowski/n8n-mcp)** | `MCP` | 面向 n8n 的 MCP 服务器，支持 AI Agent 检索节点文档、校验参数并构建或运行 n8n 自动化工作流。<br>`npx -y n8n-mcp` | `通用` | — |
+| **[n8n Skills](https://github.com/czlonkowski/n8n-skills)** | `Skill` | 精选 n8n 技能包，帮助 Claude Code 等 Agent 设计、校验并调试生产级 n8n 自动化工作流。 | `Claude Code` `通用` | — |
+| **[Next.js Sanity Blog Skill](https://github.com/BuildShipGrowRepeat/nextjs-sanity-blog-skill)** | `Skill` | 面向 Next.js 项目的 Claude Code 技能，一键搭建 SEO 优先、支持多语言的 Sanity CMS 博客系统。 | `Claude Code` `通用` | — |
+| **[npm-agentskills](https://github.com/onmax/npm-agentskills)** | `工具` | 与框架无关的 Agent Skills 发现与导出工具，支持直接从 npm 包中提取和分发技能。 | `通用` | — |
 | **[Off Grid AI Skills](https://github.com/off-grid-ai/skills)** | `Skill` | 专注软件工程质量的技能集合，涵盖行为驱动测试、根因修复、合并前安全检查与图工程工作流。 | `通用` `Claude Code` | — |
+| **[OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** | `工具` | 面向 AI Agent 的时光机调试与 MCP 工具，支持录制、回放、分叉与排查多步 Agent 执行过程。 | `通用` `Claude Code` | — |
 | **[pdfToMarkdown](https://github.com/ThiloReintjes/pdftomarkdown-skill)** | `Plugin` | Claude Code 插件与技能，可将扫描件、表格、多栏排版及中日韩文档等复杂 PDF 高保真转换为 Markdown。 | `Claude Code` `通用` | — |
+| **[Playwright MCP (ExecuteAutomation)](https://github.com/executeautomation/mcp-playwright)** | `MCP` | 社区版 Playwright MCP 服务器，支持 AI Agent 驱动浏览器自动化、截图、测试代码生成与接口测试。<br>`npx -y @executeautomation/playwright-mcp-server` | `通用` | — |
 | **[Product Decision Agent](https://github.com/atdy/maoxuan-product-agent)** | `Skill` | 中文互联网产品决策 Agent 技能，覆盖需求分析、PRD、优先级排期、增长诊断、数据指标与跨部门协作决策。 | `通用` `Claude Code` | — |
 | **[Rote](https://github.com/trevhud/rote)** | `工具` | 将成熟 SKILL.md 技能编译为无大模型参与的确定性流水线，并重新封装为 MCP 工具供 Agent 调用。 | `通用` `Claude Code` | — |
+| **[Ruflo (Claude Flow)](https://github.com/ruvnet/ruflo)** | `Plugin` | 面向 Claude Code 与 Codex 的多 Agent 蜂群编排平台，集成协同子代理、记忆层、技能系统与 MCP 工具。 | `Claude Code` `Codex` `通用` | — |
+| **[Savia](https://github.com/gonzalezpazmonica/savia)** | `Plugin` | 不绑定厂商的工程治理与任务编排 Agent 套件，覆盖软件开发与项目管理全流程。 | `Claude Code` `通用` | — |
+| **[SearXNG MCP](https://github.com/ihor-sokoliuk/mcp-searxng)** | `MCP` | 基于自建 SearXNG 的隐私优先联网搜索 MCP 服务器，适配 Claude、Cursor 等主流 MCP 客户端。<br>`npx -y mcp-searxng` | `通用` | — |
+| **[Structured Thinking Skills](https://github.com/ysskrishna/ai-agent-skills)** | `Skill` | 面向 AI Agent 的结构化思维技能集合，覆盖头脑风暴、决策分析与系统性思考框架。 | `通用` `Claude Code` | — |
+| **[SwarmVault](https://github.com/swarmclawai/swarmvault)** | `工具` | 本地优先的 LLM Wiki 与知识图谱构建工具，为 AI Agent 提供结构化 RAG 知识库。 | `通用` `Claude Code` | — |
+| **[Switch AI Teammates](https://github.com/sandbox-quantum/switch)** | `工具` | 开源协作桥接工具，将 AI 工程与办公代理直接接入 Slack、Teams、Discord、Telegram 与 Mattermost。 | `通用` | — |
+| **[Trace MCP](https://github.com/nikolai-vysotskyi/trace-mcp)** | `MCP` | 支持 90+ 框架与 80+ 编程语言的代码智能分析 MCP 服务器，用于跨文件符号追踪与架构理解。 | `通用` | — |
 | **[tstack Skills](https://github.com/t3dotgg/tstack)** | `Skill` | Theo Browne 维护的工程工作流技能套件，涵盖 PR 提交、评审评论、CI 自动盯盘与代码库现代化改造。 | `通用` `Claude Code` | — |
 
-## Claude Code (323)
+## Claude Code (405)
 
 安装参考：`/plugin install <owner>/<repo>`
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | ⭐ 201.1k<br><sub>2026-11-16</sub> |
+| **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `官方` | `MCP` | Chrome DevTools 官方 MCP 服务器，让编码 Agent 直接操控、调试、性能分析与审查 Chrome 浏览器页面。<br>`npx -y chrome-devtools-mcp@latest` | `通用` | — |
 | **[Claude Code Official Plugins](https://github.com/anthropics/claude-plugins-official)** `官方` | `Plugin` | Anthropic 官方维护的 Claude Code 插件市场与目录，提供官方工作流插件、子代理、技能、钩子及合作方 MCP 集成。<br>`/plugin marketplace add anthropics/claude-plugins-official` | `Claude Code` | — |
+| **[Context7 MCP](https://github.com/upstash/context7)** `官方` | `MCP` | Upstash 官方 Context7 MCP 服务器，实时拉取最新、按版本匹配的开源库文档与代码示例并注入 Agent 上下文。<br>`npx -y @upstash/context7-mcp` | `通用` | — |
+| **[FastMCP](https://github.com/PrefectHQ/fastmcp)** `官方` | `工具` | Python 生态主流 MCP 开发框架，用于快速构建生产级 Model Context Protocol 服务器与客户端。 | `通用` | — |
+| **[Google Agent Skills](https://github.com/google/skills)** `官方` | `Skill` | Google 官方 Agent Skills 仓库，覆盖 Google Cloud 与各类 Google 开发者技术栈的标准技能。 | `通用` `Gemini CLI` `Claude Code` | — |
 | **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** `官方` | `MCP` | Model Context Protocol 官方参考服务器合集，提供文件系统、Git、数据库与网页接入等标准集成范例。 | `通用` | — |
+| **[OpenAI Skills Catalog](https://github.com/openai/skills)** `官方` | `Skill` | OpenAI 官方维护的 Agent Skills 目录，为 Codex 及遵循开放标准的 Agent 提供精选可复用技能。 | `Codex` `通用` | — |
 | **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `官方` | `MCP` | 微软官方 Playwright MCP 服务器，让 Agent 通过结构化无障碍树直接操控浏览器完成测试与网页自动化。<br>`npx @playwright/mcp@latest` | `通用` | — |
 | **[Hyperframes](https://github.com/heygen-com/hyperframes)** `官方` | `Plugin` | HeyGen 官方开源的 AI 视频编辑插件与 MCP 工具集，支持用 HTML 编写动效并渲染输出 MP4。 | `Claude Code` `Codex` `Cursor` `Gemini CLI` | ⭐ 90.9k<br><sub>2026-11-27</sub> |
 | **[Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill)** `官方` | `Skill` | Cloudflare 官方出品的多阶段安全审计技能，可生成经独立验证的机器可读漏洞报告。 | `通用` | ⭐ 78.9k<br><sub>2026-09-14</sub> |
@@ -260,20 +340,58 @@
 | **[Prisma Official Skills](https://github.com/prisma/skills)** `官方` | `Skill` | Prisma 官方 Agent 技能集，涵盖 Prisma ORM 配置、Client API、Prisma Postgres 与 v7 升级迁移。 | `通用` | ⭐ 80<br><sub>2026-11-26</sub> |
 | **[Accoil Product Tracking Skills](https://github.com/Accoil/product-tracking-skills)** `官方` | `Skill` | Accoil 官方产品埋点分析技能集，可扫描代码库、设计埋点方案并生成多平台分析埋点代码。 | `通用` | ⭐ 47<br><sub>2026-10-20</sub> |
 | **[Astrolicious Agent Skills](https://github.com/astrolicious/agent-skills)** `官方` | `Skill` | Astrolicious 官方 Astro 生态 Agent 技能集，助力智能体高效开发与维护 Astro Web 项目。 | `通用` | ⭐ 13<br><sub>2026-03-20</sub> |
+| **[Airtable Agent Skills](https://github.com/Airtable/skills)** `官方` | `Skill` | Airtable 官方 Agent 技能包，辅助操作 Airtable 数据表结构、自动化流程与扩展开发。 | `通用` `Claude Code` | — |
+| **[Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server)** `官方` | `MCP` | Alpaca 官方 MCP 服务器，支持 AI Agent 获取实时行情数据并操作股票、ETF、期权与加密货币交易接口。<br>`uvx alpaca-mcp-server` | `通用` | — |
+| **[Apify MCP Server](https://github.com/apify/apify-mcp-server)** `官方` | `MCP` | Apify 官方 MCP 服务器，让 Agent 直接调用数千个 Apify Actors 完成网页抓取、社媒与电商数据采集。<br>`npx -y @apify/actors-mcp-server` | `通用` | — |
+| **[Browser MCP](https://github.com/BrowserMCP/mcp)** `官方` | `MCP` | 结合浏览器插件的 MCP 服务器，让 AI Agent 复用本地浏览器登录态完成网页操作与自动化任务。<br>`npx -y @browsermcp/mcp@latest` | `通用` | — |
+| **[BrowserAct Skills](https://github.com/browser-act/skills)** `官方` | `Skill` | BrowserAct 官方浏览器自动化技能集，支持复杂网页交互、数据采集与任务接管。 | `通用` `Claude Code` | — |
+| **[Claude Code Security Review](https://github.com/anthropics/claude-code-security-review)** `官方` | `工具` | Anthropic 官方安全审计 GitHub Action，使用 Claude 自动分析 Pull Request 中的潜在安全漏洞。 | `Claude Code` | — |
+| **[Cloud Run MCP](https://github.com/GoogleCloudPlatform/cloud-run-mcp)** `官方` | `MCP` | Google Cloud 官方 Cloud Run MCP 服务器，支持 AI Agent 一键构建、部署并管理云端容器服务。<br>`npx -y @google-cloud/cloud-run-mcp` | `通用` | — |
+| **[Codacy MCP Server](https://github.com/codacy/codacy-mcp-server)** `官方` | `MCP` | Codacy 官方 MCP 服务器，为 AI Agent 提供自动化代码质量检测、安全漏洞扫描与覆盖率分析。<br>`npx -y @codacy/codacy-mcp` | `通用` | — |
+| **[Code Graph MCP](https://github.com/diffbot/mcp-code-graph)** `官方` | `MCP` | 用于代码库知识图谱分析、依赖追踪与架构可视化的 MCP 服务器。 | `通用` | — |
+| **[Colibird Local MCP](https://github.com/colibird-ai/local-mcp-releases)** `官方` | `MCP` | 本地桌面端 MCP 服务器，将 Claude、ChatGPT 与 Cursor 连接到 Mac 和 Windows 原生文件与工作流。 | `通用` | — |
+| **[DataLikers MCP](https://github.com/subzeroid/datalikers-mcp)** `官方` | `MCP` | 轻量级 stdio MCP 服务器，通过 DataLikers API 提供 29 个 Instagram 与 TikTok 社媒数据采集工具。 | `通用` | — |
+| **[DBHub MCP](https://github.com/bytebase/dbhub)** `官方` | `MCP` | Bytebase 开源的通用数据库 MCP 服务器，节省上下文 Token，支持 PostgreSQL、MySQL、SQL Server、Oracle 与 SQLite。<br>`npx -y @bytebase/dbhub` | `通用` | — |
 | **[e2e Agent Skill](https://github.com/e2e-inc/e2e)** `官方` | `Skill` | e2e 智能端到端测试框架官方技能，支持在 Playwright 浏览器及 iOS/Android 设备上编写、运行与调试测试。 | `通用` `Claude Code` | — |
+| **[FinOps MCP](https://github.com/getnable/finopsmcp)** `官方` | `MCP` | 面向云成本治理的无头 FinOps MCP 服务，为 AI Agent 提供云账单分析与资源成本优化能力。 | `通用` | — |
+| **[Firecrawl Claude Plugin](https://github.com/firecrawl/firecrawl-claude-plugin)** `官方` | `Plugin` | Firecrawl 官方 Claude Code 插件，支持实时联网搜索、抓取技术文档与抽取结构化网页数据。 | `Claude Code` | — |
+| **[Firecrawl MCP Server](https://github.com/firecrawl/firecrawl-mcp-server)** `官方` | `MCP` | Firecrawl 官方 MCP 服务器，为 AI Agent 提供联网搜索、网页抓取、整站爬取与结构化数据抽取能力。<br>`npx -y firecrawl-mcp` | `通用` | — |
+| **[Firefly MCP](https://github.com/gofireflyio/firefly-mcp)** `官方` | `MCP` | Firefly 官方 MCP 服务器，支持 AI Agent 盘点云资产、检测配置漂移并生成基础设施即代码（IaC）。 | `通用` | — |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | — |
+| **[HeyGen Agent Skills](https://github.com/heygen-com/skills)** `官方` | `Skill` | HeyGen 官方 AI Agent 技能包，支持通过 HeyGen v3 API 完成数字人创建与自动化视频制作。 | `通用` `Claude Code` | — |
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `官方` | `工具` | 独立命令行工具，可查找 Hugging Face 技能，并将其安装或更新到项目或用户级技能目录。 | `Claude Code` `Codex` `Cursor` `OpenCode` | — |
 | **[Hugging Face Skills](https://github.com/huggingface/skills)** `官方` | `Skill` | 让编码助手查询 Hugging Face Hub 数据集、微调模型并运行模型评估的技能集。<br>`hf skills add huggingface-datasets` | `Claude Code` `Codex` `Cursor` `Gemini CLI` | — |
 | **[Internet Court Skill](https://github.com/internet-court/internet-court-skill)** `官方` | `Skill` | 面向 Agent 间交易的开放信任层技能，覆盖自然语言授权、ERC-7710 权限委托、x402 支付、托管与争议仲裁。 | `通用` `Claude Code` | — |
+| **[LaunchDarkly MCP Server](https://github.com/launchdarkly/mcp-server)** `官方` | `MCP` | LaunchDarkly 官方 MCP 服务器，支持 AI Agent 查询、创建与管理 Feature Flags 及灰度发布规则。 | `通用` | — |
+| **[Live Tennis API MCP](https://github.com/livetennisapi/livetennisapi-mcp)** `官方` | `MCP` | Live Tennis API 官方 MCP 服务器，为 AI Agent 提供实时网球比分、ATP/WTA 排名与赛事统计数据。 | `通用` | — |
 | **[MarkItDown](https://github.com/microsoft/markitdown)** `官方` | `MCP` | 微软官方文件转 Markdown 工具及 MCP 服务，支持将 PDF、Office 文档、图片、音频等转换为适合大模型处理的 Markdown。 | `通用` | — |
+| **[Microsoft Clarity MCP](https://github.com/microsoft/clarity-mcp-server)** `官方` | `MCP` | 微软官方 Clarity MCP 服务器，用于查询网站用户体验分析、流量指标与行为洞察数据。<br>`npx -y @microsoft/clarity-mcp-server` | `通用` | — |
+| **[Microsoft Learn MCP](https://github.com/MicrosoftDocs/mcp)** `官方` | `MCP` | 微软官方 Learn MCP 服务器与 CLI，为 AI Agent 提供最新的 Microsoft、Azure 与 .NET 官方技术文档检索。 | `通用` | — |
+| **[Milvus Agent Skill](https://github.com/zilliztech/milvus-skill)** `官方` | `Skill` | Zilliz 官方 Milvus 向量数据库技能，指导 Agent 使用 pymilvus 构建索引、检索与 RAG 应用。 | `通用` `Claude Code` | — |
+| **[monday.com MCP](https://github.com/mondaycom/mcp)** `官方` | `MCP` | monday.com 官方 MCP 服务器，让 AI Agent 安全读写项目看板、任务条目与团队协作流程。 | `通用` | — |
+| **[MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server)** `官方` | `MCP` | MongoDB 官方 MCP 服务器，支持 AI Agent 查询集合、分析数据结构并管理 MongoDB Atlas 集群。<br>`npx -y mongodb-mcp-server` | `通用` | — |
 | **[Neon Postgres Skills](https://github.com/neondatabase/postgres-skills)** `官方` | `Skill` | Neon 官方 PostgreSQL 技能包，涵盖表结构设计、索引策略、查询优化、数据库迁移及常见避坑指南。 | `通用` `Claude Code` | — |
+| **[Notion MCP Server](https://github.com/makenotion/notion-mcp-server)** `官方` | `MCP` | Notion 官方 MCP 服务器，支持 AI Agent 检索、读取、创建并更新 Notion 页面与数据库。<br>`npx -y @notionhq/notion-mcp-server` | `通用` | — |
+| **[PostgreSQL AI Guide](https://github.com/timescale/pg-aiguide)** `官方` | `Plugin` | Timescale 官方 PostgreSQL MCP 与 Claude 插件，提供权威 Postgres 技能、版本文档与查询最佳实践。 | `Claude Code` `通用` | — |
+| **[Pydantic Logfire MCP](https://github.com/pydantic/logfire-mcp)** `官方` | `MCP` | Pydantic 官方 Logfire MCP 服务器，支持 AI Agent 查询 OpenTelemetry 链路追踪、异常日志与线上指标。<br>`uvx logfire-mcp` | `通用` | — |
+| **[Railway Agent Skills](https://github.com/railwayapp/railway-skills)** `官方` | `Skill` | Railway 官方 Agent 技能包，支持创建服务、管理环境变量、查看日志与一键部署云端应用。 | `通用` `Claude Code` | — |
+| **[Recommerce Skills](https://github.com/budna-marketplace/recommerce)** `官方` | `Skill` | 面向二手与新品比价检索的 Agent 技能包，支持跨平台商品检索与价格对比。 | `通用` `Claude Code` | — |
+| **[Redis MCP Server](https://github.com/redis/mcp-redis)** `官方` | `MCP` | Redis 官方 MCP 服务器，为 AI Agent 提供自然语言查询、缓存管理与 Redis 数据检视接口。 | `通用` | — |
+| **[Render Agent Skills](https://github.com/render-oss/skills)** `官方` | `Skill` | Render 官方 Agent 技能包，用于在 Render 平台上部署、配置与排查 Web 服务和托管数据库。 | `通用` `Claude Code` | — |
+| **[Rootly MCP Server](https://github.com/rootlyhq/rootly-mcp-server)** `官方` | `MCP` | Rootly 官方 MCP 服务器，支持 AI Agent 排查线上故障、查询事件时间线并辅助 SRE 应急响应。 | `通用` | — |
+| **[Sentry Agentic Toolkit](https://github.com/getsentry/toolkit)** `官方` | `Plugin` | Sentry 官方 Agent 工具套件，融合 MCP 与技能用于排查线上报错、堆栈追踪与回归定位。 | `通用` `Claude Code` | — |
 | **[shadcn/ui Skill](https://github.com/shadcn-ui/ui)** `官方` | `Skill` | shadcn/ui 官方仓库内置 Agent 技能与上下文规范，辅助管理组件库、主题与现代 React 设计系统。 | `通用` `Claude Code` | — |
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `官方` | `Skill` | SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。 | `通用` `Claude Code` | — |
+| **[Supabase MCP](https://github.com/supabase/mcp)** `官方` | `MCP` | Supabase 官方 MCP 服务器，让 Agent 直接查询数据库、管理表结构迁移、Edge Functions 与项目日志。<br>`npx -y @supabase/mcp-server-supabase` | `通用` | — |
 | **[Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server)** `官方` | `MCP` | 在 MCP 客户端中查询 Terraform Registry 的提供程序和模块，并管理 HCP Terraform 工作区。<br>`codex mcp add terraform -- docker run -i --rm hashicorp/terraform-mcp-server` | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+1` | — |
+| **[WebMCP](https://github.com/webmachinelearning/webmcp)** `官方` | `工具` | W3C WebML 社区组标准规范，让网页原生向浏览器侧 AI Agent 暴露结构化 MCP 工具接口。 | `通用` | — |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | — |
 | **[Superpowers](https://github.com/obra/superpowers)** | `Plugin` | 面向编码 Agent 的结构化工程工作流插件，内置方案设计、严格 TDD、系统化调试与子代理驱动开发。<br>`/plugin install obra/superpowers` | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 327.5k<br><sub>2026-11-26</sub> |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | 多端模块化插件市场，组合专业子代理、技能与命令，覆盖多语言开发、测试、安全与架构工作流。<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 42.9k<br><sub>2026-11-24</sub> |
+| **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | 全面的开源 AI 科研与机器学习工程技能库，覆盖模型微调、RLHF、推理优化与评测实验。 | `通用` `Claude Code` | — |
 | **[Awesome Claude Code Subagents](https://github.com/VoltAgent/awesome-claude-code-subagents)** | `Subagent` | 收录 100+ 专业子代理定义的精选合集，覆盖架构评审、安全审计、各语言专家与运维角色。 | `Claude Code` | — |
+| **[Oh My ClaudeCode](https://github.com/Yeachan-Heo/oh-my-claudecode)** | `Plugin` | 面向团队协作的 Claude Code 多 Agent 编排插件，整合专业子代理、技能、Hooks 与并行执行工作流。 | `Claude Code` | — |
+| **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `工具` | 可视化看板编排工具，支持同时调度、监控并评审 Claude Code、Codex 等多个编码 Agent 的并行任务。 | `Claude Code` `Codex` `通用` | — |
 | **[Rea](https://github.com/morluto/rea)** | `Plugin` | 面向 AI Agent 的逆向工程插件、MCP 服务与技能套件，支持从应用行为到原生二进制的深度分析。 | `Claude Code` `Codex` `Cursor` `DeepSeek Harness` | ⭐ 479.8k<br><sub>2026-11-27</sub> |
 | **[Matt Pocock Skills](https://github.com/mattpocock/skills)** | `Skill` | 由 Matt Pocock 整理的实战型软件工程 Agent 技能集合，覆盖日常研发工作流。 | `通用` | ⭐ 333.6k<br><sub>2026-11-25</sub> |
 | **[Everything Claude Code (ECC)](https://github.com/affaan-m/ECC)** | `Plugin` | 集成技能、直觉记忆、安全规范与研究驱动工作流的 Agent 运行框架性能优化套件。 | `Claude Code` `Codex` `OpenCode` `Cursor` `+2` | ⭐ 311.3k<br><sub>2026-11-23</sub> |
@@ -506,34 +624,78 @@
 | **[PRPM](https://github.com/pr-pm/prpm)** | `工具` | 面向各类 AI 编程工具的通用提示词、规则与技能包管理器及注册中心。 | `通用` | ⭐ 125<br><sub>2026-10-14</sub> |
 | **[HyperFX Marketing Skills](https://github.com/hyperfx-ai/marketing-skills)** | `Skill` | 基于 Hyper MCP 的营销 Agent 技能集，涵盖信息流广告投放、社媒、SEO、竞品调研与数据分析。 | `通用` | ⭐ 124<br><sub>2026-11-26</sub> |
 | **[Vibe Resume Skill](https://github.com/KevinYoung-Kw/vibe-resume-skill)** | `Skill` | 内置 12 套可投递 HTML/PDF 模板的 AI 简历生成与排版技能，支持按岗位 JD 定制简历。 | `Codex` `Claude Code` `Cursor` | ⭐ 107<br><sub>2026-10-02</sub> |
+| **[Agentic Awesome Skills](https://github.com/sickn33/agentic-awesome-skills)** | `Skill` | 收录 3,000+ 可复用 AI Agent 技能的大型社区合集，兼容 Claude Code、Codex、Cursor 与 Gemini CLI。 | `通用` `Claude Code` `Codex` `Cursor` `+1` | — |
 | **[AgentMemory](https://github.com/rohitg00/agentmemory)** | `Skill` | 跨会话持久化记忆插件与技能套件，支持记忆写入、检索、会话交接、复盘沉淀与隐私清理。 | `通用` `Claude Code` | — |
+| **[agentMemory MCP](https://github.com/webzler/agentMemory)** | `MCP` | 零配置的本地 MCP 记忆服务器，适配 Claude Code、Cline、RooCode 与 Cursor 以持久保留项目上下文。 | `通用` | — |
+| **[AI Maestro](https://github.com/23blocks-OS/ai-maestro)** | `Plugin` | 带模块化技能系统、持久化记忆检索与跨代理通信的 AI Agent 编排器。 | `Claude Code` `通用` | — |
+| **[AI Maestro Plugins](https://github.com/23blocks-OS/ai-maestro-plugins)** | `Plugin` | AI Maestro 官方插件合集，包含 150+ 角色人格、核心技能、身份管理与代理间消息协作能力。 | `Claude Code` `通用` | — |
 | **[AI Skills](https://github.com/sanjay3290/ai-skills)** | `Skill` | AI Agent 技能集合，内置自主深度研究工作流，支持规划、检索、阅读并汇总生成完整研究报告。 | `通用` `Claude Code` | — |
+| **[arXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server)** | `MCP` | 面向学术文献研究的本地 arXiv MCP 服务器，支持论文检索、下载、LaTeX 章节解析与 BibTeX 管理。<br>`uvx arxiv-mcp-server` | `通用` | — |
+| **[Atlassian Bitbucket MCP](https://github.com/aashari/mcp-server-atlassian-bitbucket)** | `MCP` | 面向 Atlassian Bitbucket 的 MCP 服务器，支持 AI Agent 浏览代码仓库、评审 PR 与查看提交历史。<br>`npx -y @aashari/mcp-server-atlassian-bitbucket` | `通用` | — |
+| **[Awesome Agentic Patterns](https://github.com/nibzard/awesome-agentic-patterns)** | `工具` | 精选生产级 AI Agent 架构与工作流设计模式目录，汇总实战验证的工程模式。 | `通用` | — |
 | **[Bleu](https://github.com/Nirvaan05/Bleu-plugin)** | `Plugin` | 编码前架构蓝图插件与技能，将初步项目想法拆解为包含组件、流程与文件级执行清单的完整实现方案。 | `通用` `Claude Code` | — |
 | **[CC Arcade](https://github.com/sezaakgun/cc-arcade)** | `Plugin` | 零 Token 消耗的 Claude Code 终端 Mod，在等待 Claude 执行任务期间于输入框上方嵌入 2048、俄罗斯方块等小游戏。 | `Claude Code` | — |
+| **[CC Safe Setup](https://github.com/yurukusa/cc-safe-setup)** | `Plugin` | 开箱即用的 Claude Code 安全 Hook 套件，在工具调用边界拦截高危 Shell 与文件破坏性操作。 | `Claude Code` | — |
+| **[Chisle](https://github.com/JayPokale/Chisle)** | `Skill` | 面向编码 Agent 的 Token 省流技能与规范，通过精简输出、YAGNI 优先编码与高效工具调用降低成本。 | `Claude Code` `通用` | — |
 | **[Claude Agents View](https://github.com/qaokss/claude-agents-view)** | `Plugin` | Claude Code 实时监控面板插件，以列表和拓扑图形式展示各会话中运行中的子代理、技能与执行计划。 | `Claude Code` | — |
+| **[Claude Code Guide](https://github.com/zebbern/claude-code-guide)** | `工具` | 全面的 Claude Code 社区实战指南，覆盖环境配置、斜杠命令、子代理、技能、Hooks 与最佳实践。 | `Claude Code` | — |
+| **[Context Architecture](https://github.com/sergioazoc/context-architecture)** | `Skill` | 面向 AI 编码时代的上下文架构方法论与模板，帮助组织仓库知识文档以提升 Agent 准确率。 | `通用` `Claude Code` | — |
 | **[Curviate Plugin](https://github.com/Curviate/curviate-plugin)** | `Plugin` | 基于 Curviate CLI 的 LinkedIn 自动化插件与技能套件，覆盖人脉检索、消息、发帖及招聘等工作流。 | `通用` `Claude Code` | — |
+| **[Deja Vu MCP](https://github.com/vshulcz/deja-vu)** | `MCP` | 面向 Claude Code、Codex 与 Cursor 的本地 MCP 记忆层，支持跨会话历史检索与经验复用。 | `Claude Code` `Codex` `Cursor` `通用` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
+| **[Eval Genius](https://github.com/alexgreensh/eval-genius)** | `Skill` | 面向 AI 应用的评测设计技能，指导 Agent 判断何时需要 Eval、如何搭建基准测试与回归度量。 | `通用` `Claude Code` | — |
 | **[FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill)** | `Skill` | 基于本地 FFmpeg 的自然语言音视频剪辑技能，支持裁剪拼接、画幅重构、字幕压制、去静音与混音处理。 | `通用` `Claude Code` | — |
+| **[Git Context Controller](https://github.com/faugustdev/git-context-controller)** | `工具` | 类 Git 风格的 Agent 上下文管理框架，支持对大模型上下文执行提交、分支与合并操作。 | `通用` | — |
+| **[Google Workspace CLI](https://github.com/googleworkspace/cli)** | `工具` | 面向终端与 AI Agent 的 Google Workspace CLI 及技能命令套件，覆盖云盘、邮件、文档、表格与管理接口。 | `通用` `Claude Code` | — |
+| **[Google Workspace MCP](https://github.com/taylorwilsdon/google_workspace_mcp)** | `MCP` | 功能完善的 Google Workspace MCP 服务器，覆盖 Gmail、日历、云盘、文档、表格、幻灯片与任务管理。<br>`uvx workspace-mcp` | `通用` | — |
+| **[Growth Kit](https://github.com/kanaerulabs/growth-kit)** | `Plugin` | 面向 Claude Code 的内容营销与增长自动化插件套件，覆盖 SEO、文案撰写与推广工作流。 | `Claude Code` | — |
+| **[GuardLink](https://github.com/Bugb-Technologies/guardlink)** | `Plugin` | AI 驱动的代码安全注解与 MCP 工具链，用于在代码库中持续进行威胁建模与安全边界校验。 | `通用` `Claude Code` | — |
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | — |
+| **[iOS Simulator MCP](https://github.com/joshuayoes/ios-simulator-mcp)** | `MCP` | 用于操控 Apple iOS 模拟器的 MCP 服务器，支持 UI 树检查、点击交互、截图与移动端自动化调试。<br>`npx -y ios-simulator-mcp` | `通用` | — |
+| **[Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server)** | `MCP` | 面向 Jupyter Notebook 的 MCP 服务器，支持 AI Agent 实时执行代码单元、读取输出并完成数据科学分析。<br>`uvx jupyter-mcp-server` | `通用` | — |
 | **[Levea Video MCP](https://github.com/brajendrak00068/agentic-ai-video-production)** | `MCP` | 面向自动化 AI 视频剪辑的远程 MCP 服务，可将自然语言指令或长视频处理为带字幕与智能构图的成片。 | `通用` `Claude Code` | — |
+| **[Loki Mode](https://github.com/asklokesh/loki-mode)** | `Plugin` | 自主多 Agent 软件工厂插件，接收 GitHub Issue 或需求文档后端到端编排规划、编码、测试与交付。 | `Claude Code` `Codex` `Gemini CLI` | — |
+| **[Maoxuan Skill](https://github.com/leezythu/maoxuan-skill)** | `Skill` | 毛选思维框架中文决策技能，提炼核心心智模型与决策启发式方法用于复杂问题分析与策略制定。 | `通用` `Claude Code` | — |
+| **[MCP Server Playwright](https://github.com/VikashLoomba/MCP-Server-Playwright)** | `MCP` | 轻量级 Playwright MCP 服务器，支持浏览器导航、表单交互、DOM 检查与自动截图。 | `通用` | — |
+| **[mcp-remote](https://github.com/punkpeye/mcp-remote)** | `MCP` | MCP 协议桥接工具，让仅支持本地 stdio 的 MCP 客户端也能通过 OAuth 连接远程 HTTP/SSE MCP 服务器。<br>`npx -y mcp-remote` | `通用` | — |
+| **[Memex MCP](https://github.com/STiFLeR7/memex)** | `MCP` | 开源 MCP 服务器与 Hook 服务，用于持久化沉淀 Claude Code 与 Codex 的工程上下文与架构决策。 | `Claude Code` `Codex` `通用` | — |
+| **[Mermaid MCP](https://github.com/hustcc/mcp-mermaid)** | `MCP` | 动态生成与渲染 Mermaid 流程图、时序图和架构图的 MCP 服务器。<br>`npx -y mcp-mermaid` | `通用` | — |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | — |
+| **[n8n MCP](https://github.com/czlonkowski/n8n-mcp)** | `MCP` | 面向 n8n 的 MCP 服务器，支持 AI Agent 检索节点文档、校验参数并构建或运行 n8n 自动化工作流。<br>`npx -y n8n-mcp` | `通用` | — |
+| **[n8n Skills](https://github.com/czlonkowski/n8n-skills)** | `Skill` | 精选 n8n 技能包，帮助 Claude Code 等 Agent 设计、校验并调试生产级 n8n 自动化工作流。 | `Claude Code` `通用` | — |
+| **[Next.js Sanity Blog Skill](https://github.com/BuildShipGrowRepeat/nextjs-sanity-blog-skill)** | `Skill` | 面向 Next.js 项目的 Claude Code 技能，一键搭建 SEO 优先、支持多语言的 Sanity CMS 博客系统。 | `Claude Code` `通用` | — |
+| **[npm-agentskills](https://github.com/onmax/npm-agentskills)** | `工具` | 与框架无关的 Agent Skills 发现与导出工具，支持直接从 npm 包中提取和分发技能。 | `通用` | — |
 | **[Off Grid AI Skills](https://github.com/off-grid-ai/skills)** | `Skill` | 专注软件工程质量的技能集合，涵盖行为驱动测试、根因修复、合并前安全检查与图工程工作流。 | `通用` `Claude Code` | — |
+| **[OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** | `工具` | 面向 AI Agent 的时光机调试与 MCP 工具，支持录制、回放、分叉与排查多步 Agent 执行过程。 | `通用` `Claude Code` | — |
 | **[pdfToMarkdown](https://github.com/ThiloReintjes/pdftomarkdown-skill)** | `Plugin` | Claude Code 插件与技能，可将扫描件、表格、多栏排版及中日韩文档等复杂 PDF 高保真转换为 Markdown。 | `Claude Code` `通用` | — |
 | **[Pi Agent for Claude](https://github.com/FazalAAli/pi-agent-for-claude)** | `Plugin` | Claude Code 扩展 Mod，新增基于 pi CLI 的多模型子代理类型并原生流式集成到 Claude Code 协作界面。 | `Claude Code` | — |
+| **[Playwright MCP (ExecuteAutomation)](https://github.com/executeautomation/mcp-playwright)** | `MCP` | 社区版 Playwright MCP 服务器，支持 AI Agent 驱动浏览器自动化、截图、测试代码生成与接口测试。<br>`npx -y @executeautomation/playwright-mcp-server` | `通用` | — |
 | **[Product Decision Agent](https://github.com/atdy/maoxuan-product-agent)** | `Skill` | 中文互联网产品决策 Agent 技能，覆盖需求分析、PRD、优先级排期、增长诊断、数据指标与跨部门协作决策。 | `通用` `Claude Code` | — |
 | **[Ratchet](https://github.com/krishansubudhi/ratchet)** | `Plugin` | 通过 Stop Hook 强制执行只降不增代码规模预算的 Claude Code 插件，防止编码 Agent 导致仓库膨胀。 | `Claude Code` | — |
 | **[Rote](https://github.com/trevhud/rote)** | `工具` | 将成熟 SKILL.md 技能编译为无大模型参与的确定性流水线，并重新封装为 MCP 工具供 Agent 调用。 | `通用` `Claude Code` | — |
+| **[Ruflo (Claude Flow)](https://github.com/ruvnet/ruflo)** | `Plugin` | 面向 Claude Code 与 Codex 的多 Agent 蜂群编排平台，集成协同子代理、记忆层、技能系统与 MCP 工具。 | `Claude Code` `Codex` `通用` | — |
+| **[Savia](https://github.com/gonzalezpazmonica/savia)** | `Plugin` | 不绑定厂商的工程治理与任务编排 Agent 套件，覆盖软件开发与项目管理全流程。 | `Claude Code` `通用` | — |
+| **[SearXNG MCP](https://github.com/ihor-sokoliuk/mcp-searxng)** | `MCP` | 基于自建 SearXNG 的隐私优先联网搜索 MCP 服务器，适配 Claude、Cursor 等主流 MCP 客户端。<br>`npx -y mcp-searxng` | `通用` | — |
+| **[Structured Thinking Skills](https://github.com/ysskrishna/ai-agent-skills)** | `Skill` | 面向 AI Agent 的结构化思维技能集合，覆盖头脑风暴、决策分析与系统性思考框架。 | `通用` `Claude Code` | — |
 | **[Subagent Tuner](https://github.com/Kruhlikau/subagent-tuner)** | `Plugin` | Claude Code 子代理调优 Mod，按任务类型自动推荐并配置各子代理的模型与推理强度。 | `Claude Code` | — |
+| **[SwarmVault](https://github.com/swarmclawai/swarmvault)** | `工具` | 本地优先的 LLM Wiki 与知识图谱构建工具，为 AI Agent 提供结构化 RAG 知识库。 | `通用` `Claude Code` | — |
+| **[Switch AI Teammates](https://github.com/sandbox-quantum/switch)** | `工具` | 开源协作桥接工具，将 AI 工程与办公代理直接接入 Slack、Teams、Discord、Telegram 与 Mattermost。 | `通用` | — |
+| **[Trace MCP](https://github.com/nikolai-vysotskyi/trace-mcp)** | `MCP` | 支持 90+ 框架与 80+ 编程语言的代码智能分析 MCP 服务器，用于跨文件符号追踪与架构理解。 | `通用` | — |
 | **[tstack Skills](https://github.com/t3dotgg/tstack)** | `Skill` | Theo Browne 维护的工程工作流技能套件，涵盖 PR 提交、评审评论、CI 自动盯盘与代码库现代化改造。 | `通用` `Claude Code` | — |
 
-## Codex (270)
+## Codex (346)
 
 安装参考：`npx skills add <owner>/<repo>`
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | ⭐ 201.1k<br><sub>2026-11-16</sub> |
+| **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `官方` | `MCP` | Chrome DevTools 官方 MCP 服务器，让编码 Agent 直接操控、调试、性能分析与审查 Chrome 浏览器页面。<br>`npx -y chrome-devtools-mcp@latest` | `通用` | — |
+| **[Context7 MCP](https://github.com/upstash/context7)** `官方` | `MCP` | Upstash 官方 Context7 MCP 服务器，实时拉取最新、按版本匹配的开源库文档与代码示例并注入 Agent 上下文。<br>`npx -y @upstash/context7-mcp` | `通用` | — |
+| **[FastMCP](https://github.com/PrefectHQ/fastmcp)** `官方` | `工具` | Python 生态主流 MCP 开发框架，用于快速构建生产级 Model Context Protocol 服务器与客户端。 | `通用` | — |
+| **[Google Agent Skills](https://github.com/google/skills)** `官方` | `Skill` | Google 官方 Agent Skills 仓库，覆盖 Google Cloud 与各类 Google 开发者技术栈的标准技能。 | `通用` `Gemini CLI` `Claude Code` | — |
 | **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** `官方` | `MCP` | Model Context Protocol 官方参考服务器合集，提供文件系统、Git、数据库与网页接入等标准集成范例。 | `通用` | — |
+| **[OpenAI Skills Catalog](https://github.com/openai/skills)** `官方` | `Skill` | OpenAI 官方维护的 Agent Skills 目录，为 Codex 及遵循开放标准的 Agent 提供精选可复用技能。 | `Codex` `通用` | — |
 | **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `官方` | `MCP` | 微软官方 Playwright MCP 服务器，让 Agent 通过结构化无障碍树直接操控浏览器完成测试与网页自动化。<br>`npx @playwright/mcp@latest` | `通用` | — |
 | **[Hyperframes](https://github.com/heygen-com/hyperframes)** `官方` | `Plugin` | HeyGen 官方开源的 AI 视频编辑插件与 MCP 工具集，支持用 HTML 编写动效并渲染输出 MP4。 | `Claude Code` `Codex` `Cursor` `Gemini CLI` | ⭐ 90.9k<br><sub>2026-11-27</sub> |
 | **[Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill)** `官方` | `Skill` | Cloudflare 官方出品的多阶段安全审计技能，可生成经独立验证的机器可读漏洞报告。 | `通用` | ⭐ 78.9k<br><sub>2026-09-14</sub> |
@@ -586,19 +748,54 @@
 | **[Prisma Official Skills](https://github.com/prisma/skills)** `官方` | `Skill` | Prisma 官方 Agent 技能集，涵盖 Prisma ORM 配置、Client API、Prisma Postgres 与 v7 升级迁移。 | `通用` | ⭐ 80<br><sub>2026-11-26</sub> |
 | **[Accoil Product Tracking Skills](https://github.com/Accoil/product-tracking-skills)** `官方` | `Skill` | Accoil 官方产品埋点分析技能集，可扫描代码库、设计埋点方案并生成多平台分析埋点代码。 | `通用` | ⭐ 47<br><sub>2026-10-20</sub> |
 | **[Astrolicious Agent Skills](https://github.com/astrolicious/agent-skills)** `官方` | `Skill` | Astrolicious 官方 Astro 生态 Agent 技能集，助力智能体高效开发与维护 Astro Web 项目。 | `通用` | ⭐ 13<br><sub>2026-03-20</sub> |
+| **[Airtable Agent Skills](https://github.com/Airtable/skills)** `官方` | `Skill` | Airtable 官方 Agent 技能包，辅助操作 Airtable 数据表结构、自动化流程与扩展开发。 | `通用` `Claude Code` | — |
+| **[Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server)** `官方` | `MCP` | Alpaca 官方 MCP 服务器，支持 AI Agent 获取实时行情数据并操作股票、ETF、期权与加密货币交易接口。<br>`uvx alpaca-mcp-server` | `通用` | — |
+| **[Apify MCP Server](https://github.com/apify/apify-mcp-server)** `官方` | `MCP` | Apify 官方 MCP 服务器，让 Agent 直接调用数千个 Apify Actors 完成网页抓取、社媒与电商数据采集。<br>`npx -y @apify/actors-mcp-server` | `通用` | — |
+| **[Browser MCP](https://github.com/BrowserMCP/mcp)** `官方` | `MCP` | 结合浏览器插件的 MCP 服务器，让 AI Agent 复用本地浏览器登录态完成网页操作与自动化任务。<br>`npx -y @browsermcp/mcp@latest` | `通用` | — |
+| **[BrowserAct Skills](https://github.com/browser-act/skills)** `官方` | `Skill` | BrowserAct 官方浏览器自动化技能集，支持复杂网页交互、数据采集与任务接管。 | `通用` `Claude Code` | — |
+| **[Cloud Run MCP](https://github.com/GoogleCloudPlatform/cloud-run-mcp)** `官方` | `MCP` | Google Cloud 官方 Cloud Run MCP 服务器，支持 AI Agent 一键构建、部署并管理云端容器服务。<br>`npx -y @google-cloud/cloud-run-mcp` | `通用` | — |
+| **[Codacy MCP Server](https://github.com/codacy/codacy-mcp-server)** `官方` | `MCP` | Codacy 官方 MCP 服务器，为 AI Agent 提供自动化代码质量检测、安全漏洞扫描与覆盖率分析。<br>`npx -y @codacy/codacy-mcp` | `通用` | — |
+| **[Code Graph MCP](https://github.com/diffbot/mcp-code-graph)** `官方` | `MCP` | 用于代码库知识图谱分析、依赖追踪与架构可视化的 MCP 服务器。 | `通用` | — |
+| **[Colibird Local MCP](https://github.com/colibird-ai/local-mcp-releases)** `官方` | `MCP` | 本地桌面端 MCP 服务器，将 Claude、ChatGPT 与 Cursor 连接到 Mac 和 Windows 原生文件与工作流。 | `通用` | — |
+| **[DataLikers MCP](https://github.com/subzeroid/datalikers-mcp)** `官方` | `MCP` | 轻量级 stdio MCP 服务器，通过 DataLikers API 提供 29 个 Instagram 与 TikTok 社媒数据采集工具。 | `通用` | — |
+| **[DBHub MCP](https://github.com/bytebase/dbhub)** `官方` | `MCP` | Bytebase 开源的通用数据库 MCP 服务器，节省上下文 Token，支持 PostgreSQL、MySQL、SQL Server、Oracle 与 SQLite。<br>`npx -y @bytebase/dbhub` | `通用` | — |
 | **[e2e Agent Skill](https://github.com/e2e-inc/e2e)** `官方` | `Skill` | e2e 智能端到端测试框架官方技能，支持在 Playwright 浏览器及 iOS/Android 设备上编写、运行与调试测试。 | `通用` `Claude Code` | — |
+| **[FinOps MCP](https://github.com/getnable/finopsmcp)** `官方` | `MCP` | 面向云成本治理的无头 FinOps MCP 服务，为 AI Agent 提供云账单分析与资源成本优化能力。 | `通用` | — |
+| **[Firecrawl MCP Server](https://github.com/firecrawl/firecrawl-mcp-server)** `官方` | `MCP` | Firecrawl 官方 MCP 服务器，为 AI Agent 提供联网搜索、网页抓取、整站爬取与结构化数据抽取能力。<br>`npx -y firecrawl-mcp` | `通用` | — |
+| **[Firefly MCP](https://github.com/gofireflyio/firefly-mcp)** `官方` | `MCP` | Firefly 官方 MCP 服务器，支持 AI Agent 盘点云资产、检测配置漂移并生成基础设施即代码（IaC）。 | `通用` | — |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | — |
+| **[HeyGen Agent Skills](https://github.com/heygen-com/skills)** `官方` | `Skill` | HeyGen 官方 AI Agent 技能包，支持通过 HeyGen v3 API 完成数字人创建与自动化视频制作。 | `通用` `Claude Code` | — |
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `官方` | `工具` | 独立命令行工具，可查找 Hugging Face 技能，并将其安装或更新到项目或用户级技能目录。 | `Claude Code` `Codex` `Cursor` `OpenCode` | — |
 | **[Hugging Face Skills](https://github.com/huggingface/skills)** `官方` | `Skill` | 让编码助手查询 Hugging Face Hub 数据集、微调模型并运行模型评估的技能集。<br>`hf skills add huggingface-datasets` | `Claude Code` `Codex` `Cursor` `Gemini CLI` | — |
 | **[Internet Court Skill](https://github.com/internet-court/internet-court-skill)** `官方` | `Skill` | 面向 Agent 间交易的开放信任层技能，覆盖自然语言授权、ERC-7710 权限委托、x402 支付、托管与争议仲裁。 | `通用` `Claude Code` | — |
+| **[LaunchDarkly MCP Server](https://github.com/launchdarkly/mcp-server)** `官方` | `MCP` | LaunchDarkly 官方 MCP 服务器，支持 AI Agent 查询、创建与管理 Feature Flags 及灰度发布规则。 | `通用` | — |
+| **[Live Tennis API MCP](https://github.com/livetennisapi/livetennisapi-mcp)** `官方` | `MCP` | Live Tennis API 官方 MCP 服务器，为 AI Agent 提供实时网球比分、ATP/WTA 排名与赛事统计数据。 | `通用` | — |
 | **[MarkItDown](https://github.com/microsoft/markitdown)** `官方` | `MCP` | 微软官方文件转 Markdown 工具及 MCP 服务，支持将 PDF、Office 文档、图片、音频等转换为适合大模型处理的 Markdown。 | `通用` | — |
+| **[Microsoft Clarity MCP](https://github.com/microsoft/clarity-mcp-server)** `官方` | `MCP` | 微软官方 Clarity MCP 服务器，用于查询网站用户体验分析、流量指标与行为洞察数据。<br>`npx -y @microsoft/clarity-mcp-server` | `通用` | — |
+| **[Microsoft Learn MCP](https://github.com/MicrosoftDocs/mcp)** `官方` | `MCP` | 微软官方 Learn MCP 服务器与 CLI，为 AI Agent 提供最新的 Microsoft、Azure 与 .NET 官方技术文档检索。 | `通用` | — |
+| **[Milvus Agent Skill](https://github.com/zilliztech/milvus-skill)** `官方` | `Skill` | Zilliz 官方 Milvus 向量数据库技能，指导 Agent 使用 pymilvus 构建索引、检索与 RAG 应用。 | `通用` `Claude Code` | — |
+| **[monday.com MCP](https://github.com/mondaycom/mcp)** `官方` | `MCP` | monday.com 官方 MCP 服务器，让 AI Agent 安全读写项目看板、任务条目与团队协作流程。 | `通用` | — |
+| **[MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server)** `官方` | `MCP` | MongoDB 官方 MCP 服务器，支持 AI Agent 查询集合、分析数据结构并管理 MongoDB Atlas 集群。<br>`npx -y mongodb-mcp-server` | `通用` | — |
 | **[Neon Postgres Skills](https://github.com/neondatabase/postgres-skills)** `官方` | `Skill` | Neon 官方 PostgreSQL 技能包，涵盖表结构设计、索引策略、查询优化、数据库迁移及常见避坑指南。 | `通用` `Claude Code` | — |
+| **[Notion MCP Server](https://github.com/makenotion/notion-mcp-server)** `官方` | `MCP` | Notion 官方 MCP 服务器，支持 AI Agent 检索、读取、创建并更新 Notion 页面与数据库。<br>`npx -y @notionhq/notion-mcp-server` | `通用` | — |
+| **[PostgreSQL AI Guide](https://github.com/timescale/pg-aiguide)** `官方` | `Plugin` | Timescale 官方 PostgreSQL MCP 与 Claude 插件，提供权威 Postgres 技能、版本文档与查询最佳实践。 | `Claude Code` `通用` | — |
+| **[Pydantic Logfire MCP](https://github.com/pydantic/logfire-mcp)** `官方` | `MCP` | Pydantic 官方 Logfire MCP 服务器，支持 AI Agent 查询 OpenTelemetry 链路追踪、异常日志与线上指标。<br>`uvx logfire-mcp` | `通用` | — |
+| **[Railway Agent Skills](https://github.com/railwayapp/railway-skills)** `官方` | `Skill` | Railway 官方 Agent 技能包，支持创建服务、管理环境变量、查看日志与一键部署云端应用。 | `通用` `Claude Code` | — |
+| **[Recommerce Skills](https://github.com/budna-marketplace/recommerce)** `官方` | `Skill` | 面向二手与新品比价检索的 Agent 技能包，支持跨平台商品检索与价格对比。 | `通用` `Claude Code` | — |
+| **[Redis MCP Server](https://github.com/redis/mcp-redis)** `官方` | `MCP` | Redis 官方 MCP 服务器，为 AI Agent 提供自然语言查询、缓存管理与 Redis 数据检视接口。 | `通用` | — |
+| **[Render Agent Skills](https://github.com/render-oss/skills)** `官方` | `Skill` | Render 官方 Agent 技能包，用于在 Render 平台上部署、配置与排查 Web 服务和托管数据库。 | `通用` `Claude Code` | — |
+| **[Rootly MCP Server](https://github.com/rootlyhq/rootly-mcp-server)** `官方` | `MCP` | Rootly 官方 MCP 服务器，支持 AI Agent 排查线上故障、查询事件时间线并辅助 SRE 应急响应。 | `通用` | — |
+| **[Sentry Agentic Toolkit](https://github.com/getsentry/toolkit)** `官方` | `Plugin` | Sentry 官方 Agent 工具套件，融合 MCP 与技能用于排查线上报错、堆栈追踪与回归定位。 | `通用` `Claude Code` | — |
 | **[shadcn/ui Skill](https://github.com/shadcn-ui/ui)** `官方` | `Skill` | shadcn/ui 官方仓库内置 Agent 技能与上下文规范，辅助管理组件库、主题与现代 React 设计系统。 | `通用` `Claude Code` | — |
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `官方` | `Skill` | SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。 | `通用` `Claude Code` | — |
+| **[Supabase MCP](https://github.com/supabase/mcp)** `官方` | `MCP` | Supabase 官方 MCP 服务器，让 Agent 直接查询数据库、管理表结构迁移、Edge Functions 与项目日志。<br>`npx -y @supabase/mcp-server-supabase` | `通用` | — |
 | **[Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server)** `官方` | `MCP` | 在 MCP 客户端中查询 Terraform Registry 的提供程序和模块，并管理 HCP Terraform 工作区。<br>`codex mcp add terraform -- docker run -i --rm hashicorp/terraform-mcp-server` | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+1` | — |
+| **[WebMCP](https://github.com/webmachinelearning/webmcp)** `官方` | `工具` | W3C WebML 社区组标准规范，让网页原生向浏览器侧 AI Agent 暴露结构化 MCP 工具接口。 | `通用` | — |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | — |
 | **[Superpowers](https://github.com/obra/superpowers)** | `Plugin` | 面向编码 Agent 的结构化工程工作流插件，内置方案设计、严格 TDD、系统化调试与子代理驱动开发。<br>`/plugin install obra/superpowers` | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 327.5k<br><sub>2026-11-26</sub> |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | 多端模块化插件市场，组合专业子代理、技能与命令，覆盖多语言开发、测试、安全与架构工作流。<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 42.9k<br><sub>2026-11-24</sub> |
+| **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | 全面的开源 AI 科研与机器学习工程技能库，覆盖模型微调、RLHF、推理优化与评测实验。 | `通用` `Claude Code` | — |
+| **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `工具` | 可视化看板编排工具，支持同时调度、监控并评审 Claude Code、Codex 等多个编码 Agent 的并行任务。 | `Claude Code` `Codex` `通用` | — |
 | **[Rea](https://github.com/morluto/rea)** | `Plugin` | 面向 AI Agent 的逆向工程插件、MCP 服务与技能套件，支持从应用行为到原生二进制的深度分析。 | `Claude Code` `Codex` `Cursor` `DeepSeek Harness` | ⭐ 479.8k<br><sub>2026-11-27</sub> |
 | **[Matt Pocock Skills](https://github.com/mattpocock/skills)** | `Skill` | 由 Matt Pocock 整理的实战型软件工程 Agent 技能集合，覆盖日常研发工作流。 | `通用` | ⭐ 333.6k<br><sub>2026-11-25</sub> |
 | **[Everything Claude Code (ECC)](https://github.com/affaan-m/ECC)** | `Plugin` | 集成技能、直觉记忆、安全规范与研究驱动工作流的 Agent 运行框架性能优化套件。 | `Claude Code` `Codex` `OpenCode` `Cursor` `+2` | ⭐ 311.3k<br><sub>2026-11-23</sub> |
@@ -788,27 +985,68 @@
 | **[PRPM](https://github.com/pr-pm/prpm)** | `工具` | 面向各类 AI 编程工具的通用提示词、规则与技能包管理器及注册中心。 | `通用` | ⭐ 125<br><sub>2026-10-14</sub> |
 | **[HyperFX Marketing Skills](https://github.com/hyperfx-ai/marketing-skills)** | `Skill` | 基于 Hyper MCP 的营销 Agent 技能集，涵盖信息流广告投放、社媒、SEO、竞品调研与数据分析。 | `通用` | ⭐ 124<br><sub>2026-11-26</sub> |
 | **[Vibe Resume Skill](https://github.com/KevinYoung-Kw/vibe-resume-skill)** | `Skill` | 内置 12 套可投递 HTML/PDF 模板的 AI 简历生成与排版技能，支持按岗位 JD 定制简历。 | `Codex` `Claude Code` `Cursor` | ⭐ 107<br><sub>2026-10-02</sub> |
+| **[Agentic Awesome Skills](https://github.com/sickn33/agentic-awesome-skills)** | `Skill` | 收录 3,000+ 可复用 AI Agent 技能的大型社区合集，兼容 Claude Code、Codex、Cursor 与 Gemini CLI。 | `通用` `Claude Code` `Codex` `Cursor` `+1` | — |
 | **[AgentMemory](https://github.com/rohitg00/agentmemory)** | `Skill` | 跨会话持久化记忆插件与技能套件，支持记忆写入、检索、会话交接、复盘沉淀与隐私清理。 | `通用` `Claude Code` | — |
+| **[agentMemory MCP](https://github.com/webzler/agentMemory)** | `MCP` | 零配置的本地 MCP 记忆服务器，适配 Claude Code、Cline、RooCode 与 Cursor 以持久保留项目上下文。 | `通用` | — |
+| **[AI Maestro](https://github.com/23blocks-OS/ai-maestro)** | `Plugin` | 带模块化技能系统、持久化记忆检索与跨代理通信的 AI Agent 编排器。 | `Claude Code` `通用` | — |
+| **[AI Maestro Plugins](https://github.com/23blocks-OS/ai-maestro-plugins)** | `Plugin` | AI Maestro 官方插件合集，包含 150+ 角色人格、核心技能、身份管理与代理间消息协作能力。 | `Claude Code` `通用` | — |
 | **[AI Skills](https://github.com/sanjay3290/ai-skills)** | `Skill` | AI Agent 技能集合，内置自主深度研究工作流，支持规划、检索、阅读并汇总生成完整研究报告。 | `通用` `Claude Code` | — |
+| **[arXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server)** | `MCP` | 面向学术文献研究的本地 arXiv MCP 服务器，支持论文检索、下载、LaTeX 章节解析与 BibTeX 管理。<br>`uvx arxiv-mcp-server` | `通用` | — |
+| **[Atlassian Bitbucket MCP](https://github.com/aashari/mcp-server-atlassian-bitbucket)** | `MCP` | 面向 Atlassian Bitbucket 的 MCP 服务器，支持 AI Agent 浏览代码仓库、评审 PR 与查看提交历史。<br>`npx -y @aashari/mcp-server-atlassian-bitbucket` | `通用` | — |
+| **[Awesome Agentic Patterns](https://github.com/nibzard/awesome-agentic-patterns)** | `工具` | 精选生产级 AI Agent 架构与工作流设计模式目录，汇总实战验证的工程模式。 | `通用` | — |
 | **[Bleu](https://github.com/Nirvaan05/Bleu-plugin)** | `Plugin` | 编码前架构蓝图插件与技能，将初步项目想法拆解为包含组件、流程与文件级执行清单的完整实现方案。 | `通用` `Claude Code` | — |
+| **[Chisle](https://github.com/JayPokale/Chisle)** | `Skill` | 面向编码 Agent 的 Token 省流技能与规范，通过精简输出、YAGNI 优先编码与高效工具调用降低成本。 | `Claude Code` `通用` | — |
+| **[Context Architecture](https://github.com/sergioazoc/context-architecture)** | `Skill` | 面向 AI 编码时代的上下文架构方法论与模板，帮助组织仓库知识文档以提升 Agent 准确率。 | `通用` `Claude Code` | — |
 | **[Curviate Plugin](https://github.com/Curviate/curviate-plugin)** | `Plugin` | 基于 Curviate CLI 的 LinkedIn 自动化插件与技能套件，覆盖人脉检索、消息、发帖及招聘等工作流。 | `通用` `Claude Code` | — |
+| **[Deja Vu MCP](https://github.com/vshulcz/deja-vu)** | `MCP` | 面向 Claude Code、Codex 与 Cursor 的本地 MCP 记忆层，支持跨会话历史检索与经验复用。 | `Claude Code` `Codex` `Cursor` `通用` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
+| **[Eval Genius](https://github.com/alexgreensh/eval-genius)** | `Skill` | 面向 AI 应用的评测设计技能，指导 Agent 判断何时需要 Eval、如何搭建基准测试与回归度量。 | `通用` `Claude Code` | — |
 | **[FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill)** | `Skill` | 基于本地 FFmpeg 的自然语言音视频剪辑技能，支持裁剪拼接、画幅重构、字幕压制、去静音与混音处理。 | `通用` `Claude Code` | — |
+| **[Git Context Controller](https://github.com/faugustdev/git-context-controller)** | `工具` | 类 Git 风格的 Agent 上下文管理框架，支持对大模型上下文执行提交、分支与合并操作。 | `通用` | — |
+| **[Google Workspace CLI](https://github.com/googleworkspace/cli)** | `工具` | 面向终端与 AI Agent 的 Google Workspace CLI 及技能命令套件，覆盖云盘、邮件、文档、表格与管理接口。 | `通用` `Claude Code` | — |
+| **[Google Workspace MCP](https://github.com/taylorwilsdon/google_workspace_mcp)** | `MCP` | 功能完善的 Google Workspace MCP 服务器，覆盖 Gmail、日历、云盘、文档、表格、幻灯片与任务管理。<br>`uvx workspace-mcp` | `通用` | — |
+| **[GuardLink](https://github.com/Bugb-Technologies/guardlink)** | `Plugin` | AI 驱动的代码安全注解与 MCP 工具链，用于在代码库中持续进行威胁建模与安全边界校验。 | `通用` `Claude Code` | — |
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | — |
+| **[iOS Simulator MCP](https://github.com/joshuayoes/ios-simulator-mcp)** | `MCP` | 用于操控 Apple iOS 模拟器的 MCP 服务器，支持 UI 树检查、点击交互、截图与移动端自动化调试。<br>`npx -y ios-simulator-mcp` | `通用` | — |
+| **[Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server)** | `MCP` | 面向 Jupyter Notebook 的 MCP 服务器，支持 AI Agent 实时执行代码单元、读取输出并完成数据科学分析。<br>`uvx jupyter-mcp-server` | `通用` | — |
 | **[Levea Video MCP](https://github.com/brajendrak00068/agentic-ai-video-production)** | `MCP` | 面向自动化 AI 视频剪辑的远程 MCP 服务，可将自然语言指令或长视频处理为带字幕与智能构图的成片。 | `通用` `Claude Code` | — |
+| **[Loki Mode](https://github.com/asklokesh/loki-mode)** | `Plugin` | 自主多 Agent 软件工厂插件，接收 GitHub Issue 或需求文档后端到端编排规划、编码、测试与交付。 | `Claude Code` `Codex` `Gemini CLI` | — |
+| **[Maoxuan Skill](https://github.com/leezythu/maoxuan-skill)** | `Skill` | 毛选思维框架中文决策技能，提炼核心心智模型与决策启发式方法用于复杂问题分析与策略制定。 | `通用` `Claude Code` | — |
+| **[MCP Server Playwright](https://github.com/VikashLoomba/MCP-Server-Playwright)** | `MCP` | 轻量级 Playwright MCP 服务器，支持浏览器导航、表单交互、DOM 检查与自动截图。 | `通用` | — |
+| **[mcp-remote](https://github.com/punkpeye/mcp-remote)** | `MCP` | MCP 协议桥接工具，让仅支持本地 stdio 的 MCP 客户端也能通过 OAuth 连接远程 HTTP/SSE MCP 服务器。<br>`npx -y mcp-remote` | `通用` | — |
+| **[Memex MCP](https://github.com/STiFLeR7/memex)** | `MCP` | 开源 MCP 服务器与 Hook 服务，用于持久化沉淀 Claude Code 与 Codex 的工程上下文与架构决策。 | `Claude Code` `Codex` `通用` | — |
+| **[Mermaid MCP](https://github.com/hustcc/mcp-mermaid)** | `MCP` | 动态生成与渲染 Mermaid 流程图、时序图和架构图的 MCP 服务器。<br>`npx -y mcp-mermaid` | `通用` | — |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | — |
+| **[n8n MCP](https://github.com/czlonkowski/n8n-mcp)** | `MCP` | 面向 n8n 的 MCP 服务器，支持 AI Agent 检索节点文档、校验参数并构建或运行 n8n 自动化工作流。<br>`npx -y n8n-mcp` | `通用` | — |
+| **[n8n Skills](https://github.com/czlonkowski/n8n-skills)** | `Skill` | 精选 n8n 技能包，帮助 Claude Code 等 Agent 设计、校验并调试生产级 n8n 自动化工作流。 | `Claude Code` `通用` | — |
+| **[Next.js Sanity Blog Skill](https://github.com/BuildShipGrowRepeat/nextjs-sanity-blog-skill)** | `Skill` | 面向 Next.js 项目的 Claude Code 技能，一键搭建 SEO 优先、支持多语言的 Sanity CMS 博客系统。 | `Claude Code` `通用` | — |
+| **[npm-agentskills](https://github.com/onmax/npm-agentskills)** | `工具` | 与框架无关的 Agent Skills 发现与导出工具，支持直接从 npm 包中提取和分发技能。 | `通用` | — |
 | **[Off Grid AI Skills](https://github.com/off-grid-ai/skills)** | `Skill` | 专注软件工程质量的技能集合，涵盖行为驱动测试、根因修复、合并前安全检查与图工程工作流。 | `通用` `Claude Code` | — |
+| **[OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** | `工具` | 面向 AI Agent 的时光机调试与 MCP 工具，支持录制、回放、分叉与排查多步 Agent 执行过程。 | `通用` `Claude Code` | — |
 | **[pdfToMarkdown](https://github.com/ThiloReintjes/pdftomarkdown-skill)** | `Plugin` | Claude Code 插件与技能，可将扫描件、表格、多栏排版及中日韩文档等复杂 PDF 高保真转换为 Markdown。 | `Claude Code` `通用` | — |
+| **[Playwright MCP (ExecuteAutomation)](https://github.com/executeautomation/mcp-playwright)** | `MCP` | 社区版 Playwright MCP 服务器，支持 AI Agent 驱动浏览器自动化、截图、测试代码生成与接口测试。<br>`npx -y @executeautomation/playwright-mcp-server` | `通用` | — |
 | **[Product Decision Agent](https://github.com/atdy/maoxuan-product-agent)** | `Skill` | 中文互联网产品决策 Agent 技能，覆盖需求分析、PRD、优先级排期、增长诊断、数据指标与跨部门协作决策。 | `通用` `Claude Code` | — |
 | **[Rote](https://github.com/trevhud/rote)** | `工具` | 将成熟 SKILL.md 技能编译为无大模型参与的确定性流水线，并重新封装为 MCP 工具供 Agent 调用。 | `通用` `Claude Code` | — |
+| **[Ruflo (Claude Flow)](https://github.com/ruvnet/ruflo)** | `Plugin` | 面向 Claude Code 与 Codex 的多 Agent 蜂群编排平台，集成协同子代理、记忆层、技能系统与 MCP 工具。 | `Claude Code` `Codex` `通用` | — |
+| **[Savia](https://github.com/gonzalezpazmonica/savia)** | `Plugin` | 不绑定厂商的工程治理与任务编排 Agent 套件，覆盖软件开发与项目管理全流程。 | `Claude Code` `通用` | — |
+| **[SearXNG MCP](https://github.com/ihor-sokoliuk/mcp-searxng)** | `MCP` | 基于自建 SearXNG 的隐私优先联网搜索 MCP 服务器，适配 Claude、Cursor 等主流 MCP 客户端。<br>`npx -y mcp-searxng` | `通用` | — |
+| **[Structured Thinking Skills](https://github.com/ysskrishna/ai-agent-skills)** | `Skill` | 面向 AI Agent 的结构化思维技能集合，覆盖头脑风暴、决策分析与系统性思考框架。 | `通用` `Claude Code` | — |
+| **[SwarmVault](https://github.com/swarmclawai/swarmvault)** | `工具` | 本地优先的 LLM Wiki 与知识图谱构建工具，为 AI Agent 提供结构化 RAG 知识库。 | `通用` `Claude Code` | — |
+| **[Switch AI Teammates](https://github.com/sandbox-quantum/switch)** | `工具` | 开源协作桥接工具，将 AI 工程与办公代理直接接入 Slack、Teams、Discord、Telegram 与 Mattermost。 | `通用` | — |
+| **[Trace MCP](https://github.com/nikolai-vysotskyi/trace-mcp)** | `MCP` | 支持 90+ 框架与 80+ 编程语言的代码智能分析 MCP 服务器，用于跨文件符号追踪与架构理解。 | `通用` | — |
 | **[tstack Skills](https://github.com/t3dotgg/tstack)** | `Skill` | Theo Browne 维护的工程工作流技能套件，涵盖 PR 提交、评审评论、CI 自动盯盘与代码库现代化改造。 | `通用` `Claude Code` | — |
 
-## Cursor (236)
+## Cursor (311)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | ⭐ 201.1k<br><sub>2026-11-16</sub> |
+| **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `官方` | `MCP` | Chrome DevTools 官方 MCP 服务器，让编码 Agent 直接操控、调试、性能分析与审查 Chrome 浏览器页面。<br>`npx -y chrome-devtools-mcp@latest` | `通用` | — |
+| **[Context7 MCP](https://github.com/upstash/context7)** `官方` | `MCP` | Upstash 官方 Context7 MCP 服务器，实时拉取最新、按版本匹配的开源库文档与代码示例并注入 Agent 上下文。<br>`npx -y @upstash/context7-mcp` | `通用` | — |
+| **[FastMCP](https://github.com/PrefectHQ/fastmcp)** `官方` | `工具` | Python 生态主流 MCP 开发框架，用于快速构建生产级 Model Context Protocol 服务器与客户端。 | `通用` | — |
+| **[Google Agent Skills](https://github.com/google/skills)** `官方` | `Skill` | Google 官方 Agent Skills 仓库，覆盖 Google Cloud 与各类 Google 开发者技术栈的标准技能。 | `通用` `Gemini CLI` `Claude Code` | — |
 | **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** `官方` | `MCP` | Model Context Protocol 官方参考服务器合集，提供文件系统、Git、数据库与网页接入等标准集成范例。 | `通用` | — |
+| **[OpenAI Skills Catalog](https://github.com/openai/skills)** `官方` | `Skill` | OpenAI 官方维护的 Agent Skills 目录，为 Codex 及遵循开放标准的 Agent 提供精选可复用技能。 | `Codex` `通用` | — |
 | **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `官方` | `MCP` | 微软官方 Playwright MCP 服务器，让 Agent 通过结构化无障碍树直接操控浏览器完成测试与网页自动化。<br>`npx @playwright/mcp@latest` | `通用` | — |
 | **[Hyperframes](https://github.com/heygen-com/hyperframes)** `官方` | `Plugin` | HeyGen 官方开源的 AI 视频编辑插件与 MCP 工具集，支持用 HTML 编写动效并渲染输出 MP4。 | `Claude Code` `Codex` `Cursor` `Gemini CLI` | ⭐ 90.9k<br><sub>2026-11-27</sub> |
 | **[Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill)** `官方` | `Skill` | Cloudflare 官方出品的多阶段安全审计技能，可生成经独立验证的机器可读漏洞报告。 | `通用` | ⭐ 78.9k<br><sub>2026-09-14</sub> |
@@ -861,19 +1099,54 @@
 | **[Prisma Official Skills](https://github.com/prisma/skills)** `官方` | `Skill` | Prisma 官方 Agent 技能集，涵盖 Prisma ORM 配置、Client API、Prisma Postgres 与 v7 升级迁移。 | `通用` | ⭐ 80<br><sub>2026-11-26</sub> |
 | **[Accoil Product Tracking Skills](https://github.com/Accoil/product-tracking-skills)** `官方` | `Skill` | Accoil 官方产品埋点分析技能集，可扫描代码库、设计埋点方案并生成多平台分析埋点代码。 | `通用` | ⭐ 47<br><sub>2026-10-20</sub> |
 | **[Astrolicious Agent Skills](https://github.com/astrolicious/agent-skills)** `官方` | `Skill` | Astrolicious 官方 Astro 生态 Agent 技能集，助力智能体高效开发与维护 Astro Web 项目。 | `通用` | ⭐ 13<br><sub>2026-03-20</sub> |
+| **[Airtable Agent Skills](https://github.com/Airtable/skills)** `官方` | `Skill` | Airtable 官方 Agent 技能包，辅助操作 Airtable 数据表结构、自动化流程与扩展开发。 | `通用` `Claude Code` | — |
+| **[Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server)** `官方` | `MCP` | Alpaca 官方 MCP 服务器，支持 AI Agent 获取实时行情数据并操作股票、ETF、期权与加密货币交易接口。<br>`uvx alpaca-mcp-server` | `通用` | — |
+| **[Apify MCP Server](https://github.com/apify/apify-mcp-server)** `官方` | `MCP` | Apify 官方 MCP 服务器，让 Agent 直接调用数千个 Apify Actors 完成网页抓取、社媒与电商数据采集。<br>`npx -y @apify/actors-mcp-server` | `通用` | — |
+| **[Browser MCP](https://github.com/BrowserMCP/mcp)** `官方` | `MCP` | 结合浏览器插件的 MCP 服务器，让 AI Agent 复用本地浏览器登录态完成网页操作与自动化任务。<br>`npx -y @browsermcp/mcp@latest` | `通用` | — |
+| **[BrowserAct Skills](https://github.com/browser-act/skills)** `官方` | `Skill` | BrowserAct 官方浏览器自动化技能集，支持复杂网页交互、数据采集与任务接管。 | `通用` `Claude Code` | — |
+| **[Cloud Run MCP](https://github.com/GoogleCloudPlatform/cloud-run-mcp)** `官方` | `MCP` | Google Cloud 官方 Cloud Run MCP 服务器，支持 AI Agent 一键构建、部署并管理云端容器服务。<br>`npx -y @google-cloud/cloud-run-mcp` | `通用` | — |
+| **[Codacy MCP Server](https://github.com/codacy/codacy-mcp-server)** `官方` | `MCP` | Codacy 官方 MCP 服务器，为 AI Agent 提供自动化代码质量检测、安全漏洞扫描与覆盖率分析。<br>`npx -y @codacy/codacy-mcp` | `通用` | — |
+| **[Code Graph MCP](https://github.com/diffbot/mcp-code-graph)** `官方` | `MCP` | 用于代码库知识图谱分析、依赖追踪与架构可视化的 MCP 服务器。 | `通用` | — |
+| **[Colibird Local MCP](https://github.com/colibird-ai/local-mcp-releases)** `官方` | `MCP` | 本地桌面端 MCP 服务器，将 Claude、ChatGPT 与 Cursor 连接到 Mac 和 Windows 原生文件与工作流。 | `通用` | — |
+| **[DataLikers MCP](https://github.com/subzeroid/datalikers-mcp)** `官方` | `MCP` | 轻量级 stdio MCP 服务器，通过 DataLikers API 提供 29 个 Instagram 与 TikTok 社媒数据采集工具。 | `通用` | — |
+| **[DBHub MCP](https://github.com/bytebase/dbhub)** `官方` | `MCP` | Bytebase 开源的通用数据库 MCP 服务器，节省上下文 Token，支持 PostgreSQL、MySQL、SQL Server、Oracle 与 SQLite。<br>`npx -y @bytebase/dbhub` | `通用` | — |
 | **[e2e Agent Skill](https://github.com/e2e-inc/e2e)** `官方` | `Skill` | e2e 智能端到端测试框架官方技能，支持在 Playwright 浏览器及 iOS/Android 设备上编写、运行与调试测试。 | `通用` `Claude Code` | — |
+| **[FinOps MCP](https://github.com/getnable/finopsmcp)** `官方` | `MCP` | 面向云成本治理的无头 FinOps MCP 服务，为 AI Agent 提供云账单分析与资源成本优化能力。 | `通用` | — |
+| **[Firecrawl MCP Server](https://github.com/firecrawl/firecrawl-mcp-server)** `官方` | `MCP` | Firecrawl 官方 MCP 服务器，为 AI Agent 提供联网搜索、网页抓取、整站爬取与结构化数据抽取能力。<br>`npx -y firecrawl-mcp` | `通用` | — |
+| **[Firefly MCP](https://github.com/gofireflyio/firefly-mcp)** `官方` | `MCP` | Firefly 官方 MCP 服务器，支持 AI Agent 盘点云资产、检测配置漂移并生成基础设施即代码（IaC）。 | `通用` | — |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | — |
+| **[HeyGen Agent Skills](https://github.com/heygen-com/skills)** `官方` | `Skill` | HeyGen 官方 AI Agent 技能包，支持通过 HeyGen v3 API 完成数字人创建与自动化视频制作。 | `通用` `Claude Code` | — |
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `官方` | `工具` | 独立命令行工具，可查找 Hugging Face 技能，并将其安装或更新到项目或用户级技能目录。 | `Claude Code` `Codex` `Cursor` `OpenCode` | — |
 | **[Hugging Face Skills](https://github.com/huggingface/skills)** `官方` | `Skill` | 让编码助手查询 Hugging Face Hub 数据集、微调模型并运行模型评估的技能集。<br>`hf skills add huggingface-datasets` | `Claude Code` `Codex` `Cursor` `Gemini CLI` | — |
 | **[Internet Court Skill](https://github.com/internet-court/internet-court-skill)** `官方` | `Skill` | 面向 Agent 间交易的开放信任层技能，覆盖自然语言授权、ERC-7710 权限委托、x402 支付、托管与争议仲裁。 | `通用` `Claude Code` | — |
+| **[LaunchDarkly MCP Server](https://github.com/launchdarkly/mcp-server)** `官方` | `MCP` | LaunchDarkly 官方 MCP 服务器，支持 AI Agent 查询、创建与管理 Feature Flags 及灰度发布规则。 | `通用` | — |
+| **[Live Tennis API MCP](https://github.com/livetennisapi/livetennisapi-mcp)** `官方` | `MCP` | Live Tennis API 官方 MCP 服务器，为 AI Agent 提供实时网球比分、ATP/WTA 排名与赛事统计数据。 | `通用` | — |
 | **[MarkItDown](https://github.com/microsoft/markitdown)** `官方` | `MCP` | 微软官方文件转 Markdown 工具及 MCP 服务，支持将 PDF、Office 文档、图片、音频等转换为适合大模型处理的 Markdown。 | `通用` | — |
+| **[Microsoft Clarity MCP](https://github.com/microsoft/clarity-mcp-server)** `官方` | `MCP` | 微软官方 Clarity MCP 服务器，用于查询网站用户体验分析、流量指标与行为洞察数据。<br>`npx -y @microsoft/clarity-mcp-server` | `通用` | — |
+| **[Microsoft Learn MCP](https://github.com/MicrosoftDocs/mcp)** `官方` | `MCP` | 微软官方 Learn MCP 服务器与 CLI，为 AI Agent 提供最新的 Microsoft、Azure 与 .NET 官方技术文档检索。 | `通用` | — |
+| **[Milvus Agent Skill](https://github.com/zilliztech/milvus-skill)** `官方` | `Skill` | Zilliz 官方 Milvus 向量数据库技能，指导 Agent 使用 pymilvus 构建索引、检索与 RAG 应用。 | `通用` `Claude Code` | — |
+| **[monday.com MCP](https://github.com/mondaycom/mcp)** `官方` | `MCP` | monday.com 官方 MCP 服务器，让 AI Agent 安全读写项目看板、任务条目与团队协作流程。 | `通用` | — |
+| **[MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server)** `官方` | `MCP` | MongoDB 官方 MCP 服务器，支持 AI Agent 查询集合、分析数据结构并管理 MongoDB Atlas 集群。<br>`npx -y mongodb-mcp-server` | `通用` | — |
 | **[Neon Postgres Skills](https://github.com/neondatabase/postgres-skills)** `官方` | `Skill` | Neon 官方 PostgreSQL 技能包，涵盖表结构设计、索引策略、查询优化、数据库迁移及常见避坑指南。 | `通用` `Claude Code` | — |
+| **[Notion MCP Server](https://github.com/makenotion/notion-mcp-server)** `官方` | `MCP` | Notion 官方 MCP 服务器，支持 AI Agent 检索、读取、创建并更新 Notion 页面与数据库。<br>`npx -y @notionhq/notion-mcp-server` | `通用` | — |
+| **[PostgreSQL AI Guide](https://github.com/timescale/pg-aiguide)** `官方` | `Plugin` | Timescale 官方 PostgreSQL MCP 与 Claude 插件，提供权威 Postgres 技能、版本文档与查询最佳实践。 | `Claude Code` `通用` | — |
+| **[Pydantic Logfire MCP](https://github.com/pydantic/logfire-mcp)** `官方` | `MCP` | Pydantic 官方 Logfire MCP 服务器，支持 AI Agent 查询 OpenTelemetry 链路追踪、异常日志与线上指标。<br>`uvx logfire-mcp` | `通用` | — |
+| **[Railway Agent Skills](https://github.com/railwayapp/railway-skills)** `官方` | `Skill` | Railway 官方 Agent 技能包，支持创建服务、管理环境变量、查看日志与一键部署云端应用。 | `通用` `Claude Code` | — |
+| **[Recommerce Skills](https://github.com/budna-marketplace/recommerce)** `官方` | `Skill` | 面向二手与新品比价检索的 Agent 技能包，支持跨平台商品检索与价格对比。 | `通用` `Claude Code` | — |
+| **[Redis MCP Server](https://github.com/redis/mcp-redis)** `官方` | `MCP` | Redis 官方 MCP 服务器，为 AI Agent 提供自然语言查询、缓存管理与 Redis 数据检视接口。 | `通用` | — |
+| **[Render Agent Skills](https://github.com/render-oss/skills)** `官方` | `Skill` | Render 官方 Agent 技能包，用于在 Render 平台上部署、配置与排查 Web 服务和托管数据库。 | `通用` `Claude Code` | — |
+| **[Rootly MCP Server](https://github.com/rootlyhq/rootly-mcp-server)** `官方` | `MCP` | Rootly 官方 MCP 服务器，支持 AI Agent 排查线上故障、查询事件时间线并辅助 SRE 应急响应。 | `通用` | — |
+| **[Sentry Agentic Toolkit](https://github.com/getsentry/toolkit)** `官方` | `Plugin` | Sentry 官方 Agent 工具套件，融合 MCP 与技能用于排查线上报错、堆栈追踪与回归定位。 | `通用` `Claude Code` | — |
 | **[shadcn/ui Skill](https://github.com/shadcn-ui/ui)** `官方` | `Skill` | shadcn/ui 官方仓库内置 Agent 技能与上下文规范，辅助管理组件库、主题与现代 React 设计系统。 | `通用` `Claude Code` | — |
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `官方` | `Skill` | SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。 | `通用` `Claude Code` | — |
+| **[Supabase MCP](https://github.com/supabase/mcp)** `官方` | `MCP` | Supabase 官方 MCP 服务器，让 Agent 直接查询数据库、管理表结构迁移、Edge Functions 与项目日志。<br>`npx -y @supabase/mcp-server-supabase` | `通用` | — |
 | **[Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server)** `官方` | `MCP` | 在 MCP 客户端中查询 Terraform Registry 的提供程序和模块，并管理 HCP Terraform 工作区。<br>`codex mcp add terraform -- docker run -i --rm hashicorp/terraform-mcp-server` | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+1` | — |
+| **[WebMCP](https://github.com/webmachinelearning/webmcp)** `官方` | `工具` | W3C WebML 社区组标准规范，让网页原生向浏览器侧 AI Agent 暴露结构化 MCP 工具接口。 | `通用` | — |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | — |
 | **[Superpowers](https://github.com/obra/superpowers)** | `Plugin` | 面向编码 Agent 的结构化工程工作流插件，内置方案设计、严格 TDD、系统化调试与子代理驱动开发。<br>`/plugin install obra/superpowers` | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 327.5k<br><sub>2026-11-26</sub> |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | 多端模块化插件市场，组合专业子代理、技能与命令，覆盖多语言开发、测试、安全与架构工作流。<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 42.9k<br><sub>2026-11-24</sub> |
+| **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | 全面的开源 AI 科研与机器学习工程技能库，覆盖模型微调、RLHF、推理优化与评测实验。 | `通用` `Claude Code` | — |
+| **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `工具` | 可视化看板编排工具，支持同时调度、监控并评审 Claude Code、Codex 等多个编码 Agent 的并行任务。 | `Claude Code` `Codex` `通用` | — |
 | **[Rea](https://github.com/morluto/rea)** | `Plugin` | 面向 AI Agent 的逆向工程插件、MCP 服务与技能套件，支持从应用行为到原生二进制的深度分析。 | `Claude Code` `Codex` `Cursor` `DeepSeek Harness` | ⭐ 479.8k<br><sub>2026-11-27</sub> |
 | **[Matt Pocock Skills](https://github.com/mattpocock/skills)** | `Skill` | 由 Matt Pocock 整理的实战型软件工程 Agent 技能集合，覆盖日常研发工作流。 | `通用` | ⭐ 333.6k<br><sub>2026-11-25</sub> |
 | **[Everything Claude Code (ECC)](https://github.com/affaan-m/ECC)** | `Plugin` | 集成技能、直觉记忆、安全规范与研究驱动工作流的 Agent 运行框架性能优化套件。 | `Claude Code` `Codex` `OpenCode` `Cursor` `+2` | ⭐ 311.3k<br><sub>2026-11-23</sub> |
@@ -1029,27 +1302,67 @@
 | **[PRPM](https://github.com/pr-pm/prpm)** | `工具` | 面向各类 AI 编程工具的通用提示词、规则与技能包管理器及注册中心。 | `通用` | ⭐ 125<br><sub>2026-10-14</sub> |
 | **[HyperFX Marketing Skills](https://github.com/hyperfx-ai/marketing-skills)** | `Skill` | 基于 Hyper MCP 的营销 Agent 技能集，涵盖信息流广告投放、社媒、SEO、竞品调研与数据分析。 | `通用` | ⭐ 124<br><sub>2026-11-26</sub> |
 | **[Vibe Resume Skill](https://github.com/KevinYoung-Kw/vibe-resume-skill)** | `Skill` | 内置 12 套可投递 HTML/PDF 模板的 AI 简历生成与排版技能，支持按岗位 JD 定制简历。 | `Codex` `Claude Code` `Cursor` | ⭐ 107<br><sub>2026-10-02</sub> |
+| **[Agentic Awesome Skills](https://github.com/sickn33/agentic-awesome-skills)** | `Skill` | 收录 3,000+ 可复用 AI Agent 技能的大型社区合集，兼容 Claude Code、Codex、Cursor 与 Gemini CLI。 | `通用` `Claude Code` `Codex` `Cursor` `+1` | — |
 | **[AgentMemory](https://github.com/rohitg00/agentmemory)** | `Skill` | 跨会话持久化记忆插件与技能套件，支持记忆写入、检索、会话交接、复盘沉淀与隐私清理。 | `通用` `Claude Code` | — |
+| **[agentMemory MCP](https://github.com/webzler/agentMemory)** | `MCP` | 零配置的本地 MCP 记忆服务器，适配 Claude Code、Cline、RooCode 与 Cursor 以持久保留项目上下文。 | `通用` | — |
+| **[AI Maestro](https://github.com/23blocks-OS/ai-maestro)** | `Plugin` | 带模块化技能系统、持久化记忆检索与跨代理通信的 AI Agent 编排器。 | `Claude Code` `通用` | — |
+| **[AI Maestro Plugins](https://github.com/23blocks-OS/ai-maestro-plugins)** | `Plugin` | AI Maestro 官方插件合集，包含 150+ 角色人格、核心技能、身份管理与代理间消息协作能力。 | `Claude Code` `通用` | — |
 | **[AI Skills](https://github.com/sanjay3290/ai-skills)** | `Skill` | AI Agent 技能集合，内置自主深度研究工作流，支持规划、检索、阅读并汇总生成完整研究报告。 | `通用` `Claude Code` | — |
+| **[arXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server)** | `MCP` | 面向学术文献研究的本地 arXiv MCP 服务器，支持论文检索、下载、LaTeX 章节解析与 BibTeX 管理。<br>`uvx arxiv-mcp-server` | `通用` | — |
+| **[Atlassian Bitbucket MCP](https://github.com/aashari/mcp-server-atlassian-bitbucket)** | `MCP` | 面向 Atlassian Bitbucket 的 MCP 服务器，支持 AI Agent 浏览代码仓库、评审 PR 与查看提交历史。<br>`npx -y @aashari/mcp-server-atlassian-bitbucket` | `通用` | — |
+| **[Awesome Agentic Patterns](https://github.com/nibzard/awesome-agentic-patterns)** | `工具` | 精选生产级 AI Agent 架构与工作流设计模式目录，汇总实战验证的工程模式。 | `通用` | — |
 | **[Bleu](https://github.com/Nirvaan05/Bleu-plugin)** | `Plugin` | 编码前架构蓝图插件与技能，将初步项目想法拆解为包含组件、流程与文件级执行清单的完整实现方案。 | `通用` `Claude Code` | — |
+| **[Chisle](https://github.com/JayPokale/Chisle)** | `Skill` | 面向编码 Agent 的 Token 省流技能与规范，通过精简输出、YAGNI 优先编码与高效工具调用降低成本。 | `Claude Code` `通用` | — |
+| **[Context Architecture](https://github.com/sergioazoc/context-architecture)** | `Skill` | 面向 AI 编码时代的上下文架构方法论与模板，帮助组织仓库知识文档以提升 Agent 准确率。 | `通用` `Claude Code` | — |
 | **[Curviate Plugin](https://github.com/Curviate/curviate-plugin)** | `Plugin` | 基于 Curviate CLI 的 LinkedIn 自动化插件与技能套件，覆盖人脉检索、消息、发帖及招聘等工作流。 | `通用` `Claude Code` | — |
+| **[Deja Vu MCP](https://github.com/vshulcz/deja-vu)** | `MCP` | 面向 Claude Code、Codex 与 Cursor 的本地 MCP 记忆层，支持跨会话历史检索与经验复用。 | `Claude Code` `Codex` `Cursor` `通用` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
+| **[Eval Genius](https://github.com/alexgreensh/eval-genius)** | `Skill` | 面向 AI 应用的评测设计技能，指导 Agent 判断何时需要 Eval、如何搭建基准测试与回归度量。 | `通用` `Claude Code` | — |
 | **[FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill)** | `Skill` | 基于本地 FFmpeg 的自然语言音视频剪辑技能，支持裁剪拼接、画幅重构、字幕压制、去静音与混音处理。 | `通用` `Claude Code` | — |
+| **[Git Context Controller](https://github.com/faugustdev/git-context-controller)** | `工具` | 类 Git 风格的 Agent 上下文管理框架，支持对大模型上下文执行提交、分支与合并操作。 | `通用` | — |
+| **[Google Workspace CLI](https://github.com/googleworkspace/cli)** | `工具` | 面向终端与 AI Agent 的 Google Workspace CLI 及技能命令套件，覆盖云盘、邮件、文档、表格与管理接口。 | `通用` `Claude Code` | — |
+| **[Google Workspace MCP](https://github.com/taylorwilsdon/google_workspace_mcp)** | `MCP` | 功能完善的 Google Workspace MCP 服务器，覆盖 Gmail、日历、云盘、文档、表格、幻灯片与任务管理。<br>`uvx workspace-mcp` | `通用` | — |
+| **[GuardLink](https://github.com/Bugb-Technologies/guardlink)** | `Plugin` | AI 驱动的代码安全注解与 MCP 工具链，用于在代码库中持续进行威胁建模与安全边界校验。 | `通用` `Claude Code` | — |
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | — |
+| **[iOS Simulator MCP](https://github.com/joshuayoes/ios-simulator-mcp)** | `MCP` | 用于操控 Apple iOS 模拟器的 MCP 服务器，支持 UI 树检查、点击交互、截图与移动端自动化调试。<br>`npx -y ios-simulator-mcp` | `通用` | — |
+| **[Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server)** | `MCP` | 面向 Jupyter Notebook 的 MCP 服务器，支持 AI Agent 实时执行代码单元、读取输出并完成数据科学分析。<br>`uvx jupyter-mcp-server` | `通用` | — |
 | **[Levea Video MCP](https://github.com/brajendrak00068/agentic-ai-video-production)** | `MCP` | 面向自动化 AI 视频剪辑的远程 MCP 服务，可将自然语言指令或长视频处理为带字幕与智能构图的成片。 | `通用` `Claude Code` | — |
+| **[Maoxuan Skill](https://github.com/leezythu/maoxuan-skill)** | `Skill` | 毛选思维框架中文决策技能，提炼核心心智模型与决策启发式方法用于复杂问题分析与策略制定。 | `通用` `Claude Code` | — |
+| **[MCP Server Playwright](https://github.com/VikashLoomba/MCP-Server-Playwright)** | `MCP` | 轻量级 Playwright MCP 服务器，支持浏览器导航、表单交互、DOM 检查与自动截图。 | `通用` | — |
+| **[mcp-remote](https://github.com/punkpeye/mcp-remote)** | `MCP` | MCP 协议桥接工具，让仅支持本地 stdio 的 MCP 客户端也能通过 OAuth 连接远程 HTTP/SSE MCP 服务器。<br>`npx -y mcp-remote` | `通用` | — |
+| **[Memex MCP](https://github.com/STiFLeR7/memex)** | `MCP` | 开源 MCP 服务器与 Hook 服务，用于持久化沉淀 Claude Code 与 Codex 的工程上下文与架构决策。 | `Claude Code` `Codex` `通用` | — |
+| **[Mermaid MCP](https://github.com/hustcc/mcp-mermaid)** | `MCP` | 动态生成与渲染 Mermaid 流程图、时序图和架构图的 MCP 服务器。<br>`npx -y mcp-mermaid` | `通用` | — |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | — |
+| **[n8n MCP](https://github.com/czlonkowski/n8n-mcp)** | `MCP` | 面向 n8n 的 MCP 服务器，支持 AI Agent 检索节点文档、校验参数并构建或运行 n8n 自动化工作流。<br>`npx -y n8n-mcp` | `通用` | — |
+| **[n8n Skills](https://github.com/czlonkowski/n8n-skills)** | `Skill` | 精选 n8n 技能包，帮助 Claude Code 等 Agent 设计、校验并调试生产级 n8n 自动化工作流。 | `Claude Code` `通用` | — |
+| **[Next.js Sanity Blog Skill](https://github.com/BuildShipGrowRepeat/nextjs-sanity-blog-skill)** | `Skill` | 面向 Next.js 项目的 Claude Code 技能，一键搭建 SEO 优先、支持多语言的 Sanity CMS 博客系统。 | `Claude Code` `通用` | — |
+| **[npm-agentskills](https://github.com/onmax/npm-agentskills)** | `工具` | 与框架无关的 Agent Skills 发现与导出工具，支持直接从 npm 包中提取和分发技能。 | `通用` | — |
 | **[Off Grid AI Skills](https://github.com/off-grid-ai/skills)** | `Skill` | 专注软件工程质量的技能集合，涵盖行为驱动测试、根因修复、合并前安全检查与图工程工作流。 | `通用` `Claude Code` | — |
+| **[OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** | `工具` | 面向 AI Agent 的时光机调试与 MCP 工具，支持录制、回放、分叉与排查多步 Agent 执行过程。 | `通用` `Claude Code` | — |
 | **[pdfToMarkdown](https://github.com/ThiloReintjes/pdftomarkdown-skill)** | `Plugin` | Claude Code 插件与技能，可将扫描件、表格、多栏排版及中日韩文档等复杂 PDF 高保真转换为 Markdown。 | `Claude Code` `通用` | — |
+| **[Playwright MCP (ExecuteAutomation)](https://github.com/executeautomation/mcp-playwright)** | `MCP` | 社区版 Playwright MCP 服务器，支持 AI Agent 驱动浏览器自动化、截图、测试代码生成与接口测试。<br>`npx -y @executeautomation/playwright-mcp-server` | `通用` | — |
 | **[Product Decision Agent](https://github.com/atdy/maoxuan-product-agent)** | `Skill` | 中文互联网产品决策 Agent 技能，覆盖需求分析、PRD、优先级排期、增长诊断、数据指标与跨部门协作决策。 | `通用` `Claude Code` | — |
 | **[Rote](https://github.com/trevhud/rote)** | `工具` | 将成熟 SKILL.md 技能编译为无大模型参与的确定性流水线，并重新封装为 MCP 工具供 Agent 调用。 | `通用` `Claude Code` | — |
+| **[Ruflo (Claude Flow)](https://github.com/ruvnet/ruflo)** | `Plugin` | 面向 Claude Code 与 Codex 的多 Agent 蜂群编排平台，集成协同子代理、记忆层、技能系统与 MCP 工具。 | `Claude Code` `Codex` `通用` | — |
+| **[Savia](https://github.com/gonzalezpazmonica/savia)** | `Plugin` | 不绑定厂商的工程治理与任务编排 Agent 套件，覆盖软件开发与项目管理全流程。 | `Claude Code` `通用` | — |
+| **[SearXNG MCP](https://github.com/ihor-sokoliuk/mcp-searxng)** | `MCP` | 基于自建 SearXNG 的隐私优先联网搜索 MCP 服务器，适配 Claude、Cursor 等主流 MCP 客户端。<br>`npx -y mcp-searxng` | `通用` | — |
+| **[Structured Thinking Skills](https://github.com/ysskrishna/ai-agent-skills)** | `Skill` | 面向 AI Agent 的结构化思维技能集合，覆盖头脑风暴、决策分析与系统性思考框架。 | `通用` `Claude Code` | — |
+| **[SwarmVault](https://github.com/swarmclawai/swarmvault)** | `工具` | 本地优先的 LLM Wiki 与知识图谱构建工具，为 AI Agent 提供结构化 RAG 知识库。 | `通用` `Claude Code` | — |
+| **[Switch AI Teammates](https://github.com/sandbox-quantum/switch)** | `工具` | 开源协作桥接工具，将 AI 工程与办公代理直接接入 Slack、Teams、Discord、Telegram 与 Mattermost。 | `通用` | — |
+| **[Trace MCP](https://github.com/nikolai-vysotskyi/trace-mcp)** | `MCP` | 支持 90+ 框架与 80+ 编程语言的代码智能分析 MCP 服务器，用于跨文件符号追踪与架构理解。 | `通用` | — |
 | **[tstack Skills](https://github.com/t3dotgg/tstack)** | `Skill` | Theo Browne 维护的工程工作流技能套件，涵盖 PR 提交、评审评论、CI 自动盯盘与代码库现代化改造。 | `通用` `Claude Code` | — |
 
-## Gemini CLI (213)
+## Gemini CLI (289)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | ⭐ 201.1k<br><sub>2026-11-16</sub> |
+| **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `官方` | `MCP` | Chrome DevTools 官方 MCP 服务器，让编码 Agent 直接操控、调试、性能分析与审查 Chrome 浏览器页面。<br>`npx -y chrome-devtools-mcp@latest` | `通用` | — |
+| **[Context7 MCP](https://github.com/upstash/context7)** `官方` | `MCP` | Upstash 官方 Context7 MCP 服务器，实时拉取最新、按版本匹配的开源库文档与代码示例并注入 Agent 上下文。<br>`npx -y @upstash/context7-mcp` | `通用` | — |
+| **[FastMCP](https://github.com/PrefectHQ/fastmcp)** `官方` | `工具` | Python 生态主流 MCP 开发框架，用于快速构建生产级 Model Context Protocol 服务器与客户端。 | `通用` | — |
+| **[Google Agent Skills](https://github.com/google/skills)** `官方` | `Skill` | Google 官方 Agent Skills 仓库，覆盖 Google Cloud 与各类 Google 开发者技术栈的标准技能。 | `通用` `Gemini CLI` `Claude Code` | — |
 | **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** `官方` | `MCP` | Model Context Protocol 官方参考服务器合集，提供文件系统、Git、数据库与网页接入等标准集成范例。 | `通用` | — |
+| **[OpenAI Skills Catalog](https://github.com/openai/skills)** `官方` | `Skill` | OpenAI 官方维护的 Agent Skills 目录，为 Codex 及遵循开放标准的 Agent 提供精选可复用技能。 | `Codex` `通用` | — |
 | **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `官方` | `MCP` | 微软官方 Playwright MCP 服务器，让 Agent 通过结构化无障碍树直接操控浏览器完成测试与网页自动化。<br>`npx @playwright/mcp@latest` | `通用` | — |
 | **[Hyperframes](https://github.com/heygen-com/hyperframes)** `官方` | `Plugin` | HeyGen 官方开源的 AI 视频编辑插件与 MCP 工具集，支持用 HTML 编写动效并渲染输出 MP4。 | `Claude Code` `Codex` `Cursor` `Gemini CLI` | ⭐ 90.9k<br><sub>2026-11-27</sub> |
 | **[Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill)** `官方` | `Skill` | Cloudflare 官方出品的多阶段安全审计技能，可生成经独立验证的机器可读漏洞报告。 | `通用` | ⭐ 78.9k<br><sub>2026-09-14</sub> |
@@ -1098,16 +1411,51 @@
 | **[Prisma Official Skills](https://github.com/prisma/skills)** `官方` | `Skill` | Prisma 官方 Agent 技能集，涵盖 Prisma ORM 配置、Client API、Prisma Postgres 与 v7 升级迁移。 | `通用` | ⭐ 80<br><sub>2026-11-26</sub> |
 | **[Accoil Product Tracking Skills](https://github.com/Accoil/product-tracking-skills)** `官方` | `Skill` | Accoil 官方产品埋点分析技能集，可扫描代码库、设计埋点方案并生成多平台分析埋点代码。 | `通用` | ⭐ 47<br><sub>2026-10-20</sub> |
 | **[Astrolicious Agent Skills](https://github.com/astrolicious/agent-skills)** `官方` | `Skill` | Astrolicious 官方 Astro 生态 Agent 技能集，助力智能体高效开发与维护 Astro Web 项目。 | `通用` | ⭐ 13<br><sub>2026-03-20</sub> |
+| **[Airtable Agent Skills](https://github.com/Airtable/skills)** `官方` | `Skill` | Airtable 官方 Agent 技能包，辅助操作 Airtable 数据表结构、自动化流程与扩展开发。 | `通用` `Claude Code` | — |
+| **[Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server)** `官方` | `MCP` | Alpaca 官方 MCP 服务器，支持 AI Agent 获取实时行情数据并操作股票、ETF、期权与加密货币交易接口。<br>`uvx alpaca-mcp-server` | `通用` | — |
+| **[Apify MCP Server](https://github.com/apify/apify-mcp-server)** `官方` | `MCP` | Apify 官方 MCP 服务器，让 Agent 直接调用数千个 Apify Actors 完成网页抓取、社媒与电商数据采集。<br>`npx -y @apify/actors-mcp-server` | `通用` | — |
+| **[Browser MCP](https://github.com/BrowserMCP/mcp)** `官方` | `MCP` | 结合浏览器插件的 MCP 服务器，让 AI Agent 复用本地浏览器登录态完成网页操作与自动化任务。<br>`npx -y @browsermcp/mcp@latest` | `通用` | — |
+| **[BrowserAct Skills](https://github.com/browser-act/skills)** `官方` | `Skill` | BrowserAct 官方浏览器自动化技能集，支持复杂网页交互、数据采集与任务接管。 | `通用` `Claude Code` | — |
+| **[Cloud Run MCP](https://github.com/GoogleCloudPlatform/cloud-run-mcp)** `官方` | `MCP` | Google Cloud 官方 Cloud Run MCP 服务器，支持 AI Agent 一键构建、部署并管理云端容器服务。<br>`npx -y @google-cloud/cloud-run-mcp` | `通用` | — |
+| **[Codacy MCP Server](https://github.com/codacy/codacy-mcp-server)** `官方` | `MCP` | Codacy 官方 MCP 服务器，为 AI Agent 提供自动化代码质量检测、安全漏洞扫描与覆盖率分析。<br>`npx -y @codacy/codacy-mcp` | `通用` | — |
+| **[Code Graph MCP](https://github.com/diffbot/mcp-code-graph)** `官方` | `MCP` | 用于代码库知识图谱分析、依赖追踪与架构可视化的 MCP 服务器。 | `通用` | — |
+| **[Colibird Local MCP](https://github.com/colibird-ai/local-mcp-releases)** `官方` | `MCP` | 本地桌面端 MCP 服务器，将 Claude、ChatGPT 与 Cursor 连接到 Mac 和 Windows 原生文件与工作流。 | `通用` | — |
+| **[DataLikers MCP](https://github.com/subzeroid/datalikers-mcp)** `官方` | `MCP` | 轻量级 stdio MCP 服务器，通过 DataLikers API 提供 29 个 Instagram 与 TikTok 社媒数据采集工具。 | `通用` | — |
+| **[DBHub MCP](https://github.com/bytebase/dbhub)** `官方` | `MCP` | Bytebase 开源的通用数据库 MCP 服务器，节省上下文 Token，支持 PostgreSQL、MySQL、SQL Server、Oracle 与 SQLite。<br>`npx -y @bytebase/dbhub` | `通用` | — |
 | **[e2e Agent Skill](https://github.com/e2e-inc/e2e)** `官方` | `Skill` | e2e 智能端到端测试框架官方技能，支持在 Playwright 浏览器及 iOS/Android 设备上编写、运行与调试测试。 | `通用` `Claude Code` | — |
+| **[FinOps MCP](https://github.com/getnable/finopsmcp)** `官方` | `MCP` | 面向云成本治理的无头 FinOps MCP 服务，为 AI Agent 提供云账单分析与资源成本优化能力。 | `通用` | — |
+| **[Firecrawl MCP Server](https://github.com/firecrawl/firecrawl-mcp-server)** `官方` | `MCP` | Firecrawl 官方 MCP 服务器，为 AI Agent 提供联网搜索、网页抓取、整站爬取与结构化数据抽取能力。<br>`npx -y firecrawl-mcp` | `通用` | — |
+| **[Firefly MCP](https://github.com/gofireflyio/firefly-mcp)** `官方` | `MCP` | Firefly 官方 MCP 服务器，支持 AI Agent 盘点云资产、检测配置漂移并生成基础设施即代码（IaC）。 | `通用` | — |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | — |
+| **[HeyGen Agent Skills](https://github.com/heygen-com/skills)** `官方` | `Skill` | HeyGen 官方 AI Agent 技能包，支持通过 HeyGen v3 API 完成数字人创建与自动化视频制作。 | `通用` `Claude Code` | — |
 | **[Hugging Face Skills](https://github.com/huggingface/skills)** `官方` | `Skill` | 让编码助手查询 Hugging Face Hub 数据集、微调模型并运行模型评估的技能集。<br>`hf skills add huggingface-datasets` | `Claude Code` `Codex` `Cursor` `Gemini CLI` | — |
 | **[Internet Court Skill](https://github.com/internet-court/internet-court-skill)** `官方` | `Skill` | 面向 Agent 间交易的开放信任层技能，覆盖自然语言授权、ERC-7710 权限委托、x402 支付、托管与争议仲裁。 | `通用` `Claude Code` | — |
+| **[LaunchDarkly MCP Server](https://github.com/launchdarkly/mcp-server)** `官方` | `MCP` | LaunchDarkly 官方 MCP 服务器，支持 AI Agent 查询、创建与管理 Feature Flags 及灰度发布规则。 | `通用` | — |
+| **[Live Tennis API MCP](https://github.com/livetennisapi/livetennisapi-mcp)** `官方` | `MCP` | Live Tennis API 官方 MCP 服务器，为 AI Agent 提供实时网球比分、ATP/WTA 排名与赛事统计数据。 | `通用` | — |
 | **[MarkItDown](https://github.com/microsoft/markitdown)** `官方` | `MCP` | 微软官方文件转 Markdown 工具及 MCP 服务，支持将 PDF、Office 文档、图片、音频等转换为适合大模型处理的 Markdown。 | `通用` | — |
+| **[Microsoft Clarity MCP](https://github.com/microsoft/clarity-mcp-server)** `官方` | `MCP` | 微软官方 Clarity MCP 服务器，用于查询网站用户体验分析、流量指标与行为洞察数据。<br>`npx -y @microsoft/clarity-mcp-server` | `通用` | — |
+| **[Microsoft Learn MCP](https://github.com/MicrosoftDocs/mcp)** `官方` | `MCP` | 微软官方 Learn MCP 服务器与 CLI，为 AI Agent 提供最新的 Microsoft、Azure 与 .NET 官方技术文档检索。 | `通用` | — |
+| **[Milvus Agent Skill](https://github.com/zilliztech/milvus-skill)** `官方` | `Skill` | Zilliz 官方 Milvus 向量数据库技能，指导 Agent 使用 pymilvus 构建索引、检索与 RAG 应用。 | `通用` `Claude Code` | — |
+| **[monday.com MCP](https://github.com/mondaycom/mcp)** `官方` | `MCP` | monday.com 官方 MCP 服务器，让 AI Agent 安全读写项目看板、任务条目与团队协作流程。 | `通用` | — |
+| **[MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server)** `官方` | `MCP` | MongoDB 官方 MCP 服务器，支持 AI Agent 查询集合、分析数据结构并管理 MongoDB Atlas 集群。<br>`npx -y mongodb-mcp-server` | `通用` | — |
 | **[Neon Postgres Skills](https://github.com/neondatabase/postgres-skills)** `官方` | `Skill` | Neon 官方 PostgreSQL 技能包，涵盖表结构设计、索引策略、查询优化、数据库迁移及常见避坑指南。 | `通用` `Claude Code` | — |
+| **[Notion MCP Server](https://github.com/makenotion/notion-mcp-server)** `官方` | `MCP` | Notion 官方 MCP 服务器，支持 AI Agent 检索、读取、创建并更新 Notion 页面与数据库。<br>`npx -y @notionhq/notion-mcp-server` | `通用` | — |
+| **[PostgreSQL AI Guide](https://github.com/timescale/pg-aiguide)** `官方` | `Plugin` | Timescale 官方 PostgreSQL MCP 与 Claude 插件，提供权威 Postgres 技能、版本文档与查询最佳实践。 | `Claude Code` `通用` | — |
+| **[Pydantic Logfire MCP](https://github.com/pydantic/logfire-mcp)** `官方` | `MCP` | Pydantic 官方 Logfire MCP 服务器，支持 AI Agent 查询 OpenTelemetry 链路追踪、异常日志与线上指标。<br>`uvx logfire-mcp` | `通用` | — |
+| **[Railway Agent Skills](https://github.com/railwayapp/railway-skills)** `官方` | `Skill` | Railway 官方 Agent 技能包，支持创建服务、管理环境变量、查看日志与一键部署云端应用。 | `通用` `Claude Code` | — |
+| **[Recommerce Skills](https://github.com/budna-marketplace/recommerce)** `官方` | `Skill` | 面向二手与新品比价检索的 Agent 技能包，支持跨平台商品检索与价格对比。 | `通用` `Claude Code` | — |
+| **[Redis MCP Server](https://github.com/redis/mcp-redis)** `官方` | `MCP` | Redis 官方 MCP 服务器，为 AI Agent 提供自然语言查询、缓存管理与 Redis 数据检视接口。 | `通用` | — |
+| **[Render Agent Skills](https://github.com/render-oss/skills)** `官方` | `Skill` | Render 官方 Agent 技能包，用于在 Render 平台上部署、配置与排查 Web 服务和托管数据库。 | `通用` `Claude Code` | — |
+| **[Rootly MCP Server](https://github.com/rootlyhq/rootly-mcp-server)** `官方` | `MCP` | Rootly 官方 MCP 服务器，支持 AI Agent 排查线上故障、查询事件时间线并辅助 SRE 应急响应。 | `通用` | — |
+| **[Sentry Agentic Toolkit](https://github.com/getsentry/toolkit)** `官方` | `Plugin` | Sentry 官方 Agent 工具套件，融合 MCP 与技能用于排查线上报错、堆栈追踪与回归定位。 | `通用` `Claude Code` | — |
 | **[shadcn/ui Skill](https://github.com/shadcn-ui/ui)** `官方` | `Skill` | shadcn/ui 官方仓库内置 Agent 技能与上下文规范，辅助管理组件库、主题与现代 React 设计系统。 | `通用` `Claude Code` | — |
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `官方` | `Skill` | SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。 | `通用` `Claude Code` | — |
+| **[Supabase MCP](https://github.com/supabase/mcp)** `官方` | `MCP` | Supabase 官方 MCP 服务器，让 Agent 直接查询数据库、管理表结构迁移、Edge Functions 与项目日志。<br>`npx -y @supabase/mcp-server-supabase` | `通用` | — |
 | **[Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server)** `官方` | `MCP` | 在 MCP 客户端中查询 Terraform Registry 的提供程序和模块，并管理 HCP Terraform 工作区。<br>`codex mcp add terraform -- docker run -i --rm hashicorp/terraform-mcp-server` | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+1` | — |
+| **[WebMCP](https://github.com/webmachinelearning/webmcp)** `官方` | `工具` | W3C WebML 社区组标准规范，让网页原生向浏览器侧 AI Agent 暴露结构化 MCP 工具接口。 | `通用` | — |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | — |
+| **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | 全面的开源 AI 科研与机器学习工程技能库，覆盖模型微调、RLHF、推理优化与评测实验。 | `通用` `Claude Code` | — |
+| **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `工具` | 可视化看板编排工具，支持同时调度、监控并评审 Claude Code、Codex 等多个编码 Agent 的并行任务。 | `Claude Code` `Codex` `通用` | — |
 | **[Matt Pocock Skills](https://github.com/mattpocock/skills)** | `Skill` | 由 Matt Pocock 整理的实战型软件工程 Agent 技能集合，覆盖日常研发工作流。 | `通用` | ⭐ 333.6k<br><sub>2026-11-25</sub> |
 | **[Everything Claude Code (ECC)](https://github.com/affaan-m/ECC)** | `Plugin` | 集成技能、直觉记忆、安全规范与研究驱动工作流的 Agent 运行框架性能优化套件。 | `Claude Code` `Codex` `OpenCode` `Cursor` `+2` | ⭐ 311.3k<br><sub>2026-11-23</sub> |
 | **[Ponytail](https://github.com/DietrichGebert/ponytail)** | `Plugin` | 遵循 YAGNI 原则与极简主义的跨端 Agent 插件、钩子与技能集，减少冗余代码。 | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+2` | ⭐ 199.4k<br><sub>2026-11-22</sub> |
@@ -1247,27 +1595,68 @@
 | **[Anyone to Skill](https://github.com/OpenDemon/anyone-to-skill)** | `工具` | 从视频、PDF、电子书或聊天记录中提取人物心智模型与表达风格并生成 SKILL.md 的技能蒸馏工具。 | `通用` | ⭐ 134<br><sub>2026-04-07</sub> |
 | **[PRPM](https://github.com/pr-pm/prpm)** | `工具` | 面向各类 AI 编程工具的通用提示词、规则与技能包管理器及注册中心。 | `通用` | ⭐ 125<br><sub>2026-10-14</sub> |
 | **[HyperFX Marketing Skills](https://github.com/hyperfx-ai/marketing-skills)** | `Skill` | 基于 Hyper MCP 的营销 Agent 技能集，涵盖信息流广告投放、社媒、SEO、竞品调研与数据分析。 | `通用` | ⭐ 124<br><sub>2026-11-26</sub> |
+| **[Agentic Awesome Skills](https://github.com/sickn33/agentic-awesome-skills)** | `Skill` | 收录 3,000+ 可复用 AI Agent 技能的大型社区合集，兼容 Claude Code、Codex、Cursor 与 Gemini CLI。 | `通用` `Claude Code` `Codex` `Cursor` `+1` | — |
 | **[AgentMemory](https://github.com/rohitg00/agentmemory)** | `Skill` | 跨会话持久化记忆插件与技能套件，支持记忆写入、检索、会话交接、复盘沉淀与隐私清理。 | `通用` `Claude Code` | — |
+| **[agentMemory MCP](https://github.com/webzler/agentMemory)** | `MCP` | 零配置的本地 MCP 记忆服务器，适配 Claude Code、Cline、RooCode 与 Cursor 以持久保留项目上下文。 | `通用` | — |
+| **[AI Maestro](https://github.com/23blocks-OS/ai-maestro)** | `Plugin` | 带模块化技能系统、持久化记忆检索与跨代理通信的 AI Agent 编排器。 | `Claude Code` `通用` | — |
+| **[AI Maestro Plugins](https://github.com/23blocks-OS/ai-maestro-plugins)** | `Plugin` | AI Maestro 官方插件合集，包含 150+ 角色人格、核心技能、身份管理与代理间消息协作能力。 | `Claude Code` `通用` | — |
 | **[AI Skills](https://github.com/sanjay3290/ai-skills)** | `Skill` | AI Agent 技能集合，内置自主深度研究工作流，支持规划、检索、阅读并汇总生成完整研究报告。 | `通用` `Claude Code` | — |
+| **[arXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server)** | `MCP` | 面向学术文献研究的本地 arXiv MCP 服务器，支持论文检索、下载、LaTeX 章节解析与 BibTeX 管理。<br>`uvx arxiv-mcp-server` | `通用` | — |
+| **[Atlassian Bitbucket MCP](https://github.com/aashari/mcp-server-atlassian-bitbucket)** | `MCP` | 面向 Atlassian Bitbucket 的 MCP 服务器，支持 AI Agent 浏览代码仓库、评审 PR 与查看提交历史。<br>`npx -y @aashari/mcp-server-atlassian-bitbucket` | `通用` | — |
+| **[Awesome Agentic Patterns](https://github.com/nibzard/awesome-agentic-patterns)** | `工具` | 精选生产级 AI Agent 架构与工作流设计模式目录，汇总实战验证的工程模式。 | `通用` | — |
 | **[Bleu](https://github.com/Nirvaan05/Bleu-plugin)** | `Plugin` | 编码前架构蓝图插件与技能，将初步项目想法拆解为包含组件、流程与文件级执行清单的完整实现方案。 | `通用` `Claude Code` | — |
+| **[Chisle](https://github.com/JayPokale/Chisle)** | `Skill` | 面向编码 Agent 的 Token 省流技能与规范，通过精简输出、YAGNI 优先编码与高效工具调用降低成本。 | `Claude Code` `通用` | — |
+| **[Context Architecture](https://github.com/sergioazoc/context-architecture)** | `Skill` | 面向 AI 编码时代的上下文架构方法论与模板，帮助组织仓库知识文档以提升 Agent 准确率。 | `通用` `Claude Code` | — |
 | **[Curviate Plugin](https://github.com/Curviate/curviate-plugin)** | `Plugin` | 基于 Curviate CLI 的 LinkedIn 自动化插件与技能套件，覆盖人脉检索、消息、发帖及招聘等工作流。 | `通用` `Claude Code` | — |
+| **[Deja Vu MCP](https://github.com/vshulcz/deja-vu)** | `MCP` | 面向 Claude Code、Codex 与 Cursor 的本地 MCP 记忆层，支持跨会话历史检索与经验复用。 | `Claude Code` `Codex` `Cursor` `通用` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
+| **[Eval Genius](https://github.com/alexgreensh/eval-genius)** | `Skill` | 面向 AI 应用的评测设计技能，指导 Agent 判断何时需要 Eval、如何搭建基准测试与回归度量。 | `通用` `Claude Code` | — |
 | **[FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill)** | `Skill` | 基于本地 FFmpeg 的自然语言音视频剪辑技能，支持裁剪拼接、画幅重构、字幕压制、去静音与混音处理。 | `通用` `Claude Code` | — |
+| **[Git Context Controller](https://github.com/faugustdev/git-context-controller)** | `工具` | 类 Git 风格的 Agent 上下文管理框架，支持对大模型上下文执行提交、分支与合并操作。 | `通用` | — |
+| **[Google Workspace CLI](https://github.com/googleworkspace/cli)** | `工具` | 面向终端与 AI Agent 的 Google Workspace CLI 及技能命令套件，覆盖云盘、邮件、文档、表格与管理接口。 | `通用` `Claude Code` | — |
+| **[Google Workspace MCP](https://github.com/taylorwilsdon/google_workspace_mcp)** | `MCP` | 功能完善的 Google Workspace MCP 服务器，覆盖 Gmail、日历、云盘、文档、表格、幻灯片与任务管理。<br>`uvx workspace-mcp` | `通用` | — |
+| **[GuardLink](https://github.com/Bugb-Technologies/guardlink)** | `Plugin` | AI 驱动的代码安全注解与 MCP 工具链，用于在代码库中持续进行威胁建模与安全边界校验。 | `通用` `Claude Code` | — |
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | — |
+| **[iOS Simulator MCP](https://github.com/joshuayoes/ios-simulator-mcp)** | `MCP` | 用于操控 Apple iOS 模拟器的 MCP 服务器，支持 UI 树检查、点击交互、截图与移动端自动化调试。<br>`npx -y ios-simulator-mcp` | `通用` | — |
+| **[Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server)** | `MCP` | 面向 Jupyter Notebook 的 MCP 服务器，支持 AI Agent 实时执行代码单元、读取输出并完成数据科学分析。<br>`uvx jupyter-mcp-server` | `通用` | — |
 | **[Levea Video MCP](https://github.com/brajendrak00068/agentic-ai-video-production)** | `MCP` | 面向自动化 AI 视频剪辑的远程 MCP 服务，可将自然语言指令或长视频处理为带字幕与智能构图的成片。 | `通用` `Claude Code` | — |
+| **[Loki Mode](https://github.com/asklokesh/loki-mode)** | `Plugin` | 自主多 Agent 软件工厂插件，接收 GitHub Issue 或需求文档后端到端编排规划、编码、测试与交付。 | `Claude Code` `Codex` `Gemini CLI` | — |
+| **[Maoxuan Skill](https://github.com/leezythu/maoxuan-skill)** | `Skill` | 毛选思维框架中文决策技能，提炼核心心智模型与决策启发式方法用于复杂问题分析与策略制定。 | `通用` `Claude Code` | — |
+| **[MCP Server Playwright](https://github.com/VikashLoomba/MCP-Server-Playwright)** | `MCP` | 轻量级 Playwright MCP 服务器，支持浏览器导航、表单交互、DOM 检查与自动截图。 | `通用` | — |
+| **[mcp-remote](https://github.com/punkpeye/mcp-remote)** | `MCP` | MCP 协议桥接工具，让仅支持本地 stdio 的 MCP 客户端也能通过 OAuth 连接远程 HTTP/SSE MCP 服务器。<br>`npx -y mcp-remote` | `通用` | — |
+| **[Memex MCP](https://github.com/STiFLeR7/memex)** | `MCP` | 开源 MCP 服务器与 Hook 服务，用于持久化沉淀 Claude Code 与 Codex 的工程上下文与架构决策。 | `Claude Code` `Codex` `通用` | — |
+| **[Mermaid MCP](https://github.com/hustcc/mcp-mermaid)** | `MCP` | 动态生成与渲染 Mermaid 流程图、时序图和架构图的 MCP 服务器。<br>`npx -y mcp-mermaid` | `通用` | — |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | — |
+| **[n8n MCP](https://github.com/czlonkowski/n8n-mcp)** | `MCP` | 面向 n8n 的 MCP 服务器，支持 AI Agent 检索节点文档、校验参数并构建或运行 n8n 自动化工作流。<br>`npx -y n8n-mcp` | `通用` | — |
+| **[n8n Skills](https://github.com/czlonkowski/n8n-skills)** | `Skill` | 精选 n8n 技能包，帮助 Claude Code 等 Agent 设计、校验并调试生产级 n8n 自动化工作流。 | `Claude Code` `通用` | — |
+| **[Next.js Sanity Blog Skill](https://github.com/BuildShipGrowRepeat/nextjs-sanity-blog-skill)** | `Skill` | 面向 Next.js 项目的 Claude Code 技能，一键搭建 SEO 优先、支持多语言的 Sanity CMS 博客系统。 | `Claude Code` `通用` | — |
+| **[npm-agentskills](https://github.com/onmax/npm-agentskills)** | `工具` | 与框架无关的 Agent Skills 发现与导出工具，支持直接从 npm 包中提取和分发技能。 | `通用` | — |
 | **[Off Grid AI Skills](https://github.com/off-grid-ai/skills)** | `Skill` | 专注软件工程质量的技能集合，涵盖行为驱动测试、根因修复、合并前安全检查与图工程工作流。 | `通用` `Claude Code` | — |
+| **[OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** | `工具` | 面向 AI Agent 的时光机调试与 MCP 工具，支持录制、回放、分叉与排查多步 Agent 执行过程。 | `通用` `Claude Code` | — |
 | **[pdfToMarkdown](https://github.com/ThiloReintjes/pdftomarkdown-skill)** | `Plugin` | Claude Code 插件与技能，可将扫描件、表格、多栏排版及中日韩文档等复杂 PDF 高保真转换为 Markdown。 | `Claude Code` `通用` | — |
+| **[Playwright MCP (ExecuteAutomation)](https://github.com/executeautomation/mcp-playwright)** | `MCP` | 社区版 Playwright MCP 服务器，支持 AI Agent 驱动浏览器自动化、截图、测试代码生成与接口测试。<br>`npx -y @executeautomation/playwright-mcp-server` | `通用` | — |
 | **[Product Decision Agent](https://github.com/atdy/maoxuan-product-agent)** | `Skill` | 中文互联网产品决策 Agent 技能，覆盖需求分析、PRD、优先级排期、增长诊断、数据指标与跨部门协作决策。 | `通用` `Claude Code` | — |
 | **[Rote](https://github.com/trevhud/rote)** | `工具` | 将成熟 SKILL.md 技能编译为无大模型参与的确定性流水线，并重新封装为 MCP 工具供 Agent 调用。 | `通用` `Claude Code` | — |
+| **[Ruflo (Claude Flow)](https://github.com/ruvnet/ruflo)** | `Plugin` | 面向 Claude Code 与 Codex 的多 Agent 蜂群编排平台，集成协同子代理、记忆层、技能系统与 MCP 工具。 | `Claude Code` `Codex` `通用` | — |
+| **[Savia](https://github.com/gonzalezpazmonica/savia)** | `Plugin` | 不绑定厂商的工程治理与任务编排 Agent 套件，覆盖软件开发与项目管理全流程。 | `Claude Code` `通用` | — |
+| **[SearXNG MCP](https://github.com/ihor-sokoliuk/mcp-searxng)** | `MCP` | 基于自建 SearXNG 的隐私优先联网搜索 MCP 服务器，适配 Claude、Cursor 等主流 MCP 客户端。<br>`npx -y mcp-searxng` | `通用` | — |
+| **[Structured Thinking Skills](https://github.com/ysskrishna/ai-agent-skills)** | `Skill` | 面向 AI Agent 的结构化思维技能集合，覆盖头脑风暴、决策分析与系统性思考框架。 | `通用` `Claude Code` | — |
+| **[SwarmVault](https://github.com/swarmclawai/swarmvault)** | `工具` | 本地优先的 LLM Wiki 与知识图谱构建工具，为 AI Agent 提供结构化 RAG 知识库。 | `通用` `Claude Code` | — |
+| **[Switch AI Teammates](https://github.com/sandbox-quantum/switch)** | `工具` | 开源协作桥接工具，将 AI 工程与办公代理直接接入 Slack、Teams、Discord、Telegram 与 Mattermost。 | `通用` | — |
+| **[Trace MCP](https://github.com/nikolai-vysotskyi/trace-mcp)** | `MCP` | 支持 90+ 框架与 80+ 编程语言的代码智能分析 MCP 服务器，用于跨文件符号追踪与架构理解。 | `通用` | — |
 | **[tstack Skills](https://github.com/t3dotgg/tstack)** | `Skill` | Theo Browne 维护的工程工作流技能套件，涵盖 PR 提交、评审评论、CI 自动盯盘与代码库现代化改造。 | `通用` `Claude Code` | — |
 
-## OpenCode (210)
+## OpenCode (285)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | ⭐ 201.1k<br><sub>2026-11-16</sub> |
+| **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `官方` | `MCP` | Chrome DevTools 官方 MCP 服务器，让编码 Agent 直接操控、调试、性能分析与审查 Chrome 浏览器页面。<br>`npx -y chrome-devtools-mcp@latest` | `通用` | — |
+| **[Context7 MCP](https://github.com/upstash/context7)** `官方` | `MCP` | Upstash 官方 Context7 MCP 服务器，实时拉取最新、按版本匹配的开源库文档与代码示例并注入 Agent 上下文。<br>`npx -y @upstash/context7-mcp` | `通用` | — |
+| **[FastMCP](https://github.com/PrefectHQ/fastmcp)** `官方` | `工具` | Python 生态主流 MCP 开发框架，用于快速构建生产级 Model Context Protocol 服务器与客户端。 | `通用` | — |
+| **[Google Agent Skills](https://github.com/google/skills)** `官方` | `Skill` | Google 官方 Agent Skills 仓库，覆盖 Google Cloud 与各类 Google 开发者技术栈的标准技能。 | `通用` `Gemini CLI` `Claude Code` | — |
 | **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** `官方` | `MCP` | Model Context Protocol 官方参考服务器合集，提供文件系统、Git、数据库与网页接入等标准集成范例。 | `通用` | — |
+| **[OpenAI Skills Catalog](https://github.com/openai/skills)** `官方` | `Skill` | OpenAI 官方维护的 Agent Skills 目录，为 Codex 及遵循开放标准的 Agent 提供精选可复用技能。 | `Codex` `通用` | — |
 | **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `官方` | `MCP` | 微软官方 Playwright MCP 服务器，让 Agent 通过结构化无障碍树直接操控浏览器完成测试与网页自动化。<br>`npx @playwright/mcp@latest` | `通用` | — |
 | **[Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill)** `官方` | `Skill` | Cloudflare 官方出品的多阶段安全审计技能，可生成经独立验证的机器可读漏洞报告。 | `通用` | ⭐ 78.9k<br><sub>2026-09-14</sub> |
 | **[Open Code Review](https://github.com/alibaba/open-code-review)** `官方` | `工具` | 阿里巴巴开源的混合架构代码审查工具，结合确定性规则流水线与大模型 Agent 实现行级精准评审。 | `通用` | ⭐ 56.7k<br><sub>2026-11-26</sub> |
@@ -1314,18 +1703,53 @@
 | **[Prisma Official Skills](https://github.com/prisma/skills)** `官方` | `Skill` | Prisma 官方 Agent 技能集，涵盖 Prisma ORM 配置、Client API、Prisma Postgres 与 v7 升级迁移。 | `通用` | ⭐ 80<br><sub>2026-11-26</sub> |
 | **[Accoil Product Tracking Skills](https://github.com/Accoil/product-tracking-skills)** `官方` | `Skill` | Accoil 官方产品埋点分析技能集，可扫描代码库、设计埋点方案并生成多平台分析埋点代码。 | `通用` | ⭐ 47<br><sub>2026-10-20</sub> |
 | **[Astrolicious Agent Skills](https://github.com/astrolicious/agent-skills)** `官方` | `Skill` | Astrolicious 官方 Astro 生态 Agent 技能集，助力智能体高效开发与维护 Astro Web 项目。 | `通用` | ⭐ 13<br><sub>2026-03-20</sub> |
+| **[Airtable Agent Skills](https://github.com/Airtable/skills)** `官方` | `Skill` | Airtable 官方 Agent 技能包，辅助操作 Airtable 数据表结构、自动化流程与扩展开发。 | `通用` `Claude Code` | — |
+| **[Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server)** `官方` | `MCP` | Alpaca 官方 MCP 服务器，支持 AI Agent 获取实时行情数据并操作股票、ETF、期权与加密货币交易接口。<br>`uvx alpaca-mcp-server` | `通用` | — |
+| **[Apify MCP Server](https://github.com/apify/apify-mcp-server)** `官方` | `MCP` | Apify 官方 MCP 服务器，让 Agent 直接调用数千个 Apify Actors 完成网页抓取、社媒与电商数据采集。<br>`npx -y @apify/actors-mcp-server` | `通用` | — |
+| **[Browser MCP](https://github.com/BrowserMCP/mcp)** `官方` | `MCP` | 结合浏览器插件的 MCP 服务器，让 AI Agent 复用本地浏览器登录态完成网页操作与自动化任务。<br>`npx -y @browsermcp/mcp@latest` | `通用` | — |
+| **[BrowserAct Skills](https://github.com/browser-act/skills)** `官方` | `Skill` | BrowserAct 官方浏览器自动化技能集，支持复杂网页交互、数据采集与任务接管。 | `通用` `Claude Code` | — |
+| **[Cloud Run MCP](https://github.com/GoogleCloudPlatform/cloud-run-mcp)** `官方` | `MCP` | Google Cloud 官方 Cloud Run MCP 服务器，支持 AI Agent 一键构建、部署并管理云端容器服务。<br>`npx -y @google-cloud/cloud-run-mcp` | `通用` | — |
+| **[Codacy MCP Server](https://github.com/codacy/codacy-mcp-server)** `官方` | `MCP` | Codacy 官方 MCP 服务器，为 AI Agent 提供自动化代码质量检测、安全漏洞扫描与覆盖率分析。<br>`npx -y @codacy/codacy-mcp` | `通用` | — |
+| **[Code Graph MCP](https://github.com/diffbot/mcp-code-graph)** `官方` | `MCP` | 用于代码库知识图谱分析、依赖追踪与架构可视化的 MCP 服务器。 | `通用` | — |
+| **[Colibird Local MCP](https://github.com/colibird-ai/local-mcp-releases)** `官方` | `MCP` | 本地桌面端 MCP 服务器，将 Claude、ChatGPT 与 Cursor 连接到 Mac 和 Windows 原生文件与工作流。 | `通用` | — |
+| **[DataLikers MCP](https://github.com/subzeroid/datalikers-mcp)** `官方` | `MCP` | 轻量级 stdio MCP 服务器，通过 DataLikers API 提供 29 个 Instagram 与 TikTok 社媒数据采集工具。 | `通用` | — |
+| **[DBHub MCP](https://github.com/bytebase/dbhub)** `官方` | `MCP` | Bytebase 开源的通用数据库 MCP 服务器，节省上下文 Token，支持 PostgreSQL、MySQL、SQL Server、Oracle 与 SQLite。<br>`npx -y @bytebase/dbhub` | `通用` | — |
 | **[e2e Agent Skill](https://github.com/e2e-inc/e2e)** `官方` | `Skill` | e2e 智能端到端测试框架官方技能，支持在 Playwright 浏览器及 iOS/Android 设备上编写、运行与调试测试。 | `通用` `Claude Code` | — |
+| **[FinOps MCP](https://github.com/getnable/finopsmcp)** `官方` | `MCP` | 面向云成本治理的无头 FinOps MCP 服务，为 AI Agent 提供云账单分析与资源成本优化能力。 | `通用` | — |
+| **[Firecrawl MCP Server](https://github.com/firecrawl/firecrawl-mcp-server)** `官方` | `MCP` | Firecrawl 官方 MCP 服务器，为 AI Agent 提供联网搜索、网页抓取、整站爬取与结构化数据抽取能力。<br>`npx -y firecrawl-mcp` | `通用` | — |
+| **[Firefly MCP](https://github.com/gofireflyio/firefly-mcp)** `官方` | `MCP` | Firefly 官方 MCP 服务器，支持 AI Agent 盘点云资产、检测配置漂移并生成基础设施即代码（IaC）。 | `通用` | — |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | — |
+| **[HeyGen Agent Skills](https://github.com/heygen-com/skills)** `官方` | `Skill` | HeyGen 官方 AI Agent 技能包，支持通过 HeyGen v3 API 完成数字人创建与自动化视频制作。 | `通用` `Claude Code` | — |
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `官方` | `工具` | 独立命令行工具，可查找 Hugging Face 技能，并将其安装或更新到项目或用户级技能目录。 | `Claude Code` `Codex` `Cursor` `OpenCode` | — |
 | **[Internet Court Skill](https://github.com/internet-court/internet-court-skill)** `官方` | `Skill` | 面向 Agent 间交易的开放信任层技能，覆盖自然语言授权、ERC-7710 权限委托、x402 支付、托管与争议仲裁。 | `通用` `Claude Code` | — |
+| **[LaunchDarkly MCP Server](https://github.com/launchdarkly/mcp-server)** `官方` | `MCP` | LaunchDarkly 官方 MCP 服务器，支持 AI Agent 查询、创建与管理 Feature Flags 及灰度发布规则。 | `通用` | — |
+| **[Live Tennis API MCP](https://github.com/livetennisapi/livetennisapi-mcp)** `官方` | `MCP` | Live Tennis API 官方 MCP 服务器，为 AI Agent 提供实时网球比分、ATP/WTA 排名与赛事统计数据。 | `通用` | — |
 | **[MarkItDown](https://github.com/microsoft/markitdown)** `官方` | `MCP` | 微软官方文件转 Markdown 工具及 MCP 服务，支持将 PDF、Office 文档、图片、音频等转换为适合大模型处理的 Markdown。 | `通用` | — |
+| **[Microsoft Clarity MCP](https://github.com/microsoft/clarity-mcp-server)** `官方` | `MCP` | 微软官方 Clarity MCP 服务器，用于查询网站用户体验分析、流量指标与行为洞察数据。<br>`npx -y @microsoft/clarity-mcp-server` | `通用` | — |
+| **[Microsoft Learn MCP](https://github.com/MicrosoftDocs/mcp)** `官方` | `MCP` | 微软官方 Learn MCP 服务器与 CLI，为 AI Agent 提供最新的 Microsoft、Azure 与 .NET 官方技术文档检索。 | `通用` | — |
+| **[Milvus Agent Skill](https://github.com/zilliztech/milvus-skill)** `官方` | `Skill` | Zilliz 官方 Milvus 向量数据库技能，指导 Agent 使用 pymilvus 构建索引、检索与 RAG 应用。 | `通用` `Claude Code` | — |
+| **[monday.com MCP](https://github.com/mondaycom/mcp)** `官方` | `MCP` | monday.com 官方 MCP 服务器，让 AI Agent 安全读写项目看板、任务条目与团队协作流程。 | `通用` | — |
+| **[MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server)** `官方` | `MCP` | MongoDB 官方 MCP 服务器，支持 AI Agent 查询集合、分析数据结构并管理 MongoDB Atlas 集群。<br>`npx -y mongodb-mcp-server` | `通用` | — |
 | **[Neon Postgres Skills](https://github.com/neondatabase/postgres-skills)** `官方` | `Skill` | Neon 官方 PostgreSQL 技能包，涵盖表结构设计、索引策略、查询优化、数据库迁移及常见避坑指南。 | `通用` `Claude Code` | — |
+| **[Notion MCP Server](https://github.com/makenotion/notion-mcp-server)** `官方` | `MCP` | Notion 官方 MCP 服务器，支持 AI Agent 检索、读取、创建并更新 Notion 页面与数据库。<br>`npx -y @notionhq/notion-mcp-server` | `通用` | — |
+| **[PostgreSQL AI Guide](https://github.com/timescale/pg-aiguide)** `官方` | `Plugin` | Timescale 官方 PostgreSQL MCP 与 Claude 插件，提供权威 Postgres 技能、版本文档与查询最佳实践。 | `Claude Code` `通用` | — |
+| **[Pydantic Logfire MCP](https://github.com/pydantic/logfire-mcp)** `官方` | `MCP` | Pydantic 官方 Logfire MCP 服务器，支持 AI Agent 查询 OpenTelemetry 链路追踪、异常日志与线上指标。<br>`uvx logfire-mcp` | `通用` | — |
+| **[Railway Agent Skills](https://github.com/railwayapp/railway-skills)** `官方` | `Skill` | Railway 官方 Agent 技能包，支持创建服务、管理环境变量、查看日志与一键部署云端应用。 | `通用` `Claude Code` | — |
+| **[Recommerce Skills](https://github.com/budna-marketplace/recommerce)** `官方` | `Skill` | 面向二手与新品比价检索的 Agent 技能包，支持跨平台商品检索与价格对比。 | `通用` `Claude Code` | — |
+| **[Redis MCP Server](https://github.com/redis/mcp-redis)** `官方` | `MCP` | Redis 官方 MCP 服务器，为 AI Agent 提供自然语言查询、缓存管理与 Redis 数据检视接口。 | `通用` | — |
+| **[Render Agent Skills](https://github.com/render-oss/skills)** `官方` | `Skill` | Render 官方 Agent 技能包，用于在 Render 平台上部署、配置与排查 Web 服务和托管数据库。 | `通用` `Claude Code` | — |
+| **[Rootly MCP Server](https://github.com/rootlyhq/rootly-mcp-server)** `官方` | `MCP` | Rootly 官方 MCP 服务器，支持 AI Agent 排查线上故障、查询事件时间线并辅助 SRE 应急响应。 | `通用` | — |
+| **[Sentry Agentic Toolkit](https://github.com/getsentry/toolkit)** `官方` | `Plugin` | Sentry 官方 Agent 工具套件，融合 MCP 与技能用于排查线上报错、堆栈追踪与回归定位。 | `通用` `Claude Code` | — |
 | **[shadcn/ui Skill](https://github.com/shadcn-ui/ui)** `官方` | `Skill` | shadcn/ui 官方仓库内置 Agent 技能与上下文规范，辅助管理组件库、主题与现代 React 设计系统。 | `通用` `Claude Code` | — |
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `官方` | `Skill` | SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。 | `通用` `Claude Code` | — |
+| **[Supabase MCP](https://github.com/supabase/mcp)** `官方` | `MCP` | Supabase 官方 MCP 服务器，让 Agent 直接查询数据库、管理表结构迁移、Edge Functions 与项目日志。<br>`npx -y @supabase/mcp-server-supabase` | `通用` | — |
 | **[Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server)** `官方` | `MCP` | 在 MCP 客户端中查询 Terraform Registry 的提供程序和模块，并管理 HCP Terraform 工作区。<br>`codex mcp add terraform -- docker run -i --rm hashicorp/terraform-mcp-server` | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+1` | — |
+| **[WebMCP](https://github.com/webmachinelearning/webmcp)** `官方` | `工具` | W3C WebML 社区组标准规范，让网页原生向浏览器侧 AI Agent 暴露结构化 MCP 工具接口。 | `通用` | — |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | — |
 | **[Superpowers](https://github.com/obra/superpowers)** | `Plugin` | 面向编码 Agent 的结构化工程工作流插件，内置方案设计、严格 TDD、系统化调试与子代理驱动开发。<br>`/plugin install obra/superpowers` | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 327.5k<br><sub>2026-11-26</sub> |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | 多端模块化插件市场，组合专业子代理、技能与命令，覆盖多语言开发、测试、安全与架构工作流。<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 42.9k<br><sub>2026-11-24</sub> |
+| **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | 全面的开源 AI 科研与机器学习工程技能库，覆盖模型微调、RLHF、推理优化与评测实验。 | `通用` `Claude Code` | — |
+| **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `工具` | 可视化看板编排工具，支持同时调度、监控并评审 Claude Code、Codex 等多个编码 Agent 的并行任务。 | `Claude Code` `Codex` `通用` | — |
 | **[Matt Pocock Skills](https://github.com/mattpocock/skills)** | `Skill` | 由 Matt Pocock 整理的实战型软件工程 Agent 技能集合，覆盖日常研发工作流。 | `通用` | ⭐ 333.6k<br><sub>2026-11-25</sub> |
 | **[Everything Claude Code (ECC)](https://github.com/affaan-m/ECC)** | `Plugin` | 集成技能、直觉记忆、安全规范与研究驱动工作流的 Agent 运行框架性能优化套件。 | `Claude Code` `Codex` `OpenCode` `Cursor` `+2` | ⭐ 311.3k<br><sub>2026-11-23</sub> |
 | **[Ponytail](https://github.com/DietrichGebert/ponytail)** | `Plugin` | 遵循 YAGNI 原则与极简主义的跨端 Agent 插件、钩子与技能集，减少冗余代码。 | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+2` | ⭐ 199.4k<br><sub>2026-11-22</sub> |
@@ -1462,27 +1886,67 @@
 | **[Anyone to Skill](https://github.com/OpenDemon/anyone-to-skill)** | `工具` | 从视频、PDF、电子书或聊天记录中提取人物心智模型与表达风格并生成 SKILL.md 的技能蒸馏工具。 | `通用` | ⭐ 134<br><sub>2026-04-07</sub> |
 | **[PRPM](https://github.com/pr-pm/prpm)** | `工具` | 面向各类 AI 编程工具的通用提示词、规则与技能包管理器及注册中心。 | `通用` | ⭐ 125<br><sub>2026-10-14</sub> |
 | **[HyperFX Marketing Skills](https://github.com/hyperfx-ai/marketing-skills)** | `Skill` | 基于 Hyper MCP 的营销 Agent 技能集，涵盖信息流广告投放、社媒、SEO、竞品调研与数据分析。 | `通用` | ⭐ 124<br><sub>2026-11-26</sub> |
+| **[Agentic Awesome Skills](https://github.com/sickn33/agentic-awesome-skills)** | `Skill` | 收录 3,000+ 可复用 AI Agent 技能的大型社区合集，兼容 Claude Code、Codex、Cursor 与 Gemini CLI。 | `通用` `Claude Code` `Codex` `Cursor` `+1` | — |
 | **[AgentMemory](https://github.com/rohitg00/agentmemory)** | `Skill` | 跨会话持久化记忆插件与技能套件，支持记忆写入、检索、会话交接、复盘沉淀与隐私清理。 | `通用` `Claude Code` | — |
+| **[agentMemory MCP](https://github.com/webzler/agentMemory)** | `MCP` | 零配置的本地 MCP 记忆服务器，适配 Claude Code、Cline、RooCode 与 Cursor 以持久保留项目上下文。 | `通用` | — |
+| **[AI Maestro](https://github.com/23blocks-OS/ai-maestro)** | `Plugin` | 带模块化技能系统、持久化记忆检索与跨代理通信的 AI Agent 编排器。 | `Claude Code` `通用` | — |
+| **[AI Maestro Plugins](https://github.com/23blocks-OS/ai-maestro-plugins)** | `Plugin` | AI Maestro 官方插件合集，包含 150+ 角色人格、核心技能、身份管理与代理间消息协作能力。 | `Claude Code` `通用` | — |
 | **[AI Skills](https://github.com/sanjay3290/ai-skills)** | `Skill` | AI Agent 技能集合，内置自主深度研究工作流，支持规划、检索、阅读并汇总生成完整研究报告。 | `通用` `Claude Code` | — |
+| **[arXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server)** | `MCP` | 面向学术文献研究的本地 arXiv MCP 服务器，支持论文检索、下载、LaTeX 章节解析与 BibTeX 管理。<br>`uvx arxiv-mcp-server` | `通用` | — |
+| **[Atlassian Bitbucket MCP](https://github.com/aashari/mcp-server-atlassian-bitbucket)** | `MCP` | 面向 Atlassian Bitbucket 的 MCP 服务器，支持 AI Agent 浏览代码仓库、评审 PR 与查看提交历史。<br>`npx -y @aashari/mcp-server-atlassian-bitbucket` | `通用` | — |
+| **[Awesome Agentic Patterns](https://github.com/nibzard/awesome-agentic-patterns)** | `工具` | 精选生产级 AI Agent 架构与工作流设计模式目录，汇总实战验证的工程模式。 | `通用` | — |
 | **[Bleu](https://github.com/Nirvaan05/Bleu-plugin)** | `Plugin` | 编码前架构蓝图插件与技能，将初步项目想法拆解为包含组件、流程与文件级执行清单的完整实现方案。 | `通用` `Claude Code` | — |
+| **[Chisle](https://github.com/JayPokale/Chisle)** | `Skill` | 面向编码 Agent 的 Token 省流技能与规范，通过精简输出、YAGNI 优先编码与高效工具调用降低成本。 | `Claude Code` `通用` | — |
+| **[Context Architecture](https://github.com/sergioazoc/context-architecture)** | `Skill` | 面向 AI 编码时代的上下文架构方法论与模板，帮助组织仓库知识文档以提升 Agent 准确率。 | `通用` `Claude Code` | — |
 | **[Curviate Plugin](https://github.com/Curviate/curviate-plugin)** | `Plugin` | 基于 Curviate CLI 的 LinkedIn 自动化插件与技能套件，覆盖人脉检索、消息、发帖及招聘等工作流。 | `通用` `Claude Code` | — |
+| **[Deja Vu MCP](https://github.com/vshulcz/deja-vu)** | `MCP` | 面向 Claude Code、Codex 与 Cursor 的本地 MCP 记忆层，支持跨会话历史检索与经验复用。 | `Claude Code` `Codex` `Cursor` `通用` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
+| **[Eval Genius](https://github.com/alexgreensh/eval-genius)** | `Skill` | 面向 AI 应用的评测设计技能，指导 Agent 判断何时需要 Eval、如何搭建基准测试与回归度量。 | `通用` `Claude Code` | — |
 | **[FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill)** | `Skill` | 基于本地 FFmpeg 的自然语言音视频剪辑技能，支持裁剪拼接、画幅重构、字幕压制、去静音与混音处理。 | `通用` `Claude Code` | — |
+| **[Git Context Controller](https://github.com/faugustdev/git-context-controller)** | `工具` | 类 Git 风格的 Agent 上下文管理框架，支持对大模型上下文执行提交、分支与合并操作。 | `通用` | — |
+| **[Google Workspace CLI](https://github.com/googleworkspace/cli)** | `工具` | 面向终端与 AI Agent 的 Google Workspace CLI 及技能命令套件，覆盖云盘、邮件、文档、表格与管理接口。 | `通用` `Claude Code` | — |
+| **[Google Workspace MCP](https://github.com/taylorwilsdon/google_workspace_mcp)** | `MCP` | 功能完善的 Google Workspace MCP 服务器，覆盖 Gmail、日历、云盘、文档、表格、幻灯片与任务管理。<br>`uvx workspace-mcp` | `通用` | — |
+| **[GuardLink](https://github.com/Bugb-Technologies/guardlink)** | `Plugin` | AI 驱动的代码安全注解与 MCP 工具链，用于在代码库中持续进行威胁建模与安全边界校验。 | `通用` `Claude Code` | — |
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | — |
+| **[iOS Simulator MCP](https://github.com/joshuayoes/ios-simulator-mcp)** | `MCP` | 用于操控 Apple iOS 模拟器的 MCP 服务器，支持 UI 树检查、点击交互、截图与移动端自动化调试。<br>`npx -y ios-simulator-mcp` | `通用` | — |
+| **[Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server)** | `MCP` | 面向 Jupyter Notebook 的 MCP 服务器，支持 AI Agent 实时执行代码单元、读取输出并完成数据科学分析。<br>`uvx jupyter-mcp-server` | `通用` | — |
 | **[Levea Video MCP](https://github.com/brajendrak00068/agentic-ai-video-production)** | `MCP` | 面向自动化 AI 视频剪辑的远程 MCP 服务，可将自然语言指令或长视频处理为带字幕与智能构图的成片。 | `通用` `Claude Code` | — |
+| **[Maoxuan Skill](https://github.com/leezythu/maoxuan-skill)** | `Skill` | 毛选思维框架中文决策技能，提炼核心心智模型与决策启发式方法用于复杂问题分析与策略制定。 | `通用` `Claude Code` | — |
+| **[MCP Server Playwright](https://github.com/VikashLoomba/MCP-Server-Playwright)** | `MCP` | 轻量级 Playwright MCP 服务器，支持浏览器导航、表单交互、DOM 检查与自动截图。 | `通用` | — |
+| **[mcp-remote](https://github.com/punkpeye/mcp-remote)** | `MCP` | MCP 协议桥接工具，让仅支持本地 stdio 的 MCP 客户端也能通过 OAuth 连接远程 HTTP/SSE MCP 服务器。<br>`npx -y mcp-remote` | `通用` | — |
+| **[Memex MCP](https://github.com/STiFLeR7/memex)** | `MCP` | 开源 MCP 服务器与 Hook 服务，用于持久化沉淀 Claude Code 与 Codex 的工程上下文与架构决策。 | `Claude Code` `Codex` `通用` | — |
+| **[Mermaid MCP](https://github.com/hustcc/mcp-mermaid)** | `MCP` | 动态生成与渲染 Mermaid 流程图、时序图和架构图的 MCP 服务器。<br>`npx -y mcp-mermaid` | `通用` | — |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | — |
+| **[n8n MCP](https://github.com/czlonkowski/n8n-mcp)** | `MCP` | 面向 n8n 的 MCP 服务器，支持 AI Agent 检索节点文档、校验参数并构建或运行 n8n 自动化工作流。<br>`npx -y n8n-mcp` | `通用` | — |
+| **[n8n Skills](https://github.com/czlonkowski/n8n-skills)** | `Skill` | 精选 n8n 技能包，帮助 Claude Code 等 Agent 设计、校验并调试生产级 n8n 自动化工作流。 | `Claude Code` `通用` | — |
+| **[Next.js Sanity Blog Skill](https://github.com/BuildShipGrowRepeat/nextjs-sanity-blog-skill)** | `Skill` | 面向 Next.js 项目的 Claude Code 技能，一键搭建 SEO 优先、支持多语言的 Sanity CMS 博客系统。 | `Claude Code` `通用` | — |
+| **[npm-agentskills](https://github.com/onmax/npm-agentskills)** | `工具` | 与框架无关的 Agent Skills 发现与导出工具，支持直接从 npm 包中提取和分发技能。 | `通用` | — |
 | **[Off Grid AI Skills](https://github.com/off-grid-ai/skills)** | `Skill` | 专注软件工程质量的技能集合，涵盖行为驱动测试、根因修复、合并前安全检查与图工程工作流。 | `通用` `Claude Code` | — |
+| **[OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** | `工具` | 面向 AI Agent 的时光机调试与 MCP 工具，支持录制、回放、分叉与排查多步 Agent 执行过程。 | `通用` `Claude Code` | — |
 | **[pdfToMarkdown](https://github.com/ThiloReintjes/pdftomarkdown-skill)** | `Plugin` | Claude Code 插件与技能，可将扫描件、表格、多栏排版及中日韩文档等复杂 PDF 高保真转换为 Markdown。 | `Claude Code` `通用` | — |
+| **[Playwright MCP (ExecuteAutomation)](https://github.com/executeautomation/mcp-playwright)** | `MCP` | 社区版 Playwright MCP 服务器，支持 AI Agent 驱动浏览器自动化、截图、测试代码生成与接口测试。<br>`npx -y @executeautomation/playwright-mcp-server` | `通用` | — |
 | **[Product Decision Agent](https://github.com/atdy/maoxuan-product-agent)** | `Skill` | 中文互联网产品决策 Agent 技能，覆盖需求分析、PRD、优先级排期、增长诊断、数据指标与跨部门协作决策。 | `通用` `Claude Code` | — |
 | **[Rote](https://github.com/trevhud/rote)** | `工具` | 将成熟 SKILL.md 技能编译为无大模型参与的确定性流水线，并重新封装为 MCP 工具供 Agent 调用。 | `通用` `Claude Code` | — |
+| **[Ruflo (Claude Flow)](https://github.com/ruvnet/ruflo)** | `Plugin` | 面向 Claude Code 与 Codex 的多 Agent 蜂群编排平台，集成协同子代理、记忆层、技能系统与 MCP 工具。 | `Claude Code` `Codex` `通用` | — |
+| **[Savia](https://github.com/gonzalezpazmonica/savia)** | `Plugin` | 不绑定厂商的工程治理与任务编排 Agent 套件，覆盖软件开发与项目管理全流程。 | `Claude Code` `通用` | — |
+| **[SearXNG MCP](https://github.com/ihor-sokoliuk/mcp-searxng)** | `MCP` | 基于自建 SearXNG 的隐私优先联网搜索 MCP 服务器，适配 Claude、Cursor 等主流 MCP 客户端。<br>`npx -y mcp-searxng` | `通用` | — |
+| **[Structured Thinking Skills](https://github.com/ysskrishna/ai-agent-skills)** | `Skill` | 面向 AI Agent 的结构化思维技能集合，覆盖头脑风暴、决策分析与系统性思考框架。 | `通用` `Claude Code` | — |
+| **[SwarmVault](https://github.com/swarmclawai/swarmvault)** | `工具` | 本地优先的 LLM Wiki 与知识图谱构建工具，为 AI Agent 提供结构化 RAG 知识库。 | `通用` `Claude Code` | — |
+| **[Switch AI Teammates](https://github.com/sandbox-quantum/switch)** | `工具` | 开源协作桥接工具，将 AI 工程与办公代理直接接入 Slack、Teams、Discord、Telegram 与 Mattermost。 | `通用` | — |
+| **[Trace MCP](https://github.com/nikolai-vysotskyi/trace-mcp)** | `MCP` | 支持 90+ 框架与 80+ 编程语言的代码智能分析 MCP 服务器，用于跨文件符号追踪与架构理解。 | `通用` | — |
 | **[tstack Skills](https://github.com/t3dotgg/tstack)** | `Skill` | Theo Browne 维护的工程工作流技能套件，涵盖 PR 提交、评审评论、CI 自动盯盘与代码库现代化改造。 | `通用` `Claude Code` | — |
 
-## Antigravity (197)
+## Antigravity (272)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | ⭐ 201.1k<br><sub>2026-11-16</sub> |
+| **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `官方` | `MCP` | Chrome DevTools 官方 MCP 服务器，让编码 Agent 直接操控、调试、性能分析与审查 Chrome 浏览器页面。<br>`npx -y chrome-devtools-mcp@latest` | `通用` | — |
+| **[Context7 MCP](https://github.com/upstash/context7)** `官方` | `MCP` | Upstash 官方 Context7 MCP 服务器，实时拉取最新、按版本匹配的开源库文档与代码示例并注入 Agent 上下文。<br>`npx -y @upstash/context7-mcp` | `通用` | — |
+| **[FastMCP](https://github.com/PrefectHQ/fastmcp)** `官方` | `工具` | Python 生态主流 MCP 开发框架，用于快速构建生产级 Model Context Protocol 服务器与客户端。 | `通用` | — |
+| **[Google Agent Skills](https://github.com/google/skills)** `官方` | `Skill` | Google 官方 Agent Skills 仓库，覆盖 Google Cloud 与各类 Google 开发者技术栈的标准技能。 | `通用` `Gemini CLI` `Claude Code` | — |
 | **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** `官方` | `MCP` | Model Context Protocol 官方参考服务器合集，提供文件系统、Git、数据库与网页接入等标准集成范例。 | `通用` | — |
+| **[OpenAI Skills Catalog](https://github.com/openai/skills)** `官方` | `Skill` | OpenAI 官方维护的 Agent Skills 目录，为 Codex 及遵循开放标准的 Agent 提供精选可复用技能。 | `Codex` `通用` | — |
 | **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `官方` | `MCP` | 微软官方 Playwright MCP 服务器，让 Agent 通过结构化无障碍树直接操控浏览器完成测试与网页自动化。<br>`npx @playwright/mcp@latest` | `通用` | — |
 | **[Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill)** `官方` | `Skill` | Cloudflare 官方出品的多阶段安全审计技能，可生成经独立验证的机器可读漏洞报告。 | `通用` | ⭐ 78.9k<br><sub>2026-09-14</sub> |
 | **[Open Code Review](https://github.com/alibaba/open-code-review)** `官方` | `工具` | 阿里巴巴开源的混合架构代码审查工具，结合确定性规则流水线与大模型 Agent 实现行级精准评审。 | `通用` | ⭐ 56.7k<br><sub>2026-11-26</sub> |
@@ -1528,15 +1992,50 @@
 | **[Prisma Official Skills](https://github.com/prisma/skills)** `官方` | `Skill` | Prisma 官方 Agent 技能集，涵盖 Prisma ORM 配置、Client API、Prisma Postgres 与 v7 升级迁移。 | `通用` | ⭐ 80<br><sub>2026-11-26</sub> |
 | **[Accoil Product Tracking Skills](https://github.com/Accoil/product-tracking-skills)** `官方` | `Skill` | Accoil 官方产品埋点分析技能集，可扫描代码库、设计埋点方案并生成多平台分析埋点代码。 | `通用` | ⭐ 47<br><sub>2026-10-20</sub> |
 | **[Astrolicious Agent Skills](https://github.com/astrolicious/agent-skills)** `官方` | `Skill` | Astrolicious 官方 Astro 生态 Agent 技能集，助力智能体高效开发与维护 Astro Web 项目。 | `通用` | ⭐ 13<br><sub>2026-03-20</sub> |
+| **[Airtable Agent Skills](https://github.com/Airtable/skills)** `官方` | `Skill` | Airtable 官方 Agent 技能包，辅助操作 Airtable 数据表结构、自动化流程与扩展开发。 | `通用` `Claude Code` | — |
+| **[Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server)** `官方` | `MCP` | Alpaca 官方 MCP 服务器，支持 AI Agent 获取实时行情数据并操作股票、ETF、期权与加密货币交易接口。<br>`uvx alpaca-mcp-server` | `通用` | — |
+| **[Apify MCP Server](https://github.com/apify/apify-mcp-server)** `官方` | `MCP` | Apify 官方 MCP 服务器，让 Agent 直接调用数千个 Apify Actors 完成网页抓取、社媒与电商数据采集。<br>`npx -y @apify/actors-mcp-server` | `通用` | — |
+| **[Browser MCP](https://github.com/BrowserMCP/mcp)** `官方` | `MCP` | 结合浏览器插件的 MCP 服务器，让 AI Agent 复用本地浏览器登录态完成网页操作与自动化任务。<br>`npx -y @browsermcp/mcp@latest` | `通用` | — |
+| **[BrowserAct Skills](https://github.com/browser-act/skills)** `官方` | `Skill` | BrowserAct 官方浏览器自动化技能集，支持复杂网页交互、数据采集与任务接管。 | `通用` `Claude Code` | — |
+| **[Cloud Run MCP](https://github.com/GoogleCloudPlatform/cloud-run-mcp)** `官方` | `MCP` | Google Cloud 官方 Cloud Run MCP 服务器，支持 AI Agent 一键构建、部署并管理云端容器服务。<br>`npx -y @google-cloud/cloud-run-mcp` | `通用` | — |
+| **[Codacy MCP Server](https://github.com/codacy/codacy-mcp-server)** `官方` | `MCP` | Codacy 官方 MCP 服务器，为 AI Agent 提供自动化代码质量检测、安全漏洞扫描与覆盖率分析。<br>`npx -y @codacy/codacy-mcp` | `通用` | — |
+| **[Code Graph MCP](https://github.com/diffbot/mcp-code-graph)** `官方` | `MCP` | 用于代码库知识图谱分析、依赖追踪与架构可视化的 MCP 服务器。 | `通用` | — |
+| **[Colibird Local MCP](https://github.com/colibird-ai/local-mcp-releases)** `官方` | `MCP` | 本地桌面端 MCP 服务器，将 Claude、ChatGPT 与 Cursor 连接到 Mac 和 Windows 原生文件与工作流。 | `通用` | — |
+| **[DataLikers MCP](https://github.com/subzeroid/datalikers-mcp)** `官方` | `MCP` | 轻量级 stdio MCP 服务器，通过 DataLikers API 提供 29 个 Instagram 与 TikTok 社媒数据采集工具。 | `通用` | — |
+| **[DBHub MCP](https://github.com/bytebase/dbhub)** `官方` | `MCP` | Bytebase 开源的通用数据库 MCP 服务器，节省上下文 Token，支持 PostgreSQL、MySQL、SQL Server、Oracle 与 SQLite。<br>`npx -y @bytebase/dbhub` | `通用` | — |
 | **[e2e Agent Skill](https://github.com/e2e-inc/e2e)** `官方` | `Skill` | e2e 智能端到端测试框架官方技能，支持在 Playwright 浏览器及 iOS/Android 设备上编写、运行与调试测试。 | `通用` `Claude Code` | — |
+| **[FinOps MCP](https://github.com/getnable/finopsmcp)** `官方` | `MCP` | 面向云成本治理的无头 FinOps MCP 服务，为 AI Agent 提供云账单分析与资源成本优化能力。 | `通用` | — |
+| **[Firecrawl MCP Server](https://github.com/firecrawl/firecrawl-mcp-server)** `官方` | `MCP` | Firecrawl 官方 MCP 服务器，为 AI Agent 提供联网搜索、网页抓取、整站爬取与结构化数据抽取能力。<br>`npx -y firecrawl-mcp` | `通用` | — |
+| **[Firefly MCP](https://github.com/gofireflyio/firefly-mcp)** `官方` | `MCP` | Firefly 官方 MCP 服务器，支持 AI Agent 盘点云资产、检测配置漂移并生成基础设施即代码（IaC）。 | `通用` | — |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | — |
+| **[HeyGen Agent Skills](https://github.com/heygen-com/skills)** `官方` | `Skill` | HeyGen 官方 AI Agent 技能包，支持通过 HeyGen v3 API 完成数字人创建与自动化视频制作。 | `通用` `Claude Code` | — |
 | **[Internet Court Skill](https://github.com/internet-court/internet-court-skill)** `官方` | `Skill` | 面向 Agent 间交易的开放信任层技能，覆盖自然语言授权、ERC-7710 权限委托、x402 支付、托管与争议仲裁。 | `通用` `Claude Code` | — |
+| **[LaunchDarkly MCP Server](https://github.com/launchdarkly/mcp-server)** `官方` | `MCP` | LaunchDarkly 官方 MCP 服务器，支持 AI Agent 查询、创建与管理 Feature Flags 及灰度发布规则。 | `通用` | — |
+| **[Live Tennis API MCP](https://github.com/livetennisapi/livetennisapi-mcp)** `官方` | `MCP` | Live Tennis API 官方 MCP 服务器，为 AI Agent 提供实时网球比分、ATP/WTA 排名与赛事统计数据。 | `通用` | — |
 | **[MarkItDown](https://github.com/microsoft/markitdown)** `官方` | `MCP` | 微软官方文件转 Markdown 工具及 MCP 服务，支持将 PDF、Office 文档、图片、音频等转换为适合大模型处理的 Markdown。 | `通用` | — |
+| **[Microsoft Clarity MCP](https://github.com/microsoft/clarity-mcp-server)** `官方` | `MCP` | 微软官方 Clarity MCP 服务器，用于查询网站用户体验分析、流量指标与行为洞察数据。<br>`npx -y @microsoft/clarity-mcp-server` | `通用` | — |
+| **[Microsoft Learn MCP](https://github.com/MicrosoftDocs/mcp)** `官方` | `MCP` | 微软官方 Learn MCP 服务器与 CLI，为 AI Agent 提供最新的 Microsoft、Azure 与 .NET 官方技术文档检索。 | `通用` | — |
+| **[Milvus Agent Skill](https://github.com/zilliztech/milvus-skill)** `官方` | `Skill` | Zilliz 官方 Milvus 向量数据库技能，指导 Agent 使用 pymilvus 构建索引、检索与 RAG 应用。 | `通用` `Claude Code` | — |
+| **[monday.com MCP](https://github.com/mondaycom/mcp)** `官方` | `MCP` | monday.com 官方 MCP 服务器，让 AI Agent 安全读写项目看板、任务条目与团队协作流程。 | `通用` | — |
+| **[MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server)** `官方` | `MCP` | MongoDB 官方 MCP 服务器，支持 AI Agent 查询集合、分析数据结构并管理 MongoDB Atlas 集群。<br>`npx -y mongodb-mcp-server` | `通用` | — |
 | **[Neon Postgres Skills](https://github.com/neondatabase/postgres-skills)** `官方` | `Skill` | Neon 官方 PostgreSQL 技能包，涵盖表结构设计、索引策略、查询优化、数据库迁移及常见避坑指南。 | `通用` `Claude Code` | — |
+| **[Notion MCP Server](https://github.com/makenotion/notion-mcp-server)** `官方` | `MCP` | Notion 官方 MCP 服务器，支持 AI Agent 检索、读取、创建并更新 Notion 页面与数据库。<br>`npx -y @notionhq/notion-mcp-server` | `通用` | — |
+| **[PostgreSQL AI Guide](https://github.com/timescale/pg-aiguide)** `官方` | `Plugin` | Timescale 官方 PostgreSQL MCP 与 Claude 插件，提供权威 Postgres 技能、版本文档与查询最佳实践。 | `Claude Code` `通用` | — |
+| **[Pydantic Logfire MCP](https://github.com/pydantic/logfire-mcp)** `官方` | `MCP` | Pydantic 官方 Logfire MCP 服务器，支持 AI Agent 查询 OpenTelemetry 链路追踪、异常日志与线上指标。<br>`uvx logfire-mcp` | `通用` | — |
+| **[Railway Agent Skills](https://github.com/railwayapp/railway-skills)** `官方` | `Skill` | Railway 官方 Agent 技能包，支持创建服务、管理环境变量、查看日志与一键部署云端应用。 | `通用` `Claude Code` | — |
+| **[Recommerce Skills](https://github.com/budna-marketplace/recommerce)** `官方` | `Skill` | 面向二手与新品比价检索的 Agent 技能包，支持跨平台商品检索与价格对比。 | `通用` `Claude Code` | — |
+| **[Redis MCP Server](https://github.com/redis/mcp-redis)** `官方` | `MCP` | Redis 官方 MCP 服务器，为 AI Agent 提供自然语言查询、缓存管理与 Redis 数据检视接口。 | `通用` | — |
+| **[Render Agent Skills](https://github.com/render-oss/skills)** `官方` | `Skill` | Render 官方 Agent 技能包，用于在 Render 平台上部署、配置与排查 Web 服务和托管数据库。 | `通用` `Claude Code` | — |
+| **[Rootly MCP Server](https://github.com/rootlyhq/rootly-mcp-server)** `官方` | `MCP` | Rootly 官方 MCP 服务器，支持 AI Agent 排查线上故障、查询事件时间线并辅助 SRE 应急响应。 | `通用` | — |
+| **[Sentry Agentic Toolkit](https://github.com/getsentry/toolkit)** `官方` | `Plugin` | Sentry 官方 Agent 工具套件，融合 MCP 与技能用于排查线上报错、堆栈追踪与回归定位。 | `通用` `Claude Code` | — |
 | **[shadcn/ui Skill](https://github.com/shadcn-ui/ui)** `官方` | `Skill` | shadcn/ui 官方仓库内置 Agent 技能与上下文规范，辅助管理组件库、主题与现代 React 设计系统。 | `通用` `Claude Code` | — |
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `官方` | `Skill` | SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。 | `通用` `Claude Code` | — |
+| **[Supabase MCP](https://github.com/supabase/mcp)** `官方` | `MCP` | Supabase 官方 MCP 服务器，让 Agent 直接查询数据库、管理表结构迁移、Edge Functions 与项目日志。<br>`npx -y @supabase/mcp-server-supabase` | `通用` | — |
+| **[WebMCP](https://github.com/webmachinelearning/webmcp)** `官方` | `工具` | W3C WebML 社区组标准规范，让网页原生向浏览器侧 AI Agent 暴露结构化 MCP 工具接口。 | `通用` | — |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | — |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | 多端模块化插件市场，组合专业子代理、技能与命令，覆盖多语言开发、测试、安全与架构工作流。<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 42.9k<br><sub>2026-11-24</sub> |
+| **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | 全面的开源 AI 科研与机器学习工程技能库，覆盖模型微调、RLHF、推理优化与评测实验。 | `通用` `Claude Code` | — |
+| **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `工具` | 可视化看板编排工具，支持同时调度、监控并评审 Claude Code、Codex 等多个编码 Agent 的并行任务。 | `Claude Code` `Codex` `通用` | — |
 | **[Matt Pocock Skills](https://github.com/mattpocock/skills)** | `Skill` | 由 Matt Pocock 整理的实战型软件工程 Agent 技能集合，覆盖日常研发工作流。 | `通用` | ⭐ 333.6k<br><sub>2026-11-25</sub> |
 | **[Everything Claude Code (ECC)](https://github.com/affaan-m/ECC)** | `Plugin` | 集成技能、直觉记忆、安全规范与研究驱动工作流的 Agent 运行框架性能优化套件。 | `Claude Code` `Codex` `OpenCode` `Cursor` `+2` | ⭐ 311.3k<br><sub>2026-11-23</sub> |
 | **[UI/UX Pro Max Skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)** | `Skill` | 为编码 Agent 提供跨平台专业 UI/UX 设计规范与审美指导的设计智能技能。 | `Claude Code` `Cursor` `GitHub Copilot` `Antigravity` | ⭐ 154.7k<br><sub>2026-11-27</sub> |
@@ -1664,27 +2163,67 @@
 | **[Anyone to Skill](https://github.com/OpenDemon/anyone-to-skill)** | `工具` | 从视频、PDF、电子书或聊天记录中提取人物心智模型与表达风格并生成 SKILL.md 的技能蒸馏工具。 | `通用` | ⭐ 134<br><sub>2026-04-07</sub> |
 | **[PRPM](https://github.com/pr-pm/prpm)** | `工具` | 面向各类 AI 编程工具的通用提示词、规则与技能包管理器及注册中心。 | `通用` | ⭐ 125<br><sub>2026-10-14</sub> |
 | **[HyperFX Marketing Skills](https://github.com/hyperfx-ai/marketing-skills)** | `Skill` | 基于 Hyper MCP 的营销 Agent 技能集，涵盖信息流广告投放、社媒、SEO、竞品调研与数据分析。 | `通用` | ⭐ 124<br><sub>2026-11-26</sub> |
+| **[Agentic Awesome Skills](https://github.com/sickn33/agentic-awesome-skills)** | `Skill` | 收录 3,000+ 可复用 AI Agent 技能的大型社区合集，兼容 Claude Code、Codex、Cursor 与 Gemini CLI。 | `通用` `Claude Code` `Codex` `Cursor` `+1` | — |
 | **[AgentMemory](https://github.com/rohitg00/agentmemory)** | `Skill` | 跨会话持久化记忆插件与技能套件，支持记忆写入、检索、会话交接、复盘沉淀与隐私清理。 | `通用` `Claude Code` | — |
+| **[agentMemory MCP](https://github.com/webzler/agentMemory)** | `MCP` | 零配置的本地 MCP 记忆服务器，适配 Claude Code、Cline、RooCode 与 Cursor 以持久保留项目上下文。 | `通用` | — |
+| **[AI Maestro](https://github.com/23blocks-OS/ai-maestro)** | `Plugin` | 带模块化技能系统、持久化记忆检索与跨代理通信的 AI Agent 编排器。 | `Claude Code` `通用` | — |
+| **[AI Maestro Plugins](https://github.com/23blocks-OS/ai-maestro-plugins)** | `Plugin` | AI Maestro 官方插件合集，包含 150+ 角色人格、核心技能、身份管理与代理间消息协作能力。 | `Claude Code` `通用` | — |
 | **[AI Skills](https://github.com/sanjay3290/ai-skills)** | `Skill` | AI Agent 技能集合，内置自主深度研究工作流，支持规划、检索、阅读并汇总生成完整研究报告。 | `通用` `Claude Code` | — |
+| **[arXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server)** | `MCP` | 面向学术文献研究的本地 arXiv MCP 服务器，支持论文检索、下载、LaTeX 章节解析与 BibTeX 管理。<br>`uvx arxiv-mcp-server` | `通用` | — |
+| **[Atlassian Bitbucket MCP](https://github.com/aashari/mcp-server-atlassian-bitbucket)** | `MCP` | 面向 Atlassian Bitbucket 的 MCP 服务器，支持 AI Agent 浏览代码仓库、评审 PR 与查看提交历史。<br>`npx -y @aashari/mcp-server-atlassian-bitbucket` | `通用` | — |
+| **[Awesome Agentic Patterns](https://github.com/nibzard/awesome-agentic-patterns)** | `工具` | 精选生产级 AI Agent 架构与工作流设计模式目录，汇总实战验证的工程模式。 | `通用` | — |
 | **[Bleu](https://github.com/Nirvaan05/Bleu-plugin)** | `Plugin` | 编码前架构蓝图插件与技能，将初步项目想法拆解为包含组件、流程与文件级执行清单的完整实现方案。 | `通用` `Claude Code` | — |
+| **[Chisle](https://github.com/JayPokale/Chisle)** | `Skill` | 面向编码 Agent 的 Token 省流技能与规范，通过精简输出、YAGNI 优先编码与高效工具调用降低成本。 | `Claude Code` `通用` | — |
+| **[Context Architecture](https://github.com/sergioazoc/context-architecture)** | `Skill` | 面向 AI 编码时代的上下文架构方法论与模板，帮助组织仓库知识文档以提升 Agent 准确率。 | `通用` `Claude Code` | — |
 | **[Curviate Plugin](https://github.com/Curviate/curviate-plugin)** | `Plugin` | 基于 Curviate CLI 的 LinkedIn 自动化插件与技能套件，覆盖人脉检索、消息、发帖及招聘等工作流。 | `通用` `Claude Code` | — |
+| **[Deja Vu MCP](https://github.com/vshulcz/deja-vu)** | `MCP` | 面向 Claude Code、Codex 与 Cursor 的本地 MCP 记忆层，支持跨会话历史检索与经验复用。 | `Claude Code` `Codex` `Cursor` `通用` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
+| **[Eval Genius](https://github.com/alexgreensh/eval-genius)** | `Skill` | 面向 AI 应用的评测设计技能，指导 Agent 判断何时需要 Eval、如何搭建基准测试与回归度量。 | `通用` `Claude Code` | — |
 | **[FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill)** | `Skill` | 基于本地 FFmpeg 的自然语言音视频剪辑技能，支持裁剪拼接、画幅重构、字幕压制、去静音与混音处理。 | `通用` `Claude Code` | — |
+| **[Git Context Controller](https://github.com/faugustdev/git-context-controller)** | `工具` | 类 Git 风格的 Agent 上下文管理框架，支持对大模型上下文执行提交、分支与合并操作。 | `通用` | — |
+| **[Google Workspace CLI](https://github.com/googleworkspace/cli)** | `工具` | 面向终端与 AI Agent 的 Google Workspace CLI 及技能命令套件，覆盖云盘、邮件、文档、表格与管理接口。 | `通用` `Claude Code` | — |
+| **[Google Workspace MCP](https://github.com/taylorwilsdon/google_workspace_mcp)** | `MCP` | 功能完善的 Google Workspace MCP 服务器，覆盖 Gmail、日历、云盘、文档、表格、幻灯片与任务管理。<br>`uvx workspace-mcp` | `通用` | — |
+| **[GuardLink](https://github.com/Bugb-Technologies/guardlink)** | `Plugin` | AI 驱动的代码安全注解与 MCP 工具链，用于在代码库中持续进行威胁建模与安全边界校验。 | `通用` `Claude Code` | — |
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | — |
+| **[iOS Simulator MCP](https://github.com/joshuayoes/ios-simulator-mcp)** | `MCP` | 用于操控 Apple iOS 模拟器的 MCP 服务器，支持 UI 树检查、点击交互、截图与移动端自动化调试。<br>`npx -y ios-simulator-mcp` | `通用` | — |
+| **[Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server)** | `MCP` | 面向 Jupyter Notebook 的 MCP 服务器，支持 AI Agent 实时执行代码单元、读取输出并完成数据科学分析。<br>`uvx jupyter-mcp-server` | `通用` | — |
 | **[Levea Video MCP](https://github.com/brajendrak00068/agentic-ai-video-production)** | `MCP` | 面向自动化 AI 视频剪辑的远程 MCP 服务，可将自然语言指令或长视频处理为带字幕与智能构图的成片。 | `通用` `Claude Code` | — |
+| **[Maoxuan Skill](https://github.com/leezythu/maoxuan-skill)** | `Skill` | 毛选思维框架中文决策技能，提炼核心心智模型与决策启发式方法用于复杂问题分析与策略制定。 | `通用` `Claude Code` | — |
+| **[MCP Server Playwright](https://github.com/VikashLoomba/MCP-Server-Playwright)** | `MCP` | 轻量级 Playwright MCP 服务器，支持浏览器导航、表单交互、DOM 检查与自动截图。 | `通用` | — |
+| **[mcp-remote](https://github.com/punkpeye/mcp-remote)** | `MCP` | MCP 协议桥接工具，让仅支持本地 stdio 的 MCP 客户端也能通过 OAuth 连接远程 HTTP/SSE MCP 服务器。<br>`npx -y mcp-remote` | `通用` | — |
+| **[Memex MCP](https://github.com/STiFLeR7/memex)** | `MCP` | 开源 MCP 服务器与 Hook 服务，用于持久化沉淀 Claude Code 与 Codex 的工程上下文与架构决策。 | `Claude Code` `Codex` `通用` | — |
+| **[Mermaid MCP](https://github.com/hustcc/mcp-mermaid)** | `MCP` | 动态生成与渲染 Mermaid 流程图、时序图和架构图的 MCP 服务器。<br>`npx -y mcp-mermaid` | `通用` | — |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | — |
+| **[n8n MCP](https://github.com/czlonkowski/n8n-mcp)** | `MCP` | 面向 n8n 的 MCP 服务器，支持 AI Agent 检索节点文档、校验参数并构建或运行 n8n 自动化工作流。<br>`npx -y n8n-mcp` | `通用` | — |
+| **[n8n Skills](https://github.com/czlonkowski/n8n-skills)** | `Skill` | 精选 n8n 技能包，帮助 Claude Code 等 Agent 设计、校验并调试生产级 n8n 自动化工作流。 | `Claude Code` `通用` | — |
+| **[Next.js Sanity Blog Skill](https://github.com/BuildShipGrowRepeat/nextjs-sanity-blog-skill)** | `Skill` | 面向 Next.js 项目的 Claude Code 技能，一键搭建 SEO 优先、支持多语言的 Sanity CMS 博客系统。 | `Claude Code` `通用` | — |
+| **[npm-agentskills](https://github.com/onmax/npm-agentskills)** | `工具` | 与框架无关的 Agent Skills 发现与导出工具，支持直接从 npm 包中提取和分发技能。 | `通用` | — |
 | **[Off Grid AI Skills](https://github.com/off-grid-ai/skills)** | `Skill` | 专注软件工程质量的技能集合，涵盖行为驱动测试、根因修复、合并前安全检查与图工程工作流。 | `通用` `Claude Code` | — |
+| **[OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** | `工具` | 面向 AI Agent 的时光机调试与 MCP 工具，支持录制、回放、分叉与排查多步 Agent 执行过程。 | `通用` `Claude Code` | — |
 | **[pdfToMarkdown](https://github.com/ThiloReintjes/pdftomarkdown-skill)** | `Plugin` | Claude Code 插件与技能，可将扫描件、表格、多栏排版及中日韩文档等复杂 PDF 高保真转换为 Markdown。 | `Claude Code` `通用` | — |
+| **[Playwright MCP (ExecuteAutomation)](https://github.com/executeautomation/mcp-playwright)** | `MCP` | 社区版 Playwright MCP 服务器，支持 AI Agent 驱动浏览器自动化、截图、测试代码生成与接口测试。<br>`npx -y @executeautomation/playwright-mcp-server` | `通用` | — |
 | **[Product Decision Agent](https://github.com/atdy/maoxuan-product-agent)** | `Skill` | 中文互联网产品决策 Agent 技能，覆盖需求分析、PRD、优先级排期、增长诊断、数据指标与跨部门协作决策。 | `通用` `Claude Code` | — |
 | **[Rote](https://github.com/trevhud/rote)** | `工具` | 将成熟 SKILL.md 技能编译为无大模型参与的确定性流水线，并重新封装为 MCP 工具供 Agent 调用。 | `通用` `Claude Code` | — |
+| **[Ruflo (Claude Flow)](https://github.com/ruvnet/ruflo)** | `Plugin` | 面向 Claude Code 与 Codex 的多 Agent 蜂群编排平台，集成协同子代理、记忆层、技能系统与 MCP 工具。 | `Claude Code` `Codex` `通用` | — |
+| **[Savia](https://github.com/gonzalezpazmonica/savia)** | `Plugin` | 不绑定厂商的工程治理与任务编排 Agent 套件，覆盖软件开发与项目管理全流程。 | `Claude Code` `通用` | — |
+| **[SearXNG MCP](https://github.com/ihor-sokoliuk/mcp-searxng)** | `MCP` | 基于自建 SearXNG 的隐私优先联网搜索 MCP 服务器，适配 Claude、Cursor 等主流 MCP 客户端。<br>`npx -y mcp-searxng` | `通用` | — |
+| **[Structured Thinking Skills](https://github.com/ysskrishna/ai-agent-skills)** | `Skill` | 面向 AI Agent 的结构化思维技能集合，覆盖头脑风暴、决策分析与系统性思考框架。 | `通用` `Claude Code` | — |
+| **[SwarmVault](https://github.com/swarmclawai/swarmvault)** | `工具` | 本地优先的 LLM Wiki 与知识图谱构建工具，为 AI Agent 提供结构化 RAG 知识库。 | `通用` `Claude Code` | — |
+| **[Switch AI Teammates](https://github.com/sandbox-quantum/switch)** | `工具` | 开源协作桥接工具，将 AI 工程与办公代理直接接入 Slack、Teams、Discord、Telegram 与 Mattermost。 | `通用` | — |
+| **[Trace MCP](https://github.com/nikolai-vysotskyi/trace-mcp)** | `MCP` | 支持 90+ 框架与 80+ 编程语言的代码智能分析 MCP 服务器，用于跨文件符号追踪与架构理解。 | `通用` | — |
 | **[tstack Skills](https://github.com/t3dotgg/tstack)** | `Skill` | Theo Browne 维护的工程工作流技能套件，涵盖 PR 提交、评审评论、CI 自动盯盘与代码库现代化改造。 | `通用` `Claude Code` | — |
 
-## GitHub Copilot (199)
+## GitHub Copilot (274)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | ⭐ 201.1k<br><sub>2026-11-16</sub> |
+| **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `官方` | `MCP` | Chrome DevTools 官方 MCP 服务器，让编码 Agent 直接操控、调试、性能分析与审查 Chrome 浏览器页面。<br>`npx -y chrome-devtools-mcp@latest` | `通用` | — |
+| **[Context7 MCP](https://github.com/upstash/context7)** `官方` | `MCP` | Upstash 官方 Context7 MCP 服务器，实时拉取最新、按版本匹配的开源库文档与代码示例并注入 Agent 上下文。<br>`npx -y @upstash/context7-mcp` | `通用` | — |
+| **[FastMCP](https://github.com/PrefectHQ/fastmcp)** `官方` | `工具` | Python 生态主流 MCP 开发框架，用于快速构建生产级 Model Context Protocol 服务器与客户端。 | `通用` | — |
+| **[Google Agent Skills](https://github.com/google/skills)** `官方` | `Skill` | Google 官方 Agent Skills 仓库，覆盖 Google Cloud 与各类 Google 开发者技术栈的标准技能。 | `通用` `Gemini CLI` `Claude Code` | — |
 | **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** `官方` | `MCP` | Model Context Protocol 官方参考服务器合集，提供文件系统、Git、数据库与网页接入等标准集成范例。 | `通用` | — |
+| **[OpenAI Skills Catalog](https://github.com/openai/skills)** `官方` | `Skill` | OpenAI 官方维护的 Agent Skills 目录，为 Codex 及遵循开放标准的 Agent 提供精选可复用技能。 | `Codex` `通用` | — |
 | **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `官方` | `MCP` | 微软官方 Playwright MCP 服务器，让 Agent 通过结构化无障碍树直接操控浏览器完成测试与网页自动化。<br>`npx @playwright/mcp@latest` | `通用` | — |
 | **[Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill)** `官方` | `Skill` | Cloudflare 官方出品的多阶段安全审计技能，可生成经独立验证的机器可读漏洞报告。 | `通用` | ⭐ 78.9k<br><sub>2026-09-14</sub> |
 | **[Open Code Review](https://github.com/alibaba/open-code-review)** `官方` | `工具` | 阿里巴巴开源的混合架构代码审查工具，结合确定性规则流水线与大模型 Agent 实现行级精准评审。 | `通用` | ⭐ 56.7k<br><sub>2026-11-26</sub> |
@@ -1730,15 +2269,50 @@
 | **[Prisma Official Skills](https://github.com/prisma/skills)** `官方` | `Skill` | Prisma 官方 Agent 技能集，涵盖 Prisma ORM 配置、Client API、Prisma Postgres 与 v7 升级迁移。 | `通用` | ⭐ 80<br><sub>2026-11-26</sub> |
 | **[Accoil Product Tracking Skills](https://github.com/Accoil/product-tracking-skills)** `官方` | `Skill` | Accoil 官方产品埋点分析技能集，可扫描代码库、设计埋点方案并生成多平台分析埋点代码。 | `通用` | ⭐ 47<br><sub>2026-10-20</sub> |
 | **[Astrolicious Agent Skills](https://github.com/astrolicious/agent-skills)** `官方` | `Skill` | Astrolicious 官方 Astro 生态 Agent 技能集，助力智能体高效开发与维护 Astro Web 项目。 | `通用` | ⭐ 13<br><sub>2026-03-20</sub> |
+| **[Airtable Agent Skills](https://github.com/Airtable/skills)** `官方` | `Skill` | Airtable 官方 Agent 技能包，辅助操作 Airtable 数据表结构、自动化流程与扩展开发。 | `通用` `Claude Code` | — |
+| **[Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server)** `官方` | `MCP` | Alpaca 官方 MCP 服务器，支持 AI Agent 获取实时行情数据并操作股票、ETF、期权与加密货币交易接口。<br>`uvx alpaca-mcp-server` | `通用` | — |
+| **[Apify MCP Server](https://github.com/apify/apify-mcp-server)** `官方` | `MCP` | Apify 官方 MCP 服务器，让 Agent 直接调用数千个 Apify Actors 完成网页抓取、社媒与电商数据采集。<br>`npx -y @apify/actors-mcp-server` | `通用` | — |
+| **[Browser MCP](https://github.com/BrowserMCP/mcp)** `官方` | `MCP` | 结合浏览器插件的 MCP 服务器，让 AI Agent 复用本地浏览器登录态完成网页操作与自动化任务。<br>`npx -y @browsermcp/mcp@latest` | `通用` | — |
+| **[BrowserAct Skills](https://github.com/browser-act/skills)** `官方` | `Skill` | BrowserAct 官方浏览器自动化技能集，支持复杂网页交互、数据采集与任务接管。 | `通用` `Claude Code` | — |
+| **[Cloud Run MCP](https://github.com/GoogleCloudPlatform/cloud-run-mcp)** `官方` | `MCP` | Google Cloud 官方 Cloud Run MCP 服务器，支持 AI Agent 一键构建、部署并管理云端容器服务。<br>`npx -y @google-cloud/cloud-run-mcp` | `通用` | — |
+| **[Codacy MCP Server](https://github.com/codacy/codacy-mcp-server)** `官方` | `MCP` | Codacy 官方 MCP 服务器，为 AI Agent 提供自动化代码质量检测、安全漏洞扫描与覆盖率分析。<br>`npx -y @codacy/codacy-mcp` | `通用` | — |
+| **[Code Graph MCP](https://github.com/diffbot/mcp-code-graph)** `官方` | `MCP` | 用于代码库知识图谱分析、依赖追踪与架构可视化的 MCP 服务器。 | `通用` | — |
+| **[Colibird Local MCP](https://github.com/colibird-ai/local-mcp-releases)** `官方` | `MCP` | 本地桌面端 MCP 服务器，将 Claude、ChatGPT 与 Cursor 连接到 Mac 和 Windows 原生文件与工作流。 | `通用` | — |
+| **[DataLikers MCP](https://github.com/subzeroid/datalikers-mcp)** `官方` | `MCP` | 轻量级 stdio MCP 服务器，通过 DataLikers API 提供 29 个 Instagram 与 TikTok 社媒数据采集工具。 | `通用` | — |
+| **[DBHub MCP](https://github.com/bytebase/dbhub)** `官方` | `MCP` | Bytebase 开源的通用数据库 MCP 服务器，节省上下文 Token，支持 PostgreSQL、MySQL、SQL Server、Oracle 与 SQLite。<br>`npx -y @bytebase/dbhub` | `通用` | — |
 | **[e2e Agent Skill](https://github.com/e2e-inc/e2e)** `官方` | `Skill` | e2e 智能端到端测试框架官方技能，支持在 Playwright 浏览器及 iOS/Android 设备上编写、运行与调试测试。 | `通用` `Claude Code` | — |
+| **[FinOps MCP](https://github.com/getnable/finopsmcp)** `官方` | `MCP` | 面向云成本治理的无头 FinOps MCP 服务，为 AI Agent 提供云账单分析与资源成本优化能力。 | `通用` | — |
+| **[Firecrawl MCP Server](https://github.com/firecrawl/firecrawl-mcp-server)** `官方` | `MCP` | Firecrawl 官方 MCP 服务器，为 AI Agent 提供联网搜索、网页抓取、整站爬取与结构化数据抽取能力。<br>`npx -y firecrawl-mcp` | `通用` | — |
+| **[Firefly MCP](https://github.com/gofireflyio/firefly-mcp)** `官方` | `MCP` | Firefly 官方 MCP 服务器，支持 AI Agent 盘点云资产、检测配置漂移并生成基础设施即代码（IaC）。 | `通用` | — |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | — |
+| **[HeyGen Agent Skills](https://github.com/heygen-com/skills)** `官方` | `Skill` | HeyGen 官方 AI Agent 技能包，支持通过 HeyGen v3 API 完成数字人创建与自动化视频制作。 | `通用` `Claude Code` | — |
 | **[Internet Court Skill](https://github.com/internet-court/internet-court-skill)** `官方` | `Skill` | 面向 Agent 间交易的开放信任层技能，覆盖自然语言授权、ERC-7710 权限委托、x402 支付、托管与争议仲裁。 | `通用` `Claude Code` | — |
+| **[LaunchDarkly MCP Server](https://github.com/launchdarkly/mcp-server)** `官方` | `MCP` | LaunchDarkly 官方 MCP 服务器，支持 AI Agent 查询、创建与管理 Feature Flags 及灰度发布规则。 | `通用` | — |
+| **[Live Tennis API MCP](https://github.com/livetennisapi/livetennisapi-mcp)** `官方` | `MCP` | Live Tennis API 官方 MCP 服务器，为 AI Agent 提供实时网球比分、ATP/WTA 排名与赛事统计数据。 | `通用` | — |
 | **[MarkItDown](https://github.com/microsoft/markitdown)** `官方` | `MCP` | 微软官方文件转 Markdown 工具及 MCP 服务，支持将 PDF、Office 文档、图片、音频等转换为适合大模型处理的 Markdown。 | `通用` | — |
+| **[Microsoft Clarity MCP](https://github.com/microsoft/clarity-mcp-server)** `官方` | `MCP` | 微软官方 Clarity MCP 服务器，用于查询网站用户体验分析、流量指标与行为洞察数据。<br>`npx -y @microsoft/clarity-mcp-server` | `通用` | — |
+| **[Microsoft Learn MCP](https://github.com/MicrosoftDocs/mcp)** `官方` | `MCP` | 微软官方 Learn MCP 服务器与 CLI，为 AI Agent 提供最新的 Microsoft、Azure 与 .NET 官方技术文档检索。 | `通用` | — |
+| **[Milvus Agent Skill](https://github.com/zilliztech/milvus-skill)** `官方` | `Skill` | Zilliz 官方 Milvus 向量数据库技能，指导 Agent 使用 pymilvus 构建索引、检索与 RAG 应用。 | `通用` `Claude Code` | — |
+| **[monday.com MCP](https://github.com/mondaycom/mcp)** `官方` | `MCP` | monday.com 官方 MCP 服务器，让 AI Agent 安全读写项目看板、任务条目与团队协作流程。 | `通用` | — |
+| **[MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server)** `官方` | `MCP` | MongoDB 官方 MCP 服务器，支持 AI Agent 查询集合、分析数据结构并管理 MongoDB Atlas 集群。<br>`npx -y mongodb-mcp-server` | `通用` | — |
 | **[Neon Postgres Skills](https://github.com/neondatabase/postgres-skills)** `官方` | `Skill` | Neon 官方 PostgreSQL 技能包，涵盖表结构设计、索引策略、查询优化、数据库迁移及常见避坑指南。 | `通用` `Claude Code` | — |
+| **[Notion MCP Server](https://github.com/makenotion/notion-mcp-server)** `官方` | `MCP` | Notion 官方 MCP 服务器，支持 AI Agent 检索、读取、创建并更新 Notion 页面与数据库。<br>`npx -y @notionhq/notion-mcp-server` | `通用` | — |
+| **[PostgreSQL AI Guide](https://github.com/timescale/pg-aiguide)** `官方` | `Plugin` | Timescale 官方 PostgreSQL MCP 与 Claude 插件，提供权威 Postgres 技能、版本文档与查询最佳实践。 | `Claude Code` `通用` | — |
+| **[Pydantic Logfire MCP](https://github.com/pydantic/logfire-mcp)** `官方` | `MCP` | Pydantic 官方 Logfire MCP 服务器，支持 AI Agent 查询 OpenTelemetry 链路追踪、异常日志与线上指标。<br>`uvx logfire-mcp` | `通用` | — |
+| **[Railway Agent Skills](https://github.com/railwayapp/railway-skills)** `官方` | `Skill` | Railway 官方 Agent 技能包，支持创建服务、管理环境变量、查看日志与一键部署云端应用。 | `通用` `Claude Code` | — |
+| **[Recommerce Skills](https://github.com/budna-marketplace/recommerce)** `官方` | `Skill` | 面向二手与新品比价检索的 Agent 技能包，支持跨平台商品检索与价格对比。 | `通用` `Claude Code` | — |
+| **[Redis MCP Server](https://github.com/redis/mcp-redis)** `官方` | `MCP` | Redis 官方 MCP 服务器，为 AI Agent 提供自然语言查询、缓存管理与 Redis 数据检视接口。 | `通用` | — |
+| **[Render Agent Skills](https://github.com/render-oss/skills)** `官方` | `Skill` | Render 官方 Agent 技能包，用于在 Render 平台上部署、配置与排查 Web 服务和托管数据库。 | `通用` `Claude Code` | — |
+| **[Rootly MCP Server](https://github.com/rootlyhq/rootly-mcp-server)** `官方` | `MCP` | Rootly 官方 MCP 服务器，支持 AI Agent 排查线上故障、查询事件时间线并辅助 SRE 应急响应。 | `通用` | — |
+| **[Sentry Agentic Toolkit](https://github.com/getsentry/toolkit)** `官方` | `Plugin` | Sentry 官方 Agent 工具套件，融合 MCP 与技能用于排查线上报错、堆栈追踪与回归定位。 | `通用` `Claude Code` | — |
 | **[shadcn/ui Skill](https://github.com/shadcn-ui/ui)** `官方` | `Skill` | shadcn/ui 官方仓库内置 Agent 技能与上下文规范，辅助管理组件库、主题与现代 React 设计系统。 | `通用` `Claude Code` | — |
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `官方` | `Skill` | SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。 | `通用` `Claude Code` | — |
+| **[Supabase MCP](https://github.com/supabase/mcp)** `官方` | `MCP` | Supabase 官方 MCP 服务器，让 Agent 直接查询数据库、管理表结构迁移、Edge Functions 与项目日志。<br>`npx -y @supabase/mcp-server-supabase` | `通用` | — |
+| **[WebMCP](https://github.com/webmachinelearning/webmcp)** `官方` | `工具` | W3C WebML 社区组标准规范，让网页原生向浏览器侧 AI Agent 暴露结构化 MCP 工具接口。 | `通用` | — |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | — |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | 多端模块化插件市场，组合专业子代理、技能与命令，覆盖多语言开发、测试、安全与架构工作流。<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 42.9k<br><sub>2026-11-24</sub> |
+| **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | 全面的开源 AI 科研与机器学习工程技能库，覆盖模型微调、RLHF、推理优化与评测实验。 | `通用` `Claude Code` | — |
+| **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `工具` | 可视化看板编排工具，支持同时调度、监控并评审 Claude Code、Codex 等多个编码 Agent 的并行任务。 | `Claude Code` `Codex` `通用` | — |
 | **[Matt Pocock Skills](https://github.com/mattpocock/skills)** | `Skill` | 由 Matt Pocock 整理的实战型软件工程 Agent 技能集合，覆盖日常研发工作流。 | `通用` | ⭐ 333.6k<br><sub>2026-11-25</sub> |
 | **[UI/UX Pro Max Skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)** | `Skill` | 为编码 Agent 提供跨平台专业 UI/UX 设计规范与审美指导的设计智能技能。 | `Claude Code` `Cursor` `GitHub Copilot` `Antigravity` | ⭐ 154.7k<br><sub>2026-11-27</sub> |
 | **[Claude Mem](https://github.com/thedotmack/claude-mem)** | `Plugin` | 跨会话持久化记忆插件，自动捕获并压缩 Agent 操作上下文，在后续会话中按需注入。 | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+2` | ⭐ 120.0k<br><sub>2026-11-26</sub> |
@@ -1868,27 +2442,67 @@
 | **[Anyone to Skill](https://github.com/OpenDemon/anyone-to-skill)** | `工具` | 从视频、PDF、电子书或聊天记录中提取人物心智模型与表达风格并生成 SKILL.md 的技能蒸馏工具。 | `通用` | ⭐ 134<br><sub>2026-04-07</sub> |
 | **[PRPM](https://github.com/pr-pm/prpm)** | `工具` | 面向各类 AI 编程工具的通用提示词、规则与技能包管理器及注册中心。 | `通用` | ⭐ 125<br><sub>2026-10-14</sub> |
 | **[HyperFX Marketing Skills](https://github.com/hyperfx-ai/marketing-skills)** | `Skill` | 基于 Hyper MCP 的营销 Agent 技能集，涵盖信息流广告投放、社媒、SEO、竞品调研与数据分析。 | `通用` | ⭐ 124<br><sub>2026-11-26</sub> |
+| **[Agentic Awesome Skills](https://github.com/sickn33/agentic-awesome-skills)** | `Skill` | 收录 3,000+ 可复用 AI Agent 技能的大型社区合集，兼容 Claude Code、Codex、Cursor 与 Gemini CLI。 | `通用` `Claude Code` `Codex` `Cursor` `+1` | — |
 | **[AgentMemory](https://github.com/rohitg00/agentmemory)** | `Skill` | 跨会话持久化记忆插件与技能套件，支持记忆写入、检索、会话交接、复盘沉淀与隐私清理。 | `通用` `Claude Code` | — |
+| **[agentMemory MCP](https://github.com/webzler/agentMemory)** | `MCP` | 零配置的本地 MCP 记忆服务器，适配 Claude Code、Cline、RooCode 与 Cursor 以持久保留项目上下文。 | `通用` | — |
+| **[AI Maestro](https://github.com/23blocks-OS/ai-maestro)** | `Plugin` | 带模块化技能系统、持久化记忆检索与跨代理通信的 AI Agent 编排器。 | `Claude Code` `通用` | — |
+| **[AI Maestro Plugins](https://github.com/23blocks-OS/ai-maestro-plugins)** | `Plugin` | AI Maestro 官方插件合集，包含 150+ 角色人格、核心技能、身份管理与代理间消息协作能力。 | `Claude Code` `通用` | — |
 | **[AI Skills](https://github.com/sanjay3290/ai-skills)** | `Skill` | AI Agent 技能集合，内置自主深度研究工作流，支持规划、检索、阅读并汇总生成完整研究报告。 | `通用` `Claude Code` | — |
+| **[arXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server)** | `MCP` | 面向学术文献研究的本地 arXiv MCP 服务器，支持论文检索、下载、LaTeX 章节解析与 BibTeX 管理。<br>`uvx arxiv-mcp-server` | `通用` | — |
+| **[Atlassian Bitbucket MCP](https://github.com/aashari/mcp-server-atlassian-bitbucket)** | `MCP` | 面向 Atlassian Bitbucket 的 MCP 服务器，支持 AI Agent 浏览代码仓库、评审 PR 与查看提交历史。<br>`npx -y @aashari/mcp-server-atlassian-bitbucket` | `通用` | — |
+| **[Awesome Agentic Patterns](https://github.com/nibzard/awesome-agentic-patterns)** | `工具` | 精选生产级 AI Agent 架构与工作流设计模式目录，汇总实战验证的工程模式。 | `通用` | — |
 | **[Bleu](https://github.com/Nirvaan05/Bleu-plugin)** | `Plugin` | 编码前架构蓝图插件与技能，将初步项目想法拆解为包含组件、流程与文件级执行清单的完整实现方案。 | `通用` `Claude Code` | — |
+| **[Chisle](https://github.com/JayPokale/Chisle)** | `Skill` | 面向编码 Agent 的 Token 省流技能与规范，通过精简输出、YAGNI 优先编码与高效工具调用降低成本。 | `Claude Code` `通用` | — |
+| **[Context Architecture](https://github.com/sergioazoc/context-architecture)** | `Skill` | 面向 AI 编码时代的上下文架构方法论与模板，帮助组织仓库知识文档以提升 Agent 准确率。 | `通用` `Claude Code` | — |
 | **[Curviate Plugin](https://github.com/Curviate/curviate-plugin)** | `Plugin` | 基于 Curviate CLI 的 LinkedIn 自动化插件与技能套件，覆盖人脉检索、消息、发帖及招聘等工作流。 | `通用` `Claude Code` | — |
+| **[Deja Vu MCP](https://github.com/vshulcz/deja-vu)** | `MCP` | 面向 Claude Code、Codex 与 Cursor 的本地 MCP 记忆层，支持跨会话历史检索与经验复用。 | `Claude Code` `Codex` `Cursor` `通用` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
+| **[Eval Genius](https://github.com/alexgreensh/eval-genius)** | `Skill` | 面向 AI 应用的评测设计技能，指导 Agent 判断何时需要 Eval、如何搭建基准测试与回归度量。 | `通用` `Claude Code` | — |
 | **[FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill)** | `Skill` | 基于本地 FFmpeg 的自然语言音视频剪辑技能，支持裁剪拼接、画幅重构、字幕压制、去静音与混音处理。 | `通用` `Claude Code` | — |
+| **[Git Context Controller](https://github.com/faugustdev/git-context-controller)** | `工具` | 类 Git 风格的 Agent 上下文管理框架，支持对大模型上下文执行提交、分支与合并操作。 | `通用` | — |
+| **[Google Workspace CLI](https://github.com/googleworkspace/cli)** | `工具` | 面向终端与 AI Agent 的 Google Workspace CLI 及技能命令套件，覆盖云盘、邮件、文档、表格与管理接口。 | `通用` `Claude Code` | — |
+| **[Google Workspace MCP](https://github.com/taylorwilsdon/google_workspace_mcp)** | `MCP` | 功能完善的 Google Workspace MCP 服务器，覆盖 Gmail、日历、云盘、文档、表格、幻灯片与任务管理。<br>`uvx workspace-mcp` | `通用` | — |
+| **[GuardLink](https://github.com/Bugb-Technologies/guardlink)** | `Plugin` | AI 驱动的代码安全注解与 MCP 工具链，用于在代码库中持续进行威胁建模与安全边界校验。 | `通用` `Claude Code` | — |
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | — |
+| **[iOS Simulator MCP](https://github.com/joshuayoes/ios-simulator-mcp)** | `MCP` | 用于操控 Apple iOS 模拟器的 MCP 服务器，支持 UI 树检查、点击交互、截图与移动端自动化调试。<br>`npx -y ios-simulator-mcp` | `通用` | — |
+| **[Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server)** | `MCP` | 面向 Jupyter Notebook 的 MCP 服务器，支持 AI Agent 实时执行代码单元、读取输出并完成数据科学分析。<br>`uvx jupyter-mcp-server` | `通用` | — |
 | **[Levea Video MCP](https://github.com/brajendrak00068/agentic-ai-video-production)** | `MCP` | 面向自动化 AI 视频剪辑的远程 MCP 服务，可将自然语言指令或长视频处理为带字幕与智能构图的成片。 | `通用` `Claude Code` | — |
+| **[Maoxuan Skill](https://github.com/leezythu/maoxuan-skill)** | `Skill` | 毛选思维框架中文决策技能，提炼核心心智模型与决策启发式方法用于复杂问题分析与策略制定。 | `通用` `Claude Code` | — |
+| **[MCP Server Playwright](https://github.com/VikashLoomba/MCP-Server-Playwright)** | `MCP` | 轻量级 Playwright MCP 服务器，支持浏览器导航、表单交互、DOM 检查与自动截图。 | `通用` | — |
+| **[mcp-remote](https://github.com/punkpeye/mcp-remote)** | `MCP` | MCP 协议桥接工具，让仅支持本地 stdio 的 MCP 客户端也能通过 OAuth 连接远程 HTTP/SSE MCP 服务器。<br>`npx -y mcp-remote` | `通用` | — |
+| **[Memex MCP](https://github.com/STiFLeR7/memex)** | `MCP` | 开源 MCP 服务器与 Hook 服务，用于持久化沉淀 Claude Code 与 Codex 的工程上下文与架构决策。 | `Claude Code` `Codex` `通用` | — |
+| **[Mermaid MCP](https://github.com/hustcc/mcp-mermaid)** | `MCP` | 动态生成与渲染 Mermaid 流程图、时序图和架构图的 MCP 服务器。<br>`npx -y mcp-mermaid` | `通用` | — |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | — |
+| **[n8n MCP](https://github.com/czlonkowski/n8n-mcp)** | `MCP` | 面向 n8n 的 MCP 服务器，支持 AI Agent 检索节点文档、校验参数并构建或运行 n8n 自动化工作流。<br>`npx -y n8n-mcp` | `通用` | — |
+| **[n8n Skills](https://github.com/czlonkowski/n8n-skills)** | `Skill` | 精选 n8n 技能包，帮助 Claude Code 等 Agent 设计、校验并调试生产级 n8n 自动化工作流。 | `Claude Code` `通用` | — |
+| **[Next.js Sanity Blog Skill](https://github.com/BuildShipGrowRepeat/nextjs-sanity-blog-skill)** | `Skill` | 面向 Next.js 项目的 Claude Code 技能，一键搭建 SEO 优先、支持多语言的 Sanity CMS 博客系统。 | `Claude Code` `通用` | — |
+| **[npm-agentskills](https://github.com/onmax/npm-agentskills)** | `工具` | 与框架无关的 Agent Skills 发现与导出工具，支持直接从 npm 包中提取和分发技能。 | `通用` | — |
 | **[Off Grid AI Skills](https://github.com/off-grid-ai/skills)** | `Skill` | 专注软件工程质量的技能集合，涵盖行为驱动测试、根因修复、合并前安全检查与图工程工作流。 | `通用` `Claude Code` | — |
+| **[OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** | `工具` | 面向 AI Agent 的时光机调试与 MCP 工具，支持录制、回放、分叉与排查多步 Agent 执行过程。 | `通用` `Claude Code` | — |
 | **[pdfToMarkdown](https://github.com/ThiloReintjes/pdftomarkdown-skill)** | `Plugin` | Claude Code 插件与技能，可将扫描件、表格、多栏排版及中日韩文档等复杂 PDF 高保真转换为 Markdown。 | `Claude Code` `通用` | — |
+| **[Playwright MCP (ExecuteAutomation)](https://github.com/executeautomation/mcp-playwright)** | `MCP` | 社区版 Playwright MCP 服务器，支持 AI Agent 驱动浏览器自动化、截图、测试代码生成与接口测试。<br>`npx -y @executeautomation/playwright-mcp-server` | `通用` | — |
 | **[Product Decision Agent](https://github.com/atdy/maoxuan-product-agent)** | `Skill` | 中文互联网产品决策 Agent 技能，覆盖需求分析、PRD、优先级排期、增长诊断、数据指标与跨部门协作决策。 | `通用` `Claude Code` | — |
 | **[Rote](https://github.com/trevhud/rote)** | `工具` | 将成熟 SKILL.md 技能编译为无大模型参与的确定性流水线，并重新封装为 MCP 工具供 Agent 调用。 | `通用` `Claude Code` | — |
+| **[Ruflo (Claude Flow)](https://github.com/ruvnet/ruflo)** | `Plugin` | 面向 Claude Code 与 Codex 的多 Agent 蜂群编排平台，集成协同子代理、记忆层、技能系统与 MCP 工具。 | `Claude Code` `Codex` `通用` | — |
+| **[Savia](https://github.com/gonzalezpazmonica/savia)** | `Plugin` | 不绑定厂商的工程治理与任务编排 Agent 套件，覆盖软件开发与项目管理全流程。 | `Claude Code` `通用` | — |
+| **[SearXNG MCP](https://github.com/ihor-sokoliuk/mcp-searxng)** | `MCP` | 基于自建 SearXNG 的隐私优先联网搜索 MCP 服务器，适配 Claude、Cursor 等主流 MCP 客户端。<br>`npx -y mcp-searxng` | `通用` | — |
+| **[Structured Thinking Skills](https://github.com/ysskrishna/ai-agent-skills)** | `Skill` | 面向 AI Agent 的结构化思维技能集合，覆盖头脑风暴、决策分析与系统性思考框架。 | `通用` `Claude Code` | — |
+| **[SwarmVault](https://github.com/swarmclawai/swarmvault)** | `工具` | 本地优先的 LLM Wiki 与知识图谱构建工具，为 AI Agent 提供结构化 RAG 知识库。 | `通用` `Claude Code` | — |
+| **[Switch AI Teammates](https://github.com/sandbox-quantum/switch)** | `工具` | 开源协作桥接工具，将 AI 工程与办公代理直接接入 Slack、Teams、Discord、Telegram 与 Mattermost。 | `通用` | — |
+| **[Trace MCP](https://github.com/nikolai-vysotskyi/trace-mcp)** | `MCP` | 支持 90+ 框架与 80+ 编程语言的代码智能分析 MCP 服务器，用于跨文件符号追踪与架构理解。 | `通用` | — |
 | **[tstack Skills](https://github.com/t3dotgg/tstack)** | `Skill` | Theo Browne 维护的工程工作流技能套件，涵盖 PR 提交、评审评论、CI 自动盯盘与代码库现代化改造。 | `通用` `Claude Code` | — |
 
-## Windsurf (190)
+## Windsurf (265)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | ⭐ 201.1k<br><sub>2026-11-16</sub> |
+| **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `官方` | `MCP` | Chrome DevTools 官方 MCP 服务器，让编码 Agent 直接操控、调试、性能分析与审查 Chrome 浏览器页面。<br>`npx -y chrome-devtools-mcp@latest` | `通用` | — |
+| **[Context7 MCP](https://github.com/upstash/context7)** `官方` | `MCP` | Upstash 官方 Context7 MCP 服务器，实时拉取最新、按版本匹配的开源库文档与代码示例并注入 Agent 上下文。<br>`npx -y @upstash/context7-mcp` | `通用` | — |
+| **[FastMCP](https://github.com/PrefectHQ/fastmcp)** `官方` | `工具` | Python 生态主流 MCP 开发框架，用于快速构建生产级 Model Context Protocol 服务器与客户端。 | `通用` | — |
+| **[Google Agent Skills](https://github.com/google/skills)** `官方` | `Skill` | Google 官方 Agent Skills 仓库，覆盖 Google Cloud 与各类 Google 开发者技术栈的标准技能。 | `通用` `Gemini CLI` `Claude Code` | — |
 | **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** `官方` | `MCP` | Model Context Protocol 官方参考服务器合集，提供文件系统、Git、数据库与网页接入等标准集成范例。 | `通用` | — |
+| **[OpenAI Skills Catalog](https://github.com/openai/skills)** `官方` | `Skill` | OpenAI 官方维护的 Agent Skills 目录，为 Codex 及遵循开放标准的 Agent 提供精选可复用技能。 | `Codex` `通用` | — |
 | **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `官方` | `MCP` | 微软官方 Playwright MCP 服务器，让 Agent 通过结构化无障碍树直接操控浏览器完成测试与网页自动化。<br>`npx @playwright/mcp@latest` | `通用` | — |
 | **[Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill)** `官方` | `Skill` | Cloudflare 官方出品的多阶段安全审计技能，可生成经独立验证的机器可读漏洞报告。 | `通用` | ⭐ 78.9k<br><sub>2026-09-14</sub> |
 | **[Open Code Review](https://github.com/alibaba/open-code-review)** `官方` | `工具` | 阿里巴巴开源的混合架构代码审查工具，结合确定性规则流水线与大模型 Agent 实现行级精准评审。 | `通用` | ⭐ 56.7k<br><sub>2026-11-26</sub> |
@@ -1934,14 +2548,49 @@
 | **[Prisma Official Skills](https://github.com/prisma/skills)** `官方` | `Skill` | Prisma 官方 Agent 技能集，涵盖 Prisma ORM 配置、Client API、Prisma Postgres 与 v7 升级迁移。 | `通用` | ⭐ 80<br><sub>2026-11-26</sub> |
 | **[Accoil Product Tracking Skills](https://github.com/Accoil/product-tracking-skills)** `官方` | `Skill` | Accoil 官方产品埋点分析技能集，可扫描代码库、设计埋点方案并生成多平台分析埋点代码。 | `通用` | ⭐ 47<br><sub>2026-10-20</sub> |
 | **[Astrolicious Agent Skills](https://github.com/astrolicious/agent-skills)** `官方` | `Skill` | Astrolicious 官方 Astro 生态 Agent 技能集，助力智能体高效开发与维护 Astro Web 项目。 | `通用` | ⭐ 13<br><sub>2026-03-20</sub> |
+| **[Airtable Agent Skills](https://github.com/Airtable/skills)** `官方` | `Skill` | Airtable 官方 Agent 技能包，辅助操作 Airtable 数据表结构、自动化流程与扩展开发。 | `通用` `Claude Code` | — |
+| **[Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server)** `官方` | `MCP` | Alpaca 官方 MCP 服务器，支持 AI Agent 获取实时行情数据并操作股票、ETF、期权与加密货币交易接口。<br>`uvx alpaca-mcp-server` | `通用` | — |
+| **[Apify MCP Server](https://github.com/apify/apify-mcp-server)** `官方` | `MCP` | Apify 官方 MCP 服务器，让 Agent 直接调用数千个 Apify Actors 完成网页抓取、社媒与电商数据采集。<br>`npx -y @apify/actors-mcp-server` | `通用` | — |
+| **[Browser MCP](https://github.com/BrowserMCP/mcp)** `官方` | `MCP` | 结合浏览器插件的 MCP 服务器，让 AI Agent 复用本地浏览器登录态完成网页操作与自动化任务。<br>`npx -y @browsermcp/mcp@latest` | `通用` | — |
+| **[BrowserAct Skills](https://github.com/browser-act/skills)** `官方` | `Skill` | BrowserAct 官方浏览器自动化技能集，支持复杂网页交互、数据采集与任务接管。 | `通用` `Claude Code` | — |
+| **[Cloud Run MCP](https://github.com/GoogleCloudPlatform/cloud-run-mcp)** `官方` | `MCP` | Google Cloud 官方 Cloud Run MCP 服务器，支持 AI Agent 一键构建、部署并管理云端容器服务。<br>`npx -y @google-cloud/cloud-run-mcp` | `通用` | — |
+| **[Codacy MCP Server](https://github.com/codacy/codacy-mcp-server)** `官方` | `MCP` | Codacy 官方 MCP 服务器，为 AI Agent 提供自动化代码质量检测、安全漏洞扫描与覆盖率分析。<br>`npx -y @codacy/codacy-mcp` | `通用` | — |
+| **[Code Graph MCP](https://github.com/diffbot/mcp-code-graph)** `官方` | `MCP` | 用于代码库知识图谱分析、依赖追踪与架构可视化的 MCP 服务器。 | `通用` | — |
+| **[Colibird Local MCP](https://github.com/colibird-ai/local-mcp-releases)** `官方` | `MCP` | 本地桌面端 MCP 服务器，将 Claude、ChatGPT 与 Cursor 连接到 Mac 和 Windows 原生文件与工作流。 | `通用` | — |
+| **[DataLikers MCP](https://github.com/subzeroid/datalikers-mcp)** `官方` | `MCP` | 轻量级 stdio MCP 服务器，通过 DataLikers API 提供 29 个 Instagram 与 TikTok 社媒数据采集工具。 | `通用` | — |
+| **[DBHub MCP](https://github.com/bytebase/dbhub)** `官方` | `MCP` | Bytebase 开源的通用数据库 MCP 服务器，节省上下文 Token，支持 PostgreSQL、MySQL、SQL Server、Oracle 与 SQLite。<br>`npx -y @bytebase/dbhub` | `通用` | — |
 | **[e2e Agent Skill](https://github.com/e2e-inc/e2e)** `官方` | `Skill` | e2e 智能端到端测试框架官方技能，支持在 Playwright 浏览器及 iOS/Android 设备上编写、运行与调试测试。 | `通用` `Claude Code` | — |
+| **[FinOps MCP](https://github.com/getnable/finopsmcp)** `官方` | `MCP` | 面向云成本治理的无头 FinOps MCP 服务，为 AI Agent 提供云账单分析与资源成本优化能力。 | `通用` | — |
+| **[Firecrawl MCP Server](https://github.com/firecrawl/firecrawl-mcp-server)** `官方` | `MCP` | Firecrawl 官方 MCP 服务器，为 AI Agent 提供联网搜索、网页抓取、整站爬取与结构化数据抽取能力。<br>`npx -y firecrawl-mcp` | `通用` | — |
+| **[Firefly MCP](https://github.com/gofireflyio/firefly-mcp)** `官方` | `MCP` | Firefly 官方 MCP 服务器，支持 AI Agent 盘点云资产、检测配置漂移并生成基础设施即代码（IaC）。 | `通用` | — |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | — |
+| **[HeyGen Agent Skills](https://github.com/heygen-com/skills)** `官方` | `Skill` | HeyGen 官方 AI Agent 技能包，支持通过 HeyGen v3 API 完成数字人创建与自动化视频制作。 | `通用` `Claude Code` | — |
 | **[Internet Court Skill](https://github.com/internet-court/internet-court-skill)** `官方` | `Skill` | 面向 Agent 间交易的开放信任层技能，覆盖自然语言授权、ERC-7710 权限委托、x402 支付、托管与争议仲裁。 | `通用` `Claude Code` | — |
+| **[LaunchDarkly MCP Server](https://github.com/launchdarkly/mcp-server)** `官方` | `MCP` | LaunchDarkly 官方 MCP 服务器，支持 AI Agent 查询、创建与管理 Feature Flags 及灰度发布规则。 | `通用` | — |
+| **[Live Tennis API MCP](https://github.com/livetennisapi/livetennisapi-mcp)** `官方` | `MCP` | Live Tennis API 官方 MCP 服务器，为 AI Agent 提供实时网球比分、ATP/WTA 排名与赛事统计数据。 | `通用` | — |
 | **[MarkItDown](https://github.com/microsoft/markitdown)** `官方` | `MCP` | 微软官方文件转 Markdown 工具及 MCP 服务，支持将 PDF、Office 文档、图片、音频等转换为适合大模型处理的 Markdown。 | `通用` | — |
+| **[Microsoft Clarity MCP](https://github.com/microsoft/clarity-mcp-server)** `官方` | `MCP` | 微软官方 Clarity MCP 服务器，用于查询网站用户体验分析、流量指标与行为洞察数据。<br>`npx -y @microsoft/clarity-mcp-server` | `通用` | — |
+| **[Microsoft Learn MCP](https://github.com/MicrosoftDocs/mcp)** `官方` | `MCP` | 微软官方 Learn MCP 服务器与 CLI，为 AI Agent 提供最新的 Microsoft、Azure 与 .NET 官方技术文档检索。 | `通用` | — |
+| **[Milvus Agent Skill](https://github.com/zilliztech/milvus-skill)** `官方` | `Skill` | Zilliz 官方 Milvus 向量数据库技能，指导 Agent 使用 pymilvus 构建索引、检索与 RAG 应用。 | `通用` `Claude Code` | — |
+| **[monday.com MCP](https://github.com/mondaycom/mcp)** `官方` | `MCP` | monday.com 官方 MCP 服务器，让 AI Agent 安全读写项目看板、任务条目与团队协作流程。 | `通用` | — |
+| **[MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server)** `官方` | `MCP` | MongoDB 官方 MCP 服务器，支持 AI Agent 查询集合、分析数据结构并管理 MongoDB Atlas 集群。<br>`npx -y mongodb-mcp-server` | `通用` | — |
 | **[Neon Postgres Skills](https://github.com/neondatabase/postgres-skills)** `官方` | `Skill` | Neon 官方 PostgreSQL 技能包，涵盖表结构设计、索引策略、查询优化、数据库迁移及常见避坑指南。 | `通用` `Claude Code` | — |
+| **[Notion MCP Server](https://github.com/makenotion/notion-mcp-server)** `官方` | `MCP` | Notion 官方 MCP 服务器，支持 AI Agent 检索、读取、创建并更新 Notion 页面与数据库。<br>`npx -y @notionhq/notion-mcp-server` | `通用` | — |
+| **[PostgreSQL AI Guide](https://github.com/timescale/pg-aiguide)** `官方` | `Plugin` | Timescale 官方 PostgreSQL MCP 与 Claude 插件，提供权威 Postgres 技能、版本文档与查询最佳实践。 | `Claude Code` `通用` | — |
+| **[Pydantic Logfire MCP](https://github.com/pydantic/logfire-mcp)** `官方` | `MCP` | Pydantic 官方 Logfire MCP 服务器，支持 AI Agent 查询 OpenTelemetry 链路追踪、异常日志与线上指标。<br>`uvx logfire-mcp` | `通用` | — |
+| **[Railway Agent Skills](https://github.com/railwayapp/railway-skills)** `官方` | `Skill` | Railway 官方 Agent 技能包，支持创建服务、管理环境变量、查看日志与一键部署云端应用。 | `通用` `Claude Code` | — |
+| **[Recommerce Skills](https://github.com/budna-marketplace/recommerce)** `官方` | `Skill` | 面向二手与新品比价检索的 Agent 技能包，支持跨平台商品检索与价格对比。 | `通用` `Claude Code` | — |
+| **[Redis MCP Server](https://github.com/redis/mcp-redis)** `官方` | `MCP` | Redis 官方 MCP 服务器，为 AI Agent 提供自然语言查询、缓存管理与 Redis 数据检视接口。 | `通用` | — |
+| **[Render Agent Skills](https://github.com/render-oss/skills)** `官方` | `Skill` | Render 官方 Agent 技能包，用于在 Render 平台上部署、配置与排查 Web 服务和托管数据库。 | `通用` `Claude Code` | — |
+| **[Rootly MCP Server](https://github.com/rootlyhq/rootly-mcp-server)** `官方` | `MCP` | Rootly 官方 MCP 服务器，支持 AI Agent 排查线上故障、查询事件时间线并辅助 SRE 应急响应。 | `通用` | — |
+| **[Sentry Agentic Toolkit](https://github.com/getsentry/toolkit)** `官方` | `Plugin` | Sentry 官方 Agent 工具套件，融合 MCP 与技能用于排查线上报错、堆栈追踪与回归定位。 | `通用` `Claude Code` | — |
 | **[shadcn/ui Skill](https://github.com/shadcn-ui/ui)** `官方` | `Skill` | shadcn/ui 官方仓库内置 Agent 技能与上下文规范，辅助管理组件库、主题与现代 React 设计系统。 | `通用` `Claude Code` | — |
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `官方` | `Skill` | SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。 | `通用` `Claude Code` | — |
+| **[Supabase MCP](https://github.com/supabase/mcp)** `官方` | `MCP` | Supabase 官方 MCP 服务器，让 Agent 直接查询数据库、管理表结构迁移、Edge Functions 与项目日志。<br>`npx -y @supabase/mcp-server-supabase` | `通用` | — |
+| **[WebMCP](https://github.com/webmachinelearning/webmcp)** `官方` | `工具` | W3C WebML 社区组标准规范，让网页原生向浏览器侧 AI Agent 暴露结构化 MCP 工具接口。 | `通用` | — |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | — |
+| **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | 全面的开源 AI 科研与机器学习工程技能库，覆盖模型微调、RLHF、推理优化与评测实验。 | `通用` `Claude Code` | — |
+| **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `工具` | 可视化看板编排工具，支持同时调度、监控并评审 Claude Code、Codex 等多个编码 Agent 的并行任务。 | `Claude Code` `Codex` `通用` | — |
 | **[Matt Pocock Skills](https://github.com/mattpocock/skills)** | `Skill` | 由 Matt Pocock 整理的实战型软件工程 Agent 技能集合，覆盖日常研发工作流。 | `通用` | ⭐ 333.6k<br><sub>2026-11-25</sub> |
 | **[Ponytail](https://github.com/DietrichGebert/ponytail)** | `Plugin` | 遵循 YAGNI 原则与极简主义的跨端 Agent 插件、钩子与技能集，减少冗余代码。 | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+2` | ⭐ 199.4k<br><sub>2026-11-22</sub> |
 | **[Impeccable](https://github.com/pbakaus/impeccable)** | `Skill` | 为编码 Agent 提供专业设计词汇、界面打磨与审校指令的技能套件，上线前拦截低质 AI 风格。 | `通用` | ⭐ 117.6k<br><sub>2026-11-26</sub> |
@@ -2063,27 +2712,67 @@
 | **[Anyone to Skill](https://github.com/OpenDemon/anyone-to-skill)** | `工具` | 从视频、PDF、电子书或聊天记录中提取人物心智模型与表达风格并生成 SKILL.md 的技能蒸馏工具。 | `通用` | ⭐ 134<br><sub>2026-04-07</sub> |
 | **[PRPM](https://github.com/pr-pm/prpm)** | `工具` | 面向各类 AI 编程工具的通用提示词、规则与技能包管理器及注册中心。 | `通用` | ⭐ 125<br><sub>2026-10-14</sub> |
 | **[HyperFX Marketing Skills](https://github.com/hyperfx-ai/marketing-skills)** | `Skill` | 基于 Hyper MCP 的营销 Agent 技能集，涵盖信息流广告投放、社媒、SEO、竞品调研与数据分析。 | `通用` | ⭐ 124<br><sub>2026-11-26</sub> |
+| **[Agentic Awesome Skills](https://github.com/sickn33/agentic-awesome-skills)** | `Skill` | 收录 3,000+ 可复用 AI Agent 技能的大型社区合集，兼容 Claude Code、Codex、Cursor 与 Gemini CLI。 | `通用` `Claude Code` `Codex` `Cursor` `+1` | — |
 | **[AgentMemory](https://github.com/rohitg00/agentmemory)** | `Skill` | 跨会话持久化记忆插件与技能套件，支持记忆写入、检索、会话交接、复盘沉淀与隐私清理。 | `通用` `Claude Code` | — |
+| **[agentMemory MCP](https://github.com/webzler/agentMemory)** | `MCP` | 零配置的本地 MCP 记忆服务器，适配 Claude Code、Cline、RooCode 与 Cursor 以持久保留项目上下文。 | `通用` | — |
+| **[AI Maestro](https://github.com/23blocks-OS/ai-maestro)** | `Plugin` | 带模块化技能系统、持久化记忆检索与跨代理通信的 AI Agent 编排器。 | `Claude Code` `通用` | — |
+| **[AI Maestro Plugins](https://github.com/23blocks-OS/ai-maestro-plugins)** | `Plugin` | AI Maestro 官方插件合集，包含 150+ 角色人格、核心技能、身份管理与代理间消息协作能力。 | `Claude Code` `通用` | — |
 | **[AI Skills](https://github.com/sanjay3290/ai-skills)** | `Skill` | AI Agent 技能集合，内置自主深度研究工作流，支持规划、检索、阅读并汇总生成完整研究报告。 | `通用` `Claude Code` | — |
+| **[arXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server)** | `MCP` | 面向学术文献研究的本地 arXiv MCP 服务器，支持论文检索、下载、LaTeX 章节解析与 BibTeX 管理。<br>`uvx arxiv-mcp-server` | `通用` | — |
+| **[Atlassian Bitbucket MCP](https://github.com/aashari/mcp-server-atlassian-bitbucket)** | `MCP` | 面向 Atlassian Bitbucket 的 MCP 服务器，支持 AI Agent 浏览代码仓库、评审 PR 与查看提交历史。<br>`npx -y @aashari/mcp-server-atlassian-bitbucket` | `通用` | — |
+| **[Awesome Agentic Patterns](https://github.com/nibzard/awesome-agentic-patterns)** | `工具` | 精选生产级 AI Agent 架构与工作流设计模式目录，汇总实战验证的工程模式。 | `通用` | — |
 | **[Bleu](https://github.com/Nirvaan05/Bleu-plugin)** | `Plugin` | 编码前架构蓝图插件与技能，将初步项目想法拆解为包含组件、流程与文件级执行清单的完整实现方案。 | `通用` `Claude Code` | — |
+| **[Chisle](https://github.com/JayPokale/Chisle)** | `Skill` | 面向编码 Agent 的 Token 省流技能与规范，通过精简输出、YAGNI 优先编码与高效工具调用降低成本。 | `Claude Code` `通用` | — |
+| **[Context Architecture](https://github.com/sergioazoc/context-architecture)** | `Skill` | 面向 AI 编码时代的上下文架构方法论与模板，帮助组织仓库知识文档以提升 Agent 准确率。 | `通用` `Claude Code` | — |
 | **[Curviate Plugin](https://github.com/Curviate/curviate-plugin)** | `Plugin` | 基于 Curviate CLI 的 LinkedIn 自动化插件与技能套件，覆盖人脉检索、消息、发帖及招聘等工作流。 | `通用` `Claude Code` | — |
+| **[Deja Vu MCP](https://github.com/vshulcz/deja-vu)** | `MCP` | 面向 Claude Code、Codex 与 Cursor 的本地 MCP 记忆层，支持跨会话历史检索与经验复用。 | `Claude Code` `Codex` `Cursor` `通用` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
+| **[Eval Genius](https://github.com/alexgreensh/eval-genius)** | `Skill` | 面向 AI 应用的评测设计技能，指导 Agent 判断何时需要 Eval、如何搭建基准测试与回归度量。 | `通用` `Claude Code` | — |
 | **[FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill)** | `Skill` | 基于本地 FFmpeg 的自然语言音视频剪辑技能，支持裁剪拼接、画幅重构、字幕压制、去静音与混音处理。 | `通用` `Claude Code` | — |
+| **[Git Context Controller](https://github.com/faugustdev/git-context-controller)** | `工具` | 类 Git 风格的 Agent 上下文管理框架，支持对大模型上下文执行提交、分支与合并操作。 | `通用` | — |
+| **[Google Workspace CLI](https://github.com/googleworkspace/cli)** | `工具` | 面向终端与 AI Agent 的 Google Workspace CLI 及技能命令套件，覆盖云盘、邮件、文档、表格与管理接口。 | `通用` `Claude Code` | — |
+| **[Google Workspace MCP](https://github.com/taylorwilsdon/google_workspace_mcp)** | `MCP` | 功能完善的 Google Workspace MCP 服务器，覆盖 Gmail、日历、云盘、文档、表格、幻灯片与任务管理。<br>`uvx workspace-mcp` | `通用` | — |
+| **[GuardLink](https://github.com/Bugb-Technologies/guardlink)** | `Plugin` | AI 驱动的代码安全注解与 MCP 工具链，用于在代码库中持续进行威胁建模与安全边界校验。 | `通用` `Claude Code` | — |
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | — |
+| **[iOS Simulator MCP](https://github.com/joshuayoes/ios-simulator-mcp)** | `MCP` | 用于操控 Apple iOS 模拟器的 MCP 服务器，支持 UI 树检查、点击交互、截图与移动端自动化调试。<br>`npx -y ios-simulator-mcp` | `通用` | — |
+| **[Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server)** | `MCP` | 面向 Jupyter Notebook 的 MCP 服务器，支持 AI Agent 实时执行代码单元、读取输出并完成数据科学分析。<br>`uvx jupyter-mcp-server` | `通用` | — |
 | **[Levea Video MCP](https://github.com/brajendrak00068/agentic-ai-video-production)** | `MCP` | 面向自动化 AI 视频剪辑的远程 MCP 服务，可将自然语言指令或长视频处理为带字幕与智能构图的成片。 | `通用` `Claude Code` | — |
+| **[Maoxuan Skill](https://github.com/leezythu/maoxuan-skill)** | `Skill` | 毛选思维框架中文决策技能，提炼核心心智模型与决策启发式方法用于复杂问题分析与策略制定。 | `通用` `Claude Code` | — |
+| **[MCP Server Playwright](https://github.com/VikashLoomba/MCP-Server-Playwright)** | `MCP` | 轻量级 Playwright MCP 服务器，支持浏览器导航、表单交互、DOM 检查与自动截图。 | `通用` | — |
+| **[mcp-remote](https://github.com/punkpeye/mcp-remote)** | `MCP` | MCP 协议桥接工具，让仅支持本地 stdio 的 MCP 客户端也能通过 OAuth 连接远程 HTTP/SSE MCP 服务器。<br>`npx -y mcp-remote` | `通用` | — |
+| **[Memex MCP](https://github.com/STiFLeR7/memex)** | `MCP` | 开源 MCP 服务器与 Hook 服务，用于持久化沉淀 Claude Code 与 Codex 的工程上下文与架构决策。 | `Claude Code` `Codex` `通用` | — |
+| **[Mermaid MCP](https://github.com/hustcc/mcp-mermaid)** | `MCP` | 动态生成与渲染 Mermaid 流程图、时序图和架构图的 MCP 服务器。<br>`npx -y mcp-mermaid` | `通用` | — |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | — |
+| **[n8n MCP](https://github.com/czlonkowski/n8n-mcp)** | `MCP` | 面向 n8n 的 MCP 服务器，支持 AI Agent 检索节点文档、校验参数并构建或运行 n8n 自动化工作流。<br>`npx -y n8n-mcp` | `通用` | — |
+| **[n8n Skills](https://github.com/czlonkowski/n8n-skills)** | `Skill` | 精选 n8n 技能包，帮助 Claude Code 等 Agent 设计、校验并调试生产级 n8n 自动化工作流。 | `Claude Code` `通用` | — |
+| **[Next.js Sanity Blog Skill](https://github.com/BuildShipGrowRepeat/nextjs-sanity-blog-skill)** | `Skill` | 面向 Next.js 项目的 Claude Code 技能，一键搭建 SEO 优先、支持多语言的 Sanity CMS 博客系统。 | `Claude Code` `通用` | — |
+| **[npm-agentskills](https://github.com/onmax/npm-agentskills)** | `工具` | 与框架无关的 Agent Skills 发现与导出工具，支持直接从 npm 包中提取和分发技能。 | `通用` | — |
 | **[Off Grid AI Skills](https://github.com/off-grid-ai/skills)** | `Skill` | 专注软件工程质量的技能集合，涵盖行为驱动测试、根因修复、合并前安全检查与图工程工作流。 | `通用` `Claude Code` | — |
+| **[OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** | `工具` | 面向 AI Agent 的时光机调试与 MCP 工具，支持录制、回放、分叉与排查多步 Agent 执行过程。 | `通用` `Claude Code` | — |
 | **[pdfToMarkdown](https://github.com/ThiloReintjes/pdftomarkdown-skill)** | `Plugin` | Claude Code 插件与技能，可将扫描件、表格、多栏排版及中日韩文档等复杂 PDF 高保真转换为 Markdown。 | `Claude Code` `通用` | — |
+| **[Playwright MCP (ExecuteAutomation)](https://github.com/executeautomation/mcp-playwright)** | `MCP` | 社区版 Playwright MCP 服务器，支持 AI Agent 驱动浏览器自动化、截图、测试代码生成与接口测试。<br>`npx -y @executeautomation/playwright-mcp-server` | `通用` | — |
 | **[Product Decision Agent](https://github.com/atdy/maoxuan-product-agent)** | `Skill` | 中文互联网产品决策 Agent 技能，覆盖需求分析、PRD、优先级排期、增长诊断、数据指标与跨部门协作决策。 | `通用` `Claude Code` | — |
 | **[Rote](https://github.com/trevhud/rote)** | `工具` | 将成熟 SKILL.md 技能编译为无大模型参与的确定性流水线，并重新封装为 MCP 工具供 Agent 调用。 | `通用` `Claude Code` | — |
+| **[Ruflo (Claude Flow)](https://github.com/ruvnet/ruflo)** | `Plugin` | 面向 Claude Code 与 Codex 的多 Agent 蜂群编排平台，集成协同子代理、记忆层、技能系统与 MCP 工具。 | `Claude Code` `Codex` `通用` | — |
+| **[Savia](https://github.com/gonzalezpazmonica/savia)** | `Plugin` | 不绑定厂商的工程治理与任务编排 Agent 套件，覆盖软件开发与项目管理全流程。 | `Claude Code` `通用` | — |
+| **[SearXNG MCP](https://github.com/ihor-sokoliuk/mcp-searxng)** | `MCP` | 基于自建 SearXNG 的隐私优先联网搜索 MCP 服务器，适配 Claude、Cursor 等主流 MCP 客户端。<br>`npx -y mcp-searxng` | `通用` | — |
+| **[Structured Thinking Skills](https://github.com/ysskrishna/ai-agent-skills)** | `Skill` | 面向 AI Agent 的结构化思维技能集合，覆盖头脑风暴、决策分析与系统性思考框架。 | `通用` `Claude Code` | — |
+| **[SwarmVault](https://github.com/swarmclawai/swarmvault)** | `工具` | 本地优先的 LLM Wiki 与知识图谱构建工具，为 AI Agent 提供结构化 RAG 知识库。 | `通用` `Claude Code` | — |
+| **[Switch AI Teammates](https://github.com/sandbox-quantum/switch)** | `工具` | 开源协作桥接工具，将 AI 工程与办公代理直接接入 Slack、Teams、Discord、Telegram 与 Mattermost。 | `通用` | — |
+| **[Trace MCP](https://github.com/nikolai-vysotskyi/trace-mcp)** | `MCP` | 支持 90+ 框架与 80+ 编程语言的代码智能分析 MCP 服务器，用于跨文件符号追踪与架构理解。 | `通用` | — |
 | **[tstack Skills](https://github.com/t3dotgg/tstack)** | `Skill` | Theo Browne 维护的工程工作流技能套件，涵盖 PR 提交、评审评论、CI 自动盯盘与代码库现代化改造。 | `通用` `Claude Code` | — |
 
-## DeepSeek Harness (194)
+## DeepSeek Harness (269)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | ⭐ 201.1k<br><sub>2026-11-16</sub> |
+| **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `官方` | `MCP` | Chrome DevTools 官方 MCP 服务器，让编码 Agent 直接操控、调试、性能分析与审查 Chrome 浏览器页面。<br>`npx -y chrome-devtools-mcp@latest` | `通用` | — |
+| **[Context7 MCP](https://github.com/upstash/context7)** `官方` | `MCP` | Upstash 官方 Context7 MCP 服务器，实时拉取最新、按版本匹配的开源库文档与代码示例并注入 Agent 上下文。<br>`npx -y @upstash/context7-mcp` | `通用` | — |
+| **[FastMCP](https://github.com/PrefectHQ/fastmcp)** `官方` | `工具` | Python 生态主流 MCP 开发框架，用于快速构建生产级 Model Context Protocol 服务器与客户端。 | `通用` | — |
+| **[Google Agent Skills](https://github.com/google/skills)** `官方` | `Skill` | Google 官方 Agent Skills 仓库，覆盖 Google Cloud 与各类 Google 开发者技术栈的标准技能。 | `通用` `Gemini CLI` `Claude Code` | — |
 | **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** `官方` | `MCP` | Model Context Protocol 官方参考服务器合集，提供文件系统、Git、数据库与网页接入等标准集成范例。 | `通用` | — |
+| **[OpenAI Skills Catalog](https://github.com/openai/skills)** `官方` | `Skill` | OpenAI 官方维护的 Agent Skills 目录，为 Codex 及遵循开放标准的 Agent 提供精选可复用技能。 | `Codex` `通用` | — |
 | **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `官方` | `MCP` | 微软官方 Playwright MCP 服务器，让 Agent 通过结构化无障碍树直接操控浏览器完成测试与网页自动化。<br>`npx @playwright/mcp@latest` | `通用` | — |
 | **[Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill)** `官方` | `Skill` | Cloudflare 官方出品的多阶段安全审计技能，可生成经独立验证的机器可读漏洞报告。 | `通用` | ⭐ 78.9k<br><sub>2026-09-14</sub> |
 | **[Open Code Review](https://github.com/alibaba/open-code-review)** `官方` | `工具` | 阿里巴巴开源的混合架构代码审查工具，结合确定性规则流水线与大模型 Agent 实现行级精准评审。 | `通用` | ⭐ 56.7k<br><sub>2026-11-26</sub> |
@@ -2128,14 +2817,49 @@
 | **[Prisma Official Skills](https://github.com/prisma/skills)** `官方` | `Skill` | Prisma 官方 Agent 技能集，涵盖 Prisma ORM 配置、Client API、Prisma Postgres 与 v7 升级迁移。 | `通用` | ⭐ 80<br><sub>2026-11-26</sub> |
 | **[Accoil Product Tracking Skills](https://github.com/Accoil/product-tracking-skills)** `官方` | `Skill` | Accoil 官方产品埋点分析技能集，可扫描代码库、设计埋点方案并生成多平台分析埋点代码。 | `通用` | ⭐ 47<br><sub>2026-10-20</sub> |
 | **[Astrolicious Agent Skills](https://github.com/astrolicious/agent-skills)** `官方` | `Skill` | Astrolicious 官方 Astro 生态 Agent 技能集，助力智能体高效开发与维护 Astro Web 项目。 | `通用` | ⭐ 13<br><sub>2026-03-20</sub> |
+| **[Airtable Agent Skills](https://github.com/Airtable/skills)** `官方` | `Skill` | Airtable 官方 Agent 技能包，辅助操作 Airtable 数据表结构、自动化流程与扩展开发。 | `通用` `Claude Code` | — |
+| **[Alpaca MCP Server](https://github.com/alpacahq/alpaca-mcp-server)** `官方` | `MCP` | Alpaca 官方 MCP 服务器，支持 AI Agent 获取实时行情数据并操作股票、ETF、期权与加密货币交易接口。<br>`uvx alpaca-mcp-server` | `通用` | — |
+| **[Apify MCP Server](https://github.com/apify/apify-mcp-server)** `官方` | `MCP` | Apify 官方 MCP 服务器，让 Agent 直接调用数千个 Apify Actors 完成网页抓取、社媒与电商数据采集。<br>`npx -y @apify/actors-mcp-server` | `通用` | — |
+| **[Browser MCP](https://github.com/BrowserMCP/mcp)** `官方` | `MCP` | 结合浏览器插件的 MCP 服务器，让 AI Agent 复用本地浏览器登录态完成网页操作与自动化任务。<br>`npx -y @browsermcp/mcp@latest` | `通用` | — |
+| **[BrowserAct Skills](https://github.com/browser-act/skills)** `官方` | `Skill` | BrowserAct 官方浏览器自动化技能集，支持复杂网页交互、数据采集与任务接管。 | `通用` `Claude Code` | — |
+| **[Cloud Run MCP](https://github.com/GoogleCloudPlatform/cloud-run-mcp)** `官方` | `MCP` | Google Cloud 官方 Cloud Run MCP 服务器，支持 AI Agent 一键构建、部署并管理云端容器服务。<br>`npx -y @google-cloud/cloud-run-mcp` | `通用` | — |
+| **[Codacy MCP Server](https://github.com/codacy/codacy-mcp-server)** `官方` | `MCP` | Codacy 官方 MCP 服务器，为 AI Agent 提供自动化代码质量检测、安全漏洞扫描与覆盖率分析。<br>`npx -y @codacy/codacy-mcp` | `通用` | — |
+| **[Code Graph MCP](https://github.com/diffbot/mcp-code-graph)** `官方` | `MCP` | 用于代码库知识图谱分析、依赖追踪与架构可视化的 MCP 服务器。 | `通用` | — |
+| **[Colibird Local MCP](https://github.com/colibird-ai/local-mcp-releases)** `官方` | `MCP` | 本地桌面端 MCP 服务器，将 Claude、ChatGPT 与 Cursor 连接到 Mac 和 Windows 原生文件与工作流。 | `通用` | — |
+| **[DataLikers MCP](https://github.com/subzeroid/datalikers-mcp)** `官方` | `MCP` | 轻量级 stdio MCP 服务器，通过 DataLikers API 提供 29 个 Instagram 与 TikTok 社媒数据采集工具。 | `通用` | — |
+| **[DBHub MCP](https://github.com/bytebase/dbhub)** `官方` | `MCP` | Bytebase 开源的通用数据库 MCP 服务器，节省上下文 Token，支持 PostgreSQL、MySQL、SQL Server、Oracle 与 SQLite。<br>`npx -y @bytebase/dbhub` | `通用` | — |
 | **[e2e Agent Skill](https://github.com/e2e-inc/e2e)** `官方` | `Skill` | e2e 智能端到端测试框架官方技能，支持在 Playwright 浏览器及 iOS/Android 设备上编写、运行与调试测试。 | `通用` `Claude Code` | — |
+| **[FinOps MCP](https://github.com/getnable/finopsmcp)** `官方` | `MCP` | 面向云成本治理的无头 FinOps MCP 服务，为 AI Agent 提供云账单分析与资源成本优化能力。 | `通用` | — |
+| **[Firecrawl MCP Server](https://github.com/firecrawl/firecrawl-mcp-server)** `官方` | `MCP` | Firecrawl 官方 MCP 服务器，为 AI Agent 提供联网搜索、网页抓取、整站爬取与结构化数据抽取能力。<br>`npx -y firecrawl-mcp` | `通用` | — |
+| **[Firefly MCP](https://github.com/gofireflyio/firefly-mcp)** `官方` | `MCP` | Firefly 官方 MCP 服务器，支持 AI Agent 盘点云资产、检测配置漂移并生成基础设施即代码（IaC）。 | `通用` | — |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | — |
+| **[HeyGen Agent Skills](https://github.com/heygen-com/skills)** `官方` | `Skill` | HeyGen 官方 AI Agent 技能包，支持通过 HeyGen v3 API 完成数字人创建与自动化视频制作。 | `通用` `Claude Code` | — |
 | **[Internet Court Skill](https://github.com/internet-court/internet-court-skill)** `官方` | `Skill` | 面向 Agent 间交易的开放信任层技能，覆盖自然语言授权、ERC-7710 权限委托、x402 支付、托管与争议仲裁。 | `通用` `Claude Code` | — |
+| **[LaunchDarkly MCP Server](https://github.com/launchdarkly/mcp-server)** `官方` | `MCP` | LaunchDarkly 官方 MCP 服务器，支持 AI Agent 查询、创建与管理 Feature Flags 及灰度发布规则。 | `通用` | — |
+| **[Live Tennis API MCP](https://github.com/livetennisapi/livetennisapi-mcp)** `官方` | `MCP` | Live Tennis API 官方 MCP 服务器，为 AI Agent 提供实时网球比分、ATP/WTA 排名与赛事统计数据。 | `通用` | — |
 | **[MarkItDown](https://github.com/microsoft/markitdown)** `官方` | `MCP` | 微软官方文件转 Markdown 工具及 MCP 服务，支持将 PDF、Office 文档、图片、音频等转换为适合大模型处理的 Markdown。 | `通用` | — |
+| **[Microsoft Clarity MCP](https://github.com/microsoft/clarity-mcp-server)** `官方` | `MCP` | 微软官方 Clarity MCP 服务器，用于查询网站用户体验分析、流量指标与行为洞察数据。<br>`npx -y @microsoft/clarity-mcp-server` | `通用` | — |
+| **[Microsoft Learn MCP](https://github.com/MicrosoftDocs/mcp)** `官方` | `MCP` | 微软官方 Learn MCP 服务器与 CLI，为 AI Agent 提供最新的 Microsoft、Azure 与 .NET 官方技术文档检索。 | `通用` | — |
+| **[Milvus Agent Skill](https://github.com/zilliztech/milvus-skill)** `官方` | `Skill` | Zilliz 官方 Milvus 向量数据库技能，指导 Agent 使用 pymilvus 构建索引、检索与 RAG 应用。 | `通用` `Claude Code` | — |
+| **[monday.com MCP](https://github.com/mondaycom/mcp)** `官方` | `MCP` | monday.com 官方 MCP 服务器，让 AI Agent 安全读写项目看板、任务条目与团队协作流程。 | `通用` | — |
+| **[MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server)** `官方` | `MCP` | MongoDB 官方 MCP 服务器，支持 AI Agent 查询集合、分析数据结构并管理 MongoDB Atlas 集群。<br>`npx -y mongodb-mcp-server` | `通用` | — |
 | **[Neon Postgres Skills](https://github.com/neondatabase/postgres-skills)** `官方` | `Skill` | Neon 官方 PostgreSQL 技能包，涵盖表结构设计、索引策略、查询优化、数据库迁移及常见避坑指南。 | `通用` `Claude Code` | — |
+| **[Notion MCP Server](https://github.com/makenotion/notion-mcp-server)** `官方` | `MCP` | Notion 官方 MCP 服务器，支持 AI Agent 检索、读取、创建并更新 Notion 页面与数据库。<br>`npx -y @notionhq/notion-mcp-server` | `通用` | — |
+| **[PostgreSQL AI Guide](https://github.com/timescale/pg-aiguide)** `官方` | `Plugin` | Timescale 官方 PostgreSQL MCP 与 Claude 插件，提供权威 Postgres 技能、版本文档与查询最佳实践。 | `Claude Code` `通用` | — |
+| **[Pydantic Logfire MCP](https://github.com/pydantic/logfire-mcp)** `官方` | `MCP` | Pydantic 官方 Logfire MCP 服务器，支持 AI Agent 查询 OpenTelemetry 链路追踪、异常日志与线上指标。<br>`uvx logfire-mcp` | `通用` | — |
+| **[Railway Agent Skills](https://github.com/railwayapp/railway-skills)** `官方` | `Skill` | Railway 官方 Agent 技能包，支持创建服务、管理环境变量、查看日志与一键部署云端应用。 | `通用` `Claude Code` | — |
+| **[Recommerce Skills](https://github.com/budna-marketplace/recommerce)** `官方` | `Skill` | 面向二手与新品比价检索的 Agent 技能包，支持跨平台商品检索与价格对比。 | `通用` `Claude Code` | — |
+| **[Redis MCP Server](https://github.com/redis/mcp-redis)** `官方` | `MCP` | Redis 官方 MCP 服务器，为 AI Agent 提供自然语言查询、缓存管理与 Redis 数据检视接口。 | `通用` | — |
+| **[Render Agent Skills](https://github.com/render-oss/skills)** `官方` | `Skill` | Render 官方 Agent 技能包，用于在 Render 平台上部署、配置与排查 Web 服务和托管数据库。 | `通用` `Claude Code` | — |
+| **[Rootly MCP Server](https://github.com/rootlyhq/rootly-mcp-server)** `官方` | `MCP` | Rootly 官方 MCP 服务器，支持 AI Agent 排查线上故障、查询事件时间线并辅助 SRE 应急响应。 | `通用` | — |
+| **[Sentry Agentic Toolkit](https://github.com/getsentry/toolkit)** `官方` | `Plugin` | Sentry 官方 Agent 工具套件，融合 MCP 与技能用于排查线上报错、堆栈追踪与回归定位。 | `通用` `Claude Code` | — |
 | **[shadcn/ui Skill](https://github.com/shadcn-ui/ui)** `官方` | `Skill` | shadcn/ui 官方仓库内置 Agent 技能与上下文规范，辅助管理组件库、主题与现代 React 设计系统。 | `通用` `Claude Code` | — |
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `官方` | `Skill` | SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。 | `通用` `Claude Code` | — |
+| **[Supabase MCP](https://github.com/supabase/mcp)** `官方` | `MCP` | Supabase 官方 MCP 服务器，让 Agent 直接查询数据库、管理表结构迁移、Edge Functions 与项目日志。<br>`npx -y @supabase/mcp-server-supabase` | `通用` | — |
+| **[WebMCP](https://github.com/webmachinelearning/webmcp)** `官方` | `工具` | W3C WebML 社区组标准规范，让网页原生向浏览器侧 AI Agent 暴露结构化 MCP 工具接口。 | `通用` | — |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | — |
+| **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | 全面的开源 AI 科研与机器学习工程技能库，覆盖模型微调、RLHF、推理优化与评测实验。 | `通用` `Claude Code` | — |
+| **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `工具` | 可视化看板编排工具，支持同时调度、监控并评审 Claude Code、Codex 等多个编码 Agent 的并行任务。 | `Claude Code` `Codex` `通用` | — |
 | **[Rea](https://github.com/morluto/rea)** | `Plugin` | 面向 AI Agent 的逆向工程插件、MCP 服务与技能套件，支持从应用行为到原生二进制的深度分析。 | `Claude Code` `Codex` `Cursor` `DeepSeek Harness` | ⭐ 479.8k<br><sub>2026-11-27</sub> |
 | **[Matt Pocock Skills](https://github.com/mattpocock/skills)** | `Skill` | 由 Matt Pocock 整理的实战型软件工程 Agent 技能集合，覆盖日常研发工作流。 | `通用` | ⭐ 333.6k<br><sub>2026-11-25</sub> |
 | **[Impeccable](https://github.com/pbakaus/impeccable)** | `Skill` | 为编码 Agent 提供专业设计词汇、界面打磨与审校指令的技能套件，上线前拦截低质 AI 风格。 | `通用` | ⭐ 117.6k<br><sub>2026-11-26</sub> |
@@ -2262,18 +2986,53 @@
 | **[Anyone to Skill](https://github.com/OpenDemon/anyone-to-skill)** | `工具` | 从视频、PDF、电子书或聊天记录中提取人物心智模型与表达风格并生成 SKILL.md 的技能蒸馏工具。 | `通用` | ⭐ 134<br><sub>2026-04-07</sub> |
 | **[PRPM](https://github.com/pr-pm/prpm)** | `工具` | 面向各类 AI 编程工具的通用提示词、规则与技能包管理器及注册中心。 | `通用` | ⭐ 125<br><sub>2026-10-14</sub> |
 | **[HyperFX Marketing Skills](https://github.com/hyperfx-ai/marketing-skills)** | `Skill` | 基于 Hyper MCP 的营销 Agent 技能集，涵盖信息流广告投放、社媒、SEO、竞品调研与数据分析。 | `通用` | ⭐ 124<br><sub>2026-11-26</sub> |
+| **[Agentic Awesome Skills](https://github.com/sickn33/agentic-awesome-skills)** | `Skill` | 收录 3,000+ 可复用 AI Agent 技能的大型社区合集，兼容 Claude Code、Codex、Cursor 与 Gemini CLI。 | `通用` `Claude Code` `Codex` `Cursor` `+1` | — |
 | **[AgentMemory](https://github.com/rohitg00/agentmemory)** | `Skill` | 跨会话持久化记忆插件与技能套件，支持记忆写入、检索、会话交接、复盘沉淀与隐私清理。 | `通用` `Claude Code` | — |
+| **[agentMemory MCP](https://github.com/webzler/agentMemory)** | `MCP` | 零配置的本地 MCP 记忆服务器，适配 Claude Code、Cline、RooCode 与 Cursor 以持久保留项目上下文。 | `通用` | — |
+| **[AI Maestro](https://github.com/23blocks-OS/ai-maestro)** | `Plugin` | 带模块化技能系统、持久化记忆检索与跨代理通信的 AI Agent 编排器。 | `Claude Code` `通用` | — |
+| **[AI Maestro Plugins](https://github.com/23blocks-OS/ai-maestro-plugins)** | `Plugin` | AI Maestro 官方插件合集，包含 150+ 角色人格、核心技能、身份管理与代理间消息协作能力。 | `Claude Code` `通用` | — |
 | **[AI Skills](https://github.com/sanjay3290/ai-skills)** | `Skill` | AI Agent 技能集合，内置自主深度研究工作流，支持规划、检索、阅读并汇总生成完整研究报告。 | `通用` `Claude Code` | — |
+| **[arXiv MCP Server](https://github.com/blazickjp/arxiv-mcp-server)** | `MCP` | 面向学术文献研究的本地 arXiv MCP 服务器，支持论文检索、下载、LaTeX 章节解析与 BibTeX 管理。<br>`uvx arxiv-mcp-server` | `通用` | — |
+| **[Atlassian Bitbucket MCP](https://github.com/aashari/mcp-server-atlassian-bitbucket)** | `MCP` | 面向 Atlassian Bitbucket 的 MCP 服务器，支持 AI Agent 浏览代码仓库、评审 PR 与查看提交历史。<br>`npx -y @aashari/mcp-server-atlassian-bitbucket` | `通用` | — |
+| **[Awesome Agentic Patterns](https://github.com/nibzard/awesome-agentic-patterns)** | `工具` | 精选生产级 AI Agent 架构与工作流设计模式目录，汇总实战验证的工程模式。 | `通用` | — |
 | **[Bleu](https://github.com/Nirvaan05/Bleu-plugin)** | `Plugin` | 编码前架构蓝图插件与技能，将初步项目想法拆解为包含组件、流程与文件级执行清单的完整实现方案。 | `通用` `Claude Code` | — |
+| **[Chisle](https://github.com/JayPokale/Chisle)** | `Skill` | 面向编码 Agent 的 Token 省流技能与规范，通过精简输出、YAGNI 优先编码与高效工具调用降低成本。 | `Claude Code` `通用` | — |
+| **[Context Architecture](https://github.com/sergioazoc/context-architecture)** | `Skill` | 面向 AI 编码时代的上下文架构方法论与模板，帮助组织仓库知识文档以提升 Agent 准确率。 | `通用` `Claude Code` | — |
 | **[Curviate Plugin](https://github.com/Curviate/curviate-plugin)** | `Plugin` | 基于 Curviate CLI 的 LinkedIn 自动化插件与技能套件，覆盖人脉检索、消息、发帖及招聘等工作流。 | `通用` `Claude Code` | — |
+| **[Deja Vu MCP](https://github.com/vshulcz/deja-vu)** | `MCP` | 面向 Claude Code、Codex 与 Cursor 的本地 MCP 记忆层，支持跨会话历史检索与经验复用。 | `Claude Code` `Codex` `Cursor` `通用` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
+| **[Eval Genius](https://github.com/alexgreensh/eval-genius)** | `Skill` | 面向 AI 应用的评测设计技能，指导 Agent 判断何时需要 Eval、如何搭建基准测试与回归度量。 | `通用` `Claude Code` | — |
 | **[FFmpeg Skill](https://github.com/kajisho5/ffmpeg-skill)** | `Skill` | 基于本地 FFmpeg 的自然语言音视频剪辑技能，支持裁剪拼接、画幅重构、字幕压制、去静音与混音处理。 | `通用` `Claude Code` | — |
+| **[Git Context Controller](https://github.com/faugustdev/git-context-controller)** | `工具` | 类 Git 风格的 Agent 上下文管理框架，支持对大模型上下文执行提交、分支与合并操作。 | `通用` | — |
+| **[Google Workspace CLI](https://github.com/googleworkspace/cli)** | `工具` | 面向终端与 AI Agent 的 Google Workspace CLI 及技能命令套件，覆盖云盘、邮件、文档、表格与管理接口。 | `通用` `Claude Code` | — |
+| **[Google Workspace MCP](https://github.com/taylorwilsdon/google_workspace_mcp)** | `MCP` | 功能完善的 Google Workspace MCP 服务器，覆盖 Gmail、日历、云盘、文档、表格、幻灯片与任务管理。<br>`uvx workspace-mcp` | `通用` | — |
+| **[GuardLink](https://github.com/Bugb-Technologies/guardlink)** | `Plugin` | AI 驱动的代码安全注解与 MCP 工具链，用于在代码库中持续进行威胁建模与安全边界校验。 | `通用` `Claude Code` | — |
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | — |
+| **[iOS Simulator MCP](https://github.com/joshuayoes/ios-simulator-mcp)** | `MCP` | 用于操控 Apple iOS 模拟器的 MCP 服务器，支持 UI 树检查、点击交互、截图与移动端自动化调试。<br>`npx -y ios-simulator-mcp` | `通用` | — |
+| **[Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server)** | `MCP` | 面向 Jupyter Notebook 的 MCP 服务器，支持 AI Agent 实时执行代码单元、读取输出并完成数据科学分析。<br>`uvx jupyter-mcp-server` | `通用` | — |
 | **[Levea Video MCP](https://github.com/brajendrak00068/agentic-ai-video-production)** | `MCP` | 面向自动化 AI 视频剪辑的远程 MCP 服务，可将自然语言指令或长视频处理为带字幕与智能构图的成片。 | `通用` `Claude Code` | — |
+| **[Maoxuan Skill](https://github.com/leezythu/maoxuan-skill)** | `Skill` | 毛选思维框架中文决策技能，提炼核心心智模型与决策启发式方法用于复杂问题分析与策略制定。 | `通用` `Claude Code` | — |
+| **[MCP Server Playwright](https://github.com/VikashLoomba/MCP-Server-Playwright)** | `MCP` | 轻量级 Playwright MCP 服务器，支持浏览器导航、表单交互、DOM 检查与自动截图。 | `通用` | — |
+| **[mcp-remote](https://github.com/punkpeye/mcp-remote)** | `MCP` | MCP 协议桥接工具，让仅支持本地 stdio 的 MCP 客户端也能通过 OAuth 连接远程 HTTP/SSE MCP 服务器。<br>`npx -y mcp-remote` | `通用` | — |
+| **[Memex MCP](https://github.com/STiFLeR7/memex)** | `MCP` | 开源 MCP 服务器与 Hook 服务，用于持久化沉淀 Claude Code 与 Codex 的工程上下文与架构决策。 | `Claude Code` `Codex` `通用` | — |
+| **[Mermaid MCP](https://github.com/hustcc/mcp-mermaid)** | `MCP` | 动态生成与渲染 Mermaid 流程图、时序图和架构图的 MCP 服务器。<br>`npx -y mcp-mermaid` | `通用` | — |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | — |
+| **[n8n MCP](https://github.com/czlonkowski/n8n-mcp)** | `MCP` | 面向 n8n 的 MCP 服务器，支持 AI Agent 检索节点文档、校验参数并构建或运行 n8n 自动化工作流。<br>`npx -y n8n-mcp` | `通用` | — |
+| **[n8n Skills](https://github.com/czlonkowski/n8n-skills)** | `Skill` | 精选 n8n 技能包，帮助 Claude Code 等 Agent 设计、校验并调试生产级 n8n 自动化工作流。 | `Claude Code` `通用` | — |
+| **[Next.js Sanity Blog Skill](https://github.com/BuildShipGrowRepeat/nextjs-sanity-blog-skill)** | `Skill` | 面向 Next.js 项目的 Claude Code 技能，一键搭建 SEO 优先、支持多语言的 Sanity CMS 博客系统。 | `Claude Code` `通用` | — |
+| **[npm-agentskills](https://github.com/onmax/npm-agentskills)** | `工具` | 与框架无关的 Agent Skills 发现与导出工具，支持直接从 npm 包中提取和分发技能。 | `通用` | — |
 | **[Off Grid AI Skills](https://github.com/off-grid-ai/skills)** | `Skill` | 专注软件工程质量的技能集合，涵盖行为驱动测试、根因修复、合并前安全检查与图工程工作流。 | `通用` `Claude Code` | — |
+| **[OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** | `工具` | 面向 AI Agent 的时光机调试与 MCP 工具，支持录制、回放、分叉与排查多步 Agent 执行过程。 | `通用` `Claude Code` | — |
 | **[pdfToMarkdown](https://github.com/ThiloReintjes/pdftomarkdown-skill)** | `Plugin` | Claude Code 插件与技能，可将扫描件、表格、多栏排版及中日韩文档等复杂 PDF 高保真转换为 Markdown。 | `Claude Code` `通用` | — |
+| **[Playwright MCP (ExecuteAutomation)](https://github.com/executeautomation/mcp-playwright)** | `MCP` | 社区版 Playwright MCP 服务器，支持 AI Agent 驱动浏览器自动化、截图、测试代码生成与接口测试。<br>`npx -y @executeautomation/playwright-mcp-server` | `通用` | — |
 | **[Product Decision Agent](https://github.com/atdy/maoxuan-product-agent)** | `Skill` | 中文互联网产品决策 Agent 技能，覆盖需求分析、PRD、优先级排期、增长诊断、数据指标与跨部门协作决策。 | `通用` `Claude Code` | — |
 | **[Rote](https://github.com/trevhud/rote)** | `工具` | 将成熟 SKILL.md 技能编译为无大模型参与的确定性流水线，并重新封装为 MCP 工具供 Agent 调用。 | `通用` `Claude Code` | — |
+| **[Ruflo (Claude Flow)](https://github.com/ruvnet/ruflo)** | `Plugin` | 面向 Claude Code 与 Codex 的多 Agent 蜂群编排平台，集成协同子代理、记忆层、技能系统与 MCP 工具。 | `Claude Code` `Codex` `通用` | — |
+| **[Savia](https://github.com/gonzalezpazmonica/savia)** | `Plugin` | 不绑定厂商的工程治理与任务编排 Agent 套件，覆盖软件开发与项目管理全流程。 | `Claude Code` `通用` | — |
+| **[SearXNG MCP](https://github.com/ihor-sokoliuk/mcp-searxng)** | `MCP` | 基于自建 SearXNG 的隐私优先联网搜索 MCP 服务器，适配 Claude、Cursor 等主流 MCP 客户端。<br>`npx -y mcp-searxng` | `通用` | — |
+| **[Structured Thinking Skills](https://github.com/ysskrishna/ai-agent-skills)** | `Skill` | 面向 AI Agent 的结构化思维技能集合，覆盖头脑风暴、决策分析与系统性思考框架。 | `通用` `Claude Code` | — |
+| **[SwarmVault](https://github.com/swarmclawai/swarmvault)** | `工具` | 本地优先的 LLM Wiki 与知识图谱构建工具，为 AI Agent 提供结构化 RAG 知识库。 | `通用` `Claude Code` | — |
+| **[Switch AI Teammates](https://github.com/sandbox-quantum/switch)** | `工具` | 开源协作桥接工具，将 AI 工程与办公代理直接接入 Slack、Teams、Discord、Telegram 与 Mattermost。 | `通用` | — |
+| **[Trace MCP](https://github.com/nikolai-vysotskyi/trace-mcp)** | `MCP` | 支持 90+ 框架与 80+ 编程语言的代码智能分析 MCP 服务器，用于跨文件符号追踪与架构理解。 | `通用` | — |
 | **[tstack Skills](https://github.com/t3dotgg/tstack)** | `Skill` | Theo Browne 维护的工程工作流技能套件，涵盖 PR 提交、评审评论、CI 自动盯盘与代码库现代化改造。 | `通用` `Claude Code` | — |
 

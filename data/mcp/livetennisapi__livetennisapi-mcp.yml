@@ -1,0 +1,9 @@
+name: Live Tennis API MCP
+repo: https://github.com/livetennisapi/livetennisapi-mcp
+category: data-research
+official: true
+agents: [universal]
+tags: [official, sports, tennis, api]
+description:
+  en: Official MCP server for Live Tennis API providing AI agents with live scores, ATP/WTA rankings, and match statistics.
+  zh: Live Tennis API 官方 MCP 服务器，为 AI Agent 提供实时网球比分、ATP/WTA 排名与赛事统计数据。

@@ -1,0 +1,9 @@
+name: Git Context Controller
+repo: https://github.com/faugustdev/git-context-controller
+category: orchestration
+official: false
+agents: [universal]
+tags: [context, git, memory, versioning]
+description:
+  en: Structured context management framework implementing Git-like commit, branch, and merge operations for LLM agent context.
+  zh: 类 Git 风格的 Agent 上下文管理框架，支持对大模型上下文执行提交、分支与合并操作。

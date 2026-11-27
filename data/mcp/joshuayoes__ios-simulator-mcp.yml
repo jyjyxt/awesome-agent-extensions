@@ -1,0 +1,11 @@
+name: iOS Simulator MCP
+repo: https://github.com/joshuayoes/ios-simulator-mcp
+category: frontend-design
+official: false
+agents: [universal]
+tags: [ios, simulator, mobile, xcode]
+install:
+  npx: npx -y ios-simulator-mcp
+description:
+  en: MCP server for inspecting UI trees, tapping elements, taking screenshots, and automating Apple iOS Simulator sessions.
+  zh: 用于操控 Apple iOS 模拟器的 MCP 服务器，支持 UI 树检查、点击交互、截图与移动端自动化调试。

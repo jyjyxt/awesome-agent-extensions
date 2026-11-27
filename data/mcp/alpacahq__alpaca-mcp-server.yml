@@ -1,0 +1,11 @@
+name: Alpaca MCP Server
+repo: https://github.com/alpacahq/alpaca-mcp-server
+category: data-research
+official: true
+agents: [universal]
+tags: [official, finance, trading, stocks, crypto]
+install:
+  uvx: uvx alpaca-mcp-server
+description:
+  en: Official Alpaca MCP server enabling AI agents to fetch real-time market data and trade stocks, ETFs, options, and crypto.
+  zh: Alpaca 官方 MCP 服务器，支持 AI Agent 获取实时行情数据并操作股票、ETF、期权与加密货币交易接口。

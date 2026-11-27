@@ -1,0 +1,11 @@
+name: Microsoft Clarity MCP
+repo: https://github.com/microsoft/clarity-mcp-server
+category: content-marketing
+official: true
+agents: [universal]
+tags: [official, analytics, ux, clarity]
+install:
+  npx: "npx -y @microsoft/clarity-mcp-server"
+description:
+  en: Official Microsoft Clarity MCP server for querying website UX analytics, traffic metrics, and behavioral insights.
+  zh: 微软官方 Clarity MCP 服务器，用于查询网站用户体验分析、流量指标与行为洞察数据。

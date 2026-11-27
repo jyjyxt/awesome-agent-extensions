@@ -1,0 +1,9 @@
+name: BrowserAct Skills
+repo: https://github.com/browser-act/skills
+category: frontend-design
+official: true
+agents: [universal, claude-code]
+tags: [official, browser, automation, anti-bot]
+description:
+  en: Official BrowserAct agent skills and CLI workflows for browser automation, handling anti-bot checks, and web data tasks.
+  zh: BrowserAct 官方浏览器自动化技能集，支持复杂网页交互、数据采集与任务接管。

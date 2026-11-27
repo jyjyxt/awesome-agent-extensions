@@ -1,0 +1,10 @@
+name: AI Maestro Plugins
+repo: https://github.com/23blocks-OS/ai-maestro-plugins
+category: orchestration
+official: false
+agents: [claude-code, universal]
+includes: [skills, subagents]
+tags: [personas, skills, messaging, plugins]
+description:
+  en: Plugin bundle for AI Maestro shipping 150+ agent personalities, core skills, identity management, and agent-to-agent messaging.
+  zh: AI Maestro 官方插件合集，包含 150+ 角色人格、核心技能、身份管理与代理间消息协作能力。

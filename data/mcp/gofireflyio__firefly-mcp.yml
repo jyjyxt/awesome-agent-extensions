@@ -1,0 +1,9 @@
+name: Firefly MCP
+repo: https://github.com/gofireflyio/firefly-mcp
+category: cloud-devops
+official: true
+agents: [universal]
+tags: [official, iac, terraform, cloud-assets]
+description:
+  en: Official Firefly MCP server enabling AI agents to discover cloud assets, detect drift, and codify infrastructure as code.
+  zh: Firefly 官方 MCP 服务器，支持 AI Agent 盘点云资产、检测配置漂移并生成基础设施即代码（IaC）。

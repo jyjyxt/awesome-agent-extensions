@@ -1,0 +1,9 @@
+name: Recommerce Skills
+repo: https://github.com/budna-marketplace/recommerce
+category: data-research
+official: true
+agents: [universal, claude-code]
+tags: [shopping, price-comparison, recommerce]
+description:
+  en: Agent skills for searching and comparing prices across new and pre-owned items in recommerce marketplaces.
+  zh: 面向二手与新品比价检索的 Agent 技能包，支持跨平台商品检索与价格对比。

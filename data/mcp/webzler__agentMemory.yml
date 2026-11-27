@@ -1,0 +1,9 @@
+name: agentMemory MCP
+repo: https://github.com/webzler/agentMemory
+category: orchestration
+official: false
+agents: [universal]
+tags: [memory, zero-config, cline, mcp]
+description:
+  en: Zero-config local MCP memory server for coding agents (Claude Code, Cline, RooCode, Cursor) to retain project context.
+  zh: 零配置的本地 MCP 记忆服务器，适配 Claude Code、Cline、RooCode 与 Cursor 以持久保留项目上下文。

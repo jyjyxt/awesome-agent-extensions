@@ -1,0 +1,9 @@
+name: Structured Thinking Skills
+repo: https://github.com/ysskrishna/ai-agent-skills
+category: productivity
+official: false
+agents: [universal, claude-code]
+tags: [brainstorming, decision-support, systems-thinking]
+description:
+  en: Collection of structured thinking skills for AI agents covering brainstorming, decision analysis, and systems thinking.
+  zh: 面向 AI Agent 的结构化思维技能集合，覆盖头脑风暴、决策分析与系统性思考框架。

@@ -1,0 +1,10 @@
+name: PostgreSQL AI Guide
+repo: https://github.com/timescale/pg-aiguide
+category: cloud-devops
+official: true
+agents: [claude-code, universal]
+includes: [mcp, skills]
+tags: [official, postgres, timescale, database]
+description:
+  en: Official Timescale MCP server and Claude plugin providing PostgreSQL skills, versioned documentation, and best practices.
+  zh: Timescale 官方 PostgreSQL MCP 与 Claude 插件，提供权威 Postgres 技能、版本文档与查询最佳实践。

@@ -1,0 +1,9 @@
+name: Deja Vu MCP
+repo: https://github.com/vshulcz/deja-vu
+category: orchestration
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [memory, session-history, local, mcp]
+description:
+  en: Local MCP memory layer and session history search for Claude Code, Codex, and Cursor to recall past solutions across sessions.
+  zh: 面向 Claude Code、Codex 与 Cursor 的本地 MCP 记忆层，支持跨会话历史检索与经验复用。

@@ -1,0 +1,10 @@
+name: GuardLink
+repo: https://github.com/Bugb-Technologies/guardlink
+category: security
+official: false
+agents: [universal, claude-code]
+includes: [mcp, skills]
+tags: [security, threat-modeling, annotations, mcp]
+description:
+  en: AI-maintained security annotations and MCP tooling for continuous threat modeling and security boundary enforcement in codebases.
+  zh: AI 驱动的代码安全注解与 MCP 工具链，用于在代码库中持续进行威胁建模与安全边界校验。

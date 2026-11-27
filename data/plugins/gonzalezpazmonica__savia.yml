@@ -1,0 +1,10 @@
+name: Savia
+repo: https://github.com/gonzalezpazmonica/savia
+category: orchestration
+official: false
+agents: [claude-code, universal]
+includes: [skills, subagents]
+tags: [governance, workflow, multi-agent, pm]
+description:
+  en: Vendor-independent agentic framework for governing and executing software engineering and project management workflows.
+  zh: 不绑定厂商的工程治理与任务编排 Agent 套件，覆盖软件开发与项目管理全流程。

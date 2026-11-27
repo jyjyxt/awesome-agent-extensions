@@ -1,0 +1,10 @@
+name: Sentry Agentic Toolkit
+repo: https://github.com/getsentry/toolkit
+category: cloud-devops
+official: true
+agents: [universal, claude-code]
+includes: [mcp, skills]
+tags: [official, sentry, debugging, observability]
+description:
+  en: Official Sentry agentic tooling combining MCP capabilities and skills for diagnosing production errors and tracing regressions.
+  zh: Sentry 官方 Agent 工具套件，融合 MCP 与技能用于排查线上报错、堆栈追踪与回归定位。

@@ -1,0 +1,10 @@
+name: Loki Mode
+repo: https://github.com/asklokesh/loki-mode
+category: orchestration
+official: false
+agents: [claude-code, codex, gemini-cli]
+includes: [skills, subagents]
+tags: [autonomous, multi-agent, software-factory, workflow]
+description:
+  en: Autonomous multi-agent software factory plugin that takes a GitHub issue, spec, or task and orchestrates end-to-end delivery.
+  zh: 自主多 Agent 软件工厂插件，接收 GitHub Issue 或需求文档后端到端编排规划、编码、测试与交付。

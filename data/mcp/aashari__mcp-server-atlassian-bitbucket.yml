@@ -1,0 +1,11 @@
+name: Atlassian Bitbucket MCP
+repo: https://github.com/aashari/mcp-server-atlassian-bitbucket
+category: coding
+official: false
+agents: [universal]
+tags: [bitbucket, atlassian, git, pr]
+install:
+  npx: "npx -y @aashari/mcp-server-atlassian-bitbucket"
+description:
+  en: MCP server for Atlassian Bitbucket enabling AI agents to browse repositories, review pull requests, and inspect commits.
+  zh: 面向 Atlassian Bitbucket 的 MCP 服务器，支持 AI Agent 浏览代码仓库、评审 PR 与查看提交历史。

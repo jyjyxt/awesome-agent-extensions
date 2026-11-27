@@ -1,0 +1,11 @@
+name: mcp-remote
+repo: https://github.com/punkpeye/mcp-remote
+category: marketplaces-tooling
+official: false
+agents: [universal]
+tags: [mcp, proxy, oauth, stdio]
+install:
+  npx: npx -y mcp-remote
+description:
+  en: Bridge tool allowing local stdio-only MCP clients to connect seamlessly to remote HTTP/SSE MCP servers with OAuth support.
+  zh: MCP 协议桥接工具，让仅支持本地 stdio 的 MCP 客户端也能通过 OAuth 连接远程 HTTP/SSE MCP 服务器。

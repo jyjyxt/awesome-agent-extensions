@@ -1,0 +1,11 @@
+name: n8n MCP
+repo: https://github.com/czlonkowski/n8n-mcp
+category: orchestration
+official: false
+agents: [universal]
+tags: [n8n, workflow, automation, mcp]
+install:
+  npx: npx -y n8n-mcp
+description:
+  en: MCP server enabling Claude, Cursor, and other AI agents to search nodes, inspect schemas, and build or operate n8n automation workflows.
+  zh: 面向 n8n 的 MCP 服务器，支持 AI Agent 检索节点文档、校验参数并构建或运行 n8n 自动化工作流。

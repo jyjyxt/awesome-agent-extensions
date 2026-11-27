@@ -1,0 +1,10 @@
+name: AI Research SKILLs
+repo: https://github.com/Orchestra-Research/AI-Research-SKILLs
+category: data-research
+official: false
+featured: true
+agents: [universal, claude-code]
+tags: [ml, ai-research, training, evaluation]
+description:
+  en: Comprehensive open-source library of AI research and ML engineering skills covering fine-tuning, RLHF, inference, and evaluation.
+  zh: 全面的开源 AI 科研与机器学习工程技能库，覆盖模型微调、RLHF、推理优化与评测实验。

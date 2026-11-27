@@ -1,0 +1,9 @@
+name: Eval Genius
+repo: https://github.com/alexgreensh/eval-genius
+category: coding
+official: false
+agents: [universal, claude-code]
+tags: [evals, benchmarks, llm-testing, quality]
+description:
+  en: Agent skill for designing practical LLM evaluations and benchmarks—knowing when evals are needed and how to measure regressions.
+  zh: 面向 AI 应用的评测设计技能，指导 Agent 判断何时需要 Eval、如何搭建基准测试与回归度量。

@@ -1,0 +1,10 @@
+name: AI Maestro
+repo: https://github.com/23blocks-OS/ai-maestro
+category: orchestration
+official: false
+agents: [claude-code, universal]
+includes: [skills, subagents]
+tags: [orchestrator, memory, skills, multi-agent]
+description:
+  en: AI agent orchestrator with a modular skills system, persistent memory search, and inter-agent messaging for terminal agents.
+  zh: 带模块化技能系统、持久化记忆检索与跨代理通信的 AI Agent 编排器。

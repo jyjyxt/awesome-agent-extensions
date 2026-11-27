@@ -1,0 +1,11 @@
+name: Notion MCP Server
+repo: https://github.com/makenotion/notion-mcp-server
+category: productivity
+official: true
+agents: [universal]
+tags: [official, notion, docs, knowledge-base]
+install:
+  npx: "npx -y @notionhq/notion-mcp-server"
+description:
+  en: Official Notion MCP server enabling AI agents to search, read, create, and update Notion pages and databases.
+  zh: Notion 官方 MCP 服务器，支持 AI Agent 检索、读取、创建并更新 Notion 页面与数据库。

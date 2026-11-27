@@ -1,0 +1,11 @@
+name: Google Workspace MCP
+repo: https://github.com/taylorwilsdon/google_workspace_mcp
+category: productivity
+official: false
+agents: [universal]
+tags: [google-workspace, gmail, calendar, drive, docs]
+install:
+  uvx: uvx workspace-mcp
+description:
+  en: Full-featured MCP server for controlling Gmail, Google Calendar, Drive, Docs, Sheets, Slides, Chat, Forms, and Tasks.
+  zh: 功能完善的 Google Workspace MCP 服务器，覆盖 Gmail、日历、云盘、文档、表格、幻灯片与任务管理。

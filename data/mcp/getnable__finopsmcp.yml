@@ -1,0 +1,9 @@
+name: FinOps MCP
+repo: https://github.com/getnable/finopsmcp
+category: cloud-devops
+official: true
+agents: [universal]
+tags: [finops, cloud-cost, aws, billing]
+description:
+  en: Headless FinOps MCP layer giving AI agents API-first visibility and cost control across cloud infrastructure spend.
+  zh: 面向云成本治理的无头 FinOps MCP 服务，为 AI Agent 提供云账单分析与资源成本优化能力。

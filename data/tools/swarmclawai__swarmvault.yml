@@ -1,0 +1,9 @@
+name: SwarmVault
+repo: https://github.com/swarmclawai/swarmvault
+category: data-research
+official: false
+agents: [universal, claude-code]
+tags: [knowledge-graph, rag, wiki, local-first]
+description:
+  en: Local-first LLM wiki and knowledge graph builder providing a structured RAG knowledge base for AI agents.
+  zh: 本地优先的 LLM Wiki 与知识图谱构建工具，为 AI Agent 提供结构化 RAG 知识库。

@@ -1,0 +1,11 @@
+name: SearXNG MCP
+repo: https://github.com/ihor-sokoliuk/mcp-searxng
+category: data-research
+official: false
+agents: [universal]
+tags: [search, searxng, privacy, web]
+install:
+  npx: npx -y mcp-searxng
+description:
+  en: Privacy-first web search MCP server powered by self-hosted SearXNG instances for Claude, Cursor, and other MCP clients.
+  zh: 基于自建 SearXNG 的隐私优先联网搜索 MCP 服务器，适配 Claude、Cursor 等主流 MCP 客户端。

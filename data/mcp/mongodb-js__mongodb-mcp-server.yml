@@ -1,0 +1,11 @@
+name: MongoDB MCP Server
+repo: https://github.com/mongodb-js/mongodb-mcp-server
+category: cloud-devops
+official: true
+agents: [universal]
+tags: [official, mongodb, atlas, database]
+install:
+  npx: npx -y mongodb-mcp-server
+description:
+  en: Official MongoDB MCP server for querying collections, inspecting schemas, and managing MongoDB Atlas deployments.
+  zh: MongoDB 官方 MCP 服务器，支持 AI Agent 查询集合、分析数据结构并管理 MongoDB Atlas 集群。

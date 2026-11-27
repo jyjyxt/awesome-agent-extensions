@@ -1,0 +1,9 @@
+name: MCP Server Playwright
+repo: https://github.com/VikashLoomba/MCP-Server-Playwright
+category: frontend-design
+official: false
+agents: [universal]
+tags: [playwright, browser, automation]
+description:
+  en: Lightweight Playwright MCP server for browser navigation, form interaction, DOM inspection, and automated screenshots.
+  zh: 轻量级 Playwright MCP 服务器，支持浏览器导航、表单交互、DOM 检查与自动截图。

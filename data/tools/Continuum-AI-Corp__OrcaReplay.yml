@@ -1,0 +1,9 @@
+name: OrcaReplay
+repo: https://github.com/Continuum-AI-Corp/OrcaReplay
+category: coding
+official: false
+agents: [universal, claude-code]
+tags: [debugging, replay, time-travel, mcp]
+description:
+  en: Time-travel debugging and MCP tooling for AI agents—record, replay, fork, and inspect multi-step agent runs.
+  zh: 面向 AI Agent 的时光机调试与 MCP 工具，支持录制、回放、分叉与排查多步 Agent 执行过程。

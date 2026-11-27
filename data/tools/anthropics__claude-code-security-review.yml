@@ -1,0 +1,9 @@
+name: Claude Code Security Review
+repo: https://github.com/anthropics/claude-code-security-review
+category: security
+official: true
+agents: [claude-code]
+tags: [official, security, github-action, code-review]
+description:
+  en: Official Anthropic GitHub Action using Claude to automatically analyze pull requests for security vulnerabilities.
+  zh: Anthropic 官方安全审计 GitHub Action，使用 Claude 自动分析 Pull Request 中的潜在安全漏洞。

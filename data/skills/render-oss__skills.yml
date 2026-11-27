@@ -1,0 +1,9 @@
+name: Render Agent Skills
+repo: https://github.com/render-oss/skills
+category: cloud-devops
+official: true
+agents: [universal, claude-code]
+tags: [official, render, deployment, cloud]
+description:
+  en: Official Render agent skills for deploying, configuring, and troubleshooting web services and databases on Render.
+  zh: Render 官方 Agent 技能包，用于在 Render 平台上部署、配置与排查 Web 服务和托管数据库。

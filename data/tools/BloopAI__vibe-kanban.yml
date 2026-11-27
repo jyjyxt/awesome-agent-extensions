@@ -1,0 +1,10 @@
+name: Vibe Kanban
+repo: https://github.com/BloopAI/vibe-kanban
+category: orchestration
+official: false
+featured: true
+agents: [claude-code, codex, universal]
+tags: [kanban, orchestration, worktrees, ui]
+description:
+  en: Visual Kanban orchestrator for running, monitoring, and reviewing parallel coding tasks across Claude Code, Codex, and other agents.
+  zh: 可视化看板编排工具，支持同时调度、监控并评审 Claude Code、Codex 等多个编码 Agent 的并行任务。

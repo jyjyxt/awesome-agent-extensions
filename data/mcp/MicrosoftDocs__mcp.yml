@@ -1,0 +1,9 @@
+name: Microsoft Learn MCP
+repo: https://github.com/MicrosoftDocs/mcp
+category: data-research
+official: true
+agents: [universal]
+tags: [official, microsoft, azure, docs]
+description:
+  en: Official Microsoft Learn MCP server and CLI providing AI agents with up-to-date Microsoft, Azure, and .NET documentation.
+  zh: 微软官方 Learn MCP 服务器与 CLI，为 AI Agent 提供最新的 Microsoft、Azure 与 .NET 官方技术文档检索。

@@ -1,0 +1,9 @@
+name: Trace MCP
+repo: https://github.com/nikolai-vysotskyi/trace-mcp
+category: coding
+official: false
+agents: [universal]
+tags: [code-intelligence, ast, static-analysis, mcp]
+description:
+  en: Framework-aware code intelligence MCP server supporting 90+ frameworks and 80+ languages for cross-file symbol tracing.
+  zh: 支持 90+ 框架与 80+ 编程语言的代码智能分析 MCP 服务器，用于跨文件符号追踪与架构理解。

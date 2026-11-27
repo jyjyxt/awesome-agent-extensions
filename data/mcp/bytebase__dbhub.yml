@@ -1,0 +1,11 @@
+name: DBHub MCP
+repo: https://github.com/bytebase/dbhub
+category: cloud-devops
+official: true
+agents: [universal]
+tags: [official, database, postgres, mysql, sql]
+install:
+  npx: "npx -y @bytebase/dbhub"
+description:
+  en: Token-conscious universal database MCP server supporting PostgreSQL, MySQL, SQL Server, Oracle, MariaDB, and SQLite.
+  zh: Bytebase 开源的通用数据库 MCP 服务器，节省上下文 Token，支持 PostgreSQL、MySQL、SQL Server、Oracle 与 SQLite。

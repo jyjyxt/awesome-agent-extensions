@@ -1,0 +1,11 @@
+name: Cloud Run MCP
+repo: https://github.com/GoogleCloudPlatform/cloud-run-mcp
+category: cloud-devops
+official: true
+agents: [universal]
+tags: [official, gcp, cloud-run, deployment]
+install:
+  npx: "npx -y @google-cloud/cloud-run-mcp"
+description:
+  en: Official Google Cloud MCP server allowing AI agents to build, deploy, and manage containerized applications on Cloud Run.
+  zh: Google Cloud 官方 Cloud Run MCP 服务器，支持 AI Agent 一键构建、部署并管理云端容器服务。

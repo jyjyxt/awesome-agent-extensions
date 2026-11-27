@@ -1,0 +1,11 @@
+name: Playwright MCP (ExecuteAutomation)
+repo: https://github.com/executeautomation/mcp-playwright
+category: frontend-design
+official: false
+agents: [universal]
+tags: [playwright, browser, testing, api]
+install:
+  npx: "npx -y @executeautomation/playwright-mcp-server"
+description:
+  en: Community Playwright MCP server for browser automation, screenshot capture, codegen, and API testing from AI agents.
+  zh: 社区版 Playwright MCP 服务器，支持 AI Agent 驱动浏览器自动化、截图、测试代码生成与接口测试。

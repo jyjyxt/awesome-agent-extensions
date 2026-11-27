@@ -1,0 +1,9 @@
+name: WebMCP
+repo: https://github.com/webmachinelearning/webmcp
+category: marketplaces-tooling
+official: true
+agents: [universal]
+tags: [official, w3c, web, mcp, spec]
+description:
+  en: W3C Web Machine Learning Community Group specification enabling websites to expose structured MCP tools directly to browser agents.
+  zh: W3C WebML 社区组标准规范，让网页原生向浏览器侧 AI Agent 暴露结构化 MCP 工具接口。

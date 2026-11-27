@@ -1,0 +1,11 @@
+name: Firecrawl MCP Server
+repo: https://github.com/firecrawl/firecrawl-mcp-server
+category: data-research
+official: true
+agents: [universal]
+tags: [official, scraping, search, crawl]
+install:
+  npx: npx -y firecrawl-mcp
+description:
+  en: Official Firecrawl MCP server providing web search, scraping, crawling, and structured data extraction for AI agents.
+  zh: Firecrawl 官方 MCP 服务器，为 AI Agent 提供联网搜索、网页抓取、整站爬取与结构化数据抽取能力。

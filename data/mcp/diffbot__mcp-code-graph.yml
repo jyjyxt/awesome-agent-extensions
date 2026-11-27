@@ -1,0 +1,9 @@
+name: Code Graph MCP
+repo: https://github.com/diffbot/mcp-code-graph
+category: coding
+official: true
+agents: [universal]
+tags: [code-graph, ast, architecture, analysis]
+description:
+  en: MCP server by CodeGPT/Diffbot for codebase knowledge graph analysis, dependency exploration, and architecture visualization.
+  zh: 用于代码库知识图谱分析、依赖追踪与架构可视化的 MCP 服务器。

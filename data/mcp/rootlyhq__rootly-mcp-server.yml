@@ -1,0 +1,9 @@
+name: Rootly MCP Server
+repo: https://github.com/rootlyhq/rootly-mcp-server
+category: cloud-devops
+official: true
+agents: [universal]
+tags: [official, incident-management, sre, devops]
+description:
+  en: Official Rootly MCP server enabling AI agents to investigate incidents, query timelines, and assist SRE on-call workflows.
+  zh: Rootly 官方 MCP 服务器，支持 AI Agent 排查线上故障、查询事件时间线并辅助 SRE 应急响应。

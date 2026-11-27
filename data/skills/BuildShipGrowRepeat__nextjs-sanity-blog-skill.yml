@@ -1,0 +1,9 @@
+name: Next.js Sanity Blog Skill
+repo: https://github.com/BuildShipGrowRepeat/nextjs-sanity-blog-skill
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [nextjs, sanity, seo, blog]
+description:
+  en: Opinionated Claude Code skill for adding an SEO-first, translation-ready blog powered by Sanity CMS to Next.js apps.
+  zh: 面向 Next.js 项目的 Claude Code 技能，一键搭建 SEO 优先、支持多语言的 Sanity CMS 博客系统。

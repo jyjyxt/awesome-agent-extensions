@@ -1,0 +1,9 @@
+name: Chisle
+repo: https://github.com/JayPokale/Chisle
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [tokens, optimization, concise, yagni]
+description:
+  en: Skill and rule set that cuts AI coding agent token usage via terse responses, YAGNI-first coding, and lean tool habits.
+  zh: 面向编码 Agent 的 Token 省流技能与规范，通过精简输出、YAGNI 优先编码与高效工具调用降低成本。

@@ -1,0 +1,9 @@
+name: Colibird Local MCP
+repo: https://github.com/colibird-ai/local-mcp-releases
+category: productivity
+official: true
+agents: [universal]
+tags: [desktop, macos, windows, local]
+description:
+  en: Local desktop MCP server connecting Claude, ChatGPT, and Cursor to native Mac and Windows files and workflows.
+  zh: 本地桌面端 MCP 服务器，将 Claude、ChatGPT 与 Cursor 连接到 Mac 和 Windows 原生文件与工作流。

@@ -1,0 +1,9 @@
+name: Google Workspace CLI
+repo: https://github.com/googleworkspace/cli
+category: productivity
+official: false
+agents: [universal, claude-code]
+tags: [google-workspace, cli, skills, automation]
+description:
+  en: CLI and agent skill/command suite for automating Google Workspace APIs (Drive, Gmail, Docs, Sheets, Calendar, Admin) from terminals and agents.
+  zh: 面向终端与 AI Agent 的 Google Workspace CLI 及技能命令套件，覆盖云盘、邮件、文档、表格与管理接口。

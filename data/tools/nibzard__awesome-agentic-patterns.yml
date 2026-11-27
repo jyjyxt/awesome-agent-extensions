@@ -1,0 +1,9 @@
+name: Awesome Agentic Patterns
+repo: https://github.com/nibzard/awesome-agentic-patterns
+category: orchestration
+official: false
+agents: [universal]
+tags: [patterns, architecture, collection, reference]
+description:
+  en: Curated catalog of proven architectural and workflow patterns for building reliable production AI agents.
+  zh: 精选生产级 AI Agent 架构与工作流设计模式目录，汇总实战验证的工程模式。

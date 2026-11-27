@@ -1,0 +1,10 @@
+name: Ruflo (Claude Flow)
+repo: https://github.com/ruvnet/ruflo
+category: orchestration
+official: false
+agents: [claude-code, codex, universal]
+includes: [skills, mcp, subagents]
+tags: [swarm, orchestration, multi-agent, rag]
+description:
+  en: Multi-agent orchestration platform for Claude Code and Codex with coordinated agent swarms, memory, skills, and MCP integration.
+  zh: 面向 Claude Code 与 Codex 的多 Agent 蜂群编排平台，集成协同子代理、记忆层、技能系统与 MCP 工具。

@@ -1,0 +1,9 @@
+name: CC Safe Setup
+repo: https://github.com/yurukusa/cc-safe-setup
+category: security
+official: false
+agents: [claude-code]
+tags: [hooks, guardrails, safety, claude-code]
+description:
+  en: Pre-configured Claude Code safety hooks that intercept and block destructive shell and filesystem operations at the tool boundary.
+  zh: 开箱即用的 Claude Code 安全 Hook 套件，在工具调用边界拦截高危 Shell 与文件破坏性操作。

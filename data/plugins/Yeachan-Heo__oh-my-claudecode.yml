@@ -1,0 +1,11 @@
+name: Oh My ClaudeCode
+repo: https://github.com/Yeachan-Heo/oh-my-claudecode
+category: orchestration
+official: false
+featured: true
+agents: [claude-code]
+includes: [skills, subagents]
+tags: [multi-agent, teams, orchestration, claude-code]
+description:
+  en: Teams-first multi-agent orchestration plugin for Claude Code combining specialized subagents, skills, hooks, and parallel execution.
+  zh: 面向团队协作的 Claude Code 多 Agent 编排插件，整合专业子代理、技能、Hooks 与并行执行工作流。

@@ -1,0 +1,11 @@
+name: Jupyter MCP Server
+repo: https://github.com/datalayer/jupyter-mcp-server
+category: data-research
+official: false
+agents: [universal]
+tags: [jupyter, notebook, python, data-science]
+install:
+  uvx: uvx jupyter-mcp-server
+description:
+  en: MCP server for interacting with live Jupyter notebooks—executing cells, inspecting outputs, and automating data science workflows.
+  zh: 面向 Jupyter Notebook 的 MCP 服务器，支持 AI Agent 实时执行代码单元、读取输出并完成数据科学分析。

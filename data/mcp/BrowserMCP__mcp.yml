@@ -1,0 +1,11 @@
+name: Browser MCP
+repo: https://github.com/BrowserMCP/mcp
+category: frontend-design
+official: true
+agents: [universal]
+tags: [official, browser, automation, chrome-extension]
+install:
+  npx: "npx -y @browsermcp/mcp@latest"
+description:
+  en: MCP server and browser extension letting AI agents automate your local browser using existing sessions and profiles.
+  zh: 结合浏览器插件的 MCP 服务器，让 AI Agent 复用本地浏览器登录态完成网页操作与自动化任务。

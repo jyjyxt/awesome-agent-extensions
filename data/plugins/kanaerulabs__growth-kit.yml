@@ -1,0 +1,10 @@
+name: Growth Kit
+repo: https://github.com/kanaerulabs/growth-kit
+category: content-marketing
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [marketing, growth, content, seo]
+description:
+  en: Content marketing and growth automation plugin toolkit for Claude Code covering SEO, copywriting, and campaign workflows.
+  zh: 面向 Claude Code 的内容营销与增长自动化插件套件，覆盖 SEO、文案撰写与推广工作流。

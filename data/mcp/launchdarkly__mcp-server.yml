@@ -1,0 +1,9 @@
+name: LaunchDarkly MCP Server
+repo: https://github.com/launchdarkly/mcp-server
+category: cloud-devops
+official: true
+agents: [universal]
+tags: [official, feature-flags, release, devops]
+description:
+  en: Official LaunchDarkly MCP server for inspecting, creating, and managing feature flags and rollout rules from AI agents.
+  zh: LaunchDarkly 官方 MCP 服务器，支持 AI Agent 查询、创建与管理 Feature Flags 及灰度发布规则。

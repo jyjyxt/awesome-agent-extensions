@@ -1,0 +1,9 @@
+name: monday.com MCP
+repo: https://github.com/mondaycom/mcp
+category: productivity
+official: true
+agents: [universal]
+tags: [official, monday, project-management, boards]
+description:
+  en: Official monday.com MCP server giving AI agents secure access to boards, items, and project management workflows.
+  zh: monday.com 官方 MCP 服务器，让 AI Agent 安全读写项目看板、任务条目与团队协作流程。

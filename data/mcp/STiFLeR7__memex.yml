@@ -1,0 +1,9 @@
+name: Memex MCP
+repo: https://github.com/STiFLeR7/memex
+category: orchestration
+official: false
+agents: [claude-code, codex, universal]
+tags: [memory, hooks, engineering, mcp]
+description:
+  en: Open-source MCP server and hook service that preserves engineering decisions, context, and memory for Claude Code and Codex.
+  zh: 开源 MCP 服务器与 Hook 服务，用于持久化沉淀 Claude Code 与 Codex 的工程上下文与架构决策。

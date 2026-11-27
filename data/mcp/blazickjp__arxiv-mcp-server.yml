@@ -1,0 +1,11 @@
+name: arXiv MCP Server
+repo: https://github.com/blazickjp/arxiv-mcp-server
+category: data-research
+official: false
+agents: [universal]
+tags: [arxiv, academic, papers, research]
+install:
+  uvx: uvx arxiv-mcp-server
+description:
+  en: Local MCP server for academic literature research with arXiv paper search, download, LaTeX section reading, and BibTeX workflows.
+  zh: 面向学术文献研究的本地 arXiv MCP 服务器，支持论文检索、下载、LaTeX 章节解析与 BibTeX 管理。

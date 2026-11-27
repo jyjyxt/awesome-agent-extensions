@@ -1,0 +1,10 @@
+name: Google Agent Skills
+repo: https://github.com/google/skills
+category: cloud-devops
+official: true
+featured: true
+agents: [universal, gemini-cli, claude-code]
+tags: [official, google, cloud, skills]
+description:
+  en: Official Google repository of Agent Skills for building with Google Cloud, developer platforms, and Google technologies.
+  zh: Google 官方 Agent Skills 仓库，覆盖 Google Cloud 与各类 Google 开发者技术栈的标准技能。

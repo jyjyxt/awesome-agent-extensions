@@ -1,0 +1,10 @@
+name: OpenAI Skills Catalog
+repo: https://github.com/openai/skills
+category: coding
+official: true
+featured: true
+agents: [codex, universal]
+tags: [official, openai, codex, skills]
+description:
+  en: Official OpenAI Skills Catalog providing curated, reusable SKILL.md workflows and tools for Codex and compatible agents.
+  zh: OpenAI 官方维护的 Agent Skills 目录，为 Codex 及遵循开放标准的 Agent 提供精选可复用技能。

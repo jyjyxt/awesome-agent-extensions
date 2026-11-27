@@ -1,0 +1,11 @@
+name: Mermaid MCP
+repo: https://github.com/hustcc/mcp-mermaid
+category: content-marketing
+official: false
+agents: [universal]
+tags: [mermaid, diagrams, charts, visualization]
+install:
+  npx: npx -y mcp-mermaid
+description:
+  en: MCP server for dynamically generating and rendering Mermaid flowcharts, sequence diagrams, and architecture charts.
+  zh: 动态生成与渲染 Mermaid 流程图、时序图和架构图的 MCP 服务器。

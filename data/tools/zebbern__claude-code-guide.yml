@@ -1,0 +1,9 @@
+name: Claude Code Guide
+repo: https://github.com/zebbern/claude-code-guide
+category: marketplaces-tooling
+official: false
+agents: [claude-code]
+tags: [guide, commands, workflows, agents, skills]
+description:
+  en: Comprehensive community handbook covering Claude Code setup, slash commands, custom agents, skills, hooks, and workflow patterns.
+  zh: 全面的 Claude Code 社区实战指南，覆盖环境配置、斜杠命令、子代理、技能、Hooks 与最佳实践。

@@ -1,0 +1,9 @@
+name: Airtable Agent Skills
+repo: https://github.com/Airtable/skills
+category: productivity
+official: true
+agents: [universal, claude-code]
+tags: [official, airtable, database, no-code]
+description:
+  en: Official Airtable agent skills for working with Airtable bases, schemas, automations, and extensions.
+  zh: Airtable 官方 Agent 技能包，辅助操作 Airtable 数据表结构、自动化流程与扩展开发。

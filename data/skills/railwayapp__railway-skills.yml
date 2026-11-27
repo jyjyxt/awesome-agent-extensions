@@ -1,0 +1,9 @@
+name: Railway Agent Skills
+repo: https://github.com/railwayapp/railway-skills
+category: cloud-devops
+official: true
+agents: [universal, claude-code]
+tags: [official, railway, deployment, paas]
+description:
+  en: Official Railway agent skills for provisioning services, managing environments, inspecting logs, and deploying apps on Railway.
+  zh: Railway 官方 Agent 技能包，支持创建服务、管理环境变量、查看日志与一键部署云端应用。

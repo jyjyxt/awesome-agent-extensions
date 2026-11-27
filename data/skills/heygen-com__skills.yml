@@ -1,0 +1,9 @@
+name: HeyGen Agent Skills
+repo: https://github.com/heygen-com/skills
+category: content-marketing
+official: true
+agents: [universal, claude-code]
+tags: [official, video, avatar, heygen]
+description:
+  en: Official HeyGen AI agent skills for digital avatar creation and programmatic video production via the HeyGen v3 Video API.
+  zh: HeyGen 官方 AI Agent 技能包，支持通过 HeyGen v3 API 完成数字人创建与自动化视频制作。

@@ -1,0 +1,9 @@
+name: Milvus Agent Skill
+repo: https://github.com/zilliztech/milvus-skill
+category: data-research
+official: true
+agents: [universal, claude-code]
+tags: [official, milvus, vector-db, rag]
+description:
+  en: Official Zilliz agent skill teaching coding agents to build, index, and query Milvus vector databases with pymilvus.
+  zh: Zilliz 官方 Milvus 向量数据库技能，指导 Agent 使用 pymilvus 构建索引、检索与 RAG 应用。

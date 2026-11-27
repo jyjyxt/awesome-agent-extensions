@@ -1,0 +1,9 @@
+name: Redis MCP Server
+repo: https://github.com/redis/mcp-redis
+category: cloud-devops
+official: true
+agents: [universal]
+tags: [official, redis, cache, database]
+description:
+  en: Official Redis MCP server providing a natural-language interface for AI agents to query, manage, and inspect Redis data.
+  zh: Redis 官方 MCP 服务器，为 AI Agent 提供自然语言查询、缓存管理与 Redis 数据检视接口。

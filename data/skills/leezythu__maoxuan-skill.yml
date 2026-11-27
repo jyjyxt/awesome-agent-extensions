@@ -1,0 +1,9 @@
+name: Maoxuan Skill
+repo: https://github.com/leezythu/maoxuan-skill
+category: productivity
+official: false
+agents: [universal, claude-code]
+tags: [strategy, mental-models, decision-making, chinese]
+description:
+  en: Chinese strategic thinking and decision-making skill distilling core mental models and heuristics for problem analysis.
+  zh: 毛选思维框架中文决策技能，提炼核心心智模型与决策启发式方法用于复杂问题分析与策略制定。

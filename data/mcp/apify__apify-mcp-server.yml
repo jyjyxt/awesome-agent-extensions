@@ -1,0 +1,11 @@
+name: Apify MCP Server
+repo: https://github.com/apify/apify-mcp-server
+category: data-research
+official: true
+agents: [universal]
+tags: [official, scraping, actors, web-data]
+install:
+  npx: "npx -y @apify/actors-mcp-server"
+description:
+  en: Official Apify MCP server giving AI agents access to thousands of Actors for web scraping, crawling, and structured data extraction.
+  zh: Apify 官方 MCP 服务器，让 Agent 直接调用数千个 Apify Actors 完成网页抓取、社媒与电商数据采集。

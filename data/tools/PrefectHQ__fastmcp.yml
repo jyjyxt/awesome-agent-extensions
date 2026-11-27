@@ -1,0 +1,10 @@
+name: FastMCP
+repo: https://github.com/PrefectHQ/fastmcp
+category: marketplaces-tooling
+official: true
+featured: true
+agents: [universal]
+tags: [official, python, mcp, sdk, framework]
+description:
+  en: The standard Python framework for rapidly building production-ready Model Context Protocol (MCP) servers and clients.
+  zh: Python 生态主流 MCP 开发框架，用于快速构建生产级 Model Context Protocol 服务器与客户端。

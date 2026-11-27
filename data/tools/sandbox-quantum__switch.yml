@@ -1,0 +1,9 @@
+name: Switch AI Teammates
+repo: https://github.com/sandbox-quantum/switch
+category: productivity
+official: false
+agents: [universal]
+tags: [slack, teams, discord, telegram, teammates]
+description:
+  en: Open-source bridge that brings AI coding and workflow teammates into Slack, Teams, Discord, Telegram, and Mattermost.
+  zh: 开源协作桥接工具，将 AI 工程与办公代理直接接入 Slack、Teams、Discord、Telegram 与 Mattermost。

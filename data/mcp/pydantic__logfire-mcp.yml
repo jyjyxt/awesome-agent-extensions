@@ -1,0 +1,11 @@
+name: Pydantic Logfire MCP
+repo: https://github.com/pydantic/logfire-mcp
+category: cloud-devops
+official: true
+agents: [universal]
+tags: [official, observability, traces, opentelemetry]
+install:
+  uvx: uvx logfire-mcp
+description:
+  en: Official Pydantic Logfire MCP server letting AI agents query OpenTelemetry traces, exceptions, and production metrics.
+  zh: Pydantic 官方 Logfire MCP 服务器，支持 AI Agent 查询 OpenTelemetry 链路追踪、异常日志与线上指标。

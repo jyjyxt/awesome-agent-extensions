@@ -1,0 +1,9 @@
+name: DataLikers MCP
+repo: https://github.com/subzeroid/datalikers-mcp
+category: data-research
+official: true
+agents: [universal]
+tags: [instagram, tiktok, social-media, mcp]
+description:
+  en: Lightweight stdio MCP server exposing 29 Instagram and TikTok data extraction tools via the DataLikers API.
+  zh: 轻量级 stdio MCP 服务器，通过 DataLikers API 提供 29 个 Instagram 与 TikTok 社媒数据采集工具。

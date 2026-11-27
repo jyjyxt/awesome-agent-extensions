@@ -1,0 +1,9 @@
+name: Agentic Awesome Skills
+repo: https://github.com/sickn33/agentic-awesome-skills
+category: marketplaces-tooling
+official: false
+agents: [universal, claude-code, codex, cursor, gemini-cli]
+tags: [collection, skills, cross-agent, catalog]
+description:
+  en: Large community catalog of 3,000+ reusable AI agent skills compatible with Claude Code, Codex, Cursor, and Gemini CLI.
+  zh: 收录 3,000+ 可复用 AI Agent 技能的大型社区合集，兼容 Claude Code、Codex、Cursor 与 Gemini CLI。

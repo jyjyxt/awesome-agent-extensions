@@ -1,0 +1,9 @@
+name: npm-agentskills
+repo: https://github.com/onmax/npm-agentskills
+category: marketplaces-tooling
+official: false
+agents: [universal]
+tags: [npm, skills, discovery, cli]
+description:
+  en: Framework-agnostic CLI and utility for discovering, packaging, and exporting Agent Skills distributed via npm.
+  zh: 与框架无关的 Agent Skills 发现与导出工具，支持直接从 npm 包中提取和分发技能。

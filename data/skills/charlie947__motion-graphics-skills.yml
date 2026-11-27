@@ -1,0 +1,9 @@
+name: Launch Motion Graphics Skills
+repo: https://github.com/charlie947/motion-graphics-skills
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [motion-graphics, hyperframes, launch-video]
+description:
+  en: 13 code-first motion graphics skills for producing launch-grade product and marketing videos without After Effects.
+  zh: 13 个代码驱动的发布级动态图形技能，无需 AE 或视频生成模型即可制作产品宣传动效视频。

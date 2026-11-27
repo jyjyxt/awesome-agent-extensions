@@ -1,0 +1,10 @@
+name: WhatsApp Claude Plugin
+repo: https://github.com/Rich627/whatsapp-claude-plugin
+category: productivity
+official: false
+agents: [claude-code]
+includes: [mcp]
+tags: [whatsapp, voice-transcription, remote-approval, messaging]
+description:
+  en: WhatsApp channel plugin for Claude Code with voice transcription, remote tool approval, and access control over a linked device.
+  zh: 无需 Docker 与 API Key 的 WhatsApp 渠道插件，支持语音转写、远程工具审批与访问控制。

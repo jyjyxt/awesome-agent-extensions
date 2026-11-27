@@ -1,0 +1,10 @@
+name: Artideck
+repo: https://github.com/Innei/artideck
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [artboard, artifacts, whiteboard, design-docs]
+description:
+  en: Interactive decision artifacts plugin where your agent draws artboards, design docs, whiteboards, decks, and reports for you to pick and annotate.
+  zh: 面向编码 Agent 的交互式决策工件插件，让 Agent 生成画板、设计稿、白板与验证报告供你挑选批注并回传。

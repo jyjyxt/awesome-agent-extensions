@@ -1,0 +1,9 @@
+name: Claude Guardian
+repo: https://github.com/DUNHKpcc/Claude-Guardian
+category: security
+official: false
+agents: [claude-code, codex]
+tags: [account-safety, risk-prevention, network]
+description:
+  en: Account safety and risk assessment skill evaluating device, network environment, and usage patterns to prevent account bans.
+  zh: Claude 账号防封与风控自检技能，全面评估设备、网络环境与使用习惯以降低封号风险。

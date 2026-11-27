@@ -1,0 +1,10 @@
+name: Vibecosystem
+repo: https://github.com/vibeeval/vibecosystem
+category: orchestration
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [runtime, quality, memory, dashboard]
+description:
+  en: Profile-based coding runtime plugin with a lean core and opt-in modules for quality gates, context, memory, orchestration, and dashboards.
+  zh: 基于配置档案的模块化编程运行时插件，按需开启质量门禁、记忆、编排与看板模块。

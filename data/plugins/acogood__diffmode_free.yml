@@ -1,0 +1,10 @@
+name: DiffMode Growth Plays
+repo: https://github.com/acogood/diffmode_free
+category: content-marketing
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [growth-hacking, startups, competitor-analysis, saas]
+description:
+  en: Local startup guerrilla growth workflow generating competitor reads, buyer maps, and 7-9 low-budget tactical growth plays.
+  zh: 面向初创团队的本地游击增长插件，自动产出竞品分析、买家画像与 7–9 套低成本增长打法。

@@ -1,0 +1,9 @@
+name: Taishang Laojun Short-Video Skill
+repo: https://github.com/liuhaisi2026212-maker/taishang-laojun
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [douyin, xiaohongshu, short-video, copywriting]
+description:
+  en: Douyin and Xiaohongshu short-video creation skill covering benchmark teardowns, series planning, spoken scripts, titles, and de-AI polish.
+  zh: 太上老君·抖音/小红书短视频创作技能，覆盖对标拆解、系列选题、口播稿、标题与去 AI 味复盘。

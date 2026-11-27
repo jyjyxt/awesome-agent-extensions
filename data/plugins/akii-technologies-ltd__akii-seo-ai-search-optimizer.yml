@@ -1,0 +1,10 @@
+name: Akii SEO & AI Search Optimizer
+repo: https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer
+category: content-marketing
+official: true
+agents: [claude-code]
+includes: [skills, subagents]
+tags: [seo, aeo, geo, schema, llms-txt]
+description:
+  en: MIT-licensed Claude Code plugin with 12 skills, 5 agents, and 3 commands for SEO, AEO, and GEO audits, schema, and content planning.
+  zh: 开源的 SEO/AEO/GEO 优化插件，包含 12 个技能、5 个子代理与 3 个命令，覆盖站点审计、Schema 与内容规划。

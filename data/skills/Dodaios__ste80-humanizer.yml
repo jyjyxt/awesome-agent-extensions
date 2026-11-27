@@ -1,0 +1,9 @@
+name: STE80 Humanizer
+repo: https://github.com/Dodaios/ste80-humanizer
+category: content-marketing
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [humanizer, asd-ste100, technical-writing, editing]
+description:
+  en: Removes AI writing tells by rewriting prose toward ASD-STE100 Simplified Technical English for maximum clarity.
+  zh: 基于 ASD-STE100 简化技术英语规范改写文本、有效去除 AI 写作痕迹的润色技能。

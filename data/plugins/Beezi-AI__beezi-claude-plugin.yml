@@ -1,0 +1,10 @@
+name: Beezi Cost & Usage Plugin
+repo: https://github.com/Beezi-AI/beezi-claude-plugin
+category: productivity
+official: true
+agents: [claude-code]
+includes: [mcp]
+tags: [cost-tracking, analytics, token-usage, tickets]
+description:
+  en: Official Beezi plugin to track per-session AI coding costs in Claude Code, summarize personal usage, and draft tickets.
+  zh: Beezi 官方插件，用于追踪 Claude Code 单会话成本、生成个人用量摘要并一键起草工单。

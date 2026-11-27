@@ -1,0 +1,9 @@
+name: StyleSeed
+repo: https://github.com/bitjaru/styleseed
+category: frontend-design
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [design-engine, anti-slop, palettes, ui]
+description:
+  en: Design-method engine skill with 22 internal workflows for semantic color palettes, visual grammars, and anti-slop UI judgment.
+  zh: 内置 22 条内部设计工作流的开源 UI 设计引擎技能，提供语义配色、视觉语法与反同质化审美判断。

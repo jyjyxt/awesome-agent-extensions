@@ -1,0 +1,10 @@
+name: Operator Memory
+repo: https://github.com/aerovato/operator-memory
+category: orchestration
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [memory, context-engine, self-improving]
+description:
+  en: Self-improving context and memory engine plugin that distills recurring operator lessons for coding agents.
+  zh: 持续自我进化的编程 Agent 上下文与记忆引擎插件。

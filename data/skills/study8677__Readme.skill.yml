@@ -1,0 +1,9 @@
+name: Readme.skill
+repo: https://github.com/study8677/Readme.skill
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [github-profile, svg, stats, local-first]
+description:
+  en: 100% local read-only skill turning Claude Code and Codex CLI history into an anonymized AI-native developer profile and SVG poster.
+  zh: 纯本地只读技能，将 Claude Code / Codex 历史记录生成脱敏的 AI 原生开发者画像与 SVG 海报。

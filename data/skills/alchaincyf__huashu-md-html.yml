@@ -1,0 +1,9 @@
+name: Huashu MD-HTML Pipeline
+repo: https://github.com/alchaincyf/huashu-md-html
+category: content-marketing
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [markdown, html, pandoc, conversion]
+description:
+  en: Bidirectional Markdown and HTML conversion skill wrapping MarkItDown, Pandoc, and Trafilatura with 4 anti-AI-slop visual themes.
+  zh: 万物转 MD、MD 转精美 HTML、HTML 转 MD 的一站式双向文档流水线技能，内置 4 套反 AI 味主题。

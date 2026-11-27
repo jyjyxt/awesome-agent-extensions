@@ -1,0 +1,10 @@
+name: Claude Elixir & Phoenix
+repo: https://github.com/oliver-kriska/claude-elixir-phoenix
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills, subagents, mcp]
+tags: [elixir, phoenix, liveview, tidewave]
+description:
+  en: Elixir, Phoenix, and LiveView plugin bundling 26 specialist agents, Iron Laws checks, and Tidewave MCP integration.
+  zh: 面向 Elixir/Phoenix/LiveView 开发的专精插件，集成 26 个专家子代理、铁律检查与 Tidewave MCP。

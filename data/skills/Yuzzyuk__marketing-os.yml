@@ -1,0 +1,9 @@
+name: Marketing OS
+repo: https://github.com/Yuzzyuk/marketing-os
+category: content-marketing
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [marketing, copywriting, cro, geo, ads]
+description:
+  en: 14-module marketing department skill featuring 0-100 audits, an 18-tactic hook engine, copy grading, ad diagnosis, GEO, and launches.
+  zh: 涵盖 14 大模块的全栈营销技能，内置百分制诊断、18 种钩子引擎、文案评分、广告排障与发布流程。

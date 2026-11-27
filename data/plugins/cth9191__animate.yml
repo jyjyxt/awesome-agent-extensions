@@ -1,0 +1,10 @@
+name: Procedural Canvas Animate
+repo: https://github.com/cth9191/animate
+category: content-marketing
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [animation, canvas, explainer-video, storyboard]
+description:
+  en: Procedural single-file HTML canvas video plugin with 7 built-in visual styles, reference matching, and storyboard check-ins.
+  zh: 程序化单文件 Canvas 动画视频插件，内置 7 套视觉风格并支持参考图匹配与分镜确认。

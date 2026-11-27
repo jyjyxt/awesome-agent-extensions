@@ -1,0 +1,10 @@
+name: Terminal Browser
+repo: https://github.com/zenbu-labs/terminal-browser
+category: frontend-design
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [browser, terminal, rust, web-automation]
+description:
+  en: Fast Rust-based real browser running directly inside your terminal with Claude Code and Codex plugin integration.
+  zh: 基于 Rust 构建的终端内置真实浏览器插件，让编程 Agent 直接在命令行中浏览与交互网页。

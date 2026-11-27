@@ -1,0 +1,9 @@
+name: PR Lens
+repo: https://github.com/coldteadotai/pr-lens
+category: coding
+official: false
+agents: [claude-code, codex, universal]
+tags: [code-visualization, architecture-diagrams, pr-review]
+description:
+  en: Visual code comprehension skill generating architecture and data-flow diagrams to speed up PR reviews and onboarding.
+  zh: 生成代码架构与数据流可视化图表的 PR 审查与代码理解加速技能。

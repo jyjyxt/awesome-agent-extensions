@@ -1,0 +1,10 @@
+name: Safe Anything
+repo: https://github.com/erkamyaman/safe-anything
+category: security
+official: false
+agents: [claude-code, codex, cursor]
+includes: [mcp, tools]
+tags: [devsecops, rust, vulnerability-scanner, secrets]
+description:
+  en: Fast Rust security scanner plugin and MCP detecting XSS, SQL injection, leaked secrets, dependency CVEs, and risky agent configs.
+  zh: 基于 Rust 的高速安全扫描插件与 MCP，自动检测 XSS、SQL 注入、密钥泄露、依赖漏洞与 Agent 配置风险。

@@ -1,0 +1,10 @@
+name: Octogent
+repo: https://github.com/hesamsheikh/octogent
+category: orchestration
+official: false
+agents: [claude-code, codex]
+includes: [skills, tools]
+tags: [dashboard, hooks, context, orchestration]
+description:
+  en: Lightweight orchestration dashboard and hooks layer over Claude Code for managing context, automation, and parallel sessions.
+  zh: 面向 Claude Code 的轻量级多会话编排看板与 Hooks 自动化插件。

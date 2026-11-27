@@ -1,0 +1,9 @@
+name: SE Ranking SEO Skills
+repo: https://github.com/seranking/seo-skills
+category: content-marketing
+official: true
+agents: [claude-code, universal]
+tags: [seo, geo, backlinks, seranking, mcp]
+description:
+  en: Official SE Ranking agent skills for content briefs, AI Search share of voice, site audits, backlink gaps, keyword clusters, and GEO.
+  zh: SE Ranking 官方 SEO 技能包，支持内容简报、AI 搜索声量分析、站点审计、外链差距与关键词聚类。

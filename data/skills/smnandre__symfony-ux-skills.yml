@@ -1,0 +1,9 @@
+name: Symfony UX Skills
+repo: https://github.com/smnandre/symfony-ux-skills
+category: frontend-design
+official: false
+agents: [claude-code, codex, gemini-cli, universal]
+tags: [symfony, php, turbo, stimulus, twig]
+description:
+  en: Specialized Symfony UX skills for Live Components, Twig Components, Turbo, Stimulus, UX Icons, and UX Map.
+  zh: 面向 Symfony UX 生态的专项技能集，覆盖 Live Component、Twig、Turbo 与 Stimulus 开发。

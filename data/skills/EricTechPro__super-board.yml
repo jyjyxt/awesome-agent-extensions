@@ -1,0 +1,9 @@
+name: Super Board
+repo: https://github.com/EricTechPro/super-board
+category: orchestration
+official: false
+agents: [claude-code]
+tags: [github-projects, qa, autonomous-loop]
+description:
+  en: Autonomous GitHub Projects build-QA-review execution loop skill for Claude Code with one-line install.
+  zh: 面向 GitHub Projects 的自主开发→测试→审查闭环执行技能，一行命令即可安装。

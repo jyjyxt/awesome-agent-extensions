@@ -1,0 +1,10 @@
+name: Claude Code 简体中文汉化插件
+repo: https://github.com/taekchef/claude-code-zh-cn
+category: productivity
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [chinese, i18n, localization, cli]
+description:
+  en: One-line Simplified Chinese localization plugin for Claude Code CLI across macOS, Linux, WSL, and Windows with auto-repair after updates.
+  zh: Claude Code CLI 简体中文汉化插件，支持 macOS/Linux/WSL/Windows，一行安装并在版本更新后自动修复。

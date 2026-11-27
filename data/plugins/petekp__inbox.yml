@@ -1,0 +1,10 @@
+name: Agent Inbox
+repo: https://github.com/petekp/inbox
+category: productivity
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [inbox, adhd-friendly, tasks, coordinator]
+description:
+  en: Session-side inbox plugin organizing outstanding questions, tasks, issues, and follow-ups cleanly alongside your coding agent.
+  zh: 会话侧边收件箱插件，将编程过程中的待办事项、遗留问题与跟进项井然有序地集中管理。

@@ -1,0 +1,10 @@
+name: Engram Learning Engine
+repo: https://github.com/nagisanzenin/engram
+category: productivity
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [learning, fsrs, spaced-repetition, curriculum]
+description:
+  en: Evidence-based learning plugin combining first-principles curricula, free-recall verification, FSRS spaced repetition, and interactive artifacts.
+  zh: 循证学习引擎插件，融合第一性原理课程、自由回忆检验、FSRS 间隔重复与可探索学习工件。

@@ -1,0 +1,10 @@
+name: Agent Formal Verify
+repo: https://github.com/michael-denyer/agent-formal-verify
+category: coding
+official: false
+agents: [claude-code, codex, opencode, antigravity]
+includes: [skills]
+tags: [formal-verification, tla+, lean, proofs]
+description:
+  en: Formal verification plugin bringing TLA+ model checking and Lean theorem proofs with guided tool setup to coding agents.
+  zh: 为编程 Agent 引入 TLA+ 模型检验与 Lean 形式化证明能力的跨端验证插件。

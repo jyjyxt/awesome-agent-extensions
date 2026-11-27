@@ -1,0 +1,9 @@
+name: Reticle Runtime Perception
+repo: https://github.com/reticlehq/reticle
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+tags: [testing, verification, web, desktop]
+description:
+  en: Machine-native runtime perception skill letting AI agents inspect live UI state and verify web and desktop apps they build.
+  zh: 为 AI Agent 提供机器原生运行时感知能力，精准检查与验证所构建的 Web 和桌面应用状态。

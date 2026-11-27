@@ -1,0 +1,9 @@
+name: Arena Tournament Skill
+repo: https://github.com/Jakeschincariol/arena-skill
+category: orchestration
+official: false
+agents: [claude-code]
+tags: [tournament, multi-agent, subagents, prompting]
+description:
+  en: Pit multiple subagent strategies against each other in an elimination bracket on hard tasks until one winning solution emerges.
+  zh: 多策略子代理淘汰赛技能，对难题并行尝试多种思路并逐轮评比，筛选出最优解。

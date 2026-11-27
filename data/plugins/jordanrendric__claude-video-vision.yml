@@ -1,0 +1,10 @@
+name: Claude Video Vision
+repo: https://github.com/jordanrendric/claude-video-vision
+category: content-marketing
+official: false
+agents: [claude-code]
+includes: [mcp]
+tags: [video-analysis, ffmpeg, multimodal, audio]
+description:
+  en: Claude Code plugin combining FFmpeg frame extraction and multimodal audio analysis so Claude can watch and understand video files.
+  zh: 结合 FFmpeg 抽帧与多模态音频分析的插件，赋予 Claude Code 观看与深度理解视频文件的能力。

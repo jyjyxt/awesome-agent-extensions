@@ -1,0 +1,10 @@
+name: SpriteCast
+repo: https://github.com/Sunghwan0112/spritecast
+category: frontend-design
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [gamedev, sprites, isometric, 3d-guided]
+description:
+  en: 3D-guided game sprite generator plugin producing isometric props and 8-direction walking characters matched to your exact camera angle.
+  zh: 3D 视角引导的游戏精灵图生成插件，按精确机位与美术风格生成道具与八方向行走角色序列帧。

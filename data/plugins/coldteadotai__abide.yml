@@ -1,0 +1,10 @@
+name: Abide Rule Enforcer
+repo: https://github.com/coldteadotai/abide
+category: coding
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [hooks, rules, compliance, code-quality]
+description:
+  en: Hooks and skills plugin ensuring coding agents strictly abide by every project convention and architectural rule.
+  zh: 通过 Hooks 与技能机制确保编程 Agent 严格遵守项目编码规范与架构约束的插件。

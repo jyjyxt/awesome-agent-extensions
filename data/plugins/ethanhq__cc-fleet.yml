@@ -1,0 +1,10 @@
+name: CC Fleet
+repo: https://github.com/ethanhq/cc-fleet
+category: orchestration
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [multi-model, deepseek, qwen, subagents, teams]
+description:
+  en: Run Claude Code dynamic workflows, agent teams, and subagents on third-party models like DeepSeek, GLM, Kimi, Qwen, or Codex.
+  zh: 让 Claude Code 的动态工作流、Agent 团队与子代理无缝接入 DeepSeek、GLM、Kimi、Qwen 或 Codex 等第三方模型。

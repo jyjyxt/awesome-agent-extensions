@@ -1,0 +1,9 @@
+name: Replica App-Clone Skill
+repo: https://github.com/Jakeschincariol/replica-skill
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [reverse-engineering, app-clone, indie-hacker]
+description:
+  en: 11 skills that reverse-engineer existing apps, rebuild them cleanly, test for bugs, and fix top user pain points.
+  zh: 包含 11 个步骤的竞品复刻与重构技能包：逆向拆解、重新实现、自动化测虫并改进用户痛点。

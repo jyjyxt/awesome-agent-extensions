@@ -1,0 +1,9 @@
+name: Answer Me With HTML
+repo: https://github.com/QingYunA/answer-me-with-html
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [html, diagrams, visualization, explainer]
+description:
+  en: Agent skill that turns complex technical answers into clean, readable single-page interactive HTML documents.
+  zh: 让 AI Agent 用结构清晰、美观可读的单页交互式 HTML 来回答复杂问题的技能。

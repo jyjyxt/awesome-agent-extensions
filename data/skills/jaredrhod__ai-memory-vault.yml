@@ -1,0 +1,9 @@
+name: AI Memory Vault
+repo: https://github.com/jaredrhod/ai-memory-vault
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [obsidian, memory, markdown, zero-db]
+description:
+  en: Zero-vector-database persistent working memory system turning any plain Markdown Obsidian vault into structured AI memory.
+  zh: 无需向量数据库的纯 Markdown 持久化工作记忆系统，将 Obsidian 仓库转化为 AI 长期记忆库。

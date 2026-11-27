@@ -1,0 +1,10 @@
+name: Antigravity for Claude Code
+repo: https://github.com/yuting0624/antigravity-for-claude-code
+category: orchestration
+official: false
+agents: [claude-code, antigravity, gemini-cli]
+includes: [subagents]
+tags: [antigravity, gemini, routing, sdlc]
+description:
+  en: Claude Code plugin running Google Antigravity CLI as a collaborating Gemini sub-agent with intelligent model routing across the SDLC.
+  zh: 将 Google Antigravity CLI 作为协作 Gemini 子代理接入 Claude Code 并按研发阶段智能路由模型的插件。

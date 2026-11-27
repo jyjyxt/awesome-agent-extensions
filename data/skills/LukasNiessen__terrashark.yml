@@ -1,0 +1,9 @@
+name: TerraShark
+repo: https://github.com/LukasNiessen/terrashark
+category: cloud-devops
+official: false
+agents: [claude-code, codex, universal]
+tags: [terraform, aws, azure, iac, security]
+description:
+  en: Anti-hallucination Terraform skill for Claude Code and Codex enforcing modular, secure AWS and Azure infrastructure code.
+  zh: 消除大模型 Terraform 幻觉的专项技能，输出模块化、安全合规的 AWS/Azure 基础设施代码。

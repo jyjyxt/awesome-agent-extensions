@@ -1,0 +1,9 @@
+name: Serenity Supply-Chain Stock Skill
+repo: https://github.com/fadewalk/serenity-stock-choke
+category: data-research
+official: false
+agents: [claude-code, codex, universal]
+tags: [stocks, supply-chain, a-stock, us-stock, hk-stock]
+description:
+  en: Zero-dependency equity research skill analyzing A-share, HK, and US stocks through supply-chain bottleneck theory.
+  zh: 基于供应链瓶颈理论分析 A 股、港股与美股“卡脖子”环节的零依赖选股研究技能。

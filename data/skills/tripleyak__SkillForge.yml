@@ -1,0 +1,9 @@
+name: SkillForge
+repo: https://github.com/tripleyak/SkillForge
+category: marketplaces-tooling
+official: false
+agents: [claude-code, codex, universal]
+tags: [skill-authoring, evals, regression-testing]
+description:
+  en: Evidence-driven skill creator featuring baseline-tested generation, per-skill regression evaluations, and ecosystem diagnostics.
+  zh: 证据驱动的 Agent Skill 创作与验证技能，内置基线测试生成、回归评测与生态健康检查。

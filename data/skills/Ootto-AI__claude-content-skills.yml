@@ -1,0 +1,9 @@
+name: Ootto Reels Content Skills
+repo: https://github.com/Ootto-AI/claude-content-skills
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [instagram-reels, notebooklm, short-form-video]
+description:
+  en: Content growth skills turning raw ideas and NotebookLM memory into scroll-stopping Instagram Reels scripts and hooks.
+  zh: 结合 NotebookLM 知识库与创意点子批量生成高留存 Instagram Reels 短视频脚本的技能。

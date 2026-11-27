@@ -1,0 +1,10 @@
+name: Prismantis Terminal Themes
+repo: https://github.com/NahumLitvin/prismantis
+category: productivity
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [terminal, themes, markdown, mermaid]
+description:
+  en: Themeable Claude Code terminal mod rendering colorful tables, code blocks, Mermaid diagrams, and charts across 15 themes with copy buttons.
+  zh: 支持 15 套配色的 Claude Code 终端美化插件，增强表格、代码、Mermaid 图表渲染并附一键复制按钮。

@@ -1,0 +1,10 @@
+name: DSH Bridge for Claude Code
+repo: https://github.com/cpj-dev/dsh-plugin-cc
+category: orchestration
+official: false
+agents: [claude-code, dsh]
+includes: [skills]
+tags: [deepseek-harness, bridge, code-review, delegation]
+description:
+  en: Bridge DeepSeek Harness into Claude Code for cross-model code review, critique, task delegation, and session import.
+  zh: 将 DeepSeek Harness 桥接到 Claude Code 的插件，支持跨模型审查、挑错、任务委派与会话导入。

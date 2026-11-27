@@ -1,0 +1,9 @@
+name: Flutter AI Skills & Rules
+repo: https://github.com/evanca/flutter-ai-rules
+category: frontend-design
+official: false
+agents: [claude-code, codex, cursor, antigravity]
+tags: [flutter, dart, mobile, rules]
+description:
+  en: Comprehensive Flutter and Dart architecture, state-management, and widget testing skills and rules for AI coding IDEs.
+  zh: 面向 Flutter 与 Dart 移动应用开发的跨端 AI 技能与工程规范包。

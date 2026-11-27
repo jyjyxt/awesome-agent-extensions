@@ -1,0 +1,9 @@
+name: Day Trader Skill
+repo: https://github.com/Jakeschincariol/day-trader-skill
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [trading, backtesting, stock-market, charts]
+description:
+  en: 11 day-trading skills to scan charts, track breaking news, time entries and exits, and replay outcomes via backtesting.
+  zh: 11 个日内交易分析技能，支持图表扫描、突发新闻追踪、买卖点评估与历史回放回测。

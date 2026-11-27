@@ -1,0 +1,10 @@
+name: OpenOSINT
+repo: https://github.com/OpenOSINT/OpenOSINT
+category: security
+official: false
+agents: [claude-code, universal]
+includes: [skills, mcp]
+tags: [osint, cybersecurity, attack-surface, passive-recon]
+description:
+  en: Passive-by-default OSINT plugin and MCP server bundling 21 keyless public-source reconnaissance tools behind natural-language chat.
+  zh: 免 API Key、默认被动侦察的开源 OSINT 插件与 MCP，整合 21 个公开情报与攻击面分析工具。

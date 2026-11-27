@@ -1,0 +1,10 @@
+name: ComfyUI Control Plane
+repo: https://github.com/artokun/comfyui-mcp
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+includes: [mcp, skills]
+tags: [comfyui, image-generation, video, local-first]
+description:
+  en: Local-first ComfyUI MCP server and 36-skill plugin to generate image/video/audio and author or edit live node graphs in natural language.
+  zh: 本地优先的 ComfyUI 控制面插件与 MCP 服务，内置 178 个工具与 36 个技能，用自然语言编排和运行生图/视频节点图。

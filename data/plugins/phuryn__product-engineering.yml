@@ -1,0 +1,10 @@
+name: Product Engineering Skills
+repo: https://github.com/phuryn/product-engineering
+category: coding
+official: false
+agents: [claude-code, codex, cursor, universal]
+includes: [skills]
+tags: [product-engineering, shipping, second-model-review]
+description:
+  en: 38 battle-tested product engineering skills covering feature scoping, implementation, second-model review, and release workflows.
+  zh: 从真实上线产品提炼的 38 个产品工程技能，覆盖需求决策、编码实现、双模型审查与发布流程。

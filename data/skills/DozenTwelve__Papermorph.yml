@@ -1,0 +1,9 @@
+name: Papermorph
+repo: https://github.com/DozenTwelve/Papermorph
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [books, animation, edtech, interactive]
+description:
+  en: AI skill transforming books and long documents into animated, narrated, interactive web reading experiences.
+  zh: 将书籍与长文转化为带动画、旁白与交互体验的网页学习产品的技能。

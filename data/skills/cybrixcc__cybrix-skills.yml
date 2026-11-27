@@ -1,0 +1,9 @@
+name: Cybrix Deploy Skills
+repo: https://github.com/cybrixcc/cybrix-skills
+category: cloud-devops
+official: true
+agents: [claude-code]
+tags: [deployment, hosting, devops, autodeploy]
+description:
+  en: Official Cybrix skills enabling automated deployment and hosting workflows directly from Claude Code.
+  zh: Cybrix 官方自动部署与托管技能包，支持在 Claude Code 中一键完成构建与上线发布。

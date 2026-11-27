@@ -1,0 +1,9 @@
+name: ReelBench Video Skills
+repo: https://github.com/eternityspring/reelbench-skills
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [ai-video, ffmpeg, shot-analysis, video-analysis]
+description:
+  en: AI video production and FFmpeg shot-analysis tooling skills for evaluating pacing, cuts, and visual storytelling.
+  zh: 面向 AI 视频制作的 FFmpeg 镜头分析与评测工具技能集。

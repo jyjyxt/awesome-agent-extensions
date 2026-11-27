@@ -1,0 +1,9 @@
+name: TasteMaker UI Skill
+repo: https://github.com/codeswithroh/tastemaker
+category: frontend-design
+official: false
+agents: [claude-code, codex, universal]
+tags: [ui-design, taste-profile, references, anti-slop]
+description:
+  en: Ground AI-generated UI in real visual reference images and a persistent per-developer taste profile instead of generic defaults.
+  zh: 基于真实参考图与持久化个人审美档案生成高辨识度前端 UI、拒绝通用模板味的技能。

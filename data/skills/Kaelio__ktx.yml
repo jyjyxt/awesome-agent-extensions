@@ -1,0 +1,9 @@
+name: ktx Analytics Context
+repo: https://github.com/Kaelio/ktx
+category: data-research
+official: true
+agents: [claude-code, codex, universal]
+tags: [analytics, bi, sql, data-engineering]
+description:
+  en: Executable semantic context layer enabling Claude Code and Codex to query analytical databases accurately with business definitions.
+  zh: 面向数据分析 Agent 的可执行语义上下文层，确保模型按真实业务口径准确查询分析型数据库。

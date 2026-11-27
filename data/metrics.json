@@ -17,6 +17,24 @@
     "archived": false,
     "license": null
   },
+  "24kchengye/human-skill-tree": {
+    "stars": 603,
+    "pushed_at": "2026-03-25",
+    "archived": false,
+    "license": null
+  },
+  "5m0k3/cache-maxxing": {
+    "stars": 91,
+    "pushed_at": "2026-11-21",
+    "archived": false,
+    "license": "MIT"
+  },
+  "a5c-ai/babysitter": {
+    "stars": 1940,
+    "pushed_at": "2026-11-01",
+    "archived": false,
+    "license": "MIT"
+  },
   "aaron-he-zhu/seo-geo-claude-skills": {
     "stars": 256,
     "pushed_at": "2026-09-04",
@@ -41,6 +59,12 @@
     "archived": false,
     "license": null
   },
+  "acogood/diffmode_free": {
+    "stars": 169,
+    "pushed_at": "2026-08-10",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
   "addyosmani/agent-skills": {
     "stars": 120614,
     "pushed_at": "2026-11-24",
@@ -59,6 +83,18 @@
     "archived": false,
     "license": null
   },
+  "aeonfun/soul.md": {
+    "stars": 717,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "MIT"
+  },
+  "aerovato/operator-memory": {
+    "stars": 528,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "BSD-3-Clause"
+  },
   "affaan-m/ecc": {
     "stars": 311338,
     "pushed_at": "2026-11-23",
@@ -71,6 +107,18 @@
     "archived": false,
     "license": null
   },
+  "agenticnotetaking/arscontexta": {
+    "stars": 3516,
+    "pushed_at": "2026-02-24",
+    "archived": false,
+    "license": "MIT"
+  },
+  "agentrq/agentrq": {
+    "stars": 1198,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "AGPL-3.0"
+  },
   "agents365-ai/drawio-skill": {
     "stars": 10961,
     "pushed_at": "2026-11-26",
@@ -82,6 +130,18 @@
     "pushed_at": "2026-08-06",
     "archived": false,
     "license": null
+  },
+  "agricidaniel/claude-blog": {
+    "stars": 2869,
+    "pushed_at": "2026-11-03",
+    "archived": false,
+    "license": "MIT"
+  },
+  "agricidaniel/claude-obsidian": {
+    "stars": 16788,
+    "pushed_at": "2026-10-25",
+    "archived": false,
+    "license": "MIT"
   },
   "agricidaniel/claude-seo": {
     "stars": 32669,
@@ -101,6 +161,36 @@
     "archived": false,
     "license": null
   },
+  "aiworkskills/wechat-article-skills": {
+    "stars": 773,
+    "pushed_at": "2026-09-23",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "akii-technologies-ltd/akii-seo-ai-search-optimizer": {
+    "stars": 80,
+    "pushed_at": "2026-11-13",
+    "archived": false,
+    "license": "MIT"
+  },
+  "akseolabs-seo/ak-threads-booster": {
+    "stars": 284,
+    "pushed_at": "2026-10-17",
+    "archived": false,
+    "license": "MIT"
+  },
+  "alchaincyf/darwin-skill": {
+    "stars": 7076,
+    "pushed_at": "2026-11-18",
+    "archived": false,
+    "license": "MIT"
+  },
+  "alchaincyf/elon-musk-skill": {
+    "stars": 587,
+    "pushed_at": "2026-11-15",
+    "archived": false,
+    "license": "MIT"
+  },
   "alchaincyf/huashu-art-motion": {
     "stars": 7762,
     "pushed_at": "2026-11-18",
@@ -113,15 +203,57 @@
     "archived": false,
     "license": null
   },
+  "alchaincyf/huashu-md-html": {
+    "stars": 949,
+    "pushed_at": "2026-11-15",
+    "archived": false,
+    "license": "MIT"
+  },
   "alchaincyf/huashu-motion": {
     "stars": 3235,
     "pushed_at": "2026-11-23",
     "archived": false,
     "license": null
   },
+  "alchaincyf/huashu-report": {
+    "stars": 511,
+    "pushed_at": "2026-11-15",
+    "archived": false,
+    "license": "MIT"
+  },
   "alchaincyf/nuwa-skill": {
     "stars": 39103,
     "pushed_at": "2026-11-21",
+    "archived": false,
+    "license": null
+  },
+  "alchaincyf/steve-jobs-skill": {
+    "stars": 988,
+    "pushed_at": "2026-11-15",
+    "archived": false,
+    "license": "MIT"
+  },
+  "alchaincyf/zhangxuefeng-skill": {
+    "stars": 10833,
+    "pushed_at": "2026-10-13",
+    "archived": false,
+    "license": "MIT"
+  },
+  "alexeyw/lot-map": {
+    "stars": 1186,
+    "pushed_at": "2026-11-22",
+    "archived": false,
+    "license": "MIT"
+  },
+  "alexgreensh/attention-span": {
+    "stars": 1617,
+    "pushed_at": "2026-10-30",
+    "archived": false,
+    "license": "AGPL-3.0"
+  },
+  "alexgreensh/token-optimizer": {
+    "stars": 3171,
+    "pushed_at": "2026-11-26",
     "archived": false,
     "license": null
   },
@@ -143,11 +275,29 @@
     "archived": false,
     "license": null
   },
+  "amap-ml/longhorizon-harness": {
+    "stars": 1894,
+    "pushed_at": "2026-11-11",
+    "archived": false,
+    "license": "MIT"
+  },
+  "ancoleman/ai-design-components": {
+    "stars": 534,
+    "pushed_at": "2025-12-11",
+    "archived": false,
+    "license": "MIT"
+  },
   "android/skills": {
     "stars": 10770,
     "pushed_at": "2026-11-23",
     "archived": false,
     "license": null
+  },
+  "andyhuo520/vibe-knowledge": {
+    "stars": 844,
+    "pushed_at": "2026-10-28",
+    "archived": false,
+    "license": "MIT"
   },
   "angular/skills": {
     "stars": 736,
@@ -160,6 +310,12 @@
     "pushed_at": "2026-10-13",
     "archived": false,
     "license": null
+  },
+  "anombyte93/prd-taskmaster": {
+    "stars": 613,
+    "pushed_at": "2026-11-04",
+    "archived": false,
+    "license": "MIT"
   },
   "ant-design/antd-skill": {
     "stars": 142,
@@ -197,11 +353,41 @@
     "archived": false,
     "license": null
   },
+  "ar9av/obsidian-wiki": {
+    "stars": 3826,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "MIT"
+  },
+  "ar9av/paperorchestra": {
+    "stars": 800,
+    "pushed_at": "2026-11-25",
+    "archived": false,
+    "license": null
+  },
+  "arbiterforge/codearbiter": {
+    "stars": 155,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "AGPL-3.0"
+  },
   "arjun988/blender-skills": {
     "stars": 5054,
     "pushed_at": "2026-11-06",
     "archived": false,
     "license": null
+  },
+  "artemnovitckii/claude-animation-skills": {
+    "stars": 1357,
+    "pushed_at": "2026-11-17",
+    "archived": false,
+    "license": null
+  },
+  "artokun/comfyui-mcp": {
+    "stars": 960,
+    "pushed_at": "2026-11-23",
+    "archived": false,
+    "license": "MIT"
   },
   "arvindrk/extract-design-system": {
     "stars": 321,
@@ -245,6 +431,18 @@
     "archived": false,
     "license": null
   },
+  "avijit07x/claude-db": {
+    "stars": 237,
+    "pushed_at": "2026-11-22",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "axtonliu/smart-illustrator": {
+    "stars": 575,
+    "pushed_at": "2026-06-26",
+    "archived": false,
+    "license": "MIT"
+  },
   "ayghri/i-have-adhd": {
     "stars": 62627,
     "pushed_at": "2026-11-25",
@@ -256,6 +454,30 @@
     "pushed_at": "2026-11-27",
     "archived": false,
     "license": null
+  },
+  "backnotprop/pstack": {
+    "stars": 5310,
+    "pushed_at": "2026-11-25",
+    "archived": false,
+    "license": "MIT"
+  },
+  "bayramannakov/claude-reflect": {
+    "stars": 1989,
+    "pushed_at": "2026-10-03",
+    "archived": false,
+    "license": "MIT"
+  },
+  "beezi-ai/beezi-claude-plugin": {
+    "stars": 63,
+    "pushed_at": "2026-11-20",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "beingsmit/technical-product-gtm": {
+    "stars": 50,
+    "pushed_at": "2026-03-20",
+    "archived": false,
+    "license": "MIT"
   },
   "benjitaylor/agentation": {
     "stars": 5489,
@@ -272,6 +494,36 @@
   "bergside/awesome-design-skills": {
     "stars": 3806,
     "pushed_at": "2026-06-28",
+    "archived": false,
+    "license": null
+  },
+  "bestagentkits/motion-video-skill": {
+    "stars": 157,
+    "pushed_at": "2026-09-28",
+    "archived": false,
+    "license": "MIT"
+  },
+  "bevibing/tutor-skills": {
+    "stars": 1429,
+    "pushed_at": "2026-02-28",
+    "archived": false,
+    "license": "MIT"
+  },
+  "bhanunamikaze/agentic-seo-skill": {
+    "stars": 1095,
+    "pushed_at": "2026-10-14",
+    "archived": false,
+    "license": "MIT"
+  },
+  "bitjaru/styleseed": {
+    "stars": 1064,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "MIT"
+  },
+  "bittersecurity/vigilo": {
+    "stars": 76,
+    "pushed_at": "2026-10-26",
     "archived": false,
     "license": null
   },
@@ -317,11 +569,23 @@
     "archived": false,
     "license": null
   },
+  "cabbage2000-lab/paper-tutor-skills": {
+    "stars": 55,
+    "pushed_at": "2026-11-04",
+    "archived": false,
+    "license": null
+  },
   "callstackincubator/agent-skills": {
     "stars": 1722,
     "pushed_at": "2026-10-08",
     "archived": false,
     "license": null
+  },
+  "camilleroux/genart-skill": {
+    "stars": 192,
+    "pushed_at": "2026-11-11",
+    "archived": false,
+    "license": "MIT"
   },
   "career-ops-hq/career-ops": {
     "stars": 85080,
@@ -335,6 +599,12 @@
     "archived": false,
     "license": null
   },
+  "caru-ini/stack-diagram": {
+    "stars": 2966,
+    "pushed_at": "2026-11-24",
+    "archived": false,
+    "license": "MIT"
+  },
   "cathrynlavery/diagram-design": {
     "stars": 73886,
     "pushed_at": "2026-11-26",
@@ -347,17 +617,41 @@
     "archived": false,
     "license": null
   },
+  "chanmeng666/echook": {
+    "stars": 91,
+    "pushed_at": "2026-11-17",
+    "archived": false,
+    "license": "MIT"
+  },
+  "charlie947/motion-graphics-skills": {
+    "stars": 832,
+    "pushed_at": "2026-10-11",
+    "archived": false,
+    "license": "MIT"
+  },
   "chengyi-ai/native-subtitle-quote-image": {
     "stars": 3010,
     "pushed_at": "2026-11-06",
     "archived": false,
     "license": null
   },
+  "chipfighter/context-attachment-manager": {
+    "stars": 829,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "MIT"
+  },
   "chrisbanes/skills": {
     "stars": 1166,
     "pushed_at": "2026-11-26",
     "archived": false,
     "license": null
+  },
+  "christian-katzmann/app-it": {
+    "stars": 217,
+    "pushed_at": "2026-11-02",
+    "archived": false,
+    "license": "MIT"
   },
   "chuspeeism/dashi-ppt-skill": {
     "stars": 11207,
@@ -389,11 +683,41 @@
     "archived": false,
     "license": null
   },
+  "codenamev/ai-software-architect": {
+    "stars": 81,
+    "pushed_at": "2026-11-20",
+    "archived": false,
+    "license": null
+  },
+  "codeswithroh/tastemaker": {
+    "stars": 627,
+    "pushed_at": "2026-10-11",
+    "archived": false,
+    "license": "MIT"
+  },
   "coji/natural-japanese": {
     "stars": 2088,
     "pushed_at": "2026-11-06",
     "archived": false,
     "license": null
+  },
+  "coldteadotai/abide": {
+    "stars": 634,
+    "pushed_at": "2026-10-10",
+    "archived": false,
+    "license": "MIT"
+  },
+  "coldteadotai/pr-lens": {
+    "stars": 2451,
+    "pushed_at": "2026-11-24",
+    "archived": false,
+    "license": "MIT"
+  },
+  "coltonjosephdean-rgb/talk-to-anyone": {
+    "stars": 71,
+    "pushed_at": "2026-07-07",
+    "archived": false,
+    "license": "MIT"
   },
   "community-access/accessibility-agents": {
     "stars": 456,
@@ -413,11 +737,23 @@
     "archived": false,
     "license": null
   },
+  "conorluddy/ios-simulator-skill": {
+    "stars": 1343,
+    "pushed_at": "2026-11-08",
+    "archived": false,
+    "license": "MIT"
+  },
   "coplaydev/unity-mcp": {
     "stars": 16216,
     "pushed_at": "2026-11-17",
     "archived": false,
     "license": null
+  },
+  "coreyhaines31/makerskills": {
+    "stars": 955,
+    "pushed_at": "2026-11-20",
+    "archived": false,
+    "license": "MIT"
   },
   "coreyhaines31/marketingskills": {
     "stars": 62862,
@@ -425,11 +761,47 @@
     "archived": false,
     "license": null
   },
+  "corezoid/corezoid-ai-plugin": {
+    "stars": 74,
+    "pushed_at": "2026-11-13",
+    "archived": false,
+    "license": "MIT"
+  },
+  "costiash/claude-code-docs": {
+    "stars": 58,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": null
+  },
+  "cpj-dev/dsh-plugin-cc": {
+    "stars": 105,
+    "pushed_at": "2026-08-27",
+    "archived": false,
+    "license": "MIT"
+  },
+  "cth9191/animate": {
+    "stars": 2316,
+    "pushed_at": "2026-10-05",
+    "archived": false,
+    "license": "MIT"
+  },
+  "cybrixcc/cybrix-skills": {
+    "stars": 50,
+    "pushed_at": "2026-05-06",
+    "archived": false,
+    "license": "MIT"
+  },
   "dadederk/ios-accessibility-agent-skill": {
     "stars": 177,
     "pushed_at": "2026-03-09",
     "archived": false,
     "license": null
+  },
+  "dagoste/squadra": {
+    "stars": 971,
+    "pushed_at": "2026-11-22",
+    "archived": false,
+    "license": "MIT"
   },
   "dammyjay93/interface-design": {
     "stars": 6041,
@@ -437,11 +809,23 @@
     "archived": false,
     "license": null
   },
+  "daveebbelaar/bama": {
+    "stars": 1989,
+    "pushed_at": "2026-11-05",
+    "archived": false,
+    "license": "MIT"
+  },
   "davila7/claude-code-templates": {
     "stars": 34229,
     "pushed_at": "2026-11-26",
     "archived": false,
     "license": null
+  },
+  "ddkbs/sketchy": {
+    "stars": 522,
+    "pushed_at": "2026-11-13",
+    "archived": false,
+    "license": "MIT"
   },
   "dembrandt/dembrandt-skills": {
     "stars": 238,
@@ -458,6 +842,12 @@
   "dickwu/apple-design-skill": {
     "stars": 3892,
     "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": null
+  },
+  "diego3g/craft": {
+    "stars": 512,
+    "pushed_at": "2026-11-23",
     "archived": false,
     "license": null
   },
@@ -485,6 +875,12 @@
     "archived": false,
     "license": null
   },
+  "divar-ir/ai-doc-gen": {
+    "stars": 772,
+    "pushed_at": "2026-07-21",
+    "archived": false,
+    "license": "MIT"
+  },
   "dmmulroy/anti-slop": {
     "stars": 6483,
     "pushed_at": "2026-11-20",
@@ -497,15 +893,69 @@
     "archived": false,
     "license": null
   },
+  "dodaios/ste80-humanizer": {
+    "stars": 1160,
+    "pushed_at": "2026-11-24",
+    "archived": false,
+    "license": "MIT"
+  },
+  "doginfantry/claude-skill-management-consultant-b1": {
+    "stars": 170,
+    "pushed_at": "2026-09-21",
+    "archived": false,
+    "license": null
+  },
+  "dohyun468/claw-hwp": {
+    "stars": 231,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "MIT"
+  },
   "dominikmartn/hue": {
     "stars": 965,
     "pushed_at": "2026-11-10",
     "archived": false,
     "license": null
   },
+  "dongshuyan/compass-skills": {
+    "stars": 774,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "MIT"
+  },
   "dontbesilent2025/dbskill": {
     "stars": 11588,
     "pushed_at": "2026-11-17",
+    "archived": false,
+    "license": null
+  },
+  "dozentwelve/papermorph": {
+    "stars": 2225,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "MIT"
+  },
+  "drolosoft/immich-photo-manager": {
+    "stars": 68,
+    "pushed_at": "2026-11-05",
+    "archived": false,
+    "license": "MIT"
+  },
+  "dspv/caprock": {
+    "stars": 54,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "dunhkpcc/claude-guardian": {
+    "stars": 2275,
+    "pushed_at": "2026-11-20",
+    "archived": false,
+    "license": "GPL-3.0"
+  },
+  "duyunzhoudyz/dyz-gongwen-skills": {
+    "stars": 988,
+    "pushed_at": "2026-11-26",
     "archived": false,
     "license": null
   },
@@ -539,6 +989,24 @@
     "archived": false,
     "license": null
   },
+  "el4cteo/blender-skills": {
+    "stars": 2981,
+    "pushed_at": "2026-11-21",
+    "archived": false,
+    "license": "MIT"
+  },
+  "el4cteo/fast-anything": {
+    "stars": 4344,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "MIT"
+  },
+  "elementalsouls/claude-bughunter": {
+    "stars": 25189,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "MIT"
+  },
   "emilkowalski/skills": {
     "stars": 60142,
     "pushed_at": "2026-11-15",
@@ -550,6 +1018,12 @@
     "pushed_at": "2026-10-03",
     "archived": false,
     "license": null
+  },
+  "emotixco/claude-skills-founder": {
+    "stars": 937,
+    "pushed_at": "2026-11-03",
+    "archived": false,
+    "license": "MIT"
   },
   "enesozturk/dimensional-drawing": {
     "stars": 2271,
@@ -563,11 +1037,41 @@
     "archived": false,
     "license": null
   },
+  "ericjujianzou/rederive": {
+    "stars": 1761,
+    "pushed_at": "2026-11-19",
+    "archived": false,
+    "license": "MIT"
+  },
+  "erictechpro/super-board": {
+    "stars": 747,
+    "pushed_at": "2026-10-29",
+    "archived": false,
+    "license": "MIT"
+  },
+  "erkamyaman/safe-anything": {
+    "stars": 805,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "MIT"
+  },
+  "eternityspring/reelbench-skills": {
+    "stars": 1261,
+    "pushed_at": "2026-11-09",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
   "eternityspring/shuohao-skills": {
     "stars": 7194,
     "pushed_at": "2026-11-09",
     "archived": false,
     "license": null
+  },
+  "ethanhq/cc-fleet": {
+    "stars": 201,
+    "pushed_at": "2026-10-24",
+    "archived": false,
+    "license": "Apache-2.0"
   },
   "eugeniughelbur/obsidian-second-brain": {
     "stars": 5478,
@@ -575,11 +1079,41 @@
     "archived": false,
     "license": null
   },
+  "evanca/flutter-ai-rules": {
+    "stars": 675,
+    "pushed_at": "2026-11-12",
+    "archived": false,
+    "license": "MIT"
+  },
+  "everyinfra/seo-skills": {
+    "stars": 683,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "evolsb/claude-legal-skill": {
+    "stars": 521,
+    "pushed_at": "2026-07-23",
+    "archived": false,
+    "license": "MIT"
+  },
   "expo/skills": {
     "stars": 4247,
     "pushed_at": "2026-11-26",
     "archived": false,
     "license": null
+  },
+  "f0d010c/stark": {
+    "stars": 54,
+    "pushed_at": "2026-07-26",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "fadewalk/serenity-stock-choke": {
+    "stars": 538,
+    "pushed_at": "2026-10-06",
+    "archived": false,
+    "license": "MIT"
   },
   "fatihaydost/brand-identity-skill": {
     "stars": 486,
@@ -617,6 +1151,12 @@
     "archived": false,
     "license": null
   },
+  "ferdinandobons/startup-skill": {
+    "stars": 1323,
+    "pushed_at": "2026-07-01",
+    "archived": false,
+    "license": "MIT"
+  },
   "firebase/agent-skills": {
     "stars": 531,
     "pushed_at": "2026-11-09",
@@ -635,11 +1175,29 @@
     "archived": false,
     "license": null
   },
+  "gcpdev/llm-council-skill": {
+    "stars": 516,
+    "pushed_at": "2026-01-08",
+    "archived": false,
+    "license": "MIT"
+  },
   "gesso-build/skills": {
     "stars": 95,
     "pushed_at": "2026-10-27",
     "archived": false,
     "license": null
+  },
+  "gitruck/cli": {
+    "stars": 976,
+    "pushed_at": "2026-10-30",
+    "archived": false,
+    "license": "MIT"
+  },
+  "gmickel/flow-next": {
+    "stars": 734,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "MIT"
   },
   "google-labs-code/design.md": {
     "stars": 29161,
@@ -671,11 +1229,47 @@
     "archived": false,
     "license": null
   },
+  "gosom/google-maps-scraper": {
+    "stars": 8442,
+    "pushed_at": "2026-11-25",
+    "archived": false,
+    "license": "MIT"
+  },
   "greensock/gsap-skills": {
     "stars": 19122,
     "pushed_at": "2026-07-29",
     "archived": false,
     "license": null
+  },
+  "gulucaptain/best-paper-writing-skill": {
+    "stars": 1074,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": null
+  },
+  "gwittebolle/claude-carbon": {
+    "stars": 256,
+    "pushed_at": "2026-11-23",
+    "archived": false,
+    "license": "MIT"
+  },
+  "haidrrrry/claude-remotion-skill": {
+    "stars": 1380,
+    "pushed_at": "2026-08-12",
+    "archived": false,
+    "license": "MIT"
+  },
+  "hainrixz/claude-seo-ai": {
+    "stars": 87,
+    "pushed_at": "2026-10-25",
+    "archived": false,
+    "license": "MIT"
+  },
+  "hainrixz/the-architect": {
+    "stars": 592,
+    "pushed_at": "2026-10-25",
+    "archived": false,
+    "license": "MIT"
   },
   "hamen/material-3-skill": {
     "stars": 1610,
@@ -689,9 +1283,45 @@
     "archived": false,
     "license": null
   },
+  "harshaneel/humanize": {
+    "stars": 650,
+    "pushed_at": "2026-09-22",
+    "archived": false,
+    "license": "MIT"
+  },
+  "haydenschmitty/floorplan": {
+    "stars": 6977,
+    "pushed_at": "2026-11-16",
+    "archived": false,
+    "license": "MIT"
+  },
   "heliocosta-dev/revenue-centric-design": {
     "stars": 1157,
     "pushed_at": "2026-09-04",
+    "archived": false,
+    "license": null
+  },
+  "hesamsheikh/octogent": {
+    "stars": 1426,
+    "pushed_at": "2026-04-20",
+    "archived": false,
+    "license": "MIT"
+  },
+  "hex/claude-council": {
+    "stars": 966,
+    "pushed_at": "2026-11-17",
+    "archived": false,
+    "license": "MIT"
+  },
+  "heychengc/vibe-knowledge-film": {
+    "stars": 1619,
+    "pushed_at": "2026-10-13",
+    "archived": false,
+    "license": null
+  },
+  "heychengc/wallstreet-explainer": {
+    "stars": 1369,
+    "pushed_at": "2026-11-20",
     "archived": false,
     "license": null
   },
@@ -707,6 +1337,12 @@
     "archived": false,
     "license": null
   },
+  "howseen-ai/claude-motion-design": {
+    "stars": 899,
+    "pushed_at": "2026-10-04",
+    "archived": false,
+    "license": "MIT"
+  },
   "hugohe3/ppt-master": {
     "stars": 80534,
     "pushed_at": "2026-11-20",
@@ -719,6 +1355,12 @@
     "archived": false,
     "license": null
   },
+  "hyhmrright/brooks-lint": {
+    "stars": 1592,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "MIT"
+  },
   "hyperfx-ai/marketing-skills": {
     "stars": 124,
     "pushed_at": "2026-11-26",
@@ -730,6 +1372,18 @@
     "pushed_at": "2026-11-25",
     "archived": false,
     "license": null
+  },
+  "illyism/seo-skills": {
+    "stars": 2175,
+    "pushed_at": "2026-11-25",
+    "archived": false,
+    "license": null
+  },
+  "ilyautov/humanizer-ru": {
+    "stars": 618,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "MIT"
   },
   "imbad0202/academic-research-skills": {
     "stars": 58706,
@@ -755,11 +1409,83 @@
     "archived": false,
     "license": null
   },
+  "indranilbanerjee/digital-marketing-pro": {
+    "stars": 987,
+    "pushed_at": "2026-11-07",
+    "archived": false,
+    "license": "MIT"
+  },
+  "infinri/writ": {
+    "stars": 332,
+    "pushed_at": "2026-11-21",
+    "archived": false,
+    "license": "MIT"
+  },
+  "innei/artideck": {
+    "stars": 988,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": null
+  },
+  "itsmostafa/aws-agent-skills": {
+    "stars": 1174,
+    "pushed_at": "2026-11-23",
+    "archived": false,
+    "license": "MIT"
+  },
+  "jackson-cmd/claude-multi-desktop": {
+    "stars": 505,
+    "pushed_at": "2026-11-25",
+    "archived": false,
+    "license": "MIT"
+  },
   "jackwener/opencli": {
     "stars": 31312,
     "pushed_at": "2026-11-07",
     "archived": false,
     "license": null
+  },
+  "jaechang-hits/sciagent-skills": {
+    "stars": 398,
+    "pushed_at": "2026-11-25",
+    "archived": false,
+    "license": null
+  },
+  "jakeschincariol/arena-skill": {
+    "stars": 1631,
+    "pushed_at": "2026-09-27",
+    "archived": false,
+    "license": "MIT"
+  },
+  "jakeschincariol/day-trader-skill": {
+    "stars": 9825,
+    "pushed_at": "2026-10-20",
+    "archived": false,
+    "license": "MIT"
+  },
+  "jakeschincariol/founder-skill": {
+    "stars": 5127,
+    "pushed_at": "2026-10-07",
+    "archived": false,
+    "license": "MIT"
+  },
+  "jakeschincariol/linkedin-agent-skill": {
+    "stars": 4023,
+    "pushed_at": "2026-09-17",
+    "archived": false,
+    "license": "MIT"
+  },
+  "jakeschincariol/replica-skill": {
+    "stars": 10775,
+    "pushed_at": "2026-10-03",
+    "archived": false,
+    "license": "MIT"
+  },
+  "jakeschincariol/trader-skill": {
+    "stars": 2138,
+    "pushed_at": "2026-10-14",
+    "archived": false,
+    "license": "MIT"
   },
   "jakeschincariol/youtube-agent-skill": {
     "stars": 7640,
@@ -784,6 +1510,12 @@
     "pushed_at": "2026-11-17",
     "archived": false,
     "license": null
+  },
+  "jaredrhod/ai-memory-vault": {
+    "stars": 753,
+    "pushed_at": "2026-08-31",
+    "archived": false,
+    "license": "CC-BY-SA-4.0"
   },
   "jcodesmore/ai-website-cloner-template": {
     "stars": 39826,
@@ -815,11 +1547,23 @@
     "archived": false,
     "license": null
   },
+  "jordanrendric/claude-video-vision": {
+    "stars": 1542,
+    "pushed_at": "2026-10-14",
+    "archived": false,
+    "license": "MIT"
+  },
   "journione-ai/journione-planning-skills": {
     "stars": 1191,
     "pushed_at": "2026-11-25",
     "archived": false,
     "license": null
+  },
+  "juliobsz/skills": {
+    "stars": 1427,
+    "pushed_at": "2026-10-26",
+    "archived": false,
+    "license": "MIT"
   },
   "juliusbrussee/caveman": {
     "stars": 123097,
@@ -833,6 +1577,12 @@
     "archived": false,
     "license": null
   },
+  "k1p1l0/claude-telegram-supercharged": {
+    "stars": 145,
+    "pushed_at": "2026-11-16",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
   "kaankiziltug/logo-design-skill": {
     "stars": 7879,
     "pushed_at": "2026-11-13",
@@ -845,11 +1595,23 @@
     "archived": false,
     "license": null
   },
+  "kaelio/ktx": {
+    "stars": 1639,
+    "pushed_at": "2026-11-18",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
   "kaomei/stickman-video-director": {
     "stars": 8539,
     "pushed_at": "2026-11-24",
     "archived": false,
     "license": null
+  },
+  "keli-wen/agy-staff": {
+    "stars": 942,
+    "pushed_at": "2026-11-19",
+    "archived": false,
+    "license": "MIT"
   },
   "kelvinkn17/skills": {
     "stars": 125,
@@ -857,11 +1619,41 @@
     "archived": false,
     "license": null
   },
+  "kenryu42/cc-safety-net": {
+    "stars": 2110,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "MIT"
+  },
   "kevinyoung-kw/vibe-resume-skill": {
     "stars": 107,
     "pushed_at": "2026-10-02",
     "archived": false,
     "license": null
+  },
+  "kharmanskyi/open-steps": {
+    "stars": 1091,
+    "pushed_at": "2026-11-15",
+    "archived": false,
+    "license": "MIT"
+  },
+  "kimglee/cambium": {
+    "stars": 663,
+    "pushed_at": "2026-09-12",
+    "archived": false,
+    "license": null
+  },
+  "kirilxd/claude-tutor": {
+    "stars": 162,
+    "pushed_at": "2026-07-20",
+    "archived": false,
+    "license": "MIT"
+  },
+  "kitfunso/hippo-memory": {
+    "stars": 796,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "MIT"
   },
   "kkkkhazix/human-writing": {
     "stars": 4767,
@@ -874,6 +1666,18 @@
     "pushed_at": "2026-11-18",
     "archived": false,
     "license": null
+  },
+  "klotzkette/claude-fuer-deutsches-recht": {
+    "stars": 1889,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "kurbaitaev/ghost-editor": {
+    "stars": 807,
+    "pushed_at": "2026-11-18",
+    "archived": false,
+    "license": "MIT"
   },
   "kylezantos/design-motion-principles": {
     "stars": 1663,
@@ -947,9 +1751,27 @@
     "archived": false,
     "license": null
   },
+  "leopard627/fire-your-seo-agency": {
+    "stars": 1024,
+    "pushed_at": "2026-11-03",
+    "archived": false,
+    "license": "MIT"
+  },
+  "lifecycle-innovations-limited/claude-ops": {
+    "stars": 563,
+    "pushed_at": "2026-11-24",
+    "archived": false,
+    "license": "MIT"
+  },
   "lifelonglazylearner/qu-ai-wei": {
     "stars": 791,
     "pushed_at": "2026-11-24",
+    "archived": false,
+    "license": null
+  },
+  "liuhaisi2026212-maker/taishang-laojun": {
+    "stars": 665,
+    "pushed_at": "2026-11-26",
     "archived": false,
     "license": null
   },
@@ -965,6 +1787,12 @@
     "archived": false,
     "license": null
   },
+  "liyupi/ai-promo-video-maker": {
+    "stars": 506,
+    "pushed_at": "2026-10-09",
+    "archived": false,
+    "license": "MIT"
+  },
   "lombiq/tailwind-agent-skills": {
     "stars": 80,
     "pushed_at": "2026-04-09",
@@ -977,6 +1805,18 @@
     "archived": false,
     "license": null
   },
+  "lukasniessen/terrashark": {
+    "stars": 534,
+    "pushed_at": "2026-11-23",
+    "archived": false,
+    "license": "MIT"
+  },
+  "mahanaicoach/google-maps-scraper-kit": {
+    "stars": 2648,
+    "pushed_at": "2026-11-19",
+    "archived": false,
+    "license": "AGPL-3.0"
+  },
   "majiayu000/claude-skill-registry": {
     "stars": 754,
     "pushed_at": "2026-11-26",
@@ -986,6 +1826,24 @@
   "managedcode/dotnet-skills": {
     "stars": 524,
     "pushed_at": "2026-11-14",
+    "archived": false,
+    "license": null
+  },
+  "manavarya09/design-extract": {
+    "stars": 5224,
+    "pushed_at": "2026-11-25",
+    "archived": false,
+    "license": "MIT"
+  },
+  "mankidev/antialgorithm": {
+    "stars": 909,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "MIT"
+  },
+  "masriyan/claude-code-cybersecurity-skill": {
+    "stars": 614,
+    "pushed_at": "2026-10-20",
     "archived": false,
     "license": null
   },
@@ -1019,6 +1877,12 @@
     "archived": false,
     "license": null
   },
+  "memvid/claude-brain": {
+    "stars": 585,
+    "pushed_at": "2026-01-19",
+    "archived": false,
+    "license": "MIT"
+  },
   "mengto/skills": {
     "stars": 8413,
     "pushed_at": "2026-11-26",
@@ -1036,6 +1900,24 @@
     "pushed_at": "2026-07-25",
     "archived": false,
     "license": null
+  },
+  "mhfed/vn-law-check": {
+    "stars": 515,
+    "pushed_at": "2026-11-25",
+    "archived": false,
+    "license": null
+  },
+  "michael-denyer/agent-formal-verify": {
+    "stars": 57,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "GPL-3.0"
+  },
+  "michael-denyer/pstack-claude": {
+    "stars": 4934,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "MIT"
   },
   "microck/ordinary-claude-skills": {
     "stars": 415,
@@ -1067,6 +1949,18 @@
     "archived": false,
     "license": null
   },
+  "minhnv0807/ai-business-skills": {
+    "stars": 717,
+    "pushed_at": "2026-11-05",
+    "archived": false,
+    "license": "MIT"
+  },
+  "minimax-ai/mcode-stack": {
+    "stars": 748,
+    "pushed_at": "2026-11-11",
+    "archived": false,
+    "license": "MIT"
+  },
   "minimax-ai/skills": {
     "stars": 13925,
     "pushed_at": "2026-11-10",
@@ -1096,6 +1990,12 @@
     "pushed_at": "2026-02-12",
     "archived": false,
     "license": null
+  },
+  "morganlinton/beautifulrust": {
+    "stars": 2160,
+    "pushed_at": "2026-11-08",
+    "archived": false,
+    "license": "MIT"
   },
   "morluto/rea": {
     "stars": 479838,
@@ -1127,6 +2027,24 @@
     "archived": false,
     "license": null
   },
+  "mycelium-hq/ai-brain-starter": {
+    "stars": 56,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "MIT"
+  },
+  "nagisanzenin/engram": {
+    "stars": 1491,
+    "pushed_at": "2026-08-27",
+    "archived": false,
+    "license": "MIT"
+  },
+  "nahumlitvin/prismantis": {
+    "stars": 510,
+    "pushed_at": "2026-11-24",
+    "archived": false,
+    "license": "MIT"
+  },
   "nanaism/yomiyasu": {
     "stars": 3547,
     "pushed_at": "2026-11-25",
@@ -1151,17 +2069,47 @@
     "archived": false,
     "license": null
   },
+  "neo4j/agent-skills": {
+    "stars": 122,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "MIT"
+  },
+  "neonwatty/job-apply-plugin": {
+    "stars": 144,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "MIT"
+  },
   "nevamind-ai/memu": {
     "stars": 14647,
     "pushed_at": "2026-11-26",
     "archived": false,
     "license": null
   },
+  "nexscope-ai/amazon-skills": {
+    "stars": 910,
+    "pushed_at": "2026-11-11",
+    "archived": false,
+    "license": "MIT"
+  },
+  "nexscope-ai/ecommerce-skills": {
+    "stars": 1548,
+    "pushed_at": "2026-11-11",
+    "archived": false,
+    "license": "MIT"
+  },
   "nextlevelbuilder/ui-ux-pro-max-skill": {
     "stars": 154658,
     "pushed_at": "2026-11-27",
     "archived": false,
     "license": null
+  },
+  "niazmorshed2007/reanimate": {
+    "stars": 2647,
+    "pushed_at": "2026-10-31",
+    "archived": false,
+    "license": "MIT"
   },
   "nicobailon/visual-explainer": {
     "stars": 11294,
@@ -1193,11 +2141,23 @@
     "archived": false,
     "license": null
   },
+  "nirholas/xactions": {
+    "stars": 670,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
   "nolangz/pixel2motion": {
     "stars": 2725,
     "pushed_at": "2026-08-21",
     "archived": false,
     "license": null
+  },
+  "nowork-studio/notfair-plugin": {
+    "stars": 4317,
+    "pushed_at": "2026-11-17",
+    "archived": false,
+    "license": "MIT"
   },
   "nutlope/hallmark": {
     "stars": 61670,
@@ -1217,6 +2177,18 @@
     "archived": false,
     "license": null
   },
+  "nykooi1/vibe-wise": {
+    "stars": 4453,
+    "pushed_at": "2026-10-09",
+    "archived": false,
+    "license": "MIT"
+  },
+  "nyldn/claude-octopus": {
+    "stars": 4508,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "MIT"
+  },
   "obra/superpowers": {
     "stars": 327537,
     "pushed_at": "2026-11-26",
@@ -1229,6 +2201,12 @@
     "archived": false,
     "license": null
   },
+  "odradekai/bundles-forge": {
+    "stars": 225,
+    "pushed_at": "2026-04-27",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
   "ohad6k/emulo": {
     "stars": 306,
     "pushed_at": "2026-10-12",
@@ -1238,6 +2216,12 @@
   "oil-oil/beautify-github-readme": {
     "stars": 2020,
     "pushed_at": "2026-11-24",
+    "archived": false,
+    "license": null
+  },
+  "oil-oil/draw-ui": {
+    "stars": 570,
+    "pushed_at": "2026-11-25",
     "archived": false,
     "license": null
   },
@@ -1259,11 +2243,29 @@
     "archived": false,
     "license": null
   },
+  "oliver-kriska/claude-elixir-phoenix": {
+    "stars": 578,
+    "pushed_at": "2026-11-20",
+    "archived": false,
+    "license": "MIT"
+  },
   "onewave-ai/claude-skills": {
     "stars": 449,
     "pushed_at": "2026-10-20",
     "archived": false,
     "license": null
+  },
+  "ootto-ai/claude-content-skills": {
+    "stars": 592,
+    "pushed_at": "2026-11-07",
+    "archived": false,
+    "license": "MIT"
+  },
+  "op7418/guizang-game-skill": {
+    "stars": 514,
+    "pushed_at": "2026-11-11",
+    "archived": false,
+    "license": "AGPL-3.0"
   },
   "op7418/guizang-ppt-skill": {
     "stars": 30492,
@@ -1289,11 +2291,35 @@
     "archived": false,
     "license": null
   },
+  "open-dev-society/kitbash": {
+    "stars": 59,
+    "pushed_at": "2026-11-22",
+    "archived": false,
+    "license": "GPL-2.0"
+  },
   "opendemon/anyone-to-skill": {
     "stars": 134,
     "pushed_at": "2026-04-07",
     "archived": false,
     "license": null
+  },
+  "openosint/openosint": {
+    "stars": 1973,
+    "pushed_at": "2026-11-15",
+    "archived": false,
+    "license": "MIT"
+  },
+  "openqodex/openqodex": {
+    "stars": 1220,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "openraiser/nanoresearch": {
+    "stars": 1339,
+    "pushed_at": "2026-10-09",
+    "archived": false,
+    "license": "MIT"
   },
   "orange2ai/podcast-to-article": {
     "stars": 198,
@@ -1306,6 +2332,42 @@
     "pushed_at": "2026-11-25",
     "archived": false,
     "license": null
+  },
+  "oxylabs/agent-skills": {
+    "stars": 868,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "MIT"
+  },
+  "paradigm-study/claude-share": {
+    "stars": 1240,
+    "pushed_at": "2026-10-30",
+    "archived": false,
+    "license": "MIT"
+  },
+  "parcadei/continuous-claude-v3": {
+    "stars": 3953,
+    "pushed_at": "2026-11-16",
+    "archived": false,
+    "license": "MIT"
+  },
+  "patch-gg/anymove": {
+    "stars": 670,
+    "pushed_at": "2026-11-13",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "patch-gg/pixelfx": {
+    "stars": 9560,
+    "pushed_at": "2026-11-13",
+    "archived": false,
+    "license": "MIT"
+  },
+  "pattern-ai-labs/agentcall": {
+    "stars": 215,
+    "pushed_at": "2026-11-15",
+    "archived": false,
+    "license": "MIT"
   },
   "pbakaus/impeccable": {
     "stars": 117563,
@@ -1325,6 +2387,18 @@
     "archived": false,
     "license": null
   },
+  "petekp/inbox": {
+    "stars": 138,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "MIT"
+  },
+  "phuryn/product-engineering": {
+    "stars": 823,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "MIT"
+  },
   "plannotator/effective-html": {
     "stars": 4328,
     "pushed_at": "2026-11-24",
@@ -1336,6 +2410,18 @@
     "pushed_at": "2026-11-25",
     "archived": false,
     "license": null
+  },
+  "plugin87/ux-ui-agent-skills": {
+    "stars": 3240,
+    "pushed_at": "2026-11-18",
+    "archived": false,
+    "license": "MIT"
+  },
+  "posit-dev/skills": {
+    "stars": 576,
+    "pushed_at": "2026-11-12",
+    "archived": false,
+    "license": "MIT"
   },
   "pproenca/dot-skills": {
     "stars": 228,
@@ -1355,11 +2441,41 @@
     "archived": false,
     "license": null
   },
+  "proyecto26/system-design-skills": {
+    "stars": 146,
+    "pushed_at": "2026-10-27",
+    "archived": false,
+    "license": "MIT"
+  },
   "pskoett/self-improving-agent": {
     "stars": 792,
     "pushed_at": "2026-10-22",
     "archived": false,
     "license": null
+  },
+  "qingyuna/answer-me-with-html": {
+    "stars": 6693,
+    "pushed_at": "2026-11-25",
+    "archived": false,
+    "license": "MIT"
+  },
+  "quillai-network/quillshield_skills": {
+    "stars": 136,
+    "pushed_at": "2026-11-24",
+    "archived": false,
+    "license": "MIT"
+  },
+  "raiyanyahya/recall": {
+    "stars": 770,
+    "pushed_at": "2026-09-07",
+    "archived": false,
+    "license": "MIT"
+  },
+  "rampstackco/claude-skills": {
+    "stars": 1128,
+    "pushed_at": "2026-11-16",
+    "archived": false,
+    "license": "MIT"
   },
   "rand/cc-polymath": {
     "stars": 192,
@@ -1379,11 +2495,29 @@
     "archived": false,
     "license": null
   },
+  "razorback16/cc-intelligent-ui": {
+    "stars": 163,
+    "pushed_at": "2026-11-04",
+    "archived": false,
+    "license": "MIT"
+  },
   "rebelytics/one-skill-to-rule-them-all": {
     "stars": 4041,
     "pushed_at": "2026-11-25",
     "archived": false,
     "license": null
+  },
+  "reflexioai/claude-smart": {
+    "stars": 797,
+    "pushed_at": "2026-11-25",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "rehan-remade/universal-modder": {
+    "stars": 9903,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "MIT"
   },
   "remotion-dev/skills": {
     "stars": 8078,
@@ -1403,11 +2537,23 @@
     "archived": false,
     "license": null
   },
+  "reticlehq/reticle": {
+    "stars": 1334,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": null
+  },
   "revfactory/harness": {
     "stars": 9406,
     "pushed_at": "2026-09-28",
     "archived": false,
     "license": null
+  },
+  "rich627/whatsapp-claude-plugin": {
+    "stars": 129,
+    "pushed_at": "2026-10-26",
+    "archived": false,
+    "license": "Apache-2.0"
   },
   "robonuggets/marp-slides": {
     "stars": 337,
@@ -1421,11 +2567,35 @@
     "archived": false,
     "license": null
   },
+  "rohitg00/pro-workflow": {
+    "stars": 2971,
+    "pushed_at": "2026-09-29",
+    "archived": false,
+    "license": null
+  },
+  "romainsimon/paperasse": {
+    "stars": 2636,
+    "pushed_at": "2026-11-12",
+    "archived": false,
+    "license": "MIT"
+  },
+  "rrezartprebreza/spring-boot-skills": {
+    "stars": 367,
+    "pushed_at": "2026-11-17",
+    "archived": false,
+    "license": "MIT"
+  },
   "rshankras/claude-code-apple-skills": {
     "stars": 912,
     "pushed_at": "2026-11-09",
     "archived": false,
     "license": null
+  },
+  "ryze-ai-adgent/open-seo-mcp-skills": {
+    "stars": 10694,
+    "pushed_at": "2026-10-27",
+    "archived": false,
+    "license": "MIT"
   },
   "s1dashu/ip-as-logo-skill": {
     "stars": 6725,
@@ -1438,6 +2608,48 @@
     "pushed_at": "2026-11-25",
     "archived": false,
     "license": null
+  },
+  "scenario-labs/skills": {
+    "stars": 4052,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "MIT"
+  },
+  "scrapecreators/social-media-research-skills": {
+    "stars": 8111,
+    "pushed_at": "2026-08-26",
+    "archived": false,
+    "license": "MIT"
+  },
+  "seo-skills/seo-audit-skill": {
+    "stars": 997,
+    "pushed_at": "2026-11-19",
+    "archived": false,
+    "license": "MIT"
+  },
+  "seranking/seo-skills": {
+    "stars": 217,
+    "pushed_at": "2026-11-25",
+    "archived": false,
+    "license": "MIT"
+  },
+  "sergebulaev/instagram-skills": {
+    "stars": 949,
+    "pushed_at": "2026-11-25",
+    "archived": false,
+    "license": "MIT"
+  },
+  "servosity/msp-skills": {
+    "stars": 89,
+    "pushed_at": "2026-11-18",
+    "archived": false,
+    "license": null
+  },
+  "sethgammon/citadel": {
+    "stars": 940,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "MIT"
   },
   "shadcn/improve": {
     "stars": 12196,
@@ -1457,17 +2669,59 @@
     "archived": false,
     "license": null
   },
+  "shanyin-ai/shanyin-screenwriting-master": {
+    "stars": 1546,
+    "pushed_at": "2026-04-01",
+    "archived": false,
+    "license": "MIT"
+  },
+  "shinpr/claude-code-workflows": {
+    "stars": 721,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "MIT"
+  },
   "sleekdotdesign/agent-skills": {
     "stars": 603,
     "pushed_at": "2026-10-05",
     "archived": false,
     "license": null
   },
+  "smixs/skill-conductor": {
+    "stars": 213,
+    "pushed_at": "2026-08-03",
+    "archived": false,
+    "license": "MIT"
+  },
   "smixs/visual-skills": {
     "stars": 771,
     "pushed_at": "2026-11-06",
     "archived": false,
     "license": null
+  },
+  "smnandre/symfony-ux-skills": {
+    "stars": 188,
+    "pushed_at": "2026-11-22",
+    "archived": false,
+    "license": "MIT"
+  },
+  "snailsploit/claude-red": {
+    "stars": 11632,
+    "pushed_at": "2026-11-17",
+    "archived": false,
+    "license": "MIT"
+  },
+  "snflkd/fluent-korean": {
+    "stars": 1539,
+    "pushed_at": "2026-08-23",
+    "archived": false,
+    "license": "MIT"
+  },
+  "sno-ai/sno-station-skills": {
+    "stars": 874,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "Apache-2.0"
   },
   "social-media-skills/skills": {
     "stars": 439,
@@ -1487,11 +2741,29 @@
     "archived": false,
     "license": null
   },
+  "study8677/readme.skill": {
+    "stars": 178,
+    "pushed_at": "2026-06-10",
+    "archived": false,
+    "license": "MIT"
+  },
+  "suboss87/fdeops": {
+    "stars": 767,
+    "pushed_at": "2026-11-20",
+    "archived": false,
+    "license": "MIT"
+  },
   "sundial-org/awesome-openclaw-skills": {
     "stars": 676,
     "pushed_at": "2026-03-07",
     "archived": false,
     "license": null
+  },
+  "sunghwan0112/spritecast": {
+    "stars": 555,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": "MIT"
   },
   "supabase/agent-skills": {
     "stars": 3144,
@@ -1505,17 +2777,41 @@
     "archived": false,
     "license": null
   },
+  "sushegaad/claude-skills-governance-risk-and-compliance": {
+    "stars": 1106,
+    "pushed_at": "2026-11-15",
+    "archived": false,
+    "license": "MIT"
+  },
   "sveltejs/ai-tools": {
     "stars": 345,
     "pushed_at": "2026-11-26",
     "archived": false,
     "license": null
   },
+  "taekchef/claude-code-zh-cn": {
+    "stars": 870,
+    "pushed_at": "2026-11-25",
+    "archived": false,
+    "license": "MIT"
+  },
+  "tajd/economist-style-guide-plugin": {
+    "stars": 130,
+    "pushed_at": "2026-08-01",
+    "archived": false,
+    "license": "MIT"
+  },
   "tavily-ai/skills": {
     "stars": 497,
     "pushed_at": "2026-11-24",
     "archived": false,
     "license": null
+  },
+  "techwolf-ai/ai-first-toolkit": {
+    "stars": 150,
+    "pushed_at": "2026-09-29",
+    "archived": false,
+    "license": "MIT"
   },
   "tejashmakwana/motionmaxxing": {
     "stars": 1861,
@@ -1541,6 +2837,18 @@
     "archived": false,
     "license": null
   },
+  "thepushkarp/cc-gemini-plugin": {
+    "stars": 76,
+    "pushed_at": "2026-10-01",
+    "archived": false,
+    "license": null
+  },
+  "threerocks/article2media": {
+    "stars": 587,
+    "pushed_at": "2026-11-23",
+    "archived": false,
+    "license": "MIT"
+  },
   "tigerless-labs/autoharness": {
     "stars": 10227,
     "pushed_at": "2026-11-12",
@@ -1559,11 +2867,29 @@
     "archived": false,
     "license": null
   },
+  "tizzy916/humanities-writing-companion": {
+    "stars": 507,
+    "pushed_at": "2026-09-22",
+    "archived": false,
+    "license": null
+  },
+  "tractorjuice/arc-kit": {
+    "stars": 2291,
+    "pushed_at": "2026-11-25",
+    "archived": false,
+    "license": null
+  },
   "trailhq/trail-code": {
     "stars": 11507,
     "pushed_at": "2026-11-26",
     "archived": false,
     "license": null
+  },
+  "tripleyak/skillforge": {
+    "stars": 920,
+    "pushed_at": "2026-07-29",
+    "archived": false,
+    "license": "MIT"
   },
   "trustfuture/simon-skills": {
     "stars": 559,
@@ -1588,6 +2914,18 @@
     "pushed_at": "2026-10-26",
     "archived": false,
     "license": null
+  },
+  "tzachbon/smart-ralph": {
+    "stars": 565,
+    "pushed_at": "2026-10-28",
+    "archived": false,
+    "license": "MIT"
+  },
+  "udapy/rust-agentic-skills": {
+    "stars": 60,
+    "pushed_at": "2026-02-12",
+    "archived": false,
+    "license": "MIT"
   },
   "udaysharmadev/not-ai": {
     "stars": 165,
@@ -1637,6 +2975,18 @@
     "archived": false,
     "license": null
   },
+  "vibeeval/vibecosystem": {
+    "stars": 554,
+    "pushed_at": "2026-11-11",
+    "archived": false,
+    "license": "MIT"
+  },
+  "vibha-ramprakash/claude-video-effects": {
+    "stars": 1238,
+    "pushed_at": "2026-11-12",
+    "archived": false,
+    "license": null
+  },
   "vincentwei1021/anything2explainer": {
     "stars": 3672,
     "pushed_at": "2026-11-25",
@@ -1661,6 +3011,12 @@
     "archived": false,
     "license": null
   },
+  "vladikk/modularity": {
+    "stars": 674,
+    "pushed_at": "2026-08-31",
+    "archived": false,
+    "license": null
+  },
   "vuejs-ai/skills": {
     "stars": 3382,
     "pushed_at": "2026-10-23",
@@ -1672,6 +3028,18 @@
     "pushed_at": "2026-11-23",
     "archived": false,
     "license": null
+  },
+  "wenlan-app/wenlan": {
+    "stars": 501,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
+  "wenyuchiou/ai-research-skills": {
+    "stars": 700,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "MIT"
   },
   "wheresryan22/anatomy": {
     "stars": 29389,
@@ -1709,6 +3077,30 @@
     "archived": false,
     "license": null
   },
+  "xiaobei930/cc-best": {
+    "stars": 50,
+    "pushed_at": "2026-06-12",
+    "archived": false,
+    "license": "MIT"
+  },
+  "xiaomacoltai/math-modeling-skill": {
+    "stars": 2001,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": null
+  },
+  "xr843/master-skill": {
+    "stars": 604,
+    "pushed_at": "2026-11-26",
+    "archived": false,
+    "license": null
+  },
+  "xuanranl/loamwright-seo-skill": {
+    "stars": 54,
+    "pushed_at": "2026-08-17",
+    "archived": false,
+    "license": "Apache-2.0"
+  },
   "yamadashy/repomix": {
     "stars": 29460,
     "pushed_at": "2026-11-26",
@@ -1720,6 +3112,12 @@
     "pushed_at": "2026-11-23",
     "archived": false,
     "license": null
+  },
+  "yanhua1010/self-media-content-workflow": {
+    "stars": 748,
+    "pushed_at": "2026-11-09",
+    "archived": false,
+    "license": "MIT"
   },
   "yaojingang/yao-meta-skill": {
     "stars": 2739,
@@ -1739,6 +3137,18 @@
     "archived": false,
     "license": null
   },
+  "yonatangross/orchestkit": {
+    "stars": 310,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "MIT"
+  },
+  "ythx-101/live-panel-skill": {
+    "stars": 883,
+    "pushed_at": "2026-11-12",
+    "archived": false,
+    "license": "MIT"
+  },
   "yuan1z0825/nature-skills": {
     "stars": 55190,
     "pushed_at": "2026-11-26",
@@ -1751,11 +3161,29 @@
     "archived": false,
     "license": null
   },
+  "yusuke710/manim-skill": {
+    "stars": 225,
+    "pushed_at": "2026-10-07",
+    "archived": false,
+    "license": "MIT"
+  },
+  "yuting0624/antigravity-for-claude-code": {
+    "stars": 537,
+    "pushed_at": "2026-11-24",
+    "archived": false,
+    "license": "MIT"
+  },
   "yuwen-cool/yuwen-publish-precheck": {
     "stars": 821,
     "pushed_at": "2026-10-08",
     "archived": false,
     "license": null
+  },
+  "yuzzyuk/marketing-os": {
+    "stars": 582,
+    "pushed_at": "2026-08-17",
+    "archived": false,
+    "license": "MIT"
   },
   "zanwei/design-dna": {
     "stars": 2165,
@@ -1768,5 +3196,47 @@
     "pushed_at": "2026-06-23",
     "archived": false,
     "license": null
+  },
+  "zenbu-labs/terminal-browser": {
+    "stars": 4996,
+    "pushed_at": "2026-11-25",
+    "archived": false,
+    "license": "MIT"
+  },
+  "zenstory-ai/drama-skills": {
+    "stars": 5112,
+    "pushed_at": "2026-11-24",
+    "archived": false,
+    "license": "MIT"
+  },
+  "zenstory-ai/oh-story-claudecode": {
+    "stars": 8970,
+    "pushed_at": "2026-11-24",
+    "archived": false,
+    "license": "MIT"
+  },
+  "zenstory-ai/video-recap-skills": {
+    "stars": 658,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "MIT"
+  },
+  "zhuyansen/wx-favorites-report": {
+    "stars": 647,
+    "pushed_at": "2026-11-11",
+    "archived": false,
+    "license": "MIT"
+  },
+  "zilliztech/memsearch": {
+    "stars": 2950,
+    "pushed_at": "2026-11-27",
+    "archived": false,
+    "license": "MIT"
+  },
+  "zscole/adversarial-spec": {
+    "stars": 558,
+    "pushed_at": "2026-01-22",
+    "archived": false,
+    "license": "MIT"
   }
 }

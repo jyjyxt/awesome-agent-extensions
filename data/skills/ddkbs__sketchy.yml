@@ -1,0 +1,9 @@
+name: Sketchy Diagram Layout Engine
+repo: https://github.com/ddkbs/sketchy
+category: frontend-design
+official: false
+agents: [claude-code, cursor, universal]
+tags: [diagrams, elkjs, hand-drawn, layout]
+description:
+  en: ELK-powered layout engine skill for interactive hand-drawn AI diagrams where the model specifies structure and Sketchy computes clean layout.
+  zh: 基于 ELK 布局引擎的手绘风交互式架构图技能，由模型描述结构、Sketchy 自动计算零重叠排版。

@@ -1,0 +1,9 @@
+name: GRC Compliance Skills
+repo: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance
+category: security
+official: false
+agents: [claude-code, universal]
+tags: [grc, iso27001, soc2, gdpr, eu-ai-act]
+description:
+  en: Governance, Risk, and Compliance (GRC) skills covering ISO 27001, SOC 2, FedRAMP, GDPR, HIPAA, NIST CSF, PCI DSS, and EU AI Act.
+  zh: 覆盖 ISO 27001、SOC 2、FedRAMP、GDPR、HIPAA、PCI DSS 与欧盟 AI 法案的企业安全合规（GRC）技能库。

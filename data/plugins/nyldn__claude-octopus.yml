@@ -1,0 +1,10 @@
+name: Claude Octopus
+repo: https://github.com/nyldn/claude-octopus
+category: orchestration
+official: false
+agents: [claude-code, codex, copilot]
+includes: [skills]
+tags: [multi-model, orchestration, consensus, review]
+description:
+  en: Run multiple AI models concurrently on the same research, design, or coding task and surface disagreements before shipping.
+  zh: 多模型并行协作插件，对同一研究、设计或编码任务同时调用多个模型并在交付前暴露分歧。

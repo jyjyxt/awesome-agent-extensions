@@ -1,0 +1,11 @@
+name: pstack Multi-Harness Plugin
+repo: https://github.com/michael-denyer/pstack-claude
+category: orchestration
+official: false
+featured: true
+agents: [claude-code, codex, copilot, gemini-cli, opencode, antigravity, dsh]
+includes: [skills]
+tags: [workflow, code-review, pstack, cross-agent]
+description:
+  en: Rigorous agent workflows translating Cursor primitives across Claude Code, Codex, Copilot, Gemini CLI, OpenCode, Antigravity, and DeepSeek Harness.
+  zh: 将 Cursor 工程工作流原语移植到 Claude Code、Codex、Copilot、Gemini CLI、OpenCode 与 Antigravity 的跨端插件。

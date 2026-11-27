@@ -1,0 +1,10 @@
+name: Open Steps
+repo: https://github.com/kharmanskyi/open-steps
+category: productivity
+official: false
+agents: [claude-code, codex, cursor, gemini-cli]
+includes: [skills]
+tags: [session-reports, plain-language, workflow]
+description:
+  en: Plain-language agent skills producing honest session reports, clear verdicts, and concrete next steps you can immediately follow.
+  zh: 以直白语言输出诚实会话总结、明确结论与可执行下一步建议的跨端技能插件。

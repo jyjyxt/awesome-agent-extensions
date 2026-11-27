@@ -1,0 +1,10 @@
+name: Claude SEO AI
+repo: https://github.com/Hainrixz/claude-seo-ai
+category: content-marketing
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [seo, geo, aeo, llms-txt, core-web-vitals]
+description:
+  en: SEO and AI-search (GEO/AEO) optimization plugin featuring dual-score site audits, llms.txt checks, and opt-in automated fixes.
+  zh: 面向传统 SEO 与 AI 搜索（GEO/AEO）的优化插件，提供双维度评分审计与可选自动修复。

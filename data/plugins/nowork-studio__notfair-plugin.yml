@@ -1,0 +1,10 @@
+name: NotFair SEO & GEO Plugin
+repo: https://github.com/nowork-studio/notfair-plugin
+category: content-marketing
+official: false
+agents: [claude-code, gemini-cli, universal]
+includes: [skills, mcp]
+tags: [seo, geo, google-ads, marketing]
+description:
+  en: Cross-agent plugin combining SEO, GEO, and Google Ads marketing skills with live MCP connectors.
+  zh: 融合 SEO、GEO 与 Google Ads 营销技能及实时 MCP 连接器的跨端增长插件。

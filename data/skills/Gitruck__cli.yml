@@ -1,0 +1,9 @@
+name: Gitruck Video Rough-Cut
+repo: https://github.com/Gitruck/cli
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [video-editing, talking-head, cli]
+description:
+  en: Single-command skill turning raw talking-head footage into an editable timeline project ready for fine-tuning.
+  zh: 一条命令将口播毛片自动粗剪为可二次精修剪辑工程的 AI 视频技能。

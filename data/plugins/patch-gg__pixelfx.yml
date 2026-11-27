@@ -1,0 +1,10 @@
+name: PixelFX
+repo: https://github.com/patch-gg/pixelfx
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [pixel-art, vfx, canvas, gamedev]
+description:
+  en: 244 procedural pixel-art VFX effects with a Claude Code skill for authoring custom sprite-sheet animations in code.
+  zh: 内置 244 种程序化像素特效及 Claude Code 技能，用代码快速创作自定义像素粒子与精灵表动画。

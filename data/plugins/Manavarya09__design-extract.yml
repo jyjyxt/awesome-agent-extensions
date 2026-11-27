@@ -1,0 +1,10 @@
+name: Design Extract
+repo: https://github.com/Manavarya09/design-extract
+category: frontend-design
+official: false
+agents: [claude-code, cursor, windsurf, universal]
+includes: [skills, mcp]
+tags: [design-system, tokens, dtcg, css]
+description:
+  en: Extract any website complete design system into DTCG tokens and multi-platform emitters (CSS, SwiftUI, etc.) via CLI, skill, and MCP.
+  zh: 一键提取任意网站完整设计系统为 DTCG Token 与多端代码（CSS、SwiftUI 等）的插件与 MCP。

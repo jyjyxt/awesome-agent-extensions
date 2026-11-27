@@ -1,0 +1,9 @@
+name: PaperOrchestra
+repo: https://github.com/Ar9av/PaperOrchestra
+category: data-research
+official: false
+agents: [claude-code, cursor, antigravity, universal]
+tags: [academic-writing, arxiv, benchmarks, autoraters]
+description:
+  en: Automated research-paper writing skill implementing Google PaperOrchestra with structured benchmarks and autoraters.
+  zh: 复现 Google PaperOrchestra 论文的自动化科研论文写作技能，内置评测基准与自动评分器。

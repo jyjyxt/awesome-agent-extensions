@@ -1,0 +1,9 @@
+name: Zhang Xuefeng Career Skill
+repo: https://github.com/alchaincyf/zhangxuefeng-skill
+category: productivity
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [career-planning, decision-making, chinese]
+description:
+  en: Practical decision-making and career planning cognitive framework skill for Chinese college entrance, grad school, and career advice.
+  zh: 张雪峰实战思维框架技能，覆盖高考志愿、考研选择与职业规划的系统化决策分析。

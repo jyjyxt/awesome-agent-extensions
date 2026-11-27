@@ -1,0 +1,10 @@
+name: Claude Tutor
+repo: https://github.com/kirilxd/claude-tutor
+category: productivity
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [education, spaced-repetition, quizzes, dashboard]
+description:
+  en: Turn Claude Code into a personal tutor with custom learning plans, adaptive quizzes, SM-2 spaced repetition, and a web dashboard.
+  zh: 将 Claude Code 变为个人导师的插件，支持定制学习计划、自适应测验、SM-2 间隔重复与 Web 仪表盘。

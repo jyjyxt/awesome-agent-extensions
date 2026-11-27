@@ -1,0 +1,10 @@
+name: Caprock
+repo: https://github.com/dspv/caprock
+category: orchestration
+official: false
+agents: [claude-code, codex, opencode, gemini-cli]
+includes: [tools]
+tags: [desktop, multi-agent, cost-tracking, pr]
+description:
+  en: Local-first agentic dev environment and Claude Code plugin to run Claude Code, Codex, OpenCode, and Gemini CLI side by side with PR cost tracking.
+  zh: 本地优先的多 Agent 开发环境与插件，支持并行运行 Claude Code、Codex、OpenCode 与 Gemini CLI 并追踪每个 PR 的成本。

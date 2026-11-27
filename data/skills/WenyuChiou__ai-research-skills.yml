@@ -1,0 +1,9 @@
+name: AI Academic Research Skills
+repo: https://github.com/WenyuChiou/ai-research-skills
+category: data-research
+official: false
+agents: [claude-code, codex, gemini-cli, universal]
+tags: [literature-review, research-design, manuscripts]
+description:
+  en: Portable SKILL.md suite for academic research workflows covering literature review, study design, project memory, and manuscript drafting.
+  zh: 跨端通用学术科研技能套件，覆盖文献综述、研究设计、科研记忆与手稿撰写。

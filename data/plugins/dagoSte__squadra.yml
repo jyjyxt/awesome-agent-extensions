@@ -1,0 +1,10 @@
+name: Squadra
+repo: https://github.com/dagoSte/squadra
+category: orchestration
+official: false
+agents: [claude-code, codex, cursor]
+includes: [skills]
+tags: [multi-window, orchestration, parallel-tests, review]
+description:
+  en: Coordinate parallel Claude, Codex, and Cursor windows with shared tasks, prechecks, parallel tests, source-bound proofs, and independent review.
+  zh: 跨窗口协同编排 Claude、Codex 与 Cursor 的插件，支持共享任务、并行测试、源码取证与独立复核。

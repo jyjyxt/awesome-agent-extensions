@@ -1,0 +1,9 @@
+name: Neo4j Agent Skills
+repo: https://github.com/neo4j/agent-skills
+category: cloud-devops
+official: true
+agents: [claude-code, codex, gemini-cli, universal]
+tags: [neo4j, cypher, graph-db, database]
+description:
+  en: Official Neo4j agent skills for Cypher query authoring, graph data modeling, and Neo4j application development.
+  zh: Neo4j 官方 Agent 技能包，涵盖 Cypher 查询编写、图数据建模与 Neo4j 应用开发。

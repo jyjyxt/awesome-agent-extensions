@@ -1,0 +1,9 @@
+name: COMPASS Alignment Skills
+repo: https://github.com/dongshuyan/compass-skills
+category: orchestration
+official: false
+agents: [claude-code, universal]
+tags: [alignment, memory, task-control, chinese]
+description:
+  en: Personal alignment and task-control skills OS helping AI agents stay consistent with your goals, preferences, and working style.
+  zh: 司南（COMPASS）个性化 AI 任务总控与偏好对齐技能体系。

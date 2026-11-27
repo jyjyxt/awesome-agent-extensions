@@ -1,0 +1,10 @@
+name: Context Attachment Manager
+repo: https://github.com/chipfighter/context-attachment-manager
+category: orchestration
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [images, compaction, context-window, cache]
+description:
+  en: Keep image-heavy coding sessions fast by turning older images into ID placeholders the model fetches on demand even after compaction.
+  zh: 将长会话中的历史图片转为按需拉取的 ID 占位符，保持缓存友好并防止多图对话变慢的上下文管理插件。

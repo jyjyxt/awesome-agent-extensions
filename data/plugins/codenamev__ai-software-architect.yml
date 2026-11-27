@@ -1,0 +1,10 @@
+name: AI Software Architect
+repo: https://github.com/codenamev/ai-software-architect
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills, mcp]
+tags: [architecture, adr, documentation, review]
+description:
+  en: Architecture documentation and review plugin with Architectural Decision Records (ADRs), design reviews, and pragmatic mode.
+  zh: 软件架构文档与评审插件，内置架构决策记录（ADR）、架构审查与务实设计模式。

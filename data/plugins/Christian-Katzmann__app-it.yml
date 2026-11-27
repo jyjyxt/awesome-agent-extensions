@@ -1,0 +1,10 @@
+name: App-It macOS
+repo: https://github.com/Christian-Katzmann/app-it
+category: frontend-design
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [macos, webkit, dock, desktop-app]
+description:
+  en: Plugin and skill that wraps local web projects into native macOS Dock apps with custom windows, names, and icons.
+  zh: 将本地 Web 项目一键封装为独立窗口、图标且可固定到 Dock 栏的 macOS 应用插件。

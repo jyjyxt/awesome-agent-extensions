@@ -1,0 +1,10 @@
+name: AntiAlgorithm
+repo: https://github.com/mankidev/antialgorithm
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+includes: [skills]
+tags: [creativity, naming, branding, design]
+description:
+  en: Creative divergence skill that steers LLMs away from cliché first answers when brainstorming names, logos, posters, and UI concepts.
+  zh: 反平庸创意发散技能，引导大模型跳出套路化首选答案，提升命名、海报、Logo 与 UI 创意质量。

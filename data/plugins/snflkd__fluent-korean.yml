@@ -1,0 +1,10 @@
+name: Fluent Korean Output Style
+repo: https://github.com/snflkd/fluent-korean
+category: productivity
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [korean, output-style, localization]
+description:
+  en: Claude Code output-style plugin making responses clear, natural, and idiomatic in Korean.
+  zh: 专为韩语开发者优化的 Claude Code 输出风格插件，让回复更加清晰地道。

@@ -1,0 +1,9 @@
+name: Human Skill Tree
+repo: https://github.com/24kchengYe/human-skill-tree
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [education, cognitive-science, lifelong-learning]
+description:
+  en: 30+ cognitive-science-backed tutoring skills spanning K-12 learning, career advancement, and social intelligence.
+  zh: 基于认知科学打造的 30+ 终身学习技能树，涵盖学科辅导、职业成长与社会智能训练。

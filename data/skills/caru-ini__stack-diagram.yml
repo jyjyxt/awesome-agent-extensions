@@ -1,0 +1,9 @@
+name: Stack Diagram
+repo: https://github.com/caru-ini/stack-diagram
+category: coding
+official: false
+agents: [claude-code, codex, universal]
+tags: [architecture, diagrams, tech-stack, logos]
+description:
+  en: Describe your tech stack in a single sentence and generate a clean architecture diagram complete with official technology logos.
+  zh: 一句话描述你的技术栈，自动生成带官方技术图标的精美系统架构图。

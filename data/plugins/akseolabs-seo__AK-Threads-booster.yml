@@ -1,0 +1,10 @@
+name: AK Threads Booster
+repo: https://github.com/akseolabs-seo/AK-Threads-booster
+category: content-marketing
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [threads, social-media, writing, analytics]
+description:
+  en: Data-driven Threads writing advisor plugin for topic selection, drafting, pre-publish diagnosis, performance prediction, and post-mortem review.
+  zh: 数据驱动的 Threads 写作决策插件，基于历史贴文协助选题、起草、发文前诊断、效果预测与复盘。

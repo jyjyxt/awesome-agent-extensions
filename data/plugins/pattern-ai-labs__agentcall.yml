@@ -1,0 +1,10 @@
+name: AgentCall
+repo: https://github.com/pattern-ai-labs/agentcall
+category: productivity
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [meetings, voice, google-meet, zoom, teams]
+description:
+  en: Let AI agents join Google Meet, Microsoft Teams, and Zoom calls with live voice, video, and screen-sharing to collaborate in real time.
+  zh: 让 AI Agent 以语音、视频和共享屏幕方式加入 Google Meet、Teams 与 Zoom 会议实时协作。

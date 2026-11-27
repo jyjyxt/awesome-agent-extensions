@@ -1,0 +1,10 @@
+name: Citadel Operating Layer
+repo: https://github.com/SethGammon/Citadel
+category: orchestration
+official: false
+agents: [claude-code, codex]
+includes: [skills, mcp]
+tags: [memory, intent-routing, safety-hooks, telemetry]
+description:
+  en: Operating layer plugin for Claude Code and Codex combining persistent project memory, intent routing, safety hooks, cost telemetry, and agent fleets.
+  zh: 面向 Claude Code 与 Codex 的统一运行层插件，整合项目记忆、意图路由、安全钩子、成本遥测与并行舰队。

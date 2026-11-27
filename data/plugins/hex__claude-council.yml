@@ -1,0 +1,10 @@
+name: Claude Council
+repo: https://github.com/hex/claude-council
+category: orchestration
+official: false
+agents: [claude-code, codex, cursor, antigravity]
+includes: [skills]
+tags: [multi-model, openrouter, council, comparison]
+description:
+  en: Claude Code plugin that queries Gemini, OpenAI, Grok, Perplexity, Kimi, or OpenRouter models on the same question side by side.
+  zh: 多模型议会插件，同步向 Gemini、OpenAI、Grok、Perplexity、Kimi 等模型提问并并排展示答案对比。

@@ -1,0 +1,11 @@
+name: Token Optimizer
+repo: https://github.com/alexgreensh/token-optimizer
+category: orchestration
+official: false
+featured: true
+agents: [claude-code, codex]
+includes: [skills]
+tags: [token-optimization, compaction, context, cost]
+description:
+  en: Detect ghost tokens, survive context compaction, and prevent context quality decay in long coding agent sessions.
+  zh: 定位冗余 Token 消耗、优化上下文压缩并防止长会话上下文质量衰减的插件。

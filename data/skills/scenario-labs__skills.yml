@@ -1,0 +1,9 @@
+name: Scenario Creative Media Skills
+repo: https://github.com/scenario-labs/skills
+category: content-marketing
+official: true
+agents: [claude-code, codex, universal]
+tags: [3d, image-generation, video, brand-consistency]
+description:
+  en: Production media skills that pick optimal image, video, audio, and 3D models, estimate cost upfront, and keep brand consistency.
+  zh: 生产级多模态创作技能包，自动匹配生图/视频/音频/3D 模型、预估成本并保持角色与品牌风格一致。

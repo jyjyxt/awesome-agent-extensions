@@ -1,0 +1,9 @@
+name: pstack Skills
+repo: https://github.com/backnotprop/pstack
+category: coding
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [engineering, workflow, code-review, principles]
+description:
+  en: Skills and engineering principles for rigorous, repeatable AI-assisted software development across Claude Code, Codex, and Cursor.
+  zh: 面向严谨 AI 辅助软件工程的 pstack 技能与工作流规范，适配 Claude Code、Codex 与 Cursor。

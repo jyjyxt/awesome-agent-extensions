@@ -1,0 +1,10 @@
+name: Claude Telegram Supercharged
+repo: https://github.com/k1p1l0/claude-telegram-supercharged
+category: productivity
+official: false
+agents: [claude-code]
+includes: [mcp]
+tags: [telegram, voice, daemon, remote-control]
+description:
+  en: Run Claude Code 24/7 from Telegram with two-way voice notes, self-healing daemon, restart memory, and live tool-call streaming.
+  zh: 通过 Telegram 全天候远程运行 Claude Code 的增强插件，支持双向语音、守护进程自愈与工具调用实时播报。

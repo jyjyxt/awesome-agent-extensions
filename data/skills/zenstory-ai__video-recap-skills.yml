@@ -1,0 +1,9 @@
+name: Video Recap & CapCut Skills
+repo: https://github.com/zenstory-ai/video-recap-skills
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [video-recap, capcut, asr, voiceover]
+description:
+  en: GPU-free narrated video recap skills automating scene cuts, visual narration scripting, voiceover mixing, and CapCut/Jianying draft export.
+  zh: 无需 GPU 的 AI 视频解说技能包，自动切镜、看画面写解说、配音混音并导出剪映/CapCut 草稿。

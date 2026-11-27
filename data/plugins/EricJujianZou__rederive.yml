@@ -1,0 +1,10 @@
+name: Rederive
+repo: https://github.com/EricJujianZou/rederive
+category: coding
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [code-comprehension, interview-prep, learning]
+description:
+  en: Socratic code-comprehension skill that quizzes you through AI-written codebases so you truly understand and can explain every design decision.
+  zh: 苏格拉底式代码理解技能，通过反向提问帮你重新推演 AI 编写代码的设计决策，从容应对评审与面试。

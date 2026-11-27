@@ -1,0 +1,9 @@
+name: Claude Legal Contract Review
+repo: https://github.com/evolsb/claude-legal-skill
+category: productivity
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [legal, contract-review, cuad, redlines]
+description:
+  en: Contract review skill featuring CUAD risk detection, market benchmarks, and lawyer-ready redline markups.
+  zh: 内置 CUAD 风险识别、市场条款基准与律师级修订批注的智能合同审查技能。

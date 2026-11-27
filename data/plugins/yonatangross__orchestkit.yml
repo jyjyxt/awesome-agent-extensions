@@ -1,0 +1,10 @@
+name: OrchestKit
+repo: https://github.com/yonatangross/orchestkit
+category: orchestration
+official: false
+agents: [claude-code, cursor, codex, universal]
+includes: [skills, subagents]
+tags: [orchestration, hooks, testing, fullstack]
+description:
+  en: Comprehensive orchestration plugin bundling 115 skills, 36 specialist agents, and 163 hooks for Claude Code, Cursor, and Codex.
+  zh: 全功能编排插件套装，内置 115 个技能、36 个专家子代理与 163 个 Hooks，适配 Claude Code、Cursor 与 Codex。

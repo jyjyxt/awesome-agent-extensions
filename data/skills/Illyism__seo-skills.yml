@@ -1,0 +1,9 @@
+name: Illyism SEO Skills
+repo: https://github.com/Illyism/seo-skills
+category: content-marketing
+official: false
+agents: [claude-code, cursor, codex, universal]
+tags: [seo, ahrefs, dataforseo, geo, backlinks]
+description:
+  en: 30 open-source SEO skills covering technical SEO roasts, Ahrefs/DataForSEO SERP workflows, backlink analysis, and GEO.
+  zh: 30 个开源 SEO 技能，涵盖技术 SEO 深度诊断、Ahrefs/DataForSEO SERP 流程、外链分析与 GEO。

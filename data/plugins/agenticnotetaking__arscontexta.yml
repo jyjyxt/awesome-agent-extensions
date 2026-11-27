@@ -1,0 +1,10 @@
+name: Ars Contexta
+repo: https://github.com/agenticnotetaking/arscontexta
+category: data-research
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [second-brain, note-taking, markdown, knowledge-base]
+description:
+  en: Claude Code plugin that generates a personalized Markdown knowledge system and second brain tailored to how you think and work.
+  zh: 通过对话了解你的思考与工作方式，为你量身生成完整 Markdown 第二大脑知识系统的插件。

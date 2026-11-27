@@ -1,0 +1,10 @@
+name: CC Intelligent UI
+repo: https://github.com/razorback16/cc-intelligent-ui
+category: productivity
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [terminal-ui, markdown, charts, diagrams]
+description:
+  en: Render rich Markdown, LaTeX math, charts, and diagrams directly inside the Claude Code terminal interface.
+  zh: 在 Claude Code 终端内直接美化渲染 Markdown、数学公式、数据图表与架构图。

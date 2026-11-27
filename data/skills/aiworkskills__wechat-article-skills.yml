@@ -1,0 +1,9 @@
+name: WeChat Article Full-Flow Skills
+repo: https://github.com/aiworkskills/wechat-article-skills
+category: content-marketing
+official: false
+agents: [claude-code, cursor, codex, universal]
+tags: [wechat, writing, layout, publishing, chinese]
+description:
+  en: End-to-end WeChat Official Account operations skillset covering topic ideation, drafting, review, layout, illustrations, and publishing.
+  zh: 微信公众号全流程运营技能包，覆盖选题、写稿、审稿、排版、配图与发布。

@@ -1,0 +1,10 @@
+name: Adversarial Spec
+repo: https://github.com/zscole/adversarial-spec
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [spec-driven, multi-model, debate, consensus]
+description:
+  en: Claude Code plugin that iteratively hardens product specifications by having multiple LLMs debate edge cases until reaching consensus.
+  zh: 通过多大模型对抗辩论反复打磨产品需求规格直至达成共识的 Claude Code 插件。

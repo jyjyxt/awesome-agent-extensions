@@ -1,0 +1,10 @@
+name: Cambium Knowledge Governance
+repo: https://github.com/KimGLee/Cambium
+category: data-research
+official: false
+agents: [claude-code, dsh]
+includes: [skills]
+tags: [knowledge-base, governance, validation, human-in-the-loop]
+description:
+  en: Deterministic validation and human-in-the-loop governance toolset for LLM-maintained knowledge corpora.
+  zh: 面向大模型维护知识语料库的确定性校验与人机协同治理插件工具集。

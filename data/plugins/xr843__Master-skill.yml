@@ -1,0 +1,10 @@
+name: Source-Grounded Buddhist Skills
+repo: https://github.com/xr843/Master-skill
+category: data-research
+official: false
+agents: [claude-code, universal]
+includes: [skills, mcp]
+tags: [buddhism, digital-humanities, cbeta, citations]
+description:
+  en: Source-grounded digital humanities skills and MCP server for quote tracing and citation resolution verified against CBETA and SuttaCentral.
+  zh: 经 CBETA 与 SuttaCentral 校核的数字人文与佛学经典引文溯源技能及 MCP 服务。

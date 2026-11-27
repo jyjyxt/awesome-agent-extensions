@@ -1,0 +1,9 @@
+name: Manim Animation Skill
+repo: https://github.com/Yusuke710/manim-skill
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [manim, math, animation, video]
+description:
+  en: Agent skill for generating 3Blue1Brown-style mathematical and technical animations with Manim.
+  zh: 使用 Manim 编写与渲染 3Blue1Brown 风格数学及技术科普动画的技能包。

@@ -1,0 +1,10 @@
+name: Wenlan Living Playbook
+repo: https://github.com/wenlan-app/wenlan
+category: data-research
+official: false
+agents: [claude-code, codex, universal]
+includes: [skills, mcp]
+tags: [playbook, knowledge-base, llm-wiki, local-first]
+description:
+  en: Local-first living playbook plugin and MCP keeping docs, skills, and rules continuously synchronized between humans and AI tools.
+  zh: 本地优先的活文档与规则同步插件，让人与多款 AI 工具始终基于同一套最新知识与技能协作。

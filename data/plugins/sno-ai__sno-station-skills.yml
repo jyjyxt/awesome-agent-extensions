@@ -1,0 +1,10 @@
+name: Sno Station Skills
+repo: https://github.com/sno-ai/sno-station-skills
+category: coding
+official: false
+agents: [claude-code, codex, cursor, universal]
+includes: [skills]
+tags: [code-review, engineering-habits, workflow]
+description:
+  en: Senior engineering workflow skills bringing cross-agent code review, disciplined delivery habits, and structured checks to coding agents.
+  zh: 沉淀资深研发团队协作习惯的跨端工程技能插件，强化跨角色代码审查与交付规范。

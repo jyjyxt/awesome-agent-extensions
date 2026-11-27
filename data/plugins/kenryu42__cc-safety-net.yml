@@ -1,0 +1,10 @@
+name: CC Safety Net
+repo: https://github.com/kenryu42/cc-safety-net
+category: security
+official: false
+agents: [claude-code, codex, antigravity]
+includes: [tools]
+tags: [safety, guardrails, git, hooks]
+description:
+  en: Pre-execution guard plugin blocking destructive Git, filesystem, and sensitive-file access commands before tool calls run.
+  zh: 工具调用前安全拦截插件，实时阻断破坏性 Git、文件系统删除与敏感文件读取命令。

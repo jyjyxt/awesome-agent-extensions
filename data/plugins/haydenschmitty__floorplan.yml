@@ -1,0 +1,10 @@
+name: Floorplan Codebase Map
+repo: https://github.com/haydenschmitty/floorplan
+category: coding
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [architecture, visualization, codebase-map]
+description:
+  en: Plugin that draws an interactive, plain-English architectural floorplan showing how your entire codebase fits together.
+  zh: 自动绘制通俗易懂的交互式代码库全景架构图，直观呈现各模块协作关系的插件。

@@ -1,0 +1,9 @@
+name: Attention Span
+repo: https://github.com/alexgreensh/attention-span
+category: productivity
+official: false
+agents: [claude-code, codex, universal]
+tags: [output-style, adhd-friendly, anti-slop, explainability]
+description:
+  en: ADHD-friendly output style skills that make coding agents communicate concisely and clearly without wall-of-text slop.
+  zh: ADHD 友好的输出风格技能包，让编程 Agent 用简洁直观的人类表达沟通，告别冗长废话。

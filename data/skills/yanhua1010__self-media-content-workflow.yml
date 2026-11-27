@@ -1,0 +1,9 @@
+name: Self-Media Content Workflow
+repo: https://github.com/yanhua1010/self-media-content-workflow
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [xiaohongshu, wechat, youtube, x, copywriting]
+description:
+  en: Modular multi-platform creator workflow skills for briefs, trend research, platform-native copy (Xiaohongshu, WeChat, X, YouTube), and short video.
+  zh: 模块化自媒体全平台创作技能流，适配小红书、公众号、X 与 YouTube 的选题调研、原生文案与短视频发布。

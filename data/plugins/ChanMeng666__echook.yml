@@ -1,0 +1,10 @@
+name: echook Audio Notifications
+repo: https://github.com/ChanMeng666/echook
+category: productivity
+official: false
+agents: [claude-code, cursor, codex]
+includes: [tools]
+tags: [hooks, audio, notifications, tts, statusline]
+description:
+  en: AI-configured audio notifications across 39 hook events with voice/chime themes, TTS, webhooks, rate-limit alerts, and subagent statusline.
+  zh: 覆盖 39 个 Hook 事件的语音与提示音通知插件，支持 TTS、Webhook、限流告警与子代理状态栏。

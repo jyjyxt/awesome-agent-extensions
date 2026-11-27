@@ -1,0 +1,9 @@
+name: Vibe Knowledge Film
+repo: https://github.com/HeyChengC/vibe-knowledge-film
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [douyin, explainer-video, storyboard, chinese]
+description:
+  en: Viral knowledge explainer short-film skill covering hit video breakdown, art style replication, director storyboards, SFX, and rendering.
+  zh: 抖音爆款知识短片创作技能，覆盖爆款拆解、画风复刻、导演分镜表、自动配音效与一键出片。

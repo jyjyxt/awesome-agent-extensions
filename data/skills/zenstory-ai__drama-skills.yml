@@ -1,0 +1,9 @@
+name: AI Short Drama Skills
+repo: https://github.com/zenstory-ai/drama-skills
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [short-drama, video, storyboard, aigc]
+description:
+  en: End-to-end AI short drama and motion comic production skills covering novel adaptation, visual bibles, storyboards, prompts, and editing.
+  zh: AI 短剧与漫剧全流程制作技能包，覆盖小说改剧本、视觉设定、分镜、生图/生视频提示词与剪辑成片。

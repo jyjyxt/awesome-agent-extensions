@@ -1,0 +1,10 @@
+name: PRD Taskmaster (Atlas)
+repo: https://github.com/anombyte93/prd-taskmaster
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills, mcp]
+tags: [prd, task-graph, product-management, execution]
+description:
+  en: Zero-config goal-to-tasks engine combining graded PRD validation, dependency-ordered task graphs, and evidence-gated execution.
+  zh: 零配置目标拆解与执行引擎插件，集成分级 PRD 校验、依赖任务图与证据门控执行。

@@ -1,0 +1,11 @@
+name: Claude Blog
+repo: https://github.com/AgriciDaniel/claude-blog
+category: content-marketing
+official: false
+featured: true
+agents: [claude-code]
+includes: [skills, subagents]
+tags: [blog, seo, geo, eeat, content]
+description:
+  en: Open-source blog production plugin with 32 skills, 30 /blog commands, and 5 agents featuring source research, 100-point scoring, and 5 delivery gates.
+  zh: 开源博客创作插件，内置 32 个技能、30 个 /blog 命令与 5 个子代理，支持调研、百分制评审与五重交付门禁。

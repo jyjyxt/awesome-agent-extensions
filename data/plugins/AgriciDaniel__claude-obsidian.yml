@@ -1,0 +1,11 @@
+name: Claude Obsidian
+repo: https://github.com/AgriciDaniel/claude-obsidian
+category: data-research
+official: false
+featured: true
+agents: [claude-code]
+includes: [skills]
+tags: [obsidian, second-brain, pkm, knowledge-graph]
+description:
+  en: Self-organizing AI second brain plugin for Obsidian and Claude Code that reads, links, and files sources into a local Markdown knowledge graph.
+  zh: 面向 Obsidian 与 Claude Code 的自组织 AI 第二大脑插件，自动阅读、关联并归档资料为本地 Markdown 知识图谱。

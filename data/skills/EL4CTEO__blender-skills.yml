@@ -1,0 +1,9 @@
+name: Blender 5.3 Agent Skills
+repo: https://github.com/EL4CTEO/blender-skills
+category: frontend-design
+official: false
+agents: [claude-code, codex, gemini-cli, copilot, cursor]
+tags: [blender, 3d, pbr, rigging, animation]
+description:
+  en: Professional Blender 5.3 workflow skills covering 3D modeling, UVs, PBR materials, baking, rigging, animation, export, and QA.
+  zh: 专业 Blender 5.3 工作流技能包，覆盖 3D 建模、UV 展开、PBR 材质、烘焙、绑定、动画与质检导出。

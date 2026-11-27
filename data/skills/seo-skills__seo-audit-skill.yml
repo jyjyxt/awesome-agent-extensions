@@ -1,0 +1,9 @@
+name: SEO Audit 332-Rule Skill
+repo: https://github.com/seo-skills/seo-audit-skill
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [seo-audit, core-web-vitals, structured-data]
+description:
+  en: Comprehensive SEO audit CLI and skill executing 332 rules across 20 categories including Core Web Vitals, security headers, and schema.
+  zh: 内置 20 大类 332 条检测规则的网站 SEO 审计命令行与技能工具，覆盖性能指标、安全头与结构化数据。

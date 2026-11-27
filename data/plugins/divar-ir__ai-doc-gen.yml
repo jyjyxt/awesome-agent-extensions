@@ -1,0 +1,10 @@
+name: AI Doc Gen
+repo: https://github.com/divar-ir/ai-doc-gen
+category: coding
+official: false
+agents: [claude-code, universal]
+includes: [skills, subagents]
+tags: [documentation, code-analysis, gitlab, multi-agent]
+description:
+  en: Multi-agent codebase documentation plugin that analyzes repositories concurrently and generates structured technical documentation with GitLab support.
+  zh: 多智能体代码库文档生成插件，并发分析源码结构并输出完整技术文档，支持 GitLab 集成。

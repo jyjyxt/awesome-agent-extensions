@@ -1,0 +1,9 @@
+name: Best Paper Writing Skill
+repo: https://github.com/gulucaptain/Best-Paper-Writing-Skill
+category: data-research
+official: false
+agents: [claude-code, codex, universal]
+tags: [academic-writing, cvpr, iccv, neurips, iclr]
+description:
+  en: Drafts abstracts, introductions, methods, and experiments modeled on 60 CVPR, ICCV, and NeurIPS best-paper award winners.
+  zh: 提炼自 60 篇 CVPR/ICCV/NeurIPS 最佳论文的顶会论文写作技能，覆盖摘要、引言、方法与实验章节。

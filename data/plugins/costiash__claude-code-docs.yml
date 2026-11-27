@@ -1,0 +1,10 @@
+name: Claude Code Live Docs
+repo: https://github.com/costiash/claude-code-docs
+category: marketplaces-tooling
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [documentation, anthropic, changelog, search]
+description:
+  en: Lightweight metadata plugin fetching always-current official Anthropic Claude docs on demand with instant search and changelog reports.
+  zh: 轻量级文档插件，按需实时拉取最新 Anthropic 官方文档，支持即时检索、互动教程与变更报告。

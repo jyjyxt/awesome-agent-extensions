@@ -1,0 +1,9 @@
+name: CyberSecurity Operations Skills
+repo: https://github.com/Masriyan/Claude-Code-CyberSecurity-Skill
+category: security
+official: false
+agents: [claude-code, universal]
+tags: [cybersecurity, threat-hunting, reverse-engineering, blue-team]
+description:
+  en: 22 cybersecurity skills spanning offensive security, defensive operations, reverse engineering, threat hunting, and threat intelligence.
+  zh: 22 个网络安全实战技能，涵盖攻防演练、蓝队运营、逆向工程、威胁狩猎与威胁情报分析。

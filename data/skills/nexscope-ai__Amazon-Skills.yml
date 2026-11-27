@@ -1,0 +1,9 @@
+name: Amazon Seller Skills
+repo: https://github.com/nexscope-ai/Amazon-Skills
+category: content-marketing
+official: false
+agents: [claude-code, cursor, windsurf, codex, universal]
+tags: [amazon, ecommerce, listing-audit, keywords]
+description:
+  en: Specialized Amazon seller skills for keyword research, competitor teardowns, and product listing optimization.
+  zh: 面向亚马逊卖家的专项运营技能，涵盖关键词调研、竞品拆解与 Listing 转化率审计。

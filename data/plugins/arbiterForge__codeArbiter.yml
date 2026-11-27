@@ -1,0 +1,10 @@
+name: codeArbiter
+repo: https://github.com/arbiterForge/codeArbiter
+category: security
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [governance, guardrails, hard-gates, safety]
+description:
+  en: Open-source governance and hard safety gates for AI coding agents across Claude Code, Codex CLI, and Pi.
+  zh: 面向 Claude Code 与 Codex CLI 的开源安全治理与强制门禁插件，防范高危操作与违规变更。

@@ -1,0 +1,11 @@
+name: LongHorizon Harness
+repo: https://github.com/AMAP-ML/LongHorizon-Harness
+category: orchestration
+official: false
+featured: true
+agents: [claude-code, codex, dsh]
+includes: [skills]
+tags: [long-horizon, computer-use, gui, loop]
+description:
+  en: Long-horizon computer-use harness for running agents across desktop apps and CLI with fresh-context execution, durable state, and independent auditing.
+  zh: 面向长周期桌面与命令行任务的 Agent 运行时插件，支持刷新上下文执行、持久化状态校验与独立审计。

@@ -1,0 +1,10 @@
+name: Claude Red
+repo: https://github.com/SnailSploit/Claude-Red
+category: security
+official: false
+featured: true
+agents: [claude-code, universal]
+tags: [red-team, offensive-security, pentesting]
+description:
+  en: Structured offensive security SKILL.md library priming Claude with expert red-team methodologies and penetration testing workflows.
+  zh: 结构化进攻性安全技能库，以 SKILL.md 形式为 Claude 提供专业红队测试与渗透方法论。

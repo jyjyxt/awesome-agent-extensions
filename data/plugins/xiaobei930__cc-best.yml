@@ -1,0 +1,10 @@
+name: cc-best Dev Team
+repo: https://github.com/xiaobei930/cc-best
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills, subagents]
+tags: [dev-team, tdd, hooks, auto-learning, workflow]
+description:
+  en: Turn Claude Code into an autonomous PM-Lead-Dev-QA team with 44 commands, 19 skills, 8 agents, 43 rules, 30 hooks, and an auto-learning pipeline.
+  zh: 将 Claude Code 打造为 PM→Lead→Dev→QA 完整开发团队的插件，内置 44 个命令、19 个技能、8 个子代理与 30 个 Hooks。

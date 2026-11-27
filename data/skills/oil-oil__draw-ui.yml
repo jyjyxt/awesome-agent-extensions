@@ -1,0 +1,9 @@
+name: Draw UI
+repo: https://github.com/oil-oil/draw-ui
+category: frontend-design
+official: false
+agents: [claude-code, codex, universal]
+tags: [ui-design, mockup, screenshot-to-code, dashboard]
+description:
+  en: UI design and mockup skill for Claude Code and Codex turning ideas or screenshots into polished design drafts and frontend code.
+  zh: 面向 Claude Code 与 Codex 的 UI 设计稿生成与截图还原前端代码技能。

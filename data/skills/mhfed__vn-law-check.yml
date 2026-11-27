@@ -1,0 +1,9 @@
+name: VN Law Check
+repo: https://github.com/mhfed/vn-law-check
+category: security
+official: false
+agents: [claude-code, cursor, copilot, windsurf]
+tags: [compliance, privacy, vietnam-law, audit]
+description:
+  en: Legal compliance audit skill checking websites against Vietnam data protection, e-commerce, cybersecurity, and AI regulations.
+  zh: 面向越南数据保护、电商、网络安全与 AI 法规的网站合规审计技能。

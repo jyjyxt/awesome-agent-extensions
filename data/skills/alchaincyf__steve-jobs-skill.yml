@@ -1,0 +1,9 @@
+name: Steve Jobs Cognitive Skill
+repo: https://github.com/alchaincyf/steve-jobs-skill
+category: productivity
+official: false
+agents: [claude-code, codex, cursor, gemini-cli]
+tags: [decision-making, product-thinking, mental-models]
+description:
+  en: Product and decision-making skill distilling Steve Jobs mental models, heuristics, and communication principles.
+  zh: 提炼乔布斯 6 大心智模型与 8 条决策启发式的产品思考与决策辅助技能。

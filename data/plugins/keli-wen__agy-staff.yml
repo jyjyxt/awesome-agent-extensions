@@ -1,0 +1,10 @@
+name: AGY Staff
+repo: https://github.com/keli-wen/agy-staff
+category: orchestration
+official: false
+agents: [claude-code, codex, dsh, antigravity]
+includes: [skills]
+tags: [antigravity, gemini, delegation, code-review]
+description:
+  en: Hire Google Antigravity CLI (agy) as a fast Gemini sub-staffer inside Claude Code, Codex, and DeepSeek Harness.
+  zh: 将 Google Antigravity CLI 接入 Claude Code、Codex 与 DeepSeek Harness 作为高速 Gemini 协作者的插件。

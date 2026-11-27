@@ -1,0 +1,10 @@
+name: Vigilo Web3 Security
+repo: https://github.com/BitterSecurity/Vigilo
+category: security
+official: false
+agents: [claude-code, opencode]
+includes: [skills]
+tags: [web3, smart-contracts, bug-bounty, offensive-security]
+description:
+  en: Offensive Web3 smart contract auditing plugin designed for bug bounties, audit contests, and exploit-chain analysis.
+  zh: 面向 Web3 智能合约漏洞赏金与审计竞赛的攻防型安全分析插件。

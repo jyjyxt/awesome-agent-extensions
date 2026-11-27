@@ -1,0 +1,10 @@
+name: Continuous Claude v3
+repo: https://github.com/parcadei/Continuous-Claude-v3
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills, subagents, mcp]
+tags: [context-management, hooks, ledgers, handoffs]
+description:
+  en: Context management system using hooks, ledgers, handoffs, and isolated subagent context windows to run MCP tools without context bloat.
+  zh: 基于 Hooks、状态账本、交接清单与隔离上下文窗口的 Claude Code 长程上下文管理与编排插件。

@@ -1,0 +1,9 @@
+name: iOS Simulator Skill
+repo: https://github.com/conorluddy/ios-simulator-skill
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+tags: [ios, xcode, simulator, mobile-testing]
+description:
+  en: Token-efficient Xcode CLI and iOS Simulator skill using progressive disclosure to build, launch, and drive iOS apps without noisy logs.
+  zh: 渐进式披露输出的 Xcode 与 iOS 模拟器技能，低 Token 消耗完成 iOS 应用构建、运行与自动化交互测试。

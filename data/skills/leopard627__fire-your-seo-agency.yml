@@ -1,0 +1,9 @@
+name: Fire Your SEO Agency
+repo: https://github.com/leopard627/fire-your-seo-agency
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [seo, aeo, geo, llmo, naver]
+description:
+  en: Autonomous SEO, AEO, GEO, LLMO, and Naver search optimization audit and execution skill for Claude Code.
+  zh: 一站式 SEO、AEO、GEO、LLMO 与 Naver 搜索引擎自主审计与优化技能。

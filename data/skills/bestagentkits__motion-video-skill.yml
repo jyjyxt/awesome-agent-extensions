@@ -1,0 +1,9 @@
+name: HyperFrames Motion Video Skill
+repo: https://github.com/bestagentkits/motion-video-skill
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [motion-graphics, gsap, video, voiceover]
+description:
+  en: Produce beat-synced 1080p motion-graphic videos in HTML + GSAP with AI voice-overs, karaoke captions, SFX, and music.
+  zh: 基于 HTML + GSAP 生成节拍同步的 1080p 动态图形视频，集成 AI 配音、卡拉 OK 字幕、音效与配乐。

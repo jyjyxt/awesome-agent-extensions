@@ -1,0 +1,10 @@
+name: MSP Skills & Local MCP
+repo: https://github.com/Servosity/msp-skills
+category: cloud-devops
+official: false
+agents: [claude-code, universal]
+includes: [skills, mcp]
+tags: [msp, psa, rmm, m365, it-ops]
+description:
+  en: Local-first MCP servers and Claude Code skills for MSP IT operations covering PSA, RMM, backup, and Microsoft 365.
+  zh: 面向 IT 托管服务商（MSP）的本地优先 MCP 与技能包，覆盖 PSA、RMM、备份与 Microsoft 365 运维。

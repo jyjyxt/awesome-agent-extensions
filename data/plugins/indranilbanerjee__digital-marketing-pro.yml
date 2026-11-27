@@ -1,0 +1,10 @@
+name: Digital Marketing Pro
+repo: https://github.com/indranilbanerjee/digital-marketing-pro
+category: content-marketing
+official: false
+agents: [claude-code, cursor, codex, universal]
+includes: [skills]
+tags: [marketing, seo, aeo, geo, paid-media]
+description:
+  en: AI digital marketing operating system plugin covering strategy, SEO, AEO/GEO, paid media, content, CRM, and analytics with human approval gates.
+  zh: 开源 AI 数字营销工作流插件，覆盖策略、SEO、AEO/GEO、付费投放、内容与数据分析，并内置人工审批门禁。

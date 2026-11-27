@@ -1,0 +1,10 @@
+name: Claude Ops
+repo: https://github.com/Lifecycle-Innovations-Limited/claude-ops
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills, subagents]
+tags: [business-ops, aws, unified-inbox, daemon]
+description:
+  en: Business operations plugin with 57 skills, 21 agents, and a smart daemon unifying WhatsApp/Email/Slack/Telegram, PR merges, and AWS monitoring.
+  zh: 企业运维自动化插件，内置 57 个技能、21 个子代理与守护进程，打通多渠道收件箱、PR 合并与 AWS 监控。

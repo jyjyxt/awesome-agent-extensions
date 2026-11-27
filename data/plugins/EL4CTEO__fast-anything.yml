@@ -1,0 +1,10 @@
+name: Fast Anything
+repo: https://github.com/EL4CTEO/fast-anything
+category: coding
+official: false
+agents: [claude-code, codex]
+includes: [skills, mcp]
+tags: [performance, profiling, rust, ffi]
+description:
+  en: Profile Python, Node, or Ruby apps to pinpoint the slow 5%, port hot functions to Rust via FFI, and prove behavioral equivalence.
+  zh: 性能分析与热点加速插件：定位 Python/Node/Ruby 慢热点，自动移植为 Rust FFI 并验证行为一致。

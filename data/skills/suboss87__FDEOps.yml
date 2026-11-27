@@ -1,0 +1,9 @@
+name: FDEOps
+repo: https://github.com/suboss87/FDEOps
+category: coding
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [forward-deployed-engineering, deployment, customer-engineering]
+description:
+  en: Forward Deployed Engineering (FDE) operational skills for customer-embedded prototyping, integration, and rapid production delivery.
+  zh: 面向前线部署工程师（FDE）的客户现场原型构建、系统集成与快速交付技能包。

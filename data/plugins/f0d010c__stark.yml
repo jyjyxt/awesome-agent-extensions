@@ -1,0 +1,10 @@
+name: Stark UI/UX Plugin
+repo: https://github.com/f0d010c/stark
+category: frontend-design
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [ui-ux, design-system, swiftui, react, anti-slop]
+description:
+  en: UI/UX design plugin planning product flows, platform-native interfaces (React, SwiftUI, Jetpack Compose), and visual references before coding.
+  zh: 编码前置的 UI/UX 设计插件，覆盖产品流程、跨平台原生界面规范、视觉资产规划与参考分析。

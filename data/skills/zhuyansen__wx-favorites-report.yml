@@ -1,0 +1,9 @@
+name: WeChat Favorites Report
+repo: https://github.com/zhuyansen/wx-favorites-report
+category: data-research
+official: false
+agents: [claude-code]
+tags: [wechat, macos, data-visualization, html-report]
+description:
+  en: End-to-end macOS Claude Code skill converting local WeChat favorites into an interactive visual HTML report.
+  zh: 端到端微信收藏可视化技能，将 macOS 本地微信收藏解析并生成交互式 HTML 数据报告。

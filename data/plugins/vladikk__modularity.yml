@@ -1,0 +1,10 @@
+name: Modularity Architecture Plugin
+repo: https://github.com/vladikk/modularity
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [ddd, modularity, coupling, architecture]
+description:
+  en: Design modular systems from requirements and audit existing codebases for coupling/cohesion issues using Balanced Coupling and DDD.
+  zh: 基于领域驱动设计与平衡耦合原则的模块化系统设计及代码库耦合度审计插件。

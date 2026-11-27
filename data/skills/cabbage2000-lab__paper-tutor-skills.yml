@@ -1,0 +1,9 @@
+name: Paper Tutor Skills
+repo: https://github.com/cabbage2000-lab/paper-tutor-skills
+category: data-research
+official: false
+agents: [claude-code, codex, universal]
+tags: [academic, chinese, citation-verification, thesis]
+description:
+  en: Chinese academic tutoring skillset with 25 end-to-end commands from topic selection to submission with real API citation verification.
+  zh: 面向中文研究生与科研工作者的学术辅导技能套件，覆盖选题、检索、成文、评审到投稿 25 个命令并强制真实 API 引用核验。

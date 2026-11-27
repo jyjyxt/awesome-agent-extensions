@@ -1,0 +1,10 @@
+name: NanoResearch
+repo: https://github.com/OpenRaiser/NanoResearch
+category: data-research
+official: false
+agents: [claude-code, universal]
+includes: [skills, subagents]
+tags: [ai-scientist, autonomous-research, academic]
+description:
+  en: Autonomous AI scientific research assistant plugin automating hypothesis generation, experiments, and literature synthesis.
+  zh: 自主 AI 科研助手插件，自动化推进假设提出、文献综合与实验迭代。

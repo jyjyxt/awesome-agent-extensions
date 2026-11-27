@@ -1,0 +1,9 @@
+name: Award-Caliber Web Design Skill
+repo: https://github.com/juliobsz/skills
+category: frontend-design
+official: false
+agents: [claude-code, codex, universal]
+tags: [astro, awwwards, creative-coding, frontend]
+description:
+  en: Creative frontend skill for building editorial, award-caliber interactive websites in Astro and modern CSS from a single brief.
+  zh: 基于 Astro 与现代动效打造 Awwwards 级高质感创意网站的前端设计技能。

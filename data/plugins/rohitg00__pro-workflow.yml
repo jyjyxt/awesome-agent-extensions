@@ -1,0 +1,10 @@
+name: Pro Workflow
+repo: https://github.com/rohitg00/pro-workflow
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [self-correcting, memory, worktrees, teams]
+description:
+  en: Self-correcting workflow plugin that learns from your corrections across 50+ sessions with parallel worktrees, agent teams, and 17 skills.
+  zh: 具备自我纠错记忆的工程工作流插件，跨 50+ 会话持续沉淀经验，集成并行 Worktrees 与 17 个实战技能。

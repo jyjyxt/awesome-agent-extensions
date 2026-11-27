@@ -1,0 +1,9 @@
+name: Google Maps Scraper Skill
+repo: https://github.com/gosom/google-maps-scraper
+category: data-research
+official: false
+agents: [claude-code, codex, universal]
+tags: [google-maps, scraping, leads, golang]
+description:
+  en: High-performance Google Maps place data scraper with agent skills extracting addresses, phones, websites, ratings, coordinates, and reviews.
+  zh: 高性能 Google Maps 商家数据采集工具与技能，支持提取地址、电话、评分、经纬度与评论信息。

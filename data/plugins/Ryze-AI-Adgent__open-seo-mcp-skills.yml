@@ -1,0 +1,10 @@
+name: Open SEO MCP & Skills
+repo: https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+includes: [skills, mcp]
+tags: [seo, geo, gsc, ga4, backlinks]
+description:
+  en: Open-source SEO and GEO skills paired with an SEO MCP server for keyword research, rank tracking, audits, and GSC/GA4 analysis.
+  zh: 开源 SEO 与 GEO 技能及 MCP 组合，支持基于真实 GSC/GA4 数据的关键词研究、排名追踪与站点审计。

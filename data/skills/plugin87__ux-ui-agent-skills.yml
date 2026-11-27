@@ -1,0 +1,9 @@
+name: UX/UI Design System Skills
+repo: https://github.com/plugin87/ux-ui-agent-skills
+category: frontend-design
+official: false
+agents: [claude-code, codex, cursor, copilot, gemini-cli]
+tags: [design-system, wcag, dtcg, ui-ux]
+description:
+  en: 26 design-system skills with DTCG tokens, WCAG 2.2 AA/AAA accessibility gates, and 2,144 reference design systems for any frontend framework.
+  zh: 涵盖 26 个设计系统技能、DTCG Token 与 WCAG 2.2 无障碍质量门禁的前端 UI/UX 技能库。

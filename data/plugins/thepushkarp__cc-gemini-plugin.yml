@@ -1,0 +1,10 @@
+name: CC Gemini Plugin
+repo: https://github.com/thepushkarp/cc-gemini-plugin
+category: orchestration
+official: false
+agents: [claude-code, codex, gemini-cli]
+includes: [skills, subagents]
+tags: [gemini-cli, multi-model, bridge, subagents]
+description:
+  en: Integrate Gemini CLI directly inside Claude Code and Codex as a callable subagent and skill for cross-model workflows.
+  zh: 将 Gemini CLI 以子代理和技能形式无缝集成到 Claude Code 与 Codex 中的跨模型协作插件。

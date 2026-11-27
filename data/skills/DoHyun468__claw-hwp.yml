@@ -1,0 +1,9 @@
+name: Claw HWP
+repo: https://github.com/DoHyun468/claw-hwp
+category: productivity
+official: false
+agents: [claude-code, codex, universal]
+tags: [hwp, hwpx, korean, documents]
+description:
+  en: Read, create, and edit Korean Hangul (.hwp/.hwpx) documents directly in Claude Code and Codex without Hancom Office.
+  zh: 无需安装 Hancom Office，直接在 Claude Code 与 Codex 中读取、创建和编辑韩文 .hwp/.hwpx 文档。

@@ -1,0 +1,9 @@
+name: German Law Skills
+repo: https://github.com/Klotzkette/claude-fuer-deutsches-recht
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [german-law, legal, gdpr, dsgvo]
+description:
+  en: Practical German legal skills covering employment, corporate, insolvency, GDPR/DSGVO data privacy, and procedural law.
+  zh: 面向德国法律实务的专项技能集，涵盖劳动法、公司法、破产法、DSGVO 数据隐私与诉讼程序。

@@ -1,0 +1,10 @@
+name: Craft Design Plugin
+repo: https://github.com/diego3g/craft
+category: frontend-design
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [design-system, figma, ui-design, review]
+description:
+  en: Design plugin with /craft-setup and /craft commands to write design briefs, craft every UI state from your design system, and review screens.
+  zh: 通过 /craft-setup 与 /craft 撰写设计简报、按设计系统生成完整交互状态页面并自动评审的 UI 设计插件。

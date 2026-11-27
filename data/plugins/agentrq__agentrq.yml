@@ -1,0 +1,10 @@
+name: AgentRQ
+repo: https://github.com/agentrq/agentrq
+category: orchestration
+official: false
+agents: [claude-code, gemini-cli, opencode, dsh]
+includes: [skills, mcp]
+tags: [task-manager, human-in-the-loop, acp, self-hosted]
+description:
+  en: Self-hosted human-in-the-loop realtime conversational task manager for controlling AI agents from mobile, web, and desktop.
+  zh: 自托管的人机协同实时对话任务管理器插件，支持从手机、网页与桌面端远程掌控 AI Agent。

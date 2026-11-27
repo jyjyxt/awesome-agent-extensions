@@ -1,0 +1,9 @@
+name: QuillShield Audit Skills
+repo: https://github.com/quillai-network/quillshield_skills
+category: security
+official: true
+agents: [claude-code, universal]
+tags: [solidity, smart-contracts, defi-security, audit]
+description:
+  en: Structured smart contract security audit skills inferring state invariants, modeling flash-loan/oracle attack chains, and scoring findings.
+  zh: 结构化智能合约安全审计技能包，支持状态不变量推断、闪电贷/预言机攻击链建模与漏洞评级。

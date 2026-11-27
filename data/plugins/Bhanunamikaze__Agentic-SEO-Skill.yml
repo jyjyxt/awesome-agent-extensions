@@ -1,0 +1,10 @@
+name: Agentic SEO Skill
+repo: https://github.com/Bhanunamikaze/Agentic-SEO-Skill
+category: content-marketing
+official: false
+agents: [claude-code, codex, antigravity, universal]
+includes: [skills, subagents]
+tags: [seo, subagents, audit, evidence]
+description:
+  en: LLM-first SEO analysis plugin with 16 specialized sub-skills, 10 specialist agents, and 88 evidence-collection utility scripts.
+  zh: LLM 优先的深度 SEO 分析插件，内置 16 个子技能、10 个专家子代理与 88 个取证脚本。

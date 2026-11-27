@@ -1,0 +1,10 @@
+name: Babysitter Orchestrator
+repo: https://github.com/a5c-ai/babysitter
+category: orchestration
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [orchestration, deterministic, workflow, guardrails]
+description:
+  en: Deterministic self-orchestration plugin enforcing strict step compliance for complex, multi-stage agentic engineering workflows.
+  zh: 通过确定性流程约束保障复杂多阶段任务零幻觉、严格按规范执行的 Agent 编排插件。

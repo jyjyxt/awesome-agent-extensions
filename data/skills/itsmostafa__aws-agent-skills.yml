@@ -1,0 +1,9 @@
+name: AWS Agent Skills
+repo: https://github.com/itsmostafa/aws-agent-skills
+category: cloud-devops
+official: false
+agents: [claude-code, codex, universal]
+tags: [aws, cloud, infrastructure, devops]
+description:
+  en: Practical AWS architecture, security, and cloud operations skills for Claude Code and Codex.
+  zh: 面向 Claude Code 与 Codex 的实用 AWS 云架构与运维技能集。

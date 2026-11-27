@@ -1,0 +1,9 @@
+name: WallStreet Explainer Video Skill
+repo: https://github.com/HeyChengC/wallstreet-explainer
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [finance, explainer-video, douyin, chinese]
+description:
+  en: Wall-Street-style finance and tech explainer short-video skill with visual style guides, clip sourcing, voiceover, rendering, and mixing tools.
+  zh: 华尔街风格财经/科技解读短片技能，覆盖视觉语言、找片截图、配音、渲染与混音全流程。

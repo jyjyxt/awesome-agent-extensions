@@ -1,0 +1,10 @@
+name: AnyMove Motion Capture
+repo: https://github.com/patch-gg/anymove
+category: frontend-design
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [motion-capture, blender, dinov2, gamedev, glb]
+description:
+  en: Extract creature motion capture from a single AI video using DINOv2 joint tracking and dual-view rig fitting to export GLB animations.
+  zh: 从单段 AI 视频提取任意生物动作捕捉数据（DINOv2 关节点追踪 + 骨骼绑定）并导出 GLB 动画的插件。

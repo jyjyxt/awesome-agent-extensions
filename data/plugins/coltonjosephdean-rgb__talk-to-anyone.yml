@@ -1,0 +1,10 @@
+name: Talk To Anyone (/coach)
+repo: https://github.com/coltonjosephdean-rgb/talk-to-anyone
+category: productivity
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [persona, coaching, youtube, research]
+description:
+  en: Persona coaching plugin (/coach) that researches any public figure from YouTube transcripts and web sources so you can converse with them.
+  zh: 通过检索 YouTube 字幕与全网资料构建任意公众人物思维模型的 /coach 角色对话插件。

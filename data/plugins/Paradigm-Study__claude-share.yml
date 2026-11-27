@@ -1,0 +1,10 @@
+name: Claude Share
+repo: https://github.com/Paradigm-Study/claude-share
+category: productivity
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [multiplayer, pair-programming, collaboration, self-hosted]
+description:
+  en: Self-hosted multiplayer plugin for Claude Code letting teammates join a live session via link to co-review replies, tool calls, and previews.
+  zh: 自托管多人协作插件，分享链接即可让团队成员实时围观并协同评审同一个 Claude Code 会话与预览。

@@ -1,0 +1,10 @@
+name: MemSearch
+repo: https://github.com/zilliztech/memsearch
+category: orchestration
+official: true
+agents: [claude-code, codex, dsh, universal]
+includes: [skills, mcp]
+tags: [memory, milvus, markdown, semantic-search]
+description:
+  en: Official Zilliz persistent unified memory layer for Claude Code, Codex, and DSH backed by local Markdown and Milvus vector search.
+  zh: Zilliz 官方出品的跨 Agent 持久化统一记忆层插件，结合本地 Markdown 与 Milvus 向量检索。

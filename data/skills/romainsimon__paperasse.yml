@@ -1,0 +1,9 @@
+name: Paperasse (French Admin Skills)
+repo: https://github.com/romainsimon/paperasse
+category: productivity
+official: false
+agents: [claude-code, universal]
+tags: [french, accounting, legal, bureaucracy]
+description:
+  en: Specialized AI agent skills for navigating French administrative, accounting, tax, and notarial procedures.
+  zh: 专注于法国行政、会计、税务与公证流程处理的领域专用 Agent 技能集。

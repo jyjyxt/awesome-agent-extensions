@@ -1,0 +1,10 @@
+name: Bundles Forge
+repo: https://github.com/OdradekAI/bundles-forge
+category: marketplaces-tooling
+official: false
+agents: [claude-code, cursor, universal]
+includes: [skills]
+tags: [bundle-plugin, skill-authoring, framework]
+description:
+  en: Engineering toolkit and framework for authoring, packaging, and testing agent skill bundles and plugins.
+  zh: 面向 Agent 技能包与复合插件的开发、打包与测试工程框架。

@@ -1,0 +1,9 @@
+name: Live Panel Animated Diagram
+repo: https://github.com/ythx-101/live-panel-skill
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [animated-diagram, architecture, excalidraw, mp4]
+description:
+  en: Turn a JSON config or Excalidraw file into an animated architecture diagram rendered as MP4 or looping web panel.
+  zh: 将 JSON 配置或 Excalidraw 文件渲染为终端风或信息图风动态架构图（支持 MP4 与网页循环动图）的技能。

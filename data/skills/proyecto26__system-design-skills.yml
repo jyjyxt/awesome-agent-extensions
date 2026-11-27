@@ -1,0 +1,9 @@
+name: System Design Skills
+repo: https://github.com/proyecto26/system-design-skills
+category: coding
+official: false
+agents: [claude-code, universal]
+tags: [system-design, distributed-systems, architecture]
+description:
+  en: Divide-and-conquer system design skills for reasoning through scalable distributed architectures, tradeoffs, and diagrams.
+  zh: 分治式系统设计技能集，辅助推演高并发分布式架构设计、权衡分析与架构可视化。

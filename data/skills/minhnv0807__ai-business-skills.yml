@@ -1,0 +1,9 @@
+name: AI Business & Marketing Skills
+repo: https://github.com/minhnv0807/ai-business-skills
+category: content-marketing
+official: false
+agents: [claude-code, opencode, codex, cursor, copilot]
+tags: [marketing, sop, personal-brand, bilingual]
+description:
+  en: 138 bilingual AI marketing and role SOP skills covering content, design, performance ads, leader ops, personal brand, and e-commerce.
+  zh: 138 个双语 AI 营销与岗位 SOP 技能包，覆盖内容、设计、投放、运营管理、个人品牌与电商增长。

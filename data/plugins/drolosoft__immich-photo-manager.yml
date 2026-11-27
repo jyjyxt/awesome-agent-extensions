@@ -1,0 +1,10 @@
+name: Immich Photo Manager
+repo: https://github.com/drolosoft/immich-photo-manager
+category: productivity
+official: false
+agents: [claude-code, universal]
+includes: [mcp]
+tags: [immich, photos, clip, ocr, self-hosted]
+description:
+  en: "94-tool MCP server and Claude Code plugin for self-hosted Immich: CLIP/OCR search, duplicate cleanup, geo albums, faces, and PDF photobooks."
+  zh: 面向自托管 Immich 相册的 94 工具 MCP 与插件，支持 CLIP/OCR 搜图、去重、人脸整理与 PDF 相册制作。

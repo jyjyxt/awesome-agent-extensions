@@ -1,0 +1,10 @@
+name: Claude Smart
+repo: https://github.com/ReflexioAI/claude-smart
+category: orchestration
+official: false
+agents: [claude-code, codex, opencode]
+includes: [skills]
+tags: [memory, preferences, self-learning]
+description:
+  en: Turns user corrections into persistent personal preferences, project-specific skills, and shared team skills across agents.
+  zh: 将日常纠错自动转化为个人偏好、项目专属技能与团队共享技能的跨端记忆插件。

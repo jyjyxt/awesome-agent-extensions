@@ -1,0 +1,9 @@
+name: Oxylabs Agent Skills
+repo: https://github.com/oxylabs/agent-skills
+category: data-research
+official: true
+agents: [claude-code, universal]
+tags: [oxylabs, scraping, web-data, browser]
+description:
+  en: Official Oxylabs agent skills for structured web scraping, browser rendering, and real-time search data extraction.
+  zh: Oxylabs 官方 Agent 技能包，支持结构化网页采集、浏览器渲染与实时搜索数据提取。

@@ -1,0 +1,10 @@
+name: Posit Data Science Skills
+repo: https://github.com/posit-dev/skills
+category: data-research
+official: true
+agents: [claude-code, universal]
+includes: [skills]
+tags: [posit, r, python, quarto, data-science]
+description:
+  en: Official Claude Skills maintained by Posit for R, Python, Quarto, Shiny, and reproducible data science workflows.
+  zh: Posit 官方维护的数据科学技能包，面向 R、Python、Quarto 与 Shiny 可复现分析工作流。

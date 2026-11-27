@@ -1,0 +1,10 @@
+name: Hippo Memory
+repo: https://github.com/kitfunso/hippo-memory
+category: orchestration
+official: false
+agents: [claude-code, codex, cursor, universal]
+includes: [skills]
+tags: [memory, repo-memory, cross-agent]
+description:
+  en: Shared repository memory store plugin so what you teach one coding agent is automatically remembered by all your other agents.
+  zh: 仓库级跨端共享记忆插件，教会任意一个编程 Agent 的经验自动同步给其他 Agent 复用。

@@ -1,0 +1,10 @@
+name: Smart Ralph
+repo: https://github.com/tzachbon/smart-ralph
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [ralph-loop, spec-driven, compaction, autonomous]
+description:
+  en: Spec-driven autonomous development plugin combining the Ralph loop with smart context compaction and structured specifications.
+  zh: 结合 Ralph 自主循环与智能上下文压缩的规格驱动开发插件。

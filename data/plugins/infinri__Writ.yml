@@ -1,0 +1,10 @@
+name: Writ Governance Runtime
+repo: https://github.com/infinri/Writ
+category: security
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [governance, rules, gates, provenance]
+description:
+  en: Governance runtime plugin for Claude Code enforcing workflow gates at tool time and preserving engineering decision provenance across sessions.
+  zh: Claude Code 工程治理运行时插件，在工具调用期强制执行工作流门禁并跨会话沉淀架构决策溯源。

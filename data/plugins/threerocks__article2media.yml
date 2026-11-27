@@ -1,0 +1,10 @@
+name: Article2Media
+repo: https://github.com/threerocks/article2media
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+includes: [skills]
+tags: [xiaohongshu, wechat, short-video, chinese]
+description:
+  en: Zero-npm-dependency skill turning any article or video into Xiaohongshu posts, magazine long images, WeChat layouts, and narrated short videos.
+  zh: 零 npm 依赖的多形态内容转换技能，一键将文章或视频变为小红书图文、杂志长图、公众号排版与口播短视频。

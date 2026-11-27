@@ -1,0 +1,10 @@
+name: Recall Offline Memory
+repo: https://github.com/raiyanyahya/recall
+category: orchestration
+official: false
+agents: [claude-code, opencode]
+includes: [skills]
+tags: [memory, offline, local-first, context]
+description:
+  en: Fully offline durable session memory plugin for Claude Code and OpenCode so you never re-explain your project every session.
+  zh: 完全离线运行的持久化记忆插件，为 Claude Code 与 OpenCode 保留项目上下文，减少重复说明与 Token 浪费。

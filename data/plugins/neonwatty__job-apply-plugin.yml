@@ -1,0 +1,10 @@
+name: Job Apply Plugin
+repo: https://github.com/neonwatty/job-apply-plugin
+category: productivity
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [job-application, linkedin, greenhouse, browser-automation]
+description:
+  en: Browser-automated job application assistant plugin that fills LinkedIn, Greenhouse, Ashby, and Workday forms.
+  zh: 面向 Claude Code 与 Codex 的求职自动填表插件，支持 LinkedIn、Greenhouse、Ashby 与 Workday 平台。

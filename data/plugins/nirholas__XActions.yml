@@ -1,0 +1,10 @@
+name: XActions
+repo: https://github.com/nirholas/XActions
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+includes: [mcp, tools]
+tags: [twitter, x, automation, puppeteer]
+description:
+  en: Keyless X/Twitter automation toolkit, plugin, and MCP server with scraping and approval-gated write actions.
+  zh: 免付费 API 的 X/Twitter 自动化插件与 MCP 工具包，支持采集与人工审批门控发帖互动。

@@ -1,0 +1,10 @@
+name: BAMA (Build Any Mac App)
+repo: https://github.com/daveebbelaar/bama
+category: coding
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [macos, swift, swiftui, app-development]
+description:
+  en: Agent plugin and skills to research, design, build, optimize, and test native macOS applications with Swift and SwiftUI.
+  zh: 面向原生 macOS 应用开发的插件与技能包，覆盖调研、设计、Swift/SwiftUI 编写、调优与测试。

@@ -1,0 +1,9 @@
+name: Social Media Research Skills
+repo: https://github.com/ScrapeCreators/social-media-research-skills
+category: content-marketing
+official: true
+agents: [claude-code, cursor, universal]
+tags: [social-media, tiktok, instagram, competitor-analysis]
+description:
+  en: AI agent skills for social media research covering outlier posts, comment mining, competitor teardowns, and ad libraries across TikTok, IG, YouTube, and X.
+  zh: 跨平台社媒调研技能包，支持爆款挖掘、评论区洞察、竞品拆解与广告库分析，覆盖 TikTok、IG、YouTube 与 X。

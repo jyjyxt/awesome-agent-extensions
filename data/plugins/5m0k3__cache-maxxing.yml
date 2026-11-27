@@ -1,0 +1,10 @@
+name: Cache Maxxing
+repo: https://github.com/5m0k3/cache-maxxing
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [prompt-cache, cost, token-optimization]
+description:
+  en: Live prompt-cache countdown bar showing when Claude prompt cache expires and estimating next-message cost before sending.
+  zh: 实时提示词缓存倒计时状态条插件，发送前预估缓存过期时间与下一条消息成本。

@@ -1,0 +1,9 @@
+name: Spring Boot Skills
+repo: https://github.com/rrezartprebreza/spring-boot-skills
+category: coding
+official: false
+agents: [claude-code, codex, universal]
+tags: [java, spring-boot, spring-ai, backend]
+description:
+  en: Production-grade Claude Code and Codex skills for Java and Spring Boot application architecture, testing, and Spring AI.
+  zh: 面向 Java 与 Spring Boot 开发的生产级技能集，涵盖架构实践、测试与 Spring AI 集成。

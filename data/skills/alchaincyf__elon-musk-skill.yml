@@ -1,0 +1,9 @@
+name: Elon Musk First-Principles Skill
+repo: https://github.com/alchaincyf/elon-musk-skill
+category: productivity
+official: false
+agents: [claude-code, codex, cursor, universal]
+tags: [first-principles, decision-making, engineering]
+description:
+  en: First-principles engineering and decision-making cognitive framework modeled on Elon Musk problem-solving heuristics.
+  zh: 基于第一性原理与极速迭代思维构建的马斯克决策与工程拆解技能。

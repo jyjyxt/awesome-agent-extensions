@@ -1,0 +1,9 @@
+name: Rust Agentic Skills
+repo: https://github.com/udapy/rust-agentic-skills
+category: coding
+official: false
+agents: [claude-code, gemini-cli, opencode, universal]
+tags: [rust, multi-agent, acp, engineering]
+description:
+  en: Token-efficient Rust engineering skills using a Brain-Tool-Context architecture to dynamically load Rust tooling and docs.
+  zh: 高 Token 效率的 Rust 工程多智能体技能包，动态按需加载 Rust 工具链与文档上下文。

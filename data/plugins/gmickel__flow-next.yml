@@ -1,0 +1,10 @@
+name: Flow Next
+repo: https://github.com/gmickel/flow-next
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [pr-workflow, specs, cross-model-review, qa]
+description:
+  en: End-to-end delivery plugin taking a bug, idea, or ticket to a verified PR via specs, risk-based cross-model review, and live QA receipts.
+  zh: 从需求/工单到已验证 PR 的全流程交付插件，内置规格梳理、按风险跨模型审查与实时 QA 凭证。

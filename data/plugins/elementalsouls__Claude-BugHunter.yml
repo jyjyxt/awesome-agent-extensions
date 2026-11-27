@@ -1,0 +1,11 @@
+name: Claude BugHunter
+repo: https://github.com/elementalsouls/Claude-BugHunter
+category: security
+official: false
+featured: true
+agents: [claude-code]
+includes: [skills]
+tags: [bug-bounty, red-team, appsec, vulnerabilities]
+description:
+  en: Bug hunting and external red-team skill bundle with 85 skills, 16 slash commands, and 681 disclosed vulnerability report patterns across 24 classes.
+  zh: 面向漏洞赏金与外部红队测试的技能插件包，内置 85 个安全技能、16 个命令与 24 类 681 个公开漏洞模式。

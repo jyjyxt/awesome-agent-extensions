@@ -1,0 +1,9 @@
+name: Oh Story Web Novel Skills
+repo: https://github.com/zenstory-ai/oh-story-claudecode
+category: content-marketing
+official: false
+agents: [claude-code, codex, antigravity, universal]
+tags: [novel, writing, chinese, storytelling]
+description:
+  en: Web novel writing agent skillset covering chart analysis, outlining, long-form serialization, foreshadowing tracking, de-AI rewriting, and covers.
+  zh: 网文写作全流程 Agent 技能包，覆盖扫榜拆文、大纲细纲、连载伏笔追踪、去 AI 味与封面生成。

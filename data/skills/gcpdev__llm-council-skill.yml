@@ -1,0 +1,9 @@
+name: LLM Council Brainstorm Skill
+repo: https://github.com/gcpdev/llm-council-skill
+category: orchestration
+official: false
+agents: [claude-code]
+tags: [brainstorming, multi-model, chatgpt, gemini]
+description:
+  en: Claude Code skill that brainstorms implementation plans with ChatGPT and Gemini before presenting a unified plan to the user.
+  zh: 在给出实现方案前先与 ChatGPT、Gemini 跨模型头脑风暴并综合优缺点的规划技能。

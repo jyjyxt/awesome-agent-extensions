@@ -1,0 +1,9 @@
+name: Obsidian Wiki Memory
+repo: https://github.com/Ar9av/obsidian-wiki
+category: data-research
+official: false
+agents: [claude-code, codex, universal]
+tags: [obsidian, wiki, memory, knowledge-base]
+description:
+  en: Agent memory framework for building and maintaining a structured digital brain inside an Obsidian Markdown wiki.
+  zh: 基于 Obsidian Markdown Wiki 构建与持续维护 AI Agent 数字大脑的记忆框架技能。

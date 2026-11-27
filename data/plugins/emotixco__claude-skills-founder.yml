@@ -1,0 +1,10 @@
+name: Claude Skills for Founders
+repo: https://github.com/emotixco/claude-skills-founder
+category: productivity
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [founder, pitch-deck, pricing, gtm]
+description:
+  en: Terminal-native founder skills for drafting product briefs, competitor analyses, pricing strategies, pitch decks, and GTM plans.
+  zh: 面向创业者的终端技能插件，快速生成产品简报、竞品分析、定价策略、融资 Pitch Deck 与 GTM 方案。

@@ -1,0 +1,9 @@
+name: Google Maps Lead Scraper Kit
+repo: https://github.com/Mahanaicoach/google-maps-scraper-kit
+category: data-research
+official: false
+agents: [claude-code, codex, universal]
+tags: [google-maps, b2b-leads, email-extractor, python]
+description:
+  en: Keyless Python Google Maps lead-generation skill exporting business contacts, emails, ratings, and social links with no Docker required.
+  zh: 免 API Key、免 Docker 的 Google Maps B2B 获客采集技能，自动导出商家邮箱、电话与社媒链接。

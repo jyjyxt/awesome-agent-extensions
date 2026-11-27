@@ -1,0 +1,10 @@
+name: The Architect
+repo: https://github.com/Hainrixz/the-architect
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills, subagents]
+tags: [architecture, blueprint, ears, spec-driven]
+description:
+  en: Claude Code plugin that interviews you, designs full architecture, and writes a zero-context executable blueprint with EARS criteria and verify commands.
+  zh: 通过交互访谈设计完整架构并生成带 EARS 验收标准与可运行验证命令的零上下文构建蓝图插件。

@@ -1,0 +1,10 @@
+name: Claude DB
+repo: https://github.com/Avijit07x/claude-db
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [memory, database, local-first, privacy]
+description:
+  en: Local database-backed memory plugin for Claude Code with zero cloud dependencies and full data ownership.
+  zh: 基于本地数据库的开源 Claude Code 记忆插件，无需云端服务与订阅即可持久化会话知识。

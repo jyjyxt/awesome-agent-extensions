@@ -1,0 +1,9 @@
+name: SOUL.md Persona Builder
+repo: https://github.com/aeonfun/soul.md
+category: orchestration
+official: false
+agents: [claude-code, universal]
+tags: [persona, soul, second-brain]
+description:
+  en: Ingest personal notes and communication data to synthesize a consistent, portable SOUL.md personality for your AI agent.
+  zh: 通过吸收个人数据与表达习惯为 AI Agent 构建持久化、可迁移的 SOUL.md 人格配置文件。

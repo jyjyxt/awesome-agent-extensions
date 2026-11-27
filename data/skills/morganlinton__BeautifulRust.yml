@@ -1,0 +1,10 @@
+name: BeautifulRust
+repo: https://github.com/morganlinton/BeautifulRust
+category: coding
+official: false
+featured: true
+agents: [claude-code, codex, copilot, cursor, gemini-cli]
+tags: [rust, clippy, code-review, style-guide]
+description:
+  en: Agent skills teaching coding agents to write, review, and port idiomatic Rust paired with a battle-tested Clippy configuration.
+  zh: 指导编程 Agent 编写、审查与迁移地道 Rust 代码的技能包，附带实战验证的 Clippy 配置。

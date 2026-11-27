@@ -1,0 +1,10 @@
+name: Humanizer RU Pro
+repo: https://github.com/ilyautov/humanizer-ru
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+includes: [skills, mcp]
+tags: [russian, humanizer, scanner, editing]
+description:
+  en: Russian editorial skill, scanner, CLI, and MCP with 67 stylistic checks and 21 hard bans to remove bureaucratic clichés and verify facts.
+  zh: 俄语文本深度编辑插件与 MCP，内置 67 项特征检测与 21 条禁用规则，消除公文腔并核查事实。

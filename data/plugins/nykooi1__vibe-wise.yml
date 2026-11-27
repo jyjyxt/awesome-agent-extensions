@@ -1,0 +1,10 @@
+name: Vibe Wise
+repo: https://github.com/nykooi1/vibe-wise
+category: productivity
+official: false
+agents: [claude-code, codex]
+includes: [skills]
+tags: [learning, coding, education, vibe-coding]
+description:
+  en: Interactive learning plugin for Claude Code and Codex that teaches you architecture and code concepts while AI writes the code.
+  zh: 在 AI 编写代码的同时引导开发者理解架构与实现原理的伴随式学习插件。

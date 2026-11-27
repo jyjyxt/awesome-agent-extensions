@@ -1,0 +1,9 @@
+name: Instagram Marketing Skills
+repo: https://github.com/sergebulaev/instagram-skills
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [instagram, carousels, captions, social-media]
+description:
+  en: Instagram content engine skills for captions, carousels, hooks, hashtag strategy, weekly calendars, and publishing.
+  zh: Instagram 内容营销技能包，覆盖文案、轮播图文、钩子设计、标签策略与周计划排期。

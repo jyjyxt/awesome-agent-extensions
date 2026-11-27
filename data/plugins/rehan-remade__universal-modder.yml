@@ -1,0 +1,10 @@
+name: Universal Game Modder
+repo: https://github.com/rehan-remade/universal-modder
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills, mcp]
+tags: [gamedev, modding, reverse-engineering, assets]
+description:
+  en: Claude Code plugin and skills for PC game modding covering recon, reverse engineering, AI-generated art/3D/audio assets, and in-game testing.
+  zh: PC 游戏 Mod 开发插件，支持游戏结构逆向、AI 生成美术/3D/音频资产与游戏内自动化测试。

@@ -1,0 +1,9 @@
+name: MiniMax mcode-stack
+repo: https://github.com/MiniMax-AI/mcode-stack
+category: coding
+official: true
+agents: [claude-code, universal]
+tags: [minimax, harness-engineering, workflows]
+description:
+  en: Official engineering workflows and Agent Skills used internally by the MiniMax Code team to build MiniMax Code.
+  zh: MiniMax Code 团队开源的内部工程工作流与 Agent Skills 技能栈。

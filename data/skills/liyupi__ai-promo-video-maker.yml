@@ -1,0 +1,9 @@
+name: AI Promo Video Maker
+repo: https://github.com/liyupi/ai-promo-video-maker
+category: content-marketing
+official: false
+agents: [claude-code, cursor, codex, universal]
+tags: [promo-video, 4k, voiceover, product-launch]
+description:
+  en: "Generate 4K commercial product promo videos from a product name or URL: auto-research, 4K screen capture, beat-synced edits, and verified voiceover."
+  zh: 一句话生成 4K 商业产品宣传片技能：自动调研产品、抓取 4K 实景页面、卡点剪辑、配音校验并交付成片。

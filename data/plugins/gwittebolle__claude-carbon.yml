@@ -1,0 +1,10 @@
+name: Claude Carbon
+repo: https://github.com/gwittebolle/claude-carbon
+category: cloud-devops
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [carbon-footprint, statusline, hooks, sustainability]
+description:
+  en: Statusline and hooks plugin tracking the real-time carbon footprint of Claude Code terminal and desktop sessions.
+  zh: 通过状态栏与 Hooks 实时追踪 Claude Code 会话碳足迹与能耗的环保监控插件。

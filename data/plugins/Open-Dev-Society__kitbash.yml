@@ -1,0 +1,10 @@
+name: Kitbash
+repo: https://github.com/Open-Dev-Society/kitbash
+category: coding
+official: false
+agents: [claude-code, universal]
+includes: [mcp, skills]
+tags: [github-search, reuse, architecture, discovery]
+description:
+  en: MCP server, plugin, and skill that verifies live GitHub repos to tell your agent what already exists to reuse, adapt, or build from scratch.
+  zh: 实时检索并验证 GitHub 开源仓库的插件与技能，帮 Agent 判断哪些模块可直接复用、改造或自研。

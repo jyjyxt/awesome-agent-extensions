@@ -1,0 +1,9 @@
+name: AI-First Toolkit
+repo: https://github.com/techwolf-ai/ai-first-toolkit
+category: coding
+official: false
+agents: [claude-code, codex, universal]
+tags: [ai-first, audit, bootstrapping, architecture]
+description:
+  en: Skills for auditing, re-engineering, and bootstrapping repositories around AI-first engineering principles.
+  zh: 围绕 AI-First 工程原则审计、重构与初始化代码仓库的专项技能包。

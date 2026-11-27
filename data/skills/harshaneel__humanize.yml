@@ -1,0 +1,9 @@
+name: Research-Grounded Humanize Skill
+repo: https://github.com/harshaneel/humanize
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [humanizer, ai-detection, writing, editing]
+description:
+  en: Static LLM-agnostic text humanizer skill grounded in 50+ peer-reviewed AI-detection studies across nine linguistic levers.
+  zh: 基于 50+ 篇同行评审检测研究的去 AI 味文本润色技能，从 9 个语言维度让表达更自然地道。

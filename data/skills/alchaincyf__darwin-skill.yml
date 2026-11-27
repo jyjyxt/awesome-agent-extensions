@@ -1,0 +1,9 @@
+name: Darwin Skill Evolver
+repo: https://github.com/alchaincyf/darwin-skill
+category: marketplaces-tooling
+official: false
+agents: [claude-code, codex, universal]
+tags: [skill-optimization, autoresearch, evals]
+description:
+  en: Autoresearch-inspired autonomous skill optimization loop that evaluates, mutates, tests, and keeps or reverts Agent Skills.
+  zh: 受 Autoresearch 启发的 Skill 自主进化系统，通过评估、改进、测试与保留/回滚闭环持续优化技能表现。

@@ -1,0 +1,9 @@
+name: DYZ Gongwen Official Doc Skills
+repo: https://github.com/duyunzhoudyz/dyz-gongwen-skills
+category: productivity
+official: false
+agents: [claude-code, codex, universal]
+tags: [gongwen, chinese, gb9704, documents]
+description:
+  en: 22 Chinese official document writing skills grounded in user materials with secrecy gates, 41 document types, and GB/T 9704 Word/OFD formatting.
+  zh: 22 个中文公文写作与排版套件，支持防编造约束、涉密闸门、41 种文书机检与 GB/T 9704 标准版式导出。

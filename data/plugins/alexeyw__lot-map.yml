@@ -1,0 +1,10 @@
+name: Lot Map
+repo: https://github.com/alexeyw/lot-map
+category: orchestration
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [observability, visualization, svg, local-first]
+description:
+  en: Local live visual map beside your Claude Code chat lighting up tool calls, model steps, hooks, skills, and subagents in real time.
+  zh: 本地实时可视化地图插件，在对话旁动态高亮展示每次工具调用、Hook、技能与子代理的执行轨迹。

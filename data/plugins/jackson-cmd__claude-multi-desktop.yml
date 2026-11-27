@@ -1,0 +1,10 @@
+name: Claude Multi-Desktop
+repo: https://github.com/jackson-cmd/claude-multi-desktop
+category: productivity
+official: false
+agents: [claude-code]
+includes: [tools]
+tags: [macos, multi-account, desktop, messaging]
+description:
+  en: Run multiple Claude Desktop accounts simultaneously on macOS with shared Claude Code config and cross-account session messaging.
+  zh: macOS 多开 Claude Desktop 账号插件，支持独立登录、自定义图标、共享配置与跨账号会话通信。

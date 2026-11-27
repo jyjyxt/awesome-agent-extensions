@@ -1,0 +1,10 @@
+name: Skill Conductor
+repo: https://github.com/smixs/skill-conductor
+category: marketplaces-tooling
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [skill-authoring, evals, tdd, lifecycle]
+description:
+  en: Architecture-first skill lifecycle plugin featuring binary evaluation judges, pressure testing, and gated self-update loops.
+  zh: 面向 Agent Skill 全生命周期管理的插件，内置二元评测裁判、压力测试与门控自更新闭环。

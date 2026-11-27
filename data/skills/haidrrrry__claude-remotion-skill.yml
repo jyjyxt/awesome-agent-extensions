@@ -1,0 +1,9 @@
+name: Claude Remotion Video Skill
+repo: https://github.com/haidrrrry/claude-remotion-skill
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [remotion, motion-graphics, video-editing, b-roll]
+description:
+  en: Open-source skill teaching Claude to create and edit motion-graphics videos, B-roll, and captions programmatically with Remotion.
+  zh: 指导 Claude 使用 Remotion 以代码方式制作与剪辑专业动态图形视频、B-roll 与字幕的技能。

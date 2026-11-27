@@ -1,0 +1,10 @@
+name: Mycelium AI Brain
+repo: https://github.com/mycelium-hq/ai-brain-starter
+category: data-research
+official: false
+agents: [claude-code]
+includes: [skills, mcp]
+tags: [memory, obsidian, journaling, knowledge-graph]
+description:
+  en: Personal operating system plugin for Claude Code combining memory, journaling, accountability, knowledge graphs, and pattern recognition.
+  zh: 面向 Claude Code 的个人知识操作系统插件，整合长期记忆、日志复盘、知识图谱与模式识别。

@@ -1,0 +1,9 @@
+name: Math Modeling Competition Skill
+repo: https://github.com/XiaoMaColtAI/math-modeling-skill
+category: data-research
+official: false
+agents: [claude-code, codex, dsh, universal]
+tags: [math-modeling, mcm-icm, cumcm, python, matlab]
+description:
+  en: Three-stage mathematical modeling competition skill (CUMCM, MCM/ICM) covering modeling, Python/MATLAB coding, and DOCX paper generation.
+  zh: 面向国赛 CUMCM 与美赛 MCM/ICM 的三阶段数学建模技能，覆盖算法库、Python/MATLAB 编程与 DOCX 论文生成。

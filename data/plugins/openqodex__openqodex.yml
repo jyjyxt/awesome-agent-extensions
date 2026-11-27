@@ -1,0 +1,10 @@
+name: OpenQodex
+repo: https://github.com/openqodex/openqodex
+category: coding
+official: false
+agents: [claude-code, codex, cursor, universal]
+includes: [skills]
+tags: [code-review, pre-push, quality]
+description:
+  en: Independent pre-push AI code reviewer plugin that audits every change your coding agent writes across Claude Code, Codex, and Cursor.
+  zh: 独立前置代码审查插件，在推送前由独立审查者自动检验编程 Agent 产出的每一处变更。

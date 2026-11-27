@@ -1,0 +1,9 @@
+name: Technical Product GTM
+repo: https://github.com/beingsmit/technical-product-gtm
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [gtm, pricing, plg, enterprise-sales, founders]
+description:
+  en: 11 go-to-market skills for technical and AI founders covering positioning, pricing, partnerships, enterprise sales, PLG, and board updates.
+  zh: 面向技术与 AI 创始人的 11 个 GTM 实战技能，覆盖定位、定价、生态合作、企业销售、PLG 与董事会沟通。

@@ -1,0 +1,9 @@
+name: Guizang 3D Game Skill
+repo: https://github.com/op7418/guizang-game-skill
+category: coding
+official: false
+agents: [claude-code, codex, universal]
+tags: [3d-game, threejs, gamedev, browser-game]
+description:
+  en: Build playable browser-based 3D action games from scratch using Three.js and AI-generated assets in a single HTML bundle.
+  zh: 歸藏 3D 游戏创作技能，使用 Three.js 与 AI 资产从零构建可在浏览器直接运行的单文件 3D 动作游戏。

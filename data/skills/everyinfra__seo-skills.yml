@@ -1,0 +1,9 @@
+name: EveryInfra Global SEO/GEO
+repo: https://github.com/everyinfra/seo-skills
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [seo, geo, aeo, monitoring, ci-gates]
+description:
+  en: Global SEO/GEO skill suite spanning 18 market portals with 56 scripts, 672 golden tests, monitoring daemon, and CI quality gates.
+  zh: 面向全球 18 个市场的开源 SEO/GEO 技能套件，内置 56 个脚本、672 项基准测试与 CI 质量门禁。

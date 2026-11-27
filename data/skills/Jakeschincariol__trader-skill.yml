@@ -1,0 +1,9 @@
+name: 13F Investor Tracker Skill
+repo: https://github.com/Jakeschincariol/trader-skill
+category: data-research
+official: false
+agents: [claude-code, universal]
+tags: [13f, investing, stock-market, portfolio]
+description:
+  en: 11 investing skills tracking institutional 13F filings, market news, congressional trades, and budget-aware position sizing.
+  zh: 11 个股票投资研究技能，追踪顶级机构 13F 持仓、市场新闻、国会交易并辅助仓位测算。

@@ -1,0 +1,9 @@
+name: eCommerce Seller Skills
+repo: https://github.com/nexscope-ai/eCommerce-Skills
+category: content-marketing
+official: false
+agents: [claude-code, universal]
+tags: [ecommerce, amazon, shopify, etsy, tiktok-shop]
+description:
+  en: E-commerce operator skills for product research, marketing automation, supply chain optimization, and analytics across Amazon, Shopify, Etsy, and TikTok.
+  zh: 跨境电商运营技能集，覆盖选品调研、营销自动化、供应链优化与数据分析，适配 Amazon、Shopify 与 TikTok。

@@ -1,0 +1,9 @@
+name: Ghost Video Editor
+repo: https://github.com/kurbaitaev/ghost-editor
+category: content-marketing
+official: false
+agents: [claude-code, codex, universal]
+tags: [video-editor, captions, reels, capcut-alternative]
+description:
+  en: Open-source AI video editor skill transforming raw talking-head footage into polished vertical reels across 19 visual styles.
+  zh: 开源 AI 口播视频剪辑技能，将原始口播素材一键生成 19 种风格的成品竖屏短视频。

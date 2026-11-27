@@ -1,0 +1,10 @@
+name: Brooks Lint
+repo: https://github.com/hyhmrright/brooks-lint
+category: coding
+official: false
+agents: [claude-code, codex, cursor, copilot]
+includes: [skills]
+tags: [code-review, architecture-review, tech-debt, testing]
+description:
+  en: Six portable Agent Skills for systematic architecture reviews, technical debt detection, test quality audits, and remediation.
+  zh: 6 个跨端代码质量审查技能，聚焦架构评审、技术债识别、测试完备度审计与修复建议。

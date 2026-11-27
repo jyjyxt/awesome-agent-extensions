@@ -1,0 +1,9 @@
+name: Huashu Institutional Report Skill
+repo: https://github.com/alchaincyf/huashu-report
+category: data-research
+official: false
+agents: [claude-code, codex, universal]
+tags: [reports, consulting, data-visualization, research]
+description:
+  en: Institutional-grade research report skill distilled from 42 Stanford/McKinsey/BCG/PwC reports with 6 archetypes and 8 chart patterns.
+  zh: 反向提炼自 42 份斯坦福/麦肯锡/BCG 顶级研报的机构级研究报告生成技能，含 6 种原型与 8 种图表模式。

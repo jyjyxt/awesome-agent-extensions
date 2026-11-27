@@ -1,0 +1,10 @@
+name: Claude Brain (Memvid)
+repo: https://github.com/memvid/claude-brain
+category: orchestration
+official: true
+agents: [claude-code]
+includes: [skills]
+tags: [memory, rust, portable-file, zero-db]
+description:
+  en: Rust-powered photographic memory plugin storing Claude Code memory in a single portable .mv2 file you can git commit or share.
+  zh: 基于 Rust 内核的便携式记忆插件，将 Claude Code 长期记忆压缩进单个可 Git 管理的 .mv2 文件。

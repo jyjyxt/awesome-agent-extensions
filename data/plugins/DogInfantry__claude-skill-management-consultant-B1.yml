@@ -1,0 +1,10 @@
+name: Management Consultant B1
+repo: https://github.com/DogInfantry/claude-skill-management-consultant-B1
+category: productivity
+official: false
+agents: [claude-code, universal]
+includes: [skills]
+tags: [consulting, strategy, market-sizing, case-interview]
+description:
+  en: 129-module management consulting skill and plugin for strategy frameworks, market sizing, case-interview coaching, and board-ready memos.
+  zh: 内置 129 个参考模块的顶级管理咨询技能插件，覆盖战略框架、市场测算、案例面试与董事会级方案拆解。

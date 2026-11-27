@@ -1,0 +1,10 @@
+name: Economist Style Guide Plugin
+repo: https://github.com/TAJD/economist-style-guide-plugin
+category: content-marketing
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [writing, style-guide, editing, proofreading]
+description:
+  en: Claude Code plugin applying The Economist style guide principles for clarity, precision, and brevity in technical and editorial writing.
+  zh: 遵循《经济学人》写作规范的 Claude Code 润色校对插件，提升文章清晰度、精准度与简洁性。

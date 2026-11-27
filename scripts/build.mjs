@@ -195,6 +195,15 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
   );
   lines.push('\n</details>\n');
 
+  // Supported agents summary
+  lines.push(isZh ? '## 支持的 Agent 工具\n' : '## Supported Agents\n');
+  lines.push(
+    agents
+      .map((a) => `[${isZh ? a.zh_name || a.name : a.name}](${a.url})`)
+      .join(' · ')
+  );
+  lines.push('');
+
   // Category TOC
   lines.push(isZh ? '## 按场景目录\n' : '## Categories\n');
   if (featured.length > 0) {
@@ -246,15 +255,6 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
       })
     );
   }
-
-  // Supported agents summary
-  lines.push(isZh ? '## 支持的 Agent 工具\n' : '## Supported Agents\n');
-  lines.push(
-    agents
-      .map((a) => `[${isZh ? a.zh_name || a.name : a.name}](${a.url})`)
-      .join(' · ')
-  );
-  lines.push('');
 
   // Contributing footer
   lines.push(isZh ? '## 参与贡献\n' : '## Contributing\n');

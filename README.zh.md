@@ -27,6 +27,10 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 
 </details>
 
+## 支持的 Agent 工具
+
+[通用](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
+
 ## 按场景目录
 
 - [官方与精选 (129)](#官方与精选)
@@ -321,10 +325,6 @@ _插件市场、技能聚合站、跨端安装器与插件开发工具。_
 | **[Anyone to Skill](https://github.com/OpenDemon/anyone-to-skill)** | `工具` | 从视频、PDF、电子书或聊天记录中提取人物心智模型与表达风格并生成 SKILL.md 的技能蒸馏工具。 | `通用` | ⭐ 134<br><sub>2026-04-07</sub> |
 
 _当前仅展示前 20 条（共 39 条）。完整列表请浏览 [Plugins](docs/plugins.zh.md) · [Skills](docs/skills.zh.md) · [MCP](docs/mcp.zh.md) · [Subagents](docs/subagents.zh.md) · [工具](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)。_
-
-## 支持的 Agent 工具
-
-[通用](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
 
 ## 参与贡献
 

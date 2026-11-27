@@ -27,6 +27,10 @@ Browse [all plugins (70)](docs/plugins.md), install one with `/plugin install <o
 
 </details>
 
+## Supported Agents
+
+[Universal](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
+
 ## Categories
 
 - [Official & Featured (129)](#official--featured)
@@ -321,10 +325,6 @@ _Plugin marketplaces, skill registries, cross-agent installers, and authoring SD
 | **[Anyone to Skill](https://github.com/OpenDemon/anyone-to-skill)** | `Tool` | Tool that distills a person's mental models, heuristics, and style from videos, PDFs, or chats into an executable SKILL.md. | `Universal` | ⭐ 134<br><sub>2026-04-07</sub> |
 
 _Showing top 20 of 39 entries. Browse full lists in [Plugins](docs/plugins.md) · [Skills](docs/skills.md) · [MCP](docs/mcp.md) · [Subagents](docs/subagents.md) · [Tooling](docs/tools.md) · [By Agent](docs/by-agent.md)._
-
-## Supported Agents
-
-[Universal](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
 
 ## Contributing
 

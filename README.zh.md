@@ -6,6 +6,8 @@
 
 [English](README.md) | **简体中文**
 
+![Awesome Agents 目录结构图](assets/intro/awesome-agents-zh.gif)
+
 ### Claude Code Plugins
 
 Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Subagents、Hooks、MCP 服务及完整工作流组合在一起。适合需要复用和分发一套 Agent 工作流的场景。

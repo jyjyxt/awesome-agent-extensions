@@ -6,6 +6,8 @@
 
 **English** | [简体中文](README.zh.md)
 
+![Awesome Agents directory map](assets/intro/awesome-agents-en.gif)
+
 ### Claude Code Plugins
 
 Claude Code plugins are installable extension bundles that can combine Skills, slash commands, subagents, hooks, MCP servers, and complete workflows. They are useful when you want to reuse and distribute a repeatable agent workflow.

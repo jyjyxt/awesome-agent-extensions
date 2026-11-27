@@ -122,6 +122,11 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
       : '> Curated cross-platform directory of AI Agent Plugins, Skills, MCP Servers, Subagents, and extension tooling (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Antigravity, and more).\n'
   );
   lines.push(isZh ? '[English](README.md) | **简体中文**\n' : '**English** | [简体中文](README.zh.md)\n');
+  lines.push(
+    isZh
+      ? '![Awesome Agents 目录结构图](assets/intro/awesome-agents-zh.gif)\n'
+      : '![Awesome Agents directory map](assets/intro/awesome-agents-en.gif)\n'
+  );
 
   const pluginCount = entries.filter((e) => e.kind === 'plugins').length;
   lines.push(

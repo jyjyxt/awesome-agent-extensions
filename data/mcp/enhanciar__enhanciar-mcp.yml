@@ -1,0 +1,11 @@
+name: Enhanciar MCP
+repo: https://github.com/enhanciar/enhanciar-mcp
+category: productivity
+official: true
+agents: [universal]
+tags: [official, knowledge, slack, notion, company-brain]
+install:
+  claude-code: claude mcp add --transport http --scope user enhanciar https://enhanciar.in/enhanciar/mcp/ --header "Authorization: Bearer dh_your_key"
+description:
+  en: Official hosted MCP server for Enhanciar, a company brain that answers from a team's Slack, Gmail, Drive, Notion, Jira, Linear and GitHub with source links, and drafts follow-ups for a person to approve.
+  zh: Enhanciar 官方托管 MCP 服务器，基于团队的 Slack、Gmail、Drive、Notion、Jira、Linear 和 GitHub 回答问题并附来源链接，还能起草回复或工单供人审批。

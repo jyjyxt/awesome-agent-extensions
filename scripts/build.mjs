@@ -129,7 +129,7 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
 
   const lines = [];
   lines.push('<!-- AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Run `npm run build` instead. -->\n');
-  lines.push('# Awesome Agents\n');
+  lines.push('# Awesome Agent Extensions\n');
   lines.push(
     isZh
       ? '> 精选跨平台 AI Agent 插件、Skills、MCP Servers、Subagents 与扩展管理工具（支持 Claude Code、Codex、Cursor、Gemini CLI、OpenCode、Antigravity 等）。\n'
@@ -138,8 +138,8 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
   lines.push(isZh ? '[English](README.md) | **简体中文**\n' : '**English** | [简体中文](README.zh.md)\n');
   lines.push(
     isZh
-      ? '![Awesome Agents 目录结构图](assets/intro/awesome-agents-zh.gif)\n'
-      : '![Awesome Agents directory map](assets/intro/awesome-agents-en.gif)\n'
+      ? '![Awesome Agent Extensions 目录结构图](assets/intro/awesome-agents-zh.gif)\n'
+      : '![Awesome Agent Extensions directory map](assets/intro/awesome-agents-en.gif)\n'
   );
 
   const pluginCount = entries.filter((e) => e.kind === 'plugins').length;

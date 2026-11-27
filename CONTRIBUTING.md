@@ -1,4 +1,4 @@
-# Contributing to Awesome Agents / 参与贡献
+# Contributing to Awesome Agent Extensions / 参与贡献
 
 Thanks for helping curate high-quality AI Agent Plugins, Skills, MCP Servers, Subagents, and extension tooling!
 

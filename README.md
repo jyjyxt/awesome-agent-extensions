@@ -1,12 +1,12 @@
 <!-- AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Run `npm run build` instead. -->
 
-# Awesome Agents
+# Awesome Agent Extensions
 
 > Curated cross-platform directory of AI Agent Plugins, Skills, MCP Servers, Subagents, and extension tooling (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Antigravity, and more).
 
 **English** | [简体中文](README.zh.md)
 
-![Awesome Agents directory map](assets/intro/awesome-agents-en.gif)
+![Awesome Agent Extensions directory map](assets/intro/awesome-agents-en.gif)
 
 ### Claude Code Plugins
 

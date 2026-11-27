@@ -1,12 +1,12 @@
 <!-- AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Run `npm run build` instead. -->
 
-# Awesome Agents
+# Awesome Agent Extensions
 
 > 精选跨平台 AI Agent 插件、Skills、MCP Servers、Subagents 与扩展管理工具（支持 Claude Code、Codex、Cursor、Gemini CLI、OpenCode、Antigravity 等）。
 
 [English](README.md) | **简体中文**
 
-![Awesome Agents 目录结构图](assets/intro/awesome-agents-zh.gif)
+![Awesome Agent Extensions 目录结构图](assets/intro/awesome-agents-zh.gif)
 
 ### Claude Code Plugins
 

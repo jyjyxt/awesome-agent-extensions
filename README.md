@@ -18,7 +18,7 @@ Browse [all plugins (370)](docs/plugins.md), install one with `/plugin install <
 
 ## Quick Views
 
-- [Plugins (370)](docs/plugins.md) · [Skills (1039)](docs/skills.md) · [MCP & Connectors (138)](docs/mcp.md) · [Subagents (65)](docs/subagents.md) · [Extension Tooling (135)](docs/tools.md) · [Browse by Agent](docs/by-agent.md) · [Best Practices (2)](docs/guides.md)
+- [Plugins (370)](docs/plugins.md) · [Skills (1039)](docs/skills.md) · [MCP & Connectors (138)](docs/mcp.md) · [Subagents (65)](docs/subagents.md) · [Extension Tooling (135)](docs/tools.md) · [Browse by Agent](docs/by-agent.md) · [Best Practices (38)](docs/guides.md)
 
 <details>
 <summary>Quick Install Cheatsheet</summary>
@@ -35,7 +35,16 @@ Browse [all plugins (370)](docs/plugins.md), install one with `/plugin install <
 
 ### Best Practices for AI Agents
 
-- **[Best Practices for Claude Code](docs/guides.md#best-practices-for-claude-code)**: [Claude Code Best Practices (Anthropic Official)](https://www.anthropic.com/engineering/claude-code-best-practices) · [Claude Code Guide](https://github.com/zebbern/claude-code-guide)
+- **[Best Practices for AI Agents (Universal)](docs/guides.md#best-practices-for-ai-agents-universal)**: [Agent Skills Overview](https://agentskills.io/home) · [Agent Skills Quickstart](https://agentskills.io/skill-creation/quickstart) · [Agent Skills Specification](https://agentskills.io/specification) · [all 4](docs/guides.md#best-practices-for-ai-agents-universal)
+- **[Best Practices for Claude Code](docs/guides.md#best-practices-for-claude-code)**: [Claude Code Best Practices (Anthropic Official)](https://www.anthropic.com/engineering/claude-code-best-practices) · [Claude Code Guide](https://github.com/zebbern/claude-code-guide) · [Claude Code Quickstart (Anthropic Official)](https://code.claude.com/docs/en/quickstart) · [all 5](docs/guides.md#best-practices-for-claude-code)
+- **[Best Practices for Codex](docs/guides.md#best-practices-for-codex)**: [Codex CLI (OpenAI Official)](https://learn.chatgpt.com/docs/codex/cli) · [Codex IDE Extension (OpenAI Official)](https://learn.chatgpt.com/docs/codex/ide) · [Codex Best Practices (OpenAI Official)](https://learn.chatgpt.com/guides/best-practices) · [all 4](docs/guides.md#best-practices-for-codex)
+- **[Best Practices for Cursor](docs/guides.md#best-practices-for-cursor)**: [Cursor Quickstart (Cursor Official)](https://cursor.com/docs/get-started/quickstart) · [Cursor Agent Overview (Cursor Official)](https://cursor.com/docs/agent/overview) · [Cursor Rules (Cursor Official)](https://cursor.com/docs/rules) · [all 4](docs/guides.md#best-practices-for-cursor)
+- **[Best Practices for Gemini CLI](docs/guides.md#best-practices-for-gemini-cli)**: [Get Started with Gemini CLI (Google Official)](https://geminicli.com/docs/get-started/) · [Provide Context with GEMINI.md Files (Google Official)](https://geminicli.com/docs/cli/gemini-md/) · [Manage Context and Memory (Google Official)](https://geminicli.com/docs/cli/tutorials/memory-management/)
+- **[Best Practices for OpenCode](docs/guides.md#best-practices-for-opencode)**: [OpenCode Intro (OpenCode Official)](https://opencode.ai/docs/) · [OpenCode CLI Intro (OpenCode Official)](https://opencode.ai/docs/cli/) · [OpenCode Instructions (OpenCode Official)](https://opencode.ai/docs/instructions/)
+- **[Best Practices for Antigravity](docs/guides.md#best-practices-for-antigravity)**: [Antigravity Getting Started (Google Official)](https://antigravity.google/docs/getting-started/) · [Antigravity CLI Best Practices (Google Official)](https://antigravity.google/docs/cli/best-practices/) · [Antigravity Rules (Google Official)](https://antigravity.google/docs/rules/) · [all 4](docs/guides.md#best-practices-for-antigravity)
+- **[Best Practices for GitHub Copilot](docs/guides.md#best-practices-for-github-copilot)**: [Quickstart for Using GitHub Copilot in Your IDE (GitHub Official)](https://docs.github.com/en/copilot/get-started/quickstart-for-using-github-copilot-in-your-ide) · [Best Practices for Using GitHub Copilot (GitHub Official)](https://docs.github.com/en/copilot/get-started/best-practices) · [Get Started with Copilot Agents on GitHub (GitHub Official)](https://docs.github.com/en/copilot/how-tos/copilot-on-github/use-copilot-agents/overview) · [all 4](docs/guides.md#best-practices-for-github-copilot)
+- **[Best Practices for Windsurf](docs/guides.md#best-practices-for-windsurf)**: [Devin Desktop Getting Started (Official)](https://docs.devin.ai/desktop/getting-started) · [Devin Desktop FAQ (Official)](https://docs.devin.ai/desktop/devin-desktop-faq) · [Devin Local Overview (Official)](https://docs.devin.ai/desktop/devin-local/overview) · [all 4](docs/guides.md#best-practices-for-windsurf)
+- **[Best Practices for DeepSeek Harness](docs/guides.md#best-practices-for-deepseek-harness)**: [DeepSeek Harness Web UI Quickstart (Official)](https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart) · [DeepSeek Harness README (Official)](https://github.com/deepseek-ai/deepseek-harness) · [Your First Plugin (Official)](https://deepseek-harness.github.io/deepseek-harness/en/develop/basic/)
 
 ### 🛡️ Automated Security Scoring by NVIDIA/SkillSpector (0–100)
 

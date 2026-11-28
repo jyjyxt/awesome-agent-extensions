@@ -2,3 +2,9 @@
   url: https://www.anthropic.com/engineering/claude-code-best-practices
 - title: Claude Code Guide
   url: https://github.com/zebbern/claude-code-guide
+- title: Claude Code Quickstart (Anthropic Official)
+  url: https://code.claude.com/docs/en/quickstart
+- title: How Claude Remembers Your Project (Anthropic Official)
+  url: https://code.claude.com/docs/en/memory
+- title: Extend Claude with Skills (Anthropic Official)
+  url: https://code.claude.com/docs/en/skills

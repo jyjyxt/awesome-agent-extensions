@@ -18,7 +18,7 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 
 ## 快速入口
 
-- [Plugins（复合插件） (370)](docs/plugins.zh.md) · [Skills（技能包） (1039)](docs/skills.zh.md) · [MCP / Connectors (138)](docs/mcp.zh.md) · [Subagents（子代理） (65)](docs/subagents.zh.md) · [扩展管理工具 (135)](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md) · [最佳实践 (2)](docs/guides.zh.md)
+- [Plugins（复合插件） (370)](docs/plugins.zh.md) · [Skills（技能包） (1039)](docs/skills.zh.md) · [MCP / Connectors (138)](docs/mcp.zh.md) · [Subagents（子代理） (65)](docs/subagents.zh.md) · [扩展管理工具 (135)](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md) · [最佳实践 (38)](docs/guides.zh.md)
 
 <details>
 <summary>常见工具插件安装速查</summary>
@@ -35,7 +35,16 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 
 ### AI Agent 最佳实践（Best Practices for AI Agents）
 
-- **[Claude Code 最佳实践](docs/guides.zh.md#claude-code-最佳实践)**：[Claude Code Best Practices (Anthropic Official)](https://www.anthropic.com/engineering/claude-code-best-practices) · [Claude Code Guide](https://github.com/zebbern/claude-code-guide)
+- **[通用 AI Agent 最佳实践](docs/guides.zh.md#通用-ai-agent-最佳实践)**：[Agent Skills Overview](https://agentskills.io/home) · [Agent Skills Quickstart](https://agentskills.io/skill-creation/quickstart) · [Agent Skills Specification](https://agentskills.io/specification) · [全部 4 篇](docs/guides.zh.md#通用-ai-agent-最佳实践)
+- **[Claude Code 最佳实践](docs/guides.zh.md#claude-code-最佳实践)**：[Claude Code Best Practices (Anthropic Official)](https://www.anthropic.com/engineering/claude-code-best-practices) · [Claude Code Guide](https://github.com/zebbern/claude-code-guide) · [Claude Code Quickstart (Anthropic Official)](https://code.claude.com/docs/en/quickstart) · [全部 5 篇](docs/guides.zh.md#claude-code-最佳实践)
+- **[Codex 最佳实践](docs/guides.zh.md#codex-最佳实践)**：[Codex CLI (OpenAI Official)](https://learn.chatgpt.com/docs/codex/cli) · [Codex IDE Extension (OpenAI Official)](https://learn.chatgpt.com/docs/codex/ide) · [Codex Best Practices (OpenAI Official)](https://learn.chatgpt.com/guides/best-practices) · [全部 4 篇](docs/guides.zh.md#codex-最佳实践)
+- **[Cursor 最佳实践](docs/guides.zh.md#cursor-最佳实践)**：[Cursor Quickstart (Cursor Official)](https://cursor.com/docs/get-started/quickstart) · [Cursor Agent Overview (Cursor Official)](https://cursor.com/docs/agent/overview) · [Cursor Rules (Cursor Official)](https://cursor.com/docs/rules) · [全部 4 篇](docs/guides.zh.md#cursor-最佳实践)
+- **[Gemini CLI 最佳实践](docs/guides.zh.md#gemini-cli-最佳实践)**：[Get Started with Gemini CLI (Google Official)](https://geminicli.com/docs/get-started/) · [Provide Context with GEMINI.md Files (Google Official)](https://geminicli.com/docs/cli/gemini-md/) · [Manage Context and Memory (Google Official)](https://geminicli.com/docs/cli/tutorials/memory-management/)
+- **[OpenCode 最佳实践](docs/guides.zh.md#opencode-最佳实践)**：[OpenCode Intro (OpenCode Official)](https://opencode.ai/docs/) · [OpenCode CLI Intro (OpenCode Official)](https://opencode.ai/docs/cli/) · [OpenCode Instructions (OpenCode Official)](https://opencode.ai/docs/instructions/)
+- **[Antigravity 最佳实践](docs/guides.zh.md#antigravity-最佳实践)**：[Antigravity Getting Started (Google Official)](https://antigravity.google/docs/getting-started/) · [Antigravity CLI Best Practices (Google Official)](https://antigravity.google/docs/cli/best-practices/) · [Antigravity Rules (Google Official)](https://antigravity.google/docs/rules/) · [全部 4 篇](docs/guides.zh.md#antigravity-最佳实践)
+- **[GitHub Copilot 最佳实践](docs/guides.zh.md#github-copilot-最佳实践)**：[Quickstart for Using GitHub Copilot in Your IDE (GitHub Official)](https://docs.github.com/en/copilot/get-started/quickstart-for-using-github-copilot-in-your-ide) · [Best Practices for Using GitHub Copilot (GitHub Official)](https://docs.github.com/en/copilot/get-started/best-practices) · [Get Started with Copilot Agents on GitHub (GitHub Official)](https://docs.github.com/en/copilot/how-tos/copilot-on-github/use-copilot-agents/overview) · [全部 4 篇](docs/guides.zh.md#github-copilot-最佳实践)
+- **[Windsurf 最佳实践](docs/guides.zh.md#windsurf-最佳实践)**：[Devin Desktop Getting Started (Official)](https://docs.devin.ai/desktop/getting-started) · [Devin Desktop FAQ (Official)](https://docs.devin.ai/desktop/devin-desktop-faq) · [Devin Local Overview (Official)](https://docs.devin.ai/desktop/devin-local/overview) · [全部 4 篇](docs/guides.zh.md#windsurf-最佳实践)
+- **[DeepSeek Harness 最佳实践](docs/guides.zh.md#deepseek-harness-最佳实践)**：[DeepSeek Harness Web UI Quickstart (Official)](https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart) · [DeepSeek Harness README (Official)](https://github.com/deepseek-ai/deepseek-harness) · [Your First Plugin (Official)](https://deepseek-harness.github.io/deepseek-harness/en/develop/basic/)
 
 ### 🛡️ NVIDIA/SkillSpector 安全评分（满分 100）
 

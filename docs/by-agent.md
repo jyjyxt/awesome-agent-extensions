@@ -8,6 +8,8 @@
 
 ## Universal (838)
 
+Best practices: [Best Practices for AI Agents (Universal) (4)](guides.md#best-practices-for-ai-agents-universal)
+
 | Name | Type | Description | Agents | Security | Activity |
 | --- | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `Official` | `Skill` | Official collection of Agent Skills by Anthropic covering document creation (docx, pdf, pptx), frontend design, and skill authoring.<br>`npx skills add anthropics/skills` | `Universal` `Claude Code` | — | ⭐ 201.7k<br><sub>2026-11-16</sub> |
@@ -853,7 +855,7 @@
 
 Install hint: `/plugin install <owner>/<repo>`
 
-Best practices: [Best Practices for Claude Code (2)](guides.md#best-practices-for-claude-code)
+Best practices: [Best Practices for Claude Code (5)](guides.md#best-practices-for-claude-code)
 
 | Name | Type | Description | Agents | Security | Activity |
 | --- | --- | --- | --- | --- | --- |
@@ -2093,6 +2095,8 @@ Best practices: [Best Practices for Claude Code (2)](guides.md#best-practices-fo
 
 Install hint: `npx skills add <owner>/<repo>`
 
+Best practices: [Best Practices for Codex (4)](guides.md#best-practices-for-codex)
+
 | Name | Type | Description | Agents | Security | Activity |
 | --- | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `Official` | `Skill` | Official collection of Agent Skills by Anthropic covering document creation (docx, pdf, pptx), frontend design, and skill authoring.<br>`npx skills add anthropics/skills` | `Universal` `Claude Code` | — | ⭐ 201.7k<br><sub>2026-11-16</sub> |
@@ -3110,6 +3114,8 @@ Install hint: `npx skills add <owner>/<repo>`
 
 ## Cursor (914)
 
+Best practices: [Best Practices for Cursor (4)](guides.md#best-practices-for-cursor)
+
 | Name | Type | Description | Agents | Security | Activity |
 | --- | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `Official` | `Skill` | Official collection of Agent Skills by Anthropic covering document creation (docx, pdf, pptx), frontend design, and skill authoring.<br>`npx skills add anthropics/skills` | `Universal` `Claude Code` | — | ⭐ 201.7k<br><sub>2026-11-16</sub> |
@@ -4029,6 +4035,8 @@ Install hint: `npx skills add <owner>/<repo>`
 
 ## Gemini CLI (884)
 
+Best practices: [Best Practices for Gemini CLI (3)](guides.md#best-practices-for-gemini-cli)
+
 | Name | Type | Description | Agents | Security | Activity |
 | --- | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `Official` | `Skill` | Official collection of Agent Skills by Anthropic covering document creation (docx, pdf, pptx), frontend design, and skill authoring.<br>`npx skills add anthropics/skills` | `Universal` `Claude Code` | — | ⭐ 201.7k<br><sub>2026-11-16</sub> |
@@ -4918,6 +4926,8 @@ Install hint: `npx skills add <owner>/<repo>`
 
 ## OpenCode (877)
 
+Best practices: [Best Practices for OpenCode (3)](guides.md#best-practices-for-opencode)
+
 | Name | Type | Description | Agents | Security | Activity |
 | --- | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `Official` | `Skill` | Official collection of Agent Skills by Anthropic covering document creation (docx, pdf, pptx), frontend design, and skill authoring.<br>`npx skills add anthropics/skills` | `Universal` `Claude Code` | — | ⭐ 201.7k<br><sub>2026-11-16</sub> |
@@ -5800,6 +5810,8 @@ Install hint: `npx skills add <owner>/<repo>`
 
 ## Antigravity (860)
 
+Best practices: [Best Practices for Antigravity (4)](guides.md#best-practices-for-antigravity)
+
 | Name | Type | Description | Agents | Security | Activity |
 | --- | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `Official` | `Skill` | Official collection of Agent Skills by Anthropic covering document creation (docx, pdf, pptx), frontend design, and skill authoring.<br>`npx skills add anthropics/skills` | `Universal` `Claude Code` | — | ⭐ 201.7k<br><sub>2026-11-16</sub> |
@@ -6664,6 +6676,8 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — | — |
 
 ## GitHub Copilot (864)
+
+Best practices: [Best Practices for GitHub Copilot (4)](guides.md#best-practices-for-github-copilot)
 
 | Name | Type | Description | Agents | Security | Activity |
 | --- | --- | --- | --- | --- | --- |
@@ -7534,6 +7548,8 @@ Install hint: `npx skills add <owner>/<repo>`
 
 ## Windsurf (844)
 
+Best practices: [Best Practices for Windsurf (4)](guides.md#best-practices-for-windsurf)
+
 | Name | Type | Description | Agents | Security | Activity |
 | --- | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `Official` | `Skill` | Official collection of Agent Skills by Anthropic covering document creation (docx, pdf, pptx), frontend design, and skill authoring.<br>`npx skills add anthropics/skills` | `Universal` `Claude Code` | — | ⭐ 201.7k<br><sub>2026-11-16</sub> |
@@ -8382,6 +8398,8 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — | — |
 
 ## DeepSeek Harness (853)
+
+Best practices: [Best Practices for DeepSeek Harness (3)](guides.md#best-practices-for-deepseek-harness)
 
 | Name | Type | Description | Agents | Security | Activity |
 | --- | --- | --- | --- | --- | --- |

@@ -8,6 +8,8 @@
 
 ## 通用 (838)
 
+最佳实践：[通用 AI Agent 最佳实践 (4)](guides.zh.md#通用-ai-agent-最佳实践)
+
 | 名称 | 类型 | 简介 | 兼容工具 | 安全分 | 活跃度 |
 | --- | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | — | ⭐ 201.7k<br><sub>2026-11-16</sub> |
@@ -853,7 +855,7 @@
 
 安装参考：`/plugin install <owner>/<repo>`
 
-最佳实践：[Claude Code 最佳实践 (2)](guides.zh.md#claude-code-最佳实践)
+最佳实践：[Claude Code 最佳实践 (5)](guides.zh.md#claude-code-最佳实践)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 安全分 | 活跃度 |
 | --- | --- | --- | --- | --- | --- |
@@ -2093,6 +2095,8 @@
 
 安装参考：`npx skills add <owner>/<repo>`
 
+最佳实践：[Codex 最佳实践 (4)](guides.zh.md#codex-最佳实践)
+
 | 名称 | 类型 | 简介 | 兼容工具 | 安全分 | 活跃度 |
 | --- | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | — | ⭐ 201.7k<br><sub>2026-11-16</sub> |
@@ -3110,6 +3114,8 @@
 
 ## Cursor (914)
 
+最佳实践：[Cursor 最佳实践 (4)](guides.zh.md#cursor-最佳实践)
+
 | 名称 | 类型 | 简介 | 兼容工具 | 安全分 | 活跃度 |
 | --- | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | — | ⭐ 201.7k<br><sub>2026-11-16</sub> |
@@ -4029,6 +4035,8 @@
 
 ## Gemini CLI (884)
 
+最佳实践：[Gemini CLI 最佳实践 (3)](guides.zh.md#gemini-cli-最佳实践)
+
 | 名称 | 类型 | 简介 | 兼容工具 | 安全分 | 活跃度 |
 | --- | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | — | ⭐ 201.7k<br><sub>2026-11-16</sub> |
@@ -4918,6 +4926,8 @@
 
 ## OpenCode (877)
 
+最佳实践：[OpenCode 最佳实践 (3)](guides.zh.md#opencode-最佳实践)
+
 | 名称 | 类型 | 简介 | 兼容工具 | 安全分 | 活跃度 |
 | --- | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | — | ⭐ 201.7k<br><sub>2026-11-16</sub> |
@@ -5800,6 +5810,8 @@
 
 ## Antigravity (860)
 
+最佳实践：[Antigravity 最佳实践 (4)](guides.zh.md#antigravity-最佳实践)
+
 | 名称 | 类型 | 简介 | 兼容工具 | 安全分 | 活跃度 |
 | --- | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | — | ⭐ 201.7k<br><sub>2026-11-16</sub> |
@@ -6664,6 +6676,8 @@
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — | — |
 
 ## GitHub Copilot (864)
+
+最佳实践：[GitHub Copilot 最佳实践 (4)](guides.zh.md#github-copilot-最佳实践)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 安全分 | 活跃度 |
 | --- | --- | --- | --- | --- | --- |
@@ -7534,6 +7548,8 @@
 
 ## Windsurf (844)
 
+最佳实践：[Windsurf 最佳实践 (4)](guides.zh.md#windsurf-最佳实践)
+
 | 名称 | 类型 | 简介 | 兼容工具 | 安全分 | 活跃度 |
 | --- | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | — | ⭐ 201.7k<br><sub>2026-11-16</sub> |
@@ -8382,6 +8398,8 @@
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — | — |
 
 ## DeepSeek Harness (853)
+
+最佳实践：[DeepSeek Harness 最佳实践 (3)](guides.zh.md#deepseek-harness-最佳实践)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 安全分 | 活跃度 |
 | --- | --- | --- | --- | --- | --- |

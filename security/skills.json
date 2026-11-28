@@ -1,4 +1,16 @@
 {
+  "alchaincyf/zhangxuefeng-skill": {
+    "score": 39,
+    "risk_score": 61,
+    "severity": "HIGH",
+    "recommendation": "DO_NOT_INSTALL",
+    "findings": 0,
+    "pushed_at": "2026-10-13",
+    "scanned_at": "2026-11-28",
+    "scanner": "NVIDIA/SkillSpector",
+    "scanner_version": "2.13.7",
+    "mode": "static"
+  },
   "ayghri/i-have-adhd": {
     "score": 0,
     "risk_score": 100,
@@ -6,6 +18,18 @@
     "recommendation": "DO_NOT_INSTALL",
     "findings": 0,
     "pushed_at": "2026-11-25",
+    "scanned_at": "2026-11-28",
+    "scanner": "NVIDIA/SkillSpector",
+    "scanner_version": "2.13.7",
+    "mode": "static"
+  },
+  "behisecc/awesome-claude-skills": {
+    "score": 37,
+    "risk_score": 63,
+    "severity": "HIGH",
+    "recommendation": "DO_NOT_INSTALL",
+    "findings": 0,
+    "pushed_at": "2026-11-02",
     "scanned_at": "2026-11-28",
     "scanner": "NVIDIA/SkillSpector",
     "scanner_version": "2.13.7",
@@ -107,6 +131,30 @@
     "scanner_version": "2.13.7",
     "mode": "static"
   },
+  "jakeschincariol/day-trader-skill": {
+    "score": 0,
+    "risk_score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL",
+    "findings": 0,
+    "pushed_at": "2026-10-20",
+    "scanned_at": "2026-11-28",
+    "scanner": "NVIDIA/SkillSpector",
+    "scanner_version": "2.13.7",
+    "mode": "static"
+  },
+  "jakeschincariol/replica-skill": {
+    "score": 0,
+    "risk_score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL",
+    "findings": 0,
+    "pushed_at": "2026-10-03",
+    "scanned_at": "2026-11-28",
+    "scanner": "NVIDIA/SkillSpector",
+    "scanner_version": "2.13.7",
+    "mode": "static"
+  },
   "jakubkrehel/skills": {
     "score": 6,
     "risk_score": 94,
@@ -167,6 +215,18 @@
     "scanner_version": "2.13.7",
     "mode": "static"
   },
+  "larashero3-dotcom/lieflat-less-ai-tone": {
+    "score": 34,
+    "risk_score": 66,
+    "severity": "HIGH",
+    "recommendation": "DO_NOT_INSTALL",
+    "findings": 0,
+    "pushed_at": "2026-11-11",
+    "scanned_at": "2026-11-28",
+    "scanner": "NVIDIA/SkillSpector",
+    "scanner_version": "2.13.7",
+    "mode": "static"
+  },
   "latent-spaces/brag": {
     "score": 0,
     "risk_score": 100,
@@ -186,6 +246,18 @@
     "recommendation": "DO_NOT_INSTALL",
     "findings": 0,
     "pushed_at": "2026-11-25",
+    "scanned_at": "2026-11-28",
+    "scanner": "NVIDIA/SkillSpector",
+    "scanner_version": "2.13.7",
+    "mode": "static"
+  },
+  "miqdadbadjuber/anti-slop": {
+    "score": 0,
+    "risk_score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL",
+    "findings": 0,
+    "pushed_at": "2026-11-26",
     "scanned_at": "2026-11-28",
     "scanner": "NVIDIA/SkillSpector",
     "scanner_version": "2.13.7",
@@ -251,6 +323,18 @@
     "scanner_version": "2.13.7",
     "mode": "static"
   },
+  "revfactory/harness": {
+    "score": 36,
+    "risk_score": 64,
+    "severity": "HIGH",
+    "recommendation": "DO_NOT_INSTALL",
+    "findings": 0,
+    "pushed_at": "2026-09-28",
+    "scanned_at": "2026-11-28",
+    "scanner": "NVIDIA/SkillSpector",
+    "scanner_version": "2.13.7",
+    "mode": "static"
+  },
   "shadcn/improve": {
     "score": 0,
     "risk_score": 100,
@@ -270,6 +354,18 @@
     "recommendation": "DO_NOT_INSTALL",
     "findings": 0,
     "pushed_at": "2026-10-13",
+    "scanned_at": "2026-11-28",
+    "scanner": "NVIDIA/SkillSpector",
+    "scanner_version": "2.13.7",
+    "mode": "static"
+  },
+  "unclebob/ub-mode": {
+    "score": 38,
+    "risk_score": 62,
+    "severity": "HIGH",
+    "recommendation": "DO_NOT_INSTALL",
+    "findings": 0,
+    "pushed_at": "2026-11-02",
     "scanned_at": "2026-11-28",
     "scanner": "NVIDIA/SkillSpector",
     "scanner_version": "2.13.7",

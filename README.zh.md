@@ -350,7 +350,7 @@ _插件市场、技能聚合站、跨端安装器与插件开发工具。_
 | **[Agentic Awesome Skills](https://github.com/sickn33/agentic-awesome-skills)** | `Skill` | 收录 3,000+ 可复用 AI Agent 技能的大型社区合集，兼容 Claude Code、Codex、Cursor 与 Gemini CLI。 | `通用` `Claude Code` `Codex` `Cursor` `+1` | — | ⭐ 50.5k<br><sub>2026-11-28</sub> |
 | **[Claude Code Templates](https://github.com/davila7/claude-code-templates)** | `工具` | 开源的 Claude Code 组件注册表与命令行工具，支持一键检索安装子代理、指令、技能、钩子与 MCP。 | `Claude Code` | — | ⭐ 34.3k<br><sub>2026-11-28</sub> |
 | **[Skill Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** | `工具` | 将文档网站、GitHub 仓库和 PDF 自动转换为 AI Agent 技能的工具与 MCP 服务，内置冲突检测。 | `通用` `Claude Code` `Codex` | — | ⭐ 15.4k<br><sub>2026-11-27</sub> |
-| **[Awesome Claude Skills (BehiSecc)](https://github.com/BehiSecc/awesome-claude-skills)** | `Skill` | 社区精选的 Claude Skills 导航目录，覆盖文档处理、开发工具、数据分析、科研、媒体制作、安全与自动化。 | `Claude Code` `通用` | — | ⭐ 10.5k<br><sub>2026-11-02</sub> |
+| **[Awesome Claude Skills (BehiSecc)](https://github.com/BehiSecc/awesome-claude-skills)** | `Skill` | 社区精选的 Claude Skills 导航目录，覆盖文档处理、开发工具、数据分析、科研、媒体制作、安全与自动化。 | `Claude Code` `通用` | 🔴 37/100 | ⭐ 10.5k<br><sub>2026-11-02</sub> |
 | **[Darwin Skill Evolver](https://github.com/alchaincyf/darwin-skill)** | `Skill` | 受 Autoresearch 启发的 Skill 自主进化系统，通过评估、改进、测试与保留/回滚闭环持续优化技能表现。 | `Claude Code` `Codex` `通用` | — | ⭐ 7.1k<br><sub>2026-11-18</sub> |
 | **[Claude Code Guide](https://github.com/zebbern/claude-code-guide)** | `工具` | 全面的 Claude Code 社区实战指南，覆盖环境配置、斜杠命令、子代理、技能、Hooks 与最佳实践。 | `Claude Code` | — | ⭐ 4.7k<br><sub>2026-11-26</sub> |
 | **[One Skill to Rule Them All](https://github.com/rebelytics/one-skill-to-rule-them-all)** | `Skill` | 基于会话纠错与重复工作流的元技能，在人工审批前生成带依据的技能更新与新技能候选。 | `通用` | — | ⭐ 4.1k<br><sub>2026-11-27</sub> |

@@ -1,0 +1,10 @@
+name: CutVoke
+repo: https://github.com/frankShan001/CutVoke
+category: content-marketing
+official: false
+agents: [claude-code, codex, cursor, universal]
+includes: [skills, mcp]
+tags: [video-editing, timeline, local-first, ffmpeg, cli]
+description:
+  en: Local-first video editor with a built-in MCP server, CLI and editing skill, so agents can cut, caption and add effects on a non-destructive multi-track timeline that the user finishes by hand in the same desktop app.
+  zh: 本地优先的视频编辑器，内置 MCP 服务器、CLI 与剪辑 Skill，Agent 可在非破坏性多轨时间线上剪辑、加字幕和特效，用户再在同一桌面应用中手动完成剪辑。

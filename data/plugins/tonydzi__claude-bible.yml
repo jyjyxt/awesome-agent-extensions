@@ -1,0 +1,12 @@
+name: Claude Bible (rules-as-files)
+repo: https://github.com/tonydzi/claude-bible
+category: coding
+official: false
+agents: [claude-code]
+includes: [skills]
+tags: [claude-md, agents-md, rules, governance]
+install:
+  claude-code: /plugin marketplace add tonydzi/claude-bible
+description:
+  en: Keeps rules for people and AI agents as one markdown file per rule with an index line in CLAUDE.md or AGENTS.md, plus a declined-decisions journal. MIT.
+  zh: 将团队与 AI Agent 的规则按“一条规则一个 Markdown 文件”管理，并在 CLAUDE.md 或 AGENTS.md 中保留索引，附带被否决决策日志。MIT 许可。

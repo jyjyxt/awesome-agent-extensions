@@ -16,13 +16,6 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 
 浏览 [全部插件 (370)](docs/plugins.zh.md)，使用 `/plugin install <owner>/<repo>` 安装单个插件，或使用 `/plugin marketplace add <owner>/<repo>` 添加插件市场。
 
-### 🛡️ NVIDIA/SkillSpector 安全评分（满分 100）
-
-本仓库集成 [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 对收录的 **Skills、Plugins、MCP、Subagents** 进行自动化静态安全扫描，检测提示词注入、数据外泄、危险命令执行、供应链漏洞等风险，并将结果换算为 **0–100 安全分**（越高越安全）：
-
-- 🟢 **80–100**：安全（Safe） · 🟡 **50–79**：需留意（Caution） · 🔴 **0–49**：高风险（Do Not Install） · `—`：待扫描或不适用
-- **防篡改机制**：评分结果独立存储在 [`security/`](security/) 目录，**仅由官方 GitHub Actions 自动生成和更新，禁止 PR 手动提交或修改分数**。
-
 ## 快速入口
 
 - [Plugins（复合插件） (370)](docs/plugins.zh.md) · [Skills（技能包） (1039)](docs/skills.zh.md) · [MCP / Connectors (138)](docs/mcp.zh.md) · [Subagents（子代理） (65)](docs/subagents.zh.md) · [扩展管理工具 (135)](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)
@@ -40,10 +33,13 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 
 [通用](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
 
-> **🛡️ 透明可信的安全检测保障**：以上 Agent 生态收录的 Skills、Plugins、MCP 与 Subagents 均接入 NVIDIA 官方开源安全扫描器 [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 自动评分检测（满分 100）：
-> - **零人工干预、杜绝刷分**：分数仅由官方 [GitHub Actions 工作流](.github/workflows/security-scan.yml) 自动生成，CI 强制拦截任何试图在 PR 中手填或篡改分数的提交。
-> - **持续跟踪复检**：新增条目合入即扫，上游仓库有新提交时定时自动复检，避免“一次过审、后续投毒”。
-> - **全链路开源可查**：评分明细、风险项数量与扫描时间全部公开存档于 [`security/`](security/)，安装前可随时核验。
+### 🛡️ NVIDIA/SkillSpector 安全评分（满分 100）
+
+以上 Agent 生态收录的 **Skills、Plugins、MCP 与 Subagents** 均由 NVIDIA 官方开源安全扫描器 [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 自动进行静态安全扫描（检测提示词注入、数据外泄、危险命令执行、供应链漏洞等），并换算为 **0–100 安全分**（越高越安全）：
+
+- **评分标准**：🟢 **80–100** 安全（Safe） · 🟡 **50–79** 需留意（Caution） · 🔴 **0–49** 高风险（Do Not Install） · `—` 待扫描或不适用
+- **零人工干预、杜绝刷分**：分数仅由官方 [GitHub Actions 工作流](.github/workflows/security-scan.yml) 自动生成，CI 强制拦截任何试图在 PR 中手填或篡改分数的提交。
+- **持续复检、公开可查**：新增条目合入即扫、上游有新提交自动复检，所有评分明细与扫描时间均公开存档于 [`security/`](security/)，安装前可随时核验。
 
 ## 按场景目录
 

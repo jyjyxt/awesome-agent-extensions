@@ -16,13 +16,6 @@ Claude Code plugins are installable extension bundles that can combine Skills, s
 
 Browse [all plugins (370)](docs/plugins.md), install one with `/plugin install <owner>/<repo>`, or add a marketplace with `/plugin marketplace add <owner>/<repo>`.
 
-### 🛡️ Automated Security Scoring by NVIDIA/SkillSpector (0–100)
-
-Every scannable **Skill, Plugin, MCP server, and Subagent** in this directory is automatically audited with [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) static analysis (checking for prompt injection, data exfiltration, unsafe execution, and supply-chain risks) and assigned a **0–100 safety score** (higher is safer):
-
-- 🟢 **80–100**: Safe · 🟡 **50–79**: Caution · 🔴 **0–49**: High Risk (Do Not Install) · `—`: Pending or N/A
-- **Tamper-resistant**: Scores live in [`security/`](security/) and are **generated exclusively by GitHub Actions — contributors cannot manually submit or edit scores in PRs**.
-
 ## Quick Views
 
 - [Plugins (370)](docs/plugins.md) · [Skills (1039)](docs/skills.md) · [MCP & Connectors (138)](docs/mcp.md) · [Subagents (65)](docs/subagents.md) · [Extension Tooling (135)](docs/tools.md) · [Browse by Agent](docs/by-agent.md)
@@ -40,10 +33,13 @@ Every scannable **Skill, Plugin, MCP server, and Subagent** in this directory is
 
 [Universal](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
 
-> **🛡️ Transparent & Verifiable Security Auditing**: Every scannable Skill, Plugin, MCP server, and Subagent across these supported agents is automatically audited and scored (0–100) by NVIDIA's open-source [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector):
-> - **Tamper-Proof by CI**: Scores are generated exclusively by our official [GitHub Actions workflow](.github/workflows/security-scan.yml). PR checks strictly block manual score submissions or edits.
-> - **Continuous Re-Auditing**: New entries are scanned upon merge and automatically re-scanned when upstream repositories push new commits, protecting against post-approval supply-chain changes.
-> - **Fully Auditable**: Complete score metadata, finding counts, and scan timestamps are publicly archived in [`security/`](security/) for independent verification before installation.
+### 🛡️ Automated Security Scoring by NVIDIA/SkillSpector (0–100)
+
+Every scannable **Skill, Plugin, MCP server, and Subagent** across these supported agents is automatically audited with NVIDIA's open-source [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) static analysis (checking for prompt injection, data exfiltration, unsafe execution, and supply-chain risks) and assigned a **0–100 safety score** (higher is safer):
+
+- **Score Scale**: 🟢 **80–100** Safe · 🟡 **50–79** Caution · 🔴 **0–49** High Risk (Do Not Install) · `—` Pending or N/A
+- **Tamper-Proof by CI**: Scores are generated exclusively by our official [GitHub Actions workflow](.github/workflows/security-scan.yml); PR checks strictly block manual score submissions or edits.
+- **Continuous & Auditable**: New entries are scanned upon merge and re-scanned when upstream repos update. Full score metadata and timestamps are publicly archived in [`security/`](security/) for independent verification.
 
 ## Categories
 

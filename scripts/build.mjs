@@ -181,28 +181,6 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
         ].join('\n')
   );
 
-  lines.push(
-    isZh
-      ? [
-          '### 🛡️ NVIDIA/SkillSpector 安全评分（满分 100）',
-          '',
-          '本仓库集成 [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 对收录的 **Skills、Plugins、MCP、Subagents** 进行自动化静态安全扫描，检测提示词注入、数据外泄、危险命令执行、供应链漏洞等风险，并将结果换算为 **0–100 安全分**（越高越安全）：',
-          '',
-          '- 🟢 **80–100**：安全（Safe） · 🟡 **50–79**：需留意（Caution） · 🔴 **0–49**：高风险（Do Not Install） · `—`：待扫描或不适用',
-          '- **防篡改机制**：评分结果独立存储在 [`security/`](security/) 目录，**仅由官方 GitHub Actions 自动生成和更新，禁止 PR 手动提交或修改分数**。',
-          '',
-        ].join('\n')
-      : [
-          '### 🛡️ Automated Security Scoring by NVIDIA/SkillSpector (0–100)',
-          '',
-          'Every scannable **Skill, Plugin, MCP server, and Subagent** in this directory is automatically audited with [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) static analysis (checking for prompt injection, data exfiltration, unsafe execution, and supply-chain risks) and assigned a **0–100 safety score** (higher is safer):',
-          '',
-          '- 🟢 **80–100**: Safe · 🟡 **50–79**: Caution · 🔴 **0–49**: High Risk (Do Not Install) · `—`: Pending or N/A',
-          '- **Tamper-resistant**: Scores live in [`security/`](security/) and are **generated exclusively by GitHub Actions — contributors cannot manually submit or edit scores in PRs**.',
-          '',
-        ].join('\n')
-  );
-
   // Browse by type & agent bar
   lines.push(isZh ? '## 快速入口\n' : '## Quick Views\n');
   const viewLinks = [
@@ -246,17 +224,23 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
   lines.push(
     isZh
       ? [
-          '> **🛡️ 透明可信的安全检测保障**：以上 Agent 生态收录的 Skills、Plugins、MCP 与 Subagents 均接入 NVIDIA 官方开源安全扫描器 [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 自动评分检测（满分 100）：',
-          '> - **零人工干预、杜绝刷分**：分数仅由官方 [GitHub Actions 工作流](.github/workflows/security-scan.yml) 自动生成，CI 强制拦截任何试图在 PR 中手填或篡改分数的提交。',
-          '> - **持续跟踪复检**：新增条目合入即扫，上游仓库有新提交时定时自动复检，避免“一次过审、后续投毒”。',
-          '> - **全链路开源可查**：评分明细、风险项数量与扫描时间全部公开存档于 [`security/`](security/)，安装前可随时核验。',
+          '### 🛡️ NVIDIA/SkillSpector 安全评分（满分 100）',
+          '',
+          '以上 Agent 生态收录的 **Skills、Plugins、MCP 与 Subagents** 均由 NVIDIA 官方开源安全扫描器 [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 自动进行静态安全扫描（检测提示词注入、数据外泄、危险命令执行、供应链漏洞等），并换算为 **0–100 安全分**（越高越安全）：',
+          '',
+          '- **评分标准**：🟢 **80–100** 安全（Safe） · 🟡 **50–79** 需留意（Caution） · 🔴 **0–49** 高风险（Do Not Install） · `—` 待扫描或不适用',
+          '- **零人工干预、杜绝刷分**：分数仅由官方 [GitHub Actions 工作流](.github/workflows/security-scan.yml) 自动生成，CI 强制拦截任何试图在 PR 中手填或篡改分数的提交。',
+          '- **持续复检、公开可查**：新增条目合入即扫、上游有新提交自动复检，所有评分明细与扫描时间均公开存档于 [`security/`](security/)，安装前可随时核验。',
           '',
         ].join('\n')
       : [
-          '> **🛡️ Transparent & Verifiable Security Auditing**: Every scannable Skill, Plugin, MCP server, and Subagent across these supported agents is automatically audited and scored (0–100) by NVIDIA\'s open-source [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector):',
-          '> - **Tamper-Proof by CI**: Scores are generated exclusively by our official [GitHub Actions workflow](.github/workflows/security-scan.yml). PR checks strictly block manual score submissions or edits.',
-          '> - **Continuous Re-Auditing**: New entries are scanned upon merge and automatically re-scanned when upstream repositories push new commits, protecting against post-approval supply-chain changes.',
-          '> - **Fully Auditable**: Complete score metadata, finding counts, and scan timestamps are publicly archived in [`security/`](security/) for independent verification before installation.',
+          '### 🛡️ Automated Security Scoring by NVIDIA/SkillSpector (0–100)',
+          '',
+          'Every scannable **Skill, Plugin, MCP server, and Subagent** across these supported agents is automatically audited with NVIDIA\'s open-source [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) static analysis (checking for prompt injection, data exfiltration, unsafe execution, and supply-chain risks) and assigned a **0–100 safety score** (higher is safer):',
+          '',
+          '- **Score Scale**: 🟢 **80–100** Safe · 🟡 **50–79** Caution · 🔴 **0–49** High Risk (Do Not Install) · `—` Pending or N/A',
+          '- **Tamper-Proof by CI**: Scores are generated exclusively by our official [GitHub Actions workflow](.github/workflows/security-scan.yml); PR checks strictly block manual score submissions or edits.',
+          '- **Continuous & Auditable**: New entries are scanned upon merge and re-scanned when upstream repos update. Full score metadata and timestamps are publicly archived in [`security/`](security/) for independent verification.',
           '',
         ].join('\n')
   );

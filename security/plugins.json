@@ -1,1 +1,14 @@
-{}
+{
+  "dietrichgebert/ponytail": {
+    "score": 0,
+    "risk_score": 100,
+    "severity": "CRITICAL",
+    "recommendation": "DO_NOT_INSTALL",
+    "findings": 0,
+    "pushed_at": "2026-11-22",
+    "scanned_at": "2026-11-28",
+    "scanner": "NVIDIA/SkillSpector",
+    "scanner_version": "2.13.7",
+    "mode": "static"
+  }
+}

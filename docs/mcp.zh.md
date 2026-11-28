@@ -41,7 +41,7 @@
 | 名称 | 简介 | 兼容工具 | 安装 / 标签 | 安全分 | 活跃度 |
 | --- | --- | --- | --- | --- | --- |
 | **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `官方` | Chrome DevTools 官方 MCP 服务器，让编码 Agent 直接操控、调试、性能分析与审查 Chrome 浏览器页面。 | `通用` | `npx -y chrome-devtools-mcp@latest` | — | ⭐ 59.6k<br><sub>2026-11-27</sub> |
-| **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `官方` | 微软官方 Playwright MCP 服务器，让 Agent 通过结构化无障碍树直接操控浏览器完成测试与网页自动化。 | `通用` | `npx @playwright/mcp@latest` | — | ⭐ 40.2k<br><sub>2026-11-18</sub> |
+| **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `官方` | 微软官方 Playwright MCP 服务器，让 Agent 通过结构化无障碍树直接操控浏览器完成测试与网页自动化。 | `通用` | `npx @playwright/mcp@latest` | 🔴 0/100 | ⭐ 40.2k<br><sub>2026-11-18</sub> |
 | **[Browser MCP](https://github.com/BrowserMCP/mcp)** `官方` | 结合浏览器插件的 MCP 服务器，让 AI Agent 复用本地浏览器登录态完成网页操作与自动化任务。 | `通用` | `npx -y @browsermcp/mcp@latest` | — | ⭐ 7.4k<br><sub>2026-11-12</sub> |
 | **[Refero Design Research Skill](https://github.com/referodesign/refero_skill)** `官方` | Refero 官方调研优先 UI 设计插件，通过 MCP 接入 15 万+ 真实应用界面与交互流程参考。 | `Claude Code` `Codex` `Cursor` `通用` | `design-research` `ui-flows` `screens` | — | ⭐ 368<br><sub>2026-11-25</sub> |
 | **[Svelte Official MCP](https://github.com/sveltejs/ai-tools)** `官方` | Svelte 官方 MCP 服务器与 AI 开发工具集，助力 Svelte 与 SvelteKit 应用开发。 | `通用` | `svelte` `mcp-server` `frontend` | — | ⭐ 346<br><sub>2026-11-26</sub> |

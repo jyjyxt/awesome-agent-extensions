@@ -33,6 +33,10 @@ Claude Code プラグインは、Skills、スラッシュコマンド、Subagent
 
 [Universal](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
 
+### Best Practices for AI Agents（ベストプラクティス）
+
+- **[Best Practices for Claude Code](docs/guides.md#best-practices-for-claude-code)**: [Claude Code Best Practices (Anthropic Official)](https://www.anthropic.com/engineering/claude-code-best-practices) · [Claude Code Guide](https://github.com/zebbern/claude-code-guide)
+
 ### 🛡️ NVIDIA/SkillSpector による自動セキュリティスコア（0〜100）
 
 このディレクトリに収録されたスキャン可能な **Skill、Plugin、MCP サーバー、Subagent** は、NVIDIA のオープンソース静的解析ツール [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) により自動監査されます。プロンプトインジェクション、データ流出、安全でない実行、サプライチェーンリスクなどを確認し、0〜100 の安全性スコア（高いほど安全）を付与します。

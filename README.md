@@ -33,6 +33,10 @@ Browse [all plugins (370)](docs/plugins.md), install one with `/plugin install <
 
 [Universal](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
 
+### Best Practices for AI Agents
+
+- **[Best Practices for Claude Code](docs/guides.md#best-practices-for-claude-code)**: [Claude Code Best Practices (Anthropic Official)](https://www.anthropic.com/engineering/claude-code-best-practices) · [Claude Code Guide](https://github.com/zebbern/claude-code-guide)
+
 ### 🛡️ Automated Security Scoring by NVIDIA/SkillSpector (0–100)
 
 Every scannable **Skill, Plugin, MCP server, and Subagent** across these supported agents is automatically audited with NVIDIA's open-source [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) static analysis (checking for prompt injection, data exfiltration, unsafe execution, and supply-chain risks) and assigned a **0–100 safety score** (higher is safer):

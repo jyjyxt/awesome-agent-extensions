@@ -11,6 +11,7 @@ import {
 
 const CHECK_MODE = process.argv.includes('--check');
 const README_SECTION_LIMIT = 20;
+const README_GUIDE_LIMIT = 3;
 
 function localized(value, lang) {
   if (!value || typeof value !== 'object') return String(value ?? '');
@@ -171,7 +172,10 @@ function renderTable(entries, { lang, agentMap, kindMap, showKind = true, limit 
   return `${lines.join('\n')}\n`;
 }
 
-function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap, guideCount }) {
+function renderMainReadme(
+  lang,
+  { categories, agents, entries, agentMap, kindMap, guideMap, guideCount }
+) {
   const isZh = lang === 'zh';
   const isJa = lang === 'ja';
   const suffix = isZh ? '.zh.md' : '.md';
@@ -296,6 +300,37 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
       .join(' · ')
   );
   lines.push('');
+
+  // Best Practices for AI Agents quick list
+  const agentsWithGuides = agents.filter((a) => (guideMap.get(a.id) || []).length > 0);
+  if (agentsWithGuides.length > 0) {
+    lines.push(
+      isZh
+        ? '### AI Agent 最佳实践（Best Practices for AI Agents）\n'
+        : isJa
+          ? '### Best Practices for AI Agents（ベストプラクティス）\n'
+        : '### Best Practices for AI Agents\n'
+    );
+    const guideLang = isZh ? 'zh' : 'en';
+    const colon = isZh ? '：' : ': ';
+    for (const agent of agentsWithGuides) {
+      const items = guideMap.get(agent.id) || [];
+      const heading = formatGuideHeading(agent, guideLang);
+      const anchor = toAnchor(heading);
+      const shown = items.slice(0, README_GUIDE_LIMIT).map((item) => `[${item.title}](${item.url})`);
+      if (items.length > README_GUIDE_LIMIT) {
+        shown.push(
+          isZh
+            ? `[全部 ${items.length} 篇](docs/guides${suffix}#${anchor})`
+            : isJa
+              ? `[すべて見る (${items.length})](docs/guides${suffix}#${anchor})`
+            : `[all ${items.length}](docs/guides${suffix}#${anchor})`
+        );
+      }
+      lines.push(`- **[${heading}](docs/guides${suffix}#${anchor})**${colon}${shown.join(' · ')}`);
+    }
+    lines.push('');
+  }
   lines.push(
     isZh
       ? [

@@ -145,8 +145,8 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
   lines.push('# Awesome Agent Extensions\n');
   lines.push(
     isZh
-      ? '> 精选跨平台 AI Agent 插件、Skills、MCP Servers、Subagents 与扩展管理工具（支持 Claude Code、Codex、Cursor、Gemini CLI、OpenCode、Antigravity 等），内置基于 [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 的自动化安全评分（满分 100）。\n'
-      : '> Curated cross-platform directory of AI Agent Plugins, Skills, MCP Servers, Subagents, and extension tooling (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Antigravity, and more), with automated security scoring (0–100) powered by [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector).\n'
+      ? '> 精选跨平台 Awesome Claude Code Plugins、AI Agent Skills、MCP Servers、Subagents 与扩展管理工具（支持 Claude Code、Codex、Cursor、Gemini CLI、OpenCode、Antigravity 等），内置基于 [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 的自动化安全评分（满分 100）。\n'
+      : '> Curated cross-platform directory of Awesome Claude Code Plugins, AI Agent Skills, MCP Servers, Subagents, and extension tooling (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Antigravity, and more), with automated security scoring (0–100) powered by [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector).\n'
   );
   lines.push(
     isZh
@@ -164,7 +164,7 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
   lines.push(
     isZh
       ? [
-          '### Claude Code Plugins',
+          '### Awesome Claude Code Plugins',
           '',
           `Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Subagents、Hooks、MCP 服务及完整工作流组合在一起。适合需要复用和分发一套 Agent 工作流的场景。`,
           '',
@@ -172,7 +172,7 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
           '',
         ].join('\n')
       : [
-          '### Claude Code Plugins',
+          '### Awesome Claude Code Plugins',
           '',
           `Claude Code plugins are installable extension bundles that can combine Skills, slash commands, subagents, hooks, MCP servers, and complete workflows. They are useful when you want to reuse and distribute a repeatable agent workflow.`,
           '',

@@ -2,7 +2,7 @@
 
 # Awesome Agent Extensions
 
-> Curated cross-platform directory of AI Agent Plugins, Skills, MCP Servers, Subagents, and extension tooling (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Antigravity, and more), with automated security scoring (0–100) powered by [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector).
+> Curated cross-platform directory of Awesome Claude Code Plugins, AI Agent Skills, MCP Servers, Subagents, and extension tooling (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Antigravity, and more), with automated security scoring (0–100) powered by [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector).
 
 [![Security Scoring by NVIDIA SkillSpector](https://img.shields.io/badge/Security%20Scoring-NVIDIA%20SkillSpector-76B900?logo=nvidia&logoColor=white)](https://github.com/NVIDIA/SkillSpector)
 
@@ -10,7 +10,7 @@
 
 ![Awesome Agent Extensions directory map](assets/intro/awesome-agents-en.gif)
 
-### Claude Code Plugins
+### Awesome Claude Code Plugins
 
 Claude Code plugins are installable extension bundles that can combine Skills, slash commands, subagents, hooks, MCP servers, and complete workflows. They are useful when you want to reuse and distribute a repeatable agent workflow.
 

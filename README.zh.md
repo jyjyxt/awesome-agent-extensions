@@ -40,6 +40,11 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 
 [通用](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
 
+> **🛡️ 透明可信的安全检测保障**：以上 Agent 生态收录的 Skills、Plugins、MCP 与 Subagents 均接入 NVIDIA 官方开源安全扫描器 [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 自动评分检测（满分 100）：
+> - **零人工干预、杜绝刷分**：分数仅由官方 [GitHub Actions 工作流](.github/workflows/security-scan.yml) 自动生成，CI 强制拦截任何试图在 PR 中手填或篡改分数的提交。
+> - **持续跟踪复检**：新增条目合入即扫，上游仓库有新提交时定时自动复检，避免“一次过审、后续投毒”。
+> - **全链路开源可查**：评分明细、风险项数量与扫描时间全部公开存档于 [`security/`](security/)，安装前可随时核验。
+
 ## 按场景目录
 
 - [官方与精选 (193)](#官方与精选)

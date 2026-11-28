@@ -243,6 +243,23 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
       .join(' · ')
   );
   lines.push('');
+  lines.push(
+    isZh
+      ? [
+          '> **🛡️ 透明可信的安全检测保障**：以上 Agent 生态收录的 Skills、Plugins、MCP 与 Subagents 均接入 NVIDIA 官方开源安全扫描器 [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 自动评分检测（满分 100）：',
+          '> - **零人工干预、杜绝刷分**：分数仅由官方 [GitHub Actions 工作流](.github/workflows/security-scan.yml) 自动生成，CI 强制拦截任何试图在 PR 中手填或篡改分数的提交。',
+          '> - **持续跟踪复检**：新增条目合入即扫，上游仓库有新提交时定时自动复检，避免“一次过审、后续投毒”。',
+          '> - **全链路开源可查**：评分明细、风险项数量与扫描时间全部公开存档于 [`security/`](security/)，安装前可随时核验。',
+          '',
+        ].join('\n')
+      : [
+          '> **🛡️ Transparent & Verifiable Security Auditing**: Every scannable Skill, Plugin, MCP server, and Subagent across these supported agents is automatically audited and scored (0–100) by NVIDIA\'s open-source [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector):',
+          '> - **Tamper-Proof by CI**: Scores are generated exclusively by our official [GitHub Actions workflow](.github/workflows/security-scan.yml). PR checks strictly block manual score submissions or edits.',
+          '> - **Continuous Re-Auditing**: New entries are scanned upon merge and automatically re-scanned when upstream repositories push new commits, protecting against post-approval supply-chain changes.',
+          '> - **Fully Auditable**: Complete score metadata, finding counts, and scan timestamps are publicly archived in [`security/`](security/) for independent verification before installation.',
+          '',
+        ].join('\n')
+  );
 
   // Category TOC
   lines.push(isZh ? '## 按场景目录\n' : '## Categories\n');

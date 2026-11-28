@@ -40,6 +40,11 @@ Every scannable **Skill, Plugin, MCP server, and Subagent** in this directory is
 
 [Universal](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
 
+> **🛡️ Transparent & Verifiable Security Auditing**: Every scannable Skill, Plugin, MCP server, and Subagent across these supported agents is automatically audited and scored (0–100) by NVIDIA's open-source [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector):
+> - **Tamper-Proof by CI**: Scores are generated exclusively by our official [GitHub Actions workflow](.github/workflows/security-scan.yml). PR checks strictly block manual score submissions or edits.
+> - **Continuous Re-Auditing**: New entries are scanned upon merge and automatically re-scanned when upstream repositories push new commits, protecting against post-approval supply-chain changes.
+> - **Fully Auditable**: Complete score metadata, finding counts, and scan timestamps are publicly archived in [`security/`](security/) for independent verification before installation.
+
 ## Categories
 
 - [Official & Featured (193)](#official--featured)

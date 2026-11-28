@@ -6,7 +6,7 @@
 
 [![Security Scoring by NVIDIA SkillSpector](https://img.shields.io/badge/Security%20Scoring-NVIDIA%20SkillSpector-76B900?logo=nvidia&logoColor=white)](https://github.com/NVIDIA/SkillSpector)
 
-**English** | [简体中文](README.zh.md)
+**English** | [简体中文](README.zh.md) | [日本語](README.ja.md)
 
 ![Awesome Agent Extensions directory map](assets/intro/awesome-agents-en.gif)
 

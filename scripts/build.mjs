@@ -11,6 +11,11 @@ import {
 const CHECK_MODE = process.argv.includes('--check');
 const README_SECTION_LIMIT = 20;
 
+function localized(value, lang) {
+  if (!value || typeof value !== 'object') return String(value ?? '');
+  return value[lang] ?? value.en ?? value.zh ?? '';
+}
+
 function escapePipe(text) {
   return String(text ?? '').replace(/\|/g, '\\|').replace(/\n/g, ' ');
 }
@@ -66,7 +71,11 @@ function sortEntries(list) {
 
 function renderTable(entries, { lang, agentMap, kindMap, showKind = true, limit = null }) {
   if (entries.length === 0) {
-    return lang === 'zh' ? '_暂无收录，欢迎提交 PR！_\n' : '_No entries yet. PRs welcome!_\n';
+    return lang === 'zh'
+      ? '_暂无收录，欢迎提交 PR！_\n'
+      : lang === 'ja'
+        ? '_まだ登録されていません。PR を歓迎します！_\n'
+        : '_No entries yet. PRs welcome!_\n';
   }
 
   const sorted = sortEntries(entries);
@@ -77,6 +86,10 @@ function renderTable(entries, { lang, agentMap, kindMap, showKind = true, limit 
       ? showKind
         ? ['名称', '类型', '简介', '兼容工具', '安全分', '活跃度']
         : ['名称', '简介', '兼容工具', '安装 / 标签', '安全分', '活跃度']
+      : lang === 'ja'
+        ? showKind
+          ? ['名前', '種類', '説明', '対応エージェント', '安全性', 'アクティビティ']
+          : ['名前', '説明', '対応エージェント', 'インストール / タグ', '安全性', 'アクティビティ']
       : showKind
         ? ['Name', 'Type', 'Description', 'Agents', 'Security', 'Activity']
         : ['Name', 'Description', 'Agents', 'Install / Tags', 'Security', 'Activity'];
@@ -87,14 +100,26 @@ function renderTable(entries, { lang, agentMap, kindMap, showKind = true, limit 
   ];
 
   for (const entry of displayed) {
-    const officialBadge = entry.official ? (lang === 'zh' ? ' `官方`' : ' `Official`') : '';
-    const archivedBadge = entry.metrics?.archived ? (lang === 'zh' ? ' `已归档`' : ' `Archived`') : '';
+    const officialBadge = entry.official
+      ? lang === 'zh'
+        ? ' `官方`'
+        : lang === 'ja'
+          ? ' `公式`'
+          : ' `Official`'
+      : '';
+    const archivedBadge = entry.metrics?.archived
+      ? lang === 'zh'
+        ? ' `已归档`'
+        : lang === 'ja'
+          ? ' `アーカイブ済み`'
+          : ' `Archived`'
+      : '';
     const nameCell = `**[${escapePipe(entry.name)}](${entry.repo})**${officialBadge}${archivedBadge}`;
 
     const kindDef = kindMap.get(entry.kind);
-    const kindCell = `\`${kindDef ? kindDef.badge[lang] : entry.kind}\``;
+    const kindCell = `\`${kindDef ? localized(kindDef.badge, lang) : entry.kind}\``;
 
-    const descText = escapePipe(entry.description[lang]);
+    const descText = escapePipe(localized(entry.description, lang));
     const installHint = formatInstall(entry.install);
     const descCell =
       showKind && installHint ? `${descText}<br>${installHint}` : descText;
@@ -128,6 +153,8 @@ function renderTable(entries, { lang, agentMap, kindMap, showKind = true, limit 
     lines.push(
       lang === 'zh'
         ? `_当前仅展示前 ${displayed.length} 条（共 ${sorted.length} 条）。完整列表请浏览 [Plugins](docs/plugins${suffix}) · [Skills](docs/skills${suffix}) · [MCP](docs/mcp${suffix}) · [Subagents](docs/subagents${suffix}) · [工具](docs/tools${suffix}) · [按工具浏览](docs/by-agent${suffix})。_`
+        : lang === 'ja'
+          ? `_${displayed.length} 件を表示しています（全 ${sorted.length} 件）。完全な一覧は [Plugins](docs/plugins${suffix}) · [Skills](docs/skills${suffix}) · [MCP](docs/mcp${suffix}) · [Subagents](docs/subagents${suffix}) · [Tooling](docs/tools${suffix}) · [Agent 別](docs/by-agent${suffix}) をご覧ください。_`
         : `_Showing top ${displayed.length} of ${sorted.length} entries. Browse full lists in [Plugins](docs/plugins${suffix}) · [Skills](docs/skills${suffix}) · [MCP](docs/mcp${suffix}) · [Subagents](docs/subagents${suffix}) · [Tooling](docs/tools${suffix}) · [By Agent](docs/by-agent${suffix})._`
     );
   }
@@ -137,6 +164,7 @@ function renderTable(entries, { lang, agentMap, kindMap, showKind = true, limit 
 
 function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap }) {
   const isZh = lang === 'zh';
+  const isJa = lang === 'ja';
   const suffix = isZh ? '.zh.md' : '.md';
   const featured = entries.filter((e) => e.official || e.featured);
 
@@ -146,6 +174,8 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
   lines.push(
     isZh
       ? '> 精选跨平台 Awesome Claude Code Plugins、AI Agent Skills、MCP Servers、Subagents 与扩展管理工具（支持 Claude Code、Codex、Cursor、Gemini CLI、OpenCode、Antigravity 等），内置基于 [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 的自动化安全评分（满分 100）。\n'
+      : isJa
+        ? '> Claude Code、Codex、Cursor、Gemini CLI、OpenCode、Antigravity などに対応した、Claude Code プラグイン、AI Agent Skills、MCP サーバー、Subagents、拡張ツールの横断型ディレクトリです。[NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) による自動セキュリティスコア（0〜100）を掲載しています。\n'
       : '> Curated cross-platform directory of Awesome Claude Code Plugins, AI Agent Skills, MCP Servers, Subagents, and extension tooling (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Antigravity, and more), with automated security scoring (0–100) powered by [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector).\n'
   );
   lines.push(
@@ -153,10 +183,18 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
       ? '[![Security Scoring by NVIDIA SkillSpector](https://img.shields.io/badge/Security%20Scoring-NVIDIA%20SkillSpector-76B900?logo=nvidia&logoColor=white)](https://github.com/NVIDIA/SkillSpector)\n'
       : '[![Security Scoring by NVIDIA SkillSpector](https://img.shields.io/badge/Security%20Scoring-NVIDIA%20SkillSpector-76B900?logo=nvidia&logoColor=white)](https://github.com/NVIDIA/SkillSpector)\n'
   );
-  lines.push(isZh ? '[English](README.md) | **简体中文**\n' : '**English** | [简体中文](README.zh.md)\n');
+  lines.push(
+    isZh
+      ? '[English](README.md) | **简体中文** | [日本語](README.ja.md)\n'
+      : isJa
+        ? '[English](README.md) | [简体中文](README.zh.md) | **日本語**\n'
+        : '**English** | [简体中文](README.zh.md) | [日本語](README.ja.md)\n'
+  );
   lines.push(
     isZh
       ? '![Awesome Agent Extensions 目录结构图](assets/intro/awesome-agents-zh.gif)\n'
+      : isJa
+        ? '![Awesome Agent Extensions のディレクトリマップ](assets/intro/awesome-agents-en.gif)\n'
       : '![Awesome Agent Extensions directory map](assets/intro/awesome-agents-en.gif)\n'
   );
 
@@ -171,6 +209,15 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
           `浏览 [全部插件 (${pluginCount})](docs/plugins.zh.md)，使用 \`/plugin install <owner>/<repo>\` 安装单个插件，或使用 \`/plugin marketplace add <owner>/<repo>\` 添加插件市场。`,
           '',
         ].join('\n')
+      : isJa
+        ? [
+            '### Awesome Claude Code Plugins',
+            '',
+            'Claude Code プラグインは、Skills、スラッシュコマンド、Subagents、Hooks、MCP サーバー、完全なワークフローを組み合わせられるインストール可能な拡張パッケージです。再利用可能な Agent ワークフローを共有したい場合に役立ちます。',
+            '',
+            `[すべてのプラグイン (${pluginCount})](docs/plugins.md) を確認し、\`/plugin install <owner>/<repo>\` でインストールするか、\`/plugin marketplace add <owner>/<repo>\` でマーケットプレイスを追加できます。`,
+            '',
+          ].join('\n')
       : [
           '### Awesome Claude Code Plugins',
           '',
@@ -182,22 +229,30 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
   );
 
   // Browse by type & agent bar
-  lines.push(isZh ? '## 快速入口\n' : '## Quick Views\n');
+  lines.push(isZh ? '## 快速入口\n' : isJa ? '## クイックビュー\n' : '## Quick Views\n');
   const viewLinks = [
     ...KIND_DIRS.map((k) => {
       const count = entries.filter(
         (e) => e.kind === k.id || (Array.isArray(e.includes) && e.includes.includes(k.id))
       ).length;
-      return `[${k.label[lang]} (${count})](docs/${k.id}${suffix})`;
+      return `[${localized(k.label, lang)} (${count})](docs/${k.id}${suffix})`;
     }),
     isZh
       ? `[按工具浏览](docs/by-agent${suffix})`
+      : isJa
+        ? `[Agent 別に見る](docs/by-agent${suffix})`
       : `[Browse by Agent](docs/by-agent${suffix})`,
   ];
   lines.push(`- ${viewLinks.join(' · ')}\n`);
 
   // Quick install cheatsheet
-  lines.push(isZh ? '<details>\n<summary>常见工具插件安装速查</summary>\n' : '<details>\n<summary>Quick Install Cheatsheet</summary>\n');
+  lines.push(
+    isZh
+      ? '<details>\n<summary>常见工具插件安装速查</summary>\n'
+      : isJa
+        ? '<details>\n<summary>クイックインストール</summary>\n'
+        : '<details>\n<summary>Quick Install Cheatsheet</summary>\n'
+  );
   lines.push(
     isZh
       ? [
@@ -205,6 +260,12 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
           '- **跨端 Agent Skills**: `npx skills add <owner>/<repo>`',
           '- **MCP Server**: 按各项目文档配置到对应 Agent 的 MCP 设置（如 `mcpServers` JSON）',
         ].join('\n')
+      : isJa
+        ? [
+            '- **Claude Code Plugin**: `/plugin install <owner>/<repo>` または `/plugin marketplace add <owner>/<repo>`',
+            '- **クロスエージェント Skills**: `npx skills add <owner>/<repo>`',
+            '- **MCP Server**: 各プロジェクトのドキュメントに従い、Agent の MCP 設定（`mcpServers` など）に追加',
+          ].join('\n')
       : [
           '- **Claude Code Plugin**: `/plugin install <owner>/<repo>` or `/plugin marketplace add <owner>/<repo>`',
           '- **Cross-agent Skills**: `npx skills add <owner>/<repo>`',
@@ -214,7 +275,7 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
   lines.push('\n</details>\n');
 
   // Supported agents summary
-  lines.push(isZh ? '## 支持的 Agent 工具\n' : '## Supported Agents\n');
+  lines.push(isZh ? '## 支持的 Agent 工具\n' : isJa ? '## 対応 Agent\n' : '## Supported Agents\n');
   lines.push(
     agents
       .map((a) => `[${isZh ? a.zh_name || a.name : a.name}](${a.url})`)
@@ -233,6 +294,17 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
           '- **持续复检、公开可查**：新增条目合入即扫、上游有新提交自动复检，所有评分明细与扫描时间均公开存档于 [`security/`](security/)，安装前可随时核验。',
           '',
         ].join('\n')
+      : isJa
+        ? [
+            '### 🛡️ NVIDIA/SkillSpector による自動セキュリティスコア（0〜100）',
+            '',
+            'このディレクトリに収録されたスキャン可能な **Skill、Plugin、MCP サーバー、Subagent** は、NVIDIA のオープンソース静的解析ツール [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) により自動監査されます。プロンプトインジェクション、データ流出、安全でない実行、サプライチェーンリスクなどを確認し、0〜100 の安全性スコア（高いほど安全）を付与します。',
+            '',
+            '- **スコアの目安**：🟢 **80〜100** 安全 · 🟡 **50〜79** 注意 · 🔴 **0〜49** 高リスク（インストール非推奨） · `—` 未スキャンまたは対象外',
+            '- **CI による改ざん防止**：スコアは公式 [GitHub Actions ワークフロー](.github/workflows/security-scan.yml) のみが生成し、PR からの手動入力や変更をチェックで拒否します。',
+            '- **継続的で検証可能**：新しい項目はマージ時にスキャンし、上流リポジトリの更新時に再スキャンします。スコアのメタデータと日時は [`security/`](security/) に公開保存されます。',
+            '',
+          ].join('\n')
       : [
           '### 🛡️ Automated Security Scoring by NVIDIA/SkillSpector (0–100)',
           '',
@@ -246,29 +318,31 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
   );
 
   // Category TOC
-  lines.push(isZh ? '## 按场景目录\n' : '## Categories\n');
+  lines.push(isZh ? '## 按场景目录\n' : isJa ? '## カテゴリ\n' : '## Categories\n');
   if (featured.length > 0) {
     lines.push(
       isZh
         ? `- [官方与精选 (${featured.length})](#官方与精选)`
+        : isJa
+          ? `- [公式・おすすめ (${featured.length})](#公式おすすめ)`
         : `- [Official & Featured (${featured.length})](#official--featured)`
     );
   }
   for (const cat of categories) {
     const count = entries.filter((e) => e.category === cat.id).length;
-    const heading = cat.name[lang];
+    const heading = localized(cat.name, lang);
     const anchor = heading
       .toLowerCase()
       .replace(/[^\p{L}\p{N}\s-]/gu, '')
       .trim()
       .replace(/\s+/g, '-');
-    lines.push(`- [${heading} (${count})](#${anchor}) — ${cat.description[lang]}`);
+    lines.push(`- [${heading} (${count})](#${anchor}) — ${localized(cat.description, lang)}`);
   }
   lines.push('');
 
   // Official & Featured
   if (featured.length > 0) {
-    lines.push(isZh ? '## 官方与精选\n' : '## Official & Featured\n');
+    lines.push(isZh ? '## 官方与精选\n' : isJa ? '## 公式・おすすめ\n' : '## Official & Featured\n');
     lines.push(
       renderTable(featured, {
         lang,
@@ -284,8 +358,8 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
   for (const cat of categories) {
     const catEntries = entries.filter((e) => e.category === cat.id);
     if (catEntries.length === 0) continue;
-    lines.push(`## ${cat.name[lang]}\n`);
-    lines.push(`_${cat.description[lang]}_\n`);
+    lines.push(`## ${localized(cat.name, lang)}\n`);
+    lines.push(`_${localized(cat.description, lang)}_\n`);
     lines.push(
       renderTable(catEntries, {
         lang,
@@ -298,10 +372,12 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
   }
 
   // Contributing footer
-  lines.push(isZh ? '## 参与贡献\n' : '## Contributing\n');
+  lines.push(isZh ? '## 参与贡献\n' : isJa ? '## コントリビューション\n' : '## Contributing\n');
   lines.push(
     isZh
       ? '想推荐优秀的 Plugin、Skill、MCP 或 Subagent？只需在 `data/<类型>/` 下新增一个 YAML 文件并提 PR，或直接[提交推荐 Issue](.github/ISSUE_TEMPLATE/submit-plugin.yml)。详见 [CONTRIBUTING.md](CONTRIBUTING.md)。\n'
+      : isJa
+        ? '優れた Plugin、Skill、MCP サーバー、Subagent を推薦するには、`data/<type>/` に YAML ファイルを追加して PR を作成するか、Issue フォームから推薦を送信してください。詳しくは [CONTRIBUTING.md](CONTRIBUTING.md) をご覧ください。\n'
       : 'Want to add a great Plugin, Skill, MCP server, or Subagent? Add a YAML file under `data/<type>/` and open a PR, or submit via the issue form. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.\n'
   );
 
@@ -407,6 +483,7 @@ function main() {
   const outputs = [
     [path.join(ROOT_DIR, 'README.md'), renderMainReadme('en', ctx)],
     [path.join(ROOT_DIR, 'README.zh.md'), renderMainReadme('zh', ctx)],
+    [path.join(ROOT_DIR, 'README.ja.md'), renderMainReadme('ja', ctx)],
     [path.join(ROOT_DIR, 'docs/by-agent.md'), renderByAgentDoc('en', ctx)],
     [path.join(ROOT_DIR, 'docs/by-agent.zh.md'), renderByAgentDoc('zh', ctx)],
   ];

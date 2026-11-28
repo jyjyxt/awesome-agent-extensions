@@ -4,70 +4,88 @@ categories:
     name:
       en: Coding & Engineering
       zh: 编码与工程
+      ja: コーディング・エンジニアリング
     description:
       en: Code generation, refactoring, testing, debugging, code review, and Git workflows.
       zh: 代码开发、重构、测试、调试、代码审查与 Git 工作流。
+      ja: コード生成、リファクタリング、テスト、デバッグ、コードレビュー、Git ワークフロー。
 
   - id: frontend-design
     name:
       en: Frontend & Design
       zh: 前端与设计
+      ja: フロントエンド・デザイン
     description:
       en: UI engineering, design systems, browser automation, visual testing, and Figma integrations.
       zh: UI 开发、设计系统、浏览器自动化、视觉审查与 Figma 集成。
+      ja: UI エンジニアリング、デザインシステム、ブラウザ自動化、ビジュアルテスト、Figma 連携。
 
   - id: cloud-devops
     name:
       en: Cloud, DevOps & Infrastructure
       zh: 云与运维
+      ja: クラウド・DevOps・インフラ
     description:
       en: Deployment, containers, observability, databases, and cloud platform integrations.
       zh: 部署、容器、可观测性、数据库与云平台集成。
+      ja: デプロイ、コンテナ、オブザーバビリティ、データベース、クラウドプラットフォーム連携。
 
   - id: orchestration
     name:
       en: Agent Orchestration & Workflows
       zh: 编排与多代理协作
+      ja: Agent オーケストレーション・ワークフロー
     description:
       en: Multi-agent coordination, planning pipelines, memory layers, and workflow automation.
       zh: 多 Agent 协同、规划流水线、记忆层与工作流编排。
+      ja: マルチ Agent 協調、計画パイプライン、メモリ層、ワークフロー自動化。
 
   - id: data-research
     name:
       en: Data, Research & Knowledge
       zh: 数据、研究与知识
+      ja: データ・リサーチ・ナレッジ
     description:
       en: Web search, document processing, data analysis, academic research, and knowledge bases.
       zh: 联网检索、文档处理、数据分析、学术研究与知识库。
+      ja: Web 検索、ドキュメント処理、データ分析、学術研究、ナレッジベース。
 
   - id: productivity
     name:
       en: Productivity & Collaboration
       zh: 效率与协作
+      ja: 生産性・コラボレーション
     description:
       en: Docs, issue trackers, calendars, messaging platforms, and daily office workflows.
       zh: 文档、项目管理、日历、即时通讯与日常办公协作。
+      ja: ドキュメント、課題管理、カレンダー、メッセージング、日々の業務ワークフロー。
 
   - id: content-marketing
     name:
       en: Content & Marketing
       zh: 内容与营销
+      ja: コンテンツ・マーケティング
     description:
       en: Writing, SEO, social media publishing, video/audio production, and growth workflows.
       zh: 写作、SEO、社媒发布、音视频制作与增长营销。
+      ja: ライティング、SEO、ソーシャルメディア配信、動画・音声制作、グロースワークフロー。
 
   - id: security
     name:
       en: Security & Compliance
       zh: 安全与合规
+      ja: セキュリティ・コンプライアンス
     description:
       en: Vulnerability scanning, secret detection, guardrails, and compliance checks.
       zh: 漏洞扫描、敏感信息检测、安全护栏与合规审计。
+      ja: 脆弱性スキャン、シークレット検出、安全ガードレール、コンプライアンスチェック。
 
   - id: marketplaces-tooling
     name:
       en: Marketplaces, Specs & Tooling
       zh: 插件市场与开发工具
+      ja: マーケットプレイス・仕様・ツール
     description:
       en: Plugin marketplaces, skill registries, cross-agent installers, and authoring SDKs.
       zh: 插件市场、技能聚合站、跨端安装器与插件开发工具。
+      ja: プラグインマーケットプレイス、Skill レジストリ、クロスエージェントインストーラー、作成 SDK。

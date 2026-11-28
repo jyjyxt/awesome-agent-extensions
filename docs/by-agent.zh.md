@@ -4,7 +4,7 @@
 
 [← 返回主目录](../README.zh.md) · [English](by-agent.md)
 
-## 通用 (836)
+## 通用 (837)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
@@ -157,6 +157,7 @@
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `官方` | `Skill` | SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。 | `通用` `Claude Code` | ⭐ 6<br><sub>2026-11-23</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Enhanciar MCP](https://github.com/enhanciar/enhanciar-mcp)** `官方` | `MCP` | Enhanciar 官方托管 MCP 服务器，基于团队的 Slack、Gmail、Drive、Notion、Jira、Linear 和 GitHub 回答问题并附来源链接，还能起草回复或工单供人审批。<br>`claude mcp add --transport http --scope user enhanciar https://enhanciar.in/enhanciar/mcp/ --header "Authorization: Bearer dh_your_key"` | `通用` | — |
 | **[Fork](https://github.com/moxclaw/fork-skill)** `官方` | `Plugin` | fork.zone 的技能、插件和远程 MCP。智能体在这里发布有效的工具链改进并互相测试。MCP 入口无需注册账号。<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `通用` | — |
 | **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `工具` | 可视化看板编排工具，支持同时调度、监控并评审 Claude Code、Codex 等多个编码 Agent 的并行任务。 | `Claude Code` `Codex` `通用` | ⭐ 28.8k<br><sub>2026-11-27</sub> |
 | **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | 全面的开源 AI 科研与机器学习工程技能库，覆盖模型微调、RLHF、推理优化与评测实验。 | `通用` `Claude Code` | ⭐ 14.9k<br><sub>2026-10-11</sub> |
@@ -845,7 +846,7 @@
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |
 
-## Claude Code (1229)
+## Claude Code (1230)
 
 安装参考：`/plugin install <owner>/<repo>`
 
@@ -1028,6 +1029,7 @@
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `官方` | `工具` | 独立命令行工具，可查找 Hugging Face 技能，并将其安装或更新到项目或用户级技能目录。 | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 3<br><sub>2026-03-13</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Enhanciar MCP](https://github.com/enhanciar/enhanciar-mcp)** `官方` | `MCP` | Enhanciar 官方托管 MCP 服务器，基于团队的 Slack、Gmail、Drive、Notion、Jira、Linear 和 GitHub 回答问题并附来源链接，还能起草回复或工单供人审批。<br>`claude mcp add --transport http --scope user enhanciar https://enhanciar.in/enhanciar/mcp/ --header "Authorization: Bearer dh_your_key"` | `通用` | — |
 | **[Fork](https://github.com/moxclaw/fork-skill)** `官方` | `Plugin` | fork.zone 的技能、插件和远程 MCP。智能体在这里发布有效的工具链改进并互相测试。MCP 入口无需注册账号。<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `通用` | — |
 | **[Superpowers](https://github.com/obra/superpowers)** | `Plugin` | 面向编码 Agent 的结构化工程工作流插件，内置方案设计、严格 TDD、系统化调试与子代理驱动开发。<br>`/plugin install obra/superpowers` | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 327.9k<br><sub>2026-11-26</sub> |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | 多端模块化插件市场，组合专业子代理、技能与命令，覆盖多语言开发、测试、安全与架构工作流。<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 43.0k<br><sub>2026-11-24</sub> |
@@ -2081,7 +2083,7 @@
 | **[Great CTO](https://github.com/avelikiy/great_cto)** | `Plugin` | 面向全软件生命周期的 Claude Code 插件，内置专家子代理、命令、合规流程与经验沉淀机制。 | `Claude Code` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |
 
-## Codex (1010)
+## Codex (1011)
 
 安装参考：`npx skills add <owner>/<repo>`
 
@@ -2250,6 +2252,7 @@
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `官方` | `工具` | 独立命令行工具，可查找 Hugging Face 技能，并将其安装或更新到项目或用户级技能目录。 | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 3<br><sub>2026-03-13</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Enhanciar MCP](https://github.com/enhanciar/enhanciar-mcp)** `官方` | `MCP` | Enhanciar 官方托管 MCP 服务器，基于团队的 Slack、Gmail、Drive、Notion、Jira、Linear 和 GitHub 回答问题并附来源链接，还能起草回复或工单供人审批。<br>`claude mcp add --transport http --scope user enhanciar https://enhanciar.in/enhanciar/mcp/ --header "Authorization: Bearer dh_your_key"` | `通用` | — |
 | **[Fork](https://github.com/moxclaw/fork-skill)** `官方` | `Plugin` | fork.zone 的技能、插件和远程 MCP。智能体在这里发布有效的工具链改进并互相测试。MCP 入口无需注册账号。<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `通用` | — |
 | **[Superpowers](https://github.com/obra/superpowers)** | `Plugin` | 面向编码 Agent 的结构化工程工作流插件，内置方案设计、严格 TDD、系统化调试与子代理驱动开发。<br>`/plugin install obra/superpowers` | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 327.9k<br><sub>2026-11-26</sub> |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | 多端模块化插件市场，组合专业子代理、技能与命令，覆盖多语言开发、测试、安全与架构工作流。<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 43.0k<br><sub>2026-11-24</sub> |
@@ -3098,7 +3101,7 @@
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |
 
-## Cursor (912)
+## Cursor (913)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
@@ -3263,6 +3266,7 @@
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `官方` | `工具` | 独立命令行工具，可查找 Hugging Face 技能，并将其安装或更新到项目或用户级技能目录。 | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 3<br><sub>2026-03-13</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Enhanciar MCP](https://github.com/enhanciar/enhanciar-mcp)** `官方` | `MCP` | Enhanciar 官方托管 MCP 服务器，基于团队的 Slack、Gmail、Drive、Notion、Jira、Linear 和 GitHub 回答问题并附来源链接，还能起草回复或工单供人审批。<br>`claude mcp add --transport http --scope user enhanciar https://enhanciar.in/enhanciar/mcp/ --header "Authorization: Bearer dh_your_key"` | `通用` | — |
 | **[Fork](https://github.com/moxclaw/fork-skill)** `官方` | `Plugin` | fork.zone 的技能、插件和远程 MCP。智能体在这里发布有效的工具链改进并互相测试。MCP 入口无需注册账号。<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `通用` | — |
 | **[Superpowers](https://github.com/obra/superpowers)** | `Plugin` | 面向编码 Agent 的结构化工程工作流插件，内置方案设计、严格 TDD、系统化调试与子代理驱动开发。<br>`/plugin install obra/superpowers` | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 327.9k<br><sub>2026-11-26</sub> |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | 多端模块化插件市场，组合专业子代理、技能与命令，覆盖多语言开发、测试、安全与架构工作流。<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 43.0k<br><sub>2026-11-24</sub> |
@@ -4015,7 +4019,7 @@
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |
 
-## Gemini CLI (882)
+## Gemini CLI (883)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
@@ -4175,6 +4179,7 @@
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `官方` | `Skill` | SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。 | `通用` `Claude Code` | ⭐ 6<br><sub>2026-11-23</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Enhanciar MCP](https://github.com/enhanciar/enhanciar-mcp)** `官方` | `MCP` | Enhanciar 官方托管 MCP 服务器，基于团队的 Slack、Gmail、Drive、Notion、Jira、Linear 和 GitHub 回答问题并附来源链接，还能起草回复或工单供人审批。<br>`claude mcp add --transport http --scope user enhanciar https://enhanciar.in/enhanciar/mcp/ --header "Authorization: Bearer dh_your_key"` | `通用` | — |
 | **[Fork](https://github.com/moxclaw/fork-skill)** `官方` | `Plugin` | fork.zone 的技能、插件和远程 MCP。智能体在这里发布有效的工具链改进并互相测试。MCP 入口无需注册账号。<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `通用` | — |
 | **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `工具` | 可视化看板编排工具，支持同时调度、监控并评审 Claude Code、Codex 等多个编码 Agent 的并行任务。 | `Claude Code` `Codex` `通用` | ⭐ 28.8k<br><sub>2026-11-27</sub> |
 | **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | 全面的开源 AI 科研与机器学习工程技能库，覆盖模型微调、RLHF、推理优化与评测实验。 | `通用` `Claude Code` | ⭐ 14.9k<br><sub>2026-10-11</sub> |
@@ -4902,7 +4907,7 @@
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |
 
-## OpenCode (875)
+## OpenCode (876)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
@@ -5060,6 +5065,7 @@
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `官方` | `工具` | 独立命令行工具，可查找 Hugging Face 技能，并将其安装或更新到项目或用户级技能目录。 | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 3<br><sub>2026-03-13</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Enhanciar MCP](https://github.com/enhanciar/enhanciar-mcp)** `官方` | `MCP` | Enhanciar 官方托管 MCP 服务器，基于团队的 Slack、Gmail、Drive、Notion、Jira、Linear 和 GitHub 回答问题并附来源链接，还能起草回复或工单供人审批。<br>`claude mcp add --transport http --scope user enhanciar https://enhanciar.in/enhanciar/mcp/ --header "Authorization: Bearer dh_your_key"` | `通用` | — |
 | **[Fork](https://github.com/moxclaw/fork-skill)** `官方` | `Plugin` | fork.zone 的技能、插件和远程 MCP。智能体在这里发布有效的工具链改进并互相测试。MCP 入口无需注册账号。<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `通用` | — |
 | **[Superpowers](https://github.com/obra/superpowers)** | `Plugin` | 面向编码 Agent 的结构化工程工作流插件，内置方案设计、严格 TDD、系统化调试与子代理驱动开发。<br>`/plugin install obra/superpowers` | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 327.9k<br><sub>2026-11-26</sub> |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | 多端模块化插件市场，组合专业子代理、技能与命令，覆盖多语言开发、测试、安全与架构工作流。<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 43.0k<br><sub>2026-11-24</sub> |
@@ -5782,7 +5788,7 @@
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |
 
-## Antigravity (858)
+## Antigravity (859)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
@@ -5936,6 +5942,7 @@
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `官方` | `Skill` | SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。 | `通用` `Claude Code` | ⭐ 6<br><sub>2026-11-23</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Enhanciar MCP](https://github.com/enhanciar/enhanciar-mcp)** `官方` | `MCP` | Enhanciar 官方托管 MCP 服务器，基于团队的 Slack、Gmail、Drive、Notion、Jira、Linear 和 GitHub 回答问题并附来源链接，还能起草回复或工单供人审批。<br>`claude mcp add --transport http --scope user enhanciar https://enhanciar.in/enhanciar/mcp/ --header "Authorization: Bearer dh_your_key"` | `通用` | — |
 | **[Fork](https://github.com/moxclaw/fork-skill)** `官方` | `Plugin` | fork.zone 的技能、插件和远程 MCP。智能体在这里发布有效的工具链改进并互相测试。MCP 入口无需注册账号。<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `通用` | — |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | 多端模块化插件市场，组合专业子代理、技能与命令，覆盖多语言开发、测试、安全与架构工作流。<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 43.0k<br><sub>2026-11-24</sub> |
 | **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `工具` | 可视化看板编排工具，支持同时调度、监控并评审 Claude Code、Codex 等多个编码 Agent 的并行任务。 | `Claude Code` `Codex` `通用` | ⭐ 28.8k<br><sub>2026-11-27</sub> |
@@ -6645,7 +6652,7 @@
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |
 
-## GitHub Copilot (862)
+## GitHub Copilot (863)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
@@ -6799,6 +6806,7 @@
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `官方` | `Skill` | SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。 | `通用` `Claude Code` | ⭐ 6<br><sub>2026-11-23</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Enhanciar MCP](https://github.com/enhanciar/enhanciar-mcp)** `官方` | `MCP` | Enhanciar 官方托管 MCP 服务器，基于团队的 Slack、Gmail、Drive、Notion、Jira、Linear 和 GitHub 回答问题并附来源链接，还能起草回复或工单供人审批。<br>`claude mcp add --transport http --scope user enhanciar https://enhanciar.in/enhanciar/mcp/ --header "Authorization: Bearer dh_your_key"` | `通用` | — |
 | **[Fork](https://github.com/moxclaw/fork-skill)** `官方` | `Plugin` | fork.zone 的技能、插件和远程 MCP。智能体在这里发布有效的工具链改进并互相测试。MCP 入口无需注册账号。<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `通用` | — |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | 多端模块化插件市场，组合专业子代理、技能与命令，覆盖多语言开发、测试、安全与架构工作流。<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 43.0k<br><sub>2026-11-24</sub> |
 | **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `工具` | 可视化看板编排工具，支持同时调度、监控并评审 Claude Code、Codex 等多个编码 Agent 的并行任务。 | `Claude Code` `Codex` `通用` | ⭐ 28.8k<br><sub>2026-11-27</sub> |
@@ -7512,7 +7520,7 @@
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |
 
-## Windsurf (842)
+## Windsurf (843)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
@@ -7666,6 +7674,7 @@
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `官方` | `Skill` | SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。 | `通用` `Claude Code` | ⭐ 6<br><sub>2026-11-23</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Enhanciar MCP](https://github.com/enhanciar/enhanciar-mcp)** `官方` | `MCP` | Enhanciar 官方托管 MCP 服务器，基于团队的 Slack、Gmail、Drive、Notion、Jira、Linear 和 GitHub 回答问题并附来源链接，还能起草回复或工单供人审批。<br>`claude mcp add --transport http --scope user enhanciar https://enhanciar.in/enhanciar/mcp/ --header "Authorization: Bearer dh_your_key"` | `通用` | — |
 | **[Fork](https://github.com/moxclaw/fork-skill)** `官方` | `Plugin` | fork.zone 的技能、插件和远程 MCP。智能体在这里发布有效的工具链改进并互相测试。MCP 入口无需注册账号。<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `通用` | — |
 | **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `工具` | 可视化看板编排工具，支持同时调度、监控并评审 Claude Code、Codex 等多个编码 Agent 的并行任务。 | `Claude Code` `Codex` `通用` | ⭐ 28.8k<br><sub>2026-11-27</sub> |
 | **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | 全面的开源 AI 科研与机器学习工程技能库，覆盖模型微调、RLHF、推理优化与评测实验。 | `通用` `Claude Code` | ⭐ 14.9k<br><sub>2026-10-11</sub> |
@@ -8359,7 +8368,7 @@
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |
 
-## DeepSeek Harness (851)
+## DeepSeek Harness (852)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
@@ -8512,6 +8521,7 @@
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `官方` | `Skill` | SocialCrawl 官方数据采集技能，通过 API 获取社交媒体、电商商品、评论、转录文本及市场研究数据。 | `通用` `Claude Code` | ⭐ 6<br><sub>2026-11-23</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `官方` | `Skill` | Gaffa 官方网页数据采集技能包，用于编写、调试和运行爬虫、网页抓取、截图与浏览器自动化任务。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Enhanciar MCP](https://github.com/enhanciar/enhanciar-mcp)** `官方` | `MCP` | Enhanciar 官方托管 MCP 服务器，基于团队的 Slack、Gmail、Drive、Notion、Jira、Linear 和 GitHub 回答问题并附来源链接，还能起草回复或工单供人审批。<br>`claude mcp add --transport http --scope user enhanciar https://enhanciar.in/enhanciar/mcp/ --header "Authorization: Bearer dh_your_key"` | `通用` | — |
 | **[Fork](https://github.com/moxclaw/fork-skill)** `官方` | `Plugin` | fork.zone 的技能、插件和远程 MCP。智能体在这里发布有效的工具链改进并互相测试。MCP 入口无需注册账号。<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `通用` | — |
 | **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `工具` | 可视化看板编排工具，支持同时调度、监控并评审 Claude Code、Codex 等多个编码 Agent 的并行任务。 | `Claude Code` `Codex` `通用` | ⭐ 28.8k<br><sub>2026-11-27</sub> |
 | **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | 全面的开源 AI 科研与机器学习工程技能库，覆盖模型微调、RLHF、推理优化与评测实验。 | `通用` `Claude Code` | ⭐ 14.9k<br><sub>2026-10-11</sub> |

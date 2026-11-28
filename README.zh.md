@@ -16,7 +16,7 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 
 ## 快速入口
 
-- [Plugins（复合插件） (370)](docs/plugins.zh.md) · [Skills（技能包） (1038)](docs/skills.zh.md) · [MCP / Connectors (137)](docs/mcp.zh.md) · [Subagents（子代理） (65)](docs/subagents.zh.md) · [扩展管理工具 (135)](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)
+- [Plugins（复合插件） (370)](docs/plugins.zh.md) · [Skills（技能包） (1038)](docs/skills.zh.md) · [MCP / Connectors (138)](docs/mcp.zh.md) · [Subagents（子代理） (65)](docs/subagents.zh.md) · [扩展管理工具 (135)](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)
 
 <details>
 <summary>常见工具插件安装速查</summary>
@@ -33,13 +33,13 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 
 ## 按场景目录
 
-- [官方与精选 (192)](#官方与精选)
+- [官方与精选 (193)](#官方与精选)
 - [编码与工程 (193)](#编码与工程) — 代码开发、重构、测试、调试、代码审查与 Git 工作流。
 - [前端与设计 (163)](#前端与设计) — UI 开发、设计系统、浏览器自动化、视觉审查与 Figma 集成。
 - [云与运维 (49)](#云与运维) — 部署、容器、可观测性、数据库与云平台集成。
 - [编排与多代理协作 (171)](#编排与多代理协作) — 多 Agent 协同、规划流水线、记忆层与工作流编排。
 - [数据、研究与知识 (148)](#数据研究与知识) — 联网检索、文档处理、数据分析、学术研究与知识库。
-- [效率与协作 (167)](#效率与协作) — 文档、项目管理、日历、即时通讯与日常办公协作。
+- [效率与协作 (168)](#效率与协作) — 文档、项目管理、日历、即时通讯与日常办公协作。
 - [内容与营销 (246)](#内容与营销) — 写作、SEO、社媒发布、音视频制作与增长营销。
 - [安全与合规 (45)](#安全与合规) — 漏洞扫描、敏感信息检测、安全护栏与合规审计。
 - [插件市场与开发工具 (53)](#插件市场与开发工具) — 插件市场、技能聚合站、跨端安装器与插件开发工具。
@@ -69,7 +69,7 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 | **[Video Use](https://github.com/browser-use/video-use)** `官方` | `Skill` | Browser Use 官方推出的 Agent 视频编辑技能，赋能编码 Agent 以程序化方式剪辑与处理视频。 | `通用` | ⭐ 31.7k<br><sub>2026-10-08</sub> |
 | **[DESIGN.md](https://github.com/google-labs-code/design.md)** `官方` | `工具` | Google Labs 官方推出的 DESIGN.md 格式规范与配套工具，让编码 Agent 持久理解项目设计系统。 | `通用` | ⭐ 29.2k<br><sub>2026-11-18</sub> |
 
-_当前仅展示前 20 条（共 192 条）。完整列表请浏览 [Plugins](docs/plugins.zh.md) · [Skills](docs/skills.zh.md) · [MCP](docs/mcp.zh.md) · [Subagents](docs/subagents.zh.md) · [工具](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)。_
+_当前仅展示前 20 条（共 193 条）。完整列表请浏览 [Plugins](docs/plugins.zh.md) · [Skills](docs/skills.zh.md) · [MCP](docs/mcp.zh.md) · [Subagents](docs/subagents.zh.md) · [工具](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)。_
 
 ## 编码与工程
 
@@ -238,12 +238,12 @@ _文档、项目管理、日历、即时通讯与日常办公协作。_
 | **[Beezi Cost & Usage Plugin](https://github.com/Beezi-AI/beezi-claude-plugin)** `官方` | `Plugin` | Beezi 官方插件，用于追踪 Claude Code 单会话成本、生成个人用量摘要并一键起草工单。 | `Claude Code` | ⭐ 63<br><sub>2026-11-20</sub> |
 | **[Airtable Agent Skills](https://github.com/Airtable/skills)** `官方` | `Skill` | Airtable 官方 Agent 技能包，辅助操作 Airtable 数据表结构、自动化流程与扩展开发。 | `通用` `Claude Code` | ⭐ 55<br><sub>2026-07-21</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `官方` | `Skill` | WorkorAI 官方人才市场技能包，通过 MCP 支持求职检索、职位发布及带透明匹配解释的候选人评估。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Enhanciar MCP](https://github.com/enhanciar/enhanciar-mcp)** `官方` | `MCP` | Enhanciar 官方托管 MCP 服务器，基于团队的 Slack、Gmail、Drive、Notion、Jira、Linear 和 GitHub 回答问题并附来源链接，还能起草回复或工单供人审批。<br>`claude mcp add --transport http --scope user enhanciar https://enhanciar.in/enhanciar/mcp/ --header "Authorization: Bearer dh_your_key"` | `通用` | — |
 | **[Career Ops](https://github.com/career-ops-hq/career-ops)** | `Plugin` | 本地运行的 AI 求职辅助插件与工具集，支持岗位匹配评分、ATS 简历定制、面试准备与投递追踪。 | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+2` | ⭐ 85.1k<br><sub>2026-11-27</sub> |
 | **[PPT Master](https://github.com/hugohe3/ppt-master)** | `Skill` | 将文档或主题转化为原生 PowerPoint 演示文稿的 Agent 技能，支持图表、动画、配音旁白与自定义模板。 | `通用` | ⭐ 80.7k<br><sub>2026-11-20</sub> |
 | **[Composio Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills)** | `Skill` | Composio 出品的实用 Claude 技能集，涵盖深度写作、会议洞察、文件/发票整理与音视频工具。 | `Claude Code` `通用` | ⭐ 80.4k<br><sub>2026-09-18</sub> |
-| **[AI Job Search](https://github.com/ai-job-search-dev/ai-job-search)** | `工具` | 基于 Claude Code 的本地求职自动化工具集，涵盖职位抓取、简历定制、求职信撰写与面试准备。 | `Claude Code` | ⭐ 73.7k<br><sub>2026-11-27</sub> |
 
-_当前仅展示前 20 条（共 167 条）。完整列表请浏览 [Plugins](docs/plugins.zh.md) · [Skills](docs/skills.zh.md) · [MCP](docs/mcp.zh.md) · [Subagents](docs/subagents.zh.md) · [工具](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)。_
+_当前仅展示前 20 条（共 168 条）。完整列表请浏览 [Plugins](docs/plugins.zh.md) · [Skills](docs/skills.zh.md) · [MCP](docs/mcp.zh.md) · [Subagents](docs/subagents.zh.md) · [工具](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)。_
 
 ## 内容与营销
 

@@ -16,7 +16,7 @@ Browse [all plugins (370)](docs/plugins.md), install one with `/plugin install <
 
 ## Quick Views
 
-- [Plugins (370)](docs/plugins.md) · [Skills (1038)](docs/skills.md) · [MCP & Connectors (137)](docs/mcp.md) · [Subagents (65)](docs/subagents.md) · [Extension Tooling (135)](docs/tools.md) · [Browse by Agent](docs/by-agent.md)
+- [Plugins (370)](docs/plugins.md) · [Skills (1038)](docs/skills.md) · [MCP & Connectors (138)](docs/mcp.md) · [Subagents (65)](docs/subagents.md) · [Extension Tooling (135)](docs/tools.md) · [Browse by Agent](docs/by-agent.md)
 
 <details>
 <summary>Quick Install Cheatsheet</summary>
@@ -33,13 +33,13 @@ Browse [all plugins (370)](docs/plugins.md), install one with `/plugin install <
 
 ## Categories
 
-- [Official & Featured (192)](#official--featured)
+- [Official & Featured (193)](#official--featured)
 - [Coding & Engineering (193)](#coding-engineering) — Code generation, refactoring, testing, debugging, code review, and Git workflows.
 - [Frontend & Design (163)](#frontend-design) — UI engineering, design systems, browser automation, visual testing, and Figma integrations.
 - [Cloud, DevOps & Infrastructure (49)](#cloud-devops-infrastructure) — Deployment, containers, observability, databases, and cloud platform integrations.
 - [Agent Orchestration & Workflows (171)](#agent-orchestration-workflows) — Multi-agent coordination, planning pipelines, memory layers, and workflow automation.
 - [Data, Research & Knowledge (148)](#data-research-knowledge) — Web search, document processing, data analysis, academic research, and knowledge bases.
-- [Productivity & Collaboration (167)](#productivity-collaboration) — Docs, issue trackers, calendars, messaging platforms, and daily office workflows.
+- [Productivity & Collaboration (168)](#productivity-collaboration) — Docs, issue trackers, calendars, messaging platforms, and daily office workflows.
 - [Content & Marketing (246)](#content-marketing) — Writing, SEO, social media publishing, video/audio production, and growth workflows.
 - [Security & Compliance (45)](#security-compliance) — Vulnerability scanning, secret detection, guardrails, and compliance checks.
 - [Marketplaces, Specs & Tooling (53)](#marketplaces-specs-tooling) — Plugin marketplaces, skill registries, cross-agent installers, and authoring SDKs.
@@ -69,7 +69,7 @@ Browse [all plugins (370)](docs/plugins.md), install one with `/plugin install <
 | **[Video Use](https://github.com/browser-use/video-use)** `Official` | `Skill` | Official Browser Use agent skill enabling AI coding agents to edit and process videos programmatically. | `Universal` | ⭐ 31.7k<br><sub>2026-10-08</sub> |
 | **[DESIGN.md](https://github.com/google-labs-code/design.md)** `Official` | `Tool` | Official Google Labs format specification and tooling for giving coding agents persistent design system context. | `Universal` | ⭐ 29.2k<br><sub>2026-11-18</sub> |
 
-_Showing top 20 of 192 entries. Browse full lists in [Plugins](docs/plugins.md) · [Skills](docs/skills.md) · [MCP](docs/mcp.md) · [Subagents](docs/subagents.md) · [Tooling](docs/tools.md) · [By Agent](docs/by-agent.md)._
+_Showing top 20 of 193 entries. Browse full lists in [Plugins](docs/plugins.md) · [Skills](docs/skills.md) · [MCP](docs/mcp.md) · [Subagents](docs/subagents.md) · [Tooling](docs/tools.md) · [By Agent](docs/by-agent.md)._
 
 ## Coding & Engineering
 
@@ -238,12 +238,12 @@ _Docs, issue trackers, calendars, messaging platforms, and daily office workflow
 | **[Beezi Cost & Usage Plugin](https://github.com/Beezi-AI/beezi-claude-plugin)** `Official` | `Plugin` | Official Beezi plugin to track per-session AI coding costs in Claude Code, summarize personal usage, and draft tickets. | `Claude Code` | ⭐ 63<br><sub>2026-11-20</sub> |
 | **[Airtable Agent Skills](https://github.com/Airtable/skills)** `Official` | `Skill` | Official Airtable agent skills for working with Airtable bases, schemas, automations, and extensions. | `Universal` `Claude Code` | ⭐ 55<br><sub>2026-07-21</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `Official` | `Skill` | Official WorkorAI talent marketplace skill for candidate job search and employer hiring with white-box match explanations via MCP. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Enhanciar MCP](https://github.com/enhanciar/enhanciar-mcp)** `Official` | `MCP` | Official hosted MCP server for Enhanciar, a company brain that answers from a team's Slack, Gmail, Drive, Notion, Jira, Linear and GitHub with source links, and drafts follow-ups for a person to approve.<br>`claude mcp add --transport http --scope user enhanciar https://enhanciar.in/enhanciar/mcp/ --header "Authorization: Bearer dh_your_key"` | `Universal` | — |
 | **[Career Ops](https://github.com/career-ops-hq/career-ops)** | `Plugin` | Local AI job-search plugin and workflow suite for scoring postings, tailoring ATS resumes, and tracking applications. | `Claude Code` `Codex` `Cursor` `Gemini CLI` `+2` | ⭐ 85.1k<br><sub>2026-11-27</sub> |
 | **[PPT Master](https://github.com/hugohe3/ppt-master)** | `Skill` | Agent skill converting documents or topics into native PowerPoint decks with charts, animations, and audio narration. | `Universal` | ⭐ 80.7k<br><sub>2026-11-20</sub> |
 | **[Composio Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills)** | `Skill` | Practical Claude skills collection covering content research writing, meeting insights, file and invoice organization, and media utilities. | `Claude Code` `Universal` | ⭐ 80.4k<br><sub>2026-09-18</sub> |
-| **[AI Job Search](https://github.com/ai-job-search-dev/ai-job-search)** | `Tool` | Local Claude Code job-application toolkit with scrapers, CV tailoring, cover letter generation, and interview prep. | `Claude Code` | ⭐ 73.7k<br><sub>2026-11-27</sub> |
 
-_Showing top 20 of 167 entries. Browse full lists in [Plugins](docs/plugins.md) · [Skills](docs/skills.md) · [MCP](docs/mcp.md) · [Subagents](docs/subagents.md) · [Tooling](docs/tools.md) · [By Agent](docs/by-agent.md)._
+_Showing top 20 of 168 entries. Browse full lists in [Plugins](docs/plugins.md) · [Skills](docs/skills.md) · [MCP](docs/mcp.md) · [Subagents](docs/subagents.md) · [Tooling](docs/tools.md) · [By Agent](docs/by-agent.md)._
 
 ## Content & Marketing
 

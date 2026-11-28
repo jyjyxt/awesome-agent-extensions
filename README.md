@@ -33,7 +33,15 @@ Browse [all plugins (370)](docs/plugins.md), install one with `/plugin install <
 
 [Universal](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
 
-### Best Practices for AI Agents
+### 🛡️ Automated Security Scoring by NVIDIA/SkillSpector (0–100)
+
+Every scannable **Skill, Plugin, MCP server, and Subagent** across these supported agents is automatically audited with NVIDIA's open-source [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) static analysis (checking for prompt injection, data exfiltration, unsafe execution, and supply-chain risks) and assigned a **0–100 safety score** (higher is safer):
+
+- **Score Scale**: 🟢 **80–100** Safe · 🟡 **50–79** Caution · 🔴 **0–49** High Risk (Do Not Install) · `—` Pending or N/A
+- **Tamper-Proof by CI**: Scores are generated exclusively by our official [GitHub Actions workflow](.github/workflows/security-scan.yml); PR checks strictly block manual score submissions or edits.
+- **Continuous & Auditable**: New entries are scanned upon merge and re-scanned when upstream repos update. Full score metadata and timestamps are publicly archived in [`security/`](security/) for independent verification.
+
+## Best Practices for AI Agents
 
 - **[Best Practices for AI Agents (Universal)](docs/guides.md#best-practices-for-ai-agents-universal)**: [Agent Skills Overview](https://agentskills.io/home) · [Agent Skills Quickstart](https://agentskills.io/skill-creation/quickstart) · [Agent Skills Specification](https://agentskills.io/specification) · [all 4](docs/guides.md#best-practices-for-ai-agents-universal)
 - **[Best Practices for Claude Code](docs/guides.md#best-practices-for-claude-code)**: [Claude Code Best Practices (Anthropic Official)](https://www.anthropic.com/engineering/claude-code-best-practices) · [Claude Code Guide](https://github.com/zebbern/claude-code-guide) · [Claude Code Quickstart (Anthropic Official)](https://code.claude.com/docs/en/quickstart) · [all 5](docs/guides.md#best-practices-for-claude-code)
@@ -45,14 +53,6 @@ Browse [all plugins (370)](docs/plugins.md), install one with `/plugin install <
 - **[Best Practices for GitHub Copilot](docs/guides.md#best-practices-for-github-copilot)**: [Quickstart for Using GitHub Copilot in Your IDE (GitHub Official)](https://docs.github.com/en/copilot/get-started/quickstart-for-using-github-copilot-in-your-ide) · [Best Practices for Using GitHub Copilot (GitHub Official)](https://docs.github.com/en/copilot/get-started/best-practices) · [Get Started with Copilot Agents on GitHub (GitHub Official)](https://docs.github.com/en/copilot/how-tos/copilot-on-github/use-copilot-agents/overview) · [all 4](docs/guides.md#best-practices-for-github-copilot)
 - **[Best Practices for Windsurf](docs/guides.md#best-practices-for-windsurf)**: [Devin Desktop Getting Started (Official)](https://docs.devin.ai/desktop/getting-started) · [Devin Desktop FAQ (Official)](https://docs.devin.ai/desktop/devin-desktop-faq) · [Devin Local Overview (Official)](https://docs.devin.ai/desktop/devin-local/overview) · [all 4](docs/guides.md#best-practices-for-windsurf)
 - **[Best Practices for DeepSeek Harness](docs/guides.md#best-practices-for-deepseek-harness)**: [DeepSeek Harness Web UI Quickstart (Official)](https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart) · [DeepSeek Harness README (Official)](https://github.com/deepseek-ai/deepseek-harness) · [Your First Plugin (Official)](https://deepseek-harness.github.io/deepseek-harness/en/develop/basic/)
-
-### 🛡️ Automated Security Scoring by NVIDIA/SkillSpector (0–100)
-
-Every scannable **Skill, Plugin, MCP server, and Subagent** across these supported agents is automatically audited with NVIDIA's open-source [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) static analysis (checking for prompt injection, data exfiltration, unsafe execution, and supply-chain risks) and assigned a **0–100 safety score** (higher is safer):
-
-- **Score Scale**: 🟢 **80–100** Safe · 🟡 **50–79** Caution · 🔴 **0–49** High Risk (Do Not Install) · `—` Pending or N/A
-- **Tamper-Proof by CI**: Scores are generated exclusively by our official [GitHub Actions workflow](.github/workflows/security-scan.yml); PR checks strictly block manual score submissions or edits.
-- **Continuous & Auditable**: New entries are scanned upon merge and re-scanned when upstream repos update. Full score metadata and timestamps are publicly archived in [`security/`](security/) for independent verification.
 
 ## Categories
 

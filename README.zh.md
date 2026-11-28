@@ -33,7 +33,15 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 
 [通用](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
 
-### AI Agent 最佳实践（Best Practices for AI Agents）
+### 🛡️ NVIDIA/SkillSpector 安全评分（满分 100）
+
+以上 Agent 生态收录的 **Skills、Plugins、MCP 与 Subagents** 均由 NVIDIA 官方开源安全扫描器 [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 自动进行静态安全扫描（检测提示词注入、数据外泄、危险命令执行、供应链漏洞等），并换算为 **0–100 安全分**（越高越安全）：
+
+- **评分标准**：🟢 **80–100** 安全（Safe） · 🟡 **50–79** 需留意（Caution） · 🔴 **0–49** 高风险（Do Not Install） · `—` 待扫描或不适用
+- **零人工干预、杜绝刷分**：分数仅由官方 [GitHub Actions 工作流](.github/workflows/security-scan.yml) 自动生成，CI 强制拦截任何试图在 PR 中手填或篡改分数的提交。
+- **持续复检、公开可查**：新增条目合入即扫、上游有新提交自动复检，所有评分明细与扫描时间均公开存档于 [`security/`](security/)，安装前可随时核验。
+
+## AI Agent 最佳实践（Best Practices for AI Agents）
 
 - **[通用 AI Agent 最佳实践](docs/guides.zh.md#通用-ai-agent-最佳实践)**：[Agent Skills Overview](https://agentskills.io/home) · [Agent Skills Quickstart](https://agentskills.io/skill-creation/quickstart) · [Agent Skills Specification](https://agentskills.io/specification) · [全部 4 篇](docs/guides.zh.md#通用-ai-agent-最佳实践)
 - **[Claude Code 最佳实践](docs/guides.zh.md#claude-code-最佳实践)**：[Claude Code Best Practices (Anthropic Official)](https://www.anthropic.com/engineering/claude-code-best-practices) · [Claude Code Guide](https://github.com/zebbern/claude-code-guide) · [Claude Code Quickstart (Anthropic Official)](https://code.claude.com/docs/en/quickstart) · [全部 5 篇](docs/guides.zh.md#claude-code-最佳实践)
@@ -45,14 +53,6 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 - **[GitHub Copilot 最佳实践](docs/guides.zh.md#github-copilot-最佳实践)**：[Quickstart for Using GitHub Copilot in Your IDE (GitHub Official)](https://docs.github.com/en/copilot/get-started/quickstart-for-using-github-copilot-in-your-ide) · [Best Practices for Using GitHub Copilot (GitHub Official)](https://docs.github.com/en/copilot/get-started/best-practices) · [Get Started with Copilot Agents on GitHub (GitHub Official)](https://docs.github.com/en/copilot/how-tos/copilot-on-github/use-copilot-agents/overview) · [全部 4 篇](docs/guides.zh.md#github-copilot-最佳实践)
 - **[Windsurf 最佳实践](docs/guides.zh.md#windsurf-最佳实践)**：[Devin Desktop Getting Started (Official)](https://docs.devin.ai/desktop/getting-started) · [Devin Desktop FAQ (Official)](https://docs.devin.ai/desktop/devin-desktop-faq) · [Devin Local Overview (Official)](https://docs.devin.ai/desktop/devin-local/overview) · [全部 4 篇](docs/guides.zh.md#windsurf-最佳实践)
 - **[DeepSeek Harness 最佳实践](docs/guides.zh.md#deepseek-harness-最佳实践)**：[DeepSeek Harness Web UI Quickstart (Official)](https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart) · [DeepSeek Harness README (Official)](https://github.com/deepseek-ai/deepseek-harness) · [Your First Plugin (Official)](https://deepseek-harness.github.io/deepseek-harness/en/develop/basic/)
-
-### 🛡️ NVIDIA/SkillSpector 安全评分（满分 100）
-
-以上 Agent 生态收录的 **Skills、Plugins、MCP 与 Subagents** 均由 NVIDIA 官方开源安全扫描器 [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 自动进行静态安全扫描（检测提示词注入、数据外泄、危险命令执行、供应链漏洞等），并换算为 **0–100 安全分**（越高越安全）：
-
-- **评分标准**：🟢 **80–100** 安全（Safe） · 🟡 **50–79** 需留意（Caution） · 🔴 **0–49** 高风险（Do Not Install） · `—` 待扫描或不适用
-- **零人工干预、杜绝刷分**：分数仅由官方 [GitHub Actions 工作流](.github/workflows/security-scan.yml) 自动生成，CI 强制拦截任何试图在 PR 中手填或篡改分数的提交。
-- **持续复检、公开可查**：新增条目合入即扫、上游有新提交自动复检，所有评分明细与扫描时间均公开存档于 [`security/`](security/)，安装前可随时核验。
 
 ## 按场景目录
 

@@ -33,7 +33,15 @@ Claude Code プラグインは、Skills、スラッシュコマンド、Subagent
 
 [Universal](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
 
-### Best Practices for AI Agents（ベストプラクティス）
+### 🛡️ NVIDIA/SkillSpector による自動セキュリティスコア（0〜100）
+
+このディレクトリに収録されたスキャン可能な **Skill、Plugin、MCP サーバー、Subagent** は、NVIDIA のオープンソース静的解析ツール [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) により自動監査されます。プロンプトインジェクション、データ流出、安全でない実行、サプライチェーンリスクなどを確認し、0〜100 の安全性スコア（高いほど安全）を付与します。
+
+- **スコアの目安**：🟢 **80〜100** 安全 · 🟡 **50〜79** 注意 · 🔴 **0〜49** 高リスク（インストール非推奨） · `—` 未スキャンまたは対象外
+- **CI による改ざん防止**：スコアは公式 [GitHub Actions ワークフロー](.github/workflows/security-scan.yml) のみが生成し、PR からの手動入力や変更をチェックで拒否します。
+- **継続的で検証可能**：新しい項目はマージ時にスキャンし、上流リポジトリの更新時に再スキャンします。スコアのメタデータと日時は [`security/`](security/) に公開保存されます。
+
+## Best Practices for AI Agents（ベストプラクティス）
 
 - **[Best Practices for AI Agents (Universal)](docs/guides.md#best-practices-for-ai-agents-universal)**: [Agent Skills Overview](https://agentskills.io/home) · [Agent Skills Quickstart](https://agentskills.io/skill-creation/quickstart) · [Agent Skills Specification](https://agentskills.io/specification) · [すべて見る (4)](docs/guides.md#best-practices-for-ai-agents-universal)
 - **[Best Practices for Claude Code](docs/guides.md#best-practices-for-claude-code)**: [Claude Code Best Practices (Anthropic Official)](https://www.anthropic.com/engineering/claude-code-best-practices) · [Claude Code Guide](https://github.com/zebbern/claude-code-guide) · [Claude Code Quickstart (Anthropic Official)](https://code.claude.com/docs/en/quickstart) · [すべて見る (5)](docs/guides.md#best-practices-for-claude-code)
@@ -45,14 +53,6 @@ Claude Code プラグインは、Skills、スラッシュコマンド、Subagent
 - **[Best Practices for GitHub Copilot](docs/guides.md#best-practices-for-github-copilot)**: [Quickstart for Using GitHub Copilot in Your IDE (GitHub Official)](https://docs.github.com/en/copilot/get-started/quickstart-for-using-github-copilot-in-your-ide) · [Best Practices for Using GitHub Copilot (GitHub Official)](https://docs.github.com/en/copilot/get-started/best-practices) · [Get Started with Copilot Agents on GitHub (GitHub Official)](https://docs.github.com/en/copilot/how-tos/copilot-on-github/use-copilot-agents/overview) · [すべて見る (4)](docs/guides.md#best-practices-for-github-copilot)
 - **[Best Practices for Windsurf](docs/guides.md#best-practices-for-windsurf)**: [Devin Desktop Getting Started (Official)](https://docs.devin.ai/desktop/getting-started) · [Devin Desktop FAQ (Official)](https://docs.devin.ai/desktop/devin-desktop-faq) · [Devin Local Overview (Official)](https://docs.devin.ai/desktop/devin-local/overview) · [すべて見る (4)](docs/guides.md#best-practices-for-windsurf)
 - **[Best Practices for DeepSeek Harness](docs/guides.md#best-practices-for-deepseek-harness)**: [DeepSeek Harness Web UI Quickstart (Official)](https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart) · [DeepSeek Harness README (Official)](https://github.com/deepseek-ai/deepseek-harness) · [Your First Plugin (Official)](https://deepseek-harness.github.io/deepseek-harness/en/develop/basic/)
-
-### 🛡️ NVIDIA/SkillSpector による自動セキュリティスコア（0〜100）
-
-このディレクトリに収録されたスキャン可能な **Skill、Plugin、MCP サーバー、Subagent** は、NVIDIA のオープンソース静的解析ツール [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) により自動監査されます。プロンプトインジェクション、データ流出、安全でない実行、サプライチェーンリスクなどを確認し、0〜100 の安全性スコア（高いほど安全）を付与します。
-
-- **スコアの目安**：🟢 **80〜100** 安全 · 🟡 **50〜79** 注意 · 🔴 **0〜49** 高リスク（インストール非推奨） · `—` 未スキャンまたは対象外
-- **CI による改ざん防止**：スコアは公式 [GitHub Actions ワークフロー](.github/workflows/security-scan.yml) のみが生成し、PR からの手動入力や変更をチェックで拒否します。
-- **継続的で検証可能**：新しい項目はマージ時にスキャンし、上流リポジトリの更新時に再スキャンします。スコアのメタデータと日時は [`security/`](security/) に公開保存されます。
 
 ## カテゴリ
 

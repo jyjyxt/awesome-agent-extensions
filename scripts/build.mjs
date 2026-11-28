@@ -300,37 +300,6 @@ function renderMainReadme(
       .join(' · ')
   );
   lines.push('');
-
-  // Best Practices for AI Agents quick list
-  const agentsWithGuides = agents.filter((a) => (guideMap.get(a.id) || []).length > 0);
-  if (agentsWithGuides.length > 0) {
-    lines.push(
-      isZh
-        ? '### AI Agent 最佳实践（Best Practices for AI Agents）\n'
-        : isJa
-          ? '### Best Practices for AI Agents（ベストプラクティス）\n'
-        : '### Best Practices for AI Agents\n'
-    );
-    const guideLang = isZh ? 'zh' : 'en';
-    const colon = isZh ? '：' : ': ';
-    for (const agent of agentsWithGuides) {
-      const items = guideMap.get(agent.id) || [];
-      const heading = formatGuideHeading(agent, guideLang);
-      const anchor = toAnchor(heading);
-      const shown = items.slice(0, README_GUIDE_LIMIT).map((item) => `[${item.title}](${item.url})`);
-      if (items.length > README_GUIDE_LIMIT) {
-        shown.push(
-          isZh
-            ? `[全部 ${items.length} 篇](docs/guides${suffix}#${anchor})`
-            : isJa
-              ? `[すべて見る (${items.length})](docs/guides${suffix}#${anchor})`
-            : `[all ${items.length}](docs/guides${suffix}#${anchor})`
-        );
-      }
-      lines.push(`- **[${heading}](docs/guides${suffix}#${anchor})**${colon}${shown.join(' · ')}`);
-    }
-    lines.push('');
-  }
   lines.push(
     isZh
       ? [
@@ -365,6 +334,37 @@ function renderMainReadme(
           '',
         ].join('\n')
   );
+
+  // Best Practices for AI Agents
+  const agentsWithGuides = agents.filter((a) => (guideMap.get(a.id) || []).length > 0);
+  if (agentsWithGuides.length > 0) {
+    lines.push(
+      isZh
+        ? '## AI Agent 最佳实践（Best Practices for AI Agents）\n'
+        : isJa
+          ? '## Best Practices for AI Agents（ベストプラクティス）\n'
+        : '## Best Practices for AI Agents\n'
+    );
+    const guideLang = isZh ? 'zh' : 'en';
+    const colon = isZh ? '：' : ': ';
+    for (const agent of agentsWithGuides) {
+      const items = guideMap.get(agent.id) || [];
+      const heading = formatGuideHeading(agent, guideLang);
+      const anchor = toAnchor(heading);
+      const shown = items.slice(0, README_GUIDE_LIMIT).map((item) => `[${item.title}](${item.url})`);
+      if (items.length > README_GUIDE_LIMIT) {
+        shown.push(
+          isZh
+            ? `[全部 ${items.length} 篇](docs/guides${suffix}#${anchor})`
+            : isJa
+              ? `[すべて見る (${items.length})](docs/guides${suffix}#${anchor})`
+            : `[all ${items.length}](docs/guides${suffix}#${anchor})`
+        );
+      }
+      lines.push(`- **[${heading}](docs/guides${suffix}#${anchor})**${colon}${shown.join(' · ')}`);
+    }
+    lines.push('');
+  }
 
   // Category TOC
   lines.push(isZh ? '## 按场景目录\n' : isJa ? '## カテゴリ\n' : '## Categories\n');

@@ -90,15 +90,36 @@ jobs:
             npm run scan:security -- --limit 100 --concurrency 4
           fi
 
-      - name: Validate and rebuild README and docs
-        run: npm run validate && npm run build
-
-      - name: Commit updated security scores and docs
+      - name: Rebuild docs and push updated security scores
         run: |
-          if [ -n "$(git status --porcelain security/ README.md README.zh.md docs/)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -z "$(git status --porcelain security/)" ]; then
+            echo "No security score updates."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          TMP_SEC=$(mktemp -d)
+          cp -R security/. "$TMP_SEC/"
+
+          for attempt in 1 2 3; do
+            git fetch --depth=1 origin main
+            git reset --hard FETCH_HEAD
+            mkdir -p security
+            cp -R "$TMP_SEC/." security/
+            npm run validate && npm run build
+            if [ -z "$(git status --porcelain security/ README.md README.zh.md docs/)" ]; then
+              echo "No changes to commit."
+              exit 0
+            fi
             git add security/ README.md README.zh.md docs/
             git commit -m "chore: update SkillSpector security scores and rebuild docs"
-            git push
-          fi
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt, retrying..."
+            sleep 3
+          done
+          echo "::error::Failed to push after 3 attempts."
+          exit 1

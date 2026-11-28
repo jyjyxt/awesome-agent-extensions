@@ -12,11 +12,11 @@
 
 Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Subagents、Hooks、MCP 服务及完整工作流组合在一起。适合需要复用和分发一套 Agent 工作流的场景。
 
-浏览 [全部插件 (369)](docs/plugins.zh.md)，使用 `/plugin install <owner>/<repo>` 安装单个插件，或使用 `/plugin marketplace add <owner>/<repo>` 添加插件市场。
+浏览 [全部插件 (370)](docs/plugins.zh.md)，使用 `/plugin install <owner>/<repo>` 安装单个插件，或使用 `/plugin marketplace add <owner>/<repo>` 添加插件市场。
 
 ## 快速入口
 
-- [Plugins（复合插件） (369)](docs/plugins.zh.md) · [Skills（技能包） (1037)](docs/skills.zh.md) · [MCP / Connectors (136)](docs/mcp.zh.md) · [Subagents（子代理） (65)](docs/subagents.zh.md) · [扩展管理工具 (135)](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)
+- [Plugins（复合插件） (370)](docs/plugins.zh.md) · [Skills（技能包） (1038)](docs/skills.zh.md) · [MCP / Connectors (137)](docs/mcp.zh.md) · [Subagents（子代理） (65)](docs/subagents.zh.md) · [扩展管理工具 (135)](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)
 
 <details>
 <summary>常见工具插件安装速查</summary>
@@ -33,7 +33,7 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 
 ## 按场景目录
 
-- [官方与精选 (191)](#官方与精选)
+- [官方与精选 (192)](#官方与精选)
 - [编码与工程 (193)](#编码与工程) — 代码开发、重构、测试、调试、代码审查与 Git 工作流。
 - [前端与设计 (163)](#前端与设计) — UI 开发、设计系统、浏览器自动化、视觉审查与 Figma 集成。
 - [云与运维 (49)](#云与运维) — 部署、容器、可观测性、数据库与云平台集成。
@@ -42,7 +42,7 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 - [效率与协作 (167)](#效率与协作) — 文档、项目管理、日历、即时通讯与日常办公协作。
 - [内容与营销 (246)](#内容与营销) — 写作、SEO、社媒发布、音视频制作与增长营销。
 - [安全与合规 (45)](#安全与合规) — 漏洞扫描、敏感信息检测、安全护栏与合规审计。
-- [插件市场与开发工具 (52)](#插件市场与开发工具) — 插件市场、技能聚合站、跨端安装器与插件开发工具。
+- [插件市场与开发工具 (53)](#插件市场与开发工具) — 插件市场、技能聚合站、跨端安装器与插件开发工具。
 
 ## 官方与精选
 
@@ -69,7 +69,7 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 | **[Video Use](https://github.com/browser-use/video-use)** `官方` | `Skill` | Browser Use 官方推出的 Agent 视频编辑技能，赋能编码 Agent 以程序化方式剪辑与处理视频。 | `通用` | ⭐ 31.7k<br><sub>2026-10-08</sub> |
 | **[DESIGN.md](https://github.com/google-labs-code/design.md)** `官方` | `工具` | Google Labs 官方推出的 DESIGN.md 格式规范与配套工具，让编码 Agent 持久理解项目设计系统。 | `通用` | ⭐ 29.2k<br><sub>2026-11-18</sub> |
 
-_当前仅展示前 20 条（共 191 条）。完整列表请浏览 [Plugins](docs/plugins.zh.md) · [Skills](docs/skills.zh.md) · [MCP](docs/mcp.zh.md) · [Subagents](docs/subagents.zh.md) · [工具](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)。_
+_当前仅展示前 20 条（共 192 条）。完整列表请浏览 [Plugins](docs/plugins.zh.md) · [Skills](docs/skills.zh.md) · [MCP](docs/mcp.zh.md) · [Subagents](docs/subagents.zh.md) · [工具](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)。_
 
 ## 编码与工程
 
@@ -320,6 +320,7 @@ _插件市场、技能聚合站、跨端安装器与插件开发工具。_
 | **[UiPath Coder Eval](https://github.com/UiPath/coder_eval)** `官方` | `Plugin` | UiPath 官方开源的 Agent 扩展评测框架，通过沙箱 YAML 用例、A/B 实验与 CI 门禁验证 Skills 与 MCP 的真实可用性。 | `Claude Code` `通用` | ⭐ 159<br><sub>2026-11-26</sub> |
 | **[Prefect Colin Context Engine](https://github.com/PrefectHQ/colin)** `官方` | `Skill` | Prefect 官方开源的上下文引擎，将 Agent Skills 当作可版本化、可测试的软件工程制品进行管理。 | `Claude Code` `通用` | ⭐ 124<br><sub>2026-08-05</sub> |
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `官方` | `工具` | 独立命令行工具，可查找 Hugging Face 技能，并将其安装或更新到项目或用户级技能目录。 | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 3<br><sub>2026-03-13</sub> |
+| **[Fork](https://github.com/moxclaw/fork-skill)** `官方` | `Plugin` | fork.zone 的技能、插件和远程 MCP。智能体在这里发布有效的工具链改进并互相测试。MCP 入口无需注册账号。<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `通用` | — |
 | **[Agentic Awesome Skills](https://github.com/sickn33/agentic-awesome-skills)** | `Skill` | 收录 3,000+ 可复用 AI Agent 技能的大型社区合集，兼容 Claude Code、Codex、Cursor 与 Gemini CLI。 | `通用` `Claude Code` `Codex` `Cursor` `+1` | ⭐ 50.4k<br><sub>2026-11-26</sub> |
 | **[Claude Code Templates](https://github.com/davila7/claude-code-templates)** | `工具` | 开源的 Claude Code 组件注册表与命令行工具，支持一键检索安装子代理、指令、技能、钩子与 MCP。 | `Claude Code` | ⭐ 34.2k<br><sub>2026-11-27</sub> |
 | **[Skill Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** | `工具` | 将文档网站、GitHub 仓库和 PDF 自动转换为 AI Agent 技能的工具与 MCP 服务，内置冲突检测。 | `通用` `Claude Code` `Codex` | ⭐ 15.4k<br><sub>2026-11-27</sub> |
@@ -328,9 +329,8 @@ _插件市场、技能聚合站、跨端安装器与插件开发工具。_
 | **[Claude Code Guide](https://github.com/zebbern/claude-code-guide)** | `工具` | 全面的 Claude Code 社区实战指南，覆盖环境配置、斜杠命令、子代理、技能、Hooks 与最佳实践。 | `Claude Code` | ⭐ 4.7k<br><sub>2026-11-26</sub> |
 | **[One Skill to Rule Them All](https://github.com/rebelytics/one-skill-to-rule-them-all)** | `Skill` | 基于会话纠错与重复工作流的元技能，在人工审批前生成带依据的技能更新与新技能候选。 | `通用` | ⭐ 4.0k<br><sub>2026-11-25</sub> |
 | **[YAO Meta Skill](https://github.com/yaojingang/yao-meta-skill)** | `工具` | 用于构建可复用 Agent 技能的工程化、评测、安全治理与跨平台可移植性框架。 | `通用` | ⭐ 2.7k<br><sub>2026-11-09</sub> |
-| **[Claude Code Tools](https://github.com/pchalasani/claude-code-tools)** | `工具` | 面向 Claude Code 与 Codex CLI 的实用效率工具集，提供快速会话检索、tmux 辅助及终端命令行工具。 | `Claude Code` `Codex` | ⭐ 2.0k<br><sub>2026-11-27</sub> |
 
-_当前仅展示前 20 条（共 52 条）。完整列表请浏览 [Plugins](docs/plugins.zh.md) · [Skills](docs/skills.zh.md) · [MCP](docs/mcp.zh.md) · [Subagents](docs/subagents.zh.md) · [工具](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)。_
+_当前仅展示前 20 条（共 53 条）。完整列表请浏览 [Plugins](docs/plugins.zh.md) · [Skills](docs/skills.zh.md) · [MCP](docs/mcp.zh.md) · [Subagents](docs/subagents.zh.md) · [工具](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)。_
 
 ## 参与贡献
 

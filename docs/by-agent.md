@@ -4,7 +4,7 @@
 
 [← Back to Main Directory](../README.md) · [简体中文](by-agent.zh.md)
 
-## Universal (835)
+## Universal (836)
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
@@ -157,6 +157,7 @@
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `Official` | `Skill` | Official SocialCrawl skill for fetching structured social media, e-commerce, review, transcript, and market research data via API. | `Universal` `Claude Code` | ⭐ 6<br><sub>2026-11-23</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `Official` | `Skill` | Official Gaffa skills for authoring, debugging, and running web scraping, crawling, screenshot, and browser automation pipelines. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `Official` | `Skill` | Official WorkorAI talent marketplace skill for candidate job search and employer hiring with white-box match explanations via MCP. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Fork](https://github.com/moxclaw/fork-skill)** `Official` | `Plugin` | Skill, plugin and remote MCP for fork.zone, where agents post harness fixes that worked and test each other's. The MCP door needs no account.<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `Universal` | — |
 | **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `Tool` | Visual Kanban orchestrator for running, monitoring, and reviewing parallel coding tasks across Claude Code, Codex, and other agents. | `Claude Code` `Codex` `Universal` | ⭐ 28.8k<br><sub>2026-11-27</sub> |
 | **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | Comprehensive open-source library of AI research and ML engineering skills covering fine-tuning, RLHF, inference, and evaluation. | `Universal` `Claude Code` | ⭐ 14.9k<br><sub>2026-10-11</sub> |
 | **[Claude Red](https://github.com/SnailSploit/Claude-Red)** | `Skill` | Structured offensive security SKILL.md library priming Claude with expert red-team methodologies and penetration testing workflows. | `Claude Code` `Universal` | ⭐ 11.6k<br><sub>2026-11-17</sub> |
@@ -844,7 +845,7 @@
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |
 
-## Claude Code (1228)
+## Claude Code (1229)
 
 Install hint: `/plugin install <owner>/<repo>`
 
@@ -1027,6 +1028,7 @@ Install hint: `/plugin install <owner>/<repo>`
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `Official` | `Tool` | Standalone CLI to find, install, and update Hugging Face skills in local or user-wide agent directories. | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 3<br><sub>2026-03-13</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `Official` | `Skill` | Official Gaffa skills for authoring, debugging, and running web scraping, crawling, screenshot, and browser automation pipelines. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `Official` | `Skill` | Official WorkorAI talent marketplace skill for candidate job search and employer hiring with white-box match explanations via MCP. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Fork](https://github.com/moxclaw/fork-skill)** `Official` | `Plugin` | Skill, plugin and remote MCP for fork.zone, where agents post harness fixes that worked and test each other's. The MCP door needs no account.<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `Universal` | — |
 | **[Superpowers](https://github.com/obra/superpowers)** | `Plugin` | Structured software development workflow framework enforcing brainstorming, TDD, systematic debugging, and subagent-driven execution.<br>`/plugin install obra/superpowers` | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 327.9k<br><sub>2026-11-26</sub> |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | Modular multi-harness plugin marketplace combining specialized subagents, skills, and commands for software engineering.<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 43.0k<br><sub>2026-11-24</sub> |
 | **[Oh My ClaudeCode](https://github.com/Yeachan-Heo/oh-my-claudecode)** | `Plugin` | Teams-first multi-agent orchestration plugin for Claude Code combining specialized subagents, skills, hooks, and parallel execution. | `Claude Code` | ⭐ 41.1k<br><sub>2026-11-27</sub> |
@@ -2079,7 +2081,7 @@ Install hint: `/plugin install <owner>/<repo>`
 | **[Great CTO](https://github.com/avelikiy/great_cto)** | `Plugin` | Claude Code SDLC plugin with specialist agents, commands, compliance workflows, and reusable engineering learnings. | `Claude Code` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |
 
-## Codex (1009)
+## Codex (1010)
 
 Install hint: `npx skills add <owner>/<repo>`
 
@@ -2248,6 +2250,7 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `Official` | `Tool` | Standalone CLI to find, install, and update Hugging Face skills in local or user-wide agent directories. | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 3<br><sub>2026-03-13</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `Official` | `Skill` | Official Gaffa skills for authoring, debugging, and running web scraping, crawling, screenshot, and browser automation pipelines. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `Official` | `Skill` | Official WorkorAI talent marketplace skill for candidate job search and employer hiring with white-box match explanations via MCP. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Fork](https://github.com/moxclaw/fork-skill)** `Official` | `Plugin` | Skill, plugin and remote MCP for fork.zone, where agents post harness fixes that worked and test each other's. The MCP door needs no account.<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `Universal` | — |
 | **[Superpowers](https://github.com/obra/superpowers)** | `Plugin` | Structured software development workflow framework enforcing brainstorming, TDD, systematic debugging, and subagent-driven execution.<br>`/plugin install obra/superpowers` | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 327.9k<br><sub>2026-11-26</sub> |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | Modular multi-harness plugin marketplace combining specialized subagents, skills, and commands for software engineering.<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 43.0k<br><sub>2026-11-24</sub> |
 | **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `Tool` | Visual Kanban orchestrator for running, monitoring, and reviewing parallel coding tasks across Claude Code, Codex, and other agents. | `Claude Code` `Codex` `Universal` | ⭐ 28.8k<br><sub>2026-11-27</sub> |
@@ -3095,7 +3098,7 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |
 
-## Cursor (911)
+## Cursor (912)
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
@@ -3260,6 +3263,7 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `Official` | `Tool` | Standalone CLI to find, install, and update Hugging Face skills in local or user-wide agent directories. | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 3<br><sub>2026-03-13</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `Official` | `Skill` | Official Gaffa skills for authoring, debugging, and running web scraping, crawling, screenshot, and browser automation pipelines. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `Official` | `Skill` | Official WorkorAI talent marketplace skill for candidate job search and employer hiring with white-box match explanations via MCP. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Fork](https://github.com/moxclaw/fork-skill)** `Official` | `Plugin` | Skill, plugin and remote MCP for fork.zone, where agents post harness fixes that worked and test each other's. The MCP door needs no account.<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `Universal` | — |
 | **[Superpowers](https://github.com/obra/superpowers)** | `Plugin` | Structured software development workflow framework enforcing brainstorming, TDD, systematic debugging, and subagent-driven execution.<br>`/plugin install obra/superpowers` | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 327.9k<br><sub>2026-11-26</sub> |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | Modular multi-harness plugin marketplace combining specialized subagents, skills, and commands for software engineering.<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 43.0k<br><sub>2026-11-24</sub> |
 | **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `Tool` | Visual Kanban orchestrator for running, monitoring, and reviewing parallel coding tasks across Claude Code, Codex, and other agents. | `Claude Code` `Codex` `Universal` | ⭐ 28.8k<br><sub>2026-11-27</sub> |
@@ -4011,7 +4015,7 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |
 
-## Gemini CLI (881)
+## Gemini CLI (882)
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
@@ -4171,6 +4175,7 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `Official` | `Skill` | Official SocialCrawl skill for fetching structured social media, e-commerce, review, transcript, and market research data via API. | `Universal` `Claude Code` | ⭐ 6<br><sub>2026-11-23</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `Official` | `Skill` | Official Gaffa skills for authoring, debugging, and running web scraping, crawling, screenshot, and browser automation pipelines. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `Official` | `Skill` | Official WorkorAI talent marketplace skill for candidate job search and employer hiring with white-box match explanations via MCP. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Fork](https://github.com/moxclaw/fork-skill)** `Official` | `Plugin` | Skill, plugin and remote MCP for fork.zone, where agents post harness fixes that worked and test each other's. The MCP door needs no account.<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `Universal` | — |
 | **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `Tool` | Visual Kanban orchestrator for running, monitoring, and reviewing parallel coding tasks across Claude Code, Codex, and other agents. | `Claude Code` `Codex` `Universal` | ⭐ 28.8k<br><sub>2026-11-27</sub> |
 | **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | Comprehensive open-source library of AI research and ML engineering skills covering fine-tuning, RLHF, inference, and evaluation. | `Universal` `Claude Code` | ⭐ 14.9k<br><sub>2026-10-11</sub> |
 | **[Claude Red](https://github.com/SnailSploit/Claude-Red)** | `Skill` | Structured offensive security SKILL.md library priming Claude with expert red-team methodologies and penetration testing workflows. | `Claude Code` `Universal` | ⭐ 11.6k<br><sub>2026-11-17</sub> |
@@ -4897,7 +4902,7 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |
 
-## OpenCode (874)
+## OpenCode (875)
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
@@ -5055,6 +5060,7 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `Official` | `Tool` | Standalone CLI to find, install, and update Hugging Face skills in local or user-wide agent directories. | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 3<br><sub>2026-03-13</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `Official` | `Skill` | Official Gaffa skills for authoring, debugging, and running web scraping, crawling, screenshot, and browser automation pipelines. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `Official` | `Skill` | Official WorkorAI talent marketplace skill for candidate job search and employer hiring with white-box match explanations via MCP. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Fork](https://github.com/moxclaw/fork-skill)** `Official` | `Plugin` | Skill, plugin and remote MCP for fork.zone, where agents post harness fixes that worked and test each other's. The MCP door needs no account.<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `Universal` | — |
 | **[Superpowers](https://github.com/obra/superpowers)** | `Plugin` | Structured software development workflow framework enforcing brainstorming, TDD, systematic debugging, and subagent-driven execution.<br>`/plugin install obra/superpowers` | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 327.9k<br><sub>2026-11-26</sub> |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | Modular multi-harness plugin marketplace combining specialized subagents, skills, and commands for software engineering.<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 43.0k<br><sub>2026-11-24</sub> |
 | **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `Tool` | Visual Kanban orchestrator for running, monitoring, and reviewing parallel coding tasks across Claude Code, Codex, and other agents. | `Claude Code` `Codex` `Universal` | ⭐ 28.8k<br><sub>2026-11-27</sub> |
@@ -5776,7 +5782,7 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |
 
-## Antigravity (857)
+## Antigravity (858)
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
@@ -5930,6 +5936,7 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `Official` | `Skill` | Official SocialCrawl skill for fetching structured social media, e-commerce, review, transcript, and market research data via API. | `Universal` `Claude Code` | ⭐ 6<br><sub>2026-11-23</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `Official` | `Skill` | Official Gaffa skills for authoring, debugging, and running web scraping, crawling, screenshot, and browser automation pipelines. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `Official` | `Skill` | Official WorkorAI talent marketplace skill for candidate job search and employer hiring with white-box match explanations via MCP. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Fork](https://github.com/moxclaw/fork-skill)** `Official` | `Plugin` | Skill, plugin and remote MCP for fork.zone, where agents post harness fixes that worked and test each other's. The MCP door needs no account.<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `Universal` | — |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | Modular multi-harness plugin marketplace combining specialized subagents, skills, and commands for software engineering.<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 43.0k<br><sub>2026-11-24</sub> |
 | **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `Tool` | Visual Kanban orchestrator for running, monitoring, and reviewing parallel coding tasks across Claude Code, Codex, and other agents. | `Claude Code` `Codex` `Universal` | ⭐ 28.8k<br><sub>2026-11-27</sub> |
 | **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | Comprehensive open-source library of AI research and ML engineering skills covering fine-tuning, RLHF, inference, and evaluation. | `Universal` `Claude Code` | ⭐ 14.9k<br><sub>2026-10-11</sub> |
@@ -6638,7 +6645,7 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |
 
-## GitHub Copilot (861)
+## GitHub Copilot (862)
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
@@ -6792,6 +6799,7 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `Official` | `Skill` | Official SocialCrawl skill for fetching structured social media, e-commerce, review, transcript, and market research data via API. | `Universal` `Claude Code` | ⭐ 6<br><sub>2026-11-23</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `Official` | `Skill` | Official Gaffa skills for authoring, debugging, and running web scraping, crawling, screenshot, and browser automation pipelines. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `Official` | `Skill` | Official WorkorAI talent marketplace skill for candidate job search and employer hiring with white-box match explanations via MCP. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Fork](https://github.com/moxclaw/fork-skill)** `Official` | `Plugin` | Skill, plugin and remote MCP for fork.zone, where agents post harness fixes that worked and test each other's. The MCP door needs no account.<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `Universal` | — |
 | **[wshobson/agents](https://github.com/wshobson/agents)** | `Plugin` | Modular multi-harness plugin marketplace combining specialized subagents, skills, and commands for software engineering.<br>`/plugin marketplace add wshobson/agents` | `Claude Code` `Codex` `Cursor` `OpenCode` `+2` | ⭐ 43.0k<br><sub>2026-11-24</sub> |
 | **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `Tool` | Visual Kanban orchestrator for running, monitoring, and reviewing parallel coding tasks across Claude Code, Codex, and other agents. | `Claude Code` `Codex` `Universal` | ⭐ 28.8k<br><sub>2026-11-27</sub> |
 | **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | Comprehensive open-source library of AI research and ML engineering skills covering fine-tuning, RLHF, inference, and evaluation. | `Universal` `Claude Code` | ⭐ 14.9k<br><sub>2026-10-11</sub> |
@@ -7504,7 +7512,7 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |
 
-## Windsurf (841)
+## Windsurf (842)
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
@@ -7658,6 +7666,7 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `Official` | `Skill` | Official SocialCrawl skill for fetching structured social media, e-commerce, review, transcript, and market research data via API. | `Universal` `Claude Code` | ⭐ 6<br><sub>2026-11-23</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `Official` | `Skill` | Official Gaffa skills for authoring, debugging, and running web scraping, crawling, screenshot, and browser automation pipelines. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `Official` | `Skill` | Official WorkorAI talent marketplace skill for candidate job search and employer hiring with white-box match explanations via MCP. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Fork](https://github.com/moxclaw/fork-skill)** `Official` | `Plugin` | Skill, plugin and remote MCP for fork.zone, where agents post harness fixes that worked and test each other's. The MCP door needs no account.<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `Universal` | — |
 | **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `Tool` | Visual Kanban orchestrator for running, monitoring, and reviewing parallel coding tasks across Claude Code, Codex, and other agents. | `Claude Code` `Codex` `Universal` | ⭐ 28.8k<br><sub>2026-11-27</sub> |
 | **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | Comprehensive open-source library of AI research and ML engineering skills covering fine-tuning, RLHF, inference, and evaluation. | `Universal` `Claude Code` | ⭐ 14.9k<br><sub>2026-10-11</sub> |
 | **[Claude Red](https://github.com/SnailSploit/Claude-Red)** | `Skill` | Structured offensive security SKILL.md library priming Claude with expert red-team methodologies and penetration testing workflows. | `Claude Code` `Universal` | ⭐ 11.6k<br><sub>2026-11-17</sub> |
@@ -8350,7 +8359,7 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |
 
-## DeepSeek Harness (850)
+## DeepSeek Harness (851)
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
@@ -8503,6 +8512,7 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[SocialCrawl Skills](https://github.com/socialcrawl/skills)** `Official` | `Skill` | Official SocialCrawl skill for fetching structured social media, e-commerce, review, transcript, and market research data via API. | `Universal` `Claude Code` | ⭐ 6<br><sub>2026-11-23</sub> |
 | **[Gaffa for AI](https://github.com/GaffaAI/gaffa-for-ai)** `Official` | `Skill` | Official Gaffa skills for authoring, debugging, and running web scraping, crawling, screenshot, and browser automation pipelines. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[WorkorAI Agent Kit](https://github.com/work0r-ai/agent-kit)** `Official` | `Skill` | Official WorkorAI talent marketplace skill for candidate job search and employer hiring with white-box match explanations via MCP. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-07-04</sub> |
+| **[Fork](https://github.com/moxclaw/fork-skill)** `Official` | `Plugin` | Skill, plugin and remote MCP for fork.zone, where agents post harness fixes that worked and test each other's. The MCP door needs no account.<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `Universal` | — |
 | **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** | `Tool` | Visual Kanban orchestrator for running, monitoring, and reviewing parallel coding tasks across Claude Code, Codex, and other agents. | `Claude Code` `Codex` `Universal` | ⭐ 28.8k<br><sub>2026-11-27</sub> |
 | **[AI Research SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs)** | `Skill` | Comprehensive open-source library of AI research and ML engineering skills covering fine-tuning, RLHF, inference, and evaluation. | `Universal` `Claude Code` | ⭐ 14.9k<br><sub>2026-10-11</sub> |
 | **[Claude Red](https://github.com/SnailSploit/Claude-Red)** | `Skill` | Structured offensive security SKILL.md library priming Claude with expert red-team methodologies and penetration testing workflows. | `Claude Code` `Universal` | ⭐ 11.6k<br><sub>2026-11-17</sub> |

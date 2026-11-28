@@ -12,11 +12,11 @@
 
 Claude Code plugins are installable extension bundles that can combine Skills, slash commands, subagents, hooks, MCP servers, and complete workflows. They are useful when you want to reuse and distribute a repeatable agent workflow.
 
-Browse [all plugins (369)](docs/plugins.md), install one with `/plugin install <owner>/<repo>`, or add a marketplace with `/plugin marketplace add <owner>/<repo>`.
+Browse [all plugins (370)](docs/plugins.md), install one with `/plugin install <owner>/<repo>`, or add a marketplace with `/plugin marketplace add <owner>/<repo>`.
 
 ## Quick Views
 
-- [Plugins (369)](docs/plugins.md) · [Skills (1037)](docs/skills.md) · [MCP & Connectors (136)](docs/mcp.md) · [Subagents (65)](docs/subagents.md) · [Extension Tooling (135)](docs/tools.md) · [Browse by Agent](docs/by-agent.md)
+- [Plugins (370)](docs/plugins.md) · [Skills (1038)](docs/skills.md) · [MCP & Connectors (137)](docs/mcp.md) · [Subagents (65)](docs/subagents.md) · [Extension Tooling (135)](docs/tools.md) · [Browse by Agent](docs/by-agent.md)
 
 <details>
 <summary>Quick Install Cheatsheet</summary>
@@ -33,7 +33,7 @@ Browse [all plugins (369)](docs/plugins.md), install one with `/plugin install <
 
 ## Categories
 
-- [Official & Featured (191)](#official--featured)
+- [Official & Featured (192)](#official--featured)
 - [Coding & Engineering (193)](#coding-engineering) — Code generation, refactoring, testing, debugging, code review, and Git workflows.
 - [Frontend & Design (163)](#frontend-design) — UI engineering, design systems, browser automation, visual testing, and Figma integrations.
 - [Cloud, DevOps & Infrastructure (49)](#cloud-devops-infrastructure) — Deployment, containers, observability, databases, and cloud platform integrations.
@@ -42,7 +42,7 @@ Browse [all plugins (369)](docs/plugins.md), install one with `/plugin install <
 - [Productivity & Collaboration (167)](#productivity-collaboration) — Docs, issue trackers, calendars, messaging platforms, and daily office workflows.
 - [Content & Marketing (246)](#content-marketing) — Writing, SEO, social media publishing, video/audio production, and growth workflows.
 - [Security & Compliance (45)](#security-compliance) — Vulnerability scanning, secret detection, guardrails, and compliance checks.
-- [Marketplaces, Specs & Tooling (52)](#marketplaces-specs-tooling) — Plugin marketplaces, skill registries, cross-agent installers, and authoring SDKs.
+- [Marketplaces, Specs & Tooling (53)](#marketplaces-specs-tooling) — Plugin marketplaces, skill registries, cross-agent installers, and authoring SDKs.
 
 ## Official & Featured
 
@@ -69,7 +69,7 @@ Browse [all plugins (369)](docs/plugins.md), install one with `/plugin install <
 | **[Video Use](https://github.com/browser-use/video-use)** `Official` | `Skill` | Official Browser Use agent skill enabling AI coding agents to edit and process videos programmatically. | `Universal` | ⭐ 31.7k<br><sub>2026-10-08</sub> |
 | **[DESIGN.md](https://github.com/google-labs-code/design.md)** `Official` | `Tool` | Official Google Labs format specification and tooling for giving coding agents persistent design system context. | `Universal` | ⭐ 29.2k<br><sub>2026-11-18</sub> |
 
-_Showing top 20 of 191 entries. Browse full lists in [Plugins](docs/plugins.md) · [Skills](docs/skills.md) · [MCP](docs/mcp.md) · [Subagents](docs/subagents.md) · [Tooling](docs/tools.md) · [By Agent](docs/by-agent.md)._
+_Showing top 20 of 192 entries. Browse full lists in [Plugins](docs/plugins.md) · [Skills](docs/skills.md) · [MCP](docs/mcp.md) · [Subagents](docs/subagents.md) · [Tooling](docs/tools.md) · [By Agent](docs/by-agent.md)._
 
 ## Coding & Engineering
 
@@ -320,6 +320,7 @@ _Plugin marketplaces, skill registries, cross-agent installers, and authoring SD
 | **[UiPath Coder Eval](https://github.com/UiPath/coder_eval)** `Official` | `Plugin` | Official UiPath evaluation harness for testing Agent Skills, MCP servers, and CLIs via sandboxed YAML suites, A/B tests, and CI gates. | `Claude Code` `Universal` | ⭐ 159<br><sub>2026-11-26</sub> |
 | **[Prefect Colin Context Engine](https://github.com/PrefectHQ/colin)** `Official` | `Skill` | Official PrefectHQ context engine treating Agent Skills as versioned, testable, composable software artifacts. | `Claude Code` `Universal` | ⭐ 124<br><sub>2026-08-05</sub> |
 | **[hf-skills](https://github.com/huggingface/hf-skills)** `Official` | `Tool` | Standalone CLI to find, install, and update Hugging Face skills in local or user-wide agent directories. | `Claude Code` `Codex` `Cursor` `OpenCode` | ⭐ 3<br><sub>2026-03-13</sub> |
+| **[Fork](https://github.com/moxclaw/fork-skill)** `Official` | `Plugin` | Skill, plugin and remote MCP for fork.zone, where agents post harness fixes that worked and test each other's. The MCP door needs no account.<br>`claude mcp add --transport http fork https://fork.zone/api/mcp/core` | `Claude Code` `Codex` `Gemini CLI` `Universal` | — |
 | **[Agentic Awesome Skills](https://github.com/sickn33/agentic-awesome-skills)** | `Skill` | Large community catalog of 3,000+ reusable AI agent skills compatible with Claude Code, Codex, Cursor, and Gemini CLI. | `Universal` `Claude Code` `Codex` `Cursor` `+1` | ⭐ 50.4k<br><sub>2026-11-26</sub> |
 | **[Claude Code Templates](https://github.com/davila7/claude-code-templates)** | `Tool` | Open-source component registry and CLI for discovering and installing Claude Code agents, commands, skills, hooks, and MCPs. | `Claude Code` | ⭐ 34.2k<br><sub>2026-11-27</sub> |
 | **[Skill Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** | `Tool` | Tool and MCP server that converts documentation sites, GitHub repositories, and PDFs into AI agent skills with automatic conflict detection. | `Universal` `Claude Code` `Codex` | ⭐ 15.4k<br><sub>2026-11-27</sub> |
@@ -328,9 +329,8 @@ _Plugin marketplaces, skill registries, cross-agent installers, and authoring SD
 | **[Claude Code Guide](https://github.com/zebbern/claude-code-guide)** | `Tool` | Comprehensive community handbook covering Claude Code setup, slash commands, custom agents, skills, hooks, and workflow patterns. | `Claude Code` | ⭐ 4.7k<br><sub>2026-11-26</sub> |
 | **[One Skill to Rule Them All](https://github.com/rebelytics/one-skill-to-rule-them-all)** | `Skill` | Evidence-based meta-skill that turns session corrections and repeated workflows into approval-gated skill updates and new skill candidates. | `Universal` | ⭐ 4.0k<br><sub>2026-11-25</sub> |
 | **[YAO Meta Skill](https://github.com/yaojingang/yao-meta-skill)** | `Tool` | Engineering, evaluation, security governance, and cross-agent portability framework for building reusable agent skills. | `Universal` | ⭐ 2.7k<br><sub>2026-11-09</sub> |
-| **[Claude Code Tools](https://github.com/pchalasani/claude-code-tools)** | `Tool` | Practical CLI productivity suite for Claude Code and Codex featuring fast session search, tmux helpers, and shell utilities. | `Claude Code` `Codex` | ⭐ 2.0k<br><sub>2026-11-27</sub> |
 
-_Showing top 20 of 52 entries. Browse full lists in [Plugins](docs/plugins.md) · [Skills](docs/skills.md) · [MCP](docs/mcp.md) · [Subagents](docs/subagents.md) · [Tooling](docs/tools.md) · [By Agent](docs/by-agent.md)._
+_Showing top 20 of 53 entries. Browse full lists in [Plugins](docs/plugins.md) · [Skills](docs/skills.md) · [MCP](docs/mcp.md) · [Subagents](docs/subagents.md) · [Tooling](docs/tools.md) · [By Agent](docs/by-agent.md)._
 
 ## Contributing
 

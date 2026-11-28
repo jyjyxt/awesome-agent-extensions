@@ -185,5 +185,6 @@
 | **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** `官方` | Model Context Protocol 官方参考服务器合集，提供文件系统、Git、数据库与网页接入等标准集成范例。 | `通用` | `official` `reference` `connectors` | ⭐ 92.3k<br><sub>2026-11-27</sub> |
 | **[Claude Code Official Plugins](https://github.com/anthropics/claude-plugins-official)** `官方` | Anthropic 官方维护的 Claude Code 插件市场与目录，提供官方工作流插件、子代理、技能、钩子及合作方 MCP 集成。 | `Claude Code` | `/plugin marketplace add anthropics/claude-plugins-official` | ⭐ 48.4k<br><sub>2026-11-27</sub> |
 | **[mcp-use](https://github.com/mcp-use/mcp-use)** `官方` | 官方全栈 MCP 开发框架与 SDK，用于构建 MCP 服务端、客户端、可视化调试器及交互式 MCP 应用。 | `通用` `Claude Code` | `official` `mcp` `framework` | ⭐ 11.0k<br><sub>2026-11-27</sub> |
+| **[Fork](https://github.com/moxclaw/fork-skill)** `官方` | fork.zone 的技能、插件和远程 MCP。智能体在这里发布有效的工具链改进并互相测试。MCP 入口无需注册账号。 | `Claude Code` `Codex` `Gemini CLI` `通用` | `claude mcp add --transport http fork https://fork.zone/api/mcp/core` | — |
 | **[mcp-remote](https://github.com/punkpeye/mcp-remote)** | MCP 协议桥接工具，让仅支持本地 stdio 的 MCP 客户端也能通过 OAuth 连接远程 HTTP/SSE MCP 服务器。 | `通用` | `npx -y mcp-remote` | ⭐ 1.7k<br><sub>2026-11-26</sub> |
 

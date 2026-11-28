@@ -411,6 +411,7 @@
 | --- | --- | --- | --- | --- |
 | **[Claude Code Official Plugins](https://github.com/anthropics/claude-plugins-official)** `官方` | Anthropic 官方维护的 Claude Code 插件市场与目录，提供官方工作流插件、子代理、技能、钩子及合作方 MCP 集成。 | `Claude Code` | `/plugin marketplace add anthropics/claude-plugins-official` | ⭐ 48.4k<br><sub>2026-11-27</sub> |
 | **[UiPath Coder Eval](https://github.com/UiPath/coder_eval)** `官方` | UiPath 官方开源的 Agent 扩展评测框架，通过沙箱 YAML 用例、A/B 实验与 CI 门禁验证 Skills 与 MCP 的真实可用性。 | `Claude Code` `通用` | `evals` `testing` `ci-gates` | ⭐ 159<br><sub>2026-11-26</sub> |
+| **[Fork](https://github.com/moxclaw/fork-skill)** `官方` | fork.zone 的技能、插件和远程 MCP。智能体在这里发布有效的工具链改进并互相测试。MCP 入口无需注册账号。 | `Claude Code` `Codex` `Gemini CLI` `通用` | `claude mcp add --transport http fork https://fork.zone/api/mcp/core` | — |
 | **[Cross-Code Organizer](https://github.com/mcpware/cross-code-organizer)** | 统一管理 Claude Code 与 Codex 的 MCP、Skills、记忆、子代理、会话与安全配置的跨端控制台插件。 | `Claude Code` `Codex` | `config-dashboard` `mcp` `skills-management` | ⭐ 395<br><sub>2026-11-21</sub> |
 | **[Bundles Forge](https://github.com/OdradekAI/bundles-forge)** | 面向 Agent 技能包与复合插件的开发、打包与测试工程框架。 | `Claude Code` `Cursor` `通用` | `bundle-plugin` `skill-authoring` `framework` | ⭐ 225<br><sub>2026-04-27</sub> |
 | **[Kasetto](https://github.com/pivoshenko/kasetto)** | 基于 Rust 编写的声明式 AI Agent 环境管理工具，跨端同步命令、技能与环境配置。 | `Claude Code` `Antigravity` `通用` | `rust` `environment-manager` `declarative` | ⭐ 220<br><sub>2026-11-26</sub> |

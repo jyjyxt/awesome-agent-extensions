@@ -27,6 +27,13 @@ function formatUpdated(metrics) {
   return metrics.pushed_at;
 }
 
+function formatSecurity(security) {
+  if (!security || typeof security.score !== 'number') return '—';
+  const score = Math.max(0, Math.min(100, Math.round(security.score)));
+  const icon = score >= 80 ? '🟢' : score >= 50 ? '🟡' : '🔴';
+  return `${icon} ${score}/100`;
+}
+
 function formatAgents(entryAgents, agentMap, lang) {
   const maxShow = 4;
   const labels = entryAgents.map((id) => {
@@ -68,11 +75,11 @@ function renderTable(entries, { lang, agentMap, kindMap, showKind = true, limit 
   const headers =
     lang === 'zh'
       ? showKind
-        ? ['名称', '类型', '简介', '兼容工具', '活跃度']
-        : ['名称', '简介', '兼容工具', '安装 / 标签', '活跃度']
+        ? ['名称', '类型', '简介', '兼容工具', '安全分', '活跃度']
+        : ['名称', '简介', '兼容工具', '安装 / 标签', '安全分', '活跃度']
       : showKind
-        ? ['Name', 'Type', 'Description', 'Agents', 'Activity']
-        : ['Name', 'Description', 'Agents', 'Install / Tags', 'Activity'];
+        ? ['Name', 'Type', 'Description', 'Agents', 'Security', 'Activity']
+        : ['Name', 'Description', 'Agents', 'Install / Tags', 'Security', 'Activity'];
 
   const lines = [
     `| ${headers.join(' | ')} |`,
@@ -94,18 +101,24 @@ function renderTable(entries, { lang, agentMap, kindMap, showKind = true, limit 
 
     const agentsCell = formatAgents(entry.agents, agentMap, lang);
 
+    const securityCell = formatSecurity(entry.security);
+
     const stars = formatStars(entry.metrics);
     const updated = formatUpdated(entry.metrics);
     const activityCell = updated ? `${stars}<br><sub>${updated}</sub>` : stars;
 
     if (showKind) {
-      lines.push(`| ${nameCell} | ${kindCell} | ${descCell} | ${agentsCell} | ${activityCell} |`);
+      lines.push(
+        `| ${nameCell} | ${kindCell} | ${descCell} | ${agentsCell} | ${securityCell} | ${activityCell} |`
+      );
     } else {
       const tagsStr = Array.isArray(entry.tags)
         ? entry.tags.slice(0, 3).map((t) => `\`${t}\``).join(' ')
         : '';
       const extraCell = installHint || tagsStr || '—';
-      lines.push(`| ${nameCell} | ${descText} | ${agentsCell} | ${extraCell} | ${activityCell} |`);
+      lines.push(
+        `| ${nameCell} | ${descText} | ${agentsCell} | ${extraCell} | ${securityCell} | ${activityCell} |`
+      );
     }
   }
 
@@ -132,8 +145,13 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
   lines.push('# Awesome Agent Extensions\n');
   lines.push(
     isZh
-      ? '> 精选跨平台 AI Agent 插件、Skills、MCP Servers、Subagents 与扩展管理工具（支持 Claude Code、Codex、Cursor、Gemini CLI、OpenCode、Antigravity 等）。\n'
-      : '> Curated cross-platform directory of AI Agent Plugins, Skills, MCP Servers, Subagents, and extension tooling (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Antigravity, and more).\n'
+      ? '> 精选跨平台 AI Agent 插件、Skills、MCP Servers、Subagents 与扩展管理工具（支持 Claude Code、Codex、Cursor、Gemini CLI、OpenCode、Antigravity 等），内置基于 [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 的自动化安全评分（满分 100）。\n'
+      : '> Curated cross-platform directory of AI Agent Plugins, Skills, MCP Servers, Subagents, and extension tooling (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, Antigravity, and more), with automated security scoring (0–100) powered by [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector).\n'
+  );
+  lines.push(
+    isZh
+      ? '[![Security Scoring by NVIDIA SkillSpector](https://img.shields.io/badge/Security%20Scoring-NVIDIA%20SkillSpector-76B900?logo=nvidia&logoColor=white)](https://github.com/NVIDIA/SkillSpector)\n'
+      : '[![Security Scoring by NVIDIA SkillSpector](https://img.shields.io/badge/Security%20Scoring-NVIDIA%20SkillSpector-76B900?logo=nvidia&logoColor=white)](https://github.com/NVIDIA/SkillSpector)\n'
   );
   lines.push(isZh ? '[English](README.md) | **简体中文**\n' : '**English** | [简体中文](README.zh.md)\n');
   lines.push(
@@ -159,6 +177,28 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
           `Claude Code plugins are installable extension bundles that can combine Skills, slash commands, subagents, hooks, MCP servers, and complete workflows. They are useful when you want to reuse and distribute a repeatable agent workflow.`,
           '',
           `Browse [all plugins (${pluginCount})](docs/plugins.md), install one with \`/plugin install <owner>/<repo>\`, or add a marketplace with \`/plugin marketplace add <owner>/<repo>\`.`,
+          '',
+        ].join('\n')
+  );
+
+  lines.push(
+    isZh
+      ? [
+          '### 🛡️ NVIDIA/SkillSpector 安全评分（满分 100）',
+          '',
+          '本仓库集成 [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 对收录的 **Skills、Plugins、MCP、Subagents** 进行自动化静态安全扫描，检测提示词注入、数据外泄、危险命令执行、供应链漏洞等风险，并将结果换算为 **0–100 安全分**（越高越安全）：',
+          '',
+          '- 🟢 **80–100**：安全（Safe） · 🟡 **50–79**：需留意（Caution） · 🔴 **0–49**：高风险（Do Not Install） · `—`：待扫描或不适用',
+          '- **防篡改机制**：评分结果独立存储在 [`security/`](security/) 目录，**仅由官方 GitHub Actions 自动生成和更新，禁止 PR 手动提交或修改分数**。',
+          '',
+        ].join('\n')
+      : [
+          '### 🛡️ Automated Security Scoring by NVIDIA/SkillSpector (0–100)',
+          '',
+          'Every scannable **Skill, Plugin, MCP server, and Subagent** in this directory is automatically audited with [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) static analysis (checking for prompt injection, data exfiltration, unsafe execution, and supply-chain risks) and assigned a **0–100 safety score** (higher is safer):',
+          '',
+          '- 🟢 **80–100**: Safe · 🟡 **50–79**: Caution · 🔴 **0–49**: High Risk (Do Not Install) · `—`: Pending or N/A',
+          '- **Tamper-resistant**: Scores live in [`security/`](security/) and are **generated exclusively by GitHub Actions — contributors cannot manually submit or edit scores in PRs**.',
           '',
         ].join('\n')
   );
@@ -283,6 +323,11 @@ function renderKindDoc(kindDef, lang, { categories, entries, agentMap, kindMap }
       ? `[← 返回主目录](../README.zh.md) · [English](${kindDef.id}.md)\n`
       : `[← Back to Main Directory](../README.md) · [简体中文](${kindDef.id}.zh.md)\n`
   );
+  lines.push(
+    isZh
+      ? '> 🛡️ 安全分由官方 GitHub Actions 使用 [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 自动扫描生成（满分 100，越高越安全：🟢 80–100 · 🟡 50–79 · 🔴 0–49），不可手动提交。\n'
+      : '> 🛡️ Security scores (0–100, higher is safer: 🟢 80–100 · 🟡 50–79 · 🔴 0–49) are automatically generated by GitHub Actions via [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) and cannot be manually submitted.\n'
+  );
 
   if (matched.length === 0) {
     lines.push(isZh ? '_暂无收录，欢迎提交 PR！_\n' : '_No entries yet. PRs welcome!_\n');
@@ -308,6 +353,11 @@ function renderByAgentDoc(lang, { agents, entries, agentMap, kindMap }) {
     isZh
       ? '[← 返回主目录](../README.zh.md) · [English](by-agent.md)\n'
       : '[← Back to Main Directory](../README.md) · [简体中文](by-agent.zh.md)\n'
+  );
+  lines.push(
+    isZh
+      ? '> 🛡️ 安全分由官方 GitHub Actions 使用 [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 自动扫描生成（满分 100，越高越安全：🟢 80–100 · 🟡 50–79 · 🔴 0–49），不可手动提交。\n'
+      : '> 🛡️ Security scores (0–100, higher is safer: 🟢 80–100 · 🟡 50–79 · 🔴 0–49) are automatically generated by GitHub Actions via [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) and cannot be manually submitted.\n'
   );
 
   for (const agent of agents) {

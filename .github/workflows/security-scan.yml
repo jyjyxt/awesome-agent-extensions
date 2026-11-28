@@ -1,0 +1,104 @@
+name: Security Scan (NVIDIA SkillSpector)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/skills/*.yml"
+      - "data/plugins/*.yml"
+      - "data/mcp/*.yml"
+      - "data/subagents/*.yml"
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: "Category to scan"
+        type: choice
+        default: all
+        options:
+          - all
+          - skills
+          - plugins
+          - mcp
+          - subagents
+      targets:
+        description: "Optional comma-separated owner/repo or data/<kind>/<file>.yml"
+        type: string
+        default: ""
+      limit:
+        description: "Max repositories to scan in this run (0 = unlimited)"
+        type: string
+        default: "100"
+      force:
+        description: "Force rescan even if cached score is up to date"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: docs-sync
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install NVIDIA SkillSpector
+        run: |
+          uv tool install --python 3.13 git+https://github.com/NVIDIA/SkillSpector.git
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Run SkillSpector security scan
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            CHANGED=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'data/skills/*.yml' 'data/plugins/*.yml' 'data/mcp/*.yml' 'data/subagents/*.yml' | paste -sd, -)
+            if [ -z "$CHANGED" ]; then
+              echo "No added or modified scannable YAML files in this push."
+              exit 0
+            fi
+            npm run scan:security -- --targets "$CHANGED" --concurrency 4
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            ARGS=(--kind "${{ inputs.kind }}" --limit "${{ inputs.limit }}" --concurrency 4)
+            if [ -n "${{ inputs.targets }}" ]; then
+              ARGS+=(--targets "${{ inputs.targets }}")
+            fi
+            if [ "${{ inputs.force }}" = "true" ]; then
+              ARGS+=(--force)
+            fi
+            npm run scan:security -- "${ARGS[@]}"
+          else
+            npm run scan:security -- --limit 100 --concurrency 4
+          fi
+
+      - name: Validate and rebuild README and docs
+        run: npm run validate && npm run build
+
+      - name: Commit updated security scores and docs
+        run: |
+          if [ -n "$(git status --porcelain security/ README.md README.zh.md docs/)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add security/ README.md README.zh.md docs/
+            git commit -m "chore: update SkillSpector security scores and rebuild docs"
+            git push
+          fi

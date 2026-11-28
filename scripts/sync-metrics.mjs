@@ -1,6 +1,5 @@
 import fs from 'node:fs';
-import path from 'node:path';
-import { DATA_DIR, loadAllEntries, loadMetrics } from './lib/data.mjs';
+import { METRICS_DIR, METRICS_PATH, loadAllEntries, loadMetrics } from './lib/data.mjs';
 
 const token = process.env.GITHUB_TOKEN || '';
 const headers = {
@@ -55,8 +54,8 @@ async function main() {
       .map((k) => [k, nextMetrics[k]])
   );
 
-  const metricsPath = path.join(DATA_DIR, 'metrics.json');
-  fs.writeFileSync(metricsPath, `${JSON.stringify(sorted, null, 2)}\n`, 'utf8');
+  fs.mkdirSync(METRICS_DIR, { recursive: true });
+  fs.writeFileSync(METRICS_PATH, `${JSON.stringify(sorted, null, 2)}\n`, 'utf8');
   console.log(`\nMetrics sync finished: ${updated} updated, ${failed} failed.`);
 }
 

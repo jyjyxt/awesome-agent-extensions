@@ -56,4 +56,4 @@ Requires Node.js >= 20 (zero external dependencies):
 npm run validate   # Validate YAML schema, categories, agents, and global repo uniqueness
 ```
 
-> **One file per PR / 只需提交 1 个文件**: Only add or edit YAML files under `data/`. Do **not** modify or commit `README.md`, `README.zh.md`, `docs/*.md`, or `data/metrics.json` in your PR — GitHub Actions will automatically recalculate all counts and rebuild the docs once merged into `main`.
+> **One file per PR / 只需提交 1 个文件**: Only add or edit YAML files under `data/`. Do **not** modify or commit `README.md`, `README.zh.md`, `docs/*.md`, `metrics/`, or `security/` in your PR, and do **not** manually add score fields to YAML — GitHub Actions will automatically sync metrics, run [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) security scans, and rebuild the docs once merged into `main`.

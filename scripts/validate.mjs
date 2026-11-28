@@ -7,6 +7,14 @@ import {
 } from './lib/data.mjs';
 
 const errors = [];
+const FORBIDDEN_ENTRY_FIELDS = [
+  'score',
+  'security',
+  'security_score',
+  'risk_score',
+  'skillspector',
+  'metrics',
+];
 
 const categories = loadCategories();
 const agents = loadAgents();
@@ -29,6 +37,14 @@ for (const entry of entries) {
 
   if (!entry.file.endsWith('.yml')) {
     errors.push(`${loc}: use ".yml" extension instead of ".yaml".`);
+  }
+
+  for (const field of FORBIDDEN_ENTRY_FIELDS) {
+    if (Array.isArray(entry.rawKeys) && entry.rawKeys.includes(field)) {
+      errors.push(
+        `${loc}: reserved field "${field}" cannot be set manually; metrics and security scores are generated automatically by GitHub Actions.`
+      );
+    }
   }
 
   if (typeof entry.name !== 'string' || !entry.name.trim()) {

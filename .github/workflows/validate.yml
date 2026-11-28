@@ -19,9 +19,9 @@ jobs:
         if: github.event_name == 'pull_request'
         run: |
           CHANGED=$(git diff --name-only "origin/${{ github.base_ref }}...HEAD")
-          FORBIDDEN=$(echo "$CHANGED" | grep -E '^(README\.md|README\.zh\.md|docs/|data/metrics\.json)' || true)
+          FORBIDDEN=$(echo "$CHANGED" | grep -E '^(README\.md|README\.zh\.md|docs/|metrics/|security/)' || true)
           if [ -n "$FORBIDDEN" ]; then
-            echo "::error::Please do not edit auto-generated files in PRs. Only submit YAML changes under data/; README and docs (including counts) are rebuilt automatically after merge."
+            echo "::error::Please do not edit auto-generated files in PRs. Only submit YAML changes under data/; metrics, security scores, README and docs are updated automatically by GitHub Actions after merge."
             echo "Modified generated files:"
             echo "$FORBIDDEN"
             exit 1

@@ -6,6 +6,10 @@ import { parseYaml } from './yaml.mjs';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 export const ROOT_DIR = path.resolve(__dirname, '../..');
 export const DATA_DIR = path.join(ROOT_DIR, 'data');
+export const METRICS_DIR = path.join(ROOT_DIR, 'metrics');
+export const METRICS_PATH = path.join(METRICS_DIR, 'github.json');
+export const SECURITY_DIR = path.join(ROOT_DIR, 'security');
+export const SCANNABLE_KINDS = ['skills', 'plugins', 'mcp', 'subagents'];
 
 export const KIND_DIRS = [
   {
@@ -78,9 +82,26 @@ export function loadAgents() {
 }
 
 export function loadMetrics() {
-  const metricsPath = path.join(DATA_DIR, 'metrics.json');
-  if (!fs.existsSync(metricsPath)) return {};
-  return JSON.parse(fs.readFileSync(metricsPath, 'utf8'));
+  if (!fs.existsSync(METRICS_PATH)) return {};
+  return JSON.parse(fs.readFileSync(METRICS_PATH, 'utf8'));
+}
+
+export function getSecurityPath(kind) {
+  return path.join(SECURITY_DIR, `${kind}.json`);
+}
+
+export function loadSecurityScores(kind) {
+  const filePath = getSecurityPath(kind);
+  if (!fs.existsSync(filePath)) return {};
+  return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+}
+
+export function loadAllSecurityScores() {
+  const byKind = {};
+  for (const kind of SCANNABLE_KINDS) {
+    byKind[kind] = loadSecurityScores(kind);
+  }
+  return byKind;
 }
 
 export function parseGitHubRepo(url) {
@@ -96,6 +117,7 @@ export function parseGitHubRepo(url) {
 
 export function loadAllEntries() {
   const metrics = loadMetrics();
+  const securityByKind = loadAllSecurityScores();
   const entries = [];
 
   for (const kindDef of KIND_DIRS) {
@@ -106,12 +128,16 @@ export function loadAllEntries() {
       .filter((f) => f.endsWith('.yml') || f.endsWith('.yaml'))
       .sort();
 
+    const kindSecurity = securityByKind[kindDef.id] || {};
+
     for (const file of files) {
       const fullPath = path.join(dirPath, file);
       const relPath = path.relative(ROOT_DIR, fullPath);
       const data = readYamlFile(fullPath);
       const gh = parseGitHubRepo(data.repo);
-      const metric = gh ? metrics[gh.slug.toLowerCase()] || null : null;
+      const slugKey = gh ? gh.slug.toLowerCase() : null;
+      const metric = slugKey ? metrics[slugKey] || null : null;
+      const security = slugKey ? kindSecurity[slugKey] || null : null;
 
       entries.push({
         ...data,
@@ -120,6 +146,8 @@ export function loadAllEntries() {
         relPath,
         gh,
         metrics: metric,
+        security,
+        rawKeys: Object.keys(data),
       });
     }
   }

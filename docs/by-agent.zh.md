@@ -4,7 +4,7 @@
 
 [← 返回主目录](../README.zh.md) · [English](by-agent.md)
 
-## 通用 (837)
+## 通用 (838)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
@@ -842,11 +842,12 @@
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | 面向比特币闪电网络通道工厂与 SuperScalar 协议的 MCP 与技能包，支持架构评审与二层扩容分析。 | `Claude Code` `通用` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | 通过一次 curl 请求或托管的 MCP 服务器，将文件或文件夹发布到永久公开网址，无需账号。<br>`npx skills add f-o-x11/deed-page-skill` | `通用` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |
 
-## Claude Code (1230)
+## Claude Code (1231)
 
 安装参考：`/plugin install <owner>/<repo>`
 
@@ -2078,12 +2079,13 @@
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | 面向比特币闪电网络通道工厂与 SuperScalar 协议的 MCP 与技能包，支持架构评审与二层扩容分析。 | `Claude Code` `通用` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | 通过一次 curl 请求或托管的 MCP 服务器，将文件或文件夹发布到永久公开网址，无需账号。<br>`npx skills add f-o-x11/deed-page-skill` | `通用` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — |
 | **[Great CTO](https://github.com/avelikiy/great_cto)** | `Plugin` | 面向全软件生命周期的 Claude Code 插件，内置专家子代理、命令、合规流程与经验沉淀机制。 | `Claude Code` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |
 
-## Codex (1011)
+## Codex (1012)
 
 安装参考：`npx skills add <owner>/<repo>`
 
@@ -3097,11 +3099,12 @@
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | 面向比特币闪电网络通道工厂与 SuperScalar 协议的 MCP 与技能包，支持架构评审与二层扩容分析。 | `Claude Code` `通用` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | 通过一次 curl 请求或托管的 MCP 服务器，将文件或文件夹发布到永久公开网址，无需账号。<br>`npx skills add f-o-x11/deed-page-skill` | `通用` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |
 
-## Cursor (913)
+## Cursor (914)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
@@ -4015,11 +4018,12 @@
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | 面向比特币闪电网络通道工厂与 SuperScalar 协议的 MCP 与技能包，支持架构评审与二层扩容分析。 | `Claude Code` `通用` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | 通过一次 curl 请求或托管的 MCP 服务器，将文件或文件夹发布到永久公开网址，无需账号。<br>`npx skills add f-o-x11/deed-page-skill` | `通用` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |
 
-## Gemini CLI (883)
+## Gemini CLI (884)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
@@ -4903,11 +4907,12 @@
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | 面向比特币闪电网络通道工厂与 SuperScalar 协议的 MCP 与技能包，支持架构评审与二层扩容分析。 | `Claude Code` `通用` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | 通过一次 curl 请求或托管的 MCP 服务器，将文件或文件夹发布到永久公开网址，无需账号。<br>`npx skills add f-o-x11/deed-page-skill` | `通用` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |
 
-## OpenCode (876)
+## OpenCode (877)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
@@ -5784,11 +5789,12 @@
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | 面向比特币闪电网络通道工厂与 SuperScalar 协议的 MCP 与技能包，支持架构评审与二层扩容分析。 | `Claude Code` `通用` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | 通过一次 curl 请求或托管的 MCP 服务器，将文件或文件夹发布到永久公开网址，无需账号。<br>`npx skills add f-o-x11/deed-page-skill` | `通用` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |
 
-## Antigravity (859)
+## Antigravity (860)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
@@ -6648,11 +6654,12 @@
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | 面向比特币闪电网络通道工厂与 SuperScalar 协议的 MCP 与技能包，支持架构评审与二层扩容分析。 | `Claude Code` `通用` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | 通过一次 curl 请求或托管的 MCP 服务器，将文件或文件夹发布到永久公开网址，无需账号。<br>`npx skills add f-o-x11/deed-page-skill` | `通用` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |
 
-## GitHub Copilot (863)
+## GitHub Copilot (864)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
@@ -7516,11 +7523,12 @@
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | 面向比特币闪电网络通道工厂与 SuperScalar 协议的 MCP 与技能包，支持架构评审与二层扩容分析。 | `Claude Code` `通用` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | 通过一次 curl 请求或托管的 MCP 服务器，将文件或文件夹发布到永久公开网址，无需账号。<br>`npx skills add f-o-x11/deed-page-skill` | `通用` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |
 
-## Windsurf (843)
+## Windsurf (844)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
@@ -8364,11 +8372,12 @@
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | 面向比特币闪电网络通道工厂与 SuperScalar 协议的 MCP 与技能包，支持架构评审与二层扩容分析。 | `Claude Code` `通用` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | 通过一次 curl 请求或托管的 MCP 服务器，将文件或文件夹发布到永久公开网址，无需账号。<br>`npx skills add f-o-x11/deed-page-skill` | `通用` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |
 
-## DeepSeek Harness (852)
+## DeepSeek Harness (853)
 
 | 名称 | 类型 | 简介 | 兼容工具 | 活跃度 |
 | --- | --- | --- | --- | --- |
@@ -9221,6 +9230,7 @@
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | 为网站与应用集成 Illos.dev 动态 SVG 插画的 Agent 技能，适用于首屏、引导页、空状态与文档配图。 | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | 本地 MCP 服务器，用于检测公开网页的 Open Graph 与 Twitter Card 元数据并报告缺失或冲突标签。<br>`npx -y myog-checker` | `通用` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | 面向比特币闪电网络通道工厂与 SuperScalar 协议的 MCP 与技能包，支持架构评审与二层扩容分析。 | `Claude Code` `通用` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | 通过一次 curl 请求或托管的 MCP 服务器，将文件或文件夹发布到永久公开网址，无需账号。<br>`npx skills add f-o-x11/deed-page-skill` | `通用` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | 使用关联 Wiki、调研结论与交接清单持续维护项目级 Agent 记忆。 | `Claude Code` `通用` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | — |

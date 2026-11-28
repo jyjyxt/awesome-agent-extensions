@@ -775,6 +775,7 @@
 | **[Factory Floor](https://github.com/Swiftner/Factory-Floor)** | 融合约束理论与品牌增长框架的创业教练技能，帮助创始人识别并突破核心业务瓶颈。 | `Claude Code` `通用` | `startup` `coaching` `strategy` | ⭐ 14<br><sub>2026-08-12</sub> |
 | **[Product Decision Agent](https://github.com/atdy/maoxuan-product-agent)** | 中文互联网产品决策 Agent 技能，覆盖需求分析、PRD、优先级排期、增长诊断、数据指标与跨部门协作决策。 | `通用` `Claude Code` | `product-management` `prd` `growth` | ⭐ 6<br><sub>2026-07-10</sub> |
 | **[Public Google Drive Skill](https://github.com/zagmoai/public-google-drive)** | 无需登录 Google 账号即可创建、编辑并生成可分享链接的在线文档与电子表格。 | `Claude Code` `通用` | `google-docs` `google-sheets` `sharing` | ⭐ 3<br><sub>2026-10-02</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | 通过一次 curl 请求或托管的 MCP 服务器，将文件或文件夹发布到永久公开网址，无需账号。 | `通用` `Claude Code` `Codex` `Cursor` `+2` | `npx skills add f-o-x11/deed-page-skill` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | 实现前需求与设计文档评审技能，专门挖掘 PRD 和方案中未写明的边界条件、缺失状态与策略漏洞。 | `通用` `Claude Code` | `prd` `spec-review` `edge-cases` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | 覆盖战略、财务、运营与安全等企业核心职能角色的商业技能库。 | `Claude Code` `通用` | `business-roles` `strategy` `finance` | — |
 

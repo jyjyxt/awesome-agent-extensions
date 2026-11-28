@@ -16,7 +16,7 @@ Browse [all plugins (370)](docs/plugins.md), install one with `/plugin install <
 
 ## Quick Views
 
-- [Plugins (370)](docs/plugins.md) · [Skills (1038)](docs/skills.md) · [MCP & Connectors (138)](docs/mcp.md) · [Subagents (65)](docs/subagents.md) · [Extension Tooling (135)](docs/tools.md) · [Browse by Agent](docs/by-agent.md)
+- [Plugins (370)](docs/plugins.md) · [Skills (1039)](docs/skills.md) · [MCP & Connectors (138)](docs/mcp.md) · [Subagents (65)](docs/subagents.md) · [Extension Tooling (135)](docs/tools.md) · [Browse by Agent](docs/by-agent.md)
 
 <details>
 <summary>Quick Install Cheatsheet</summary>
@@ -39,7 +39,7 @@ Browse [all plugins (370)](docs/plugins.md), install one with `/plugin install <
 - [Cloud, DevOps & Infrastructure (49)](#cloud-devops-infrastructure) — Deployment, containers, observability, databases, and cloud platform integrations.
 - [Agent Orchestration & Workflows (171)](#agent-orchestration-workflows) — Multi-agent coordination, planning pipelines, memory layers, and workflow automation.
 - [Data, Research & Knowledge (148)](#data-research-knowledge) — Web search, document processing, data analysis, academic research, and knowledge bases.
-- [Productivity & Collaboration (168)](#productivity-collaboration) — Docs, issue trackers, calendars, messaging platforms, and daily office workflows.
+- [Productivity & Collaboration (169)](#productivity-collaboration) — Docs, issue trackers, calendars, messaging platforms, and daily office workflows.
 - [Content & Marketing (246)](#content-marketing) — Writing, SEO, social media publishing, video/audio production, and growth workflows.
 - [Security & Compliance (45)](#security-compliance) — Vulnerability scanning, secret detection, guardrails, and compliance checks.
 - [Marketplaces, Specs & Tooling (53)](#marketplaces-specs-tooling) — Plugin marketplaces, skill registries, cross-agent installers, and authoring SDKs.
@@ -243,7 +243,7 @@ _Docs, issue trackers, calendars, messaging platforms, and daily office workflow
 | **[PPT Master](https://github.com/hugohe3/ppt-master)** | `Skill` | Agent skill converting documents or topics into native PowerPoint decks with charts, animations, and audio narration. | `Universal` | ⭐ 80.7k<br><sub>2026-11-20</sub> |
 | **[Composio Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills)** | `Skill` | Practical Claude skills collection covering content research writing, meeting insights, file and invoice organization, and media utilities. | `Claude Code` `Universal` | ⭐ 80.4k<br><sub>2026-09-18</sub> |
 
-_Showing top 20 of 168 entries. Browse full lists in [Plugins](docs/plugins.md) · [Skills](docs/skills.md) · [MCP](docs/mcp.md) · [Subagents](docs/subagents.md) · [Tooling](docs/tools.md) · [By Agent](docs/by-agent.md)._
+_Showing top 20 of 169 entries. Browse full lists in [Plugins](docs/plugins.md) · [Skills](docs/skills.md) · [MCP](docs/mcp.md) · [Subagents](docs/subagents.md) · [Tooling](docs/tools.md) · [By Agent](docs/by-agent.md)._
 
 ## Content & Marketing
 

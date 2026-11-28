@@ -4,7 +4,7 @@
 
 [← Back to Main Directory](../README.md) · [简体中文](by-agent.zh.md)
 
-## Universal (837)
+## Universal (838)
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
@@ -842,11 +842,12 @@
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | Agent skill for integrating animated SVG illustrations from Illos.dev into websites, hero sections, onboarding flows, and empty states. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | Local MCP server that inspects static Open Graph and Twitter Card metadata on public web pages and reports missing or conflicting tags.<br>`npx -y myog-checker` | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | Skills and MCP reference for Bitcoin Lightning channel factories, SuperScalar protocol architecture, and Layer 2 scaling reviews. | `Claude Code` `Universal` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | Publish a file or folder to a permanent public URL with one curl request or the hosted MCP server, no account needed.<br>`npx skills add f-o-x11/deed-page-skill` | `Universal` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | Pre-implementation spec and PRD reviewer skill that attacks unwritten assumptions, missing states, and policy gaps before engineering begins. | `Universal` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |
 
-## Claude Code (1230)
+## Claude Code (1231)
 
 Install hint: `/plugin install <owner>/<repo>`
 
@@ -2078,12 +2079,13 @@ Install hint: `/plugin install <owner>/<repo>`
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | Agent skill for integrating animated SVG illustrations from Illos.dev into websites, hero sections, onboarding flows, and empty states. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | Local MCP server that inspects static Open Graph and Twitter Card metadata on public web pages and reports missing or conflicting tags.<br>`npx -y myog-checker` | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | Skills and MCP reference for Bitcoin Lightning channel factories, SuperScalar protocol architecture, and Layer 2 scaling reviews. | `Claude Code` `Universal` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | Publish a file or folder to a permanent public URL with one curl request or the hosted MCP server, no account needed.<br>`npx skills add f-o-x11/deed-page-skill` | `Universal` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | Pre-implementation spec and PRD reviewer skill that attacks unwritten assumptions, missing states, and policy gaps before engineering begins. | `Universal` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — |
 | **[Great CTO](https://github.com/avelikiy/great_cto)** | `Plugin` | Claude Code SDLC plugin with specialist agents, commands, compliance workflows, and reusable engineering learnings. | `Claude Code` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |
 
-## Codex (1011)
+## Codex (1012)
 
 Install hint: `npx skills add <owner>/<repo>`
 
@@ -3097,11 +3099,12 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | Agent skill for integrating animated SVG illustrations from Illos.dev into websites, hero sections, onboarding flows, and empty states. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | Local MCP server that inspects static Open Graph and Twitter Card metadata on public web pages and reports missing or conflicting tags.<br>`npx -y myog-checker` | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | Skills and MCP reference for Bitcoin Lightning channel factories, SuperScalar protocol architecture, and Layer 2 scaling reviews. | `Claude Code` `Universal` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | Publish a file or folder to a permanent public URL with one curl request or the hosted MCP server, no account needed.<br>`npx skills add f-o-x11/deed-page-skill` | `Universal` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | Pre-implementation spec and PRD reviewer skill that attacks unwritten assumptions, missing states, and policy gaps before engineering begins. | `Universal` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |
 
-## Cursor (913)
+## Cursor (914)
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
@@ -4015,11 +4018,12 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | Agent skill for integrating animated SVG illustrations from Illos.dev into websites, hero sections, onboarding flows, and empty states. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | Local MCP server that inspects static Open Graph and Twitter Card metadata on public web pages and reports missing or conflicting tags.<br>`npx -y myog-checker` | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | Skills and MCP reference for Bitcoin Lightning channel factories, SuperScalar protocol architecture, and Layer 2 scaling reviews. | `Claude Code` `Universal` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | Publish a file or folder to a permanent public URL with one curl request or the hosted MCP server, no account needed.<br>`npx skills add f-o-x11/deed-page-skill` | `Universal` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | Pre-implementation spec and PRD reviewer skill that attacks unwritten assumptions, missing states, and policy gaps before engineering begins. | `Universal` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |
 
-## Gemini CLI (883)
+## Gemini CLI (884)
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
@@ -4903,11 +4907,12 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | Agent skill for integrating animated SVG illustrations from Illos.dev into websites, hero sections, onboarding flows, and empty states. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | Local MCP server that inspects static Open Graph and Twitter Card metadata on public web pages and reports missing or conflicting tags.<br>`npx -y myog-checker` | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | Skills and MCP reference for Bitcoin Lightning channel factories, SuperScalar protocol architecture, and Layer 2 scaling reviews. | `Claude Code` `Universal` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | Publish a file or folder to a permanent public URL with one curl request or the hosted MCP server, no account needed.<br>`npx skills add f-o-x11/deed-page-skill` | `Universal` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | Pre-implementation spec and PRD reviewer skill that attacks unwritten assumptions, missing states, and policy gaps before engineering begins. | `Universal` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |
 
-## OpenCode (876)
+## OpenCode (877)
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
@@ -5784,11 +5789,12 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | Agent skill for integrating animated SVG illustrations from Illos.dev into websites, hero sections, onboarding flows, and empty states. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | Local MCP server that inspects static Open Graph and Twitter Card metadata on public web pages and reports missing or conflicting tags.<br>`npx -y myog-checker` | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | Skills and MCP reference for Bitcoin Lightning channel factories, SuperScalar protocol architecture, and Layer 2 scaling reviews. | `Claude Code` `Universal` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | Publish a file or folder to a permanent public URL with one curl request or the hosted MCP server, no account needed.<br>`npx skills add f-o-x11/deed-page-skill` | `Universal` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | Pre-implementation spec and PRD reviewer skill that attacks unwritten assumptions, missing states, and policy gaps before engineering begins. | `Universal` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |
 
-## Antigravity (859)
+## Antigravity (860)
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
@@ -6648,11 +6654,12 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | Agent skill for integrating animated SVG illustrations from Illos.dev into websites, hero sections, onboarding flows, and empty states. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | Local MCP server that inspects static Open Graph and Twitter Card metadata on public web pages and reports missing or conflicting tags.<br>`npx -y myog-checker` | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | Skills and MCP reference for Bitcoin Lightning channel factories, SuperScalar protocol architecture, and Layer 2 scaling reviews. | `Claude Code` `Universal` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | Publish a file or folder to a permanent public URL with one curl request or the hosted MCP server, no account needed.<br>`npx skills add f-o-x11/deed-page-skill` | `Universal` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | Pre-implementation spec and PRD reviewer skill that attacks unwritten assumptions, missing states, and policy gaps before engineering begins. | `Universal` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |
 
-## GitHub Copilot (863)
+## GitHub Copilot (864)
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
@@ -7516,11 +7523,12 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | Agent skill for integrating animated SVG illustrations from Illos.dev into websites, hero sections, onboarding flows, and empty states. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | Local MCP server that inspects static Open Graph and Twitter Card metadata on public web pages and reports missing or conflicting tags.<br>`npx -y myog-checker` | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | Skills and MCP reference for Bitcoin Lightning channel factories, SuperScalar protocol architecture, and Layer 2 scaling reviews. | `Claude Code` `Universal` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | Publish a file or folder to a permanent public URL with one curl request or the hosted MCP server, no account needed.<br>`npx skills add f-o-x11/deed-page-skill` | `Universal` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | Pre-implementation spec and PRD reviewer skill that attacks unwritten assumptions, missing states, and policy gaps before engineering begins. | `Universal` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |
 
-## Windsurf (843)
+## Windsurf (844)
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
@@ -8364,11 +8372,12 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | Agent skill for integrating animated SVG illustrations from Illos.dev into websites, hero sections, onboarding flows, and empty states. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | Local MCP server that inspects static Open Graph and Twitter Card metadata on public web pages and reports missing or conflicting tags.<br>`npx -y myog-checker` | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | Skills and MCP reference for Bitcoin Lightning channel factories, SuperScalar protocol architecture, and Layer 2 scaling reviews. | `Claude Code` `Universal` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | Publish a file or folder to a permanent public URL with one curl request or the hosted MCP server, no account needed.<br>`npx skills add f-o-x11/deed-page-skill` | `Universal` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | Pre-implementation spec and PRD reviewer skill that attacks unwritten assumptions, missing states, and policy gaps before engineering begins. | `Universal` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |
 
-## DeepSeek Harness (852)
+## DeepSeek Harness (853)
 
 | Name | Type | Description | Agents | Activity |
 | --- | --- | --- | --- | --- |
@@ -9221,6 +9230,7 @@ Install hint: `npx skills add <owner>/<repo>`
 | **[Illos Skills](https://github.com/navedux/illos-skills)** | `Skill` | Agent skill for integrating animated SVG illustrations from Illos.dev into websites, hero sections, onboarding flows, and empty states. | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-15</sub> |
 | **[MyOG Checker MCP](https://github.com/MyOG-social/myog-checker-plugin)** | `MCP` | Local MCP server that inspects static Open Graph and Twitter Card metadata on public web pages and reports missing or conflicting tags.<br>`npx -y myog-checker` | `Universal` `Claude Code` | ⭐ 0<br><sub>2026-11-26</sub> |
 | **[SuperScalar Lightning MCP](https://github.com/8144225309/superscalar-mcp)** | `MCP` | Skills and MCP reference for Bitcoin Lightning channel factories, SuperScalar protocol architecture, and Layer 2 scaling reviews. | `Claude Code` `Universal` | ⭐ 0<br><sub>2026-03-03</sub> |
+| **[deed.page](https://github.com/f-o-x11/deed-page-skill)** | `Skill` | Publish a file or folder to a permanent public URL with one curl request or the hosted MCP server, no account needed.<br>`npx skills add f-o-x11/deed-page-skill` | `Universal` `Claude Code` `Codex` `Cursor` `+2` | — |
 | **[Devil Spec Reviewer](https://github.com/dhha22/devil-skill)** | `Skill` | Pre-implementation spec and PRD reviewer skill that attacks unwritten assumptions, missing states, and policy gaps before engineering begins. | `Universal` `Claude Code` | — |
 | **[Dory](https://github.com/tjqscott/dory)** | `Skill` | Maintain persistent project memory with a linked wiki, recorded findings, and structured agent handoffs. | `Claude Code` `Universal` | — |
 | **[Headcount](https://github.com/cbrock84/headcount)** | `Skill` | Business role skills spanning strategy, finance, operations, security, and executive functions. | `Claude Code` `Universal` | — |

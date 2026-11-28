@@ -16,7 +16,7 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 
 ## 快速入口
 
-- [Plugins（复合插件） (370)](docs/plugins.zh.md) · [Skills（技能包） (1038)](docs/skills.zh.md) · [MCP / Connectors (138)](docs/mcp.zh.md) · [Subagents（子代理） (65)](docs/subagents.zh.md) · [扩展管理工具 (135)](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)
+- [Plugins（复合插件） (370)](docs/plugins.zh.md) · [Skills（技能包） (1039)](docs/skills.zh.md) · [MCP / Connectors (138)](docs/mcp.zh.md) · [Subagents（子代理） (65)](docs/subagents.zh.md) · [扩展管理工具 (135)](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)
 
 <details>
 <summary>常见工具插件安装速查</summary>
@@ -39,7 +39,7 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 - [云与运维 (49)](#云与运维) — 部署、容器、可观测性、数据库与云平台集成。
 - [编排与多代理协作 (171)](#编排与多代理协作) — 多 Agent 协同、规划流水线、记忆层与工作流编排。
 - [数据、研究与知识 (148)](#数据研究与知识) — 联网检索、文档处理、数据分析、学术研究与知识库。
-- [效率与协作 (168)](#效率与协作) — 文档、项目管理、日历、即时通讯与日常办公协作。
+- [效率与协作 (169)](#效率与协作) — 文档、项目管理、日历、即时通讯与日常办公协作。
 - [内容与营销 (246)](#内容与营销) — 写作、SEO、社媒发布、音视频制作与增长营销。
 - [安全与合规 (45)](#安全与合规) — 漏洞扫描、敏感信息检测、安全护栏与合规审计。
 - [插件市场与开发工具 (53)](#插件市场与开发工具) — 插件市场、技能聚合站、跨端安装器与插件开发工具。
@@ -243,7 +243,7 @@ _文档、项目管理、日历、即时通讯与日常办公协作。_
 | **[PPT Master](https://github.com/hugohe3/ppt-master)** | `Skill` | 将文档或主题转化为原生 PowerPoint 演示文稿的 Agent 技能，支持图表、动画、配音旁白与自定义模板。 | `通用` | ⭐ 80.7k<br><sub>2026-11-20</sub> |
 | **[Composio Awesome Claude Skills](https://github.com/ComposioHQ/awesome-claude-skills)** | `Skill` | Composio 出品的实用 Claude 技能集，涵盖深度写作、会议洞察、文件/发票整理与音视频工具。 | `Claude Code` `通用` | ⭐ 80.4k<br><sub>2026-09-18</sub> |
 
-_当前仅展示前 20 条（共 168 条）。完整列表请浏览 [Plugins](docs/plugins.zh.md) · [Skills](docs/skills.zh.md) · [MCP](docs/mcp.zh.md) · [Subagents](docs/subagents.zh.md) · [工具](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)。_
+_当前仅展示前 20 条（共 169 条）。完整列表请浏览 [Plugins](docs/plugins.zh.md) · [Skills](docs/skills.zh.md) · [MCP](docs/mcp.zh.md) · [Subagents](docs/subagents.zh.md) · [工具](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md)。_
 
 ## 内容与营销
 

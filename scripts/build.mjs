@@ -6,6 +6,7 @@ import {
   loadAgents,
   loadAllEntries,
   loadCategories,
+  loadGuides,
 } from './lib/data.mjs';
 
 const CHECK_MODE = process.argv.includes('--check');
@@ -18,6 +19,14 @@ function localized(value, lang) {
 
 function escapePipe(text) {
   return String(text ?? '').replace(/\|/g, '\\|').replace(/\n/g, ' ');
+}
+
+function toAnchor(heading) {
+  return String(heading ?? '')
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}\s-]/gu, '')
+    .trim()
+    .replace(/\s+/g, '-');
 }
 
 function formatStars(metrics) {
@@ -162,7 +171,7 @@ function renderTable(entries, { lang, agentMap, kindMap, showKind = true, limit 
   return `${lines.join('\n')}\n`;
 }
 
-function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap }) {
+function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap, guideCount }) {
   const isZh = lang === 'zh';
   const isJa = lang === 'ja';
   const suffix = isZh ? '.zh.md' : '.md';
@@ -242,6 +251,11 @@ function renderMainReadme(lang, { categories, agents, entries, agentMap, kindMap
       : isJa
         ? `[Agent 別に見る](docs/by-agent${suffix})`
       : `[Browse by Agent](docs/by-agent${suffix})`,
+    isZh
+      ? `[最佳实践 (${guideCount})](docs/guides${suffix})`
+      : isJa
+        ? `[ベストプラクティス (${guideCount})](docs/guides${suffix})`
+      : `[Best Practices (${guideCount})](docs/guides${suffix})`,
   ];
   lines.push(`- ${viewLinks.join(' · ')}\n`);
 
@@ -421,8 +435,18 @@ function renderKindDoc(kindDef, lang, { categories, entries, agentMap, kindMap }
   return `${lines.join('\n')}\n`;
 }
 
-function renderByAgentDoc(lang, { agents, entries, agentMap, kindMap }) {
+function formatGuideHeading(agent, lang) {
+  if (lang === 'zh') {
+    if (agent.id === 'universal') return '通用 AI Agent 最佳实践';
+    return `${agent.zh_name || agent.name} 最佳实践`;
+  }
+  if (agent.id === 'universal') return 'Best Practices for AI Agents (Universal)';
+  return `Best Practices for ${agent.name}`;
+}
+
+function renderByAgentDoc(lang, { agents, entries, agentMap, kindMap, guideMap }) {
   const isZh = lang === 'zh';
+  const suffix = isZh ? '.zh.md' : '.md';
   const lines = [];
   lines.push('<!-- AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Run `npm run build` instead. -->\n');
   lines.push(isZh ? '# 按 Agent 工具浏览\n' : '# Browse by Agent\n');
@@ -453,7 +477,63 @@ function renderByAgentDoc(lang, { agents, entries, agentMap, kindMap }) {
           : `Install hint: \`${agent.install_hint}\`\n`
       );
     }
+    const agentGuides = guideMap.get(agent.id) || [];
+    if (agentGuides.length > 0) {
+      const guideHeading = formatGuideHeading(agent, lang);
+      const anchor = toAnchor(guideHeading);
+      lines.push(
+        isZh
+          ? `最佳实践：[${guideHeading} (${agentGuides.length})](guides${suffix}#${anchor})\n`
+          : `Best practices: [${guideHeading} (${agentGuides.length})](guides${suffix}#${anchor})\n`
+      );
+    }
     lines.push(renderTable(matched, { lang, agentMap, kindMap, showKind: true }));
+  }
+
+  return `${lines.join('\n')}\n`;
+}
+
+function renderGuidesDoc(lang, { agents, guideMap }) {
+  const isZh = lang === 'zh';
+  const lines = [];
+  lines.push('<!-- AUTO-GENERATED FILE. DO NOT EDIT DIRECTLY. Run `npm run build` instead. -->\n');
+  lines.push(isZh ? '# AI Agent 最佳实践与使用教程\n' : '# Best Practices for AI Agents\n');
+  lines.push(
+    isZh
+      ? '> 按 Agent 工具整理的精选最佳实践（Best Practices）与使用技巧。\n'
+      : '> Curated best practices, guides, and practical tips for Claude Code, Codex, Cursor, Gemini CLI, Antigravity, and other AI coding agents.\n'
+  );
+  lines.push(
+    isZh
+      ? '[← 返回主目录](../README.zh.md) · [English](guides.md)\n'
+      : '[← Back to Main Directory](../README.md) · [简体中文](guides.zh.md)\n'
+  );
+
+  const agentsWithGuides = agents.filter((a) => (guideMap.get(a.id) || []).length > 0);
+  if (agentsWithGuides.length === 0) {
+    lines.push(isZh ? '_暂无收录，欢迎提交 PR！_\n' : '_No guides yet. PRs welcome!_\n');
+    return `${lines.join('\n')}\n`;
+  }
+
+  lines.push(
+    agentsWithGuides
+      .map((a) => {
+        const heading = formatGuideHeading(a, lang);
+        const count = (guideMap.get(a.id) || []).length;
+        return `[${heading} (${count})](#${toAnchor(heading)})`;
+      })
+      .join(' · ')
+  );
+  lines.push('');
+
+  for (const agent of agentsWithGuides) {
+    const heading = formatGuideHeading(agent, lang);
+    const items = guideMap.get(agent.id) || [];
+    lines.push(`## ${heading}\n`);
+    for (const item of items) {
+      lines.push(`- [${item.title}](${item.url})`);
+    }
+    lines.push('');
   }
 
   return `${lines.join('\n')}\n`;
@@ -476,9 +556,12 @@ function main() {
   const categories = loadCategories();
   const agents = loadAgents();
   const entries = loadAllEntries();
+  const guides = loadGuides();
   const agentMap = new Map(agents.map((a) => [a.id, a]));
   const kindMap = new Map(KIND_DIRS.map((k) => [k.id, k]));
-  const ctx = { categories, agents, entries, agentMap, kindMap };
+  const guideMap = new Map(guides.map((g) => [g.agentId, g.items || []]));
+  const guideCount = guides.reduce((sum, g) => sum + (g.items ? g.items.length : 0), 0);
+  const ctx = { categories, agents, entries, agentMap, kindMap, guideMap, guideCount };
 
   const outputs = [
     [path.join(ROOT_DIR, 'README.md'), renderMainReadme('en', ctx)],
@@ -486,6 +569,8 @@ function main() {
     [path.join(ROOT_DIR, 'README.ja.md'), renderMainReadme('ja', ctx)],
     [path.join(ROOT_DIR, 'docs/by-agent.md'), renderByAgentDoc('en', ctx)],
     [path.join(ROOT_DIR, 'docs/by-agent.zh.md'), renderByAgentDoc('zh', ctx)],
+    [path.join(ROOT_DIR, 'docs/guides.md'), renderGuidesDoc('en', ctx)],
+    [path.join(ROOT_DIR, 'docs/guides.zh.md'), renderGuidesDoc('zh', ctx)],
   ];
 
   for (const kindDef of KIND_DIRS) {

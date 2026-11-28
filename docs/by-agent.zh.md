@@ -853,6 +853,8 @@
 
 安装参考：`/plugin install <owner>/<repo>`
 
+最佳实践：[Claude Code 最佳实践 (2)](guides.zh.md#claude-code-最佳实践)
+
 | 名称 | 类型 | 简介 | 兼容工具 | 安全分 | 活跃度 |
 | --- | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `官方` | `Skill` | Anthropic 官方维护的 Agent Skills 集合，覆盖文档制作（docx/pdf/pptx）、前端设计与 Skill 编写参考。<br>`npx skills add anthropics/skills` | `通用` `Claude Code` | — | ⭐ 201.3k<br><sub>2026-11-16</sub> |

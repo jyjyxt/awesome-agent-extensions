@@ -6,6 +6,7 @@ import { parseYaml } from './yaml.mjs';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 export const ROOT_DIR = path.resolve(__dirname, '../..');
 export const DATA_DIR = path.join(ROOT_DIR, 'data');
+export const GUIDES_DIR = path.join(DATA_DIR, 'guides');
 export const METRICS_DIR = path.join(ROOT_DIR, 'metrics');
 export const METRICS_PATH = path.join(METRICS_DIR, 'github.json');
 export const SECURITY_DIR = path.join(ROOT_DIR, 'security');
@@ -84,6 +85,39 @@ export function loadCategories() {
 export function loadAgents() {
   const parsed = readYamlFile(path.join(DATA_DIR, 'agents.yml'));
   return parsed.agents || [];
+}
+
+export function loadGuides() {
+  if (!fs.existsSync(GUIDES_DIR)) return [];
+  const files = fs
+    .readdirSync(GUIDES_DIR)
+    .filter((f) => f.endsWith('.yml') || f.endsWith('.yaml'))
+    .sort();
+
+  const guides = [];
+  for (const file of files) {
+    const fullPath = path.join(GUIDES_DIR, file);
+    const relPath = path.relative(ROOT_DIR, fullPath);
+    const agentId = file.replace(/\.(yml|yaml)$/, '');
+    const raw = readYamlFile(fullPath);
+    const items = Array.isArray(raw)
+      ? raw
+      : raw && Array.isArray(raw.guides)
+        ? raw.guides
+        : raw && typeof raw === 'object' && Object.keys(raw).length === 0
+          ? []
+          : null;
+
+    guides.push({
+      agentId,
+      file,
+      relPath,
+      items,
+      raw,
+    });
+  }
+
+  return guides;
 }
 
 export function loadMetrics() {

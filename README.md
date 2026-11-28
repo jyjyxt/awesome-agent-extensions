@@ -18,7 +18,7 @@ Browse [all plugins (370)](docs/plugins.md), install one with `/plugin install <
 
 ## Quick Views
 
-- [Plugins (370)](docs/plugins.md) · [Skills (1039)](docs/skills.md) · [MCP & Connectors (138)](docs/mcp.md) · [Subagents (65)](docs/subagents.md) · [Extension Tooling (135)](docs/tools.md) · [Browse by Agent](docs/by-agent.md)
+- [Plugins (370)](docs/plugins.md) · [Skills (1039)](docs/skills.md) · [MCP & Connectors (138)](docs/mcp.md) · [Subagents (65)](docs/subagents.md) · [Extension Tooling (135)](docs/tools.md) · [Browse by Agent](docs/by-agent.md) · [Best Practices (2)](docs/guides.md)
 
 <details>
 <summary>Quick Install Cheatsheet</summary>

@@ -3,6 +3,7 @@ import {
   loadAgents,
   loadAllEntries,
   loadCategories,
+  loadGuides,
   parseGitHubRepo,
 } from './lib/data.mjs';
 
@@ -132,6 +133,52 @@ for (const entry of entries) {
   }
 }
 
+const guides = loadGuides();
+let totalGuideItems = 0;
+
+for (const guideFile of guides) {
+  const loc = guideFile.relPath;
+
+  if (!guideFile.file.endsWith('.yml')) {
+    errors.push(`${loc}: use ".yml" extension instead of ".yaml".`);
+  }
+
+  if (!agentIds.has(guideFile.agentId)) {
+    errors.push(
+      `${loc}: unknown agent "${guideFile.agentId}". Filename must match an agent id in data/agents.yml (${[...agentIds].join(', ')}).`
+    );
+  }
+
+  if (!Array.isArray(guideFile.items)) {
+    errors.push(`${loc}: expected a YAML list of { title, url } items.`);
+    continue;
+  }
+
+  const seenUrls = new Set();
+  for (let i = 0; i < guideFile.items.length; i++) {
+    const item = guideFile.items[i];
+    const itemLoc = `${loc}[${i}]`;
+    if (!item || typeof item !== 'object') {
+      errors.push(`${itemLoc}: each guide item must be an object with "title" and "url".`);
+      continue;
+    }
+    if (typeof item.title !== 'string' || !item.title.trim()) {
+      errors.push(`${itemLoc}: missing required string field "title".`);
+    }
+    if (typeof item.url !== 'string' || !/^https?:\/\/.+/.test(item.url)) {
+      errors.push(`${itemLoc}: "url" must be a valid http(s) URL.`);
+    } else {
+      const normalizedUrl = item.url.replace(/\/+$/, '').toLowerCase();
+      if (seenUrls.has(normalizedUrl)) {
+        errors.push(`${itemLoc}: duplicate url "${item.url}" in ${loc}.`);
+      } else {
+        seenUrls.add(normalizedUrl);
+      }
+    }
+    totalGuideItems++;
+  }
+}
+
 if (errors.length > 0) {
   console.error(`Validation failed with ${errors.length} error(s):\n`);
   for (const err of errors) {
@@ -141,5 +188,5 @@ if (errors.length > 0) {
 }
 
 console.log(
-  `Validation passed: ${entries.length} entries across ${KIND_IDS.length} data directories.`
+  `Validation passed: ${entries.length} entries across ${KIND_IDS.length} data directories, ${totalGuideItems} guides across ${guides.length} agent(s).`
 );

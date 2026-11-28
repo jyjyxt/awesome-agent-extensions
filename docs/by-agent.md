@@ -853,6 +853,8 @@
 
 Install hint: `/plugin install <owner>/<repo>`
 
+Best practices: [Best Practices for Claude Code (2)](guides.md#best-practices-for-claude-code)
+
 | Name | Type | Description | Agents | Security | Activity |
 | --- | --- | --- | --- | --- | --- |
 | **[Anthropic Agent Skills](https://github.com/anthropics/skills)** `Official` | `Skill` | Official collection of Agent Skills by Anthropic covering document creation (docx, pdf, pptx), frontend design, and skill authoring.<br>`npx skills add anthropics/skills` | `Universal` `Claude Code` | — | ⭐ 201.3k<br><sub>2026-11-16</sub> |

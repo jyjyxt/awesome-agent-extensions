@@ -19,6 +19,7 @@ Choose the folder that matches the project's **primary form**:
 | `data/mcp/` | MCP Servers and external service connectors |
 | `data/subagents/` | Specialized subagent definitions and role-based personas |
 | `data/tools/` | Standalone tools for finding, installing, or managing agent extensions, such as cross-agent skill installers |
+| `data/guides/` | Agent guides & tips, grouped by agent ID (`data/guides/<agent-id>.yml`, each item with `title` and `url`) |
 
 - **File naming**: `<owner>__<repo>.yml` (for GitHub repos, e.g. `microsoft__playwright-mcp.yml`).
 - **No duplicates**: Each repository must appear in only **one** folder. If a Plugin also includes Skills or Subagents, place it in `data/plugins/` and list `includes: [skills, subagents]` so it automatically appears in those views too.

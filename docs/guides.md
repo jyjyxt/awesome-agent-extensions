@@ -6,7 +6,7 @@
 
 [← Back to Main Directory](../README.md) · [简体中文](guides.zh.md)
 
-[Best Practices for AI Agents (Universal) (4)](#best-practices-for-ai-agents-universal) · [Best Practices for Claude Code (5)](#best-practices-for-claude-code) · [Best Practices for Codex (4)](#best-practices-for-codex) · [Best Practices for Cursor (4)](#best-practices-for-cursor) · [Best Practices for Gemini CLI (3)](#best-practices-for-gemini-cli) · [Best Practices for OpenCode (3)](#best-practices-for-opencode) · [Best Practices for Antigravity (4)](#best-practices-for-antigravity) · [Best Practices for GitHub Copilot (4)](#best-practices-for-github-copilot) · [Best Practices for Windsurf (4)](#best-practices-for-windsurf) · [Best Practices for DeepSeek Harness (3)](#best-practices-for-deepseek-harness)
+[Best Practices for AI Agents (Universal) (4)](#best-practices-for-ai-agents-universal) · [Best Practices for Claude Code (5)](#best-practices-for-claude-code) · [Best Practices for Codex (4)](#best-practices-for-codex) · [Best Practices for Cursor (4)](#best-practices-for-cursor) · [Best Practices for Gemini CLI (3)](#best-practices-for-gemini-cli) · [Best Practices for OpenCode (3)](#best-practices-for-opencode) · [Best Practices for Antigravity (4)](#best-practices-for-antigravity) · [Best Practices for GitHub Copilot (4)](#best-practices-for-github-copilot) · [Best Practices for Windsurf (4)](#best-practices-for-windsurf) · [Best Practices for DeepSeek Harness (3)](#best-practices-for-deepseek-harness) · [Best Practices for Kiro (5)](#best-practices-for-kiro) · [Best Practices for Cline (4)](#best-practices-for-cline) · [Best Practices for Pi (4)](#best-practices-for-pi)
 
 ## Best Practices for AI Agents (Universal)
 
@@ -75,4 +75,26 @@
 - [DeepSeek Harness Web UI Quickstart (Official)](https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart)
 - [DeepSeek Harness README (Official)](https://github.com/deepseek-ai/deepseek-harness)
 - [Your First Plugin (Official)](https://deepseek-harness.github.io/deepseek-harness/en/develop/basic/)
+
+## Best Practices for Kiro
+
+- [Kiro Installation (Official)](https://kiro.dev/docs/getting-started/installation/)
+- [Your First Project (Official)](https://kiro.dev/docs/getting-started/first-project/)
+- [Kiro Steering (Official)](https://kiro.dev/docs/steering/)
+- [Agent Skills (Official)](https://kiro.dev/docs/skills/)
+- [Kiro Powers (Official)](https://kiro.dev/docs/powers/)
+
+## Best Practices for Cline
+
+- [Installing Cline (Official)](https://docs.cline.bot/getting-started/installing-cline)
+- [Using Cline in the IDE (Official)](https://docs.cline.bot/usage/ide)
+- [Cline Skills (Official)](https://docs.cline.bot/customization/skills)
+- [MCP Overview (Official)](https://docs.cline.bot/mcp/mcp-overview)
+
+## Best Practices for Pi
+
+- [Pi Quickstart (Official)](https://docs.pi.dev/latest/quickstart)
+- [Agent Skills (Official)](https://docs.pi.dev/latest/skills)
+- [MCP Servers (Official)](https://docs.pi.dev/latest/mcp)
+- [Extensions (Official)](https://docs.pi.dev/latest/extensions)
 

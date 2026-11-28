@@ -6,7 +6,7 @@
 
 [← 返回主目录](../README.zh.md) · [English](guides.md)
 
-[通用 AI Agent 最佳实践 (4)](#通用-ai-agent-最佳实践) · [Claude Code 最佳实践 (5)](#claude-code-最佳实践) · [Codex 最佳实践 (4)](#codex-最佳实践) · [Cursor 最佳实践 (4)](#cursor-最佳实践) · [Gemini CLI 最佳实践 (3)](#gemini-cli-最佳实践) · [OpenCode 最佳实践 (3)](#opencode-最佳实践) · [Antigravity 最佳实践 (4)](#antigravity-最佳实践) · [GitHub Copilot 最佳实践 (4)](#github-copilot-最佳实践) · [Windsurf 最佳实践 (4)](#windsurf-最佳实践) · [DeepSeek Harness 最佳实践 (3)](#deepseek-harness-最佳实践)
+[通用 AI Agent 最佳实践 (4)](#通用-ai-agent-最佳实践) · [Claude Code 最佳实践 (5)](#claude-code-最佳实践) · [Codex 最佳实践 (4)](#codex-最佳实践) · [Cursor 最佳实践 (4)](#cursor-最佳实践) · [Gemini CLI 最佳实践 (3)](#gemini-cli-最佳实践) · [OpenCode 最佳实践 (3)](#opencode-最佳实践) · [Antigravity 最佳实践 (4)](#antigravity-最佳实践) · [GitHub Copilot 最佳实践 (4)](#github-copilot-最佳实践) · [Windsurf 最佳实践 (4)](#windsurf-最佳实践) · [DeepSeek Harness 最佳实践 (3)](#deepseek-harness-最佳实践) · [Kiro 最佳实践 (5)](#kiro-最佳实践) · [Cline 最佳实践 (4)](#cline-最佳实践) · [Pi 最佳实践 (4)](#pi-最佳实践)
 
 ## 通用 AI Agent 最佳实践
 
@@ -75,4 +75,26 @@
 - [DeepSeek Harness Web UI Quickstart (Official)](https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart)
 - [DeepSeek Harness README (Official)](https://github.com/deepseek-ai/deepseek-harness)
 - [Your First Plugin (Official)](https://deepseek-harness.github.io/deepseek-harness/en/develop/basic/)
+
+## Kiro 最佳实践
+
+- [Kiro Installation (Official)](https://kiro.dev/docs/getting-started/installation/)
+- [Your First Project (Official)](https://kiro.dev/docs/getting-started/first-project/)
+- [Kiro Steering (Official)](https://kiro.dev/docs/steering/)
+- [Agent Skills (Official)](https://kiro.dev/docs/skills/)
+- [Kiro Powers (Official)](https://kiro.dev/docs/powers/)
+
+## Cline 最佳实践
+
+- [Installing Cline (Official)](https://docs.cline.bot/getting-started/installing-cline)
+- [Using Cline in the IDE (Official)](https://docs.cline.bot/usage/ide)
+- [Cline Skills (Official)](https://docs.cline.bot/customization/skills)
+- [MCP Overview (Official)](https://docs.cline.bot/mcp/mcp-overview)
+
+## Pi 最佳实践
+
+- [Pi Quickstart (Official)](https://docs.pi.dev/latest/quickstart)
+- [Agent Skills (Official)](https://docs.pi.dev/latest/skills)
+- [MCP Servers (Official)](https://docs.pi.dev/latest/mcp)
+- [Extensions (Official)](https://docs.pi.dev/latest/extensions)
 

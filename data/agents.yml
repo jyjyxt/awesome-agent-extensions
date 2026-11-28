@@ -54,3 +54,18 @@ agents:
     name: DeepSeek Harness
     zh_name: DeepSeek Harness
     url: https://github.com/awesome-dsh-plugin/awesome-dsh-plugin
+
+  - id: kiro
+    name: Kiro
+    zh_name: Kiro
+    url: https://kiro.dev
+
+  - id: cline
+    name: Cline
+    zh_name: Cline
+    url: https://cline.bot
+
+  - id: pi
+    name: Pi
+    zh_name: Pi
+    url: https://pi.dev

@@ -18,7 +18,7 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 
 ## 快速入口
 
-- [Plugins（复合插件） (370)](docs/plugins.zh.md) · [Skills（技能包） (1039)](docs/skills.zh.md) · [MCP / Connectors (138)](docs/mcp.zh.md) · [Subagents（子代理） (65)](docs/subagents.zh.md) · [扩展管理工具 (135)](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md) · [最佳实践 (38)](docs/guides.zh.md)
+- [Plugins（复合插件） (370)](docs/plugins.zh.md) · [Skills（技能包） (1039)](docs/skills.zh.md) · [MCP / Connectors (138)](docs/mcp.zh.md) · [Subagents（子代理） (65)](docs/subagents.zh.md) · [扩展管理工具 (135)](docs/tools.zh.md) · [按工具浏览](docs/by-agent.zh.md) · [最佳实践 (51)](docs/guides.zh.md)
 
 <details>
 <summary>常见工具插件安装速查</summary>
@@ -31,7 +31,7 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 
 ## 支持的 Agent 工具
 
-[通用](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
+[通用](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) · [Kiro](https://kiro.dev) · [Cline](https://cline.bot) · [Pi](https://pi.dev)
 
 ### 🛡️ NVIDIA/SkillSpector 安全评分（满分 100）
 
@@ -53,6 +53,9 @@ Claude Code 插件是可安装的扩展包，可将 Skills、斜杠命令、Suba
 - **[GitHub Copilot 最佳实践](docs/guides.zh.md#github-copilot-最佳实践)**：[Quickstart for Using GitHub Copilot in Your IDE (GitHub Official)](https://docs.github.com/en/copilot/get-started/quickstart-for-using-github-copilot-in-your-ide) · [Best Practices for Using GitHub Copilot (GitHub Official)](https://docs.github.com/en/copilot/get-started/best-practices) · [Get Started with Copilot Agents on GitHub (GitHub Official)](https://docs.github.com/en/copilot/how-tos/copilot-on-github/use-copilot-agents/overview) · [全部 4 篇](docs/guides.zh.md#github-copilot-最佳实践)
 - **[Windsurf 最佳实践](docs/guides.zh.md#windsurf-最佳实践)**：[Devin Desktop Getting Started (Official)](https://docs.devin.ai/desktop/getting-started) · [Devin Desktop FAQ (Official)](https://docs.devin.ai/desktop/devin-desktop-faq) · [Devin Local Overview (Official)](https://docs.devin.ai/desktop/devin-local/overview) · [全部 4 篇](docs/guides.zh.md#windsurf-最佳实践)
 - **[DeepSeek Harness 最佳实践](docs/guides.zh.md#deepseek-harness-最佳实践)**：[DeepSeek Harness Web UI Quickstart (Official)](https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart) · [DeepSeek Harness README (Official)](https://github.com/deepseek-ai/deepseek-harness) · [Your First Plugin (Official)](https://deepseek-harness.github.io/deepseek-harness/en/develop/basic/)
+- **[Kiro 最佳实践](docs/guides.zh.md#kiro-最佳实践)**：[Kiro Installation (Official)](https://kiro.dev/docs/getting-started/installation/) · [Your First Project (Official)](https://kiro.dev/docs/getting-started/first-project/) · [Kiro Steering (Official)](https://kiro.dev/docs/steering/) · [全部 5 篇](docs/guides.zh.md#kiro-最佳实践)
+- **[Cline 最佳实践](docs/guides.zh.md#cline-最佳实践)**：[Installing Cline (Official)](https://docs.cline.bot/getting-started/installing-cline) · [Using Cline in the IDE (Official)](https://docs.cline.bot/usage/ide) · [Cline Skills (Official)](https://docs.cline.bot/customization/skills) · [全部 4 篇](docs/guides.zh.md#cline-最佳实践)
+- **[Pi 最佳实践](docs/guides.zh.md#pi-最佳实践)**：[Pi Quickstart (Official)](https://docs.pi.dev/latest/quickstart) · [Agent Skills (Official)](https://docs.pi.dev/latest/skills) · [MCP Servers (Official)](https://docs.pi.dev/latest/mcp) · [全部 4 篇](docs/guides.zh.md#pi-最佳实践)
 
 ## 按场景目录
 

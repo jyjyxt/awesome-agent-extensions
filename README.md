@@ -18,7 +18,7 @@ Browse [all plugins (370)](docs/plugins.md), install one with `/plugin install <
 
 ## Quick Views
 
-- [Plugins (370)](docs/plugins.md) · [Skills (1039)](docs/skills.md) · [MCP & Connectors (138)](docs/mcp.md) · [Subagents (65)](docs/subagents.md) · [Extension Tooling (135)](docs/tools.md) · [Browse by Agent](docs/by-agent.md) · [Best Practices (38)](docs/guides.md)
+- [Plugins (370)](docs/plugins.md) · [Skills (1039)](docs/skills.md) · [MCP & Connectors (138)](docs/mcp.md) · [Subagents (65)](docs/subagents.md) · [Extension Tooling (135)](docs/tools.md) · [Browse by Agent](docs/by-agent.md) · [Best Practices (51)](docs/guides.md)
 
 <details>
 <summary>Quick Install Cheatsheet</summary>
@@ -31,7 +31,7 @@ Browse [all plugins (370)](docs/plugins.md), install one with `/plugin install <
 
 ## Supported Agents
 
-[Universal](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
+[Universal](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) · [Kiro](https://kiro.dev) · [Cline](https://cline.bot) · [Pi](https://pi.dev)
 
 ### 🛡️ Automated Security Scoring by NVIDIA/SkillSpector (0–100)
 
@@ -53,6 +53,9 @@ Every scannable **Skill, Plugin, MCP server, and Subagent** across these support
 - **[Best Practices for GitHub Copilot](docs/guides.md#best-practices-for-github-copilot)**: [Quickstart for Using GitHub Copilot in Your IDE (GitHub Official)](https://docs.github.com/en/copilot/get-started/quickstart-for-using-github-copilot-in-your-ide) · [Best Practices for Using GitHub Copilot (GitHub Official)](https://docs.github.com/en/copilot/get-started/best-practices) · [Get Started with Copilot Agents on GitHub (GitHub Official)](https://docs.github.com/en/copilot/how-tos/copilot-on-github/use-copilot-agents/overview) · [all 4](docs/guides.md#best-practices-for-github-copilot)
 - **[Best Practices for Windsurf](docs/guides.md#best-practices-for-windsurf)**: [Devin Desktop Getting Started (Official)](https://docs.devin.ai/desktop/getting-started) · [Devin Desktop FAQ (Official)](https://docs.devin.ai/desktop/devin-desktop-faq) · [Devin Local Overview (Official)](https://docs.devin.ai/desktop/devin-local/overview) · [all 4](docs/guides.md#best-practices-for-windsurf)
 - **[Best Practices for DeepSeek Harness](docs/guides.md#best-practices-for-deepseek-harness)**: [DeepSeek Harness Web UI Quickstart (Official)](https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart) · [DeepSeek Harness README (Official)](https://github.com/deepseek-ai/deepseek-harness) · [Your First Plugin (Official)](https://deepseek-harness.github.io/deepseek-harness/en/develop/basic/)
+- **[Best Practices for Kiro](docs/guides.md#best-practices-for-kiro)**: [Kiro Installation (Official)](https://kiro.dev/docs/getting-started/installation/) · [Your First Project (Official)](https://kiro.dev/docs/getting-started/first-project/) · [Kiro Steering (Official)](https://kiro.dev/docs/steering/) · [all 5](docs/guides.md#best-practices-for-kiro)
+- **[Best Practices for Cline](docs/guides.md#best-practices-for-cline)**: [Installing Cline (Official)](https://docs.cline.bot/getting-started/installing-cline) · [Using Cline in the IDE (Official)](https://docs.cline.bot/usage/ide) · [Cline Skills (Official)](https://docs.cline.bot/customization/skills) · [all 4](docs/guides.md#best-practices-for-cline)
+- **[Best Practices for Pi](docs/guides.md#best-practices-for-pi)**: [Pi Quickstart (Official)](https://docs.pi.dev/latest/quickstart) · [Agent Skills (Official)](https://docs.pi.dev/latest/skills) · [MCP Servers (Official)](https://docs.pi.dev/latest/mcp) · [all 4](docs/guides.md#best-practices-for-pi)
 
 ## Categories
 

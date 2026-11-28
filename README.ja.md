@@ -18,7 +18,7 @@ Claude Code プラグインは、Skills、スラッシュコマンド、Subagent
 
 ## クイックビュー
 
-- [プラグイン (370)](docs/plugins.md) · [Skills (1039)](docs/skills.md) · [MCP・Connector (138)](docs/mcp.md) · [Subagent (65)](docs/subagents.md) · [拡張ツール (135)](docs/tools.md) · [Agent 別に見る](docs/by-agent.md) · [ベストプラクティス (38)](docs/guides.md)
+- [プラグイン (370)](docs/plugins.md) · [Skills (1039)](docs/skills.md) · [MCP・Connector (138)](docs/mcp.md) · [Subagent (65)](docs/subagents.md) · [拡張ツール (135)](docs/tools.md) · [Agent 別に見る](docs/by-agent.md) · [ベストプラクティス (51)](docs/guides.md)
 
 <details>
 <summary>クイックインストール</summary>
@@ -31,7 +31,7 @@ Claude Code プラグインは、Skills、スラッシュコマンド、Subagent
 
 ## 対応 Agent
 
-[Universal](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
+[Universal](https://agentskills.io) · [Claude Code](https://docs.anthropic.com/en/docs/claude-code) · [Codex](https://github.com/openai/codex) · [Cursor](https://cursor.com) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [OpenCode](https://opencode.ai) · [Antigravity](https://antigravity.google) · [GitHub Copilot](https://github.com/features/copilot) · [Windsurf](https://windsurf.com) · [DeepSeek Harness](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) · [Kiro](https://kiro.dev) · [Cline](https://cline.bot) · [Pi](https://pi.dev)
 
 ### 🛡️ NVIDIA/SkillSpector による自動セキュリティスコア（0〜100）
 
@@ -53,6 +53,9 @@ Claude Code プラグインは、Skills、スラッシュコマンド、Subagent
 - **[Best Practices for GitHub Copilot](docs/guides.md#best-practices-for-github-copilot)**: [Quickstart for Using GitHub Copilot in Your IDE (GitHub Official)](https://docs.github.com/en/copilot/get-started/quickstart-for-using-github-copilot-in-your-ide) · [Best Practices for Using GitHub Copilot (GitHub Official)](https://docs.github.com/en/copilot/get-started/best-practices) · [Get Started with Copilot Agents on GitHub (GitHub Official)](https://docs.github.com/en/copilot/how-tos/copilot-on-github/use-copilot-agents/overview) · [すべて見る (4)](docs/guides.md#best-practices-for-github-copilot)
 - **[Best Practices for Windsurf](docs/guides.md#best-practices-for-windsurf)**: [Devin Desktop Getting Started (Official)](https://docs.devin.ai/desktop/getting-started) · [Devin Desktop FAQ (Official)](https://docs.devin.ai/desktop/devin-desktop-faq) · [Devin Local Overview (Official)](https://docs.devin.ai/desktop/devin-local/overview) · [すべて見る (4)](docs/guides.md#best-practices-for-windsurf)
 - **[Best Practices for DeepSeek Harness](docs/guides.md#best-practices-for-deepseek-harness)**: [DeepSeek Harness Web UI Quickstart (Official)](https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart) · [DeepSeek Harness README (Official)](https://github.com/deepseek-ai/deepseek-harness) · [Your First Plugin (Official)](https://deepseek-harness.github.io/deepseek-harness/en/develop/basic/)
+- **[Best Practices for Kiro](docs/guides.md#best-practices-for-kiro)**: [Kiro Installation (Official)](https://kiro.dev/docs/getting-started/installation/) · [Your First Project (Official)](https://kiro.dev/docs/getting-started/first-project/) · [Kiro Steering (Official)](https://kiro.dev/docs/steering/) · [すべて見る (5)](docs/guides.md#best-practices-for-kiro)
+- **[Best Practices for Cline](docs/guides.md#best-practices-for-cline)**: [Installing Cline (Official)](https://docs.cline.bot/getting-started/installing-cline) · [Using Cline in the IDE (Official)](https://docs.cline.bot/usage/ide) · [Cline Skills (Official)](https://docs.cline.bot/customization/skills) · [すべて見る (4)](docs/guides.md#best-practices-for-cline)
+- **[Best Practices for Pi](docs/guides.md#best-practices-for-pi)**: [Pi Quickstart (Official)](https://docs.pi.dev/latest/quickstart) · [Agent Skills (Official)](https://docs.pi.dev/latest/skills) · [MCP Servers (Official)](https://docs.pi.dev/latest/mcp) · [すべて見る (4)](docs/guides.md#best-practices-for-pi)
 
 ## カテゴリ
 
